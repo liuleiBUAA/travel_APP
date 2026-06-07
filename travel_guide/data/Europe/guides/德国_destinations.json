@@ -1,0 +1,296 @@
+{
+  "慕尼黑": {
+    "full_title": "慕尼黑",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "玛利亚广场、宝马博物馆",
+        "transport": "🚶 步行",
+        "stay": "慕尼黑"
+      },
+      {
+        "day": "Day 2",
+        "activity": "新天鹅堡一日游",
+        "transport": "🚗 自驾1.5h",
+        "stay": "慕尼黑"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.7
+    }
+  },
+  "柏林": {
+    "full_title": "柏林",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "勃兰登堡门、柏林墙",
+        "transport": "🚶 步行",
+        "stay": "柏林"
+      },
+      {
+        "day": "Day 2",
+        "activity": "博物馆岛、国会大厦",
+        "transport": "🚶 步行",
+        "stay": "柏林"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "法兰克福": {
+    "full_title": "法兰克福",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "罗马广场、美茵河畔",
+        "transport": "🚶 步行",
+        "stay": "法兰克福"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "国王湖": {
+    "full_title": "国王湖",
+    "best_season": "5-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "国王湖、魔法森林",
+        "transport": "🚗 自驾",
+        "stay": "贝希特斯加登"
+      },
+      {
+        "day": "Day 2",
+        "activity": "鹰巢、返回",
+        "transport": "🚗 自驾",
+        "stay": "-",
+        "options": [
+          {
+            "label": "去萨尔茨堡",
+            "to": [
+              "萨尔茨堡",
+              "奥地利湖区"
+            ],
+            "stay": "萨尔茨堡",
+            "drive": 0.5,
+            "detail": "30min，顺路必去",
+            "type": "continue"
+          },
+          {
+            "label": "回慕尼黑（飞下一站）",
+            "to": [
+              "慕尼黑"
+            ],
+            "stay": "慕尼黑",
+            "drive": 1.5,
+            "detail": "适合下一站需要从慕尼黑飞的情况",
+            "type": "return_hub"
+          },
+          {
+            "label": "去多洛米蒂",
+            "to": [
+              "多洛米蒂",
+              "奥蒂塞伊",
+              "波尔扎诺"
+            ],
+            "stay": "波尔扎诺/奥蒂塞伊",
+            "drive": 2.12,
+            "detail": "从贝希特斯加登出发，约2h",
+            "type": "continue"
+          }
+        ]
+      }
+    ],
+    "tags": {
+      "自然风光": 0.7
+    },
+    "hub_city": "慕尼黑"
+  },
+  "黑森林": {
+    "full_title": "黑森林",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "特里贝格瀑布、黑森林公路",
+        "transport": "🚗 自驾",
+        "stay": "黑森林"
+      },
+      {
+        "day": "Day 2",
+        "activity": "博登湖、返回",
+        "transport": "🚗 自驾",
+        "stay": "-",
+        "options": [
+          {
+            "label": "回法兰克福（飞下一站）",
+            "to": [
+              "法兰克福"
+            ],
+            "stay": "法兰克福",
+            "drive": 2.75,
+            "train": 2.98,
+            "detail": "适合下一站需要从法兰克福飞的情况",
+            "type": "return_hub"
+          },
+          {
+            "label": "去苏黎世",
+            "to": [
+              "苏黎世"
+            ],
+            "stay": "苏黎世",
+            "train": 3.87,
+            "detail": "火车直达，适合继续玩瑞士",
+            "type": "continue"
+          },
+          {
+            "label": "去慕尼黑",
+            "to": [
+              "慕尼黑"
+            ],
+            "stay": "慕尼黑",
+            "drive": 4.03,
+            "train": 4.95,
+            "detail": "适合继续玩巴伐利亚",
+            "type": "continue"
+          }
+        ]
+      }
+    ],
+    "tags": {
+      "自然风光": 0.8
+    }
+  },
+  "海德堡": {
+    "full_title": "海德堡",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "海德堡城堡、老桥",
+        "transport": "🚶 步行",
+        "stay": "海德堡"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "罗腾堡": {
+    "full_title": "罗腾堡",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "中世纪古城墙、市政厅广场、步云莱",
+        "transport": "🚶 步行",
+        "stay": "罗腾堡"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.8,
+      "小镇村落": 0.8
+    }
+  },
+  "德累斯顿": {
+    "full_title": "德累斯顿",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "圣母教堂、茨温格宫、森帕歌剧院",
+        "transport": "🚶 步行",
+        "stay": "德累斯顿"
+      },
+      {
+        "day": "Day 2",
+        "activity": "易北河畔、德累斯顿王宫",
+        "transport": "🚶 步行",
+        "stay": "德累斯顿"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.8
+    }
+  },
+  "汉堡": {
+    "full_title": "汉堡",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "汉堡港、微缩景观世界",
+        "transport": "🚶 步行",
+        "stay": "汉堡"
+      },
+      {
+        "day": "Day 2",
+        "activity": "仓库城、易北音乐厅",
+        "transport": "🚶 步行",
+        "stay": "汉堡"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6,
+      "现代都市": 0.7
+    }
+  },
+  "科隆": {
+    "full_title": "科隆",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "科隆大教堂、霍亨索伦桥",
+        "transport": "🚶 步行",
+        "stay": "科隆"
+      },
+      {
+        "day": "Day 2",
+        "activity": "老城、莱茵河游船",
+        "transport": "🚶 步行",
+        "stay": "科隆"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.8
+    }
+  },
+  "杜塞尔多夫": {
+    "full_title": "杜塞尔多夫",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "国王大道、莱茵塔、媒体港",
+        "transport": "🚶 步行",
+        "stay": "杜塞尔多夫"
+      }
+    ],
+    "tags": {
+      "现代都市": 0.7
+    }
+  },
+  "斯图加特": {
+    "full_title": "斯图加特",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "奔驰博物馆、保时捷博物馆",
+        "transport": "🚶 步行",
+        "stay": "斯图加特"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  }
+}

@@ -1,0 +1,132 @@
+page {
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  font-size: 28rpx;
+}
+
+.container {
+  padding: 20rpx 30rpx;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+  box-shadow: 0 4rpx 20rpx rgba(0,0,0,0.08);
+}
+
+.card-title {
+  color: #667eea;
+  font-size: 36rpx;
+  font-weight: 600;
+  margin-bottom: 30rpx;
+}
+
+.form-label {
+  font-size: 28rpx;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 12rpx;
+}
+
+.form-input {
+  width: 100%;
+  height: 88rpx;
+  line-height: 88rpx;
+  padding: 0 20rpx;
+  border: 2rpx solid #e0e0e0;
+  border-radius: 12rpx;
+  font-size: 30rpx;
+  color: #333;
+  background: #fafafa;
+  box-sizing: border-box;
+}
+
+.form-group {
+  margin-bottom: 28rpx;
+}
+
+.btn-primary {
+  width: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  border: none;
+  border-radius: 12rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+  padding: 22rpx 0;
+  text-align: center;
+}
+
+.btn-success {
+  width: 100%;
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  color: #fff;
+  border: none;
+  border-radius: 12rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+  padding: 22rpx 0;
+}
+
+.btn-secondary {
+  width: 100%;
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: #fff;
+  border: none;
+  border-radius: 12rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+  padding: 22rpx 0;
+}
+
+.tag {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  padding: 8rpx 20rpx;
+  border-radius: 24rpx;
+  font-size: 24rpx;
+  margin: 6rpx;
+}
+
+.tag-remove {
+  margin-left: 8rpx;
+  font-weight: bold;
+}
+
+.tags-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 60rpx;
+  padding: 10rpx;
+  border: 2rpx dashed #e0e0e0;
+  border-radius: 12rpx;
+}
+
+.msg-success {
+  background: #efe;
+  color: #3a3;
+  padding: 20rpx;
+  border-radius: 12rpx;
+  font-size: 26rpx;
+  margin-top: 16rpx;
+}
+
+.msg-error {
+  background: #fee;
+  color: #c33;
+  padding: 20rpx;
+  border-radius: 12rpx;
+  font-size: 26rpx;
+  margin-top: 16rpx;
+}
+
+.loading-text {
+  text-align: center;
+  color: #667eea;
+  padding: 30rpx;
+  font-size: 28rpx;
+}

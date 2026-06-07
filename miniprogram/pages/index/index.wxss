@@ -1,0 +1,228 @@
+.region-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16rpx;
+}
+
+.region-btn {
+  flex: 1;
+  min-width: 140rpx;
+  padding: 16rpx;
+  background: #fff;
+  border: 2rpx solid #e0e0e0;
+  border-radius: 12rpx;
+  text-align: center;
+  font-size: 26rpx;
+  font-weight: 500;
+}
+
+.region-btn.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  border-color: #667eea;
+}
+
+.country-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12rpx;
+}
+
+.country-btn {
+  padding: 14rpx 24rpx;
+  background: #fff;
+  border: 2rpx solid #e0e0e0;
+  border-radius: 10rpx;
+  font-size: 26rpx;
+  font-weight: 500;
+}
+
+.country-btn.active {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: #fff;
+  border-color: #f093fb;
+}
+
+.city-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12rpx;
+}
+
+.city-item {
+  width: calc(33% - 8rpx);
+  padding: 16rpx 10rpx;
+  background: #f5f5ff;
+  border: 1rpx solid #e0e0e0;
+  border-radius: 10rpx;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.city-item.selected {
+  background: #667eea;
+  color: #fff;
+}
+
+.city-item.selected .city-info {
+  color: rgba(255,255,255,0.8);
+}
+
+.city-name {
+  font-size: 26rpx;
+  font-weight: 500;
+}
+
+.city-info {
+  font-size: 20rpx;
+  color: #999;
+  margin-top: 4rpx;
+}
+
+.hint-text {
+  color: #999;
+  font-size: 24rpx;
+  padding: 16rpx;
+  width: 100%;
+}
+
+.search-results {
+  border: 1rpx solid #e0e0e0;
+  border-top: none;
+  border-radius: 0 0 12rpx 12rpx;
+  max-height: 300rpx;
+  overflow-y: auto;
+  background: #fff;
+}
+
+.search-item {
+  padding: 16rpx 20rpx;
+  border-bottom: 1rpx solid #f0f0f0;
+  font-size: 26rpx;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16rpx;
+  padding: 16rpx;
+  border: 2rpx solid #e0e0e0;
+  border-radius: 12rpx;
+}
+
+.checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 8rpx;
+  font-size: 26rpx;
+}
+
+.clear-btn {
+  color: #f5576c;
+  font-size: 24rpx;
+}
+
+.user-card {
+  padding: 20rpx 30rpx;
+}
+
+.user-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-name {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #333;
+}
+
+.edit-btn {
+  color: #667eea;
+  font-size: 24rpx;
+}
+
+.edit-row {
+  display: flex;
+  align-items: center;
+  gap: 12rpx;
+  margin-top: 16rpx;
+}
+
+.save-btn {
+  color: #667eea;
+  font-size: 26rpx;
+  font-weight: 500;
+}
+
+.cancel-btn {
+  color: #999;
+  font-size: 26rpx;
+}
+
+/* 输入模式切换 */
+.mode-list {
+  display: flex;
+  gap: 16rpx;
+}
+
+.mode-btn {
+  flex: 1;
+  padding: 16rpx;
+  background: #fff;
+  border: 2rpx solid #e0e0e0;
+  border-radius: 12rpx;
+  text-align: center;
+  font-size: 26rpx;
+  font-weight: 500;
+}
+
+.mode-btn.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #fff;
+  border-color: #667eea;
+}
+
+/* 手动输入模式 */
+.form-textarea {
+  width: 100%;
+  padding: 16rpx;
+  background: #f8f8f8;
+  border: 2rpx solid #e0e0e0;
+  border-radius: 12rpx;
+  font-size: 26rpx;
+  resize: vertical;
+}
+
+.picker-input {
+  background: #f8f8f8;
+  padding: 16rpx;
+  border-radius: 12rpx;
+  font-size: 26rpx;
+}
+
+.manual-preview {
+  margin-top: 24rpx;
+  padding: 20rpx;
+  background: #f0f4ff;
+  border-radius: 12rpx;
+  border-left: 6rpx solid #667eea;
+}
+
+.preview-title {
+  font-size: 24rpx;
+  color: #666;
+  margin-bottom: 8rpx;
+}
+
+.preview-content {
+  font-size: 28rpx;
+  color: #333;
+  font-weight: 500;
+}

@@ -1,0 +1,231 @@
+{
+  "region": "Oceania",
+  "month": 10,
+  "total_days": 9,
+  "target_days": 10,
+  "candidates": [
+    {
+      "name": "黄金海岸",
+      "days": 4,
+      "tag_score": 1.0,
+      "season_score": 0.3,
+      "total_score": 1.3,
+      "matched_tags": {
+        "海岛海滨": 1.0
+      },
+      "best_season": "4-11月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        -28.02,
+        153.43
+      ]
+    },
+    {
+      "name": "凯恩斯",
+      "days": 2,
+      "tag_score": 1.0,
+      "season_score": 0.3,
+      "total_score": 1.3,
+      "matched_tags": {
+        "海岛海滨": 1.0
+      },
+      "best_season": "5-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        -16.92,
+        145.77
+      ]
+    },
+    {
+      "name": "艾尔利海滩",
+      "days": 4,
+      "tag_score": 1.0,
+      "season_score": 0.1,
+      "total_score": 1.1,
+      "matched_tags": {
+        "海岛海滨": 1.0
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        -20.27,
+        148.72
+      ]
+    },
+    {
+      "name": "汉密尔顿岛",
+      "days": 4,
+      "tag_score": 1.0,
+      "season_score": 0.1,
+      "total_score": 1.1,
+      "matched_tags": {
+        "海岛海滨": 1.0
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        -20.35,
+        148.95
+      ]
+    },
+    {
+      "name": "大洋路",
+      "days": 3,
+      "tag_score": 0.8,
+      "season_score": 0.1,
+      "total_score": 0.9,
+      "matched_tags": {
+        "海岛海滨": 0.8
+      },
+      "best_season": "全年",
+      "loop_type": "loop",
+      "hub_city": "墨尔本",
+      "coordinates": [
+        -37.81,
+        144.96
+      ]
+    },
+    {
+      "name": "乌鲁鲁",
+      "days": 4,
+      "tag_score": 0.6,
+      "season_score": 0.3,
+      "total_score": 0.9,
+      "matched_tags": {
+        "人文历史": 0.6
+      },
+      "best_season": "4-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        -25.34,
+        131.04
+      ]
+    },
+    {
+      "name": "悉尼",
+      "days": 3,
+      "tag_score": 0.7,
+      "season_score": 0.1,
+      "total_score": 0.8,
+      "matched_tags": {
+        "海岛海滨": 0.7
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        -33.87,
+        151.21
+      ]
+    },
+    {
+      "name": "布里斯班",
+      "days": 2,
+      "tag_score": 0.7,
+      "season_score": 0.1,
+      "total_score": 0.8,
+      "matched_tags": {
+        "海岛海滨": 0.7
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        -27.47,
+        153.03
+      ]
+    },
+    {
+      "name": "堪培拉",
+      "days": 1,
+      "tag_score": 0.7,
+      "season_score": 0.1,
+      "total_score": 0.8,
+      "matched_tags": {
+        "人文历史": 0.7
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        -35.28,
+        149.13
+      ]
+    },
+    {
+      "name": "墨尔本",
+      "days": 3,
+      "tag_score": 0.6,
+      "season_score": 0.1,
+      "total_score": 0.7,
+      "matched_tags": {
+        "人文历史": 0.6
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        -37.81,
+        144.96
+      ]
+    }
+  ],
+  "selected": [
+    {
+      "name": "黄金海岸",
+      "days": 4,
+      "tag_score": 1.0,
+      "season_score": 0.3,
+      "total_score": 1.3,
+      "matched_tags": {
+        "海岛海滨": 1.0
+      },
+      "best_season": "4-11月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        -28.02,
+        153.43
+      ]
+    },
+    {
+      "name": "悉尼",
+      "days": 3,
+      "tag_score": 0.7,
+      "season_score": 0.1,
+      "total_score": 0.8,
+      "matched_tags": {
+        "海岛海滨": 0.7
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        -33.87,
+        151.21
+      ]
+    },
+    {
+      "name": "布里斯班",
+      "days": 2,
+      "tag_score": 0.7,
+      "season_score": 0.1,
+      "total_score": 0.8,
+      "matched_tags": {
+        "海岛海滨": 0.7
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        -27.47,
+        153.03
+      ]
+    }
+  ]
+}

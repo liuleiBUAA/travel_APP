@@ -1,0 +1,45 @@
+{
+  "布拉格": {
+    "full_title": "布拉格",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "查理大桥、老城广场",
+        "transport": "🚶 步行",
+        "stay": "布拉格"
+      },
+      {
+        "day": "Day 2",
+        "activity": "布拉格城堡、圣维特大教堂",
+        "transport": "🚶 步行",
+        "stay": "布拉格"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.9
+    }
+  },
+  "布达佩斯": {
+    "full_title": "布达佩斯",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "国会大厦、链子桥",
+        "transport": "🚶 步行",
+        "stay": "布达佩斯"
+      },
+      {
+        "day": "Day 2",
+        "activity": "温泉浴场、城堡山",
+        "transport": "🚶 步行",
+        "stay": "布达佩斯"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6,
+      "自然风光": 0.7
+    }
+  }
+}

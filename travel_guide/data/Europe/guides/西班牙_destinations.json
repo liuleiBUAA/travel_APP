@@ -1,0 +1,174 @@
+{
+  "巴塞罗那": {
+    "full_title": "巴塞罗那",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "圣家堂、米拉之家",
+        "transport": "🚶 步行",
+        "stay": "巴塞罗那"
+      },
+      {
+        "day": "Day 2",
+        "activity": "巴特罗之家、哥特区",
+        "transport": "🚶 步行",
+        "stay": "巴塞罗那"
+      },
+      {
+        "day": "Day 3",
+        "activity": "奎尔公园、兰布拉大道",
+        "transport": "🚶 步行",
+        "stay": "巴塞罗那"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "马德里": {
+    "full_title": "马德里",
+    "best_season": "4-6月、9-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "马德里皇宫、普拉多美术馆",
+        "transport": "🚶 步行",
+        "stay": "马德里"
+      },
+      {
+        "day": "Day 2",
+        "activity": "托莱多一日游",
+        "transport": "🚗 自驾1h",
+        "stay": "马德里"
+      },
+      {
+        "day": "Day 3",
+        "activity": "塞戈维亚一日游",
+        "transport": "🚗 自驾1.5h",
+        "stay": "马德里"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.7
+    }
+  },
+  "塞维利亚": {
+    "full_title": "塞维利亚",
+    "best_season": "3-5月、9-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "塞维利亚王宫、西班牙广场",
+        "transport": "🚶 步行",
+        "stay": "塞维利亚"
+      },
+      {
+        "day": "Day 2",
+        "activity": "龙达一日游",
+        "transport": "🚗 自驾1.5h",
+        "stay": "塞维利亚"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "格拉纳达": {
+    "full_title": "格拉纳达",
+    "best_season": "4-6月、9-10月",
+    "tags": {
+      "人文历史": 0.9
+    },
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "阿尔罕布拉宫",
+        "transport": "🚶 步行",
+        "stay": "格拉纳达"
+      }
+    ]
+  },
+  "科尔多瓦": {
+    "full_title": "科尔多瓦",
+    "best_season": "3-5月、9-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "科尔多瓦大清真寺、百花巷",
+        "transport": "🚶 步行",
+        "stay": "科尔多瓦"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "马略卡岛": {
+    "full_title": "马略卡岛",
+    "best_season": "5-9月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "帕尔马：教堂、海滩",
+        "transport": "🚶 步行",
+        "stay": "帕尔马"
+      },
+      {
+        "day": "Day 2",
+        "activity": "北部山区：瓦尔德莫萨",
+        "transport": "🚗 自驾",
+        "stay": "帕尔马"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6,
+      "自然风光": 0.7,
+      "海岛海滨": 0.7
+    }
+  },
+  "特内里费岛": {
+    "full_title": "特内里费岛",
+    "best_season": "4-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "泰德峰：登山/观星、云海",
+        "transport": "🚗 自驾",
+        "stay": "特内里费岛"
+      },
+      {
+        "day": "Day 2",
+        "activity": "Siam水上乐园、观鲸",
+        "transport": "🚗 自驾",
+        "stay": "特内里费岛"
+      },
+      {
+        "day": "Day 3",
+        "activity": "南部海滩、黑沙滩",
+        "transport": "🚗 自驾",
+        "stay": "特内里费岛"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.8,
+      "海岛海滨": 1.0,
+      "亲子家庭": 0.9
+    }
+  },
+  "阿维拉": {
+    "full_title": "阿维拉",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "阿维拉古城墙、大教堂",
+        "transport": "🚶 步行",
+        "stay": "阿维拉"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.8
+    }
+  }
+}

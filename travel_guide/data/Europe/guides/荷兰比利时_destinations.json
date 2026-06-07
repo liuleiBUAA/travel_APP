@@ -1,0 +1,89 @@
+{
+  "阿姆斯特丹": {
+    "full_title": "阿姆斯特丹",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "国立博物馆、梵高博物馆",
+        "transport": "🚶 步行",
+        "stay": "阿姆斯特丹"
+      },
+      {
+        "day": "Day 2",
+        "activity": "梵高公园、水坝广场",
+        "transport": "🚶 步行",
+        "stay": "阿姆斯特丹"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.7
+    }
+  },
+  "库肯霍夫": {
+    "full_title": "库肯霍夫",
+    "best_season": "3-5月",
+    "tags": {
+      "自然风光": 0.9
+    },
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "库肯霍夫公园（3-5月郁金香）",
+        "transport": "🚗 自驾",
+        "stay": "丽丝"
+      }
+    ]
+  },
+  "羊角村": {
+    "full_title": "羊角村",
+    "best_season": "5-9月",
+    "tags": {
+      "小镇村落": 0.9
+    },
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "羊角村：自行车、运河",
+        "transport": "🚶 步行",
+        "stay": "羊角村"
+      }
+    ]
+  },
+  "布鲁塞尔": {
+    "full_title": "布鲁塞尔",
+    "best_season": "5-9月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "大广场、撒尿小童",
+        "transport": "🚶 步行",
+        "stay": "布鲁塞尔"
+      },
+      {
+        "day": "Day 2",
+        "activity": "原子球、返回",
+        "transport": "🚗 自驾",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "鹿特丹": {
+    "full_title": "鹿特丹",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "立体方块屋、鹿特丹港、现代建筑",
+        "transport": "🚶 步行",
+        "stay": "鹿特丹"
+      }
+    ],
+    "tags": {
+      "现代都市": 0.8
+    }
+  }
+}

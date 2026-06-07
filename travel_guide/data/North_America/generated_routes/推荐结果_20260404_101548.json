@@ -1,0 +1,205 @@
+{
+  "region": "North_America",
+  "month": 5,
+  "total_days": 9,
+  "target_days": 10,
+  "candidates": [
+    {
+      "name": "夏威夷",
+      "days": 9,
+      "tag_score": 2.7,
+      "season_score": 0.3,
+      "total_score": 3.0,
+      "matched_tags": {
+        "自然风光": 0.9,
+        "海岛海滨": 1.0,
+        "小镇村落": 0.8
+      },
+      "best_season": "4-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    },
+    {
+      "name": "1号公路",
+      "days": 4,
+      "tag_score": 2.2,
+      "season_score": 0.3,
+      "total_score": 2.5,
+      "matched_tags": {
+        "自然风光": 0.7,
+        "海岛海滨": 0.7,
+        "小镇村落": 0.8
+      },
+      "best_season": "5-10月",
+      "loop_type": "linear",
+      "hub_city": "旧金山",
+      "coordinates": [
+        37.7749,
+        -122.4194
+      ]
+    },
+    {
+      "name": "墨西哥",
+      "days": 6,
+      "tag_score": 2.5,
+      "season_score": -0.2,
+      "total_score": 2.3,
+      "matched_tags": {
+        "人文历史": 0.6,
+        "海岛海滨": 1.0,
+        "亲子家庭": 0.9
+      },
+      "best_season": "12-4月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    },
+    {
+      "name": "洛杉矶",
+      "days": 3,
+      "tag_score": 2.2,
+      "season_score": 0.1,
+      "total_score": 2.3,
+      "matched_tags": {
+        "人文历史": 0.6,
+        "海岛海滨": 0.7,
+        "亲子家庭": 0.9
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        34.0522,
+        -118.2437
+      ]
+    },
+    {
+      "name": "优胜美地国家公园",
+      "days": 4,
+      "tag_score": 1.8,
+      "season_score": 0.3,
+      "total_score": 2.1,
+      "matched_tags": {
+        "自然风光": 0.9,
+        "户外运动": 0.9
+      },
+      "best_season": "4-10月",
+      "loop_type": null,
+      "hub_city": "旧金山",
+      "coordinates": [
+        37.7749,
+        -122.4194
+      ]
+    },
+    {
+      "name": "波特兰",
+      "days": 3,
+      "tag_score": 1.9,
+      "season_score": 0.1,
+      "total_score": 2.0,
+      "matched_tags": {
+        "人文历史": 0.6,
+        "自然风光": 0.8,
+        "小镇村落": 0.5
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        45.5152,
+        -122.6784
+      ]
+    },
+    {
+      "name": "波多黎各",
+      "days": 3,
+      "tag_score": 2.1,
+      "season_score": -0.2,
+      "total_score": 1.9,
+      "matched_tags": {
+        "人文历史": 0.7,
+        "自然风光": 0.7,
+        "海岛海滨": 0.7
+      },
+      "best_season": "12-4月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    },
+    {
+      "name": "🔄 波士顿+阿卡迪亚环线",
+      "days": 4,
+      "tag_score": 1.6,
+      "season_score": 0.3,
+      "total_score": 1.9,
+      "matched_tags": {
+        "自然风光": 0.9,
+        "海岛海滨": 0.7
+      },
+      "best_season": "5-10月",
+      "loop_type": "loop",
+      "hub_city": "波士顿",
+      "coordinates": [
+        42.3601,
+        -71.0589
+      ]
+    },
+    {
+      "name": "丹佛",
+      "days": 2,
+      "tag_score": 1.8,
+      "season_score": 0.1,
+      "total_score": 1.9,
+      "matched_tags": {
+        "人文历史": 0.6,
+        "自然风光": 0.7,
+        "现代都市": 0.5
+      },
+      "best_season": "全年，夏季最佳",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        39.7392,
+        -104.9903
+      ]
+    },
+    {
+      "name": "华盛顿州“海山冰川”大环线",
+      "days": 7,
+      "tag_score": 2.1,
+      "season_score": -0.2,
+      "total_score": 1.9,
+      "matched_tags": {
+        "自然风光": 0.9,
+        "海岛海滨": 0.7,
+        "现代都市": 0.5
+      },
+      "best_season": "7-9月",
+      "loop_type": "loop",
+      "hub_city": "西雅图",
+      "coordinates": [
+        47.6062,
+        -122.3321
+      ]
+    }
+  ],
+  "selected": [
+    {
+      "name": "夏威夷",
+      "days": 9,
+      "tag_score": 2.7,
+      "season_score": 0.3,
+      "total_score": 3.0,
+      "matched_tags": {
+        "自然风光": 0.9,
+        "海岛海滨": 1.0,
+        "小镇村落": 0.8
+      },
+      "best_season": "4-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    }
+  ]
+}

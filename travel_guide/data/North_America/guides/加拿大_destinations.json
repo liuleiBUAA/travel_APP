@@ -1,0 +1,161 @@
+{
+  "班夫国家公园": {
+    "full_title": "班夫国家公园",
+    "best_season": "6-9月",
+    "tags": {
+      "自然风光": 1.0,
+      "户外探险": 0.7
+    },
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "硫磺山缆车、惊奇角",
+        "transport": "🚗 自驾",
+        "stay": "班夫"
+      },
+      {
+        "day": "Day 2",
+        "activity": "路易斯湖、梦莲湖",
+        "transport": "🚗 自驾",
+        "stay": "班夫"
+      }
+    ]
+  },
+  "贾斯珀国家公园": {
+    "full_title": "贾斯珀国家公园",
+    "best_season": "6-9月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "玛琳湖、玛琳峡谷",
+        "transport": "🚗 自驾",
+        "stay": "贾斯珀"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.7
+    }
+  },
+  "温哥华": {
+    "full_title": "温哥华",
+    "best_season": "全年",
+    "tags": {
+      "现代都市": 0.7,
+      "自然风光": 0.8
+    },
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "斯坦利公园、卡皮拉诺吊桥",
+        "transport": "🚗 自驾",
+        "stay": "温哥华"
+      },
+      {
+        "day": "Day 2",
+        "activity": "格兰维尔岛、煤气镇",
+        "transport": "🚶 步行",
+        "stay": "温哥华"
+      }
+    ]
+  },
+  "多伦多": {
+    "full_title": "多伦多",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "CN塔、皇家安大略博物馆",
+        "transport": "🚶 步行",
+        "stay": "多伦多"
+      },
+      {
+        "day": "Day 2",
+        "activity": "卡萨罗马城堡、唐人街",
+        "transport": "🚶 步行",
+        "stay": "多伦多"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.7
+    }
+  },
+  "尼亚加拉瀑布": {
+    "full_title": "尼亚加拉瀑布",
+    "best_season": "5-9月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "尼亚加拉瀑布游船、瀑布夜景",
+        "transport": "🚗 自驾2h",
+        "stay": "瀑布城"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.7,
+      "现代都市": 0.5
+    }
+  },
+  "黄刀镇": {
+    "full_title": "黄刀镇",
+    "best_season": "8-9月或11-3月",
+    "tags": {
+      "自然风光": 0.9,
+      "户外探险": 0.6
+    },
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "极光观测、大奴湖",
+        "transport": "✈️ 飞机",
+        "stay": "黄刀镇"
+      }
+    ]
+  },
+  "班夫+贾斯珀\"梦幻冰原\"环线": {
+    "full_title": "班夫+贾斯珀\"梦幻冰原\"环线",
+    "best_season": "6-9月",
+    "loop_type": "loop",
+    "hub_city": "卡尔加里",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "卡尔加里→班夫镇，硫磺山缆车、惊奇角",
+        "transport": "🚗 自驾1.5h",
+        "stay": "班夫"
+      },
+      {
+        "day": "Day 2",
+        "activity": "班夫：梦莲湖、露易丝湖（划船/徒步）",
+        "transport": "🚗 自驾",
+        "stay": "露易丝湖村/班夫"
+      },
+      {
+        "day": "Day 3",
+        "activity": "冰原大道：弓湖、佩托湖→贾斯珀",
+        "transport": "🚗 自驾3.5h",
+        "stay": "贾斯珀"
+      },
+      {
+        "day": "Day 4",
+        "activity": "贾斯珀：玛琳湖、玛琳峡谷",
+        "transport": "🚗 自驾",
+        "stay": "贾斯珀"
+      },
+      {
+        "day": "Day 5",
+        "activity": "冰原大道：哥伦比亚冰原天空步道、阿萨巴斯卡瀑布",
+        "transport": "🚗 自驾",
+        "stay": "冰原沿线/班夫"
+      },
+      {
+        "day": "Day 6",
+        "activity": "返回卡尔加里，结束环线",
+        "transport": "🚗 自驾",
+        "stay": "卡尔加里"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.9
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "迪拜": {
+    "full_title": "迪拜",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "哈利法塔、迪拜mall",
+        "transport": "🚶 步行",
+        "stay": "迪拜"
+      },
+      {
+        "day": "Day 2",
+        "activity": "沙漠冲沙、朱美拉海滩",
+        "transport": "🚗 自驾",
+        "stay": "迪拜"
+      }
+    ],
+    "tags": {
+      "现代都市": 0.9,
+      "海岛海滨": 0.6
+    }
+  },
+  "阿布扎比": {
+    "full_title": "阿布扎比",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "谢赫扎耶德大清真寺",
+        "transport": "🚗 自驾",
+        "stay": "阿布扎比"
+      },
+      {
+        "day": "Day 2",
+        "activity": "卢浮宫、返回迪拜",
+        "transport": "🚗 自驾",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.7,
+      "现代都市": 0.7
+    }
+  },
+  "开罗": {
+    "full_title": "开罗",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "金字塔、狮身人面像",
+        "transport": "🚗 自驾",
+        "stay": "开罗"
+      },
+      {
+        "day": "Day 2",
+        "activity": "埃及博物馆、哈利利市场",
+        "transport": "🚶 步行",
+        "stay": "开罗"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.9
+    }
+  },
+  "卢克索": {
+    "full_title": "卢克索",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "卢克索神庙、卡尔纳克神庙",
+        "transport": "🚶 步行",
+        "stay": "卢克索"
+      },
+      {
+        "day": "Day 2",
+        "activity": "帝王谷、王后谷",
+        "transport": "🚗 自驾",
+        "stay": "卢克索"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.9
+    }
+  },
+  "阿斯旺": {
+    "full_title": "阿斯旺",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "阿布辛贝神庙（需早起）",
+        "transport": "🚗 自驾4h",
+        "stay": "阿斯旺"
+      },
+      {
+        "day": "Day 2",
+        "activity": "菲莱神庙、努比亚村",
+        "transport": "🚗 自驾",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.9
+    }
+  },
+  "赫尔格达": {
+    "full_title": "赫尔格达",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "红海潜水、海滩度假",
+        "transport": "🚶 步行",
+        "stay": "赫尔格达"
+      },
+      {
+        "day": "Day 2",
+        "activity": "吉夫顿岛、浮潜",
+        "transport": "🚢 渡轮",
+        "stay": "赫尔格达"
+      }
+    ],
+    "tags": {
+      "海岛海滨": 0.9,
+      "户外探险": 0.7
+    }
+  }
+}

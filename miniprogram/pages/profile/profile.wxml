@@ -1,0 +1,109 @@
+<view class="container">
+  <!-- 未登录状态 -->
+  <view wx:if="{{!isLoggedIn}}" class="login-section">
+    <view class="avatar-placeholder">
+      <text class="avatar-icon">👤</text>
+    </view>
+    <text class="login-hint">登录后享受更多功能</text>
+
+    <view class="card">
+      <view wx:if="{{errorMsg}}" class="msg-error">{{errorMsg}}</view>
+      <button class="btn-wechat" bindtap="onPhoneLogin">
+        <text class="wechat-icon">💬</text> 微信一键登录
+      </button>
+    </view>
+  </view>
+
+  <!-- 完善资料弹窗 -->
+  <view wx:if="{{showProfileSetup}}" class="profile-setup-mask">
+    <view class="profile-setup-dialog">
+      <text class="setup-title">完善个人资料</text>
+      <text class="setup-hint">设置你的昵称和头像，让搭子更容易认识你</text>
+
+      <view class="setup-avatar-wrap">
+        <button class="setup-avatar-btn" open-type="chooseAvatar" bindchooseavatar="onChooseAvatar">
+          <image class="setup-avatar-img" src="{{tempAvatarUrl || '/images/default_avatar.png'}}" mode="aspectFill" />
+          <text class="setup-avatar-text">点击选择头像</text>
+        </button>
+      </view>
+
+      <view class="setup-nickname-wrap">
+        <input type="nickname" class="setup-nickname-input" placeholder="点击获取微信昵称" value="{{tempNickname}}" bindchange="onNicknameChange" />
+      </view>
+
+      <view class="setup-btns">
+        <button class="setup-btn-skip" bindtap="onSkipSetup">跳过</button>
+        <button class="setup-btn-confirm" bindtap="onConfirmSetup">确认</button>
+      </view>
+    </view>
+  </view>
+
+  <!-- 已登录状态 -->
+  <view wx:else class="profile-section">
+    <view class="profile-header">
+      <image class="avatar" src="{{userInfo.avatar_url || '/images/default_avatar.png'}}" mode="aspectFill" />
+      <view class="profile-info">
+        <text class="nickname">{{userInfo.nickname || userInfo.nickName || '旅行者'}}</text>
+        <text class="user-id">ID: {{userId || ''}}</text>
+      </view>
+    </view>
+
+    <view class="card menu-card">
+      <view class="menu-item" bindtap="onEditProfile">
+        <text class="menu-icon">✏️</text>
+        <text class="menu-text">编辑资料</text>
+        <text class="menu-arrow">›</text>
+      </view>
+      <view class="menu-item" bindtap="goMyTrips">
+        <text class="menu-icon">🗺️</text>
+        <text class="menu-text">我发布的行程</text>
+        <text class="menu-arrow">›</text>
+      </view>
+      <view class="menu-item" bindtap="goMyGuides">
+        <text class="menu-icon">📖</text>
+        <text class="menu-text">我的攻略</text>
+        <text class="menu-arrow">›</text>
+      </view>
+      <view class="menu-item" bindtap="goMyMatches">
+        <text class="menu-icon">🤝</text>
+        <text class="menu-text">我的搭子</text>
+        <text class="menu-arrow">›</text>
+      </view>
+      <view class="menu-item" bindtap="goSettings">
+        <text class="menu-icon">⚙️</text>
+        <text class="menu-text">设置</text>
+        <text class="menu-arrow">›</text>
+      </view>
+    </view>
+
+    <button class="btn-logout" bindtap="onLogout">退出登录</button>
+
+    <!-- 我发布的行程列表 -->
+    <view wx:if="{{isLoggedIn}}" class="card" style="margin-top: 20rpx;">
+      <view class="card-title">我发布的行程</view>
+
+      <view wx:if="{{myTripsLoading}}" class="loading-text">加载中...</view>
+      <view wx:elif="{{myTripsEmpty}}" class="hint-text">暂无发布的行程</view>
+
+      <view wx:for="{{myTrips}}" wx:key="companion_id" class="trip-card" bindtap="onTripDetail" data-trip="{{item}}">
+        <view class="trip-cities">
+          <text wx:for="{{item.route.cities}}" wx:for-item="city" wx:key="*this" class="city-badge">{{city}}</text>
+        </view>
+        <view class="trip-meta">
+          <text class="trip-date">{{item.travel_date || '待定'}}</text>
+          <text class="trip-sep">·</text>
+          <text class="trip-days">{{item.duration_days || 0}}天</text>
+          <text class="trip-sep">·</text>
+          <text class="trip-people">{{item.current_people || '未知'}}</text>
+        </view>
+        <view class="trip-tags">
+          <text class="trip-tag">{{item.transport_mode || '不限'}}</text>
+          <text class="trip-tag">{{item.accommodation || '不限'}}</text>
+          <text class="trip-tag">{{item.budget_level || '经济'}}</text>
+          <text class="trip-tag">{{item.good_at_photo || '不限'}}</text>
+        </view>
+        <view class="trip-created">发布于 {{item.created_at || '未知'}}</view>
+      </view>
+    </view>
+  </view>
+</view>

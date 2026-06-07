@@ -1,0 +1,116 @@
+{
+  "伊斯坦布尔": {
+    "full_title": "伊斯坦布尔",
+    "best_season": "4-6月、9-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "蓝色清真寺、圣索菲亚大教堂",
+        "transport": "🚶 步行",
+        "stay": "伊斯坦布尔"
+      },
+      {
+        "day": "Day 2",
+        "activity": "大巴扎、香料市场",
+        "transport": "🚶 步行",
+        "stay": "伊斯坦布尔"
+      },
+      {
+        "day": "Day 3",
+        "activity": "博斯普鲁斯海峡、返回",
+        "transport": "🚶 步行",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.8,
+      "现代都市": 0.5
+    }
+  },
+  "卡帕多奇亚": {
+    "full_title": "卡帕多奇亚",
+    "best_season": "4-6月、9-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "热气球（需早起）、格雷梅露天博物馆",
+        "transport": "🚶 步行",
+        "stay": "卡帕多奇亚"
+      },
+      {
+        "day": "Day 2",
+        "activity": "洞穴酒店、精灵烟囱",
+        "transport": "🚗 自驾",
+        "stay": "卡帕多奇亚"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "安塔利亚": {
+    "full_title": "安塔利亚",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "老城、哈德良门",
+        "transport": "🚶 步行",
+        "stay": "安塔利亚"
+      },
+      {
+        "day": "Day 2",
+        "activity": "卡莱伊奇：阿斯班多斯",
+        "transport": "🚗 自驾",
+        "stay": "安塔利亚"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "费特希耶": {
+    "full_title": "费特希耶",
+    "best_season": "5-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "滑翔伞、蝴蝶谷",
+        "transport": "🚗 自驾",
+        "stay": "费特希耶"
+      },
+      {
+        "day": "Day 2",
+        "activity": "厄吕代尼兹海滩、返回",
+        "transport": "-",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "海岛海滨": 0.7,
+      "户外探险": 0.6
+    }
+  },
+  "伊兹密尔": {
+    "full_title": "伊兹密尔",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "以弗所古城、塞尔丘克",
+        "transport": "🚗 自驾1h",
+        "stay": "伊兹密尔"
+      },
+      {
+        "day": "Day 2",
+        "activity": "科纳克广场、海滨长廊",
+        "transport": "🚶 步行",
+        "stay": "伊兹密尔"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.7,
+      "海岛海滨": 0.6
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "same_day_max_hours": 4.0,
+  "force_gateway_departure": true,
+  "force_order": false,
+  "options_display_mode": "compact",
+  "transport_preference": "auto",
+  "region": "Asia",
+  "destinations": [
+    "东京",
+    "大阪",
+    "北海道",
+    "京都"
+  ]
+}

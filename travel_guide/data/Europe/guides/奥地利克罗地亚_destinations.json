@@ -1,0 +1,175 @@
+{
+  "维也纳": {
+    "full_title": "维也纳",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "美泉宫、霍夫堡",
+        "transport": "🚶 步行",
+        "stay": "维也纳"
+      },
+      {
+        "day": "Day 2",
+        "activity": "斯蒂芬大教堂、纳许市场",
+        "transport": "🚶 步行",
+        "stay": "维也纳"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.7,
+      "现代都市": 0.5
+    }
+  },
+  "奥地利湖区": {
+    "full_title": "奥地利湖区小环线",
+    "best_season": "5-9月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "Bad Ischl → 戈绍湖、哈尔施塔特游览",
+        "stay": "Bad Ischl",
+        "transport": "🚗 自驾"
+      },
+      {
+        "day": "Day 2",
+        "activity": "Bad Ischl → 圣沃尔夫冈（1h自驾）→ 游船、小镇漫步 → 返回 Bad Ischl",
+        "stay": "Bad Ischl",
+        "transport": "🚗 自驾"
+      },
+      {
+        "day": "Day 3",
+        "activity": "Bad Ischl 查漏补缺，根据下一站选择出发方向",
+        "stay": "Bad Ischl",
+        "transport": "🚗 自驾",
+        "options": [
+          {
+            "label": "继续玩多洛米蒂",
+            "to": [
+              "多洛米蒂",
+              "奥蒂塞伊",
+              "波尔扎诺"
+            ],
+            "stay": "波尔扎诺/奥蒂塞伊",
+            "drive": 4.0,
+            "detail": "可选途经布拉耶斯湖打卡（+1.5h），建议早上出发",
+            "type": "continue"
+          },
+          {
+            "label": "回维也纳（飞下一站）",
+            "to": [
+              "维也纳"
+            ],
+            "stay": "维也纳",
+            "drive": 3.0,
+            "train": 2.5,
+            "detail": "适合下一站需要飞的情况",
+            "type": "return_hub"
+          },
+          {
+            "label": "去慕尼黑",
+            "to": [
+              "慕尼黑"
+            ],
+            "stay": "慕尼黑",
+            "drive": 2.0,
+            "detail": "适合继续玩德国或从慕尼黑飞走",
+            "type": "continue"
+          }
+        ]
+      }
+    ],
+    "tags": {
+      "小镇村落": 0.8,
+      "自然风光": 0.9
+    }
+  },
+  "杜布罗夫尼克": {
+    "full_title": "杜布罗夫尼克",
+    "best_season": "5-9月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "老城、城墙、皮瓦尔门",
+        "transport": "🚶 步行",
+        "stay": "杜布罗夫尼克"
+      },
+      {
+        "day": "Day 2",
+        "activity": "洛克鲁姆岛、返回",
+        "transport": "🚢 渡轮",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "十六湖": {
+    "full_title": "十六湖",
+    "best_season": "4-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "十六湖国家公园（上湖）",
+        "transport": "🚶 步行",
+        "stay": "十六湖"
+      },
+      {
+        "day": "Day 2",
+        "activity": "十六湖国家公园（下湖）、返回",
+        "transport": "🚶 步行",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.7
+    }
+  },
+  "斯普利特": {
+    "full_title": "斯普利特",
+    "best_season": "5-9月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "戴克里先宫、老城",
+        "transport": "🚶 步行",
+        "stay": "斯普利特"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "扎达尔": {
+    "full_title": "扎达尔",
+    "best_season": "5-9月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "海风琴、太阳敬礼、老城",
+        "transport": "🚶 步行",
+        "stay": "扎达尔"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6,
+      "海岛海滨": 0.6
+    }
+  },
+  "萨格勒布": {
+    "full_title": "萨格勒布",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "上城区、圣马可教堂、失恋博物馆",
+        "transport": "🚶 步行",
+        "stay": "萨格勒布"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  }
+}

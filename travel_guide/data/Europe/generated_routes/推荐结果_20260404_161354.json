@@ -1,0 +1,265 @@
+{
+  "region": "Europe",
+  "month": 5,
+  "total_days": 16,
+  "target_days": 7,
+  "candidates": [
+    {
+      "name": "格拉纳达",
+      "days": 1,
+      "tag_score": 0.9,
+      "season_score": 0.3,
+      "total_score": 1.2,
+      "matched_tags": {
+        "人文历史": 0.9
+      },
+      "best_season": "4-6月、9-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        37.18,
+        -3.6
+      ]
+    },
+    {
+      "name": "伊斯坦布尔",
+      "days": 3,
+      "tag_score": 0.8,
+      "season_score": 0.3,
+      "total_score": 1.1,
+      "matched_tags": {
+        "人文历史": 0.8
+      },
+      "best_season": "4-6月、9-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        41.01,
+        28.98
+      ]
+    },
+    {
+      "name": "西西里岛",
+      "days": 6,
+      "tag_score": 0.8,
+      "season_score": 0.3,
+      "total_score": 1.1,
+      "matched_tags": {
+        "人文历史": 0.8
+      },
+      "best_season": "5-9月",
+      "loop_type": "loop",
+      "hub_city": "巴勒莫",
+      "coordinates": [
+        38.11,
+        13.36
+      ]
+    },
+    {
+      "name": "伦敦",
+      "days": 4,
+      "tag_score": 0.9,
+      "season_score": 0.1,
+      "total_score": 1.0,
+      "matched_tags": {
+        "人文历史": 0.9
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        51.51,
+        -0.13
+      ]
+    },
+    {
+      "name": "里斯本",
+      "days": 2,
+      "tag_score": 0.7,
+      "season_score": 0.3,
+      "total_score": 1.0,
+      "matched_tags": {
+        "人文历史": 0.7
+      },
+      "best_season": "3-5月、9-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        38.72,
+        -9.14
+      ]
+    },
+    {
+      "name": "波尔图",
+      "days": 2,
+      "tag_score": 0.7,
+      "season_score": 0.3,
+      "total_score": 1.0,
+      "matched_tags": {
+        "人文历史": 0.7
+      },
+      "best_season": "3-5月、9-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        41.16,
+        -8.62
+      ]
+    },
+    {
+      "name": "罗德岛",
+      "days": 2,
+      "tag_score": 0.7,
+      "season_score": 0.3,
+      "total_score": 1.0,
+      "matched_tags": {
+        "人文历史": 0.7
+      },
+      "best_season": "5-9月",
+      "loop_type": null,
+      "hub_city": "雅典",
+      "coordinates": [
+        37.98,
+        23.73
+      ]
+    },
+    {
+      "name": "开罗",
+      "days": 2,
+      "tag_score": 0.9,
+      "season_score": 0.1,
+      "total_score": 1.0,
+      "matched_tags": {
+        "人文历史": 0.9
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        30.04,
+        31.24
+      ]
+    },
+    {
+      "name": "卢克索",
+      "days": 2,
+      "tag_score": 0.9,
+      "season_score": 0.1,
+      "total_score": 1.0,
+      "matched_tags": {
+        "人文历史": 0.9
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        25.69,
+        32.64
+      ]
+    },
+    {
+      "name": "阿斯旺",
+      "days": 2,
+      "tag_score": 0.9,
+      "season_score": 0.1,
+      "total_score": 1.0,
+      "matched_tags": {
+        "人文历史": 0.9
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        24.09,
+        32.9
+      ]
+    }
+  ],
+  "selected": [
+    {
+      "name": "格拉纳达",
+      "days": 1,
+      "tag_score": 0.9,
+      "season_score": 0.3,
+      "total_score": 1.2,
+      "matched_tags": {
+        "人文历史": 0.9
+      },
+      "best_season": "4-6月、9-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        37.18,
+        -3.6
+      ]
+    },
+    {
+      "name": "伊斯坦布尔",
+      "days": 3,
+      "tag_score": 0.8,
+      "season_score": 0.3,
+      "total_score": 1.1,
+      "matched_tags": {
+        "人文历史": 0.8
+      },
+      "best_season": "4-6月、9-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        41.01,
+        28.98
+      ]
+    },
+    {
+      "name": "西西里岛",
+      "days": 6,
+      "tag_score": 0.8,
+      "season_score": 0.3,
+      "total_score": 1.1,
+      "matched_tags": {
+        "人文历史": 0.8
+      },
+      "best_season": "5-9月",
+      "loop_type": "loop",
+      "hub_city": "巴勒莫",
+      "coordinates": [
+        38.11,
+        13.36
+      ]
+    },
+    {
+      "name": "伦敦",
+      "days": 4,
+      "tag_score": 0.9,
+      "season_score": 0.1,
+      "total_score": 1.0,
+      "matched_tags": {
+        "人文历史": 0.9
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        51.51,
+        -0.13
+      ]
+    },
+    {
+      "name": "里斯本",
+      "days": 2,
+      "tag_score": 0.7,
+      "season_score": 0.3,
+      "total_score": 1.0,
+      "matched_tags": {
+        "人文历史": 0.7
+      },
+      "best_season": "3-5月、9-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        38.72,
+        -9.14
+      ]
+    }
+  ]
+}

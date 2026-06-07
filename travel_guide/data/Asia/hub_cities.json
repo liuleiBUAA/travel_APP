@@ -1,0 +1,16 @@
+{
+  "说明": "亚洲国际门户城市配置 - 中国直飞城市",
+  "hubs": {
+    "东京": {"region": "日本", "direct_flight": true},
+    "大阪": {"region": "日本", "direct_flight": true},
+    "名古屋": {"region": "日本", "direct_flight": true},
+    "福冈": {"region": "日本", "direct_flight": true},
+    "札幌": {"region": "日本", "direct_flight": true},
+    "冲绳": {"region": "日本", "direct_flight": true},
+    "首尔": {"region": "韩国", "direct_flight": true},
+    "釜山": {"region": "韩国", "direct_flight": true},
+    "曼谷": {"region": "泰国", "direct_flight": true},
+    "新加坡": {"region": "新加坡", "direct_flight": true},
+    "吉隆坡": {"region": "马来西亚", "direct_flight": true}
+  }
+}

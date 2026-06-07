@@ -1,0 +1,245 @@
+{
+  "伦敦": {
+    "full_title": "伦敦",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "大英博物馆、特拉法加广场",
+        "transport": "🚶 步行",
+        "stay": "伦敦"
+      },
+      {
+        "day": "Day 2",
+        "activity": "白金汉宫、西敏寺、大本钟",
+        "transport": "🚶 步行",
+        "stay": "伦敦"
+      },
+      {
+        "day": "Day 3",
+        "activity": "伦敦塔、塔桥、泰晤士河",
+        "transport": "🚶 步行",
+        "stay": "伦敦"
+      },
+      {
+        "day": "Day 4",
+        "activity": "剑桥或牛津一日游",
+        "transport": "🚗 自驾1h",
+        "stay": "伦敦"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.9,
+      "现代都市": 0.7
+    }
+  },
+  "爱丁堡": {
+    "full_title": "爱丁堡",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "爱丁堡城堡、皇家一英里",
+        "transport": "🚶 步行",
+        "stay": "爱丁堡"
+      },
+      {
+        "day": "Day 2",
+        "activity": "卡尔顿山、亚瑟王座、荷里路德宫",
+        "transport": "🚶 步行",
+        "stay": "爱丁堡"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.8
+    }
+  },
+  "苏格兰高地": {
+    "full_title": "苏格兰高地",
+    "best_season": "5-9月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "爱丁堡→尼斯湖、厄克特城堡",
+        "transport": "🚗 自驾3.5h",
+        "stay": "因弗内斯"
+      },
+      {
+        "day": "Day 2",
+        "activity": "天空岛：仙女池、老人峰",
+        "transport": "🚗 自驾",
+        "stay": "天空岛"
+      },
+      {
+        "day": "Day 3",
+        "activity": "格伦科峡谷，返回爱丁堡",
+        "transport": "🚗 自驾",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.9
+    },
+    "hub_city": "伦敦"
+  },
+  "格拉斯哥": {
+    "full_title": "格拉斯哥",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "格拉斯哥大教堂、乔治广场",
+        "transport": "🚶 步行",
+        "stay": "格拉斯哥"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6,
+      "现代都市": 0.6
+    }
+  },
+  "曼彻斯特": {
+    "full_title": "曼彻斯特",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "老特拉福德球场、曼彻斯特博物馆",
+        "transport": "🚶 步行",
+        "stay": "曼彻斯特"
+      }
+    ],
+    "tags": {
+      "现代都市": 0.7
+    }
+  },
+  "利物浦": {
+    "full_title": "利物浦",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "披头士博物馆、阿尔伯特码头",
+        "transport": "🚶 步行",
+        "stay": "利物浦"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6,
+      "现代都市": 0.6
+    }
+  },
+  "牛津": {
+    "full_title": "牛津",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "牛津大学、基督教堂学院、博德利图书馆",
+        "transport": "🚶 步行",
+        "stay": "牛津"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.8
+    }
+  },
+  "剑桥": {
+    "full_title": "剑桥",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "剑桥大学、国王学院、康河撑篙",
+        "transport": "🚶 步行",
+        "stay": "剑桥"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.8
+    }
+  },
+  "巴斯": {
+    "full_title": "巴斯",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "罗马浴场、巴斯修道院、皇家新月楼",
+        "transport": "🚶 步行",
+        "stay": "巴斯"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.8
+    }
+  },
+  "约克": {
+    "full_title": "约克",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "约克大教堂、肉铺街、古城墙",
+        "transport": "🚶 步行",
+        "stay": "约克"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.8
+    }
+  },
+  "英国湖区": {
+    "full_title": "英国湖区",
+    "best_season": "5-9月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "温德米尔湖、波尼斯小镇",
+        "transport": "🚗 自驾",
+        "stay": "英国湖区"
+      },
+      {
+        "day": "Day 2",
+        "activity": "凯西克、德文特湖",
+        "transport": "🚗 自驾",
+        "stay": "英国湖区"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.8,
+      "小镇村落": 0.7
+    },
+    "hub_city": "伦敦"
+  },
+  "伯明翰": {
+    "full_title": "伯明翰",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "伯明翰博物馆、运河区",
+        "transport": "🚶 步行",
+        "stay": "伯明翰"
+      }
+    ],
+    "tags": {
+      "现代都市": 0.6
+    }
+  },
+  "布里斯托": {
+    "full_title": "布里斯托",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "克利夫顿吊桥、港口区",
+        "transport": "🚶 步行",
+        "stay": "布里斯托"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "东京->大阪": {
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true,
+    "drive_time_hours": 6.5,
+    "train_time_hours": 2.5
+  },
+  "东京->冲绳": {
+    "flight_time_hours": 2.58,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "东京->京都": {
+    "drive_time_hours": 6.0,
+    "train_time_hours": 2.2,
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "大阪->京都": {
+    "drive_time_hours": 0.75,
+    "train_time_hours": 0.25
+  },
+  "大阪->东京": {
+    "train_time_hours": 2.5,
+    "drive_time_hours": 6.5
+  },
+  "京都->东京": {
+    "train_time_hours": 2.2,
+    "drive_time_hours": 6.0
+  },
+  "京都->大阪": {
+    "train_time_hours": 0.25,
+    "drive_time_hours": 0.75
+  },
+  "大阪->奈良": {
+    "train_time_hours": 0.75,
+    "drive_time_hours": 0.67
+  },
+  "奈良->大阪": {
+    "train_time_hours": 0.75,
+    "drive_time_hours": 0.67
+  },
+  "京都->奈良": {
+    "train_time_hours": 0.75,
+    "drive_time_hours": 0.75
+  },
+  "奈良->京都": {
+    "train_time_hours": 0.75,
+    "drive_time_hours": 0.75
+  },
+  "东京->北海道": {
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "大阪->北海道": {
+    "flight_time_hours": 1.75,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "大阪->冲绳": {
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "东京->石垣岛": {
+    "flight_time_hours": 3.08,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "冲绳->石垣岛": {
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 13,
+    "is_nonstop": true
+  },
+  "北海道->东京": {
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "北海道->大阪": {
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "冲绳->大阪": {
+    "flight_time_hours": 1.83,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "石垣岛->东京": {
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "石垣岛->冲绳": {
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 13,
+    "is_nonstop": true
+  },
+  "函馆->京都": {
+    "drive_time_hours": 7.23,
+    "train_time_hours": 7.23
+  }
+}

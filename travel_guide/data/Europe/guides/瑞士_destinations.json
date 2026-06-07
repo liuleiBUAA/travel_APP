@@ -1,0 +1,154 @@
+{
+  "苏黎世": {
+    "full_title": "苏黎世",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "苏黎世湖、老城",
+        "transport": "🚶 步行",
+        "stay": "苏黎世"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "卢塞恩": {
+    "full_title": "卢塞恩",
+    "best_season": "5-10月",
+    "tags": {
+      "自然风光": 0.8,
+      "人文历史": 0.6
+    },
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "狮子纪念碑、卡佩尔廊桥",
+        "transport": "🚶 步行",
+        "stay": "卢塞恩"
+      },
+      {
+        "day": "Day 2",
+        "activity": "瑞吉山、皮拉图斯山",
+        "transport": "🚗 自驾",
+        "stay": "卢塞恩"
+      }
+    ]
+  },
+  "因特拉肯": {
+    "full_title": "因特拉肯",
+    "best_season": "5-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "因特拉肯：滑翔伞、逛吃",
+        "transport": "🚶 步行",
+        "stay": "因特拉肯"
+      },
+      {
+        "day": "Day 2",
+        "activity": "格林德尔瓦尔德、少女峰、梦幻山坡",
+        "transport": "🚗 火车",
+        "stay": "因特拉肯"
+      },
+      {
+        "day": "Day 3",
+        "activity": "劳特布龙嫩、翁根、瀑布",
+        "transport": "🚗 火车",
+        "stay": "因特拉肯"
+      },
+      {
+        "day": "Day 4",
+        "activity": "施皮茨、图恩湖、布里恩茨湖",
+        "transport": "🚗 自驾",
+        "stay": "因特拉肯"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.7,
+      "户外探险": 0.6
+    }
+  },
+  "蒙特勒": {
+    "full_title": "蒙特勒",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "西庸城堡、日内瓦湖",
+        "transport": "🚶 步行",
+        "stay": "蒙特勒"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "采尔马特": {
+    "full_title": "采尔马特",
+    "best_season": "全年、6-8月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "马特洪峰、戈尔内格拉特",
+        "transport": "🚗 火车",
+        "stay": "采尔马特"
+      },
+      {
+        "day": "Day 2",
+        "activity": "五湖徒步、利菲尔湖",
+        "transport": "🚗 火车",
+        "stay": "采尔马特"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.7
+    }
+  },
+  "日内瓦": {
+    "full_title": "日内瓦",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "大喷泉、老城",
+        "transport": "🚶 步行",
+        "stay": "日内瓦"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "圣莫里茨": {
+    "full_title": "圣莫里茨",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "圣莫里茨湖、滑雪",
+        "transport": "-",
+        "stay": "圣莫里茨"
+      }
+    ],
+    "tags": {
+      "户外探险": 0.6
+    }
+  },
+  "伯尔尼": {
+    "full_title": "伯尔尼",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "老城、钟楼、熊苑",
+        "transport": "🚶 步行",
+        "stay": "伯尔尼"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.7
+    }
+  }
+}

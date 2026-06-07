@@ -1,0 +1,112 @@
+{
+  "雅典": {
+    "full_title": "雅典",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "卫城、帕特农神庙",
+        "transport": "🚶 步行",
+        "stay": "雅典"
+      },
+      {
+        "day": "Day 2",
+        "activity": "宪法广场、普拉卡",
+        "transport": "🚶 步行",
+        "stay": "雅典"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.7
+    }
+  },
+  "圣托里尼": {
+    "full_title": "圣托里尼",
+    "best_season": "4-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "费拉：红沙滩、伊亚日落",
+        "transport": "🚶 步行",
+        "stay": "圣托里尼"
+      },
+      {
+        "day": "Day 2",
+        "activity": "酒庄、费罗斯特法尼",
+        "transport": "🚶 步行",
+        "stay": "圣托里尼"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.7,
+      "海岛海滨": 0.7
+    }
+  },
+  "克里特岛": {
+    "full_title": "克里特岛",
+    "best_season": "5-9月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "伊拉克利翁：克诺索斯宫",
+        "transport": "🚶 步行",
+        "stay": "克里特岛"
+      },
+      {
+        "day": "Day 2",
+        "activity": "哈尼亚：老城、威尼斯港口",
+        "transport": "🚗 自驾",
+        "stay": "克里特岛"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    },
+    "hub_city": "雅典"
+  },
+  "米克诺斯": {
+    "full_title": "米克诺斯",
+    "best_season": "5-9月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "小威尼斯、风车阵",
+        "transport": "🚶 步行",
+        "stay": "米克诺斯"
+      },
+      {
+        "day": "Day 2",
+        "activity": "天堂海滩、返回",
+        "transport": "🚗 自驾",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "海岛海滨": 0.7
+    },
+    "hub_city": "雅典"
+  },
+  "罗德岛": {
+    "full_title": "罗德岛",
+    "best_season": "5-9月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "骑士城堡、老城",
+        "transport": "🚶 步行",
+        "stay": "罗德岛"
+      },
+      {
+        "day": "Day 2",
+        "activity": "林多斯卫城、海滩",
+        "transport": "🚗 自驾",
+        "stay": "罗德岛"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.7,
+      "海岛海滨": 0.7
+    },
+    "hub_city": "雅典"
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "东京": {
+    "full_title": "东京",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "浅草寺，秋叶原、涩谷SKY夜景",
+        "transport": "🚶 步行",
+        "stay": "东京"
+      },
+      {
+        "day": "Day 2",
+        "activity": "迪士尼乐园/迪士尼海洋",
+        "transport": "🚗 自驾",
+        "stay": "东京"
+      },
+      {
+        "day": "Day 3",
+        "activity": "镰仓一日游",
+        "transport": "🚗 自驾",
+        "stay": "东京"
+      },
+      {
+        "day": "Day 4",
+        "activity": "河口湖一日游",
+        "transport": "🚗 自驾",
+        "stay": "东京"
+      }
+    ],
+    "tags": {
+      "现代都市": 0.9,
+      "人文历史": 0.6,
+      "自然风光": 0.6,
+      "亲子家庭": 0.9
+    }
+  },
+  "大阪": {
+    "full_title": "大阪",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "环球影城",
+        "transport": "🚗 自驾",
+        "stay": "大阪"
+      },
+      {
+        "day": "Day 2",
+        "activity": "大阪城公园，道顿掘",
+        "transport": "🚶 步行",
+        "stay": "大阪"
+      },
+      {
+        "day": "Day 3",
+        "activity": "姬路城，神户",
+        "transport": "🚗 自驾",
+        "stay": "大阪"
+      },
+      {
+        "day": "Day 4",
+        "activity": "广岛（选去）",
+        "transport": "🚗 自驾",
+        "stay": "大阪"
+      },
+      {
+        "day": "Day 5",
+        "activity": "奈良公园、东大寺",
+        "transport": "🚗 自驾",
+        "stay": "大阪"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.8,
+      "现代都市": 0.6,
+      "亲子家庭": 0.9
+    }
+  },
+  "京都": {
+    "full_title": "京都",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "金阁寺，二条城、清水寺、锦市场",
+        "transport": "🚶 步行",
+        "stay": "京都"
+      },
+      {
+        "day": "Day 2",
+        "activity": "岚山一日游",
+        "transport": "🚄 火车",
+        "stay": "京都"
+      },
+      {
+        "day": "Day 3",
+        "activity": "伏见稻荷大社、宇治",
+        "transport": "🚄 火车",
+        "stay": "京都"
+      },
+      {
+        "day": "Day 4",
+        "activity": "查漏补缺",
+        "transport": "🚶 步行",
+        "stay": "京都"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.9,
+      "现代都市": 0.7,
+      "自然风光": 0.5
+    }
+  },
+  "北海道": {
+    "full_title": "北海道",
+    "best_season": "6-8月（薰衣草）、12-2月（滑雪）",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "札幌市区，大通公园",
+        "transport": "🚶 步行",
+        "stay": "札幌"
+      },
+      {
+        "day": "Day 2",
+        "activity": "小樽运河、哨子馆",
+        "transport": "🚄 火车",
+        "stay": "札幌"
+      },
+      {
+        "day": "Day 3",
+        "activity": "美瑛，富良野花田",
+        "transport": "🚄 火车",
+        "stay": "美瑛"
+      },
+      {
+        "day": "Day 4",
+        "activity": "旭川动物园、百货公司",
+        "transport": "🚄 火车",
+        "stay": "札幌"
+      },
+      {
+        "day": "Day 5",
+        "activity": "函馆山夜景",
+        "transport": "🚄 火车",
+        "stay": "函馆"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.9,
+      "现代都市": 0.5,
+      "亲子家庭": 0.9
+    }
+  },
+  "奈良": {
+    "full_title": "奈良",
+    "best_season": "全年",
+    "tags": {
+      "人文历史": 0.7,
+      "亲子家庭": 0.8
+    },
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "东大寺、奈良公园，小鹿",
+        "transport": "🚶 步行",
+        "stay": "奈良"
+      }
+    ]
+  },
+  "冲绳": {
+    "full_title": "冲绳",
+    "best_season": "4-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "到达、国际通",
+        "transport": "🚶 步行",
+        "stay": "那霸市区"
+      },
+      {
+        "day": "Day 2",
+        "activity": "出海浮潜（渡嘉敷岛）",
+        "transport": "🚢 船",
+        "stay": "那霸市区"
+      },
+      {
+        "day": "Day 3",
+        "activity": "万座毛、恩纳村",
+        "transport": "🚗 自驾",
+        "stay": "恩纳村"
+      },
+      {
+        "day": "Day 4",
+        "activity": "美丽海水族馆",
+        "transport": "🚗 自驾",
+        "stay": "恩纳村"
+      },
+      {
+        "day": "Day 5",
+        "activity": "返回市区、回家",
+        "transport": "✈️ 飞机",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "海岛海滨": 0.7,
+      "亲子家庭": 0.9
+    }
+  },
+  "石垣岛": {
+    "full_title": "石垣岛",
+    "best_season": "4-10月",
+    "tags": {
+      "海岛海滨": 0.9,
+      "自然风光": 0.7
+    },
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "川平湾、石垣岛市区",
+        "transport": "🚗 自驾",
+        "stay": "石垣岛"
+      },
+      {
+        "day": "Day 2",
+        "activity": "竹富岛、小滨岛",
+        "transport": "🚢 渡轮",
+        "stay": "石垣岛"
+      },
+      {
+        "day": "Day 3",
+        "activity": "航班返回",
+        "transport": "✈️ 飞机",
+        "stay": "-"
+      }
+    ],
+    "hub_city": "冲绳"
+  }
+}

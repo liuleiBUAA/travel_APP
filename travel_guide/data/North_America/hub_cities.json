@@ -1,0 +1,17 @@
+{
+  "说明": "北美国际门户城市配置 - 包含主要国际门户",
+  "hubs": {
+    "纽约": {"region": "美国东部", "direct_flight": true},
+    "洛杉矶": {"region": "美国西部", "direct_flight": true},
+    "旧金山": {"region": "美国西部", "direct_flight": true},
+    "西雅图": {"region": "美国西部", "direct_flight": true},
+    "芝加哥": {"region": "美国中部", "direct_flight": true},
+    "波士顿": {"region": "美国东部", "direct_flight": true},
+    "华盛顿": {"region": "美国东部", "direct_flight": true},
+    "檀香山": {"region": "夏威夷", "direct_flight": true},
+    "温哥华": {"region": "加拿大西部", "direct_flight": true},
+    "多伦多": {"region": "加拿大东部", "direct_flight": true},
+    "墨西哥城": {"region": "墨西哥", "direct_flight": false},
+    "安克雷奇": {"region": "阿拉斯加", "direct_flight": false}
+  }
+}

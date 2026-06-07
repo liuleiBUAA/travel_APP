@@ -1,0 +1,152 @@
+{
+  "region": "Asia",
+  "month": 4,
+  "total_days": 7,
+  "target_days": 7,
+  "candidates": [
+    {
+      "name": "东京",
+      "days": 4,
+      "tag_score": 3.0,
+      "season_score": 0.1,
+      "total_score": 3.1,
+      "matched_tags": {
+        "现代都市": 0.9,
+        "人文历史": 0.6,
+        "自然风光": 0.6,
+        "亲子家庭": 0.9
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    },
+    {
+      "name": "大阪",
+      "days": 5,
+      "tag_score": 2.3,
+      "season_score": 0.1,
+      "total_score": 2.4,
+      "matched_tags": {
+        "人文历史": 0.8,
+        "现代都市": 0.6,
+        "亲子家庭": 0.9
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    },
+    {
+      "name": "京都",
+      "days": 4,
+      "tag_score": 2.1,
+      "season_score": 0.1,
+      "total_score": 2.2,
+      "matched_tags": {
+        "人文历史": 0.9,
+        "现代都市": 0.7,
+        "自然风光": 0.5
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    },
+    {
+      "name": "北海道",
+      "days": 5,
+      "tag_score": 2.3,
+      "season_score": -0.2,
+      "total_score": 2.1,
+      "matched_tags": {
+        "自然风光": 0.9,
+        "现代都市": 0.5,
+        "亲子家庭": 0.9
+      },
+      "best_season": "6-8月（薰衣草）、12-2月（滑雪）",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    },
+    {
+      "name": "冲绳",
+      "days": 5,
+      "tag_score": 1.6,
+      "season_score": 0.3,
+      "total_score": 1.9,
+      "matched_tags": {
+        "海岛海滨": 0.7,
+        "亲子家庭": 0.9
+      },
+      "best_season": "4-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    },
+    {
+      "name": "石垣岛",
+      "days": 3,
+      "tag_score": 1.6,
+      "season_score": 0.3,
+      "total_score": 1.9,
+      "matched_tags": {
+        "海岛海滨": 0.9,
+        "自然风光": 0.7
+      },
+      "best_season": "4-10月",
+      "loop_type": null,
+      "hub_city": "冲绳",
+      "coordinates": null
+    },
+    {
+      "name": "奈良",
+      "days": 1,
+      "tag_score": 1.5,
+      "season_score": 0.1,
+      "total_score": 1.6,
+      "matched_tags": {
+        "人文历史": 0.7,
+        "亲子家庭": 0.8
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    }
+  ],
+  "selected": [
+    {
+      "name": "东京",
+      "days": 4,
+      "tag_score": 3.0,
+      "season_score": 0.1,
+      "total_score": 3.1,
+      "matched_tags": {
+        "现代都市": 0.9,
+        "人文历史": 0.6,
+        "自然风光": 0.6,
+        "亲子家庭": 0.9
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    },
+    {
+      "name": "石垣岛",
+      "days": 3,
+      "tag_score": 1.6,
+      "season_score": 0.3,
+      "total_score": 1.9,
+      "matched_tags": {
+        "海岛海滨": 0.9,
+        "自然风光": 0.7
+      },
+      "best_season": "4-10月",
+      "loop_type": null,
+      "hub_city": "冲绳",
+      "coordinates": null
+    }
+  ]
+}

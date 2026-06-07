@@ -1,0 +1,247 @@
+{
+  "region": "Europe",
+  "month": 6,
+  "total_days": 9,
+  "target_days": 10,
+  "candidates": [
+    {
+      "name": "特内里费岛",
+      "days": 3,
+      "tag_score": 2.7,
+      "season_score": 0.3,
+      "total_score": 3.0,
+      "matched_tags": {
+        "自然风光": 0.8,
+        "海岛海滨": 1.0,
+        "亲子家庭": 0.9
+      },
+      "best_season": "4-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        28.46,
+        -16.25
+      ]
+    },
+    {
+      "name": "挪威",
+      "days": 14,
+      "tag_score": 2.2,
+      "season_score": 0.3,
+      "total_score": 2.5,
+      "matched_tags": {
+        "人文历史": 0.8,
+        "自然风光": 0.7,
+        "海岛海滨": 0.7
+      },
+      "best_season": "6-8月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        59.91,
+        10.75
+      ]
+    },
+    {
+      "name": "冰岛（8天环线）",
+      "days": 9,
+      "tag_score": 2.1,
+      "season_score": 0.3,
+      "total_score": 2.4,
+      "matched_tags": {
+        "自然风光": 0.9,
+        "海岛海滨": 0.7,
+        "现代都市": 0.5
+      },
+      "best_season": "6-8月",
+      "loop_type": "loop",
+      "hub_city": "雷克雅未克",
+      "coordinates": [
+        64.13,
+        -21.9
+      ]
+    },
+    {
+      "name": "马略卡岛",
+      "days": 2,
+      "tag_score": 2.0,
+      "season_score": 0.3,
+      "total_score": 2.3,
+      "matched_tags": {
+        "人文历史": 0.6,
+        "自然风光": 0.7,
+        "海岛海滨": 0.7
+      },
+      "best_season": "5-9月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        39.57,
+        2.65
+      ]
+    },
+    {
+      "name": "霞慕尼",
+      "days": 1,
+      "tag_score": 1.8,
+      "season_score": 0.3,
+      "total_score": 2.1,
+      "matched_tags": {
+        "自然风光": 0.9,
+        "户外探险": 0.9
+      },
+      "best_season": "12-3月（滑雪）、6-9月（徒步）",
+      "loop_type": null,
+      "hub_city": "日内瓦",
+      "coordinates": [
+        46.2,
+        6.14
+      ]
+    },
+    {
+      "name": "多洛米蒂",
+      "days": 2,
+      "tag_score": 1.8,
+      "season_score": 0.3,
+      "total_score": 2.1,
+      "matched_tags": {
+        "自然风光": 1.0,
+        "户外探险": 0.8
+      },
+      "best_season": "6-9月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    },
+    {
+      "name": "奥地利湖区",
+      "days": 3,
+      "tag_score": 1.7,
+      "season_score": 0.3,
+      "total_score": 2.0,
+      "matched_tags": {
+        "小镇村落": 0.8,
+        "自然风光": 0.9
+      },
+      "best_season": "5-9月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        54.47,
+        -3.08
+      ]
+    },
+    {
+      "name": "托斯卡纳",
+      "days": 3,
+      "tag_score": 1.7,
+      "season_score": 0.3,
+      "total_score": 2.0,
+      "matched_tags": {
+        "自然风光": 0.8,
+        "小镇村落": 0.9
+      },
+      "best_season": "4-6月、9-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        43.42,
+        11.22
+      ]
+    },
+    {
+      "name": "英国湖区",
+      "days": 2,
+      "tag_score": 1.5,
+      "season_score": 0.3,
+      "total_score": 1.8,
+      "matched_tags": {
+        "自然风光": 0.8,
+        "小镇村落": 0.7
+      },
+      "best_season": "5-9月",
+      "loop_type": null,
+      "hub_city": "伦敦",
+      "coordinates": [
+        51.51,
+        -0.13
+      ]
+    },
+    {
+      "name": "西西里岛",
+      "days": 6,
+      "tag_score": 1.5,
+      "season_score": 0.3,
+      "total_score": 1.8,
+      "matched_tags": {
+        "人文历史": 0.8,
+        "海岛海滨": 0.7
+      },
+      "best_season": "5-9月",
+      "loop_type": "loop",
+      "hub_city": "巴勒莫",
+      "coordinates": [
+        38.11,
+        13.36
+      ]
+    }
+  ],
+  "selected": [
+    {
+      "name": "特内里费岛",
+      "days": 3,
+      "tag_score": 2.7,
+      "season_score": 0.3,
+      "total_score": 3.0,
+      "matched_tags": {
+        "自然风光": 0.8,
+        "海岛海滨": 1.0,
+        "亲子家庭": 0.9
+      },
+      "best_season": "4-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        28.46,
+        -16.25
+      ]
+    },
+    {
+      "name": "马略卡岛",
+      "days": 2,
+      "tag_score": 2.0,
+      "season_score": 0.3,
+      "total_score": 2.3,
+      "matched_tags": {
+        "人文历史": 0.6,
+        "自然风光": 0.7,
+        "海岛海滨": 0.7
+      },
+      "best_season": "5-9月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        39.57,
+        2.65
+      ]
+    },
+    {
+      "name": "普罗旺斯（阿维尼翁/马赛）",
+      "days": 4,
+      "tag_score": 1.4,
+      "season_score": 0.3,
+      "total_score": 1.7,
+      "matched_tags": {
+        "人文历史": 0.7,
+        "自然风光": 0.7
+      },
+      "best_season": "6-8月（薰衣草）",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        43.7,
+        5.5
+      ]
+    }
+  ]
+}

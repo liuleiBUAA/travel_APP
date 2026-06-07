@@ -1,0 +1,594 @@
+{
+  "🔄 美东城市环线": {
+    "full_title": "🔄 美东城市环线（5天）",
+    "best_season": "全年",
+    "tags": {
+      "人文历史": 0.8,
+      "现代都市": 0.7
+    },
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "纽约：自由女神、中央公园",
+        "transport": "🚶 步行",
+        "stay": "纽约"
+      },
+      {
+        "day": "Day 2",
+        "activity": "纽约→费城：独立宫、自由钟",
+        "transport": "🚗 自驾2h",
+        "stay": "费城"
+      },
+      {
+        "day": "Day 3",
+        "activity": "费城→华盛顿：白宫、林肯纪念堂",
+        "transport": "🚗 自驾2h",
+        "stay": "华盛顿"
+      },
+      {
+        "day": "Day 4",
+        "activity": "华盛顿：国会山、史密森尼",
+        "transport": "🚶 步行",
+        "stay": "华盛顿"
+      }
+    ],
+    "loop_type": "linear",
+    "hub_city": "纽约",
+    "end_city": "华盛顿"
+  },
+  "🔄 波士顿+阿卡迪亚环线": {
+    "full_title": "🔄 波士顿+阿卡迪亚环线（4天）",
+    "best_season": "5-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "波士顿→阿卡迪亚，Cadillac Mountain日落",
+        "transport": "🚗 自驾4h",
+        "stay": "Bar Harbor"
+      },
+      {
+        "day": "Day 2",
+        "activity": "阿卡迪亚：环岛自驾，Sand Beach",
+        "transport": "🚗 自驾",
+        "stay": "Bar Harbor"
+      },
+      {
+        "day": "Day 3",
+        "activity": "阿卡迪亚：野生动物观察，Jordan Pond",
+        "transport": "🚗 自驾",
+        "stay": "Bar Harbor"
+      },
+      {
+        "day": "Day 4",
+        "activity": "清晨日出，返回波士顿",
+        "transport": "🚗 自驾4h",
+        "stay": "波士顿"
+      }
+    ],
+    "loop_type": "loop",
+    "hub_city": "波士顿",
+    "tags": {
+      "自然风光": 0.9,
+      "海岛海滨": 0.7
+    }
+  },
+  "纽约": {
+    "full_title": "纽约",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "自由女神、中央公园",
+        "transport": "🚶 步行",
+        "stay": "纽约"
+      },
+      {
+        "day": "Day 2",
+        "activity": "时代广场、大都会博物馆",
+        "transport": "🚶 步行",
+        "stay": "纽约"
+      },
+      {
+        "day": "Day 3",
+        "activity": "华尔街、联合国",
+        "transport": "🚶 步行",
+        "stay": "纽约"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.7
+    }
+  },
+  "波士顿": {
+    "full_title": "波士顿",
+    "best_season": "5-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "自由之路、昆西市场",
+        "transport": "🚶 步行",
+        "stay": "波士顿"
+      },
+      {
+        "day": "Day 2",
+        "activity": "哈佛、MIT",
+        "transport": "🚗 自驾",
+        "stay": "波士顿"
+      }
+    ],
+    "tags": {
+      "现代都市": 0.5
+    }
+  },
+  "华盛顿": {
+    "full_title": "华盛顿",
+    "best_season": "全年",
+    "tags": {
+      "人文历史": 0.9
+    },
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "白宫、林肯纪念堂",
+        "transport": "🚶 步行",
+        "stay": "华盛顿"
+      },
+      {
+        "day": "Day 2",
+        "activity": "国会山、史密森尼",
+        "transport": "🚶 步行",
+        "stay": "华盛顿"
+      }
+    ]
+  },
+  "费城": {
+    "full_title": "费城",
+    "best_season": "全年",
+    "tags": {
+      "人文历史": 0.8
+    },
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "独立宫、自由钟",
+        "transport": "🚶 步行",
+        "stay": "费城"
+      }
+    ]
+  },
+  "尼亚加拉瀑布": {
+    "full_title": "尼亚加拉瀑布（美）",
+    "best_season": "6-8月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "马蹄瀑布、雾中少女号",
+        "transport": "🚗 自驾",
+        "stay": "瀑布城"
+      },
+      {
+        "day": "Day 2",
+        "activity": "观瀑布视角、购物",
+        "transport": "🚶 步行",
+        "stay": "瀑布城"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.7,
+      "现代都市": 0.5
+    }
+  },
+  "奥兰多": {
+    "full_title": "奥兰多",
+    "best_season": "12-4月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "迪士尼",
+        "transport": "🚗 自驾",
+        "stay": "奥兰多"
+      },
+      {
+        "day": "Day 2",
+        "activity": "迪士尼",
+        "transport": "🚗 自驾",
+        "stay": "奥兰多"
+      },
+      {
+        "day": "Day 3",
+        "activity": "迪士尼",
+        "transport": "🚗 自驾",
+        "stay": "奥兰多"
+      },
+      {
+        "day": "Day 4",
+        "activity": "环球影城",
+        "transport": "🚗 自驾",
+        "stay": "奥兰多"
+      },
+      {
+        "day": "Day 5",
+        "activity": "环球影城",
+        "transport": "🚗 自驾",
+        "stay": "奥兰多"
+      },
+      {
+        "day": "Day 6",
+        "activity": "肯尼迪航天中心",
+        "transport": "🚗 自驾",
+        "stay": "奥兰多"
+      },
+      {
+        "day": "Day 7",
+        "activity": "海洋世界",
+        "transport": "🚗 自驾",
+        "stay": "奥兰多"
+      }
+    ],
+    "tags": {
+      "亲子家庭": 0.9
+    }
+  },
+  "迈阿密": {
+    "full_title": "迈阿密",
+    "best_season": "12-4月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "南海滩、装饰艺术区",
+        "transport": "🚶 步行",
+        "stay": "迈阿密"
+      },
+      {
+        "day": "Day 2",
+        "activity": "大沼泽地",
+        "transport": "🚗 自驾",
+        "stay": "迈阿密"
+      },
+      {
+        "day": "Day 3",
+        "activity": "钥匙群岛",
+        "transport": "🚗 自驾",
+        "stay": "迈阿密"
+      }
+    ],
+    "tags": {
+      "海岛海滨": 0.7
+    }
+  },
+  "芝加哥": {
+    "full_title": "芝加哥",
+    "best_season": "5-9月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "千禧公园、海军码头",
+        "transport": "🚶 步行",
+        "stay": "芝加哥"
+      },
+      {
+        "day": "Day 2",
+        "activity": "博物馆区、密歇根大道",
+        "transport": "🚶 步行",
+        "stay": "芝加哥"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6,
+      "海岛海滨": 0.7
+    }
+  },
+  "新奥尔良": {
+    "full_title": "新奥尔良",
+    "best_season": "2-5月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "法国区、杰克逊广场",
+        "transport": "🚶 步行",
+        "stay": "新奥尔良"
+      },
+      {
+        "day": "Day 2",
+        "activity": "沼泽 tour、Bourbon街",
+        "transport": "🚶 步行",
+        "stay": "新奥尔良"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "坦帕": {
+    "full_title": "坦帕",
+    "best_season": "11-4月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "Clearwater Beach 白沙滩",
+        "transport": "🚗 自驾",
+        "stay": "坦帕"
+      },
+      {
+        "day": "Day 2",
+        "activity": "Ringling博物馆、Siesta Beach",
+        "transport": "🚗 自驾",
+        "stay": "坦帕"
+      },
+      {
+        "day": "Day 3",
+        "activity": "看海牛（11月-3月）",
+        "transport": "🚗 自驾",
+        "stay": "坦帕"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6,
+      "海岛海滨": 1.0
+    }
+  },
+  "阿卡迪亚国家公园": {
+    "full_title": "阿卡迪亚国家公园（缅因州）",
+    "best_season": "5-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "波士顿→阿卡迪亚，Cadillac Mountain",
+        "transport": "🚗 自驾4h",
+        "stay": "Bar Harbor"
+      },
+      {
+        "day": "Day 2",
+        "activity": "环岛自驾，Sand Beach",
+        "transport": "🚗 自驾",
+        "stay": "Bar Harbor"
+      },
+      {
+        "day": "Day 3",
+        "activity": "野生动物观察，返回波士顿",
+        "transport": "🚗 自驾4h",
+        "stay": "波士顿"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.7,
+      "海岛海滨": 0.7
+    }
+  },
+  "大雾山国家公园": {
+    "full_title": "大雾山国家公园（田纳西州/北卡）",
+    "best_season": "4月-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "Cades Cove环线，看野生动物（黑熊、鹿）",
+        "transport": "🚗 自驾",
+        "stay": "Gatlinburg"
+      },
+      {
+        "day": "Day 2",
+        "activity": "Clingmans Dome看云海，Newfound Gap，下午返回亚特兰大",
+        "transport": "🚗 自驾3h",
+        "stay": "亚特兰大"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.7
+    }
+  },
+  "仙纳度国家公园": {
+    "full_title": "仙纳度国家公园（弗吉尼亚州）",
+    "best_season": "4月-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "华盛顿→仙纳度，Skyline Drive",
+        "transport": "🚗 自驾2h",
+        "stay": "园内/附近"
+      },
+      {
+        "day": "Day 2",
+        "activity": "Marys Falls Trail，蓝岭公路，返回华盛顿",
+        "transport": "🚗 自驾",
+        "stay": "华盛顿"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.7,
+      "现代都市": 0.5
+    }
+  },
+  "大沼泽地国家公园": {
+    "full_title": "大沼泽地国家公园（佛罗里达州）",
+    "best_season": "11月-4月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "迈阿密→大沼泽地，Airboat",
+        "transport": "🚗 自驾1h",
+        "stay": "Homestead"
+      },
+      {
+        "day": "Day 2",
+        "activity": "Shark Valley，返回迈阿密",
+        "transport": "🚗 自驾",
+        "stay": "迈阿密"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.7
+    }
+  },
+  "美东“蓝岭公路与双园”大环线": {
+    "full_title": "美东“蓝岭公路与双园”大环线 (自然风光纯享)",
+    "best_season": "9-11月（赏秋、红叶季北美天花板）",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "华盛顿 DC出发→仙纳度国家公园：行驶天际线公路 (Skyline Drive)",
+        "transport": "🚗 自驾2h",
+        "stay": "仙纳度周边/哈里森堡"
+      },
+      {
+        "day": "Day 2",
+        "activity": "仙纳度→驶入蓝岭公路 (Blue Ridge Parkway)：全美最美景观道，沿途多处观景台看群山起伏",
+        "transport": "🚗 自驾",
+        "stay": "罗阿诺克/公路周边小镇"
+      },
+      {
+        "day": "Day 3",
+        "activity": "蓝岭公路南下：马布里磨坊、林维尔瀑布 (Linville Falls)",
+        "transport": "🚗 自驾",
+        "stay": "阿什维尔 (Asheville)"
+      },
+      {
+        "day": "Day 4",
+        "activity": "大雾山国家公园 (Great Smoky Mountains)：纽芬崖 (Newfound Gap)、克林曼圆顶看云海",
+        "transport": "🚗 自驾",
+        "stay": "鸽子谷 / 盖特林堡"
+      },
+      {
+        "day": "Day 5",
+        "activity": "大雾山：凯兹谷 (Cades Cove) 环线看野生动物 (黑熊、鹿)，下午前往亚特兰大返程",
+        "transport": "🚗 自驾",
+        "stay": "-"
+      }
+    ],
+    "loop_type": "linear",
+    "hub_city": "华盛顿",
+    "end_city": "亚特兰大",
+    "tags": {
+      "自然风光": 1.0,
+      "现代都市": 0.8
+    }
+  },
+  "密歇根湖“巨型沙丘与五彩悬崖”大环线": {
+    "full_title": "密歇根湖“巨型沙丘与五彩悬崖”大环线 (芝加哥出发)",
+    "best_season": "6-9月（夏季湖区避暑与水上活动最佳）",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "芝加哥→印第安纳沙丘国家公园 (Indiana Dunes)：看沙丘与湖滩",
+        "transport": "🚗 自驾1h",
+        "stay": "密歇根城"
+      },
+      {
+        "day": "Day 2",
+        "activity": "密歇根城北上→睡熊沙丘国家湖岸风景区 (Sleeping Bear Dunes)：攀登巨型沙丘、看湖景日落",
+        "transport": "🚗 自驾4h",
+        "stay": "特拉弗斯城 (Traverse City)"
+      },
+      {
+        "day": "Day 3",
+        "activity": "特拉弗斯城→画岩国家湖岸风景区 (Pictured Rocks)：苏必利尔湖南岸、五彩悬崖",
+        "transport": "🚗 自驾4h",
+        "stay": "缪尼辛 (Munising)"
+      },
+      {
+        "day": "Day 4",
+        "activity": "画岩风景区：体验划皮划艇穿梭岩洞、瀑布徒步",
+        "transport": "🚗 自驾",
+        "stay": "缪尼辛"
+      },
+      {
+        "day": "Day 5",
+        "activity": "缪尼辛→芝加哥：穿越威斯康星州森林，返程",
+        "transport": "🚗 自驾6h",
+        "stay": "-"
+      }
+    ],
+    "loop_type": "loop",
+    "hub_city": "芝加哥",
+    "tags": {
+      "自然风光": 1.0
+    }
+  },
+  "亚特兰大": {
+    "full_title": "亚特兰大（Atlanta）",
+    "best_season": "全年，春秋最佳",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "可口可乐世界，乔治亚水族馆",
+        "stay": "亚特兰大",
+        "transport": "当地交通"
+      },
+      {
+        "day": "Day 2",
+        "activity": "CNN总部，马丁·路德·金纪念馆，奥林匹克公园",
+        "stay": "亚特兰大",
+        "transport": "当地交通"
+      }
+    ],
+    "tags": {
+      "亲子家庭": 0.9
+    }
+  },
+  "休斯顿": {
+    "full_title": "休斯顿（Houston）",
+    "best_season": "全年，避开7-8月（炎热）",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "休斯顿太空中心（NASA），全天",
+        "stay": "休斯顿",
+        "transport": "🚗 自驾40分钟"
+      },
+      {
+        "day": "Day 2",
+        "activity": "休斯顿自然科学博物馆，赫曼公园",
+        "stay": "休斯顿",
+        "transport": "当地交通"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6,
+      "自然风光": 0.7
+    }
+  },
+  "丹佛": {
+    "full_title": "丹佛（Denver）",
+    "best_season": "全年，夏季最佳",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "丹佛市区：16街步行街，联合车站，州议会大厦",
+        "stay": "丹佛",
+        "transport": "当地交通"
+      },
+      {
+        "day": "Day 2",
+        "activity": "红石公园（Red Rocks Park），丹佛艺术博物馆",
+        "stay": "丹佛",
+        "transport": "🚗 自驾30分钟"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6,
+      "自然风光": 0.7,
+      "现代都市": 0.5
+    }
+  },
+  "洛基山国家公园": {
+    "full_title": "洛基山国家公园（Rocky Mountain National Park）",
+    "best_season": "5月底-10月中（冬季封山）",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "Bear Lake徒步，Emerald Lake，Trail Ridge Road，Alpine Visitor Center",
+        "transport": "🚗 自驾",
+        "stay": "Estes Park"
+      },
+      {
+        "day": "Day 2",
+        "activity": "Sky Pond徒步（高难度），下午返回丹佛",
+        "transport": "🚗 自驾1.75h",
+        "stay": "丹佛"
+      }
+    ],
+    "entry_transport": "🚗 自驾2h（丹佛出发）",
+    "tags": {
+      "自然风光": 0.9
+    }
+  }
+}

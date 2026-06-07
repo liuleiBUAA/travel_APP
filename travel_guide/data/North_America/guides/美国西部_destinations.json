@@ -1,0 +1,455 @@
+{
+  "旧金山": {
+    "full_title": "旧金山",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "金门大桥、渔人码头、九曲花街",
+        "transport": "🚶 步行",
+        "stay": "旧金山"
+      }
+    ],
+    "tags": {
+      "海岛海滨": 0.7
+    }
+  },
+  "洛杉矶": {
+    "full_title": "洛杉矶",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "环球影城",
+        "transport": "🚗 自驾",
+        "stay": "洛杉矶"
+      },
+      {
+        "day": "Day 2",
+        "activity": "华纳兄弟工作室、Getty美术馆",
+        "transport": "🚗 自驾",
+        "stay": "洛杉矶"
+      },
+      {
+        "day": "Day 3",
+        "activity": "好莱坞标志牌、圣莫尼卡海滩、格里菲斯天文台",
+        "transport": "🚗 自驾",
+        "stay": "洛杉矶"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6,
+      "海岛海滨": 0.7,
+      "亲子家庭": 0.9
+    }
+  },
+  "拉斯维加斯": {
+    "full_title": "拉斯维加斯（市区）",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "拉斯大道、夜景",
+        "transport": "🚶 步行",
+        "stay": "拉斯维加斯"
+      },
+      {
+        "day": "Day 2",
+        "activity": "购物、看表演",
+        "transport": "🚶 步行",
+        "stay": "拉斯维加斯"
+      }
+    ],
+    "tags": {
+      "现代都市": 0.8
+    }
+  },
+  "圣地亚哥": {
+    "full_title": "圣地亚哥",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "中途岛航母、拉霍亚海滩",
+        "transport": "🚗 自驾",
+        "stay": "圣地亚哥"
+      },
+      {
+        "day": "Day 2",
+        "activity": "巴尔博亚公园、动物园",
+        "transport": "🚗 自驾",
+        "stay": "圣地亚哥"
+      }
+    ],
+    "tags": {
+      "海岛海滨": 0.7,
+      "亲子家庭": 0.9
+    }
+  },
+  "西雅图": {
+    "full_title": "西雅图（市区）",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "太空针塔、派克市场、奇胡利玻璃博物馆",
+        "transport": "🚶 步行",
+        "stay": "西雅图"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6,
+      "现代都市": 0.5
+    }
+  },
+  "1号公路": {
+    "full_title": "1号公路",
+    "best_season": "5-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "旧金山→蒙特雷、17英里、卡梅尔小镇",
+        "transport": "🚗 自驾",
+        "stay": "蒙特雷"
+      },
+      {
+        "day": "Day 2",
+        "activity": "蒙特雷→大苏尔，Bixby Bridge，McWay Falls",
+        "transport": "🚗 自驾",
+        "stay": "大苏尔"
+      },
+      {
+        "day": "Day 3",
+        "activity": "大苏尔→SLO小镇，Pismo Beach日落，挖蛤蜊",
+        "transport": "🚗 自驾",
+        "stay": "SLO"
+      },
+      {
+        "day": "Day 4",
+        "activity": "SLO→丹麦小镇Solvang→圣巴巴拉→洛杉矶",
+        "transport": "🚗 自驾",
+        "stay": "洛杉矶"
+      }
+    ],
+    "loop_type": "linear",
+    "hub_city": "旧金山",
+    "end_city": "洛杉矶",
+    "tags": {
+      "自然风光": 0.7,
+      "海岛海滨": 0.7,
+      "小镇村落": 0.8
+    }
+  },
+  "🔄 精华版美西环线": {
+    "full_title": "🔄 精华版美西环线（4天）",
+    "best_season": "4-6月、9-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "拉斯维加斯→锡安，The Narrows",
+        "transport": "🚗 自驾2.5h",
+        "stay": "Springdale"
+      },
+      {
+        "day": "Day 2",
+        "activity": "锡安→布莱斯峡谷，Navajo Loop",
+        "transport": "🚗 自驾1.5h",
+        "stay": "Bryce Canyon City"
+      },
+      {
+        "day": "Day 3",
+        "activity": "布莱斯→拱门，Delicate Arch日落",
+        "transport": "🚗 自驾3h",
+        "stay": "Moab"
+      },
+      {
+        "day": "Day 4",
+        "activity": "拱门：Landscape Arch，返回拉斯维加斯",
+        "transport": "🚗 自驾4.5h",
+        "stay": "拉斯维加斯"
+      }
+    ],
+    "loop_type": "loop",
+    "hub_city": "拉斯维加斯",
+    "tags": {
+      "自然风光": 0.8
+    }
+  },
+  "🔄 羚羊谷+大峡谷2日环线": {
+    "full_title": "🔄 羚羊谷+大峡谷2日环线",
+    "best_season": "4-6月、9-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "拉斯维加斯/菲尼克斯→佩吉（入住），下午羚羊谷，马蹄湾日落",
+        "transport": "🚗 自驾4h",
+        "stay": "Page"
+      },
+      {
+        "day": "Day 2",
+        "activity": "佩吉→大峡谷（南缘），返回",
+        "transport": "🚗 自驾2.5h",
+        "stay": "菲尼克斯/拉斯维加斯"
+      }
+    ],
+    "loop_type": "loop",
+    "hub_city": "拉斯维加斯",
+    "tags": {
+      "自然风光": 0.8
+    }
+  },
+  "🔄 黄石大提顿环线": {
+    "full_title": "🔄 黄石大提顿环线（4-5天）",
+    "best_season": "6月-9月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "盐湖城→大提顿，Jenny Lake，Jackson小镇",
+        "transport": "🚗 自驾5h",
+        "stay": "杰克逊"
+      },
+      {
+        "day": "Day 2",
+        "activity": "大提顿：Schwabacher Landing日出，西黄石",
+        "transport": "🚗 自驾",
+        "stay": "西黄石"
+      },
+      {
+        "day": "Day 3",
+        "activity": "黄石：Old Faithful，Grand Prismatic大棱镜",
+        "transport": "🚗 自驾",
+        "stay": "West Yellowstone"
+      },
+      {
+        "day": "Day 4",
+        "activity": "黄石：Grand Canyon大峡谷，返回盐湖城",
+        "transport": "🚗 自驾",
+        "stay": "盐湖城"
+      }
+    ],
+    "loop_type": "loop",
+    "hub_city": "盐湖城",
+    "tags": {
+      "自然风光": 0.9,
+      "小镇村落": 0.8
+    }
+  },
+  "华盛顿州“海山冰川”大环线": {
+    "full_title": "华盛顿州“海山冰川”大环线 (西雅图精选)",
+    "best_season": "7-9月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "西雅图：派克市场、太空针塔、奇胡利玻璃艺术馆",
+        "transport": "🚶 步行",
+        "stay": "西雅图"
+      },
+      {
+        "day": "Day 2",
+        "activity": "西雅图→奥林匹克国家公园：飓风岭、飓风山",
+        "transport": "🚗 自驾3h",
+        "stay": "安吉利斯港 (Port Angeles)"
+      },
+      {
+        "day": "Day 3",
+        "activity": "奥林匹克：克雷森特湖、Rialto 海滩 (看海边枯木)",
+        "transport": "🚗 自驾",
+        "stay": "福克斯 (Forks)"
+      },
+      {
+        "day": "Day 4",
+        "activity": "奥林匹克：Hoh 温带雨林、Ruby 海滩",
+        "transport": "🚗 自驾",
+        "stay": "费尔福克斯"
+      },
+      {
+        "day": "Day 5",
+        "activity": "奥林匹克→西雅图→雷尼尔山国家公园：天堂景区 (Paradise)",
+        "transport": "🚗 自驾4.5h",
+        "stay": "阿什福德 (Ashford)"
+      },
+      {
+        "day": "Day 6",
+        "activity": "雷尼尔山：日出景区 (Sunrise)、斯凯莱特步道",
+        "transport": "🚗 自驾",
+        "stay": "西雅图"
+      },
+      {
+        "day": "Day 7",
+        "activity": "西雅图→北瀑布国家公园：Diablo 湖、返回西雅图",
+        "transport": "🚗 自驾3h",
+        "stay": "-"
+      }
+    ],
+    "loop_type": "loop",
+    "hub_city": "西雅图",
+    "tags": {
+      "自然风光": 0.9,
+      "海岛海滨": 0.7,
+      "现代都市": 0.5
+    }
+  },
+  "波特兰": {
+    "full_title": "波特兰",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "日本花园、Powell's书店、中国园林、Pittock Mansion",
+        "transport": "🚗 自驾",
+        "stay": "波特兰"
+      },
+      {
+        "day": "Day 2",
+        "activity": "哥伦比亚河谷：Multnomah Falls、Vista House、Latourell Falls",
+        "transport": "🚗 自驾1h",
+        "stay": "波特兰"
+      },
+      {
+        "day": "Day 3",
+        "activity": "Cannon Beach：Haystack Rock、海滩",
+        "transport": "🚗 自驾1.5h",
+        "stay": "波特兰"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6,
+      "自然风光": 0.8,
+      "小镇村落": 0.5
+    }
+  },
+  "优胜美地国家公园": {
+    "full_title": "优胜美地国家公园 (Yosemite)",
+    "best_season": "4-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "隧道观景点、冰川点：远眺Half Dome和山谷全景",
+        "transport": "🚗 自驾",
+        "stay": "优胜美地"
+      },
+      {
+        "day": "Day 2",
+        "activity": "约塞米蒂山谷：El Capitan、Bridalveil Fall、Yosemite Falls",
+        "transport": "🚗 自驾",
+        "stay": "优胜美地"
+      },
+      {
+        "day": "Day 3",
+        "activity": "Mist Trail：Vernal Fall、Nevada Fall",
+        "transport": "🚗 自驾",
+        "stay": "优胜美地"
+      },
+      {
+        "day": "Day 4",
+        "activity": "Half Dome登山（需许可证）或蒙诺湖、红杉林",
+        "transport": "🚗 自驾",
+        "stay": "优胜美地"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.9,
+      "户外运动": 0.9
+    },
+    "hub_city": "旧金山"
+  },
+  "冰川国家公园": {
+    "full_title": "冰川国家公园 (Glacier)",
+    "best_season": "7-9月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "抵达Kalispell，前往公园",
+        "transport": "🚗 自驾",
+        "stay": "Kalispell"
+      },
+      {
+        "day": "Day 2",
+        "activity": "Going-to-the-Sun Road：Lake McDonald、Logan Pass、Hidden Lake",
+        "transport": "🚗 自驾",
+        "stay": "Kalispell"
+      },
+      {
+        "day": "Day 3",
+        "activity": "Highline Trail或Avalanche Lake徒步",
+        "transport": "🚗 自驾",
+        "stay": "Kalispell"
+      },
+      {
+        "day": "Day 4",
+        "activity": "Many Glacier：Grinnell Glacier（需预订游船）",
+        "transport": "🚗 自驾",
+        "stay": "Kalispell"
+      },
+      {
+        "day": "Day 5",
+        "activity": "Iceberg Lake Trail徒步",
+        "transport": "🚗 自驾",
+        "stay": "Kalispell"
+      }
+    ],
+    "loop_type": "linear",
+    "hub_city": "Kalispell",
+    "tags": {
+      "自然风光": 0.9,
+      "户外运动": 0.9
+    }
+  },
+  "红杉国家公园": {
+    "full_title": "红杉/国王峡谷国家公园 (Sequoia/Kings Canyon)",
+    "best_season": "4-5月、9-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "红杉公园：General Sherman Tree、Moro Rock、Tunnel Log",
+        "transport": "🚗 自驾",
+        "stay": "红杉公园"
+      },
+      {
+        "day": "Day 2",
+        "activity": "国王峡谷：General Grant Tree、Zumwalt Meadow、Boyden Cavern",
+        "transport": "🚗 自驾1.5h",
+        "stay": "红杉公园"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.9
+    }
+  },
+  "死亡谷国家公园": {
+    "full_title": "死亡谷国家公园 (Death Valley)",
+    "best_season": "11-3月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "Dante's View、Zabriskie Point日落",
+        "transport": "🚗 自驾2.5h",
+        "stay": "死亡谷"
+      },
+      {
+        "day": "Day 2",
+        "activity": "Badwater Basin、Mesquite Sand Dunes、Artist's Palette",
+        "transport": "🚗 自驾",
+        "stay": "死亡谷"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.8
+    }
+  },
+  "火山口湖国家公园": {
+    "full_title": "火山口湖国家公园 (Crater Lake)",
+    "best_season": "7-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "Rim Drive环湖、Watchman Overlook、Cleetwood Cove Trail",
+        "transport": "🚗 自驾",
+        "stay": "火山口湖"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.9
+    }
+  }
+}

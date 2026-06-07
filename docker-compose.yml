@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    container_name: travel_companion_backend
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      - WX_MINI_APPID=${WX_MINI_APPID}
+      - WX_MINI_SECRET=${WX_MINI_SECRET}
+      - TOKEN_SECRET=${TOKEN_SECRET}
+      - DATABASE_URL=sqlite:///app/backend/travel_companion.db
+    volumes:
+      - ./data:/app/backend/data
+      - db_data:/app/backend
+    networks:
+      - travel_network
+
+  nginx:
+    image: nginx:alpine
+    container_name: travel_companion_nginx
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./frontend:/usr/share/nginx/html
+      - ./certbot/conf:/etc/letsencrypt
+      - ./certbot/www:/var/www/certbot
+    depends_on:
+      - backend
+    networks:
+      - travel_network
+
+volumes:
+  db_data:
+
+networks:
+  travel_network:
+    driver: bridge

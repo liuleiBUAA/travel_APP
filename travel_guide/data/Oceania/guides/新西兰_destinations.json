@@ -1,0 +1,162 @@
+{
+  "北岛": {
+    "full_title": "北岛（奥克兰、罗托鲁瓦、惠灵顿）- 4-5天",
+    "best_season": "12-2月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "奥克兰：天空塔、海港",
+        "transport": "🚶 步行",
+        "stay": "奥克兰"
+      },
+      {
+        "day": "Day 2",
+        "activity": "奥克兰→罗托鲁瓦：毛利文化、地热公园",
+        "transport": "🚗 自驾2.5h",
+        "stay": "罗托鲁瓦"
+      },
+      {
+        "day": "Day 3",
+        "activity": "霍比屯、返回奥克兰",
+        "transport": "🚗 自驾",
+        "stay": "奥克兰"
+      },
+      {
+        "day": "Day 4",
+        "activity": "奥克兰→惠灵顿：Te Papa博物馆、古巴街",
+        "transport": "✈️ 飞机1h",
+        "stay": "惠灵顿"
+      },
+      {
+        "day": "Day 5",
+        "activity": "惠灵顿：维塔工作室、惠灵顿缆车、Oriental Bay",
+        "transport": "🚶 步行",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.7,
+      "影视取景": 0.8
+    }
+  },
+  "南岛": {
+    "full_title": "南岛（8-10天环线）",
+    "best_season": "12-2月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "基督城→霍基蒂卡：途径亚瑟通道、城堡山",
+        "transport": "🚗 自驾3.5h",
+        "stay": "霍基蒂卡"
+      },
+      {
+        "day": "Day 2",
+        "activity": "霍基蒂卡→冰川地区：约瑟夫冰川健行、马森湖",
+        "transport": "🚗 自驾1.5h",
+        "stay": "弗朗兹约瑟夫/福克斯"
+      },
+      {
+        "day": "Day 3",
+        "activity": "冰川地区→瓦纳卡→皇后镇：孤独的树、迷宫世界、箭镇",
+        "transport": "🚗 自驾5h",
+        "stay": "皇后镇"
+      },
+      {
+        "day": "Day 4",
+        "activity": "皇后镇：跳伞/蹦极、天际缆车、高山鹿园",
+        "transport": "🚶 步行",
+        "stay": "皇后镇"
+      },
+      {
+        "day": "Day 5",
+        "activity": "皇后镇→米尔福德峡湾→蒂阿瑙：游船、观光飞行",
+        "transport": "🚗 自驾4h+🚢",
+        "stay": "蒂阿瑙"
+      },
+      {
+        "day": "Day 6",
+        "activity": "蒂阿瑙→皇后镇：格林诺奇、瓦卡蒂普湖",
+        "transport": "🚗 自驾2.5h",
+        "stay": "皇后镇"
+      },
+      {
+        "day": "Day 7",
+        "activity": "皇后镇→旦尼丁：隧道海滩、奥塔哥半岛",
+        "transport": "🚗 自驾3.5h",
+        "stay": "旦尼丁"
+      },
+      {
+        "day": "Day 8",
+        "activity": "旦尼丁→奥马鲁：莫拉基大圆石、小蓝企鹅回巢",
+        "transport": "🚗 自驾1.5h",
+        "stay": "奥马鲁"
+      },
+      {
+        "day": "Day 9",
+        "activity": "奥马鲁→库克山→蒂卡波：普卡基湖、胡克峡谷步道、观星",
+        "transport": "🚗 自驾3.5h",
+        "stay": "蒂卡波"
+      },
+      {
+        "day": "Day 10",
+        "activity": "蒂卡波→基督城：好牧羊人教堂、Astro Café",
+        "transport": "🚗 自驾2.5h",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.7,
+      "自然风光": 0.95,
+      "海岛海滨": 0.7,
+      "户外探险": 0.9
+    }
+  },
+  "奥克兰": {
+    "full_title": "北岛（奥克兰、罗托鲁瓦）- 3天",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "奥克兰：天空塔、海港",
+        "transport": "🚶 步行",
+        "stay": "奥克兰"
+      },
+      {
+        "day": "Day 2",
+        "activity": "奥克兰→罗托鲁瓦：毛利文化、地热公园",
+        "transport": "🚗 自驾2.5h",
+        "stay": "罗托鲁瓦"
+      },
+      {
+        "day": "Day 3",
+        "activity": "霍比屯、返回",
+        "transport": "🚗 自驾",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "皇后镇": {
+    "full_title": "皇后镇",
+    "best_season": "12-2月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "跳伞/蹦极、天际缆车",
+        "transport": "🚶 步行",
+        "stay": "皇后镇"
+      },
+      {
+        "day": "Day 2",
+        "activity": "米尔福德峡湾一日游",
+        "transport": "大巴",
+        "stay": "皇后镇"
+      }
+    ],
+    "tags": {
+      "户外探险": 0.9
+    }
+  }
+}

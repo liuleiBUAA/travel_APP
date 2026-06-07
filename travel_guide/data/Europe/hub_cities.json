@@ -1,0 +1,32 @@
+{
+  "说明": "欧洲国际门户城市配置 - 中国直飞城市",
+  "hubs": {
+    "巴黎": {"region": "法国", "direct_flight": true},
+    "伦敦": {"region": "英国", "direct_flight": true},
+    "法兰克福": {"region": "德国", "direct_flight": true},
+    "慕尼黑": {"region": "德国", "direct_flight": true},
+    "柏林": {"region": "德国", "direct_flight": true},
+    "阿姆斯特丹": {"region": "荷兰", "direct_flight": true},
+    "罗马": {"region": "意大利", "direct_flight": true},
+    "米兰": {"region": "意大利", "direct_flight": true},
+    "威尼斯": {"region": "意大利", "direct_flight": true},
+    "马德里": {"region": "西班牙", "direct_flight": true},
+    "巴塞罗那": {"region": "西班牙", "direct_flight": true},
+    "苏黎世": {"region": "瑞士", "direct_flight": true},
+    "日内瓦": {"region": "瑞士", "direct_flight": true},
+    "维也纳": {"region": "奥地利", "direct_flight": true},
+    "哥本哈根": {"region": "丹麦", "direct_flight": true},
+    "斯德哥尔摩": {"region": "瑞典", "direct_flight": true},
+    "奥斯陆": {"region": "挪威", "direct_flight": true},
+    "赫尔辛基": {"region": "芬兰", "direct_flight": true},
+    "雷克雅未克": {"region": "冰岛", "direct_flight": true},
+    "伊斯坦布尔": {"region": "土耳其", "direct_flight": true},
+    "雅典": {"region": "希腊", "direct_flight": true},
+    "布拉格": {"region": "捷克", "direct_flight": true},
+    "布达佩斯": {"region": "匈牙利", "direct_flight": true},
+    "里斯本": {"region": "葡萄牙", "direct_flight": true},
+    "波尔图": {"region": "葡萄牙", "direct_flight": true},
+    "迪拜": {"region": "阿联酋", "direct_flight": true},
+    "开罗": {"region": "埃及", "direct_flight": true}
+  }
+}

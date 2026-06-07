@@ -1,0 +1,240 @@
+{
+  "description": "19条经典旅游路线配置 - 自动生成，所有城市均在destinations.json中存在",
+  "global_config": {
+    "same_day_max_hours": 4.0,
+    "force_gateway_departure": true,
+    "force_order": false,
+    "options_display_mode": "compact",
+    "transport_preference": "auto"
+  },
+  "routes": [
+    {
+      "name": "英国全景",
+      "region": "Europe",
+      "cities": [
+        "伦敦",
+        "牛津",
+        "英国湖区",
+        "爱丁堡",
+        "苏格兰高地",
+        "伦敦"
+      ],
+      "config": {
+        "force_order": true
+      }
+    },
+    {
+      "name": "法国经典",
+      "region": "Europe",
+      "cities": [
+        "巴黎",
+        "蔚蓝海岸（尼斯/摩纳哥/戛纳）",
+        "普罗旺斯（阿维尼翁/马赛）",
+        "圣米歇尔山/圣马洛",
+        "霞慕尼/安纳西",
+        "巴黎"
+      ],
+      "config": {
+        "force_order": true
+      }
+    },
+    {
+      "name": "意大利经典",
+      "region": "Europe",
+      "cities": [
+        "罗马",
+        "佛罗伦萨",
+        "威尼斯",
+        "米兰"
+      ],
+      "config": {
+        "force_order": false
+      }
+    },
+    {
+      "name": "瑞士湖光山色",
+      "region": "Europe",
+      "cities": [
+        "卢塞恩",
+        "因特拉肯",
+        "采尔马特"
+      ]
+    },
+    {
+      "name": "西班牙文化",
+      "region": "Europe",
+      "cities": [
+        "马略卡岛",
+        "格拉纳达",
+        "阿维拉",
+        "马德里",
+        "巴塞罗那",
+        "马略卡岛"
+      ],
+      "config": {
+        "force_order": true
+      }
+    },
+    {
+      "name": "希腊浪漫",
+      "region": "Europe",
+      "cities": [
+        "罗德岛",
+        "雅典",
+        "克里特岛",
+        "罗德岛"
+      ],
+      "config": {
+        "force_order": true
+      }
+    },
+    {
+      "name": "中欧文化",
+      "region": "Europe",
+      "cities": [
+        "布拉格",
+        "维也纳",
+        "布达佩斯"
+      ]
+    },
+    {
+      "name": "北欧三国",
+      "region": "Europe",
+      "cities": [
+        "挪威",
+        "冰岛（8天环线）",
+        "罗弗敦"
+      ]
+    },
+    {
+      "name": "土耳其文化",
+      "region": "Europe",
+      "cities": [
+        "伊斯坦布尔",
+        "伊兹密尔",
+        "卡帕多奇亚",
+        "安塔利亚",
+        "伊斯坦布尔"
+      ],
+      "config": {
+        "force_order": true
+      }
+    },
+    {
+      "name": "美西海岸",
+      "region": "North_America",
+      "cities": [
+        "西雅图",
+        "波特兰",
+        "旧金山",
+        "洛杉矶"
+      ]
+    },
+    {
+      "name": "加州精华",
+      "region": "North_America",
+      "cities": [
+        "旧金山",
+        "洛杉矶",
+        "圣地亚哥",
+        "旧金山"
+      ]
+    },
+    {
+      "name": "美东文化",
+      "region": "North_America",
+      "cities": [
+        "纽约",
+        "费城",
+        "华盛顿",
+        "波士顿"
+      ]
+    },
+    {
+      "name": "加拿大西部",
+      "region": "North_America",
+      "cities": [
+        "温哥华",
+        "班夫国家公园",
+        "贾斯珀国家公园",
+        "温哥华"
+      ],
+      "config": {
+        "force_order": true
+      }
+    },
+    {
+      "name": "加拿大东部",
+      "region": "North_America",
+      "cities": [
+        "多伦多",
+        "尼亚加拉瀑布",
+        "多伦多"
+      ],
+      "config": {
+        "force_order": true
+      }
+    },
+    {
+      "name": "澳洲东海岸",
+      "region": "Oceania",
+      "cities": [
+        "悉尼",
+        "黄金海岸",
+        "凯恩斯",
+        "悉尼"
+      ],
+      "config": {
+        "force_order": true
+      }
+    },
+    {
+      "name": "澳洲南部",
+      "region": "Oceania",
+      "cities": [
+        "墨尔本",
+        "大洋路",
+        "塔斯马尼亚",
+        "墨尔本"
+      ],
+      "config": {
+        "force_order": true
+      }
+    },
+    {
+      "name": "新西兰南北岛",
+      "region": "Oceania",
+      "cities": [
+        "奥克兰",
+        "南岛",
+        "皇后镇",
+        "北岛",
+        "奥克兰"
+      ],
+      "config": {
+        "force_order": true
+      }
+    },
+    {
+      "name": "日本关西关东",
+      "region": "Asia",
+      "cities": [
+        "东京",
+        "京都",
+        "大阪",
+        "奈良",
+        "东京"
+      ]
+    },
+    {
+      "name": "日本全景",
+      "region": "Asia",
+      "cities": [
+        "东京",
+        "大阪",
+        "北海道",
+        "京都"
+      ]
+    }
+  ]
+}

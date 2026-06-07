@@ -1,0 +1,45 @@
+{
+  "里斯本": {
+    "full_title": "里斯本",
+    "best_season": "3-5月、9-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "贝伦塔、哲罗姆派修道院",
+        "transport": "🚶 步行",
+        "stay": "里斯本"
+      },
+      {
+        "day": "Day 2",
+        "activity": "罗卡角、阿尔法玛老城",
+        "transport": "🚶 步行",
+        "stay": "里斯本"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.7
+    }
+  },
+  "波尔图": {
+    "full_title": "波尔图",
+    "best_season": "3-5月、9-10月",
+    "tags": {
+      "人文历史": 0.7,
+      "小镇村落": 0.8
+    },
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "杜罗河畔、波特酒窖",
+        "transport": "🚶 步行",
+        "stay": "波尔图"
+      },
+      {
+        "day": "Day 2",
+        "activity": "莱罗书店、返回",
+        "transport": "🚶 步行",
+        "stay": "-"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1853 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>找搭子 - 智能旅行匹配</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            background: #0f0c29;
+            background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
+            min-height: 100vh;
+            padding: 24px;
+            color: #333;
+        }
+
+        .container { max-width: 960px; margin: 0 auto; }
+
+        /* ---- Header ---- */
+        .header { text-align: center; color: white; margin-bottom: 0; padding: 28px 0 18px; }
+        .header h1 { font-size: 36px; font-weight: 800; letter-spacing: 2px; background: linear-gradient(90deg, #a78bfa, #f472b6, #fb923c); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .header p { font-size: 14px; opacity: 0.6; margin-top: 6px; letter-spacing: 1px; }
+        .header-btn { padding: 7px 18px; border-radius: 20px; cursor: pointer; font-size: 13px; border: none; transition: all 0.2s; margin: 0 4px; }
+        .header-btn-outline { background: rgba(255,255,255,0.15); color: #fff; border: 1px solid rgba(255,255,255,0.4); }
+        .header-btn-outline:hover { background: rgba(255,255,255,0.25); }
+        .header-btn-solid { background: #fff; color: #6366f1; font-weight: 600; }
+        .header-btn-solid:hover { background: #eef2ff; }
+
+        /* ---- Tabs ---- */
+        .tab-nav { display: flex; justify-content: center; gap: 4px; margin-bottom: 24px; background: rgba(255,255,255,0.08); border-radius: 14px; padding: 4px; max-width: 480px; margin-left: auto; margin-right: auto; }
+        .tab-item { flex: 1; text-align: center; padding: 10px 0; color: rgba(255,255,255,0.6); font-size: 14px; font-weight: 600; cursor: pointer; border-radius: 10px; transition: all 0.25s; }
+        .tab-item:hover { color: rgba(255,255,255,0.9); }
+        .tab-item.active { background: rgba(255,255,255,0.95); color: #6366f1; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .tab-content { display: none; animation: fadeIn 0.3s; }
+        .tab-content.active { display: block; }
+
+        /* ---- Two-col layout ---- */
+        .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+        .inline-group { display: flex; align-items: center; gap: 8px; }
+        .inline-group input { width: 80px; }
+        .inline-group span { color: #94a3b8; font-size: 13px; }
+        .clear-link { color: #e879f9; font-size: 13px; cursor: pointer; font-weight: 500; }
+        .clear-link:hover { color: #c026d3; }
+        .hint { color: #94a3b8; font-size: 13px; padding: 10px; }
+
+        /* ---- Chips ---- */
+        .chip-group { display: flex; flex-wrap: wrap; gap: 8px; }
+        .chip { display: flex; align-items: center; gap: 5px; cursor: pointer; padding: 6px 14px; border: 1.5px solid #e2e8f0; border-radius: 20px; font-size: 13px; transition: all 0.2s; }
+        .chip:has(input:checked) { background: #eef2ff; border-color: #818cf8; color: #6366f1; font-weight: 500; }
+        .chip input { display: none; }
+        .check-label { display: flex; align-items: center; gap: 6px; font-size: 13px; cursor: pointer; font-weight: 500; color: #555; }
+        .check-label input { width: auto !important; accent-color: #6366f1; }
+
+        /* ---- Card (glassmorphism) ---- */
+        .card {
+            background: rgba(255,255,255,0.92);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 18px;
+            padding: 26px;
+            border: 1px solid rgba(255,255,255,0.3);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+            transition: transform 0.25s, box-shadow 0.25s;
+        }
+        .card:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(0,0,0,0.18); }
+
+        .card h2 { color: #6366f1; margin-bottom: 22px; font-size: 20px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+
+        /* ---- Form ---- */
+        .form-group { margin-bottom: 16px; }
+        .form-group label { display: block; margin-bottom: 6px; color: #555; font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 0.5px; }
+        .form-group input, .form-group select, .form-group textarea {
+            width: 100%; padding: 10px 14px; border: 1.5px solid #e2e8f0; border-radius: 10px; font-size: 14px;
+            background: #f8fafc; transition: all 0.2s;
+        }
+        .form-group input:focus, .form-group select:focus, .form-group textarea:focus { outline: none; border-color: #818cf8; background: #fff; box-shadow: 0 0 0 3px rgba(129,140,248,0.15); }
+
+        /* ---- Autocomplete ---- */
+        .autocomplete-container { position: relative; }
+        .autocomplete-items { position: absolute; border: 1px solid #e2e8f0; border-top: none; z-index: 99; top: 100%; left: 0; right: 0; max-height: 200px; overflow-y: auto; background: white; border-radius: 0 0 10px 10px; box-shadow: 0 8px 24px rgba(0,0,0,0.1); }
+        .autocomplete-items div { padding: 10px 14px; cursor: pointer; border-bottom: 1px solid #f1f5f9; font-size: 14px; }
+        .autocomplete-items div:hover { background: #eef2ff; }
+
+        /* ---- Tags ---- */
+        .city-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; min-height: 38px; padding: 8px; border: 1.5px dashed #cbd5e1; border-radius: 10px; background: #f8fafc; }
+        .city-tag { background: linear-gradient(135deg, #6366f1, #a855f7); color: white; padding: 5px 14px; border-radius: 20px; font-size: 12px; font-weight: 500; display: flex; align-items: center; gap: 6px; box-shadow: 0 2px 6px rgba(99,102,241,0.25); }
+        .city-tag .remove { cursor: pointer; font-weight: bold; opacity: 0.8; }
+        .city-tag .remove:hover { opacity: 1; }
+
+        /* ---- Region / Country / City Selectors ---- */
+        .region-selector { display: flex; gap: 8px; margin-bottom: 14px; }
+        .region-btn { flex: 1; padding: 9px; background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 10px; cursor: pointer; font-size: 13px; font-weight: 600; transition: all 0.2s; text-align: center; }
+        .region-btn:hover { border-color: #818cf8; background: #eef2ff; }
+        .region-btn.active { background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; border-color: transparent; box-shadow: 0 3px 12px rgba(99,102,241,0.3); }
+
+        .country-selector { display: grid; grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); gap: 6px; margin-bottom: 14px; }
+        .country-btn { padding: 8px; background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 8px; cursor: pointer; font-size: 13px; font-weight: 500; transition: all 0.2s; text-align: center; }
+        .country-btn:hover { border-color: #f0abfc; background: #fdf4ff; }
+        .country-btn.active { background: linear-gradient(135deg, #e879f9, #f472b6); color: white; border-color: transparent; box-shadow: 0 3px 12px rgba(232,121,249,0.3); }
+
+        .popular-cities { display: grid; grid-template-columns: repeat(auto-fill, minmax(90px, 1fr)); gap: 6px; margin-bottom: 14px; min-height: 80px; }
+        .popular-city { padding: 10px 6px; background: #f8fafc; border: 1.5px solid #e2e8f0; border-radius: 10px; text-align: center; cursor: pointer; font-size: 13px; transition: all 0.2s; }
+        .popular-city .city-name { font-weight: 600; font-size: 13px; }
+        .popular-city .country-name { font-size: 10px; color: #94a3b8; margin-top: 2px; }
+        .popular-city:hover { background: #6366f1; color: white; transform: translateY(-2px); border-color: transparent; box-shadow: 0 4px 14px rgba(99,102,241,0.3); }
+        .popular-city:hover .country-name { color: rgba(255,255,255,0.8); }
+        .popular-city.selected { background: #6366f1; color: white; border-color: transparent; }
+        .popular-city.selected .country-name { color: rgba(255,255,255,0.8); }
+
+        /* ---- Buttons ---- */
+        .btn { width: 100%; padding: 12px; background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; border: none; border-radius: 12px; font-size: 15px; font-weight: 700; cursor: pointer; transition: all 0.25s; letter-spacing: 0.5px; }
+        .btn:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(99,102,241,0.4); }
+        .btn:active { transform: translateY(0); }
+        .btn-secondary { background: linear-gradient(135deg, #e879f9, #f472b6); }
+        .btn-secondary:hover { box-shadow: 0 6px 20px rgba(232,121,249,0.4); }
+        .btn-success { background: linear-gradient(135deg, #10b981, #34d399); }
+        .btn-success:hover { box-shadow: 0 6px 20px rgba(16,185,129,0.4); }
+
+        .recommend-btn { width: 100%; padding: 10px; background: linear-gradient(135deg, #e879f9, #f472b6); color: white; border: none; border-radius: 10px; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.25s; display: flex; align-items: center; justify-content: center; gap: 8px; }
+        .recommend-btn:hover { transform: translateY(-2px); box-shadow: 0 5px 18px rgba(232,121,249,0.4); }
+
+        .icon-btn { width: 36px; height: 36px; border: none; background: linear-gradient(135deg, #e879f9, #f472b6); color: white; border-radius: 8px; cursor: pointer; font-size: 18px; }
+
+        /* ---- Result section ---- */
+
+        /* ---- Route Display ---- */
+        .route-display { background: rgba(248,250,252,0.8); padding: 20px; border-radius: 14px; margin-top: 16px; max-height: 500px; overflow-y: auto; }
+        .route-display h3 { color: #6366f1; margin-bottom: 16px; font-size: 18px; font-weight: 700; }
+
+        .route-summary { background: white; padding: 16px; border-radius: 12px; margin-bottom: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
+        .route-stat { text-align: center; }
+        .route-stat .number { font-size: 28px; font-weight: 800; background: linear-gradient(135deg, #6366f1, #a855f7); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .route-stat .label { font-size: 12px; color: #94a3b8; margin-top: 4px; font-weight: 500; }
+
+        .route-day { background: white; padding: 16px; margin-bottom: 10px; border-radius: 12px; border-left: 4px solid #6366f1; box-shadow: 0 2px 10px rgba(0,0,0,0.04); transition: all 0.2s; }
+        .route-day:hover { transform: translateX(4px); box-shadow: 0 4px 16px rgba(0,0,0,0.08); }
+        .route-day:nth-child(even) { border-left-color: #a855f7; }
+        .route-day-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+        .route-day-number { font-size: 15px; font-weight: 700; color: #6366f1; }
+        .route-day-number::before { content: ''; }
+        .route-day-city { font-size: 12px; color: #6366f1; background: #eef2ff; padding: 4px 12px; border-radius: 12px; font-weight: 500; }
+        .route-day-activity { font-size: 13px; color: #475569; line-height: 1.8; margin-bottom: 8px; padding: 10px 12px; background: #f8fafc; border-radius: 8px; }
+        .route-day-activity::before { content: ''; display: none; }
+        .route-day-transport { font-size: 12px; color: #64748b; padding: 6px 10px; background: #f0f9ff; border-radius: 6px; }
+        .route-day-transport::before { content: ''; display: none; }
+        .route-day-transport .icon { display: none; }
+
+        /* ---- Match Cards ---- */
+        .match-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 16px; margin-top: 20px; }
+        .match-card { background: white; border-radius: 16px; padding: 22px; position: relative; overflow: hidden; transition: all 0.25s; border: 1px solid #e2e8f0; }
+        .match-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, #6366f1, #a855f7, #e879f9); }
+        .match-card:hover { transform: translateY(-4px); box-shadow: 0 12px 36px rgba(0,0,0,0.12); }
+        .match-score { position: absolute; top: 14px; right: 14px; background: linear-gradient(135deg, #6366f1, #8b5cf6); color: white; padding: 6px 14px; border-radius: 20px; font-weight: 700; font-size: 13px; box-shadow: 0 3px 10px rgba(99,102,241,0.3); }
+        .match-user { font-size: 18px; font-weight: 700; color: #1e293b; margin-bottom: 8px; }
+        .match-date { color: #94a3b8; margin-bottom: 14px; font-size: 13px; }
+        .match-cities { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 14px; }
+        .city-badge { background: #eef2ff; padding: 4px 12px; border-radius: 14px; font-size: 12px; color: #6366f1; font-weight: 500; }
+        .match-info { font-size: 12px; color: #64748b; line-height: 1.7; }
+
+        /* ---- Messages ---- */
+        .loading { text-align: center; color: #818cf8; font-size: 15px; padding: 20px; }
+        .error { background: #fef2f2; color: #dc2626; padding: 12px 16px; border-radius: 10px; margin-top: 10px; font-size: 13px; border: 1px solid #fecaca; }
+        .success { background: #f0fdf4; color: #16a34a; padding: 12px 16px; border-radius: 10px; margin-top: 10px; font-size: 13px; border: 1px solid #bbf7d0; }
+
+        /* ---- Recommend Result ---- */
+        .recommend-result { margin-top: 16px; padding: 16px; background: #f8fafc; border-radius: 12px; border: 1px solid #e2e8f0; }
+        .recommend-result h4 { color: #6366f1; margin-bottom: 10px; font-size: 15px; font-weight: 600; }
+        .recommend-cities { display: flex; flex-wrap: wrap; gap: 8px; }
+        .recommend-city-tag { background: linear-gradient(135deg, #6366f1, #a855f7); color: white; padding: 5px 14px; border-radius: 20px; font-size: 12px; font-weight: 500; box-shadow: 0 2px 6px rgba(99,102,241,0.25); }
+
+        /* ---- Modal ---- */
+        .modal { display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background: rgba(15,12,41,0.6); backdrop-filter: blur(4px); animation: fadeIn 0.25s; }
+        .modal.active { display: flex; align-items: center; justify-content: center; }
+        .modal-content { background: white; border-radius: 20px; padding: 32px; max-width: 480px; width: 92%; max-height: 90vh; overflow-y: auto; animation: slideUp 0.3s; box-shadow: 0 20px 60px rgba(0,0,0,0.25); }
+        .modal-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+        .modal-header h3 { color: #6366f1; font-size: 20px; font-weight: 700; margin: 0; }
+        .close-btn { background: none; border: none; font-size: 26px; color: #94a3b8; cursor: pointer; padding: 0; width: 32px; height: 32px; line-height: 1; border-radius: 8px; transition: all 0.2s; }
+        .close-btn:hover { color: #6366f1; background: #eef2ff; }
+
+        .manual-inputs { display: grid; gap: 10px; }
+        .manual-city-item { display: grid; grid-template-columns: 1fr auto auto; gap: 10px; align-items: center; }
+        .manual-city-item input { margin: 0; }
+
+        /* ---- Animations ---- */
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        @keyframes slideUp { from { transform: translateY(30px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+
+        /* ---- Responsive ---- */
+        @media (max-width: 768px) {
+            .two-col { grid-template-columns: 1fr; }
+            .form-row { grid-template-columns: 1fr; }
+        }
+        @media (max-width: 600px) {
+            body { padding: 12px; }
+            .header h1 { font-size: 28px; }
+            .card { padding: 18px; border-radius: 14px; }
+            .region-selector { flex-wrap: wrap; }
+            .match-list { grid-template-columns: 1fr; }
+            .tab-nav { max-width: 100%; }
+            .tab-item { font-size: 13px; padding: 8px 0; }
+        }
+
+        /* ---- Scrollbar ---- */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>找搭子</h1>
+            <p>智能旅行路线匹配 · 遇见志同道合的旅伴</p>
+            <div id="userBar" style="margin-top:15px;">
+                <span id="userBarLoggedOut">
+                    <button onclick="showAuthModal('login')" class="header-btn header-btn-outline">登录</button>
+                    <button onclick="showAuthModal('register')" class="header-btn header-btn-solid">注册</button>
+                </span>
+                <span id="userBarLoggedIn" style="display:none;color:#fff;font-size:14px;">
+                    <strong id="userBarNickname"></strong>
+                    <button onclick="showProfileModal()" class="header-btn header-btn-outline" style="margin-left:10px;padding:5px 14px;font-size:12px;">编辑资料</button>
+                    <button onclick="logout()" style="background:none;color:rgba(255,255,255,0.6);border:none;cursor:pointer;font-size:12px;margin-left:6px;">退出</button>
+                </span>
+            </div>
+        </div>
+
+        <!-- Tab Navigation -->
+        <div class="tab-nav">
+            <div class="tab-item active" onclick="switchTab('publish')">选城市 & 发布</div>
+            <div class="tab-item" onclick="switchTab('guide')">生成攻略</div>
+            <div class="tab-item" onclick="switchTab('match')">找搭子</div>
+        </div>
+
+        <!-- ==================== Tab 1: 选城市 & 发布 ==================== -->
+        <div id="tab-publish" class="tab-content active">
+            <div class="two-col">
+                <!-- 左：选城市 -->
+                <div class="card">
+                    <h2>选择目的地</h2>
+
+                    <!-- 模式切换 -->
+                    <div class="form-group">
+                        <label>输入方式</label>
+                        <div class="chip-group">
+                            <label class="chip"><input type="radio" name="inputMode" value="smart" checked onchange="switchInputMode()"><span>智能选城</span></label>
+                            <label class="chip"><input type="radio" name="inputMode" value="manual" onchange="switchInputMode()"><span>手动输入</span></label>
+                        </div>
+                    </div>
+
+                    <!-- 智能选城模式 -->
+                    <div id="smartModeContainer">
+                        <div class="form-group">
+                            <label>选择区域</label>
+                            <div class="region-selector" id="regionSelector">
+                                <div class="region-btn active" onclick="selectRegion('欧洲')">欧洲</div>
+                                <div class="region-btn" onclick="selectRegion('亚洲')">亚洲</div>
+                                <div class="region-btn" onclick="selectRegion('北美')">北美</div>
+                                <div class="region-btn" onclick="selectRegion('大洋洲')">大洋洲</div>
+                            </div>
+                        </div>
+
+                    <div class="form-group">
+                        <label>选择国家</label>
+                        <div class="country-selector" id="countrySelector">
+                            <p class="hint">加载中...</p>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>选择城市</label>
+                        <div class="popular-cities" id="popularCities">
+                            <p class="hint">请先选择国家</p>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>或手动输入（回车添加）</label>
+                        <div class="autocomplete-container">
+                            <input type="text" id="cityInput" placeholder="输入城市名">
+                            <div class="autocomplete-items" id="autocompleteList"></div>
+                        </div>
+                    </div>
+
+                        <div style="display:flex;justify-content:space-between;align-items:center;margin:12px 0 6px;">
+                            <label style="margin:0;">已选城市</label>
+                            <span class="clear-link" onclick="clearAllCities()">清空全部</span>
+                        </div>
+                        <div class="city-tags" id="selectedCities"></div>
+
+                        <button type="button" class="recommend-btn" onclick="showRecommendModal()" style="margin-top:16px;">
+                            ✨ 智能推荐路线
+                        </button>
+                    </div>
+
+                    <!-- 手动输入模式 -->
+                    <div id="manualModeContainer" style="display:none;">
+                        <div class="form-group">
+                            <label>选择区域</label>
+                            <select id="manualRegion" style="width:100%;" onchange="loadManualCountries()">
+                                <option value="Europe">欧洲</option>
+                                <option value="North_America">北美</option>
+                                <option value="Asia">亚洲</option>
+                                <option value="Oceania">大洋洲</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>选择国家（多选）</label>
+                            <div id="manualCountrySelector" class="chip-group">
+                                <p class="hint">加载中...</p>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>输入城市（逗号分隔）</label>
+                            <textarea id="manualCities" rows="3" placeholder="例如：卢森堡, 布鲁日, 科尔马" style="resize:vertical;"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label>各城市停留天数（可选）</label>
+                            <textarea id="manualDays" rows="3" placeholder="格式：城市名:天数，逗号分隔&#10;例如：卢森堡:2, 布鲁日:2, 科尔马:1" style="resize:vertical;"></textarea>
+                        </div>
+
+                        <div id="manualPreview" style="margin-top:12px;padding:10px;background:#f8fafc;border-radius:8px;display:none;">
+                            <strong>预览路线：</strong>
+                            <div id="manualPreviewContent" style="margin-top:8px;color:#666;font-size:13px;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 右：发布信息 -->
+                <div class="card">
+                    <h2>发布行程</h2>
+                    <form id="publishForm">
+                        <div class="form-group">
+                            <label>昵称</label>
+                            <input type="text" id="userName" placeholder="输入昵称" value="" required>
+                        </div>
+                        <div class="form-group">
+                            <label>出发日期</label>
+                            <input type="date" id="travelDate" value="2026-05-15" required>
+                        </div>
+                        <div class="form-group">
+                            <label>找搭子人数</label>
+                            <div class="inline-group">
+                                <input type="number" id="peopleMin" value="1" min="1" max="10">
+                                <span>-</span>
+                                <input type="number" id="peopleMax" value="2" min="1" max="10">
+                                <span>人</span>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>性别要求</label>
+                                <select id="gender"><option value="不限" selected>不限</option><option value="男">仅限男生</option><option value="女">仅限女生</option></select>
+                            </div>
+                            <div class="form-group">
+                                <label>交通方式</label>
+                                <select id="transportMode"><option value="不限" selected>不限</option><option value="公共交通为主">公共交通</option><option value="自驾为主">自驾</option><option value="混合">混合</option></select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>住宿安排</label>
+                                <select id="accommodation"><option value="不限" selected>不限</option><option value="可拼房">可拼房</option><option value="各住各的">各住各的</option></select>
+                            </div>
+                            <div class="form-group">
+                                <label>拍照技能</label>
+                                <select id="goodAtPhoto"><option value="不限" selected>不限</option><option value="一般">一般</option><option value="擅长">擅长</option><option value="大师">大师</option></select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>消费水平（多选）</label>
+                            <div class="chip-group">
+                                <label class="chip"><input type="checkbox" name="budgetLevel" value="穷游"><span>穷游</span></label>
+                                <label class="chip"><input type="checkbox" name="budgetLevel" value="经济" checked><span>经济</span></label>
+                                <label class="chip"><input type="checkbox" name="budgetLevel" value="舒适"><span>舒适</span></label>
+                                <label class="chip"><input type="checkbox" name="budgetLevel" value="轻奢"><span>轻奢</span></label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>你们的组成</label>
+                            <div class="inline-group">
+                                <input type="number" id="userMaleCount" value="0" min="0" max="10">
+                                <span>男</span>
+                                <input type="number" id="userFemaleCount" value="1" min="0" max="10">
+                                <span>女</span>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn">发布行程</button>
+                    </form>
+                    <div id="publishResult"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== Tab 2: 生成攻略 ==================== -->
+        <div id="tab-guide" class="tab-content">
+            <div class="card" style="max-width:800px;margin:0 auto;">
+                <h2>生成攻略</h2>
+
+                <div class="form-group">
+                    <label>已选城市</label>
+                    <div class="city-tags" id="routeCities">
+                        <p class="hint">请先在「选城市」页选择城市</p>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="check-label"><input type="checkbox" id="forceGateway" checked> 大城市出发/离开</label>
+                    </div>
+                    <div class="form-group">
+                        <label class="check-label"><input type="checkbox" id="forceOrder"> 保持输入顺序</label>
+                    </div>
+                    <div class="form-group">
+                        <label>单日最大行程</label>
+                        <select id="sameDayMaxHours"><option value="3">3h</option><option value="4" selected>4h</option><option value="5">5h</option><option value="6">6h</option></select>
+                    </div>
+                    <div class="form-group">
+                        <label>交通偏好</label>
+                        <select id="transportPreference">
+                            <option value="auto" selected>自动</option>
+                            <option value="train">优先火车</option>
+                            <option value="flight">优先飞机</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>显示模式</label>
+                        <select id="optionsDisplayMode">
+                            <option value="compact" selected>精简</option>
+                            <option value="detailed">详细</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>指定起点城市（可选）</label>
+                        <input type="text" id="destStartNode" placeholder="例如：巴黎"
+                               style="width: 100%; padding: 8px; border: 2px solid #e0e0e0; border-radius: 8px;">
+                    </div>
+                    <div class="form-group">
+                        <label>指定终点城市（可选）</label>
+                        <input type="text" id="destEndNode" placeholder="例如：罗马"
+                               style="width: 100%; padding: 8px; border: 2px solid #e0e0e0; border-radius: 8px;">
+                    </div>
+                </div>
+
+                <button class="btn btn-success" onclick="generateRoute()">生成完整攻略</button>
+                <div id="routeResult"></div>
+
+                <div id="routeDisplay" class="route-display" style="display:none;">
+                    <div id="routeItinerary"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ==================== Tab 3: 找搭子 ==================== -->
+        <div id="tab-match" class="tab-content">
+            <!-- 搜索搭子 -->
+            <div class="card" style="max-width:600px;margin:0 auto 24px;">
+                <h2>搜索搭子</h2>
+                <div class="form-group">
+                    <label>输入目的地关键词（城市/国家）</label>
+                    <div style="display:flex;gap:10px;">
+                        <input type="text" id="searchKeyword" placeholder="例如：日本、巴黎、意大利" style="flex:1;" onkeypress="if(event.key==='Enter')searchCompanions()">
+                        <button class="btn btn-secondary" style="width:auto;padding:10px 24px;" onclick="searchCompanions()">搜索</button>
+                    </div>
+                </div>
+                <div id="searchResult"></div>
+                <div id="searchList" class="match-list"></div>
+            </div>
+
+            <!-- 精确匹配 -->
+            <div class="card" style="max-width:600px;margin:0 auto 24px;">
+                <h2>精确匹配</h2>
+                <form id="matchForm">
+                    <div class="form-group">
+                        <label>你的路线</label>
+                        <div class="city-tags" id="matchCitiesDisplay">
+                            <p class="hint">将使用已选城市进行匹配</p>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>出发日期</label>
+                            <input type="date" id="matchDate" value="2026-05-15" required>
+                        </div>
+                        <div class="form-group">
+                            <label>时间灵活度</label>
+                            <select id="flexibility"><option value="3">±3天</option><option value="5">±5天</option><option value="7" selected>±7天</option><option value="14">±14天</option></select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>找搭子人数（可选）</label>
+                        <div class="inline-group">
+                            <input type="number" id="matchPeopleMin" value="" min="1" max="10" placeholder="最少">
+                            <span>-</span>
+                            <input type="number" id="matchPeopleMax" value="" min="1" max="10" placeholder="最多">
+                            <span>人</span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>性别要求（可选）</label>
+                            <select id="matchGender"><option value="" selected>不限</option><option value="男">仅限男生</option><option value="女">仅限女生</option></select>
+                        </div>
+                        <div class="form-group">
+                            <label>交通方式（可选）</label>
+                            <select id="matchTransportMode"><option value="" selected>不限</option><option value="公共交通为主">公共交通</option><option value="自驾为主">自驾</option><option value="混合">混合</option></select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>住宿安排（可选）</label>
+                            <select id="matchAccommodation"><option value="" selected>不限</option><option value="可拼房">可拼房</option><option value="各住各的">各住各的</option></select>
+                        </div>
+                        <div class="form-group">
+                            <label>拍照技能（可选）</label>
+                            <select id="matchGoodAtPhoto"><option value="" selected>不限</option><option value="一般">一般</option><option value="擅长">擅长</option><option value="大师">大师</option></select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>消费水平（可选，多选）</label>
+                        <div class="chip-group">
+                            <label class="chip"><input type="checkbox" name="matchBudgetLevel" value="穷游"><span>穷游</span></label>
+                            <label class="chip"><input type="checkbox" name="matchBudgetLevel" value="经济"><span>经济</span></label>
+                            <label class="chip"><input type="checkbox" name="matchBudgetLevel" value="舒适"><span>舒适</span></label>
+                            <label class="chip"><input type="checkbox" name="matchBudgetLevel" value="轻奢"><span>轻奢</span></label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>你们的组成（可选）</label>
+                        <div class="inline-group">
+                            <input type="number" id="matchUserMaleCount" value="" min="0" max="10" placeholder="男生">
+                            <span>男</span>
+                            <input type="number" id="matchUserFemaleCount" value="" min="0" max="10" placeholder="女生">
+                            <span>女</span>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-secondary">开始匹配</button>
+                </form>
+                <div id="matchResult"></div>
+                <div id="matchFilters" style="display:none;margin-top:14px;padding:14px;background:#f8fafc;border-radius:10px;font-size:13px;">
+                    <div style="font-weight:600;color:#6366f1;margin-bottom:6px;">匹配筛选条件</div>
+                    <div id="matchFiltersContent"></div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>匹配结果</h2>
+                <div id="matchList" class="match-list">
+                    <p class="hint">选择城市并点击「开始匹配」查看相似路线的搭子</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 智能推荐弹窗 -->
+    <div id="recommendModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>✨ 智能推荐路线</h3>
+                <button class="close-btn" onclick="closeRecommendModal()">&times;</button>
+            </div>
+
+            <div class="form-group">
+                <label>旅行月份</label>
+                <select id="recommendMonth" style="width: 100%; padding: 10px; border: 2px solid #e0e0e0; border-radius: 10px;">
+                    <option value="1">1月 - 冬季</option>
+                    <option value="2">2月 - 冬季</option>
+                    <option value="3">3月 - 春季</option>
+                    <option value="4">4月 - 春季</option>
+                    <option value="5" selected>5月 - 春季</option>
+                    <option value="6">6月 - 夏季</option>
+                    <option value="7">7月 - 夏季</option>
+                    <option value="8">8月 - 夏季</option>
+                    <option value="9">9月 - 秋季</option>
+                    <option value="10">10月 - 秋季</option>
+                    <option value="11">11月 - 秋季</option>
+                    <option value="12">12月 - 冬季</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>计划天数（可不填，不填则自动推荐）</label>
+                <input type="number" id="recommendDays" placeholder="留空则自动推荐天数" min="3" max="30"
+                       style="width: 100%; padding: 10px; border: 2px solid #e0e0e0; border-radius: 10px;">
+            </div>
+
+            <div class="form-group">
+                <label>旅行区域</label>
+                <select id="recommendRegion" style="width: 100%; padding: 10px; border: 2px solid #e0e0e0; border-radius: 10px;">
+                    <option value="Europe" selected>欧洲 Europe</option>
+                    <option value="Asia">亚洲 Asia</option>
+                    <option value="North_America">北美 North America</option>
+                    <option value="Oceania">大洋洲 Oceania</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>国家筛选（可选，可多选）</label>
+                <div class="country-selector" id="recommendCountrySelector">
+                    <p style="color:#999; font-size:13px; padding:10px;">请先选择区域</p>
+                </div>
+                <small style="color: #999; font-size: 12px; margin-top: 5px; display: block;">
+                    选择后只推荐这些国家的目的地，不选则推荐整个区域
+                </small>
+            </div>
+
+            <div class="form-group">
+                <label>旅行主题（可选，可多选）</label>
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-top: 5px;">
+                    <label style="display: flex; align-items: center; cursor: pointer;">
+                        <input type="checkbox" value="自然风光" style="margin-right: 5px;">
+                        <span>🏞️ 自然风光</span>
+                    </label>
+                    <label style="display: flex; align-items: center; cursor: pointer;">
+                        <input type="checkbox" value="人文历史" style="margin-right: 5px;">
+                        <span>🏛️ 人文历史</span>
+                    </label>
+                    <label style="display: flex; align-items: center; cursor: pointer;">
+                        <input type="checkbox" value="海岛海滨" style="margin-right: 5px;">
+                        <span>🏖️ 海岛海滨</span>
+                    </label>
+                    <label style="display: flex; align-items: center; cursor: pointer;">
+                        <input type="checkbox" value="现代都市" style="margin-right: 5px;">
+                        <span>🏙️ 现代都市</span>
+                    </label>
+                    <label style="display: flex; align-items: center; cursor: pointer;">
+                        <input type="checkbox" value="户外探险" style="margin-right: 5px;">
+                        <span>⛰️ 户外探险</span>
+                    </label>
+                    <label style="display: flex; align-items: center; cursor: pointer;">
+                        <input type="checkbox" value="小镇村落" style="margin-right: 5px;">
+                        <span>🏘️ 小镇村落</span>
+                    </label>
+                    <label style="display: flex; align-items: center; cursor: pointer;">
+                        <input type="checkbox" value="亲子家庭" style="margin-right: 5px;">
+                        <span>👨‍👩‍👧‍👦 亲子家庭</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>起始城市（可选）</label>
+                <input type="text" id="recommendStartCity" placeholder="例如：巴黎（指定路线起点）"
+                       style="width: 100%; padding: 10px; border: 2px solid #e0e0e0; border-radius: 10px;">
+                <small style="color: #999; font-size: 12px; margin-top: 5px; display: block;">
+                    指定后路线会从这个城市开始
+                </small>
+            </div>
+
+            <div class="form-row" style="gap: 10px; display: grid; grid-template-columns: 1fr 1fr; margin-bottom: 15px;">
+                <div class="form-group">
+                    <label>交通偏好</label>
+                    <select id="recommendTransportPreference" style="width: 100%; padding: 10px; border: 2px solid #e0e0e0; border-radius: 10px;">
+                        <option value="auto" selected>自动</option>
+                        <option value="train">优先火车</option>
+                        <option value="flight">优先飞机</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>显示模式</label>
+                    <select id="recommendOptionsDisplayMode" style="width: 100%; padding: 10px; border: 2px solid #e0e0e0; border-radius: 10px;">
+                        <option value="compact" selected>精简</option>
+                        <option value="detailed">详细</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>偏好城市（可选）</label>
+                <input type="text" id="recommendPreferences" placeholder="例如：巴黎, 罗马（用逗号分隔，留空则不限）"
+                       style="width: 100%; padding: 10px; border: 2px solid #e0e0e0; border-radius: 10px;">
+                <small style="color: #999; font-size: 12px; margin-top: 5px; display: block;">
+                    填写后会优先推荐包含这些城市的路线
+                </small>
+            </div>
+
+            <button class="btn" onclick="getRecommendation()">获取推荐</button>
+
+            <div id="recommendResult" class="recommend-result" style="display: none;">
+                <h4>推荐路线</h4>
+                <div id="recommendCities" class="recommend-cities"></div>
+                <button class="btn btn-success" onclick="applyRecommendation()" style="margin-top: 15px;">
+                    应用到城市列表
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:8000/api';
+
+        // Tab 切换
+        function switchTab(name) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.tab-item').forEach(el => el.classList.remove('active'));
+            document.getElementById('tab-' + name).classList.add('active');
+            event.target.classList.add('active');
+        }
+        let selectedCities = [];
+        let currentRegion = '欧洲';
+        let currentCountry = '';
+        let generatedRoute = null;
+        let recommendedCities = [];
+        let inputMode = 'smart';  // 'smart' or 'manual'
+        let manualSelectedCountries = [];  // manual 模式选中的国家
+
+        // 切换输入模式
+        function switchInputMode() {
+            inputMode = document.querySelector('input[name="inputMode"]:checked').value;
+            if (inputMode === 'smart') {
+                document.getElementById('smartModeContainer').style.display = 'block';
+                document.getElementById('manualModeContainer').style.display = 'none';
+            } else {
+                document.getElementById('smartModeContainer').style.display = 'none';
+                document.getElementById('manualModeContainer').style.display = 'block';
+                // 加载国家列表
+                loadManualCountries();
+                // 自动预览
+                updateManualPreview();
+            }
+        }
+
+        // 加载 manual 模式的国家列表
+        async function loadManualCountries() {
+            const region = document.getElementById('manualRegion').value;
+            const regionMap = {'Europe': '欧洲', 'North_America': '北美', 'Asia': '亚洲', 'Oceania': '大洋洲'};
+            const regionName = regionMap[region];
+
+            try {
+                const response = await fetch(`${API_BASE}/destinations/countries?region=${regionName}`);
+                const data = await response.json();
+
+                if (data.countries) {
+                    manualSelectedCountries = [];
+                    const container = document.getElementById('manualCountrySelector');
+                    container.innerHTML = data.countries.map(country => `
+                        <label class="chip">
+                            <input type="checkbox" value="${country}" onchange="toggleManualCountry('${country}')">
+                            <span>${country}</span>
+                        </label>
+                    `).join('');
+                }
+            } catch (error) {
+                console.error('加载国家失败:', error);
+            }
+        }
+
+        // 切换 manual 国家选择
+        function toggleManualCountry(country) {
+            const index = manualSelectedCountries.indexOf(country);
+            if (index > -1) {
+                manualSelectedCountries.splice(index, 1);
+            } else {
+                manualSelectedCountries.push(country);
+            }
+            updateManualPreview();
+        }
+
+        // 更新手动输入预览
+        function updateManualPreview() {
+            const citiesText = document.getElementById('manualCities').value.trim();
+            const daysText = document.getElementById('manualDays').value.trim();
+
+            if (!citiesText) {
+                document.getElementById('manualPreview').style.display = 'none';
+                return;
+            }
+
+            const cities = citiesText.split(',').map(c => c.trim()).filter(c => c);
+            const daysMap = {};
+
+            if (daysText) {
+                const daysPairs = daysText.split(',');
+                daysPairs.forEach(pair => {
+                    const [city, days] = pair.split(':').map(s => s.trim());
+                    if (city && days) {
+                        daysMap[city] = parseInt(days) || 2;
+                    }
+                });
+            }
+
+            // 默认天数
+            cities.forEach(city => {
+                if (!daysMap[city]) daysMap[city] = 2;
+            });
+
+            const totalDays = Object.values(daysMap).reduce((a, b) => a + b, 0);
+            const region = document.getElementById('manualRegion').value;
+            const regionNames = {'Europe': '欧洲', 'North_America': '北美', 'Asia': '亚洲', 'Oceania': '大洋洲'};
+
+            document.getElementById('manualPreviewContent').innerHTML = `
+                <strong>${regionNames[region]}</strong> - ${cities.join(' → ')}<br>
+                共 <strong>${totalDays}</strong> 天
+            `;
+            document.getElementById('manualPreview').style.display = 'block';
+        }
+
+        // 绑定实时预览
+        setTimeout(() => {
+            document.getElementById('manualCities')?.addEventListener('input', updateManualPreview);
+            document.getElementById('manualDays')?.addEventListener('input', updateManualPreview);
+            document.getElementById('manualRegion')?.addEventListener('change', updateManualPreview);
+        }, 500);
+
+        // === 智能推荐功能 ===
+        function showRecommendModal() {
+            document.getElementById('recommendModal').classList.add('active');
+            // 加载当前区域的国家列表
+            const region = document.getElementById('recommendRegion').value;
+            loadRecommendCountries(region);
+            recommendSelectedCountries = [];
+        }
+
+        function closeRecommendModal() {
+            document.getElementById('recommendModal').classList.remove('active');
+        }
+
+        // 点击模态框外部关闭
+        document.addEventListener('click', (e) => {
+            const modal = document.getElementById('recommendModal');
+            if (e.target === modal) {
+                closeRecommendModal();
+            }
+        });
+
+        let recommendSelectedCountries = [];
+
+        // 推荐弹窗：区域变化时加载国家按钮
+        document.getElementById('recommendRegion').addEventListener('change', function() {
+            loadRecommendCountries(this.value);
+            recommendSelectedCountries = [];
+        });
+
+        async function loadRecommendCountries(region) {
+            const regionMap = {'Europe': '欧洲', 'Asia': '亚洲', 'North_America': '北美', 'Oceania': '大洋洲'};
+            const regionCN = regionMap[region] || region;
+            try {
+                const response = await fetch(`${API_BASE}/destinations/countries?region=${encodeURIComponent(regionCN)}`);
+                const data = await response.json();
+                if (data.success && data.countries) {
+                    const container = document.getElementById('recommendCountrySelector');
+                    container.innerHTML = data.countries.map(country =>
+                        `<div class="country-btn" onclick="toggleRecommendCountry(this, '${country}')">${country}</div>`
+                    ).join('');
+                }
+            } catch (e) {
+                console.error('加载国家失败', e);
+            }
+        }
+
+        function toggleRecommendCountry(el, country) {
+            const idx = recommendSelectedCountries.indexOf(country);
+            if (idx > -1) {
+                recommendSelectedCountries.splice(idx, 1);
+                el.classList.remove('active');
+            } else {
+                recommendSelectedCountries.push(country);
+                el.classList.add('active');
+            }
+        }
+
+        async function getRecommendation() {
+            const month = parseInt(document.getElementById('recommendMonth').value);
+            const daysInput = document.getElementById('recommendDays').value.trim();
+            const days = daysInput ? parseInt(daysInput) : 10;  // 不填默认10天
+            const region = document.getElementById('recommendRegion').value;
+            const startCity = document.getElementById('recommendStartCity').value.trim();
+            const preferencesText = document.getElementById('recommendPreferences').value.trim();
+
+            if (daysInput && (days < 3 || days > 30)) {
+                alert('天数需在3-30之间');
+                return;
+            }
+
+            const countries = recommendSelectedCountries;
+
+            // 获取选中的标签
+            const tagCheckboxes = document.querySelectorAll('#recommendModal input[type="checkbox"]:checked');
+            const tags = Array.from(tagCheckboxes).map(cb => cb.value);
+
+            // 解析偏好城市（用逗号分隔）
+            const destinations = preferencesText
+                ? preferencesText.split(',').map(c => c.trim()).filter(c => c)
+                : [];
+
+            try {
+                const requestBody = {
+                    mode: 'recommend',
+                    travel_month: month,
+                    duration_days: days,
+                    region: region,
+                    force_gateway_departure: document.getElementById('forceGateway').checked,
+                    force_order: document.getElementById('forceOrder').checked,
+                    same_day_max_hours: parseFloat(document.getElementById('sameDayMaxHours').value),
+                    transport_preference: document.getElementById('recommendTransportPreference').value,
+                    options_display_mode: document.getElementById('recommendOptionsDisplayMode').value
+                };
+
+                // 添加可选参数
+                if (countries.length > 0) {
+                    requestBody.countries = countries;
+                }
+
+                if (tags.length > 0) {
+                    requestBody.tags = tags;
+                }
+
+                if (startCity) {
+                    requestBody.start_city = startCity;
+                }
+
+                // 如果有偏好城市，添加到请求中
+                if (destinations.length > 0) {
+                    requestBody.destinations = destinations;
+                }
+
+                const response = await fetch(`${API_BASE}/routes/generate`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(requestBody)
+                });
+
+                if (!response.ok) {
+                    throw new Error('推荐失败');
+                }
+
+                const data = await response.json();
+
+                if (data.success && data.route) {
+                    // 提取城市列表（优先使用cities字段）
+                    recommendedCities = [];
+                    if (data.route.cities && Array.isArray(data.route.cities)) {
+                        recommendedCities = data.route.cities;
+                    } else if (data.route.itinerary && Array.isArray(data.route.itinerary)) {
+                        // 备用：从itinerary中提取城市
+                        data.route.itinerary.forEach(day => {
+                            const city = day.stay || day.city;
+                            if (city && !recommendedCities.includes(city)) {
+                                recommendedCities.push(city);
+                            }
+                        });
+                    }
+
+                    // 显示推荐结果
+                    const resultDiv = document.getElementById('recommendResult');
+                    const citiesDiv = document.getElementById('recommendCities');
+
+                    if (recommendedCities.length > 0) {
+                        citiesDiv.innerHTML = recommendedCities.map(city =>
+                            `<span class="recommend-city-tag">${city}</span>`
+                        ).join('');
+                        resultDiv.style.display = 'block';
+                    } else {
+                        citiesDiv.innerHTML = '<p style="color:#999;">未找到合适的推荐路线</p>';
+                        resultDiv.style.display = 'block';
+                    }
+                } else {
+                    alert('推荐失败，请重试');
+                }
+            } catch (error) {
+                console.error('推荐失败:', error);
+                alert('推荐失败：' + error.message);
+            }
+        }
+
+        function applyRecommendation() {
+            if (recommendedCities.length === 0) {
+                alert('没有可应用的推荐');
+                return;
+            }
+
+            // 清空当前选择
+            selectedCities = [];
+
+            // 添加推荐的城市
+            recommendedCities.forEach(city => {
+                if (!selectedCities.includes(city)) {
+                    selectedCities.push(city);
+                }
+            });
+
+            // 更新UI（使用已有的函数）
+            updateSelectedCities();
+
+            // 关闭弹窗
+            closeRecommendModal();
+
+            alert(`已添加 ${recommendedCities.length} 个推荐城市到列表`);
+        }
+        // === 智能推荐功能结束 ===
+
+        // 选择区域
+        function selectRegion(region) {
+            currentRegion = region;
+            currentCountry = '';
+
+            // 更新区域按钮样式
+            document.querySelectorAll('.region-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+
+            // 加载该区域的国家列表
+            loadCountries(region);
+
+            // 清空城市列表
+            const citiesContainer = document.getElementById('popularCities');
+            citiesContainer.innerHTML = '<p style="color:#999; font-size:13px; padding:10px;">请先选择国家</p>';
+        }
+
+        // 加载国家列表
+        async function loadCountries(region) {
+            try {
+                const response = await fetch(`${API_BASE}/destinations/countries?region=${encodeURIComponent(region)}`);
+                const data = await response.json();
+
+                if (data.success && data.countries) {
+                    const container = document.getElementById('countrySelector');
+                    container.innerHTML = data.countries.map(country =>
+                        `<div class="country-btn" onclick="selectCountry('${country}')">${country}</div>`
+                    ).join('');
+                }
+            } catch (error) {
+                console.error('加载国家失败:', error);
+                const container = document.getElementById('countrySelector');
+                container.innerHTML = '<p style="color:#c33; font-size:13px; padding:10px;">加载失败</p>';
+            }
+        }
+
+        // 选择国家
+        async function selectCountry(country) {
+            currentCountry = country;
+
+            // 更新国家按钮样式
+            document.querySelectorAll('.country-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+
+            // 加载该国家的城市
+            loadCities(currentRegion, country);
+        }
+
+        // 加载城市列表
+        async function loadCities(region, country) {
+            try {
+                const citiesContainer = document.getElementById('popularCities');
+                citiesContainer.innerHTML = '<p style="color:#999; font-size:13px; padding:10px;">加载中...</p>';
+
+                const response = await fetch(`${API_BASE}/destinations/cities?region=${encodeURIComponent(region)}&country=${encodeURIComponent(country)}&limit=16`);
+                const data = await response.json();
+
+                if (data.success && data.cities && data.cities.length > 0) {
+                    citiesContainer.innerHTML = data.cities.map(city =>
+                        `<div class="popular-city" onclick="toggleCity('${city.name}')">
+                            <div class="city-name">${city.name}</div>
+                            <div class="country-name">${city.recommended_days}天 · ${city.best_season}</div>
+                        </div>`
+                    ).join('');
+
+                    // 更新已选中城市的高亮
+                    updateSelectedCities();
+                } else {
+                    citiesContainer.innerHTML = '<p style="color:#999; font-size:13px; padding:10px;">该国家暂无数据</p>';
+                }
+            } catch (error) {
+                console.error('加载城市失败:', error);
+                const citiesContainer = document.getElementById('popularCities');
+                citiesContainer.innerHTML = '<p style="color:#c33; font-size:13px; padding:10px;">加载失败，请重试</p>';
+            }
+        }
+
+        // 清空全部城市
+        function clearAllCities() {
+            selectedCities = [];
+            generatedRoute = null;
+            updateSelectedCities();
+        }
+
+        // 选择/取消城市
+        function toggleCity(cityName) {
+            const index = selectedCities.indexOf(cityName);
+            if (index > -1) {
+                selectedCities.splice(index, 1);
+            } else {
+                selectedCities.push(cityName);
+            }
+            updateSelectedCities();
+        }
+
+        // 更新选中城市显示
+        function updateSelectedCities() {
+            const container = document.getElementById('selectedCities');
+            const routeContainer = document.getElementById('routeCities');
+            const matchContainer = document.getElementById('matchCitiesDisplay');
+
+            if (selectedCities.length === 0) {
+                container.innerHTML = '<p style="color:#999; font-size:13px; padding:5px;">还没有选择城市</p>';
+                routeContainer.innerHTML = '<p style="color:#999; font-size:13px; padding:5px;">请先在左侧选择城市</p>';
+                matchContainer.innerHTML = '<p style="color:#999; font-size:13px; padding:5px;">将使用已选城市进行匹配</p>';
+            } else {
+                const html = selectedCities.map(city =>
+                    `<span class="city-tag">${city} <span class="remove" onclick="toggleCity('${city}')">×</span></span>`
+                ).join('');
+                container.innerHTML = html;
+                routeContainer.innerHTML = html;
+                matchContainer.innerHTML = html.replace(/remove/g, '');
+            }
+
+            // 更新热门城市高亮
+            document.querySelectorAll('.popular-city').forEach(el => {
+                if (selectedCities.includes(el.textContent)) {
+                    el.classList.add('selected');
+                } else {
+                    el.classList.remove('selected');
+                }
+            });
+        }
+
+        // 城市输入自动完成
+        const cityInput = document.getElementById('cityInput');
+        const autocompleteList = document.getElementById('autocompleteList');
+        let searchTimeout;
+
+        cityInput.addEventListener('input', async (e) => {
+            const query = e.target.value.trim();
+            clearTimeout(searchTimeout);
+
+            if (!query) {
+                autocompleteList.innerHTML = '';
+                return;
+            }
+
+            searchTimeout = setTimeout(async () => {
+                try {
+                    const response = await fetch(`${API_BASE}/destinations/search?q=${encodeURIComponent(query)}`);
+                    const data = await response.json();
+
+                    if (data.results && data.results.length > 0) {
+                        autocompleteList.innerHTML = data.results.map(city =>
+                            `<div onclick="selectCity('${city}')">${city}</div>`
+                        ).join('');
+                    } else {
+                        autocompleteList.innerHTML = '<div style="color:#999;">未找到匹配城市</div>';
+                    }
+                } catch (error) {
+                    console.error('搜索失败:', error);
+                }
+            }, 300);
+        });
+
+        cityInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                e.preventDefault();
+                const city = cityInput.value.trim();
+                if (city && !selectedCities.includes(city)) {
+                    selectedCities.push(city);
+                    updateSelectedCities();
+                    cityInput.value = '';
+                    autocompleteList.innerHTML = '';
+                }
+            }
+        });
+
+        function selectCity(city) {
+            if (!selectedCities.includes(city)) {
+                selectedCities.push(city);
+                updateSelectedCities();
+            }
+            cityInput.value = '';
+            autocompleteList.innerHTML = '';
+        }
+
+        // 生成攻略
+        async function generateRoute() {
+            if (selectedCities.length < 2) {
+                alert('请至少选择2个城市');
+                return;
+            }
+
+            const resultDiv = document.getElementById('routeResult');
+            const displayDiv = document.getElementById('routeDisplay');
+            resultDiv.innerHTML = '<div class="loading">正在生成攻略...</div>';
+            displayDiv.style.display = 'none';
+
+            try {
+                const response = await fetch(`${API_BASE}/routes/generate`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        mode: 'destination',
+                        cities: selectedCities,
+                        region: document.getElementById('recommendRegion').value,
+                        force_gateway_departure: document.getElementById('forceGateway').checked,
+                        force_order: document.getElementById('forceOrder').checked,
+                        same_day_max_hours: parseFloat(document.getElementById('sameDayMaxHours').value),
+                        transport_preference: document.getElementById('transportPreference').value,
+                        options_display_mode: document.getElementById('optionsDisplayMode').value,
+                        start_node: document.getElementById('destStartNode').value.trim() || null,
+                        end_node: document.getElementById('destEndNode').value.trim() || null
+                    })
+                });
+
+                if (!response.ok) throw new Error('生成失败');
+
+                const data = await response.json();
+                generatedRoute = data.route;
+
+                resultDiv.innerHTML = `
+                    <div class="success">
+                        ✅ 攻略生成成功！<br>
+                        路线: ${data.route.cities.join(' → ')}<br>
+                        共 ${data.route.total_days} 天
+                    </div>
+                `;
+
+                // 显示详细行程
+                displayDiv.style.display = 'block';
+                const itineraryDiv = document.getElementById('routeItinerary');
+
+                // 生成摘要
+                let summaryHTML = `
+                    <div class="route-summary">
+                        <div class="route-stat">
+                            <div class="number">${data.route.total_days}</div>
+                            <div class="label">总天数</div>
+                        </div>
+                        <div class="route-stat">
+                            <div class="number">${data.route.city_count}</div>
+                            <div class="label">城市数</div>
+                        </div>
+                        <div class="route-stat">
+                            <div class="number">${data.route.unique_cities ? data.route.unique_cities.length : data.route.city_count}</div>
+                            <div class="label">实际城市</div>
+                        </div>
+                    </div>
+                `;
+
+                // 生成详细行程（Day by Day）
+                let itineraryHTML = '';
+                if (data.route.itinerary && data.route.itinerary.length > 0) {
+                    itineraryHTML = data.route.itinerary.map(day => {
+                        return `
+                            <div class="route-day">
+                                <div class="route-day-header">
+                                    <div class="route-day-number">Day ${day.day}</div>
+                                    <div class="route-day-city">🏨 ${day.stay}</div>
+                                </div>
+                                <div class="route-day-activity">
+                                    ${day.activity}
+                                </div>
+                                <div class="route-day-transport">
+                                    <span class="icon">🚗</span>
+                                    ${day.transport}
+                                </div>
+                            </div>
+                        `;
+                    }).join('');
+                } else {
+                    // 如果没有完整itinerary，显示城市摘要
+                    itineraryHTML = data.route.cities_detail.map(city => `
+                        <div class="route-day">
+                            <div class="route-day-header">
+                                <div class="route-day-number">📍 ${city.name}</div>
+                            </div>
+                            <div class="route-day-activity">
+                                停留 ${city.stay_days} 天
+                            </div>
+                        </div>
+                    `).join('');
+                }
+
+                itineraryDiv.innerHTML = summaryHTML + itineraryHTML;
+
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="error">❌ ${error.message}</div>`;
+            }
+        }
+
+        // 发布行程
+        document.getElementById('publishForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const resultDiv = document.getElementById('publishResult');
+            resultDiv.innerHTML = '<div class="loading">正在发布...</div>';
+
+            try {
+                let routeToPublish = null;
+
+                // 根据输入模式生成路线
+                if (inputMode === 'manual') {
+                    // 手动输入模式
+                    const citiesText = document.getElementById('manualCities').value.trim();
+                    const daysText = document.getElementById('manualDays').value.trim();
+                    const region = document.getElementById('manualRegion').value;
+
+                    if (!citiesText) {
+                        alert('请输入城市名称');
+                        return;
+                    }
+
+                    const cities = citiesText.split(',').map(c => c.trim()).filter(c => c);
+                    if (cities.length < 1) {
+                        alert('请至少输入1个城市');
+                        return;
+                    }
+
+                    const daysMap = {};
+                    if (daysText) {
+                        const daysPairs = daysText.split(',');
+                        daysPairs.forEach(pair => {
+                            const [city, days] = pair.split(':').map(s => s.trim());
+                            if (city && days) {
+                                daysMap[city] = parseInt(days) || 2;
+                            }
+                        });
+                    }
+
+                    cities.forEach(city => {
+                        if (!daysMap[city]) daysMap[city] = 2;
+                    });
+
+                    if (manualSelectedCountries.length === 0) {
+                        alert('请至少选择一个国家');
+                        return;
+                    }
+
+                    const routeResponse = await fetch(`${API_BASE}/routes/generate`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            mode: 'manual',
+                            region: region,
+                            countries: manualSelectedCountries,
+                            manual_route: {
+                                cities: cities,
+                                days: daysMap
+                            }
+                        })
+                    });
+
+                    if (!routeResponse.ok) throw new Error('路线生成失败');
+                    const routeData = await routeResponse.json();
+                    routeToPublish = routeData.route;
+
+                } else {
+                    // 智能选城模式
+                    if (selectedCities.length < 2) {
+                        alert('请至少选择2个城市');
+                        return;
+                    }
+
+                    if (!generatedRoute) {
+                        const routeResponse = await fetch(`${API_BASE}/routes/generate`, {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({
+                                mode: 'destination',
+                                cities: selectedCities
+                            })
+                        });
+
+                        if (!routeResponse.ok) throw new Error('路线生成失败');
+                        const routeData = await routeResponse.json();
+                        generatedRoute = routeData.route;
+                    }
+                    routeToPublish = generatedRoute;
+                }
+
+                // 获取多选的消费水平
+                const budgetLevels = Array.from(document.querySelectorAll('input[name="budgetLevel"]:checked'))
+                    .map(cb => cb.value);
+
+                if (budgetLevels.length === 0) {
+                    alert('请至少选择一个消费水平');
+                    return;
+                }
+
+                // 发布搭子
+                const publishResponse = await fetch(`${API_BASE}/companions/publish`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        user_id: `user_${Date.now()}`,
+                        user_name: document.getElementById('userName').value,
+                        route_json: routeToPublish,
+                        travel_date: document.getElementById('travelDate').value,
+                        duration_days: routeToPublish.total_days || 10,
+                        flexibility_days: 3,
+                        seeking: {
+                            people_min: parseInt(document.getElementById('peopleMin').value),
+                            people_max: parseInt(document.getElementById('peopleMax').value),
+                            gender: document.getElementById('gender').value
+                        },
+                        transport_mode: document.getElementById('transportMode').value,
+                        accommodation: document.getElementById('accommodation').value,
+                        budget_level: budgetLevels.join(','),  // 多选用逗号分隔
+                        good_at_photo: document.getElementById('goodAtPhoto').value,
+                        user_male_count: parseInt(document.getElementById('userMaleCount').value),
+                        user_female_count: parseInt(document.getElementById('userFemaleCount').value)
+                    })
+                });
+
+                if (!publishResponse.ok) throw new Error('发布失败');
+
+                const publishData = await publishResponse.json();
+
+                resultDiv.innerHTML = `
+                    <div class="success">
+                        ✅ 发布成功！ID: ${publishData.companion_id}<br>
+                        <div class="loading" style="margin-top:10px;">正在为你搜索匹配的搭子...</div>
+                    </div>
+                `;
+
+                // 自动搜索匹配的搭子
+                try {
+                    const autoMatchResponse = await fetch(`${API_BASE}/companions/match`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            route_json: routeToPublish,
+                            travel_date: document.getElementById('travelDate').value,
+                            time_flexibility_days: 3,
+                            people_min: parseInt(document.getElementById('peopleMin').value),
+                            people_max: parseInt(document.getElementById('peopleMax').value),
+                            gender: document.getElementById('gender').value,
+                            transport_mode: document.getElementById('transportMode').value,
+                            accommodation: document.getElementById('accommodation').value,
+                            budget_level: budgetLevels.join(','),
+                            good_at_photo: document.getElementById('goodAtPhoto').value,
+                            user_male_count: parseInt(document.getElementById('userMaleCount').value),
+                            user_female_count: parseInt(document.getElementById('userFemaleCount').value)
+                        })
+                    });
+
+                    if (autoMatchResponse.ok) {
+                        const autoMatchData = await autoMatchResponse.json();
+                        resultDiv.innerHTML = `
+                            <div class="success">
+                                ✅ 发布成功！ID: ${publishData.companion_id}<br>
+                                🎯 找到 <strong>${autoMatchData.count}</strong> 个匹配的搭子
+                                ${autoMatchData.count > 0 ? '<br><a href="#tab-match" onclick="switchTab(\'match\')" style="color:#6366f1;text-decoration:underline;">点击查看匹配结果 →</a>' : ''}
+                            </div>
+                        `;
+
+                        // 如果有匹配结果，更新找搭子页面
+                        if (autoMatchData.count > 0) {
+                            document.getElementById('matchList').innerHTML = '';
+                            displayMatches(autoMatchData.matches);
+                        }
+                    }
+                } catch (matchError) {
+                    console.error('自动匹配失败:', matchError);
+                    // 即使匹配失败，也保持发布成功的提示
+                }
+
+                setTimeout(() => loadAllCompanions(), 500);
+
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="error">❌ ${error.message}</div>`;
+            }
+        });
+
+        // 查找匹配
+        document.getElementById('matchForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            if (selectedCities.length < 2) {
+                alert('请至少选择2个城市');
+                return;
+            }
+
+            const resultDiv = document.getElementById('matchResult');
+            const listDiv = document.getElementById('matchList');
+
+            resultDiv.innerHTML = '<div class="loading">正在匹配...</div>';
+            listDiv.innerHTML = '<div class="loading">搜索中...</div>';
+
+            try {
+                // 使用已生成的路线或临时生成
+                let routeToMatch = generatedRoute;
+                if (!routeToMatch) {
+                    const routeResponse = await fetch(`${API_BASE}/routes/generate`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            mode: 'destination',
+                            cities: selectedCities
+                        })
+                    });
+
+                    if (!routeResponse.ok) throw new Error('路线生成失败');
+                    const routeData = await routeResponse.json();
+                    routeToMatch = routeData.route;
+                }
+
+                // 获取多选的消费水平
+                const matchBudgetLevels = Array.from(document.querySelectorAll('input[name="matchBudgetLevel"]:checked'))
+                    .map(cb => cb.value);
+
+                // 收集筛选条件
+                const matchFilters = {
+                    route_json: routeToMatch,
+                    travel_date: document.getElementById('matchDate').value,
+                    time_flexibility_days: parseInt(document.getElementById('flexibility').value)
+                };
+
+                // 可选字段：只有填写了才传
+                const peopleMin = document.getElementById('matchPeopleMin').value;
+                const peopleMax = document.getElementById('matchPeopleMax').value;
+                const gender = document.getElementById('matchGender').value;
+                const transportMode = document.getElementById('matchTransportMode').value;
+                const accommodation = document.getElementById('matchAccommodation').value;
+                const goodAtPhoto = document.getElementById('matchGoodAtPhoto').value;
+                const userMaleCount = document.getElementById('matchUserMaleCount').value;
+                const userFemaleCount = document.getElementById('matchUserFemaleCount').value;
+
+                if (peopleMin) matchFilters.people_min = parseInt(peopleMin);
+                if (peopleMax) matchFilters.people_max = parseInt(peopleMax);
+                if (gender) matchFilters.gender = gender;
+                if (transportMode) matchFilters.transport_mode = transportMode;
+                if (accommodation) matchFilters.accommodation = accommodation;
+                if (goodAtPhoto) matchFilters.good_at_photo = goodAtPhoto;
+                if (matchBudgetLevels.length > 0) matchFilters.budget_level = matchBudgetLevels.join(',');
+                if (userMaleCount) matchFilters.user_male_count = parseInt(userMaleCount);
+                if (userFemaleCount) matchFilters.user_female_count = parseInt(userFemaleCount);
+
+                // 显示筛选条件
+                const filtersDiv = document.getElementById('matchFilters');
+                const filtersContent = document.getElementById('matchFiltersContent');
+                filtersDiv.style.display = 'block';
+
+                let filterTexts = [];
+                if (matchFilters.people_min || matchFilters.people_max) {
+                    const peopleText = `${matchFilters.people_min || '不限'}-${matchFilters.people_max || '不限'}人`;
+                    filterTexts.push(`👥 找搭子人数：<strong>${peopleText}</strong>`);
+                }
+                if (matchFilters.gender) {
+                    filterTexts.push(`⚧ 性别要求：<strong>${matchFilters.gender}</strong>`);
+                }
+                if (matchFilters.user_male_count || matchFilters.user_female_count) {
+                    const genderText = `${matchFilters.user_male_count || 0}男${matchFilters.user_female_count || 0}女`;
+                    filterTexts.push(`👫 你们组成：<strong>${genderText}</strong>`);
+                }
+                if (matchFilters.transport_mode) {
+                    filterTexts.push(`🚗 交通方式：<strong>${matchFilters.transport_mode}</strong>`);
+                }
+                if (matchFilters.accommodation) {
+                    filterTexts.push(`🛏️ 住宿安排：<strong>${matchFilters.accommodation}</strong>`);
+                }
+                if (matchFilters.budget_level) {
+                    filterTexts.push(`💰 消费水平：<strong>${matchFilters.budget_level}</strong>`);
+                }
+                if (matchFilters.good_at_photo) {
+                    filterTexts.push(`📷 拍照技能：<strong>${matchFilters.good_at_photo}</strong>`);
+                }
+                filterTexts.push(`📅 出发日期：<strong>${matchFilters.travel_date} ±${matchFilters.time_flexibility_days}天</strong>`);
+
+                filtersContent.innerHTML = `<div style="line-height:1.8;">${filterTexts.join('<br>')}</div>`;
+
+                // 执行匹配
+                const matchResponse = await fetch(`${API_BASE}/companions/match`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(matchFilters)
+                });
+
+                if (!matchResponse.ok) throw new Error('匹配失败');
+
+                const matchData = await matchResponse.json();
+
+                resultDiv.innerHTML = `<div class="success">✅ 找到 ${matchData.count} 个匹配结果</div>`;
+
+                displayMatches(matchData.matches);
+
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="error">❌ ${error.message}</div>`;
+                listDiv.innerHTML = `<p style="color: #c33;">匹配失败</p>`;
+            }
+        });
+
+        // 显示匹配结果
+        function displayMatches(matches) {
+            const listDiv = document.getElementById('matchList');
+
+            if (!matches || matches.length === 0) {
+                listDiv.innerHTML = '<p style="color: #666;">暂无匹配结果</p>';
+                return;
+            }
+
+            listDiv.innerHTML = matches.map(match => `
+                <div class="match-card">
+                    <div class="match-score">${Math.round(match.match_score * 100)}% 匹配</div>
+                    <div class="match-user">👤 ${match.user_name}</div>
+                    <div class="match-date">📅 ${match.travel_date} · ${match.duration_days}天</div>
+                    <div class="match-cities">
+                        ${match.route.cities.map(city => `<span class="city-badge">${city}</span>`).join('')}
+                    </div>
+                    <div class="match-info">
+                        👥 目前${match.user_male_count || 0}男${match.user_female_count || 0}女 · 找${match.seeking.people_min || 1}-${match.seeking.people_max || 2}人 · ${match.seeking.gender}<br>
+                        🚗 ${match.transport_mode} · 🛏️ ${match.accommodation}<br>
+                        💰 ${match.budget_level} · 📷 拍照${match.good_at_photo}<br>
+                        📊 路线 ${Math.round(match.similarity_score * 100)}% · 时间 ${Math.round(match.time_score * 100)}% · 偏好 ${Math.round(match.preference_score * 100)}%
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // 搜索搭子
+        async function searchCompanions() {
+            const keyword = document.getElementById('searchKeyword').value.trim();
+            if (!keyword) { alert('请输入搜索关键词'); return; }
+
+            const resultDiv = document.getElementById('searchResult');
+            const listDiv = document.getElementById('searchList');
+            resultDiv.innerHTML = '<div class="loading">搜索中...</div>';
+            listDiv.innerHTML = '';
+
+            try {
+                const response = await fetch(`${API_BASE}/companions/search?keyword=${encodeURIComponent(keyword)}`);
+                if (!response.ok) throw new Error('搜索失败');
+                const data = await response.json();
+
+                resultDiv.innerHTML = `<div class="success">找到 ${data.count} 条「${data.keyword}」相关路线</div>`;
+
+                if (data.data && data.data.length > 0) {
+                    listDiv.innerHTML = data.data.map(c => `
+                        <div class="match-card">
+                            <div class="match-user">${c.user_name}</div>
+                            <div class="match-date">${c.travel_date} · ${c.duration_days}天</div>
+                            <div class="match-cities">
+                                ${(c.route.cities || []).map(city => `<span class="city-badge">${city}</span>`).join('')}
+                            </div>
+                            <div class="match-info">
+                                ${c.current_people} · ${c.transport_mode} · ${c.budget_level}
+                            </div>
+                        </div>
+                    `).join('');
+                } else {
+                    listDiv.innerHTML = '<p class="hint">未找到相关路线，换个关键词试试</p>';
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="error">${error.message}</div>`;
+            }
+        }
+
+        // 加载所有发布
+        async function loadAllCompanions() {
+            try {
+                const response = await fetch(`${API_BASE}/companions/list?limit=20`);
+                const data = await response.json();
+
+                if (data.success && data.data.length > 0) {
+                    const listDiv = document.getElementById('matchList');
+                    listDiv.innerHTML = data.data.map(companion => `
+                        <div class="match-card">
+                            <div class="match-user">👤 ${companion.user_name}</div>
+                            <div class="match-date">📅 ${companion.travel_date} · ${companion.duration_days}天</div>
+                            <div class="match-cities">
+                                ${companion.route.cities.map(city => `<span class="city-badge">${city}</span>`).join('')}
+                            </div>
+                            <div class="match-info">
+                                👥 找${companion.seeking.people_count}人 · ${companion.seeking.gender}
+                            </div>
+                        </div>
+                    `).join('');
+                }
+            } catch (error) {
+                console.error('加载失败:', error);
+            }
+        }
+
+        // 页面加载
+        // ==================== 用户系统 ====================
+        let currentUser = null;
+
+        function showAuthModal(mode) {
+            document.getElementById('authModal').classList.add('active');
+            document.getElementById('authMode').value = mode;
+            document.getElementById('authTitle').textContent = mode === 'login' ? '登录' : '注册';
+            document.getElementById('authSubmitBtn').textContent = mode === 'login' ? '登录' : '注册';
+            document.getElementById('authNicknameGroup').style.display = mode === 'register' ? 'block' : 'none';
+            document.getElementById('authSwitchText').innerHTML = mode === 'login'
+                ? '没有账号？<a href="#" onclick="showAuthModal(\'register\');return false;">去注册</a>'
+                : '已有账号？<a href="#" onclick="showAuthModal(\'login\');return false;">去登录</a>';
+        }
+
+        function closeAuthModal() {
+            document.getElementById('authModal').classList.remove('active');
+        }
+
+        async function submitAuth() {
+            const mode = document.getElementById('authMode').value;
+            const username = document.getElementById('authUsername').value.trim();
+            const password = document.getElementById('authPassword').value;
+            const nickname = document.getElementById('authNickname').value.trim();
+
+            if (!username || !password) { alert('请填写用户名和密码'); return; }
+
+            try {
+                const url = mode === 'login' ? `${API_BASE}/auth/login` : `${API_BASE}/auth/register`;
+                const body = mode === 'login'
+                    ? { username, password }
+                    : { username, password, nickname: nickname || username };
+
+                const res = await fetch(url, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(body)
+                });
+                const data = await res.json();
+                if (!res.ok) throw new Error(data.detail || '操作失败');
+
+                localStorage.setItem('token', data.token);
+                localStorage.setItem('nickname', data.nickname);
+                currentUser = data;
+                updateUserBar();
+                closeAuthModal();
+                // 用登录的昵称填入发布表单
+                document.getElementById('userName').value = data.nickname;
+            } catch (e) {
+                alert(e.message);
+            }
+        }
+
+        function logout() {
+            localStorage.removeItem('token');
+            localStorage.removeItem('nickname');
+            currentUser = null;
+            updateUserBar();
+        }
+
+        function updateUserBar() {
+            if (currentUser) {
+                document.getElementById('userBarLoggedOut').style.display = 'none';
+                document.getElementById('userBarLoggedIn').style.display = 'inline';
+                document.getElementById('userBarNickname').textContent = currentUser.nickname;
+            } else {
+                document.getElementById('userBarLoggedOut').style.display = 'inline';
+                document.getElementById('userBarLoggedIn').style.display = 'none';
+            }
+        }
+
+        // 编辑资料
+        function showProfileModal() {
+            document.getElementById('profileModal').classList.add('active');
+            document.getElementById('profileNickname').value = currentUser?.nickname || '';
+        }
+
+        function closeProfileModal() {
+            document.getElementById('profileModal').classList.remove('active');
+        }
+
+        async function saveProfile() {
+            const nickname = document.getElementById('profileNickname').value.trim();
+            if (!nickname) { alert('昵称不能为空'); return; }
+            const token = localStorage.getItem('token');
+            if (!token) { alert('请先登录'); return; }
+
+            try {
+                const res = await fetch(`${API_BASE}/auth/update-profile`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ token, nickname })
+                });
+                const data = await res.json();
+                if (!res.ok) throw new Error(data.detail || '更新失败');
+
+                currentUser.nickname = data.nickname;
+                localStorage.setItem('nickname', data.nickname);
+                updateUserBar();
+                document.getElementById('userName').value = data.nickname;
+                closeProfileModal();
+            } catch (e) {
+                alert(e.message);
+            }
+        }
+
+        // 自动恢复登录状态
+        async function restoreLogin() {
+            const token = localStorage.getItem('token');
+            if (!token) return;
+            try {
+                const res = await fetch(`${API_BASE}/auth/me?token=${encodeURIComponent(token)}`);
+                const data = await res.json();
+                if (data.success) {
+                    currentUser = { ...data, token };
+                    updateUserBar();
+                    document.getElementById('userName').value = data.nickname;
+                }
+            } catch (e) {
+                localStorage.removeItem('token');
+            }
+        }
+
+        window.addEventListener('load', () => {
+            loadCountries('欧洲');
+            loadAllCompanions();
+            restoreLogin();
+        });
+    </script>
+
+    <!-- 登录/注册弹窗 -->
+    <div id="authModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="authTitle">登录</h3>
+                <button class="close-btn" onclick="closeAuthModal()">&times;</button>
+            </div>
+            <input type="hidden" id="authMode" value="login">
+            <div class="form-group">
+                <label>用户名</label>
+                <input type="text" id="authUsername" placeholder="至少3位" style="width:100%;padding:10px;border:2px solid #e0e0e0;border-radius:10px;font-size:14px;">
+            </div>
+            <div class="form-group">
+                <label>密码</label>
+                <input type="password" id="authPassword" placeholder="至少6位" style="width:100%;padding:10px;border:2px solid #e0e0e0;border-radius:10px;font-size:14px;">
+            </div>
+            <div class="form-group" id="authNicknameGroup">
+                <label>昵称（可选）</label>
+                <input type="text" id="authNickname" placeholder="不填则用用户名" style="width:100%;padding:10px;border:2px solid #e0e0e0;border-radius:10px;font-size:14px;">
+            </div>
+            <button class="btn" id="authSubmitBtn" onclick="submitAuth()">登录</button>
+            <p id="authSwitchText" style="text-align:center;margin-top:15px;font-size:13px;color:#666;"></p>
+        </div>
+    </div>
+
+    <!-- 编辑资料弹窗 -->
+    <div id="profileModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>编辑资料</h3>
+                <button class="close-btn" onclick="closeProfileModal()">&times;</button>
+            </div>
+            <div class="form-group">
+                <label>昵称</label>
+                <input type="text" id="profileNickname" style="width:100%;padding:10px;border:2px solid #e0e0e0;border-radius:10px;font-size:14px;">
+            </div>
+            <button class="btn" onclick="saveProfile()">保存</button>
+        </div>
+    </div>
+</body>
+</html>

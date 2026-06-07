@@ -1,0 +1,342 @@
+{
+  "巴黎": {
+    "full_title": "巴黎",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "卢浮宫、香榭丽舍大街",
+        "transport": "🚶 步行",
+        "stay": "巴黎"
+      },
+      {
+        "day": "Day 2",
+        "activity": "埃菲尔铁塔、塞纳河",
+        "transport": "🚶 步行",
+        "stay": "巴黎"
+      },
+      {
+        "day": "Day 3",
+        "activity": "凡尔赛宫",
+        "transport": "🚗 自驾/🚇 地铁",
+        "stay": "巴黎"
+      },
+      {
+        "day": "Day 4",
+        "activity": "奥赛博物馆、杜乐丽花园、蒙马特高地、蒙马特高地",
+        "transport": "🚶 步行",
+        "stay": "巴黎"
+      },
+      {
+        "day": "Day 5",
+        "activity": "迪士尼",
+        "transport": "🚗 自驾",
+        "stay": "巴黎"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6,
+      "亲子家庭": 0.9
+    }
+  },
+  "蔚蓝海岸（尼斯/摩纳哥/戛纳）": {
+    "full_title": "蔚蓝海岸（尼斯/摩纳哥/戛纳）",
+    "best_season": "5-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "尼斯：老城、天使湾",
+        "transport": "🚶 步行",
+        "stay": "尼斯"
+      },
+      {
+        "day": "Day 2",
+        "activity": "埃兹小镇、摩纳哥",
+        "transport": "🚗 自驾",
+        "stay": "尼斯"
+      },
+      {
+        "day": "Day 3",
+        "activity": "戛纳，返回",
+        "transport": "🚗 自驾",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6,
+      "小镇村落": 0.8
+    }
+  },
+  "普罗旺斯（阿维尼翁/马赛）": {
+    "full_title": "普罗旺斯（阿维尼翁/马赛）",
+    "best_season": "6-8月（薰衣草）",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "阿维尼翁：教皇宫、断桥",
+        "transport": "🚶 步行",
+        "stay": "阿维尼翁"
+      },
+      {
+        "day": "Day 2",
+        "activity": "吕贝隆山区：泉水城、石头城、红土城",
+        "transport": "🚗 自驾",
+        "stay": "阿维尼翁"
+      },
+      {
+        "day": "Day 3",
+        "activity": "瓦伦索勒薰衣草（6-8月）、圣十字湖",
+        "transport": "🚗 自驾",
+        "stay": "普罗旺斯"
+      },
+      {
+        "day": "Day 4",
+        "activity": "马赛：守护圣母教堂、卡朗格峡湾",
+        "transport": "🚗 自驾",
+        "stay": "马赛",
+        "options": [
+          {
+            "label": "去尼斯",
+            "to": [
+              "尼斯",
+              "蔚蓝海岸"
+            ],
+            "stay": "尼斯",
+            "drive": 2.22,
+            "detail": "从普罗旺斯出发，沿海岸线",
+            "type": "continue"
+          },
+          {
+            "label": "回马赛（飞下一站）",
+            "to": [
+              "马赛"
+            ],
+            "stay": "马赛",
+            "drive": 0.5,
+            "detail": "马赛机场，适合飞下一站",
+            "type": "return_hub"
+          },
+          {
+            "label": "去巴塞罗那",
+            "to": [
+              "巴塞罗那"
+            ],
+            "stay": "巴塞罗那",
+            "drive": 4.5,
+            "detail": "从马赛出发，沿地中海海岸",
+            "type": "continue"
+          }
+        ]
+      }
+    ],
+    "tags": {
+      "人文历史": 0.7,
+      "自然风光": 0.7
+    }
+  },
+  "卢瓦尔河谷": {
+    "full_title": "卢瓦尔河谷",
+    "best_season": "4-6月、9-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "巴黎→卢瓦尔河谷，城堡游",
+        "transport": "🚗 自驾",
+        "stay": "布卢瓦"
+      },
+      {
+        "day": "Day 2",
+        "activity": "舍农索城堡、昂布瓦兹",
+        "transport": "🚗 自驾",
+        "stay": "图尔"
+      },
+      {
+        "day": "Day 3",
+        "activity": "香波堡，返回巴黎",
+        "transport": "🚗 自驾",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    },
+    "hub_city": "巴黎"
+  },
+  "圣米歇尔山/圣马洛": {
+    "full_title": "圣米歇尔山/圣马洛",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "巴黎→圣米歇尔山，日落",
+        "transport": "🚗 自驾3h",
+        "stay": "圣米歇尔山"
+      },
+      {
+        "day": "Day 2",
+        "activity": "圣米歇尔山日出→圣马洛",
+        "transport": "🚗 自驾1h",
+        "stay": "圣马洛"
+      },
+      {
+        "day": "Day 3",
+        "activity": "圣马洛古城墙，返回巴黎",
+        "transport": "🚗 自驾",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6,
+      "自然风光": 0.8
+    }
+  },
+  "安纳西": {
+    "full_title": "安纳西",
+    "hub_city": "日内瓦",
+    "best_season": "5-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "日内瓦→安纳西，安纳西湖、老城漫步",
+        "transport": "🚗 自驾1.15h",
+        "stay": "安纳西"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.7,
+      "休闲度假": 0.6
+    }
+  },
+  "霞慕尼": {
+    "full_title": "霞慕尼",
+    "hub_city": "日内瓦",
+    "best_season": "12-3月（滑雪）、6-9月（徒步）",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "日内瓦→霞慕尼，勃朗峰",
+        "transport": "🚗 自驾1.5h",
+        "stay": "霞慕尼",
+        "options": [
+          {
+            "label": "回日内瓦",
+            "to": [
+              "日内瓦"
+            ],
+            "stay": "日内瓦",
+            "drive": 1.5,
+            "detail": "返回日内瓦，飞往下一站",
+            "type": "return_hub"
+          },
+          {
+            "label": "去安纳西",
+            "to": [
+              "安纳西"
+            ],
+            "stay": "安纳西",
+            "drive": 1.5,
+            "detail": "继续游览安纳西湖区",
+            "type": "continue"
+          }
+        ]
+      }
+    ],
+    "tags": {
+      "自然风光": 0.9,
+      "户外探险": 0.9
+    }
+  },
+  "科尔马/斯特拉斯堡": {
+    "full_title": "科尔马/斯特拉斯堡",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "巴黎→科尔马，小威尼斯",
+        "transport": "🚗 自驾4h",
+        "stay": "科尔马"
+      },
+      {
+        "day": "Day 2",
+        "activity": "科尔马→斯特拉斯堡，老城",
+        "transport": "🚗 自驾1h",
+        "stay": "斯特拉斯堡"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "波尔多": {
+    "full_title": "波尔多",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "波尔多：交易所广场、皮拉沙丘",
+        "transport": "🚗 自驾",
+        "stay": "波尔多"
+      },
+      {
+        "day": "Day 2",
+        "activity": "葡萄酒庄之旅",
+        "transport": "🚗 自驾",
+        "stay": "波尔多"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "里昂": {
+    "full_title": "里昂",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "老城、富维耶圣母院",
+        "transport": "🚶 步行",
+        "stay": "里昂"
+      },
+      {
+        "day": "Day 2",
+        "activity": "半岛区、美食之旅",
+        "transport": "🚶 步行",
+        "stay": "里昂"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.7
+    }
+  },
+  "象鼻山": {
+    "full_title": "象鼻山（埃特勒塔）",
+    "best_season": "5-9月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "象鼻山悬崖、海滩",
+        "transport": "🚗 自驾",
+        "stay": "埃特勒塔"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.9
+    }
+  },
+  "枫丹白露宫": {
+    "full_title": "枫丹白露宫",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "枫丹白露宫、森林",
+        "transport": "🚗 自驾1h",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.7
+    }
+  }
+}

@@ -1,0 +1,187 @@
+<view class="container">
+  <!-- 智能推荐 -->
+  <view class="card">
+    <view class="card-title">智能推荐</view>
+
+    <view class="form-group">
+      <view class="form-label">旅行月份</view>
+      <picker range="{{monthOptions}}" range-key="label" value="{{monthIndex}}" bindchange="onMonthChange">
+        <view class="form-input">{{monthOptions[monthIndex].label}}</view>
+      </picker>
+    </view>
+
+    <view class="form-group">
+      <view class="form-label">计划天数（可不填，不填则自动推荐）</view>
+      <input class="form-input" type="number" value="{{recommendDays}}" bindinput="onInput" data-field="recommendDays" placeholder="留空则自动推荐天数" />
+    </view>
+
+    <view class="form-group">
+      <view class="form-label">旅行区域</view>
+      <view class="region-list">
+        <view
+          wx:for="{{regionOptions}}"
+          wx:key="value"
+          class="region-btn {{recommendRegion === item.value ? 'active' : ''}}"
+          bindtap="selectRecommendRegion"
+          data-region="{{item.value}}"
+        >{{item.label}}</view>
+      </view>
+    </view>
+
+    <view class="form-group">
+      <view class="form-label">国家筛选（可多选）</view>
+      <view class="country-selector">
+        <view wx:if="{{recommendCountries.length === 0}}" class="hint-text">加载中...</view>
+        <label wx:for="{{recommendCountries}}" wx:key="*this" class="checkbox-item">
+          <checkbox value="{{item}}" bindchange="toggleManualRecommendCountry" data-country="{{item}}" />
+          <text>{{item}}</text>
+        </label>
+      </view>
+    </view>
+
+    <view class="form-group">
+      <view class="form-label">旅行主题（可多选）</view>
+      <view class="country-selector">
+        <label wx:for="{{tagOptions}}" wx:key="value" class="checkbox-item">
+          <checkbox value="{{item.value}}" bindchange="toggleManualRecommendTag" data-tag="{{item.value}}" />
+          <text>{{item.label}}</text>
+        </label>
+      </view>
+    </view>
+
+    <view class="form-group">
+      <view class="form-label">起始城市（可选）</view>
+      <input class="form-input" placeholder="例如：巴黎（指定路线起点）" value="{{recommendStartCity}}" bindinput="onInput" data-field="recommendStartCity" />
+      <view class="hint-text">指定后路线会从这个城市开始</view>
+    </view>
+
+    <view class="form-row" style="display:flex; gap:16rpx;">
+      <view class="form-group" style="flex:1;">
+        <view class="form-label">交通偏好</view>
+        <picker range="{{transportOptions}}" range-key="label" value="{{transportIndex}}" bindchange="onTransportChange">
+          <view class="form-input">{{transportOptions[transportIndex].label}}</view>
+        </picker>
+      </view>
+      <view class="form-group" style="flex:1;">
+        <view class="form-label">显示模式</view>
+        <picker range="{{displayModeOptions}}" range-key="label" value="{{displayModeIndex}}" bindchange="onDisplayModeChange">
+          <view class="form-input">{{displayModeOptions[displayModeIndex].label}}</view>
+        </picker>
+      </view>
+    </view>
+
+    <view class="form-group">
+      <view class="form-label">偏好城市（可选）</view>
+      <input class="form-input" placeholder="例如：巴黎, 罗马（用逗号分隔）" value="{{recommendPreferences}}" bindinput="onInput" data-field="recommendPreferences" />
+      <view class="hint-text">填写后会优先推荐包含这些城市的路线</view>
+    </view>
+
+    <button class="btn-secondary" bindtap="getRecommendation">获取推荐</button>
+
+    <!-- 推荐结果 -->
+    <view wx:if="{{recommendResult.length > 0}}" class="recommend-result">
+      <view class="form-label">推荐城市</view>
+      <view class="tags-wrap">
+        <view wx:for="{{recommendResult}}" wx:key="*this" class="tag">{{item}}</view>
+      </view>
+      <button class="btn-primary" style="margin-top: 16rpx;" bindtap="applyRecommendation">应用到城市列表</button>
+    </view>
+  </view>
+
+  <!-- 已选城市 -->
+  <view class="card">
+    <view class="card-title">已选城市</view>
+    <view class="tags-wrap">
+      <view wx:if="{{selectedCities.length === 0}}" class="hint-text">请先选择城市或使用智能推荐</view>
+      <view wx:for="{{selectedCities}}" wx:key="*this" class="tag">{{item}}</view>
+    </view>
+  </view>
+
+  <!-- 路线选项 -->
+  <view class="card">
+    <view class="card-title">路线选项</view>
+
+    <view class="form-group">
+      <label class="option-row">
+        <switch checked="{{forceGateway}}" bindchange="onSwitchChange" data-field="forceGateway" />
+        <text>大城市出发/离开（推荐）</text>
+      </label>
+    </view>
+
+    <view class="form-group">
+      <label class="option-row">
+        <switch checked="{{forceOrder}}" bindchange="onSwitchChange" data-field="forceOrder" />
+        <text>保持城市输入顺序</text>
+      </label>
+    </view>
+
+    <view class="form-group">
+      <view class="form-label">单日最大行程时间</view>
+      <picker range="{{maxHoursOptions}}" range-key="label" value="{{maxHoursIndex}}" bindchange="onMaxHoursChange">
+        <view class="form-input">{{maxHoursOptions[maxHoursIndex].label}}</view>
+      </picker>
+    </view>
+
+    <view class="form-row" style="display:flex; gap:16rpx;">
+      <view class="form-group" style="flex:1;">
+        <view class="form-label">交通偏好</view>
+        <picker range="{{transportOptions}}" range-key="label" value="{{transportIndex}}" bindchange="onTransportChange">
+          <view class="form-input">{{transportOptions[transportIndex].label}}</view>
+        </picker>
+      </view>
+      <view class="form-group" style="flex:1;">
+        <view class="form-label">显示模式</view>
+        <picker range="{{displayModeOptions}}" range-key="label" value="{{displayModeIndex}}" bindchange="onDisplayModeChange">
+          <view class="form-input">{{displayModeOptions[displayModeIndex].label}}</view>
+        </picker>
+      </view>
+    </view>
+
+    <view class="form-row" style="display:flex; gap:16rpx;">
+      <view class="form-group" style="flex:1;">
+        <view class="form-label">指定起点（可选）</view>
+        <input class="form-input" placeholder="如：巴黎" value="{{destStartNode}}" bindinput="onInput" data-field="destStartNode" />
+      </view>
+      <view class="form-group" style="flex:1;">
+        <view class="form-label">指定终点（可选）</view>
+        <input class="form-input" placeholder="如：罗马" value="{{destEndNode}}" bindinput="onInput" data-field="destEndNode" />
+      </view>
+    </view>
+
+    <button class="btn-success" bindtap="generate">生成完整攻略</button>
+  </view>
+
+  <!-- 加载中 -->
+  <view wx:if="{{loading}}" class="loading-text">{{loadingText}}</view>
+
+  <!-- 结果 -->
+  <view wx:if="{{route}}" class="card">
+    <view class="card-title">行程安排</view>
+
+    <view class="summary">
+      <view class="summary-item">
+        <view class="summary-number">{{route ? route.total_days : 0}}</view>
+        <view class="summary-label">总天数</view>
+      </view>
+      <view class="summary-item">
+        <view class="summary-number">{{route ? route.city_count : 0}}</view>
+        <view class="summary-label">城市数</view>
+      </view>
+    </view>
+
+    <view class="route-cities">
+      <text wx:for="{{routeCities}}" wx:key="*this">{{item}}<text wx:if="{{index < routeCities.length - 1}}"> → </text></text>
+    </view>
+
+    <view wx:for="{{routeItinerary}}" wx:key="day" class="day-card">
+      <view class="day-header">
+        <view class="day-number">Day {{item.day}}</view>
+        <view class="day-stay">{{item.stay}}</view>
+      </view>
+      <view class="day-activity">{{item.activity}}</view>
+      <view class="day-transport">{{item.transport}}</view>
+    </view>
+  </view>
+
+  <view wx:if="{{errorMsg}}" class="msg-error">{{errorMsg}}</view>
+</view>

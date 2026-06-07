@@ -1,0 +1,129 @@
+.search-bar {
+  display: flex;
+  gap: 12rpx;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+}
+
+.btn-search {
+  background: #667eea;
+  color: #fff;
+  font-size: 26rpx;
+  padding: 0 28rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+  border-radius: 12rpx;
+  min-width: 120rpx;
+}
+
+.search-result-hint {
+  color: #667eea;
+  font-size: 26rpx;
+  font-weight: 500;
+  margin-bottom: 16rpx;
+}
+
+.hint-text {
+  color: #999;
+  font-size: 24rpx;
+  padding: 16rpx;
+}
+
+.match-card, .companion-card {
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+  border-radius: 16rpx;
+  padding: 24rpx;
+  margin-bottom: 20rpx;
+  position: relative;
+}
+
+.match-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+
+.match-user {
+  font-size: 34rpx;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8rpx;
+}
+
+.match-score {
+  background: #667eea;
+  color: #fff;
+  padding: 8rpx 20rpx;
+  border-radius: 24rpx;
+  font-weight: 600;
+  font-size: 26rpx;
+}
+
+.match-date {
+  color: #666;
+  font-size: 24rpx;
+  margin-bottom: 16rpx;
+}
+
+.match-cities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10rpx;
+  margin-bottom: 16rpx;
+}
+
+.city-badge {
+  background: #fff;
+  padding: 8rpx 18rpx;
+  border-radius: 20rpx;
+  font-size: 24rpx;
+  color: #667eea;
+}
+
+.match-info {
+  font-size: 24rpx;
+  color: #666;
+  line-height: 1.8;
+  margin-bottom: 12rpx;
+}
+
+.match-info-text {
+  font-size: 24rpx;
+  color: #666;
+  line-height: 1.8;
+  margin-top: 4rpx;
+}
+
+.match-scores {
+  display: flex;
+  flex-direction: column;
+  gap: 8rpx;
+}
+
+.score-item {
+  display: flex;
+  align-items: center;
+  gap: 12rpx;
+  font-size: 22rpx;
+  color: #666;
+  position: relative;
+}
+
+.score-bar {
+  height: 8rpx;
+  background: #667eea;
+  border-radius: 4rpx;
+  min-width: 10rpx;
+}
+
+.score-bar.time {
+  background: #38ef7d;
+}
+
+.score-bar.pref {
+  background: #f093fb;
+}

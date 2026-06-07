@@ -1,0 +1,182 @@
+{
+  "region": "North_America",
+  "month": 7,
+  "total_days": 8,
+  "target_days": 10,
+  "candidates": [
+    {
+      "name": "班夫国家公园",
+      "days": 2,
+      "tag_score": 1.7,
+      "season_score": 0.3,
+      "total_score": 2.0,
+      "matched_tags": {
+        "自然风光": 1.0,
+        "户外探险": 0.7
+      },
+      "best_season": "6-9月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    },
+    {
+      "name": "温哥华",
+      "days": 2,
+      "tag_score": 1.5,
+      "season_score": 0.1,
+      "total_score": 1.6,
+      "matched_tags": {
+        "现代都市": 0.7,
+        "自然风光": 0.8
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        49.2827,
+        -123.1207
+      ]
+    },
+    {
+      "name": "黄刀镇",
+      "days": 1,
+      "tag_score": 1.5,
+      "season_score": -0.2,
+      "total_score": 1.3,
+      "matched_tags": {
+        "自然风光": 0.9,
+        "户外探险": 0.6
+      },
+      "best_season": "8-9月或11-3月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    },
+    {
+      "name": "班夫+贾斯珀\"梦幻冰原\"环线",
+      "days": 6,
+      "tag_score": 0.9,
+      "season_score": 0.3,
+      "total_score": 1.2,
+      "matched_tags": {
+        "自然风光": 0.9
+      },
+      "best_season": "6-9月",
+      "loop_type": "loop",
+      "hub_city": "卡尔加里",
+      "coordinates": null
+    },
+    {
+      "name": "贾斯珀国家公园",
+      "days": 1,
+      "tag_score": 0.7,
+      "season_score": 0.3,
+      "total_score": 1.0,
+      "matched_tags": {
+        "自然风光": 0.7
+      },
+      "best_season": "6-9月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    },
+    {
+      "name": "多伦多",
+      "days": 2,
+      "tag_score": 0.7,
+      "season_score": 0.1,
+      "total_score": 0.8,
+      "matched_tags": {
+        "人文历史": 0.7
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        43.6532,
+        -79.3832
+      ]
+    }
+  ],
+  "selected": [
+    {
+      "name": "班夫国家公园",
+      "days": 2,
+      "tag_score": 1.7,
+      "season_score": 0.3,
+      "total_score": 2.0,
+      "matched_tags": {
+        "自然风光": 1.0,
+        "户外探险": 0.7
+      },
+      "best_season": "6-9月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    },
+    {
+      "name": "温哥华",
+      "days": 2,
+      "tag_score": 1.5,
+      "season_score": 0.1,
+      "total_score": 1.6,
+      "matched_tags": {
+        "现代都市": 0.7,
+        "自然风光": 0.8
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        49.2827,
+        -123.1207
+      ]
+    },
+    {
+      "name": "黄刀镇",
+      "days": 1,
+      "tag_score": 1.5,
+      "season_score": -0.2,
+      "total_score": 1.3,
+      "matched_tags": {
+        "自然风光": 0.9,
+        "户外探险": 0.6
+      },
+      "best_season": "8-9月或11-3月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    },
+    {
+      "name": "贾斯珀国家公园",
+      "days": 1,
+      "tag_score": 0.7,
+      "season_score": 0.3,
+      "total_score": 1.0,
+      "matched_tags": {
+        "自然风光": 0.7
+      },
+      "best_season": "6-9月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    },
+    {
+      "name": "多伦多",
+      "days": 2,
+      "tag_score": 0.7,
+      "season_score": 0.1,
+      "total_score": 0.8,
+      "matched_tags": {
+        "人文历史": 0.7
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        43.6532,
+        -79.3832
+      ]
+    }
+  ]
+}

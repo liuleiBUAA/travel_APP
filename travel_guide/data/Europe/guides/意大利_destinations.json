@@ -1,0 +1,304 @@
+{
+  "罗马": {
+    "full_title": "罗马",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "斗兽场、古罗马广场",
+        "transport": "🚶 步行",
+        "stay": "罗马"
+      },
+      {
+        "day": "Day 2",
+        "activity": "梵蒂冈博物馆、圣彼得大教堂",
+        "transport": "🚶 步行",
+        "stay": "罗马"
+      },
+      {
+        "day": "Day 3",
+        "activity": "许愿池、万神殿、纳沃纳广场",
+        "transport": "🚶 步行",
+        "stay": "罗马"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.9
+    }
+  },
+  "佛罗伦萨": {
+    "full_title": "佛罗伦萨",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "圣母百花大教堂、领主广场",
+        "transport": "🚶 步行",
+        "stay": "佛罗伦萨"
+      },
+      {
+        "day": "Day 2",
+        "activity": "乌菲兹美术馆、老桥、米开朗基罗广场",
+        "transport": "🚶 步行",
+        "stay": "佛罗伦萨"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.9
+    }
+  },
+  "威尼斯": {
+    "full_title": "威尼斯",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "圣马可广场、总督宫",
+        "transport": "🚶 步行",
+        "stay": "威尼斯"
+      },
+      {
+        "day": "Day 2",
+        "activity": "彩色岛/玻璃岛",
+        "transport": "🚢 渡轮",
+        "stay": "威尼斯"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "米兰": {
+    "full_title": "米兰",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "米兰大教堂、《最后的晚餐》",
+        "transport": "🚶 步行",
+        "stay": "米兰"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.7
+    }
+  },
+  "五渔村": {
+    "full_title": "五渔村",
+    "best_season": "5-9月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "彩色村庄徒步、里奥马焦雷、蒙特罗索",
+        "transport": "🚶 步行",
+        "stay": "五渔村/拉斯佩齐亚"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.7
+    }
+  },
+  "托斯卡纳": {
+    "full_title": "托斯卡纳",
+    "best_season": "4-6月、9-10月",
+    "tags": {
+      "自然风光": 0.8,
+      "小镇村落": 0.9
+    },
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "佛罗伦萨→奥尔恰谷，田园风光",
+        "transport": "🚗 自驾2h",
+        "stay": "托斯卡纳"
+      },
+      {
+        "day": "Day 2",
+        "activity": "皮恩扎、蒙特普尔恰诺",
+        "transport": "🚗 自驾",
+        "stay": "托斯卡纳"
+      },
+      {
+        "day": "Day 3",
+        "activity": "天空之城，返回",
+        "transport": "🚗 自驾",
+        "stay": "-",
+        "options": [
+          {
+            "label": "去罗马",
+            "to": [
+              "罗马"
+            ],
+            "stay": "罗马",
+            "drive": 2.78,
+            "detail": "从锡耶纳出发，高速直达",
+            "type": "continue"
+          },
+          {
+            "label": "去佛罗伦萨",
+            "to": [
+              "佛罗伦萨"
+            ],
+            "stay": "佛罗伦萨",
+            "drive": 1.28,
+            "detail": "从锡耶纳出发，近",
+            "type": "continue"
+          },
+          {
+            "label": "去米兰",
+            "to": [
+              "米兰"
+            ],
+            "stay": "米兰",
+            "drive": 4.1,
+            "train": 3.08,
+            "detail": "从锡耶纳出发，火车更快",
+            "type": "continue"
+          }
+        ]
+      }
+    ]
+  },
+  "多洛米蒂": {
+    "full_title": "多洛米蒂",
+    "best_season": "6-9月",
+    "tags": {
+      "自然风光": 1.0,
+      "户外探险": 0.8
+    },
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "富纳斯山谷、布拉耶斯湖",
+        "transport": "🚗 自驾",
+        "stay": "波尔扎诺/奥蒂塞伊"
+      },
+      {
+        "day": "Day 2",
+        "activity": "刀锋山、休斯山（奥蒂塞伊出发）",
+        "transport": "🚗 自驾",
+        "stay": "波尔扎诺/奥蒂塞伊",
+        "options": [
+          {
+            "label": "去威尼斯",
+            "to": [
+              "威尼斯"
+            ],
+            "stay": "威尼斯",
+            "drive": 2.0,
+            "train": 2.17,
+            "detail": "从波尔扎诺出发，自驾或火车均可",
+            "type": "continue"
+          },
+          {
+            "label": "去罗马",
+            "to": [
+              "罗马"
+            ],
+            "stay": "罗马",
+            "drive": 5.6,
+            "train": 4.0,
+            "detail": "从波尔扎诺出发，火车更舒适",
+            "type": "continue"
+          },
+          {
+            "label": "回慕尼黑（飞下一站）",
+            "to": [
+              "慕尼黑"
+            ],
+            "stay": "慕尼黑",
+            "drive": 3.47,
+            "detail": "适合下一站需要从慕尼黑飞的情况",
+            "type": "return_hub"
+          },
+          {
+            "label": "去米兰",
+            "to": [
+              "米兰"
+            ],
+            "stay": "米兰",
+            "drive": 3.9,
+            "train": 4.18,
+            "detail": "从奥蒂塞伊出发",
+            "type": "continue"
+          }
+        ]
+      }
+    ]
+  },
+  "那不勒斯/庞贝/阿马尔菲海岸": {
+    "full_title": "那不勒斯/庞贝/阿马尔菲海岸",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "罗马→庞贝，庞贝古城",
+        "transport": "🚗 自驾2.5h",
+        "stay": "那不勒斯"
+      },
+      {
+        "day": "Day 2",
+        "activity": "那不勒斯→阿马尔菲，阿马尔菲镇",
+        "transport": "🚗 自驾1.5h",
+        "stay": "阿马尔菲"
+      },
+      {
+        "day": "Day 3",
+        "activity": "阿马尔菲→索伦托，卡普里岛",
+        "transport": "🚗 自驾1h",
+        "stay": "阿马尔菲"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "西西里岛": {
+    "loop_type": "loop",
+    "hub_city": "巴勒莫",
+    "full_title": "西西里岛",
+    "best_season": "5-9月",
+    "tags": {
+      "人文历史": 0.8,
+      "海岛海滨": 0.7
+    },
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "巴勒莫→阿格里真托，土耳其阶梯",
+        "transport": "🚗 自驾",
+        "stay": "阿格里真托"
+      },
+      {
+        "day": "Day 2",
+        "activity": "阿格里真托，神殿之谷",
+        "transport": "-",
+        "stay": "阿格里真托"
+      },
+      {
+        "day": "Day 3",
+        "activity": "阿格里真托→锡拉库萨",
+        "transport": "🚗 自驾3h",
+        "stay": "锡拉库萨"
+      },
+      {
+        "day": "Day 4",
+        "activity": "锡拉库萨→陶尔米纳",
+        "transport": "🚗 自驾",
+        "stay": "陶尔米纳"
+      },
+      {
+        "day": "Day 5",
+        "activity": "陶尔米纳→切法卢",
+        "transport": "🚗 自驾1.5h",
+        "stay": "切法卢"
+      },
+      {
+        "day": "Day 6",
+        "activity": "切法卢→巴勒莫，返回",
+        "transport": "🚗 自驾2h",
+        "stay": "-"
+      }
+    ]
+  }
+}

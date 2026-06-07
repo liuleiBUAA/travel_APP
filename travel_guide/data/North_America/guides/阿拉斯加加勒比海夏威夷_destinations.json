@@ -1,0 +1,210 @@
+{
+  "阿拉斯加": {
+    "full_title": "🇺🇸 阿拉斯加",
+    "best_season": "9-3月（极光）",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "市区、晚上追极光",
+        "transport": "-",
+        "stay": "费尔班克斯"
+      },
+      {
+        "day": "Day 2",
+        "activity": "白天自由活动、晚上追极光",
+        "transport": "-",
+        "stay": "费尔班克斯"
+      },
+      {
+        "day": "Day 3",
+        "activity": "珍娜温泉、晚上追极光",
+        "transport": "🚗 自驾",
+        "stay": "费尔班克斯"
+      },
+      {
+        "day": "Day 1",
+        "activity": "安克雷奇市区",
+        "transport": "🚶 步行",
+        "stay": "安克雷奇"
+      },
+      {
+        "day": "Day 2",
+        "activity": "冰川徒步",
+        "transport": "🚗 自驾",
+        "stay": "安克雷奇"
+      },
+      {
+        "day": "Day 1",
+        "activity": "安克雷奇→迪纳利，Wonder Lake",
+        "transport": "🚗 自驾4h",
+        "stay": "Denali Park"
+      },
+      {
+        "day": "Day 2",
+        "activity": "野生动物观光，返回安克雷奇",
+        "transport": "🚗 自驾",
+        "stay": "安克雷奇"
+      },
+      {
+        "day": "Day 1",
+        "activity": "安克雷奇→基奈峡湾，Exit Glacier",
+        "transport": "🚗 自驾2.5h",
+        "stay": "Seward"
+      },
+      {
+        "day": "Day 2",
+        "activity": "游轮巡游，返回安克雷奇",
+        "transport": "🚗 自驾",
+        "stay": "安克雷奇"
+      }
+    ],
+    "loop_type": "linear",
+    "hub_city": "费尔班克斯",
+    "end_city": "安克雷奇",
+    "tags": {
+      "自然风光": 1.0,
+      "海岛海滨": 0.7
+    }
+  },
+  "墨西哥": {
+    "full_title": "🏝️ 墨西哥（坎昆）- 6天",
+    "best_season": "12-4月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "坎昆海滩、女人岛",
+        "transport": "坎昆",
+        "stay": ""
+      },
+      {
+        "day": "Day 2",
+        "activity": "图卢姆玛雅遗迹",
+        "transport": "Playa del Carmen",
+        "stay": ""
+      },
+      {
+        "day": "Day 3",
+        "activity": "奇琴伊察",
+        "transport": "Playa del Carmen",
+        "stay": ""
+      },
+      {
+        "day": "Day 4",
+        "activity": "Xcaret 主题公园",
+        "transport": "Playa del Carmen",
+        "stay": ""
+      },
+      {
+        "day": "Day 5",
+        "activity": "Xel-Ha 浮潜乐园",
+        "transport": "Playa del Carmen",
+        "stay": ""
+      },
+      {
+        "day": "Day 6",
+        "activity": "Cozumel 浮潜",
+        "transport": "Playa del Carmen",
+        "stay": ""
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6,
+      "海岛海滨": 1.0,
+      "亲子家庭": 0.9
+    }
+  },
+  "波多黎各": {
+    "full_title": "🏝️ 波多黎各 - 3天",
+    "best_season": "12-4月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "圣胡安老城、城堡",
+        "transport": "🚶 步行",
+        "stay": "波多黎各"
+      },
+      {
+        "day": "Day 2",
+        "activity": "云盖国家公园荧光海",
+        "transport": "🚗 自驾",
+        "stay": "波多黎各"
+      },
+      {
+        "day": "Day 3",
+        "activity": "法尔霍海滩",
+        "transport": "🚗 自驾",
+        "stay": "波多黎各"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.7,
+      "自然风光": 0.7,
+      "海岛海滨": 0.7
+    }
+  },
+  "夏威夷": {
+    "full_title": "🌺 夏威夷",
+    "best_season": "4-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "威基基海滩、钻石山",
+        "transport": "🚶 步行",
+        "stay": "檀香山"
+      },
+      {
+        "day": "Day 2",
+        "activity": "珍珠港、恐龙湾",
+        "transport": "🚗 自驾",
+        "stay": "檀香山"
+      },
+      {
+        "day": "Day 3",
+        "activity": "北岸、日落海滩",
+        "transport": "🚗 自驾",
+        "stay": "檀香山"
+      },
+      {
+        "day": "Day 1",
+        "activity": "火山公园",
+        "transport": "🚗 自驾",
+        "stay": "大岛"
+      },
+      {
+        "day": "Day 2",
+        "activity": "科纳咖啡园、黑沙滩",
+        "transport": "🚗 自驾",
+        "stay": "大岛"
+      },
+      {
+        "day": "Day 1",
+        "activity": "哈纳之路",
+        "transport": "🚗 自驾",
+        "stay": "茂宜岛"
+      },
+      {
+        "day": "Day 2",
+        "activity": "拉海纳小镇",
+        "transport": "🚗 自驾",
+        "stay": "茂宜岛"
+      },
+      {
+        "day": "Day 1",
+        "activity": "威美亚峡谷",
+        "transport": "🚗 自驾",
+        "stay": "可爱岛"
+      },
+      {
+        "day": "Day 2",
+        "activity": "波伊普海滩",
+        "transport": "🚗 自驾",
+        "stay": "可爱岛"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.9,
+      "海岛海滨": 1.0,
+      "小镇村落": 0.8
+    }
+  }
+}

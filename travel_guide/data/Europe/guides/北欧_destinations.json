@@ -1,0 +1,292 @@
+{
+  "挪威": {
+    "full_title": "挪威",
+    "best_season": "6-8月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "维格兰雕塑公园、皇宫",
+        "transport": "🚶 步行",
+        "stay": "奥斯陆"
+      },
+      {
+        "day": "Day 1",
+        "activity": "卑尔根古城、布吕根码头",
+        "transport": "🚶 步行",
+        "stay": "卑尔根"
+      },
+      {
+        "day": "Day 2",
+        "activity": "哈当厄尔峡湾一日游",
+        "transport": "🚗 自驾",
+        "stay": "卑尔根"
+      },
+      {
+        "day": "Day 3",
+        "activity": "纳伊柔峡湾（挪威缩影）",
+        "transport": "🚗 火车",
+        "stay": "卑尔根"
+      },
+      {
+        "day": "Day 4",
+        "activity": "弗洛姆、松恩峡湾",
+        "transport": "🚗 火车",
+        "stay": "卑尔根"
+      },
+      {
+        "day": "Day 1",
+        "activity": "布道石徒步、吕瑟峡湾",
+        "transport": "✈️ 飞机",
+        "stay": "斯塔万格"
+      },
+      {
+        "day": "Day 1",
+        "activity": "罗弗敦群岛：渔民屋、峡湾",
+        "transport": "🚗 自驾",
+        "stay": "罗弗敦"
+      },
+      {
+        "day": "Day 2",
+        "activity": "罗弗敦群岛：特罗洛",
+        "transport": "🚗 自驾",
+        "stay": "罗弗敦"
+      },
+      {
+        "day": "Day 3",
+        "activity": "罗弗敦群岛深度游",
+        "transport": "🚗 自驾",
+        "stay": "罗弗敦"
+      },
+      {
+        "day": "Day 1",
+        "activity": "极光、极地博物馆、缆车",
+        "transport": "-",
+        "stay": "特罗姆瑟"
+      },
+      {
+        "day": "Day 4",
+        "activity": "罗弗敦群岛：渔民屋、峡湾",
+        "transport": "🚗 自驾",
+        "stay": "罗弗敦"
+      },
+      {
+        "day": "Day 2",
+        "activity": "罗弗敦群岛深度游",
+        "transport": "🚗 自驾",
+        "stay": "罗弗敦"
+      },
+      {
+        "day": "Day 3",
+        "activity": "罗弗敦→塞尼亚半岛",
+        "transport": "🚗 自驾",
+        "stay": "塞尼亚"
+      },
+      {
+        "day": "Day 4",
+        "activity": "塞尼亚半岛→特罗姆瑟：极光",
+        "transport": "🚗 自驾",
+        "stay": "特罗姆瑟"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.8,
+      "自然风光": 0.7,
+      "海岛海滨": 0.7
+    }
+  },
+  "冰岛（8天环线）": {
+    "full_title": "冰岛（8天环线）",
+    "best_season": "6-8月",
+    "loop_type": "loop",
+    "hub_city": "雷克雅未克",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "雷克雅未克：市区、黄金圈（间歇泉、黄金瀑布）",
+        "transport": "🚗 自驾",
+        "stay": "雷克雅未克"
+      },
+      {
+        "day": "Day 2",
+        "activity": "雷克雅未克→维克：塞里雅兰瀑布、斯科加瀑布、黑沙滩",
+        "transport": "🚗 自驾",
+        "stay": "维克"
+      },
+      {
+        "day": "Day 3",
+        "activity": "维克→霍芬：冰河湖、蓝冰洞",
+        "transport": "🚗 自驾",
+        "stay": "霍芬"
+      },
+      {
+        "day": "Day 4",
+        "activity": "霍芬→埃伊尔斯塔济：东部峡湾",
+        "transport": "🚗 自驾",
+        "stay": "埃伊尔斯塔济"
+      },
+      {
+        "day": "Day 5",
+        "activity": "埃伊尔斯塔济→米湖：黛提瀑布、众神瀑布、玄武岩柱大峡谷",
+        "transport": "🚗 自驾",
+        "stay": "米湖"
+      },
+      {
+        "day": "Day 6",
+        "activity": "米湖→阿克雷里：米湖温泉",
+        "transport": "🚗 自驾",
+        "stay": "阿克雷里"
+      },
+      {
+        "day": "Day 7",
+        "activity": "阿克雷里→华姆斯唐吉：犀牛石",
+        "transport": "🚗 自驾",
+        "stay": "华姆斯唐吉"
+      },
+      {
+        "day": "Day 8",
+        "activity": "华姆斯唐吉→斯奈山半岛→雷克雅未克：返程",
+        "transport": "🚗 自驾",
+        "stay": "-"
+      },
+      {
+        "day": "Day 9",
+        "activity": "雷克雅未克：蓝湖温泉、购物、准备离开",
+        "stay": "雷克雅未克",
+        "transport": "🚗 自驾",
+        "options": [
+          {
+            "label": "从雷克雅未克飞离",
+            "to": [
+              "雷克雅未克"
+            ],
+            "stay": "雷克雅未克",
+            "detail": "凯夫拉维克国际机场，欧洲各大城市均有直飞",
+            "type": "return_hub"
+          },
+          {
+            "label": "继续玩斯奈山半岛",
+            "to": [
+              "斯奈山"
+            ],
+            "stay": "斯奈山",
+            "drive": 2.0,
+            "detail": "从雷克雅未克出发，冰岛最美半岛，+2天",
+            "type": "extend"
+          }
+        ]
+      }
+    ],
+    "tags": {
+      "自然风光": 0.9,
+      "海岛海滨": 0.7,
+      "现代都市": 0.5
+    }
+  },
+  "哥本哈根": {
+    "full_title": "哥本哈根",
+    "best_season": "6-8月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "小美人鱼、趣伏里公园",
+        "transport": "🚶 步行",
+        "stay": "哥本哈根"
+      },
+      {
+        "day": "Day 2",
+        "activity": "新港、皇宫",
+        "transport": "🚶 步行",
+        "stay": "哥本哈根"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "斯德哥尔摩": {
+    "full_title": "斯德哥尔摩",
+    "best_season": "6-8月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "老城、皇宫、诺贝尔博物馆",
+        "transport": "🚶 步行",
+        "stay": "斯德哥尔摩"
+      },
+      {
+        "day": "Day 2",
+        "activity": "瓦萨沉船博物馆",
+        "transport": "🚶 步行",
+        "stay": "斯德哥尔摩"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.8
+    }
+  },
+  "圣诞老人村": {
+    "full_title": "圣诞老人村",
+    "best_season": "12-2月",
+    "tags": {
+      "亲子家庭": 0.9,
+      "小镇村落": 0.7
+    },
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "圣诞老人办公室、跨越北极圈",
+        "transport": "-",
+        "stay": "罗瓦涅米"
+      }
+    ]
+  },
+  "罗弗敦": {
+    "full_title": "罗弗敦群岛",
+    "best_season": "6-8月（极昼）或11-2月（极光）",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "Hamnøy 桥头 + Reine + 徒步 Reinebringen",
+        "stay": "罗弗敦",
+        "transport": "🚗 自驾"
+      },
+      {
+        "day": "Day 2",
+        "activity": "徒步 Ryten + Ramberg 海滩散步",
+        "stay": "罗弗敦",
+        "transport": "🚗 自驾"
+      },
+      {
+        "day": "Day 3",
+        "activity": "白天查漏补缺 + 适时前往下一个目的地",
+        "stay": "罗弗敦",
+        "transport": "当地",
+        "options": [
+          {
+            "label": "去特罗姆瑟",
+            "to": [
+              "特罗姆瑟"
+            ],
+            "stay": "特罗姆瑟",
+            "drive": 6.0,
+            "detail": "从罗弗敦出发，北极圈内，看极光最佳地",
+            "type": "continue"
+          },
+          {
+            "label": "回奥斯陆（飞下一站）",
+            "to": [
+              "奥斯陆"
+            ],
+            "stay": "奥斯陆",
+            "detail": "从斯沃尔韦尔机场飞奥斯陆，约1.5h",
+            "type": "return_hub"
+          }
+        ]
+      }
+    ],
+    "tags": {
+      "自然风光": 0.7,
+      "海岛海滨": 0.7
+    }
+  }
+}

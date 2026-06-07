@@ -1,0 +1,111 @@
+{
+  "主岛维提岛": {
+    "full_title": "主岛维提岛（楠迪、苏瓦）- 2天",
+    "best_season": "5-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "抵达楠迪：丹娜努海滩、沉睡巨人花园",
+        "transport": "✈️ 国际航班",
+        "stay": "楠迪"
+      },
+      {
+        "day": "Day 2",
+        "activity": "楠迪→苏瓦：斐济博物馆、Colo-i-Suva森林公园",
+        "transport": "🚗 自驾3.5h",
+        "stay": "苏瓦"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6,
+      "海岛海滨": 0.7
+    }
+  },
+  "玛玛努卡群岛": {
+    "full_title": "玛玛努卡群岛 (Mamanuca Islands) - 2-3天",
+    "best_season": "5-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "楠迪→玛玛努卡：浮潜、水上运动",
+        "transport": "🚢 渡轮/快艇",
+        "stay": "度假岛屿"
+      },
+      {
+        "day": "Day 2",
+        "activity": "浮潜、日光浴、海上皮划艇",
+        "transport": "🏝️ 岛上",
+        "stay": "度假岛屿"
+      },
+      {
+        "day": "Day 3",
+        "activity": "返回楠迪",
+        "transport": "🚢 渡轮",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "海岛海滨": 0.95,
+      "度假休闲": 0.9,
+      "水上活动": 0.9
+    }
+  },
+  "亚萨瓦群岛": {
+    "full_title": "亚萨瓦群岛 (Yasawa Islands) - 3-5天",
+    "best_season": "5-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "楠迪→亚萨瓦：抵达、海滩探索",
+        "transport": "🚢 渡轮2-3h",
+        "stay": "度假岛屿"
+      },
+      {
+        "day": "Day 2",
+        "activity": "浮潜、与蝠鲼游泳",
+        "transport": "🏝️ 岛上",
+        "stay": "度假岛屿"
+      },
+      {
+        "day": "Day 3",
+        "activity": "跳岛游：蓝洞、Sawa-i-Lau洞穴",
+        "transport": "🚢 岛间渡轮",
+        "stay": "度假岛屿"
+      },
+      {
+        "day": "Day 4",
+        "activity": "传统村落体验、卡瓦仪式",
+        "transport": "🏝️ 岛上",
+        "stay": "度假岛屿"
+      },
+      {
+        "day": "Day 5",
+        "activity": "返回楠迪",
+        "transport": "🚢 渡轮",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "海岛海滨": 0.95,
+      "自然风光": 0.9,
+      "人文历史": 0.7,
+      "水上活动": 0.9,
+      "度假休闲": 0.85
+    }
+  },
+  "楠迪": {
+    "full_title": "楠迪 (Nadi)",
+    "best_season": "5-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "丹娜努海滩、沉睡巨人花园",
+        "transport": "🚗 自驾",
+        "stay": "楠迪"
+      }
+    ],
+    "tags": {
+      "海岛海滨": 0.7
+    }
+  }
+}

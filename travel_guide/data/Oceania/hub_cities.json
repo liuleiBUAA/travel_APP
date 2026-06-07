@@ -1,0 +1,10 @@
+{
+  "说明": "澳洲/新西兰国际门户城市配置 - 中国直飞城市",
+  "hubs": {
+    "悉尼": {"region": "澳大利亚", "direct_flight": true},
+    "墨尔本": {"region": "澳大利亚", "direct_flight": true},
+    "布里斯班": {"region": "澳大利亚", "direct_flight": true},
+    "珀斯": {"region": "澳大利亚", "direct_flight": true},
+    "奥克兰": {"region": "新西兰", "direct_flight": true}
+  }
+}

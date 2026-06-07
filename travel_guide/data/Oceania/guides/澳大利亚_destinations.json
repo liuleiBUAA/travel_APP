@@ -1,0 +1,381 @@
+{
+  "悉尼": {
+    "full_title": "悉尼及周边（2-3天）",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "悉尼歌剧院、海港大桥、岩石区、邦迪海滩",
+        "transport": "🚗 自驾",
+        "stay": "悉尼"
+      },
+      {
+        "day": "Day 2",
+        "activity": "塔龙加动物园、沃森湾：灯塔、日落",
+        "transport": "🚗 自驾",
+        "stay": "悉尼"
+      },
+      {
+        "day": "Day 3",
+        "activity": "蓝山一日游（选去）",
+        "transport": "🚗 自驾",
+        "stay": "悉尼"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.7,
+      "海岛海滨": 0.7,
+      "亲子家庭": 0.9
+    }
+  },
+  "墨尔本": {
+    "full_title": "墨尔本及周边（3-4天）",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "墨尔本市区：弗林德斯街车站、联邦广场",
+        "transport": "🚶 步行",
+        "stay": "墨尔本"
+      },
+      {
+        "day": "Day 2",
+        "activity": "菲利普岛：企鹅归巢、小企鹅",
+        "transport": "🚗 自驾2h",
+        "stay": "墨尔本"
+      },
+      {
+        "day": "Day 3",
+        "activity": "莫宁顿半岛：索伦托、彩色小屋",
+        "transport": "🚗 自驾",
+        "stay": "墨尔本"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "大洋路": {
+    "loop_type": "loop",
+    "hub_city": "墨尔本",
+    "full_title": "大洋路（3天2晚自驾环线）",
+    "best_season": "全年",
+    "tags": {
+      "自然风光": 0.9,
+      "海岛海滨": 0.8
+    },
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "墨尔本→吉朗→托尔坎→洛恩→阿波罗湾",
+        "transport": "🚗 自驾",
+        "stay": "阿波罗湾"
+      },
+      {
+        "day": "Day 2",
+        "activity": "阿波罗湾→奥特威角→十二门徒→坎贝尔港",
+        "transport": "🚗 自驾",
+        "stay": "坎贝尔港"
+      },
+      {
+        "day": "Day 3",
+        "activity": "坎贝尔港→瓦南布尔→仙女港→返回墨尔本",
+        "transport": "🚗 自驾",
+        "stay": "墨尔本"
+      }
+    ]
+  },
+  "塔斯马尼亚": {
+    "full_title": "塔斯马尼亚（5-9天环线）",
+    "best_season": "12-2月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "抵达霍巴特：萨拉曼卡集市、MONA博物馆",
+        "transport": "✈️ 飞机",
+        "stay": "霍巴特"
+      },
+      {
+        "day": "Day 2",
+        "activity": "布鲁尼岛：生蚝农场、The Neck",
+        "transport": "🚗+🚢",
+        "stay": "布鲁尼岛/霍巴特"
+      },
+      {
+        "day": "Day 3",
+        "activity": "亚瑟港、里士满古镇",
+        "transport": "🚗 自驾1.5h",
+        "stay": "亚瑟港"
+      },
+      {
+        "day": "Day 4",
+        "activity": "霍巴特→酒杯湾：爬山/游船",
+        "transport": "🚗 自驾2.5h",
+        "stay": "酒杯湾/比舍诺"
+      },
+      {
+        "day": "Day 5",
+        "activity": "比舍诺→火焰湾→薰衣草农场→朗塞斯顿",
+        "transport": "🚗 自驾3h",
+        "stay": "朗塞斯顿"
+      },
+      {
+        "day": "Day 6",
+        "activity": "朗塞斯顿→谢菲尔德→摇篮山",
+        "transport": "🚗 自驾2h",
+        "stay": "摇篮山"
+      },
+      {
+        "day": "Day 7",
+        "activity": "摇篮山→朗塞斯顿→返回",
+        "transport": "🚗 自驾",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "人文历史": 0.6
+    }
+  },
+  "布里斯班": {
+    "full_title": "布里斯班及周边（2-3天）",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "布里斯班市区：市政厅、皇后街、南岸公园",
+        "transport": "🚶 步行",
+        "stay": "布里斯班"
+      },
+      {
+        "day": "Day 2",
+        "activity": "莫顿岛：浮潜、喂海豚、滑沙",
+        "transport": "🚢 渡轮",
+        "stay": "莫顿岛"
+      }
+    ],
+    "tags": {
+      "海岛海滨": 0.7
+    }
+  },
+  "黄金海岸": {
+    "full_title": "黄金海岸（3-4天）",
+    "best_season": "4-11月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "冲浪者天堂海滩、Q1观景台",
+        "transport": "🚶 步行",
+        "stay": "黄金海岸"
+      },
+      {
+        "day": "Day 2",
+        "activity": "华纳兄弟电影世界/狂野水上世界",
+        "transport": "🚗 自驾",
+        "stay": "黄金海岸"
+      },
+      {
+        "day": "Day 3",
+        "activity": "可伦宾野生动物园：抱考拉、喂袋鼠",
+        "transport": "🚗 自驾",
+        "stay": "黄金海岸"
+      },
+      {
+        "day": "Day 4",
+        "activity": "海洋世界、伯利角日落",
+        "transport": "🚗 自驾",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.7,
+      "海岛海滨": 1.0,
+      "亲子家庭": 0.9
+    }
+  },
+  "凯恩斯": {
+    "full_title": "凯恩斯/大堡礁",
+    "best_season": "5-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "大堡礁：浮潜/潜水",
+        "transport": "🚢 船",
+        "stay": "凯恩斯"
+      },
+      {
+        "day": "Day 2",
+        "activity": "库兰达热带雨林、缆车",
+        "transport": "🚗 自驾",
+        "stay": "凯恩斯"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.7,
+      "海岛海滨": 1.0
+    }
+  },
+  "珀斯": {
+    "full_title": "西澳珀斯",
+    "best_season": "5-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "珀斯市区、天鹅谷",
+        "transport": "🚗 自驾",
+        "stay": "珀斯"
+      },
+      {
+        "day": "Day 2",
+        "activity": "洛尼斯特岛一日游",
+        "transport": "轮渡",
+        "stay": "珀斯"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.7
+    }
+  },
+  "阿德莱德": {
+    "full_title": "阿德莱德/袋鼠岛",
+    "best_season": "9-11月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "阿德莱德：中央市场、动物园",
+        "transport": "🚶 步行",
+        "stay": "阿德莱德"
+      },
+      {
+        "day": "Day 2",
+        "activity": "袋鼠岛：海狮、考拉",
+        "transport": "🚗+🚢",
+        "stay": "袋鼠岛"
+      }
+    ],
+    "tags": {
+      "现代都市": 0.5,
+      "亲子家庭": 0.9
+    }
+  },
+  "堪培拉": {
+    "full_title": "堪培拉",
+    "best_season": "全年",
+    "tags": {
+      "人文历史": 0.7,
+      "现代都市": 0.6
+    },
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "堪培拉：国会大厦、战争纪念馆",
+        "transport": "🚗 自驾",
+        "stay": "堪培拉"
+      }
+    ]
+  },
+  "艾尔利海滩": {
+    "full_title": "艾尔利海滩/圣灵群岛（4天）",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "抵达、海滩泻湖泳池、小镇逛街",
+        "transport": "✈️ 飞机至PPP",
+        "stay": "艾尔利海滩"
+      },
+      {
+        "day": "Day 2",
+        "activity": "大堡礁一日游：浮潜/深潜",
+        "transport": "🚢 游船",
+        "stay": "艾尔利海滩"
+      },
+      {
+        "day": "Day 3",
+        "activity": "白天堂沙滩一日游：希尔湾观景台",
+        "transport": "🚢 快艇",
+        "stay": "艾尔利海滩"
+      },
+      {
+        "day": "Day 4",
+        "activity": "小飞机看心形礁与白天堂沙滩",
+        "transport": "✈️ 观光飞机",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "海岛海滨": 1.0,
+      "自然风光": 0.9,
+      "户外探险": 0.7
+    }
+  },
+  "汉密尔顿岛": {
+    "full_title": "汉密尔顿岛（4天）",
+    "best_season": "全年",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "抵达岛上：猫眼海滩、浮潜、皮划艇",
+        "transport": "✈️ 飞机至HTI",
+        "stay": "汉密尔顿岛"
+      },
+      {
+        "day": "Day 2",
+        "activity": "大堡礁一日游：浮潜/深潜、直升机看心形礁",
+        "transport": "🚢+🚁",
+        "stay": "汉密尔顿岛"
+      },
+      {
+        "day": "Day 3",
+        "activity": "白天堂沙滩一日游、One Tree Hill看夕阳",
+        "transport": "🚢 游船",
+        "stay": "汉密尔顿岛"
+      },
+      {
+        "day": "Day 4",
+        "activity": "野生动物园与考拉合影、离岛",
+        "transport": "🚌 岛内巴士",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "海岛海滨": 1.0,
+      "自然风光": 0.9,
+      "亲子家庭": 0.8
+    }
+  },
+  "乌鲁鲁": {
+    "full_title": "乌鲁鲁/艾尔斯岩（4天）",
+    "best_season": "4-10月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "抵达艾尔斯岩度假村：乌鲁鲁日落+晚餐+观星",
+        "transport": "✈️ 飞机至AYQ",
+        "stay": "艾尔斯岩度假村"
+      },
+      {
+        "day": "Day 2",
+        "activity": "乌鲁鲁日出：平衡车环绕/12km徒步",
+        "transport": "🚗 自驾",
+        "stay": "艾尔斯岩度假村"
+      },
+      {
+        "day": "Day 3",
+        "activity": "帝王谷：Rim Walk徒步（3-4小时）",
+        "transport": "🚗 自驾3.5h",
+        "stay": "艾尔斯岩度假村"
+      },
+      {
+        "day": "Day 4",
+        "activity": "卡塔丘塔日出+早餐、原野星光展",
+        "transport": "🚗 自驾",
+        "stay": "-"
+      }
+    ],
+    "tags": {
+      "自然风光": 1.0,
+      "户外探险": 0.8,
+      "人文历史": 0.6
+    }
+  }
+}

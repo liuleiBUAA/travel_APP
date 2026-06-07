@@ -1,0 +1,75 @@
+// API配置
+// 开发环境: http://localhost:8000/api
+// 生产环境: https://awesometravelpartner.cn/api (域名被腾讯云边缘拦截，临时用源站IP)
+const BASE_URL = 'https://111.229.241.225/api'
+
+function getToken() {
+  return wx.getStorageSync('token') || ''
+}
+
+function request(url, method, data) {
+  return new Promise((resolve, reject) => {
+    const token = getToken()
+    console.log('[API请求]', method || 'GET', url, 'token:', token ? token.substring(0, 20) + '...' : '无', data ? JSON.stringify(data).substring(0, 100) : '')
+    wx.request({
+      url: BASE_URL + url,
+      method: method || 'GET',
+      data: data,
+      header: {
+        'Content-Type': 'application/json',
+        ...(token ? { 'Authorization': token } : {})
+      },
+      success(res) {
+        console.log('[API响应]', url, '状态:', res.statusCode, JSON.stringify(res.data).substring(0, 300))
+        resolve(res.data)
+      },
+      fail(err) {
+        console.error('[API失败]', url, err.errMsg || JSON.stringify(err))
+        reject(err)
+      }
+    })
+  })
+}
+
+module.exports = {
+  // 认证
+  wxLogin(code, nickname, avatarUrl) {
+    return request('/auth/wx-login', 'POST', { code, nickname, avatar_url: avatarUrl })
+  },
+  getMe(token) {
+    return request(`/auth/me?token=${encodeURIComponent(token)}`)
+  },
+  updateProfile(token, nickname, gender, avatarUrl) {
+    return request('/auth/update-profile', 'POST', { token, nickname, gender, avatar_url: avatarUrl })
+  },
+  // 目的地
+  getCountries(region) {
+    return request(`/destinations/countries?region=${encodeURIComponent(region)}`)
+  },
+  getCities(region, country, limit) {
+    return request(`/destinations/cities?region=${encodeURIComponent(region)}&country=${encodeURIComponent(country)}&limit=${limit || 16}`)
+  },
+  searchDestinations(q) {
+    return request(`/destinations/search?q=${encodeURIComponent(q)}`)
+  },
+  // 路线
+  generateRoute(data) {
+    return request('/routes/generate', 'POST', data)
+  },
+  // 搭子
+  publishCompanion(data) {
+    return request('/companions/publish', 'POST', data)
+  },
+  matchCompanions(data) {
+    return request('/companions/match', 'POST', data)
+  },
+  listCompanions(limit) {
+    return request(`/companions/list?limit=${limit || 20}`)
+  },
+  getMyCompanions(userId, limit) {
+    return request(`/companions/my?user_id=${encodeURIComponent(userId)}&limit=${limit || 20}`)
+  },
+  searchCompanions(keyword, limit) {
+    return request(`/companions/search?keyword=${encodeURIComponent(keyword)}&limit=${limit || 20}`)
+  }
+}

@@ -1,0 +1,259 @@
+<view class="container">
+  <!-- 用户信息 -->
+  <view class="card user-card">
+    <view wx:if="{{userInfo}}" class="user-row">
+      <view class="user-name">{{userInfo.nickname}}</view>
+      <view class="user-actions">
+        <view class="edit-btn" bindtap="showEditNickname">编辑昵称</view>
+      </view>
+    </view>
+    <view wx:else class="user-row">
+      <view class="user-name" style="color:#999;">未登录（自动登录中...）</view>
+    </view>
+    <!-- 编辑昵称 -->
+    <view wx:if="{{editingNickname}}" class="edit-row">
+      <input class="form-input" style="flex:1;" value="{{newNickname}}" bindinput="onNicknameInput" placeholder="输入新昵称" />
+      <view class="save-btn" bindtap="saveNickname">保存</view>
+      <view class="cancel-btn" bindtap="cancelEditNickname">取消</view>
+    </view>
+  </view>
+
+  <!-- 输入模式切换 -->
+  <view class="card">
+    <view class="card-title">选择输入方式</view>
+    <view class="mode-list">
+      <view
+        class="mode-btn {{inputMode === 'smart' ? 'active' : ''}}"
+        bindtap="switchInputMode"
+        data-mode="smart"
+      >智能选城</view>
+      <view
+        class="mode-btn {{inputMode === 'manual' ? 'active' : ''}}"
+        bindtap="switchInputMode"
+        data-mode="manual"
+      >手动输入</view>
+    </view>
+  </view>
+
+  <!-- 智能选城模式 -->
+  <block wx:if="{{inputMode === 'smart'}}">
+    <!-- 选择区域 -->
+    <view class="card">
+      <view class="card-title">1. 选择区域</view>
+      <view class="region-list">
+        <view
+          wx:for="{{regions}}"
+          wx:key="*this"
+          class="region-btn {{currentRegion === item ? 'active' : ''}}"
+          bindtap="selectRegion"
+          data-region="{{item}}"
+        >{{regionIcons[item]}} {{item}}</view>
+      </view>
+    </view>
+
+    <!-- 选择国家 -->
+    <view class="card">
+      <view class="card-title">2. 选择国家</view>
+      <view class="country-list">
+        <view
+          wx:for="{{countries}}"
+          wx:key="*this"
+          class="country-btn {{currentCountry === item ? 'active' : ''}}"
+          bindtap="selectCountry"
+          data-country="{{item}}"
+        >{{item}}</view>
+        <view wx:if="{{countries.length === 0}}" class="hint-text">加载中...</view>
+      </view>
+    </view>
+
+    <!-- 选择城市 -->
+    <view class="card">
+      <view class="card-title">3. 选择城市</view>
+      <view class="city-grid">
+        <view
+          wx:for="{{cities}}"
+          wx:key="name"
+          class="city-item {{selectedCities.indexOf(item.name) > -1 ? 'selected' : ''}}"
+          bindtap="toggleCity"
+          data-name="{{item.name}}"
+        >
+          <view class="city-name">{{item.name}}</view>
+          <view class="city-info">{{item.recommended_days}}天 · {{item.best_season}}</view>
+        </view>
+        <view wx:if="{{cities.length === 0}}" class="hint-text">请先选择国家</view>
+      </view>
+
+      <!-- 手动输入 -->
+      <view class="form-group" style="margin-top: 20rpx;">
+        <view class="form-label">或手动输入</view>
+        <input
+          class="form-input"
+          placeholder="输入城市名，点击添加"
+          value="{{cityInput}}"
+          bindinput="onCityInput"
+          bindconfirm="addManualCity"
+        />
+        <!-- 搜索建议 -->
+        <view wx:if="{{searchResults.length > 0}}" class="search-results">
+          <view
+            wx:for="{{searchResults}}"
+            wx:key="*this"
+            class="search-item"
+            bindtap="selectSearchCity"
+            data-name="{{item}}"
+          >{{item}}</view>
+        </view>
+      </view>
+
+      <!-- 已选城市 -->
+      <view style="display:flex; justify-content:space-between; align-items:center; margin-top:16rpx;">
+        <view class="form-label" style="margin:0;">已选城市</view>
+        <view wx:if="{{selectedCities.length > 0}}" class="clear-btn" bindtap="clearAllCities">清空全部</view>
+      </view>
+      <view class="tags-wrap">
+        <view wx:if="{{selectedCities.length === 0}}" class="hint-text">还没有选择城市</view>
+        <view wx:for="{{selectedCities}}" wx:key="*this" class="tag">
+          {{item}}
+          <text class="tag-remove" catchtap="removeCity" data-name="{{item}}">×</text>
+        </view>
+      </view>
+    </view>
+  </block>
+
+  <!-- 手动输入模式 -->
+  <block wx:if="{{inputMode === 'manual'}}">
+    <view class="card">
+      <view class="card-title">手动输入路线</view>
+
+      <view class="form-group">
+        <view class="form-label">选择区域</view>
+        <picker bindchange="onManualRegionChange" value="{{manualRegionIndex}}" range="{{manualRegionOptions}}">
+          <view class="form-input picker-input">{{manualRegionOptions[manualRegionIndex]}}</view>
+        </picker>
+      </view>
+
+      <view class="form-group">
+        <view class="form-label">选择国家（多选）</view>
+        <view class="country-selector">
+          <view wx:if="{{manualCountries.length === 0}}" class="hint-text">加载中...</view>
+          <label wx:for="{{manualCountries}}" wx:key="*this" class="checkbox-item">
+            <checkbox value="{{item}}" bindchange="toggleManualCountry" data-country="{{item}}" />
+            <text>{{item}}</text>
+          </label>
+        </view>
+      </view>
+
+      <view class="form-group">
+        <view class="form-label">输入城市（逗号分隔）</view>
+        <textarea
+          class="form-textarea"
+          placeholder="例如：卢森堡, 布鲁日, 科尔马"
+          value="{{manualCities}}"
+          bindinput="onManualCitiesInput"
+          maxlength="200"
+          style="height:200rpx;"
+        ></textarea>
+      </view>
+
+      <view class="form-group">
+        <view class="form-label">各城市停留天数（可选）</view>
+        <textarea
+          class="form-textarea"
+          placeholder="格式：城市名:天数，逗号分隔&#10;例如：卢森堡:2, 布鲁日:2, 科尔马:1"
+          value="{{manualDays}}"
+          bindinput="onManualDaysInput"
+          maxlength="200"
+          style="height:160rpx;"
+        ></textarea>
+      </view>
+
+      <view wx:if="{{manualPreviewText}}" class="manual-preview">
+        <view class="preview-title">预览路线：</view>
+        <view class="preview-content">{{manualPreviewText}}</view>
+      </view>
+    </view>
+  </block>
+
+  <!-- 发布信息 -->
+  <view class="card">
+    <view class="card-title">4. 发布信息</view>
+
+    <view wx:if="{{userInfo}}" class="form-group">
+      <view class="form-label">昵称（登录后自动填充）</view>
+      <input class="form-input" disabled value="{{userInfo.nickname}}" />
+    </view>
+
+    <view wx:else class="form-group">
+      <view class="form-label">昵称</view>
+      <input class="form-input" placeholder="请先登录" disabled />
+    </view>
+
+    <view class="form-group">
+      <view class="form-label">出发日期</view>
+      <picker mode="date" value="{{travelDate}}" bindchange="onDateChange">
+        <view class="form-input">{{travelDate}}</view>
+      </picker>
+    </view>
+
+    <view class="form-group">
+      <view class="form-label">找搭子人数</view>
+      <view class="row">
+        <input class="form-input" style="width: 45%;" type="number" value="{{peopleMin}}" bindinput="onInput" data-field="peopleMin" placeholder="最少" />
+        <text style="padding: 0 10rpx;">-</text>
+        <input class="form-input" style="width: 45%;" type="number" value="{{peopleMax}}" bindinput="onInput" data-field="peopleMax" placeholder="最多" />
+      </view>
+    </view>
+
+    <view class="form-group">
+      <view class="form-label">找什么性别的搭子</view>
+      <picker range="{{genderOptions}}" value="{{genderIndex}}" bindchange="onPickerChange" data-field="genderIndex">
+        <view class="form-input">{{genderOptions[genderIndex]}}</view>
+      </picker>
+    </view>
+
+    <view class="form-group">
+      <view class="form-label">交通方式</view>
+      <picker range="{{transportOptions}}" value="{{transportIndex}}" bindchange="onPickerChange" data-field="transportIndex">
+        <view class="form-input">{{transportOptions[transportIndex]}}</view>
+      </picker>
+    </view>
+
+    <view class="form-group">
+      <view class="form-label">住宿安排</view>
+      <picker range="{{accommodationOptions}}" value="{{accommodationIndex}}" bindchange="onPickerChange" data-field="accommodationIndex">
+        <view class="form-input">{{accommodationOptions[accommodationIndex]}}</view>
+      </picker>
+    </view>
+
+    <view class="form-group">
+      <view class="form-label">消费水平</view>
+      <view class="checkbox-group">
+        <label wx:for="{{budgetOptions}}" wx:key="*this" class="checkbox-item">
+          <checkbox value="{{item}}" bindchange="toggleBudget" data-value="{{item}}" />
+          <text>{{item}}</text>
+        </label>
+      </view>
+    </view>
+
+    <view class="form-group">
+      <view class="form-label">你的拍照技能</view>
+      <picker range="{{photoOptions}}" value="{{photoIndex}}" bindchange="onPickerChange" data-field="photoIndex">
+        <view class="form-input">{{photoOptions[photoIndex]}}</view>
+      </picker>
+    </view>
+
+    <view class="form-group">
+      <view class="form-label">你们的组成</view>
+      <view class="row">
+        <input class="form-input" style="width: 45%;" type="number" value="{{userMaleCount}}" bindinput="onInput" data-field="userMaleCount" placeholder="男生人数" />
+        <text style="padding: 0 10rpx;">男</text>
+        <input class="form-input" style="width: 45%;" type="number" value="{{userFemaleCount}}" bindinput="onInput" data-field="userFemaleCount" placeholder="女生人数" />
+        <text>女</text>
+      </view>
+    </view>
+
+    <button class="btn-primary" bindtap="publish">发布行程</button>
+
+    <view wx:if="{{publishMsg}}" class="{{publishOk ? 'msg-success' : 'msg-error'}}">{{publishMsg}}</view>
+  </view>
+</view>

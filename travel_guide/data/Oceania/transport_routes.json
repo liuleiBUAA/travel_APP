@@ -1,0 +1,876 @@
+{
+  "metadata": {
+    "version": "1.3.1",
+    "last_updated": "2026-03-15",
+    "description": "澳洲/新西兰常用城市间单向交通预置数据库 (去重版)",
+    "coverage": "澳大利亚、新西兰主要旅游城市"
+  },
+  "澳大利亚东海岸": {
+    "悉尼->墨尔本": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 1.5,
+      "flight_frequency_per_day": 68,
+      "is_nonstop": true
+    },
+    "悉尼->黄金海岸": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 1.33,
+      "flight_frequency_per_day": 19,
+      "is_nonstop": true
+    },
+    "悉尼->布里斯班": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 1.5,
+      "flight_frequency_per_day": 38,
+      "is_nonstop": true
+    },
+    "墨尔本->布里斯班": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 2.08,
+      "flight_frequency_per_day": 33,
+      "is_nonstop": true
+    },
+    "墨尔本->黄金海岸": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 2.08,
+      "flight_frequency_per_day": 21,
+      "is_nonstop": true
+    },
+    "悉尼->凯恩斯": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 3.17,
+      "flight_frequency_per_day": 8,
+      "is_nonstop": true
+    },
+    "墨尔本->凯恩斯": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 3.33,
+      "flight_frequency_per_day": 8,
+      "is_nonstop": true
+    },
+    "布里斯班->凯恩斯": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 2.42,
+      "flight_frequency_per_day": 13,
+      "is_nonstop": true
+    },
+    "布里斯班->黄金海岸": {
+      "distance_km": 100,
+      "drive_time_hours": 1.0,
+      "train_time_hours": 1.5,
+      "flight_time_hours": null,
+      "flight_frequency_per_day": null,
+      "is_nonstop": null
+    },
+    "悉尼->艾尔利海滩": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 2.58,
+      "flight_frequency_per_day": 2,
+      "is_nonstop": true
+    },
+    "墨尔本->艾尔利海滩": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 2.92,
+      "flight_frequency_per_day": 1,
+      "is_nonstop": true
+    },
+    "布里斯班->艾尔利海滩": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 1.75,
+      "flight_frequency_per_day": 3,
+      "is_nonstop": true
+    },
+    "悉尼->汉密尔顿岛": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 2.58,
+      "flight_frequency_per_day": 2,
+      "is_nonstop": true
+    },
+    "墨尔本->汉密尔顿岛": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 3.0,
+      "flight_frequency_per_day": 1,
+      "is_nonstop": true
+    },
+    "布里斯班->汉密尔顿岛": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 1.83,
+      "flight_frequency_per_day": 2,
+      "is_nonstop": true
+    },
+    "艾尔利海滩->汉密尔顿岛": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 0.5,
+      "flight_frequency_per_day": 5,
+      "is_nonstop": true
+    },
+    "汉密尔顿岛->艾尔利海滩": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 0.5,
+      "flight_frequency_per_day": 5,
+      "is_nonstop": true
+    },
+    "凯恩斯->艾尔利海滩": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 1.17,
+      "flight_frequency_per_day": 3,
+      "is_nonstop": true
+    },
+    "艾尔利海滩->凯恩斯": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 1.17,
+      "flight_frequency_per_day": 3,
+      "is_nonstop": true
+    },
+    "凯恩斯->汉密尔顿岛": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 1.25,
+      "flight_frequency_per_day": 2,
+      "is_nonstop": true
+    },
+    "汉密尔顿岛->凯恩斯": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 1.25,
+      "flight_frequency_per_day": 2,
+      "is_nonstop": true
+    }
+  },
+  "澳大利亚中西部与北领地": {
+    "悉尼->珀斯": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 4.92,
+      "flight_frequency_per_day": 16,
+      "is_nonstop": true
+    },
+    "墨尔本->珀斯": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 4.17,
+      "flight_frequency_per_day": 15,
+      "is_nonstop": true
+    },
+    "布里斯班->珀斯": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 5.5,
+      "flight_frequency_per_day": 10,
+      "is_nonstop": true
+    },
+    "阿德莱德->珀斯": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 3.42,
+      "flight_frequency_per_day": 8,
+      "is_nonstop": true
+    },
+    "悉尼->阿德莱德": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 2.08,
+      "flight_frequency_per_day": 22,
+      "is_nonstop": true
+    },
+    "墨尔本->阿德莱德": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 1.33,
+      "flight_frequency_per_day": 22,
+      "is_nonstop": true
+    },
+    "布里斯班->阿德莱德": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 2.75,
+      "flight_frequency_per_day": 13,
+      "is_nonstop": true
+    },
+    "凯恩斯->阿德莱德": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 3.25,
+      "flight_frequency_per_day": 1,
+      "is_nonstop": true
+    },
+    "悉尼->达尔文": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 4.58,
+      "flight_frequency_per_day": 3,
+      "is_nonstop": true
+    },
+    "墨尔本->达尔文": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 4.5,
+      "flight_frequency_per_day": 3,
+      "is_nonstop": true
+    },
+    "布里斯班->达尔文": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 4.25,
+      "flight_frequency_per_day": 3,
+      "is_nonstop": true
+    },
+    "凯恩斯->达尔文": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 2.67,
+      "flight_frequency_per_day": 1,
+      "is_nonstop": true
+    },
+    "珀斯->达尔文": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 3.5,
+      "flight_frequency_per_day": 3,
+      "is_nonstop": true
+    },
+    "悉尼->乌鲁鲁": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 3.58,
+      "flight_frequency_per_day": 2,
+      "is_nonstop": true
+    },
+    "墨尔本->乌鲁鲁": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 3.17,
+      "flight_frequency_per_day": 2,
+      "is_nonstop": true
+    },
+    "凯恩斯->乌鲁鲁": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 2.92,
+      "flight_frequency_per_day": 1,
+      "is_nonstop": true
+    },
+    "珀斯->凯恩斯": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 4.17,
+      "flight_frequency_per_day": 1,
+      "is_nonstop": true
+    },
+    "凯恩斯->珀斯": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 4.25,
+      "flight_frequency_per_day": null,
+      "is_nonstop": true
+    }
+  },
+  "塔斯马尼亚": {
+    "悉尼->霍巴特": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 1.83,
+      "flight_frequency_per_day": 8,
+      "is_nonstop": true
+    },
+    "墨尔本->霍巴特": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 1.25,
+      "flight_frequency_per_day": 13,
+      "is_nonstop": true
+    },
+    "布里斯班->霍巴特": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 2.83,
+      "flight_frequency_per_day": 2,
+      "is_nonstop": true
+    },
+    "阿德莱德->霍巴特": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 1.83,
+      "flight_frequency_per_day": 1,
+      "is_nonstop": true
+    },
+    "珀斯->霍巴特": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 4.17,
+      "flight_frequency_per_day": 1,
+      "is_nonstop": true
+    }
+  },
+  "新西兰": {
+    "奥克兰->惠灵顿": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 1.08,
+      "flight_frequency_per_day": 18,
+      "is_nonstop": true
+    },
+    "奥克兰->罗托鲁瓦": {
+      "distance_km": 230,
+      "drive_time_hours": 3.0,
+      "train_time_hours": null,
+      "flight_time_hours": 0.75,
+      "flight_frequency_per_day": 2,
+      "is_nonstop": true
+    },
+    "奥克兰->基督城": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 1.33,
+      "flight_frequency_per_day": 23,
+      "is_nonstop": true
+    },
+    "奥克兰->皇后镇": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 1.83,
+      "flight_frequency_per_day": 11,
+      "is_nonstop": true
+    },
+    "惠灵顿->基督城": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 0.83,
+      "flight_frequency_per_day": 17,
+      "is_nonstop": true
+    },
+    "基督城->皇后镇": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 1.25,
+      "flight_frequency_per_day": 4,
+      "is_nonstop": true
+    }
+  },
+  "跨国": {
+    "悉尼->奥克兰": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 3.08,
+      "flight_frequency_per_day": 9,
+      "is_nonstop": true
+    },
+    "墨尔本->奥克兰": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 3.58,
+      "flight_frequency_per_day": 8,
+      "is_nonstop": true
+    },
+    "布里斯班->奥克兰": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 3.08,
+      "flight_frequency_per_day": 8,
+      "is_nonstop": true
+    },
+    "悉尼->基督城": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 3.08,
+      "flight_frequency_per_day": 4,
+      "is_nonstop": true
+    },
+    "悉尼->皇后镇": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 2.92,
+      "flight_frequency_per_day": 3,
+      "is_nonstop": true
+    },
+    "凯恩斯->奥克兰": {
+      "distance_km": null,
+      "drive_time_hours": null,
+      "train_time_hours": null,
+      "flight_time_hours": 4.67,
+      "flight_frequency_per_day": 1,
+      "is_nonstop": true
+    }
+  },
+  "墨尔本->基督城": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.33,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "墨尔本->皇后镇": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.17,
+    "flight_frequency_per_day": 4,
+    "is_nonstop": true
+  },
+  "布里斯班->基督城": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.42,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "布里斯班->皇后镇": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.42,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "黄金海岸->凯恩斯": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.58,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "黄金海岸->珀斯": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.5,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "黄金海岸->阿德莱德": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "黄金海岸->奥克兰": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.08,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "黄金海岸->基督城": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.25,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "黄金海岸->皇后镇": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.33,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "凯恩斯->基督城": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.92,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "珀斯->奥克兰": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.17,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "悉尼->墨尔本": {
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 68,
+    "is_nonstop": true
+  },
+  "悉尼->布里斯班": {
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 40,
+    "is_nonstop": true
+  },
+  "悉尼->霍巴特": {
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "悉尼->珀斯": {
+    "flight_time_hours": 5.08,
+    "flight_frequency_per_day": 20,
+    "is_nonstop": true
+  },
+  "悉尼->阿德莱德": {
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 20,
+    "is_nonstop": true
+  },
+  "悉尼->凯恩斯": {
+    "flight_time_hours": 3.17,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "悉尼->奥克兰": {
+    "flight_time_hours": 3.17,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "悉尼->基督城": {
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "悉尼->皇后镇": {
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "墨尔本->悉尼": {
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 50,
+    "is_nonstop": true
+  },
+  "墨尔本->霍巴特": {
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "墨尔本->布里斯班": {
+    "flight_time_hours": 2.33,
+    "flight_frequency_per_day": 30,
+    "is_nonstop": true
+  },
+  "墨尔本->珀斯": {
+    "flight_time_hours": 3.75,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "墨尔本->阿德莱德": {
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 25,
+    "is_nonstop": true
+  },
+  "墨尔本->奥克兰": {
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "布里斯班->悉尼": {
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 40,
+    "is_nonstop": true
+  },
+  "布里斯班->墨尔本": {
+    "flight_time_hours": 2.33,
+    "flight_frequency_per_day": 30,
+    "is_nonstop": true
+  },
+  "布里斯班->霍巴特": {
+    "flight_time_hours": 3.0,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "布里斯班->珀斯": {
+    "flight_time_hours": 5.5,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "布里斯班->奥克兰": {
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "霍巴特->悉尼": {
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "霍巴特->墨尔本": {
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "霍巴特->布里斯班": {
+    "flight_time_hours": 3.0,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "珀斯->悉尼": {
+    "flight_time_hours": 5.08,
+    "flight_frequency_per_day": 20,
+    "is_nonstop": true
+  },
+  "珀斯->墨尔本": {
+    "flight_time_hours": 3.75,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "珀斯->布里斯班": {
+    "flight_time_hours": 5.5,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "珀斯->阿德莱德": {
+    "flight_time_hours": 3.25,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "阿德莱德->悉尼": {
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 20,
+    "is_nonstop": true
+  },
+  "阿德莱德->墨尔本": {
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 25,
+    "is_nonstop": true
+  },
+  "阿德莱德->珀斯": {
+    "flight_time_hours": 3.25,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "阿德莱德->布里斯班": {
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "阿德莱德->奥克兰": {
+    "flight_time_hours": 4.5,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "阿德莱德->基督城": {
+    "flight_time_hours": 4.0,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "凯恩斯->悉尼": {
+    "flight_time_hours": 3.17,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "凯恩斯->墨尔本": {
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "凯恩斯->布里斯班": {
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 20,
+    "is_nonstop": true
+  },
+  "基督城->悉尼": {
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "悉尼->堪培拉": {
+    "flight_time_hours": 0.75,
+    "flight_frequency_per_day": 25,
+    "is_nonstop": true
+  },
+  "堪培拉->悉尼": {
+    "flight_time_hours": 0.75,
+    "flight_frequency_per_day": 25,
+    "is_nonstop": true
+  },
+  "墨尔本->堪培拉": {
+    "flight_time_hours": 1.0,
+    "flight_frequency_per_day": 20,
+    "is_nonstop": true
+  },
+  "堪培拉->墨尔本": {
+    "flight_time_hours": 1.0,
+    "flight_frequency_per_day": 20,
+    "is_nonstop": true
+  },
+  "阿德莱德->皇后镇": {
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "皇后镇->阿德莱德": {
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "悉尼->楠迪": {
+    "flight_time_hours": 4.0,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "楠迪->悉尼": {
+    "flight_time_hours": 4.0,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "墨尔本->楠迪": {
+    "flight_time_hours": 4.5,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "楠迪->墨尔本": {
+    "flight_time_hours": 4.5,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "布里斯班->楠迪": {
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 6,
+    "is_nonstop": true
+  },
+  "楠迪->布里斯班": {
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 6,
+    "is_nonstop": true
+  },
+  "奥克兰->楠迪": {
+    "flight_time_hours": 3.0,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "楠迪->奥克兰": {
+    "flight_time_hours": 3.0,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "基督城->楠迪": {
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 0.5,
+    "is_nonstop": true
+  },
+  "楠迪->基督城": {
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 0.5,
+    "is_nonstop": true
+  },
+  "墨尔本->阿波罗湾": {
+    "drive_time_hours": 2.58,
+    "train_time_hours": 2.58
+  },
+  "阿波罗湾->坎贝尔港": {
+    "drive_time_hours": 1.47,
+    "train_time_hours": 1.47
+  },
+  "基督城->霍基蒂卡": {
+    "drive_time_hours": 3.38,
+    "train_time_hours": 3.38
+  },
+  "瓦纳卡->皇后镇": {
+    "drive_time_hours": 1.1,
+    "train_time_hours": 1.1
+  },
+  "皇后镇->但尼丁": {
+    "drive_time_hours": 3.62,
+    "train_time_hours": 3.62
+  },
+  "但尼丁->奥马鲁": {
+    "drive_time_hours": 1.48,
+    "train_time_hours": 1.48
+  },
+  "奥马鲁->蒂卡波": {
+    "drive_time_hours": 2.22,
+    "train_time_hours": 2.22
+  },
+  "蒂卡波->基督城": {
+    "drive_time_hours": 3.08,
+    "train_time_hours": 3.08
+  },
+  "埃尔利海滩->凯恩斯": {
+    "distance_km": 540,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "布里斯班→莫顿岛": {
+    "drive_time_hours": 1.5
+  },
+  "霍巴特→布鲁尼岛": {
+    "drive_time_hours": 1.0
+  },
+  "阿德莱德→袋鼠岛": {
+    "drive_time_hours": 3.5
+  }
+}

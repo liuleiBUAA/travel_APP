@@ -1,0 +1,356 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2026-03-15",
+    "description": "日本常用城市间交通预置数据库",
+    "coverage": "东京、大阪、京都、北海道、冲绳等主要旅游城市"
+  },
+  "东京->大阪": {
+    "mode": "🚄 新干线",
+    "train_time_hours": 2.5,
+    "note": "东海道新干线(Nozomi)"
+  },
+  "东京->京都": {
+    "mode": "🚄 新干线",
+    "train_time_hours": 2.2,
+    "note": "东海道新干线"
+  },
+  "东京->奈良": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "东京->神户": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "东京->姬路": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "东京->名古屋": {
+    "mode": "🚄 新干线",
+    "train_time_hours": 1.5,
+    "note": "东海道新干线"
+  },
+  "东京->广岛": {
+    "mode": "🚄 新干线",
+    "train_time_hours": 4.0,
+    "note": "长途新干线"
+  },
+  "东京->镰仓": {
+    "mode": "🚆 JR",
+    "train_time_hours": 1.0,
+    "note": "短途电车"
+  },
+  "东京->河口湖": {
+    "mode": "🚌 大巴/特急",
+    "train_time_hours": 2.0,
+    "note": "富士回游特急或高速大巴"
+  },
+  "大阪->京都": {
+    "mode": "🚆 JR/私铁",
+    "train_time_hours": 0.5,
+    "note": "极短途无需提前买票"
+  },
+  "大阪->奈良": {
+    "mode": "🚆 近铁/JR",
+    "train_time_hours": 0.7,
+    "note": "极短途"
+  },
+  "大阪->神户": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "大阪->姬路": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "大阪->名古屋": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "大阪->广岛": {
+    "mode": "🚄 新干线",
+    "train_time_hours": 1.5,
+    "note": "山阳新干线"
+  },
+  "大阪->镰仓": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "大阪->河口湖": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "京都->奈良": {
+    "mode": "🚆 近铁/JR",
+    "train_time_hours": 0.8,
+    "note": "极短途"
+  },
+  "京都->神户": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "京都->姬路": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "京都->名古屋": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "京都->广岛": {
+    "mode": "🚄 新干线",
+    "train_time_hours": 1.8,
+    "note": "山阳新干线"
+  },
+  "京都->镰仓": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "京都->河口湖": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "奈良->神户": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "奈良->姬路": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "奈良->名古屋": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "奈良->广岛": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "奈良->镰仓": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "奈良->河口湖": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "神户->姬路": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "神户->名古屋": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "神户->广岛": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "神户->镰仓": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "神户->河口湖": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "姬路->名古屋": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "姬路->广岛": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "姬路->镰仓": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "姬路->河口湖": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "名古屋->广岛": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "名古屋->镰仓": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "名古屋->河口湖": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "广岛->镰仓": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "广岛->河口湖": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "镰仓->河口湖": {
+    "mode": "🚄 铁路交通",
+    "train_time_hours": 2.0
+  },
+  "东京->札幌": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 1.5,
+    "note": "国内线航班频次极高"
+  },
+  "东京->小樽": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 1.5,
+    "note": "国内线航班频次极高"
+  },
+  "东京->函馆": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 1.5,
+    "note": "国内线航班频次极高"
+  },
+  "东京->富良野": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 1.5,
+    "note": "国内线航班频次极高"
+  },
+  "东京->那霸": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 2.5
+  },
+  "东京->石垣岛": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 2.5
+  },
+  "大阪->札幌": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 1.5,
+    "note": "国内线航班频次极高"
+  },
+  "大阪->小樽": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 1.5,
+    "note": "国内线航班频次极高"
+  },
+  "大阪->函馆": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 1.5,
+    "note": "国内线航班频次极高"
+  },
+  "大阪->富良野": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 1.5,
+    "note": "国内线航班频次极高"
+  },
+  "大阪->那霸": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 2.0
+  },
+  "大阪->石垣岛": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 2.0
+  },
+  "京都->那霸": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 2.5
+  },
+  "京都->石垣岛": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 2.5
+  },
+  "奈良->那霸": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 2.5
+  },
+  "奈良->石垣岛": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 2.5
+  },
+  "神户->那霸": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 2.5
+  },
+  "神户->石垣岛": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 2.5
+  },
+  "姬路->那霸": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 2.5
+  },
+  "姬路->石垣岛": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 2.5
+  },
+  "名古屋->札幌": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 1.5,
+    "note": "国内线航班频次极高"
+  },
+  "名古屋->小樽": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 1.5,
+    "note": "国内线航班频次极高"
+  },
+  "名古屋->函馆": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 1.5,
+    "note": "国内线航班频次极高"
+  },
+  "名古屋->富良野": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 1.5,
+    "note": "国内线航班频次极高"
+  },
+  "名古屋->那霸": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 2.5
+  },
+  "名古屋->石垣岛": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 2.5
+  },
+  "广岛->那霸": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 2.5
+  },
+  "广岛->石垣岛": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 2.5
+  },
+  "镰仓->那霸": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 2.5
+  },
+  "镰仓->石垣岛": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 2.5
+  },
+  "河口湖->那霸": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 2.5
+  },
+  "河口湖->石垣岛": {
+    "mode": "✈️ 飞机",
+    "flight_time_hours": 2.5
+  },
+  "札幌->小樽": {
+    "mode": "🚆 JR",
+    "train_time_hours": 0.5
+  },
+  "札幌->函馆": {
+    "mode": "🚆 JR特急",
+    "train_time_hours": 4.0,
+    "note": "距离较远，乘车时间长"
+  },
+  "札幌->富良野": {
+    "mode": "🚆 JR特急/大巴",
+    "train_time_hours": 2.5
+  },
+  "札幌->美瑛": {
+    "mode": "🚆 JR特急/大巴",
+    "train_time_hours": 2.5
+  }
+}

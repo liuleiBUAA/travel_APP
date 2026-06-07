@@ -1,0 +1,4122 @@
+{
+  "布法罗->多伦多": {
+    "distance_km": 94.6,
+    "drive_time_hours": 2.48,
+    "train_time_hours": 3.92,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null
+  },
+  "奥斯汀->圣安东尼奥": {
+    "distance_km": 118.4,
+    "drive_time_hours": 1.35,
+    "train_time_hours": 1.67,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null
+  },
+  "奥兰多->坦帕": {
+    "distance_km": 124.2,
+    "drive_time_hours": 1.72,
+    "train_time_hours": 1.67,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null
+  },
+  "纽约->费城": {
+    "distance_km": 129.6,
+    "drive_time_hours": 2.15,
+    "train_time_hours": 1.4,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null
+  },
+  "蒙特利尔->渥太华": {
+    "distance_km": 166.3,
+    "drive_time_hours": 2.4,
+    "train_time_hours": 2.08,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null
+  },
+  "洛杉矶->圣地亚哥": {
+    "distance_km": 179.4,
+    "drive_time_hours": 1.82,
+    "train_time_hours": 3.83,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null
+  },
+  "西雅图->温哥华": {
+    "distance_km": 195.3,
+    "drive_time_hours": 2.45,
+    "train_time_hours": 4.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null
+  },
+  "华盛顿->费城": {
+    "distance_km": 198.4,
+    "drive_time_hours": 2.75,
+    "train_time_hours": 1.95,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null
+  },
+  "蒙特利尔->魁北克": {
+    "distance_km": 233.0,
+    "drive_time_hours": 3.03,
+    "train_time_hours": 3.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null
+  },
+  "西雅图->波特兰": {
+    "distance_km": 281,
+    "drive_time_hours": 2.92,
+    "train_time_hours": 3.5,
+    "flight_time_hours": 0.83,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "休斯顿->奥斯汀": {
+    "distance_km": 235.4,
+    "drive_time_hours": 2.75,
+    "train_time_hours": 2.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null
+  },
+  "达拉斯->奥斯汀": {
+    "distance_km": 293.1,
+    "drive_time_hours": 3.27,
+    "train_time_hours": 6.67,
+    "flight_time_hours": 1.0,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "休斯顿->圣安东尼奥": {
+    "distance_km": 304.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.0,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "纽约->波士顿": {
+    "distance_km": 306.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 24,
+    "has_nonstop": true
+  },
+  "纽约->华盛顿": {
+    "distance_km": 327.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.3,
+    "flight_frequency_per_day": 22,
+    "has_nonstop": true
+  },
+  "迈阿密->奥兰多": {
+    "distance_km": 330.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.07,
+    "flight_frequency_per_day": 8,
+    "has_nonstop": true
+  },
+  "迈阿密->坦帕": {
+    "distance_km": 331.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.15,
+    "flight_frequency_per_day": 9,
+    "has_nonstop": true
+  },
+  "多伦多->渥太华": {
+    "distance_km": 352.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.13,
+    "flight_frequency_per_day": 15,
+    "has_nonstop": true
+  },
+  "达拉斯->休斯顿": {
+    "distance_km": 361.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "洛杉矶->拉斯维加斯": {
+    "distance_km": 367.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.12,
+    "flight_frequency_per_day": 10,
+    "has_nonstop": true
+  },
+  "渥太华->魁北克": {
+    "distance_km": 379.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.02,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "波士顿->蒙特利尔": {
+    "distance_km": 402.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.38,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "达拉斯->圣安东尼奥": {
+    "distance_km": 406.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 12,
+    "has_nonstop": true
+  },
+  "安克雷奇->费尔班克斯": {
+    "distance_km": 417.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.05,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "波特兰->温哥华": {
+    "distance_km": 420.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->圣地亚哥": {
+    "distance_km": 426.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 10,
+    "has_nonstop": true
+  },
+  "波士顿->费城": {
+    "distance_km": 435.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "费城->布法罗": {
+    "distance_km": 449.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.4,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "华盛顿->布法罗": {
+    "distance_km": 468.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "纽约->布法罗": {
+    "distance_km": 470.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.55,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "波士顿->渥太华": {
+    "distance_km": 503.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.48,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "多伦多->蒙特利尔": {
+    "distance_km": 504.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.37,
+    "flight_frequency_per_day": 18,
+    "has_nonstop": true
+  },
+  "新奥尔良->休斯顿": {
+    "distance_km": 511.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 9,
+    "has_nonstop": true
+  },
+  "纽约->蒙特利尔": {
+    "distance_km": 533.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "费城->多伦多": {
+    "distance_km": 539.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.63,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "纽约->渥太华": {
+    "distance_km": 541.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.57,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "纽约->多伦多": {
+    "distance_km": 550.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 25,
+    "has_nonstop": true
+  },
+  "旧金山->洛杉矶": {
+    "distance_km": 559.1,
+    "drive_time_hours": 6.23,
+    "train_time_hours": 6.23,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 33,
+    "has_nonstop": true,
+    "is_nonstop": true
+  },
+  "华盛顿->多伦多": {
+    "distance_km": 562.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.48,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->盐湖城": {
+    "distance_km": 583.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.36,
+    "flight_frequency_per_day": 11,
+    "has_nonstop": true
+  },
+  "丹佛->盐湖城": {
+    "distance_km": 596.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 9,
+    "has_nonstop": true
+  },
+  "费城->蒙特利尔": {
+    "distance_km": 630.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "波士顿->华盛顿": {
+    "distance_km": 633.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 15,
+    "has_nonstop": true
+  },
+  "波士顿->布法罗": {
+    "distance_km": 642.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.65,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "奥兰多->亚特兰大": {
+    "distance_km": 646.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 13,
+    "has_nonstop": true
+  },
+  "坦帕->亚特兰大": {
+    "distance_km": 670.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.55,
+    "flight_frequency_per_day": 10,
+    "has_nonstop": true
+  },
+  "旧金山->拉斯维加斯": {
+    "distance_km": 670.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "温哥华->卡尔加里": {
+    "distance_km": 673.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 26,
+    "has_nonstop": true
+  },
+  "亚特兰大->新奥尔良": {
+    "distance_km": 682.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.53,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "波士顿->多伦多": {
+    "distance_km": 691.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.87,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "芝加哥->多伦多": {
+    "distance_km": 701.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.62,
+    "flight_frequency_per_day": 9,
+    "has_nonstop": true
+  },
+  "西雅图->卡尔加里": {
+    "distance_km": 709.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "新奥尔良->达拉斯": {
+    "distance_km": 711.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 8,
+    "has_nonstop": true
+  },
+  "纽约->魁北克": {
+    "distance_km": 714.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.82,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "布法罗->芝加哥": {
+    "distance_km": 727.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "多伦多->魁北克": {
+    "distance_km": 729.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "华盛顿->渥太华": {
+    "distance_km": 732.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "旧金山->圣地亚哥": {
+    "distance_km": 737.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 8,
+    "has_nonstop": true
+  },
+  "新奥尔良->奥斯汀": {
+    "distance_km": 738.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "坦帕->新奥尔良": {
+    "distance_km": 773.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.63,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "华盛顿->蒙特利尔": {
+    "distance_km": 786.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.68,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "新奥尔良->圣安东尼奥": {
+    "distance_km": 815.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.75,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "迈阿密->坎昆": {
+    "distance_km": 850.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "奥兰多->新奥尔良": {
+    "distance_km": 857.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.93,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "旧金山->波特兰": {
+    "distance_km": 974,
+    "drive_time_hours": 10.25,
+    "train_time_hours": null,
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 20,
+    "is_nonstop": true
+  },
+  "华盛顿->亚特兰大": {
+    "distance_km": 872.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.87,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "坦帕->坎昆": {
+    "distance_km": 875.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.05,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "波特兰->卡尔加里": {
+    "distance_km": 884.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "洛杉矶->盐湖城": {
+    "distance_km": 932.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.8,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "亚特兰大->芝加哥": {
+    "distance_km": 947.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 16,
+    "has_nonstop": true
+  },
+  "华盛顿->芝加哥": {
+    "distance_km": 955.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "旧金山->盐湖城": {
+    "distance_km": 964.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.83,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->丹佛": {
+    "distance_km": 973.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.83,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "迈阿密->亚特兰大": {
+    "distance_km": 975.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.87,
+    "flight_frequency_per_day": 22,
+    "has_nonstop": true
+  },
+  "奥兰多->坎昆": {
+    "distance_km": 988.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.12,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "圣地亚哥->盐湖城": {
+    "distance_km": 1009.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "波特兰->盐湖城": {
+    "distance_km": 1021.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.85,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "新奥尔良->坎昆": {
+    "distance_km": 1029.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "芝加哥->渥太华": {
+    "distance_km": 1036.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.02,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "丹佛->达拉斯": {
+    "distance_km": 1066.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 10,
+    "has_nonstop": true
+  },
+  "费城->芝加哥": {
+    "distance_km": 1068.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.17,
+    "flight_frequency_per_day": 10,
+    "has_nonstop": true
+  },
+  "亚特兰大->费城": {
+    "distance_km": 1071.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.83,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "迈阿密->新奥尔良": {
+    "distance_km": 1076.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.15,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "旧金山->西雅图": {
+    "distance_km": 1093.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.22,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "圣安东尼奥->墨西哥城": {
+    "distance_km": 1112.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.13,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "亚特兰大->布法罗": {
+    "distance_km": 1123.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.93,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "西雅图->盐湖城": {
+    "distance_km": 1126.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "亚特兰大->休斯顿": {
+    "distance_km": 1128.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.18,
+    "flight_frequency_per_day": 13,
+    "has_nonstop": true
+  },
+  "纽约->芝加哥": {
+    "distance_km": 1144.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "盐湖城->卡尔加里": {
+    "distance_km": 1155.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.2,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "亚特兰大->达拉斯": {
+    "distance_km": 1158.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.28,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "亚特兰大->多伦多": {
+    "distance_km": 1183.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "芝加哥->蒙特利尔": {
+    "distance_km": 1198.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "纽约->亚特兰大": {
+    "distance_km": 1200.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.35,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "休斯顿->墨西哥城": {
+    "distance_km": 1209.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.35,
+    "flight_frequency_per_day": 10,
+    "has_nonstop": true
+  },
+  "奥斯汀->墨西哥城": {
+    "distance_km": 1212.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.47,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->波特兰": {
+    "distance_km": 1216.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.33,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "华盛顿->奥兰多": {
+    "distance_km": 1220.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.35,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "丹佛->奥斯汀": {
+    "distance_km": 1241.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.17,
+    "flight_frequency_per_day": 19,
+    "has_nonstop": true
+  },
+  "卡尔加里->黄刀镇": {
+    "distance_km": 1268.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.37,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "坦帕->休斯顿": {
+    "distance_km": 1272.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "旧金山->温哥华": {
+    "distance_km": 1280.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.4,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "休斯顿->坎昆": {
+    "distance_km": 1281.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "丹佛->圣安东尼奥": {
+    "distance_km": 1291.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.17,
+    "flight_frequency_per_day": 11,
+    "has_nonstop": true
+  },
+  "盐湖城->温哥华": {
+    "distance_km": 1292.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "坎昆->墨西哥城": {
+    "distance_km": 1294.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.33,
+    "flight_frequency_per_day": 15,
+    "has_nonstop": true
+  },
+  "芝加哥->达拉斯": {
+    "distance_km": 1295.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "亚特兰大->奥斯汀": {
+    "distance_km": 1316.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.58,
+    "flight_frequency_per_day": 12,
+    "has_nonstop": true
+  },
+  "华盛顿->坦帕": {
+    "distance_km": 1317.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.49,
+    "flight_frequency_per_day": 15,
+    "has_nonstop": true
+  },
+  "洛杉矶->波特兰": {
+    "distance_km": 1329.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.38,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "洛杉矶->丹佛": {
+    "distance_km": 1335.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 12,
+    "has_nonstop": true
+  },
+  "圣地亚哥->丹佛": {
+    "distance_km": 1340.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.33,
+    "flight_frequency_per_day": 9,
+    "has_nonstop": true
+  },
+  "新奥尔良->芝加哥": {
+    "distance_km": 1344.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 11,
+    "has_nonstop": true
+  },
+  "奥兰多->休斯顿": {
+    "distance_km": 1364.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 8,
+    "has_nonstop": true
+  },
+  "波士顿->芝加哥": {
+    "distance_km": 1365.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 11,
+    "has_nonstop": true
+  },
+  "奥兰多->费城": {
+    "distance_km": 1390.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.48,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "西雅图->拉斯维加斯": {
+    "distance_km": 1402.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "芝加哥->魁北克": {
+    "distance_km": 1413.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.55,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "丹佛->休斯顿": {
+    "distance_km": 1413.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "亚特兰大->圣安东尼奥": {
+    "distance_km": 1418.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.6,
+    "flight_frequency_per_day": 8,
+    "has_nonstop": true
+  },
+  "亚特兰大->坎昆": {
+    "distance_km": 1420.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.53,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "丹佛->卡尔加里": {
+    "distance_km": 1440.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.62,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "坦帕->达拉斯": {
+    "distance_km": 1475.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "丹佛->芝加哥": {
+    "distance_km": 1477.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "圣安东尼奥->坎昆": {
+    "distance_km": 1486.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "奥斯汀->坎昆": {
+    "distance_km": 1486.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.33,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "华盛顿->迈阿密": {
+    "distance_km": 1491.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.58,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "坦帕->费城": {
+    "distance_km": 1493.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.53,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "圣地亚哥->波特兰": {
+    "distance_km": 1499.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "达拉斯->墨西哥城": {
+    "distance_km": 1501.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.77,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "坦帕->奥斯汀": {
+    "distance_km": 1506.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "波士顿->亚特兰大": {
+    "distance_km": 1506.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.87,
+    "flight_frequency_per_day": 10,
+    "has_nonstop": true
+  },
+  "纽约->奥兰多": {
+    "distance_km": 1511.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.73,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "芝加哥->休斯顿": {
+    "distance_km": 1515.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "旧金山->丹佛": {
+    "distance_km": 1524.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "洛杉矶->西雅图": {
+    "distance_km": 1545.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.8,
+    "flight_frequency_per_day": 10,
+    "has_nonstop": true
+  },
+  "奥兰多->达拉斯": {
+    "distance_km": 1546.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.0,
+    "flight_frequency_per_day": 12,
+    "has_nonstop": true
+  },
+  "华盛顿->新奥尔良": {
+    "distance_km": 1553.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.92,
+    "flight_frequency_per_day": 8,
+    "has_nonstop": true
+  },
+  "迈阿密->休斯顿": {
+    "distance_km": 1556.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.82,
+    "flight_frequency_per_day": 11,
+    "has_nonstop": true
+  },
+  "温哥华->黄刀镇": {
+    "distance_km": 1559.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.48,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "坦帕->圣安东尼奥": {
+    "distance_km": 1571.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.06,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "芝加哥->奥斯汀": {
+    "distance_km": 1576.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.83,
+    "flight_frequency_per_day": 14,
+    "has_nonstop": true
+  },
+  "波特兰->丹佛": {
+    "distance_km": 1578.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "奥兰多->芝加哥": {
+    "distance_km": 1587.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.92,
+    "flight_frequency_per_day": 13,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->温哥华": {
+    "distance_km": 1595.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.72,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "奥兰多->奥斯汀": {
+    "distance_km": 1595.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.0,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "亚特兰大->蒙特利尔": {
+    "distance_km": 1598.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "盐湖城->达拉斯": {
+    "distance_km": 1607.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "奥兰多->布法罗": {
+    "distance_km": 1611.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "旧金山->卡尔加里": {
+    "distance_km": 1615.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.78,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "纽约->坦帕": {
+    "distance_km": 1615.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.98,
+    "flight_frequency_per_day": 10,
+    "has_nonstop": true
+  },
+  "坦帕->芝加哥": {
+    "distance_km": 1618.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 17,
+    "has_nonstop": true
+  },
+  "达拉斯->坎昆": {
+    "distance_km": 1622.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.68,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "迈阿密->波多黎各": {
+    "distance_km": 1632.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.58,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "西雅图->丹佛": {
+    "distance_km": 1640.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 8,
+    "has_nonstop": true
+  },
+  "迈阿密->费城": {
+    "distance_km": 1645.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.65,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->卡尔加里": {
+    "distance_km": 1656.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.92,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "奥兰多->圣安东尼奥": {
+    "distance_km": 1666.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.07,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "奥兰多->多伦多": {
+    "distance_km": 1690.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "坦帕->布法罗": {
+    "distance_km": 1691.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "芝加哥->圣安东尼奥": {
+    "distance_km": 1694.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.92,
+    "flight_frequency_per_day": 8,
+    "has_nonstop": true
+  },
+  "西雅图->圣地亚哥": {
+    "distance_km": 1712.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->达拉斯": {
+    "distance_km": 1720.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.58,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->圣安东尼奥": {
+    "distance_km": 1724.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "盐湖城->奥斯汀": {
+    "distance_km": 1728.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "丹佛->新奥尔良": {
+    "distance_km": 1738.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 9,
+    "has_nonstop": true
+  },
+  "洛杉矶->温哥华": {
+    "distance_km": 1740.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.0,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->奥斯汀": {
+    "distance_km": 1743.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.53,
+    "flight_frequency_per_day": 9,
+    "has_nonstop": true
+  },
+  "盐湖城->圣安东尼奥": {
+    "distance_km": 1749.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.65,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "费城->新奥尔良": {
+    "distance_km": 1751.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.32,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "纽约->迈阿密": {
+    "distance_km": 1758.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.92,
+    "flight_frequency_per_day": 36,
+    "has_nonstop": true
+  },
+  "坦帕->多伦多": {
+    "distance_km": 1767.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.88,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "丹佛->温哥华": {
+    "distance_km": 1779.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.12,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "迈阿密->达拉斯": {
+    "distance_km": 1786.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.17,
+    "flight_frequency_per_day": 13,
+    "has_nonstop": true
+  },
+  "迈阿密->奥斯汀": {
+    "distance_km": 1792.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.33,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "新奥尔良->多伦多": {
+    "distance_km": 1792.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.88,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "波士顿->奥兰多": {
+    "distance_km": 1795.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.22,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "圣地亚哥->圣安东尼奥": {
+    "distance_km": 1812.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "迈阿密->圣安东尼奥": {
+    "distance_km": 1846.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.42,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "圣地亚哥->奥斯汀": {
+    "distance_km": 1858.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "纽约->新奥尔良": {
+    "distance_km": 1880.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.38,
+    "flight_frequency_per_day": 11,
+    "has_nonstop": true
+  },
+  "奥兰多->波多黎各": {
+    "distance_km": 1892.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 9,
+    "has_nonstop": true
+  },
+  "圣地亚哥->达拉斯": {
+    "distance_km": 1901.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.83,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "华盛顿->达拉斯": {
+    "distance_km": 1902.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "波士顿->坦帕": {
+    "distance_km": 1904.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.37,
+    "flight_frequency_per_day": 8,
+    "has_nonstop": true
+  },
+  "圣地亚哥->温哥华": {
+    "distance_km": 1907.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.3,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "迈阿密->布法罗": {
+    "distance_km": 1907.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.05,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "迈阿密->芝加哥": {
+    "distance_km": 1917.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.25,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "洛杉矶->卡尔加里": {
+    "distance_km": 1919.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.17,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "盐湖城->休斯顿": {
+    "distance_km": 1929.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.98,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "洛杉矶->圣安东尼奥": {
+    "distance_km": 1933.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "达拉斯->多伦多": {
+    "distance_km": 1936.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.98,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "坦帕->墨西哥城": {
+    "distance_km": 1941.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.63,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "奥兰多->渥太华": {
+    "distance_km": 1942.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.02,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "丹佛->亚特兰大": {
+    "distance_km": 1947.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "坦帕->波多黎各": {
+    "distance_km": 1947.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.77,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "华盛顿->休斯顿": {
+    "distance_km": 1961.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.33,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "洛杉矶->奥斯汀": {
+    "distance_km": 1971.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->休斯顿": {
+    "distance_km": 1972.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.83,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "迈阿密->多伦多": {
+    "distance_km": 1990.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.15,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "洛杉矶->达拉斯": {
+    "distance_km": 1992.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.83,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "奥兰多->蒙特利尔": {
+    "distance_km": 2007.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.12,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "盐湖城->芝加哥": {
+    "distance_km": 2023.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.92,
+    "flight_frequency_per_day": 12,
+    "has_nonstop": true
+  },
+  "波士顿->迈阿密": {
+    "distance_km": 2025.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.38,
+    "flight_frequency_per_day": 8,
+    "has_nonstop": true
+  },
+  "圣地亚哥->卡尔加里": {
+    "distance_km": 2053.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.43,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "奥兰多->墨西哥城": {
+    "distance_km": 2064.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.63,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "迈阿密->墨西哥城": {
+    "distance_km": 2065.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.72,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "费城->达拉斯": {
+    "distance_km": 2088.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.75,
+    "flight_frequency_per_day": 9,
+    "has_nonstop": true
+  },
+  "圣地亚哥->休斯顿": {
+    "distance_km": 2093.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.92,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "休斯顿->多伦多": {
+    "distance_km": 2094.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.17,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "华盛顿->奥斯汀": {
+    "distance_km": 2118.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.83,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "安克雷奇->温哥华": {
+    "distance_km": 2128.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.23,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "费城->休斯顿": {
+    "distance_km": 2156.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.85,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "亚特兰大->墨西哥城": {
+    "distance_km": 2159.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.83,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "丹佛->多伦多": {
+    "distance_km": 2161.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.17,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "华盛顿->坎昆": {
+    "distance_km": 2184.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.75,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "波士顿->新奥尔良": {
+    "distance_km": 2186.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.82,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "奥斯汀->多伦多": {
+    "distance_km": 2199.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.25,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "纽约->达拉斯": {
+    "distance_km": 2205.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.97,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "洛杉矶->休斯顿": {
+    "distance_km": 2206.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.5,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "华盛顿->圣安东尼奥": {
+    "distance_km": 2230.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.93,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "芝加哥->卡尔加里": {
+    "distance_km": 2250.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.78,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "迈阿密->蒙特利尔": {
+    "distance_km": 2273.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.42,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "纽约->休斯顿": {
+    "distance_km": 2281.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.88,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "芝加哥->坎昆": {
+    "distance_km": 2304.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.58,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "盐湖城->新奥尔良": {
+    "distance_km": 2305.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.25,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "西雅图->安克雷奇": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "费城->奥斯汀": {
+    "distance_km": 2309.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.08,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "丹佛->墨西哥城": {
+    "distance_km": 2326.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "费城->坎昆": {
+    "distance_km": 2365.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.17,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "旧金山->达拉斯": {
+    "distance_km": 2383.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.33,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "旧金山->圣安东尼奥": {
+    "distance_km": 2393.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.62,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "丹佛->华盛顿": {
+    "distance_km": 2396.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.08,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "旧金山->奥斯汀": {
+    "distance_km": 2413.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.42,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "费城->圣安东尼奥": {
+    "distance_km": 2422.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.0,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->新奥尔良": {
+    "distance_km": 2428.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.25,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->墨西哥城": {
+    "distance_km": 2430.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.65,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "纽约->奥斯汀": {
+    "distance_km": 2431.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.98,
+    "flight_frequency_per_day": 8,
+    "has_nonstop": true
+  },
+  "达拉斯->蒙特利尔": {
+    "distance_km": 2438.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.68,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "西雅图->费尔班克斯": {
+    "distance_km": 2442.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.82,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->芝加哥": {
+    "distance_km": 2448.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.42,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "丹佛->坦帕": {
+    "distance_km": 2448.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.33,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "达拉斯->卡尔加里": {
+    "distance_km": 2470.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.82,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "亚特兰大->波多黎各": {
+    "distance_km": 2471.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.28,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "波特兰->安克雷奇": {
+    "distance_km": 2478.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.9,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "纽约->坎昆": {
+    "distance_km": 2489.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 57.0,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "洛杉矶->墨西哥城": {
+    "flight_time_hours": 4.0,
+    "flight_frequency_per_day": 20,
+    "is_nonstop": true
+  },
+  "波士顿->达拉斯": {
+    "distance_km": 2493.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.33,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "丹佛->奥兰多": {
+    "distance_km": 2493.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "华盛顿->波多黎各": {
+    "distance_km": 2511.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.77,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "丹佛->费城": {
+    "distance_km": 2534.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.33,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "盐湖城->亚特兰大": {
+    "distance_km": 2543.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.53,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "纽约->圣安东尼奥": {
+    "distance_km": 2545.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.32,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "费城->波多黎各": {
+    "distance_km": 2552.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.77,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "波士顿->休斯顿": {
+    "distance_km": 2581.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.58,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "休斯顿->蒙特利尔": {
+    "distance_km": 2582.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.67,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "圣地亚哥->新奥尔良": {
+    "distance_km": 2584.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.47,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "多伦多->坎昆": {
+    "distance_km": 2594.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.08,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "纽约->波多黎各": {
+    "distance_km": 2599.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.8,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "丹佛->纽约": {
+    "distance_km": 2619.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "波特兰->达拉斯": {
+    "distance_km": 2625.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.58,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "丹佛->蒙特利尔": {
+    "distance_km": 2631.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.72,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "波特兰->费尔班克斯": {
+    "distance_km": 2635.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.98,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "旧金山->休斯顿": {
+    "distance_km": 2643.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.77,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "盐湖城->多伦多": {
+    "distance_km": 2679.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.92,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "洛杉矶->新奥尔良": {
+    "distance_km": 2686.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.35,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "丹佛->坎昆": {
+    "distance_km": 2688.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.83,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "西雅图->达拉斯": {
+    "distance_km": 2703.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.75,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "多伦多->卡尔加里": {
+    "distance_km": 2710.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.13,
+    "flight_frequency_per_day": 23,
+    "has_nonstop": true
+  },
+  "波士顿->波多黎各": {
+    "distance_km": 2717.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.95,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "芝加哥->墨西哥城": {
+    "distance_km": 2721.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.37,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "波士顿->奥斯汀": {
+    "distance_km": 2726.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.75,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "波特兰->奥斯汀": {
+    "distance_km": 2748.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.03,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "丹佛->迈阿密": {
+    "distance_km": 2776.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.67,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "波士顿->坎昆": {
+    "distance_km": 2779.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.65,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "圣地亚哥->芝加哥": {
+    "distance_km": 2786.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.83,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "西雅图->芝加哥": {
+    "distance_km": 2788.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.83,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->亚特兰大": {
+    "distance_km": 2803.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.68,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "洛杉矶->芝加哥": {
+    "distance_km": 2804.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.8,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "波特兰->芝加哥": {
+    "distance_km": 2823.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.83,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "休斯顿->卡尔加里": {
+    "distance_km": 2829.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.46,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "波士顿->圣安东尼奥": {
+    "distance_km": 2840.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.62,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "丹佛->波士顿": {
+    "distance_km": 2841.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.75,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "达拉斯->温哥华": {
+    "distance_km": 2845.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.6,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "西雅图->奥斯汀": {
+    "distance_km": 2847.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.13,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "芝加哥->温哥华": {
+    "distance_km": 2852.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.58,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "西雅图->圣安东尼奥": {
+    "distance_km": 2873.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.02,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "卡尔加里->渥太华": {
+    "distance_km": 2875.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.0,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "渥太华->坎昆": {
+    "distance_km": 2883.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.5,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "波特兰->休斯顿": {
+    "distance_km": 2950.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 34.0,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "盐湖城->华盛顿": {
+    "distance_km": 2963.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.83,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "蒙特利尔->坎昆": {
+    "distance_km": 2965.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.58,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "旧金山->芝加哥": {
+    "distance_km": 2984.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.92,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "卡尔加里->蒙特利尔": {
+    "distance_km": 3020.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.98,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "华盛顿->墨西哥城": {
+    "distance_km": 3031.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "盐湖城->坦帕": {
+    "distance_km": 3033.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.0,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "圣地亚哥->亚特兰大": {
+    "distance_km": 3037.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.03,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "旧金山->墨西哥城": {
+    "distance_km": 3037.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.27,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "西雅图->休斯顿": {
+    "distance_km": 3040.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 34.0,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "亚特兰大->卡尔加里": {
+    "distance_km": 3069.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.9,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "多伦多->黄刀镇": {
+    "distance_km": 3069.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.73,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "盐湖城->奥兰多": {
+    "distance_km": 3082.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.25,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "盐湖城->费城": {
+    "distance_km": 3090.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.13,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "旧金山->新奥尔良": {
+    "distance_km": 3093.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.08,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "洛杉矶->亚特兰大": {
+    "distance_km": 3110.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.05,
+    "flight_frequency_per_day": 9,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->多伦多": {
+    "distance_km": 3134.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.17,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "盐湖城->纽约": {
+    "distance_km": 3166.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.15,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "休斯顿->温哥华": {
+    "distance_km": 3188.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.97,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->坦帕": {
+    "distance_km": 3195.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.17,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->坎昆": {
+    "distance_km": 3206.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "盐湖城->坎昆": {
+    "distance_km": 3210.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.5,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "费城->墨西哥城": {
+    "distance_km": 3230.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "纽约->卡尔加里": {
+    "flight_time_hours": 4.0,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "多伦多->墨西哥城": {
+    "distance_km": 3261.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.42,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->奥兰多": {
+    "distance_km": 3264.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.33,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "波多黎各->芝加哥": {
+    "distance_km": 3300.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "波特兰->新奥尔良": {
+    "distance_km": 3315.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.47,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "西雅图->多伦多": {
+    "distance_km": 3325.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.67,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->华盛顿": {
+    "distance_km": 3349.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.42,
+    "flight_frequency_per_day": 9,
+    "has_nonstop": true
+  },
+  "圣地亚哥->坦帕": {
+    "distance_km": 3357.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.58,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "多伦多->温哥华": {
+    "distance_km": 3358.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.92,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "纽约->墨西哥城": {
+    "distance_km": 3359.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "盐湖城->迈阿密": {
+    "distance_km": 3359.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.48,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "波士顿->卡尔加里": {
+    "distance_km": 3365.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "盐湖城->波士顿": {
+    "distance_km": 3369.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.47,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "西雅图->新奥尔良": {
+    "distance_km": 3377.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.57,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "洛杉矶->坎昆": {
+    "flight_time_hours": 4.5,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "波多黎各->达拉斯": {
+    "distance_km": 3418.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "旧金山->亚特兰大": {
+    "distance_km": 3436.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.47,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "圣地亚哥->奥兰多": {
+    "distance_km": 3438.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.58,
+    "flight_frequency_per_day": 9,
+    "has_nonstop": true
+  },
+  "洛杉矶->坦帕": {
+    "distance_km": 3459.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.33,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "圣地亚哥->多伦多": {
+    "distance_km": 3483.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.83,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "波特兰->亚特兰大": {
+    "distance_km": 3490.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "洛杉矶->多伦多": {
+    "distance_km": 3494.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->费城": {
+    "distance_km": 3495.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.63,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->迈阿密": {
+    "distance_km": 3505.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.4,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "西雅图->亚特兰大": {
+    "distance_km": 3505.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.6,
+    "flight_frequency_per_day": 8,
+    "has_nonstop": true
+  },
+  "洛杉矶->奥兰多": {
+    "distance_km": 3536.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.62,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "温哥华->渥太华": {
+    "distance_km": 3539.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.52,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->纽约": {
+    "distance_km": 3584.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.68,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->蒙特利尔": {
+    "distance_km": 3603.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.78,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "亚特兰大->温哥华": {
+    "distance_km": 3604.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "旧金山->多伦多": {
+    "distance_km": 3643.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.95,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "圣地亚哥->迈阿密": {
+    "distance_km": 3650.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.85,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "圣地亚哥->华盛顿": {
+    "distance_km": 3652.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.75,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "波士顿->墨西哥城": {
+    "distance_km": 3665.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "温哥华->蒙特利尔": {
+    "distance_km": 3686.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.67,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "洛杉矶->华盛顿": {
+    "distance_km": 3692.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->安克雷奇": {
+    "distance_km": 3693.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.58,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "奥兰多->卡尔加里": {
+    "distance_km": 3696.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.82,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "蒙特利尔->墨西哥城": {
+    "distance_km": 3728.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "西雅图->华盛顿": {
+    "distance_km": 3736.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.9,
+    "flight_frequency_per_day": 9,
+    "has_nonstop": true
+  },
+  "洛杉矶->迈阿密": {
+    "distance_km": 3758.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 8,
+    "has_nonstop": true
+  },
+  "洛杉矶->安克雷奇": {
+    "distance_km": 3765.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.7,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "西雅图->墨西哥城": {
+    "distance_km": 3768.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.25,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "波特兰->华盛顿": {
+    "distance_km": 3777.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.88,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "华盛顿->温哥华": {
+    "distance_km": 3791.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.5,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "圣地亚哥->费城": {
+    "distance_km": 3810.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->波士顿": {
+    "distance_km": 3813.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.93,
+    "flight_frequency_per_day": 10,
+    "has_nonstop": true
+  },
+  "西雅图->费城": {
+    "distance_km": 3819.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 10,
+    "has_nonstop": true
+  },
+  "洛杉矶->费城": {
+    "distance_km": 3843.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.98,
+    "flight_frequency_per_day": 9,
+    "has_nonstop": true
+  },
+  "旧金山->檀香山": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.5,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "丹佛->安克雷奇": {
+    "distance_km": 3854.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "旧金山->坦帕": {
+    "distance_km": 3857.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "西雅图->纽约": {
+    "distance_km": 3865.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "波特兰->费城": {
+    "distance_km": 3871.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "旧金山->坎昆": {
+    "distance_km": 3874.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "纽约->温哥华": {
+    "distance_km": 3904.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "圣地亚哥->纽约": {
+    "distance_km": 3907.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "旧金山->华盛顿": {
+    "distance_km": 3918.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.9,
+    "flight_frequency_per_day": 14,
+    "has_nonstop": true
+  },
+  "旧金山->奥兰多": {
+    "distance_km": 3922.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "波特兰->纽约": {
+    "distance_km": 3925.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "洛杉矶->纽约": {
+    "distance_km": 3935.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.9,
+    "flight_frequency_per_day": 13,
+    "has_nonstop": true
+  },
+  "温哥华->墨西哥城": {
+    "distance_km": 3946.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "洛杉矶->蒙特利尔": {
+    "distance_km": 3967.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 9.0,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "西雅图->波士顿": {
+    "distance_km": 4000.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "迈阿密->卡尔加里": {
+    "distance_km": 4013.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "波士顿->温哥华": {
+    "distance_km": 4024.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.5,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "波特兰->坦帕": {
+    "distance_km": 4024.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "旧金山->费城": {
+    "distance_km": 4050.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 8,
+    "has_nonstop": true
+  },
+  "波特兰->奥兰多": {
+    "distance_km": 4064.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 8,
+    "has_nonstop": true
+  },
+  "西雅图->坦帕": {
+    "distance_km": 4065.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 11,
+    "has_nonstop": true
+  },
+  "波特兰->波士顿": {
+    "distance_km": 4076.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "卡尔加里->坎昆": {
+    "distance_km": 4077.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "旧金山->蒙特利尔": {
+    "distance_km": 4084.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "西雅图->奥兰多": {
+    "distance_km": 4098.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 10,
+    "has_nonstop": true
+  },
+  "洛杉矶->檀香山": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.5,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "旧金山->纽约": {
+    "distance_km": 4129.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 11,
+    "has_nonstop": true
+  },
+  "圣地亚哥->波士顿": {
+    "distance_km": 4150.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "洛杉矶->波士顿": {
+    "distance_km": 4169.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 9,
+    "has_nonstop": true
+  },
+  "旧金山->迈阿密": {
+    "distance_km": 4169.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "波特兰->檀香山": {
+    "distance_km": 4175.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.15,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "圣地亚哥->檀香山": {
+    "distance_km": 4197.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.25,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "西雅图->檀香山": {
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "西雅图->坎昆": {
+    "distance_km": 4321.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "旧金山->波士顿": {
+    "distance_km": 4333.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "波特兰->迈阿密": {
+    "distance_km": 4353.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.64,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "檀香山->温哥华": {
+    "distance_km": 4359.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.92,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "丹佛->波多黎各": {
+    "distance_km": 4385.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "西雅图->迈阿密": {
+    "distance_km": 4396.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "拉斯维加斯->檀香山": {
+    "distance_km": 4438.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.57,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "温哥华->坎昆": {
+    "distance_km": 4467.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "檀香山->安克雷奇": {
+    "distance_km": 4480.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.23,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "迈阿密->温哥华": {
+    "distance_km": 4511.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.98,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "安克雷奇->芝加哥": {
+    "distance_km": 4586.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "盐湖城->檀香山": {
+    "distance_km": 4814.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.97,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "安克雷奇->达拉斯": {
+    "distance_km": 4909.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "丹佛->檀香山": {
+    "distance_km": 5374.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.68,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "安克雷奇->纽约": {
+    "distance_km": 5409.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 9.0,
+    "flight_frequency_per_day": 15,
+    "has_nonstop": true
+  },
+  "檀香山->达拉斯": {
+    "distance_km": 6098.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.17,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "檀香山->休斯顿": {
+    "distance_km": 6266.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.45,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "檀香山->芝加哥": {
+    "distance_km": 6837.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.15,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "檀香山->亚特兰大": {
+    "distance_km": 7230.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.55,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "檀香山->华盛顿": {
+    "distance_km": 7771.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 9.27,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "檀香山->纽约": {
+    "flight_time_hours": 10.0,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "丹佛->凤凰城": {
+    "distance_km": 942.3,
+    "drive_time_hours": 12.75,
+    "train_time_hours": 19.9,
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 11,
+    "has_nonstop": true
+  },
+  "亚特兰大->凤凰城": {
+    "distance_km": 2556.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.24,
+    "flight_frequency_per_day": 10,
+    "has_nonstop": true
+  },
+  "休斯顿->凤凰城": {
+    "distance_km": 1632.2,
+    "drive_time_hours": 16.95,
+    "train_time_hours": 2.0,
+    "flight_time_hours": 2.92,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "凤凰城->华盛顿": {
+    "distance_km": 3182.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.08,
+    "flight_frequency_per_day": 11,
+    "has_nonstop": true
+  },
+  "凤凰城->卡尔加里": {
+    "distance_km": 1963.3,
+    "drive_time_hours": null,
+    "train_time_hours": 23.0,
+    "flight_time_hours": 3.18,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "凤凰城->圣地亚哥": {
+    "distance_km": 480.9,
+    "drive_time_hours": 5.28,
+    "train_time_hours": 11.33,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 10,
+    "has_nonstop": true
+  },
+  "凤凰城->圣安东尼奥": {
+    "distance_km": 1362.6,
+    "drive_time_hours": 14.4,
+    "train_time_hours": 22.75,
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 8,
+    "has_nonstop": true
+  },
+  "凤凰城->坎昆": {
+    "distance_km": 2830.7,
+    "drive_time_hours": null,
+    "train_time_hours": 46.0,
+    "flight_time_hours": 3.83,
+    "flight_frequency_per_day": 3,
+    "has_nonstop": true
+  },
+  "凤凰城->墨西哥城": {
+    "distance_km": 2018.2,
+    "drive_time_hours": 28.0,
+    "train_time_hours": 12.0,
+    "flight_time_hours": 3.23,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "凤凰城->多伦多": {
+    "distance_km": 3036.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.25,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "凤凰城->奥兰多": {
+    "distance_km": 2965.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.89,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "凤凰城->奥斯汀": {
+    "distance_km": 1397.6,
+    "drive_time_hours": 15.17,
+    "train_time_hours": 9.0,
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 12,
+    "has_nonstop": true
+  },
+  "凤凰城->安克雷奇": {
+    "distance_km": 4095.4,
+    "drive_time_hours": null,
+    "train_time_hours": 61.0,
+    "flight_time_hours": 6.12,
+    "flight_frequency_per_day": 1,
+    "has_nonstop": true
+  },
+  "凤凰城->拉斯维加斯": {
+    "distance_km": 412.2,
+    "drive_time_hours": 4.83,
+    "train_time_hours": 5.0,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 17,
+    "has_nonstop": true
+  },
+  "凤凰城->新奥尔良": {
+    "distance_km": 2113.4,
+    "drive_time_hours": null,
+    "train_time_hours": 11.0,
+    "flight_time_hours": 2.78,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "凤凰城->旧金山": {
+    "distance_km": 1050.8,
+    "drive_time_hours": 11.58,
+    "train_time_hours": 15.75,
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 8,
+    "has_nonstop": true
+  },
+  "凤凰城->檀香山": {
+    "distance_km": 4677.5,
+    "drive_time_hours": 7.0,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 5,
+    "has_nonstop": true
+  },
+  "凤凰城->波士顿": {
+    "distance_km": 3693.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.68,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "凤凰城->波特兰": {
+    "distance_km": 1617.1,
+    "drive_time_hours": 20.27,
+    "train_time_hours": 7.0,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 6,
+    "has_nonstop": true
+  },
+  "凤凰城->洛杉矶": {
+    "distance_km": 574.3,
+    "drive_time_hours": 5.63,
+    "train_time_hours": 7.5,
+    "flight_time_hours": 1.47,
+    "flight_frequency_per_day": 11,
+    "has_nonstop": true
+  },
+  "凤凰城->温哥华": {
+    "distance_km": 1982.6,
+    "drive_time_hours": null,
+    "train_time_hours": 22.0,
+    "flight_time_hours": 3.32,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "凤凰城->盐湖城": {
+    "distance_km": 813.3,
+    "drive_time_hours": 10.07,
+    "train_time_hours": 18.5,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 19,
+    "has_nonstop": true
+  },
+  "凤凰城->纽约": {
+    "distance_km": 3443.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.52,
+    "flight_frequency_per_day": 16,
+    "has_nonstop": true
+  },
+  "凤凰城->芝加哥": {
+    "distance_km": 2336.3,
+    "drive_time_hours": null,
+    "train_time_hours": 26.0,
+    "flight_time_hours": 3.08,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "凤凰城->西雅图": {
+    "distance_km": 1793.6,
+    "drive_time_hours": null,
+    "train_time_hours": 10.0,
+    "flight_time_hours": 3.0,
+    "flight_frequency_per_day": 22,
+    "has_nonstop": true
+  },
+  "凤凰城->费城": {
+    "distance_km": 3344.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.27,
+    "flight_frequency_per_day": 7,
+    "has_nonstop": true
+  },
+  "凤凰城->达拉斯": {
+    "distance_km": 1423.5,
+    "drive_time_hours": 15.78,
+    "train_time_hours": 5.0,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 2,
+    "has_nonstop": true
+  },
+  "凤凰城->迈阿密": {
+    "distance_km": 3184.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.0,
+    "flight_frequency_per_day": 9,
+    "has_nonstop": true
+  },
+  "丹佛->洛基山国家公园": {
+    "distance_km": 153,
+    "drive_time_hours": 2.25,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "洛基山国家公园->丹佛": {
+    "distance_km": 153,
+    "drive_time_hours": 2.25,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "亚特兰大->大雾山国家公园": {
+    "distance_km": 270,
+    "drive_time_hours": 3.0,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "大雾山国家公园->亚特兰大": {
+    "distance_km": 270,
+    "drive_time_hours": 3.0,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "休斯顿->休斯顿太空中心": {
+    "distance_km": 50,
+    "drive_time_hours": 0.75,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "休斯顿太空中心->休斯顿": {
+    "distance_km": 50,
+    "drive_time_hours": 0.75,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "大苏尔->洛杉矶": {
+    "distance_km": 475,
+    "drive_time_hours": 5.75,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "洛杉矶->大苏尔": {
+    "distance_km": 475,
+    "drive_time_hours": 5.75,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "西雅图->华盛顿州\"海山冰川\"大环线": {
+    "distance_km": 233,
+    "drive_time_hours": 3.0,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "华盛顿州\"海山冰川\"大环线->西雅图": {
+    "distance_km": 233,
+    "drive_time_hours": 3.0,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "华盛顿->美东\"蓝岭公路与双园\"大环线": {
+    "distance_km": 180,
+    "drive_time_hours": 2.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "美东\"蓝岭公路与双园\"大环线->华盛顿": {
+    "distance_km": 180,
+    "drive_time_hours": 2.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "美东\"蓝岭公路与双园\"大环线->芝加哥": {
+    "distance_km": 1100,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 8,
+    "has_nonstop": true
+  },
+  "芝加哥->美东\"蓝岭公路与双园\"大环线": {
+    "distance_km": 1100,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 8,
+    "has_nonstop": true
+  },
+  "芝加哥->密歇根湖\"巨型沙丘与五彩悬崖\"大环线": {
+    "distance_km": 80,
+    "drive_time_hours": 1.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "密歇根湖\"巨型沙丘与五彩悬崖\"大环线->芝加哥": {
+    "distance_km": 80,
+    "drive_time_hours": 1.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "华盛顿州\"海山冰川\"大环线->阿拉斯加州": {
+    "distance_km": 2800,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "阿拉斯加州->华盛顿州\"海山冰川\"大环线": {
+    "distance_km": 2800,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 4,
+    "has_nonstop": true
+  },
+  "大苏尔->SLO": {
+    "distance_km": 172,
+    "drive_time_hours": 2.25,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "SLO->大苏尔": {
+    "distance_km": 172,
+    "drive_time_hours": 2.25,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "SLO->洛杉矶": {
+    "distance_km": 304,
+    "drive_time_hours": 3.25,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "洛杉矶->SLO": {
+    "distance_km": 304,
+    "drive_time_hours": 3.25,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "卡尔加里->班夫国家公园": {
+    "distance_km": 110,
+    "drive_time_hours": 1.25,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "班夫国家公园->卡尔加里": {
+    "distance_km": 110,
+    "drive_time_hours": 1.25,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "班夫国家公园->贾斯珀国家公园": {
+    "distance_km": 180,
+    "drive_time_hours": 2.25,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "贾斯珀国家公园->班夫国家公园": {
+    "distance_km": 180,
+    "drive_time_hours": 2.25,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "贾斯珀国家公园->卡尔加里": {
+    "distance_km": 306,
+    "drive_time_hours": 3.42,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "卡尔加里->贾斯珀国家公园": {
+    "distance_km": 306,
+    "drive_time_hours": 3.42,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "has_nonstop": false
+  },
+  "波士顿->安克雷奇": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.5,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": false,
+    "note": "需经西雅图中转"
+  },
+  "坎昆->洛杉矶": {
+    "flight_time_hours": 4.5,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "墨西哥城->洛杉矶": {
+    "flight_time_hours": 4.0,
+    "flight_frequency_per_day": 20,
+    "is_nonstop": true
+  },
+  "卡尔加里->华盛顿": {
+    "flight_time_hours": 4.5,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "华盛顿->卡尔加里": {
+    "flight_time_hours": 4.5,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "卡尔加里->纽约": {
+    "flight_time_hours": 4.0,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "檀香山->迈阿密": {
+    "flight_time_hours": 9.5,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "迈阿密->檀香山": {
+    "flight_time_hours": 9.5,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "纽约->檀香山": {
+    "flight_time_hours": 10.0,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "檀香山->西雅图": {
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "拉斯维加斯->死亡谷国家公园": {
+    "distance_km": 190,
+    "drive_time_hours": 2.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "死亡谷国家公园->拉斯维加斯": {
+    "distance_km": 190,
+    "drive_time_hours": 2.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "旧金山->优胜美地国家公园": {
+    "distance_km": 270,
+    "drive_time_hours": 4.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "优胜美地国家公园->旧金山": {
+    "distance_km": 270,
+    "drive_time_hours": 4.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "洛杉矶->优胜美地国家公园": {
+    "distance_km": 400,
+    "drive_time_hours": 6.0,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "优胜美地国家公园->洛杉矶": {
+    "distance_km": 400,
+    "drive_time_hours": 6.0,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "旧金山->红杉国家公园": {
+    "distance_km": 420,
+    "drive_time_hours": 5.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "红杉国家公园->旧金山": {
+    "distance_km": 420,
+    "drive_time_hours": 5.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "洛杉矶->红杉国家公园": {
+    "distance_km": 280,
+    "drive_time_hours": 3.7,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "红杉国家公园->洛杉矶": {
+    "distance_km": 280,
+    "drive_time_hours": 3.7,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "波特兰->火山口湖国家公园": {
+    "distance_km": 370,
+    "drive_time_hours": 4.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "火山口湖国家公园->波特兰": {
+    "distance_km": 370,
+    "drive_time_hours": 4.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "盐湖城->冰川国家公园": {
+    "distance_km": 900,
+    "drive_time_hours": 9.5,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": false
+  },
+  "冰川国家公园->盐湖城": {
+    "distance_km": 900,
+    "drive_time_hours": 9.5,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": false
+  },
+  "盐湖城->Kalispell": {
+    "distance_km": 1005,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false,
+    "train_time_hours": null,
+    "drive_time_hours": 9.1
+  },
+  "Kalispell->盐湖城": {
+    "distance_km": 1005,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false,
+    "train_time_hours": null,
+    "drive_time_hours": 9.1
+  },
+  "红杉公园->国王峡谷": {
+    "distance_km": 63,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false,
+    "train_time_hours": null,
+    "drive_time_hours": 1.1
+  },
+  "国王峡谷->红杉公园": {
+    "distance_km": 63,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false,
+    "train_time_hours": null,
+    "drive_time_hours": 1.1
+  },
+  "红杉公园->旧金山": {
+    "distance_km": 420,
+    "drive_time_hours": 5.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "旧金山->红杉公园": {
+    "distance_km": 420,
+    "drive_time_hours": 5.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "洛杉矶->红杉公园": {
+    "distance_km": 280,
+    "drive_time_hours": 3.7,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "红杉公园->洛杉矶": {
+    "distance_km": 280,
+    "drive_time_hours": 3.7,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "大提顿国家公园->黄石国家公园": {
+    "drive_time_hours": 2.65,
+    "train_time_hours": 2.65
+  },
+  "费尔班克斯->朱诺": {
+    "drive_time_hours": 17.57,
+    "train_time_hours": 17.57
+  },
+  "朱诺->安克雷奇": {
+    "drive_time_hours": 20.33,
+    "train_time_hours": 20.33
+  },
+  "芝加哥->密尔沃基": {
+    "drive_time_hours": 1.22,
+    "train_time_hours": 1.22
+  },
+  "密尔沃基->底特律": {
+    "drive_time_hours": 5.62,
+    "train_time_hours": 5.62
+  },
+  "拉斯维加斯→锡安国家公园": {
+    "drive_time_hours": 2.7
+  },
+  "拉斯维加斯→布莱斯峡谷国家公园": {
+    "drive_time_hours": 4.0
+  },
+  "拉斯维加斯→拱门国家公园": {
+    "drive_time_hours": 6.5
+  },
+  "拉斯维加斯→峡谷地国家公园": {
+    "drive_time_hours": 6.5
+  },
+  "拉斯维加斯→大峡谷国家公园": {
+    "drive_time_hours": 4.5
+  },
+  "拉斯维加斯→羚羊谷": {
+    "drive_time_hours": 4.5
+  },
+  "拉斯维加斯→马蹄湾": {
+    "drive_time_hours": 4.5
+  },
+  "拉斯维加斯→纪念碑谷": {
+    "drive_time_hours": 7.0
+  },
+  "盐湖城→拱门国家公园": {
+    "drive_time_hours": 3.7
+  },
+  "盐湖城→峡谷地国家公园": {
+    "drive_time_hours": 4.0
+  },
+  "盐湖城→黄石国家公园": {
+    "drive_time_hours": 5.5
+  },
+  "盐湖城→大提顿国家公园": {
+    "drive_time_hours": 4.5
+  },
+  "凤凰城→大峡谷国家公园": {
+    "drive_time_hours": 3.5
+  },
+  "凤凰城→羚羊谷": {
+    "drive_time_hours": 5.0
+  },
+  "凤凰城→马蹄湾": {
+    "drive_time_hours": 5.0
+  },
+  "凤凰城→纪念碑谷": {
+    "drive_time_hours": 5.5
+  },
+  "洛杉矶→红杉树国家公园": {
+    "drive_time_hours": 4.0
+  },
+  "旧金山→红杉树国家公园": {
+    "drive_time_hours": 4.5
+  },
+  "洛杉矶→国王峡谷国家公园": {
+    "drive_time_hours": 4.5
+  },
+  "旧金山→国王峡谷国家公园": {
+    "drive_time_hours": 5.0
+  },
+  "旧金山→拉森火山国家公园": {
+    "drive_time_hours": 5.5
+  },
+  "洛杉矶→约书亚树国家公园": {
+    "drive_time_hours": 2.5
+  },
+  "旧金山→太浩湖": {
+    "drive_time_hours": 3.5
+  },
+  "西雅图→雷尼尔山国家公园": {
+    "drive_time_hours": 2.5
+  },
+  "西雅图→奥林匹克国家公园": {
+    "drive_time_hours": 3.0
+  },
+  "西雅图→北瀑布国家公园": {
+    "drive_time_hours": 2.5
+  },
+  "安克雷奇→迪纳利国家公园": {
+    "drive_time_hours": 5.0
+  },
+  "安克雷奇→基奈峡湾国家公园": {
+    "drive_time_hours": 2.5
+  },
+  "波士顿→阿卡迪亚国家公园": {
+    "drive_time_hours": 5.0
+  },
+  "华盛顿→仙纳度国家公园": {
+    "drive_time_hours": 2.0
+  },
+  "迈阿密→大沼泽地国家公园": {
+    "drive_time_hours": 1.5
+  },
+  "卡尔加里→优鹤国家公园": {
+    "drive_time_hours": 2.5
+  },
+  "多伦多→尼亚加拉瀑布": {
+    "drive_time_hours": 1.5
+  },
+  "布法罗→尼亚加拉瀑布": {
+    "drive_time_hours": 0.5
+  },
+  "坎昆→图卢姆": {
+    "drive_time_hours": 2.0
+  },
+  "坎昆→奇琴伊察": {
+    "drive_time_hours": 2.5
+  },
+  "坎昆→女人岛": {
+    "drive_time_hours": 0.5
+  },
+  "波多黎各→云盖国家公园": {
+    "drive_time_hours": 1.5
+  },
+  "檀香山→茂宜岛": {
+    "flight_time_hours": 0.5,
+    "is_nonstop": true
+  },
+  "檀香山→大岛": {
+    "flight_time_hours": 0.75,
+    "is_nonstop": true
+  },
+  "檀香山→可爱岛": {
+    "flight_time_hours": 0.5,
+    "is_nonstop": true
+  }
+}

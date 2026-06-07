@@ -1,0 +1,7245 @@
+{
+  "慕尼黑->布拉格": {
+    "distance_km": 299.7,
+    "drive_time_hours": 4.5,
+    "train_time_hours": 5.62,
+    "flight_time_hours": 0.83,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->巴黎": {
+    "distance_km": 263.6,
+    "drive_time_hours": 4.55,
+    "train_time_hours": 1.73,
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->阿姆斯特丹": {
+    "distance_km": 173.2,
+    "drive_time_hours": 2.78,
+    "train_time_hours": 2.9,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "布达佩斯->维也纳": {
+    "distance_km": 214.3,
+    "drive_time_hours": 2.9,
+    "train_time_hours": 2.67,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "柏林->布拉格": {
+    "distance_km": 280.8,
+    "drive_time_hours": 4.25,
+    "train_time_hours": 4.47,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "布拉格->维也纳": {
+    "distance_km": 250.9,
+    "drive_time_hours": 4.17,
+    "train_time_hours": 4.1,
+    "flight_time_hours": 0.83,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "米兰->日内瓦": {
+    "distance_km": 250.2,
+    "drive_time_hours": 4.25,
+    "train_time_hours": 5.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "米兰->苏黎世": {
+    "distance_km": 218.1,
+    "drive_time_hours": 3.65,
+    "train_time_hours": 3.4,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "米兰->尼斯": {
+    "distance_km": 247.8,
+    "drive_time_hours": 4.28,
+    "train_time_hours": 4.83,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "米兰->佛罗伦萨": {
+    "distance_km": 248.8,
+    "drive_time_hours": 3.57,
+    "train_time_hours": 1.73,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "米兰->威尼斯": {
+    "distance_km": 244.2,
+    "drive_time_hours": 2.95,
+    "train_time_hours": 2.25,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "慕尼黑->苏黎世": {
+    "distance_km": 242.8,
+    "drive_time_hours": 3.85,
+    "train_time_hours": 3.62,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "雅典->米克诺斯": {
+    "distance_km": 152.6,
+    "drive_time_hours": 5.32,
+    "train_time_hours": null,
+    "flight_time_hours": 0.75,
+    "flight_frequency_per_day": 6,
+    "ferry_time_hours": 3.5,
+    "is_nonstop": true
+  },
+  "巴塞罗那->帕尔马": {
+    "distance_km": 206.4,
+    "drive_time_hours": 12.0,
+    "train_time_hours": null,
+    "flight_time_hours": 0.75,
+    "flight_frequency_per_day": 24,
+    "is_nonstop": true
+  },
+  "罗马->那不勒斯": {
+    "distance_km": 188.3,
+    "drive_time_hours": 2.63,
+    "train_time_hours": 2.75,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "罗马->佛罗伦萨": {
+    "distance_km": 231.6,
+    "drive_time_hours": 3.65,
+    "train_time_hours": 1.43,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "迪拜->阿布扎比": {
+    "distance_km": 121.8,
+    "drive_time_hours": 1.47,
+    "train_time_hours": 1.75,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "里斯本->波尔图": {
+    "distance_km": 274.9,
+    "drive_time_hours": 3.35,
+    "train_time_hours": 3.42,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "日内瓦->苏黎世": {
+    "distance_km": 224.3,
+    "drive_time_hours": 3.57,
+    "train_time_hours": 3.17,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "日内瓦->尼斯": {
+    "distance_km": 291.9,
+    "drive_time_hours": 6.3,
+    "train_time_hours": 7.23,
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "塞维利亚->格拉纳达": {
+    "distance_km": 211.8,
+    "drive_time_hours": 2.73,
+    "train_time_hours": 2.67,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "佛罗伦萨->威尼斯": {
+    "distance_km": 204.1,
+    "drive_time_hours": 3.12,
+    "train_time_hours": 4.25,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "米兰->慕尼黑": {
+    "distance_km": 349.1,
+    "drive_time_hours": 5.72,
+    "train_time_hours": 7.9,
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "慕尼黑->法兰克福": {
+    "distance_km": 304.1,
+    "drive_time_hours": 4.43,
+    "train_time_hours": 3.3,
+    "flight_time_hours": 0.92,
+    "flight_frequency_per_day": 17,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->法兰克福": {
+    "distance_km": 317.2,
+    "drive_time_hours": 4.78,
+    "train_time_hours": 3.07,
+    "flight_time_hours": 1.0,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->伦敦": {
+    "distance_km": 320.7,
+    "drive_time_hours": 5.62,
+    "train_time_hours": 2.17,
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "巴黎->伦敦": {
+    "distance_km": 343.5,
+    "drive_time_hours": 6.25,
+    "train_time_hours": 2.35,
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "慕尼黑->威尼斯": {
+    "distance_km": 305.5,
+    "drive_time_hours": 6.28,
+    "train_time_hours": 8.0,
+    "flight_time_hours": 1.0,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "雅典->克里特岛": {
+    "distance_km": 329.3,
+    "drive_time_hours": 10.18,
+    "train_time_hours": null,
+    "flight_time_hours": 0.83,
+    "flight_frequency_per_day": null,
+    "is_nonstop": true
+  },
+  "法兰克福->苏黎世": {
+    "distance_km": 304.8,
+    "drive_time_hours": 4.72,
+    "train_time_hours": 4.17,
+    "flight_time_hours": 0.83,
+    "flight_frequency_per_day": 13,
+    "is_nonstop": true
+  },
+  "里斯本->塞维利亚": {
+    "distance_km": 313.7,
+    "drive_time_hours": 4.78,
+    "train_time_hours": 7.75,
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "奥斯陆->卑尔根": {
+    "distance_km": 305.1,
+    "drive_time_hours": 6.93,
+    "train_time_hours": 6.62,
+    "flight_time_hours": 0.92,
+    "flight_frequency_per_day": 23,
+    "is_nonstop": true
+  },
+  "维也纳->慕尼黑": {
+    "distance_km": 251.7,
+    "drive_time_hours": 4.65,
+    "train_time_hours": 4.05,
+    "flight_time_hours": 1.0,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "马德里->塞维利亚": {
+    "distance_km": 296.3,
+    "drive_time_hours": 5.35,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "哥本哈根->柏林": {
+    "distance_km": 355.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->赫尔辛基": {
+    "distance_km": 396.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 0.92,
+    "flight_frequency_per_day": 17,
+    "is_nonstop": true
+  },
+  "法兰克福->阿姆斯特丹": {
+    "distance_km": 363.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->伦敦": {
+    "distance_km": 357.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.0,
+    "flight_frequency_per_day": 34,
+    "is_nonstop": true
+  },
+  "马德里->格拉纳达": {
+    "distance_km": 360.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "罗马->斯普利特": {
+    "distance_km": 368.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "罗马->威尼斯": {
+    "drive_time_hours": 5.5,
+    "train_time_hours": 3.75,
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 8,
+    "note": "高铁约3h45min"
+  },
+  "苏黎世->威尼斯": {
+    "distance_km": 360.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "米兰->雅典": {
+    "distance_km": 1462.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "米兰->巴塞罗那": {
+    "distance_km": 724.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 16,
+    "is_nonstop": true
+  },
+  "米兰->哥本哈根": {
+    "distance_km": 1160.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 6,
+    "is_nonstop": true
+  },
+  "米兰->开罗": {
+    "distance_km": 2572.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.58,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "米兰->布鲁塞尔": {
+    "distance_km": 698.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "米兰->巴黎": {
+    "distance_km": 640.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 28,
+    "is_nonstop": true
+  },
+  "米兰->布达佩斯": {
+    "distance_km": 787.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "米兰->斯德哥尔摩": {
+    "distance_km": 1652.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "米兰->马德里": {
+    "distance_km": 1187.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "米兰->伊斯坦布尔": {
+    "distance_km": 1672.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "米兰->柏林": {
+    "distance_km": 842.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "米兰->法兰克福": {
+    "distance_km": 518.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "米兰->布拉格": {
+    "distance_km": 646.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "米兰->罗马": {
+    "distance_km": 476.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 18,
+    "is_nonstop": true
+  },
+  "米兰->阿姆斯特丹": {
+    "distance_km": 829.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.83,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "米兰->迪拜": {
+    "distance_km": 4664.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "米兰->赫尔辛基": {
+    "distance_km": 1937.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.92,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "米兰->伦敦": {
+    "distance_km": 960.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 19,
+    "is_nonstop": true
+  },
+  "米兰->维也纳": {
+    "distance_km": 625.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "米兰->雷克雅未克": {
+    "distance_km": 2823.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.58,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "米兰->里斯本": {
+    "distance_km": 1682.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.83,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "米兰->奥斯陆": {
+    "distance_km": 1610.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.58,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "慕尼黑->雅典": {
+    "distance_km": 1496.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "慕尼黑->巴塞罗那": {
+    "distance_km": 1054.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "慕尼黑->哥本哈根": {
+    "distance_km": 841.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "慕尼黑->开罗": {
+    "distance_km": 2616.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.67,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "慕尼黑->布鲁塞尔": {
+    "distance_km": 602.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "慕尼黑->巴黎": {
+    "distance_km": 684.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "慕尼黑->布达佩斯": {
+    "distance_km": 561.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "慕尼黑->斯德哥尔摩": {
+    "distance_km": 1313.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "慕尼黑->马德里": {
+    "distance_km": 1484.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "慕尼黑->伊斯坦布尔": {
+    "distance_km": 1584.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "慕尼黑->柏林": {
+    "distance_km": 503.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "慕尼黑->罗马": {
+    "distance_km": 697.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "慕尼黑->阿姆斯特丹": {
+    "distance_km": 667.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 13,
+    "is_nonstop": true
+  },
+  "慕尼黑->迪拜": {
+    "distance_km": 4568.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "慕尼黑->赫尔辛基": {
+    "distance_km": 1589.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.58,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "慕尼黑->伦敦": {
+    "distance_km": 918.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 19,
+    "is_nonstop": true
+  },
+  "慕尼黑->雷克雅未克": {
+    "distance_km": 2677.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.0,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "慕尼黑->里斯本": {
+    "distance_km": 1964.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.25,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "慕尼黑->奥斯陆": {
+    "distance_km": 1309.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "雅典->巴塞罗那": {
+    "distance_km": 1878.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.17,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "雅典->哥本哈根": {
+    "distance_km": 2137.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.42,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "雅典->开罗": {
+    "distance_km": 1121.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "雅典->布鲁塞尔": {
+    "distance_km": 2089.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.25,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "雅典->巴黎": {
+    "distance_km": 2096.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.42,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "雅典->布达佩斯": {
+    "distance_km": 1125.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "雅典->斯德哥尔摩": {
+    "distance_km": 2408.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.75,
+    "flight_frequency_per_day": 14,
+    "is_nonstop": true
+  },
+  "雅典->马德里": {
+    "distance_km": 2369.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.58,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "雅典->伊斯坦布尔": {
+    "distance_km": 562.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "雅典->柏林": {
+    "distance_km": 1803.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.83,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "雅典->法兰克福": {
+    "distance_km": 1800.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.08,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "雅典->布拉格": {
+    "distance_km": 1534.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "雅典->罗马": {
+    "distance_km": 1050.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "雅典->阿姆斯特丹": {
+    "distance_km": 2163.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.42,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "雅典->迪拜": {
+    "distance_km": 3286.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "雅典->赫尔辛基": {
+    "distance_km": 2468.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.75,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "雅典->伦敦": {
+    "distance_km": 2392.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.92,
+    "flight_frequency_per_day": 13,
+    "is_nonstop": true
+  },
+  "雅典->维也纳": {
+    "distance_km": 1283.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "雅典->雷克雅未克": {
+    "distance_km": 4160.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "雅典->里斯本": {
+    "distance_km": 2852.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.5,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "雅典->奥斯陆": {
+    "distance_km": 2605.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "巴塞罗那->哥本哈根": {
+    "distance_km": 1759.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.92,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "巴塞罗那->开罗": {
+    "distance_km": 2893.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.08,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "巴塞罗那->布鲁塞尔": {
+    "distance_km": 1065.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "巴塞罗那->巴黎": {
+    "distance_km": 830.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.83,
+    "flight_frequency_per_day": 19,
+    "is_nonstop": true
+  },
+  "巴塞罗那->布达佩斯": {
+    "distance_km": 1497.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "巴塞罗那->斯德哥尔摩": {
+    "distance_km": 2278.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.58,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "巴塞罗那->马德里": {
+    "distance_km": 504.9,
+    "drive_time_hours": 3.28,
+    "train_time_hours": 3.28,
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "巴塞罗那->伊斯坦布尔": {
+    "distance_km": 2234.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "巴塞罗那->柏林": {
+    "distance_km": 1498.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "巴塞罗那->法兰克福": {
+    "distance_km": 1092.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.17,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "巴塞罗那->布拉格": {
+    "distance_km": 1353.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "巴塞罗那->罗马": {
+    "distance_km": 859.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.75,
+    "flight_frequency_per_day": 14,
+    "is_nonstop": true
+  },
+  "巴塞罗那->阿姆斯特丹": {
+    "distance_km": 1238.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.33,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "巴塞罗那->迪拜": {
+    "distance_km": 5164.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "巴塞罗那->赫尔辛基": {
+    "distance_km": 2603.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.08,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "巴塞罗那->伦敦": {
+    "distance_km": 1138.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 24,
+    "is_nonstop": true
+  },
+  "巴塞罗那->维也纳": {
+    "distance_km": 1349.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "巴塞罗那->雷克雅未克": {
+    "distance_km": 2962.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.67,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "巴塞罗那->里斯本": {
+    "distance_km": 1006.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 14,
+    "is_nonstop": true
+  },
+  "巴塞罗那->奥斯陆": {
+    "distance_km": 2142.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.42,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "哥本哈根->开罗": {
+    "distance_km": 3208.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.5,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "哥本哈根->布鲁塞尔": {
+    "distance_km": 765.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "哥本哈根->巴黎": {
+    "distance_km": 1026.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.83,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "哥本哈根->布达佩斯": {
+    "distance_km": 1012.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.75,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "哥本哈根->斯德哥尔摩": {
+    "distance_km": 521.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 16,
+    "is_nonstop": true
+  },
+  "哥本哈根->马德里": {
+    "distance_km": 2072.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.17,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "哥本哈根->伊斯坦布尔": {
+    "distance_km": 2021.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.17,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "哥本哈根->法兰克福": {
+    "distance_km": 671.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "哥本哈根->布拉格": {
+    "distance_km": 635.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "哥本哈根->罗马": {
+    "distance_km": 1532.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.58,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "哥本哈根->阿姆斯特丹": {
+    "distance_km": 621.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 13,
+    "is_nonstop": true
+  },
+  "哥本哈根->迪拜": {
+    "distance_km": 4825.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 14,
+    "is_nonstop": true
+  },
+  "哥本哈根->赫尔辛基": {
+    "distance_km": 882.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "哥本哈根->伦敦": {
+    "distance_km": 955.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 17,
+    "is_nonstop": true
+  },
+  "哥本哈根->维也纳": {
+    "distance_km": 870.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "哥本哈根->雷克雅未克": {
+    "distance_km": 2104.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.42,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "哥本哈根->里斯本": {
+    "distance_km": 2478.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.83,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "哥本哈根->奥斯陆": {
+    "distance_km": 482.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 20,
+    "is_nonstop": true
+  },
+  "开罗->布鲁塞尔": {
+    "distance_km": 3210.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.83,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "开罗->巴黎": {
+    "distance_km": 3211.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.75,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "开罗->布达佩斯": {
+    "distance_km": 2204.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "开罗->斯德哥尔摩": {
+    "distance_km": 3405.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "开罗->伊斯坦布尔": {
+    "distance_km": 1236.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "开罗->柏林": {
+    "distance_km": 2892.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.33,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "开罗->法兰克福": {
+    "distance_km": 2920.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.42,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "开罗->布拉格": {
+    "distance_km": 2634.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.0,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "开罗->罗马": {
+    "distance_km": 2132.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.58,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "开罗->阿姆斯特丹": {
+    "distance_km": 3283.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.83,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "开罗->迪拜": {
+    "distance_km": 2423.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.25,
+    "flight_frequency_per_day": 20,
+    "is_nonstop": true
+  },
+  "开罗->赫尔辛基": {
+    "distance_km": 3383.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "开罗->伦敦": {
+    "distance_km": 3512.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "开罗->维也纳": {
+    "distance_km": 2383.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.75,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "开罗->雷克雅未克": {
+    "distance_km": 5269.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 11.0,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "开罗->里斯本": {
+    "distance_km": 3796.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "开罗->奥斯陆": {
+    "distance_km": 3657.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->布达佩斯": {
+    "distance_km": 1128.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->斯德哥尔摩": {
+    "distance_km": 1279.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.17,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->马德里": {
+    "distance_km": 1316.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.33,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->伊斯坦布尔": {
+    "distance_km": 2181.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.33,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->柏林": {
+    "distance_km": 650.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->布拉格": {
+    "distance_km": 718.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->罗马": {
+    "distance_km": 1173.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->迪拜": {
+    "distance_km": 5153.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->赫尔辛基": {
+    "distance_km": 1647.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.58,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->维也纳": {
+    "distance_km": 914.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->雷克雅未克": {
+    "distance_km": 2125.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->里斯本": {
+    "distance_km": 1712.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.83,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->奥斯陆": {
+    "distance_km": 1084.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "巴黎->斯德哥尔摩": {
+    "distance_km": 1543.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "巴黎->马德里": {
+    "distance_km": 1052.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 20,
+    "is_nonstop": true
+  },
+  "巴黎->伊斯坦布尔": {
+    "distance_km": 2255.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "巴黎->柏林": {
+    "distance_km": 877.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 14,
+    "is_nonstop": true
+  },
+  "巴黎->法兰克福": {
+    "distance_km": 477.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 17,
+    "is_nonstop": true
+  },
+  "巴黎->布拉格": {
+    "distance_km": 883.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "巴黎->罗马": {
+    "distance_km": 1106.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 14,
+    "is_nonstop": true
+  },
+  "巴黎->阿姆斯特丹": {
+    "distance_km": 429.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "巴黎->迪拜": {
+    "distance_km": 5247.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "巴黎->赫尔辛基": {
+    "distance_km": 1908.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.83,
+    "flight_frequency_per_day": 14,
+    "is_nonstop": true
+  },
+  "巴黎->维也纳": {
+    "distance_km": 1033.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "巴黎->雷克雅未克": {
+    "distance_km": 2230.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.67,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "巴黎->里斯本": {
+    "distance_km": 1453.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 19,
+    "is_nonstop": true
+  },
+  "巴黎->奥斯陆": {
+    "distance_km": 1341.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "布达佩斯->斯德哥尔摩": {
+    "distance_km": 1317.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "布达佩斯->马德里": {
+    "distance_km": 1973.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.33,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "布达佩斯->伊斯坦布尔": {
+    "distance_km": 1069.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "布达佩斯->柏林": {
+    "distance_km": 688.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "布达佩斯->法兰克福": {
+    "distance_km": 811.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.75,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "布达佩斯->布拉格": {
+    "distance_km": 442.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "布达佩斯->罗马": {
+    "distance_km": 808.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "布达佩斯->阿姆斯特丹": {
+    "distance_km": 1145.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.17,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "布达佩斯->迪拜": {
+    "distance_km": 4024.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "布达佩斯->赫尔辛基": {
+    "distance_km": 1459.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "布达佩斯->伦敦": {
+    "distance_km": 1449.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.58,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "布达佩斯->雷克雅未克": {
+    "distance_km": 3070.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "布达佩斯->里斯本": {
+    "distance_km": 2469.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.92,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "布达佩斯->奥斯陆": {
+    "distance_km": 1481.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->马德里": {
+    "distance_km": 2592.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.08,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->伊斯坦布尔": {
+    "distance_km": 2173.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.58,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->柏林": {
+    "distance_km": 810.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->法兰克福": {
+    "distance_km": 1186.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.33,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->布拉格": {
+    "distance_km": 1054.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.83,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->罗马": {
+    "distance_km": 1975.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.08,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->阿姆斯特丹": {
+    "distance_km": 1124.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->迪拜": {
+    "distance_km": 4758.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->伦敦": {
+    "distance_km": 1432.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->维也纳": {
+    "distance_km": 1241.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->雷克雅未克": {
+    "distance_km": 2132.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->里斯本": {
+    "distance_km": 2988.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.25,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->奥斯陆": {
+    "distance_km": 415.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.0,
+    "flight_frequency_per_day": 14,
+    "is_nonstop": true
+  },
+  "马德里->伊斯坦布尔": {
+    "distance_km": 2738.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.75,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "马德里->柏林": {
+    "distance_km": 1868.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.08,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "马德里->法兰克福": {
+    "distance_km": 1445.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.58,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "马德里->布拉格": {
+    "distance_km": 1772.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.92,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "马德里->罗马": {
+    "distance_km": 1364.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 17,
+    "is_nonstop": true
+  },
+  "马德里->阿姆斯特丹": {
+    "distance_km": 1481.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "马德里->迪拜": {
+    "distance_km": 5655.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.25,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "马德里->赫尔辛基": {
+    "distance_km": 2948.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.33,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "马德里->伦敦": {
+    "distance_km": 1263.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "马德里->维也纳": {
+    "distance_km": 1808.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.0,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "马德里->里斯本": {
+    "distance_km": 503.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 20,
+    "is_nonstop": true
+  },
+  "马德里->奥斯陆": {
+    "distance_km": 2387.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.75,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->柏林": {
+    "distance_km": 1738.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.83,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->法兰克福": {
+    "distance_km": 1867.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.17,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->布拉格": {
+    "distance_km": 1511.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.58,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->罗马": {
+    "distance_km": 1374.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->阿姆斯特丹": {
+    "distance_km": 2212.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.58,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->迪拜": {
+    "distance_km": 2994.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.33,
+    "flight_frequency_per_day": 17,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->赫尔辛基": {
+    "distance_km": 2148.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.75,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->伦敦": {
+    "distance_km": 2501.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.83,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->维也纳": {
+    "distance_km": 1276.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->雷克雅未克": {
+    "distance_km": 4119.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->里斯本": {
+    "distance_km": 3237.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->奥斯陆": {
+    "distance_km": 2447.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "柏林->法兰克福": {
+    "distance_km": 423.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 19,
+    "is_nonstop": true
+  },
+  "柏林->罗马": {
+    "distance_km": 1182.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "柏林->阿姆斯特丹": {
+    "distance_km": 576.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "柏林->迪拜": {
+    "distance_km": 4625.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 9.0,
+    "flight_frequency_per_day": 14,
+    "is_nonstop": true
+  },
+  "柏林->赫尔辛基": {
+    "distance_km": 1105.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "柏林->伦敦": {
+    "distance_km": 931.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.75,
+    "flight_frequency_per_day": 13,
+    "is_nonstop": true
+  },
+  "柏林->维也纳": {
+    "distance_km": 523.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 14,
+    "is_nonstop": true
+  },
+  "柏林->雷克雅未克": {
+    "distance_km": 2385.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.75,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "柏林->里斯本": {
+    "distance_km": 2312.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.75,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "柏林->奥斯陆": {
+    "distance_km": 837.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "法兰克福->布拉格": {
+    "distance_km": 410.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.0,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "法兰克福->罗马": {
+    "distance_km": 959.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.83,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "法兰克福->迪拜": {
+    "distance_km": 4836.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "法兰克福->赫尔辛基": {
+    "distance_km": 1514.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "法兰克福->伦敦": {
+    "distance_km": 637.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 19,
+    "is_nonstop": true
+  },
+  "法兰克福->维也纳": {
+    "distance_km": 597.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "法兰克福->雷克雅未克": {
+    "distance_km": 2375.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.83,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "法兰克福->里斯本": {
+    "distance_km": 1890.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.17,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "法兰克福->奥斯陆": {
+    "distance_km": 1097.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "布拉格->罗马": {
+    "distance_km": 921.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.75,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "布拉格->阿姆斯特丹": {
+    "distance_km": 710.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "布拉格->迪拜": {
+    "distance_km": 4449.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "布拉格->赫尔辛基": {
+    "distance_km": 1302.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "布拉格->伦敦": {
+    "distance_km": 1034.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "布拉格->雷克雅未克": {
+    "distance_km": 2635.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.17,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "布拉格->里斯本": {
+    "distance_km": 2244.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.67,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "布拉格->奥斯陆": {
+    "distance_km": 1117.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "罗马->阿姆斯特丹": {
+    "distance_km": 1296.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "罗马->迪拜": {
+    "distance_km": 4320.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "罗马->赫尔辛基": {
+    "distance_km": 2201.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 6,
+    "is_nonstop": true
+  },
+  "罗马->伦敦": {
+    "distance_km": 1434.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 17,
+    "is_nonstop": true
+  },
+  "罗马->维也纳": {
+    "distance_km": 764.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "罗马->雷克雅未克": {
+    "distance_km": 3299.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "罗马->里斯本": {
+    "distance_km": 1863.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.17,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "罗马->奥斯陆": {
+    "distance_km": 2006.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.17,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->迪拜": {
+    "distance_km": 5159.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->赫尔辛基": {
+    "distance_km": 1501.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.33,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->维也纳": {
+    "distance_km": 935.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->雷克雅未克": {
+    "distance_km": 2015.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.42,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->里斯本": {
+    "distance_km": 1863.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.92,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->奥斯陆": {
+    "distance_km": 912.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.75,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "迪拜->赫尔辛基": {
+    "distance_km": 4528.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 11.0,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "迪拜->伦敦": {
+    "distance_km": 5474.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 20,
+    "is_nonstop": true
+  },
+  "迪拜->维也纳": {
+    "distance_km": 4238.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "迪拜->雷克雅未克": {
+    "distance_km": 6884.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 13.0,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "迪拜->里斯本": {
+    "distance_km": 6133.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 9.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "迪拜->奥斯陆": {
+    "distance_km": 5139.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "赫尔辛基->伦敦": {
+    "distance_km": 1820.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.0,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "赫尔辛基->维也纳": {
+    "distance_km": 1439.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "赫尔辛基->雷克雅未克": {
+    "distance_km": 2414.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.92,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "赫尔辛基->里斯本": {
+    "distance_km": 3360.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.92,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "赫尔辛基->奥斯陆": {
+    "distance_km": 787.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "伦敦->维也纳": {
+    "distance_km": 1235.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.17,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "伦敦->雷克雅未克": {
+    "distance_km": 1886.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.0,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "伦敦->里斯本": {
+    "distance_km": 1585.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "伦敦->奥斯陆": {
+    "distance_km": 1153.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 14,
+    "is_nonstop": true
+  },
+  "维也纳->雷克雅未克": {
+    "distance_km": 2885.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.42,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "维也纳->里斯本": {
+    "distance_km": 2298.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.67,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "维也纳->奥斯陆": {
+    "distance_km": 1350.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "雷克雅未克->里斯本": {
+    "distance_km": 2947.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.33,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "雷克雅未克->奥斯陆": {
+    "distance_km": 1745.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "里斯本->奥斯陆": {
+    "distance_km": 2738.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.08,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "米兰->特内里费": {
+    "distance_km": 2924.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.58,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "米兰->塞维利亚": {
+    "distance_km": 1546.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.58,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "米兰->帕尔马": {
+    "distance_km": 845.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.75,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "米兰->那不勒斯": {
+    "distance_km": 657.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "米兰->波尔图": {
+    "distance_km": 1514.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "米兰->阿布扎比": {
+    "distance_km": 4650.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "米兰->卢克索": {
+    "distance_km": 3032.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.0,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "慕尼黑->日内瓦": {
+    "distance_km": 464.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "慕尼黑->卑尔根": {
+    "distance_km": 1420.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "慕尼黑->特内里费": {
+    "distance_km": 3236.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.92,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "慕尼黑->斯普利特": {
+    "distance_km": 637.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "慕尼黑->塞维利亚": {
+    "distance_km": 1858.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.08,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "慕尼黑->帕尔马": {
+    "distance_km": 1190.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.17,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "慕尼黑->尼斯": {
+    "distance_km": 595.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "慕尼黑->那不勒斯": {
+    "distance_km": 838.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "慕尼黑->波尔图": {
+    "distance_km": 1769.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.92,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "慕尼黑->阿布扎比": {
+    "distance_km": 4563.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "慕尼黑->卢克索": {
+    "distance_km": 3098.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 6,
+    "is_nonstop": true
+  },
+  "雅典->日内瓦": {
+    "distance_km": 1709.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.83,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "雅典->苏黎世": {
+    "distance_km": 1617.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.83,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "雅典->帕尔马": {
+    "distance_km": 1831.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.0,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "雅典->尼斯": {
+    "distance_km": 1520.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "雅典->杜布罗夫尼克": {
+    "distance_km": 705.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "雅典->那不勒斯": {
+    "distance_km": 872.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.83,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "雅典->波尔图": {
+    "distance_km": 2779.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.17,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "雅典->阿布扎比": {
+    "distance_km": 3256.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "雅典->卢克索": {
+    "distance_km": 1603.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 6,
+    "is_nonstop": true
+  },
+  "雅典->威尼斯": {
+    "distance_km": 1256.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "巴塞罗那->日内瓦": {
+    "distance_km": 622.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "巴塞罗那->卑尔根": {
+    "distance_km": 2123.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.33,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "巴塞罗那->特内里费": {
+    "distance_km": 2202.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "巴塞罗那->斯普利特": {
+    "distance_km": 1192.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "巴塞罗那->塞维利亚": {
+    "distance_km": 829.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "巴塞罗那->苏黎世": {
+    "distance_km": 835.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.75,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "巴塞罗那->尼斯": {
+    "distance_km": 490.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "巴塞罗那->那不勒斯": {
+    "distance_km": 1014.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.83,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "巴塞罗那->波尔图": {
+    "distance_km": 901.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.83,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "巴塞罗那->阿布扎比": {
+    "distance_km": 5135.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "巴塞罗那->格拉纳达": {
+    "distance_km": 682.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "巴塞罗那->卢克索": {
+    "distance_km": 3293.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.25,
+    "flight_frequency_per_day": 4,
+    "is_nonstop": true
+  },
+  "巴塞罗那->威尼斯": {
+    "distance_km": 934.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.75,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "哥本哈根->日内瓦": {
+    "distance_km": 1145.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "哥本哈根->卑尔根": {
+    "distance_km": 674.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "哥本哈根->塞维利亚": {
+    "distance_km": 2462.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.67,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "哥本哈根->苏黎世": {
+    "distance_km": 964.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.75,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "哥本哈根->帕尔马": {
+    "distance_km": 1934.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "哥本哈根->尼斯": {
+    "distance_km": 1384.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.33,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "哥本哈根->特罗姆瑟": {
+    "distance_km": 1585.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.58,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "哥本哈根->那不勒斯": {
+    "distance_km": 1653.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "哥本哈根->波尔图": {
+    "distance_km": 2230.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "哥本哈根->阿布扎比": {
+    "distance_km": 4843.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "哥本哈根->威尼斯": {
+    "distance_km": 1138.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "开罗->日内瓦": {
+    "distance_km": 2815.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.33,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "开罗->卑尔根": {
+    "distance_km": 3883.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "开罗->塞维利亚": {
+    "distance_km": 3514.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "开罗->苏黎世": {
+    "distance_km": 2736.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.17,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "开罗->帕尔马": {
+    "distance_km": 2802.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "开罗->尼斯": {
+    "distance_km": 2602.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "开罗->特罗姆瑟": {
+    "distance_km": 4472.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 9.0,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "开罗->波尔图": {
+    "distance_km": 3772.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "开罗->阿布扎比": {
+    "distance_km": 2364.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.17,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "开罗->卢克索": {
+    "distance_km": 502.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.0,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "开罗->威尼斯": {
+    "distance_km": 2375.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->日内瓦": {
+    "distance_km": 533.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->卑尔根": {
+    "distance_km": 1062.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->特内里费": {
+    "distance_km": 3028.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.5,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->塞维利亚": {
+    "distance_km": 1705.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->苏黎世": {
+    "distance_km": 492.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->帕尔马": {
+    "distance_km": 1261.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.17,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->尼斯": {
+    "distance_km": 824.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.75,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->那不勒斯": {
+    "distance_km": 1349.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->波尔图": {
+    "distance_km": 1467.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->阿布扎比": {
+    "distance_km": 5152.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "布鲁塞尔->威尼斯": {
+    "distance_km": 842.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "巴黎->日内瓦": {
+    "distance_km": 410.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "巴黎->卑尔根": {
+    "distance_km": 1295.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.33,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "巴黎->特内里费": {
+    "distance_km": 2768.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.33,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "巴黎->斯普利特": {
+    "distance_km": 1234.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.17,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "巴黎->塞维利亚": {
+    "distance_km": 1441.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "巴黎->苏黎世": {
+    "distance_km": 488.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "巴黎->帕尔马": {
+    "distance_km": 1033.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.83,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "巴黎->尼斯": {
+    "distance_km": 686.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 29,
+    "is_nonstop": true
+  },
+  "巴黎->特罗姆瑟": {
+    "distance_km": 2477.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.75,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "巴黎->那不勒斯": {
+    "distance_km": 1291.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.17,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "巴黎->波尔图": {
+    "distance_km": 1212.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.17,
+    "flight_frequency_per_day": 14,
+    "is_nonstop": true
+  },
+  "巴黎->阿布扎比": {
+    "distance_km": 5239.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 6,
+    "is_nonstop": true
+  },
+  "巴黎->卢克索": {
+    "distance_km": 3672.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 4,
+    "is_nonstop": true
+  },
+  "巴黎->威尼斯": {
+    "distance_km": 843.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "布达佩斯->日内瓦": {
+    "distance_km": 990.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "布达佩斯->苏黎世": {
+    "distance_km": 789.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "布达佩斯->帕尔马": {
+    "distance_km": 1583.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "布达佩斯->尼斯": {
+    "distance_km": 1007.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.17,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "布达佩斯->那不勒斯": {
+    "distance_km": 831.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "布达佩斯->波尔图": {
+    "distance_km": 2296.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.58,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "布达佩斯->阿布扎比": {
+    "distance_km": 4024.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "布达佩斯->威尼斯": {
+    "distance_km": 563.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->日内瓦": {
+    "distance_km": 1660.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->卑尔根": {
+    "distance_km": 719.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->塞维利亚": {
+    "distance_km": 2982.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.42,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->苏黎世": {
+    "distance_km": 1469.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.33,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->帕尔马": {
+    "distance_km": 2449.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.67,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->尼斯": {
+    "distance_km": 1886.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->特罗姆瑟": {
+    "distance_km": 1148.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->那不勒斯": {
+    "distance_km": 2071.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.25,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->阿布扎比": {
+    "distance_km": 4790.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 9.0,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "马德里->日内瓦": {
+    "distance_km": 1021.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "马德里->特内里费": {
+    "distance_km": 1754.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.83,
+    "flight_frequency_per_day": 16,
+    "is_nonstop": true
+  },
+  "马德里->斯普利特": {
+    "distance_km": 1695.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "马德里->苏黎世": {
+    "distance_km": 1246.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "马德里->帕尔马": {
+    "distance_km": 549.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 16,
+    "is_nonstop": true
+  },
+  "马德里->尼斯": {
+    "distance_km": 975.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "马德里->那不勒斯": {
+    "distance_km": 1514.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 6,
+    "is_nonstop": true
+  },
+  "马德里->波尔图": {
+    "distance_km": 422.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "马德里->阿布扎比": {
+    "distance_km": 5623.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "马德里->卢克索": {
+    "distance_km": 3727.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.83,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "马德里->威尼斯": {
+    "distance_km": 1415.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->日内瓦": {
+    "distance_km": 1919.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.17,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->斯普利特": {
+    "distance_km": 1067.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->塞维利亚": {
+    "distance_km": 3018.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.58,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->苏黎世": {
+    "distance_km": 1769.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.92,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->费特希耶": {
+    "distance_km": 488.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->卡帕多奇亚": {
+    "distance_km": 564.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": null,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->尼斯": {
+    "distance_km": 1803.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.08,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->杜布罗夫尼克": {
+    "distance_km": 919.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->那不勒斯": {
+    "distance_km": 1234.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.33,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->波尔图": {
+    "distance_km": 3126.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.92,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->安塔利亚": {
+    "distance_km": 481.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 14,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->阿布扎比": {
+    "distance_km": 2984.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->卢克索": {
+    "distance_km": 1736.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->威尼斯": {
+    "distance_km": 1433.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.58,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "柏林->日内瓦": {
+    "distance_km": 876.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.75,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "柏林->特内里费": {
+    "distance_km": 3617.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.33,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "柏林->塞维利亚": {
+    "distance_km": 2256.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "柏林->苏黎世": {
+    "distance_km": 669.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 13,
+    "is_nonstop": true
+  },
+  "柏林->帕尔马": {
+    "distance_km": 1657.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "柏林->尼斯": {
+    "distance_km": 1080.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "柏林->那不勒斯": {
+    "distance_km": 1299.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "柏林->波尔图": {
+    "distance_km": 2083.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.33,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "柏林->阿布扎比": {
+    "distance_km": 4634.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 9.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "柏林->威尼斯": {
+    "distance_km": 791.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "法兰克福->日内瓦": {
+    "distance_km": 473.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "法兰克福->卑尔根": {
+    "distance_km": 1162.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "法兰克福->特内里费": {
+    "distance_km": 3194.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.92,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "法兰克福->斯普利特": {
+    "distance_km": 940.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "法兰克福->塞维利亚": {
+    "distance_km": 1833.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.92,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "法兰克福->帕尔马": {
+    "distance_km": 1263.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "法兰克福->尼斯": {
+    "distance_km": 720.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "法兰克福->特罗姆瑟": {
+    "distance_km": 2239.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.58,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "法兰克福->那不勒斯": {
+    "distance_km": 1117.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "法兰克福->波尔图": {
+    "distance_km": 1666.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "法兰克福->阿布扎比": {
+    "distance_km": 4835.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "法兰克福->卢克索": {
+    "distance_km": 3402.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 4,
+    "is_nonstop": true
+  },
+  "法兰克福->威尼斯": {
+    "distance_km": 586.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "布拉格->日内瓦": {
+    "distance_km": 751.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "布拉格->特内里费": {
+    "distance_km": 3527.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.42,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "布拉格->塞维利亚": {
+    "distance_km": 2151.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.42,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "布拉格->苏黎世": {
+    "distance_km": 527.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "布拉格->帕尔马": {
+    "distance_km": 1489.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.58,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "布拉格->尼斯": {
+    "distance_km": 893.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.83,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "布拉格->特罗姆瑟": {
+    "distance_km": 2189.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.67,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "布拉格->那不勒斯": {
+    "distance_km": 1026.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "布拉格->波尔图": {
+    "distance_km": 2037.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.33,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "布拉格->阿布扎比": {
+    "distance_km": 4452.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "罗马->日内瓦": {
+    "distance_km": 697.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "罗马->卑尔根": {
+    "distance_km": 2113.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.25,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "罗马->特内里费": {
+    "distance_km": 2989.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.75,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "罗马->塞维利亚": {
+    "distance_km": 1656.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "罗马->苏黎世": {
+    "distance_km": 684.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "罗马->帕尔马": {
+    "distance_km": 868.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.83,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "罗马->尼斯": {
+    "distance_km": 471.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "罗马->波尔图": {
+    "distance_km": 1755.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.0,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "罗马->阿布扎比": {
+    "distance_km": 4296.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "罗马->卢克索": {
+    "distance_km": 2578.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 6,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->日内瓦": {
+    "distance_km": 691.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->卑尔根": {
+    "distance_km": 892.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->斯普利特": {
+    "distance_km": 1304.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->塞维利亚": {
+    "distance_km": 1868.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.92,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->苏黎世": {
+    "distance_km": 613.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->帕尔马": {
+    "distance_km": 1433.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->尼斯": {
+    "distance_km": 979.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->特罗姆瑟": {
+    "distance_km": 2053.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.25,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->那不勒斯": {
+    "distance_km": 1464.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.33,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->波尔图": {
+    "distance_km": 1611.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->阿布扎比": {
+    "distance_km": 5163.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->卢克索": {
+    "distance_km": 3766.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 6,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->威尼斯": {
+    "distance_km": 941.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "迪拜->日内瓦": {
+    "distance_km": 4913.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "迪拜->卑尔根": {
+    "distance_km": 5433.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 9.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "迪拜->斯普利特": {
+    "distance_km": 4053.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 10.0,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "迪拜->塞维利亚": {
+    "distance_km": 5873.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 12.0,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "迪拜->苏黎世": {
+    "distance_km": 4763.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "迪拜->帕尔马": {
+    "distance_km": 5114.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 12.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "迪拜->尼斯": {
+    "distance_km": 4776.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "迪拜->特罗姆瑟": {
+    "distance_km": 5476.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 13.0,
+    "flight_frequency_per_day": 6,
+    "is_nonstop": true
+  },
+  "迪拜->那不勒斯": {
+    "distance_km": 4152.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 7.0,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "迪拜->波尔图": {
+    "distance_km": 6065.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 12.0,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "迪拜->威尼斯": {
+    "distance_km": 4427.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 10.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "赫尔辛基->日内瓦": {
+    "distance_km": 1980.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.0,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "赫尔辛基->罗瓦涅米": {
+    "distance_km": 705.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "赫尔辛基->卑尔根": {
+    "distance_km": 1077.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "赫尔辛基->塞维利亚": {
+    "distance_km": 3338.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.5,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "赫尔辛基->苏黎世": {
+    "distance_km": 1774.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.83,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "赫尔辛基->尼斯": {
+    "distance_km": 2180.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "赫尔辛基->特罗姆瑟": {
+    "distance_km": 1089.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "赫尔辛基->那不勒斯": {
+    "distance_km": 2270.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "赫尔辛基->阿布扎比": {
+    "distance_km": 4569.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 10.0,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "赫尔辛基->威尼斯": {
+    "distance_km": 1837.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.0,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "伦敦->日内瓦": {
+    "distance_km": 747.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 17,
+    "is_nonstop": true
+  },
+  "伦敦->卑尔根": {
+    "distance_km": 1043.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "伦敦->特内里费": {
+    "distance_km": 2893.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.25,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "伦敦->斯普利特": {
+    "distance_km": 1524.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "伦敦->塞维利亚": {
+    "distance_km": 1636.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.67,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "伦敦->苏黎世": {
+    "distance_km": 776.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "伦敦->帕尔马": {
+    "distance_km": 1344.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 18,
+    "is_nonstop": true
+  },
+  "伦敦->尼斯": {
+    "distance_km": 1029.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 14,
+    "is_nonstop": true
+  },
+  "伦敦->特罗姆瑟": {
+    "distance_km": 2247.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "伦敦->那不勒斯": {
+    "distance_km": 1617.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.58,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "伦敦->波尔图": {
+    "distance_km": 1320.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.33,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "伦敦->阿布扎比": {
+    "distance_km": 5472.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "伦敦->卢克索": {
+    "distance_km": 3982.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.0,
+    "flight_frequency_per_day": 6,
+    "is_nonstop": true
+  },
+  "伦敦->威尼斯": {
+    "distance_km": 1136.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "维也纳->日内瓦": {
+    "distance_km": 803.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "维也纳->特内里费": {
+    "distance_km": 3549.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 5.33,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "维也纳->斯普利特": {
+    "distance_km": 522.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "维也纳->塞维利亚": {
+    "distance_km": 2172.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.42,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "维也纳->苏黎世": {
+    "distance_km": 592.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "维也纳->帕尔马": {
+    "distance_km": 1456.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "维也纳->尼斯": {
+    "distance_km": 863.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.75,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "维也纳->特罗姆瑟": {
+    "distance_km": 2388.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.67,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "维也纳->那不勒斯": {
+    "distance_km": 835.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "维也纳->波尔图": {
+    "distance_km": 2113.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.33,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "维也纳->阿布扎比": {
+    "distance_km": 4237.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "维也纳->威尼斯": {
+    "distance_km": 435.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "雷克雅未克->卑尔根": {
+    "distance_km": 1456.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.33,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "雷克雅未克->苏黎世": {
+    "distance_km": 2617.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.75,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "雷克雅未克->尼斯": {
+    "distance_km": 2915.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 4.25,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "雷克雅未克->阿布扎比": {
+    "distance_km": 6912.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 12.0,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "里斯本->日内瓦": {
+    "distance_km": 1500.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "里斯本->特内里费": {
+    "distance_km": 1316.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "里斯本->苏黎世": {
+    "distance_km": 1722.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.83,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "里斯本->帕尔马": {
+    "distance_km": 1020.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "里斯本->尼斯": {
+    "distance_km": 1477.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "里斯本->那不勒斯": {
+    "distance_km": 2008.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.92,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "里斯本->阿布扎比": {
+    "distance_km": 6098.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 8.0,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "里斯本->威尼斯": {
+    "distance_km": 1914.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.0,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "奥斯陆->日内瓦": {
+    "distance_km": 1554.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "奥斯陆->塞维利亚": {
+    "distance_km": 2771.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 6.0,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "奥斯陆->苏黎世": {
+    "distance_km": 1401.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "奥斯陆->帕尔马": {
+    "distance_km": 2331.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "奥斯陆->尼斯": {
+    "distance_km": 1817.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.92,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "奥斯陆->特罗姆瑟": {
+    "distance_km": 1148.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.92,
+    "flight_frequency_per_day": 9,
+    "is_nonstop": true
+  },
+  "奥斯陆->阿布扎比": {
+    "distance_km": 5167.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 10.0,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "日内瓦->帕尔马": {
+    "distance_km": 789.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 4,
+    "is_nonstop": true
+  },
+  "日内瓦->威尼斯": {
+    "distance_km": 486.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "斯普利特->苏黎世": {
+    "distance_km": 750.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "塞维利亚->帕尔马": {
+    "distance_km": 789.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "塞维利亚->波尔图": {
+    "distance_km": 476.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "苏黎世->尼斯": {
+    "distance_km": 419.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "帕尔马->尼斯": {
+    "distance_km": 598.4,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "帕尔马->格拉纳达": {
+    "distance_km": 606.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "尼斯->那不勒斯": {
+    "distance_km": 657.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "尼斯->威尼斯": {
+    "distance_km": 444.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "那不勒斯->威尼斯": {
+    "distance_km": 534.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "日内瓦→因特拉肯": {
+    "distance_km": 142.2,
+    "drive_time_hours": 2.52,
+    "train_time_hours": 2.98,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "米兰→因特拉肯": {
+    "distance_km": 170.1,
+    "drive_time_hours": 3.85,
+    "train_time_hours": 5.18,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "米兰→采尔马特": {
+    "distance_km": 127.9,
+    "drive_time_hours": 3.17,
+    "train_time_hours": 6.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "苏黎世→采尔马特": {
+    "distance_km": 161.8,
+    "drive_time_hours": 3.42,
+    "train_time_hours": 3.25,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "苏黎世→卢塞恩": {
+    "distance_km": 39.6,
+    "drive_time_hours": 0.75,
+    "train_time_hours": 0.68,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "米兰→卢塞恩": {
+    "distance_km": 189.3,
+    "drive_time_hours": 3.13,
+    "train_time_hours": 2.97,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "日内瓦→卢塞恩": {
+    "distance_km": 190.8,
+    "drive_time_hours": 3.05,
+    "train_time_hours": 3.12,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "日内瓦→蒙特勒": {
+    "distance_km": 64.4,
+    "drive_time_hours": 1.33,
+    "train_time_hours": 1.07,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "苏黎世→蒙特勒": {
+    "distance_km": 162.0,
+    "drive_time_hours": 2.38,
+    "train_time_hours": 2.78,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "米兰→蒙特勒": {
+    "distance_km": 206.7,
+    "drive_time_hours": 3.77,
+    "train_time_hours": 5.88,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "苏黎世→圣莫里茨": {
+    "distance_km": 138.2,
+    "drive_time_hours": 2.7,
+    "train_time_hours": 3.28,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "慕尼黑→圣莫里茨": {
+    "distance_km": 224.6,
+    "drive_time_hours": 4.28,
+    "train_time_hours": 6.05,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "米兰→五渔村": {
+    "distance_km": 154.8,
+    "drive_time_hours": 3.12,
+    "train_time_hours": 4.55,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "尼斯→五渔村": {
+    "distance_km": 201.7,
+    "drive_time_hours": 3.8,
+    "train_time_hours": 5.17,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "佛罗伦萨→拉斯佩齐亚": {
+    "distance_km": 120.2,
+    "drive_time_hours": 2.13,
+    "train_time_hours": 3.1,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "米兰→拉斯佩齐亚": {
+    "distance_km": 159.2,
+    "drive_time_hours": 2.78,
+    "train_time_hours": 4.07,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "尼斯→拉斯佩齐亚": {
+    "distance_km": 209.1,
+    "drive_time_hours": 3.72,
+    "train_time_hours": 5.37,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "佛罗伦萨→托斯卡纳": {
+    "distance_km": 39.0,
+    "drive_time_hours": 1.1,
+    "train_time_hours": 1.67,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "罗马→托斯卡纳": {
+    "distance_km": 198.8,
+    "drive_time_hours": 3.45,
+    "train_time_hours": 4.27,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "威尼斯→托斯卡纳": {
+    "distance_km": 241.0,
+    "drive_time_hours": 3.32,
+    "train_time_hours": 3.83,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "慕尼黑→波尔扎诺": {
+    "distance_km": 183.2,
+    "drive_time_hours": 3.53,
+    "train_time_hours": 3.73,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "米兰→波尔扎诺": {
+    "distance_km": 203.0,
+    "drive_time_hours": 3.37,
+    "train_time_hours": 3.18,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "威尼斯→奥蒂塞伊": {
+    "distance_km": 130.2,
+    "drive_time_hours": 3.35,
+    "train_time_hours": 3.93,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "慕尼黑→奥蒂塞伊": {
+    "distance_km": 176.0,
+    "drive_time_hours": 3.47,
+    "train_time_hours": 4.7,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "米兰→奥蒂塞伊": {
+    "distance_km": 241.6,
+    "drive_time_hours": 3.9,
+    "train_time_hours": 4.18,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "罗马→阿马尔菲": {
+    "distance_km": 225.3,
+    "drive_time_hours": 3.55,
+    "train_time_hours": 2.87,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "那不勒斯→切法卢": {
+    "distance_km": 313.2,
+    "drive_time_hours": 7.42,
+    "train_time_hours": 8.37,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "威尼斯→萨尔茨堡": {
+    "distance_km": 269.2,
+    "drive_time_hours": 4.77,
+    "train_time_hours": 5.75,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "慕尼黑→沃尔夫冈": {
+    "distance_km": 146.2,
+    "drive_time_hours": 2.37,
+    "train_time_hours": 3.17,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "维也纳→沃尔夫冈": {
+    "distance_km": 223.5,
+    "drive_time_hours": 3.28,
+    "train_time_hours": 4.27,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "威尼斯→沃尔夫冈": {
+    "distance_km": 269.9,
+    "drive_time_hours": 5.37,
+    "train_time_hours": 10.42,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "日内瓦→霞慕尼": {
+    "distance_km": 64.4,
+    "drive_time_hours": 1.13,
+    "train_time_hours": 2.58,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "米兰→霞慕尼": {
+    "distance_km": 187.3,
+    "drive_time_hours": 2.85,
+    "train_time_hours": 7.17,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "苏黎世→霞慕尼": {
+    "distance_km": 205.5,
+    "drive_time_hours": 3.6,
+    "train_time_hours": 4.38,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "日内瓦→安纳西": {
+    "distance_km": 33.4,
+    "drive_time_hours": 0.75,
+    "train_time_hours": 0.83,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "米兰→安纳西": {
+    "distance_km": 242.7,
+    "drive_time_hours": 3.97,
+    "train_time_hours": 6.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "苏黎世→安纳西": {
+    "distance_km": 246.1,
+    "drive_time_hours": 3.57,
+    "train_time_hours": 4.8,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "日内瓦→阿维尼翁": {
+    "distance_km": 271.1,
+    "drive_time_hours": 3.92,
+    "train_time_hours": 3.25,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "尼斯→马赛": {
+    "distance_km": 159.6,
+    "drive_time_hours": 2.43,
+    "train_time_hours": 2.53,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "苏黎世→科尔马": {
+    "distance_km": 118.4,
+    "drive_time_hours": 1.8,
+    "train_time_hours": 2.4,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "日内瓦→科尔马": {
+    "distance_km": 228.5,
+    "drive_time_hours": 3.72,
+    "train_time_hours": 3.98,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "法兰克福→科尔马": {
+    "distance_km": 245.3,
+    "drive_time_hours": 3.2,
+    "train_time_hours": 2.9,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "苏黎世→斯特拉斯堡": {
+    "distance_km": 146.8,
+    "drive_time_hours": 2.52,
+    "train_time_hours": 2.98,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "法兰克福→斯特拉斯堡": {
+    "distance_km": 183.0,
+    "drive_time_hours": 2.52,
+    "train_time_hours": 2.2,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "慕尼黑→斯特拉斯堡": {
+    "distance_km": 287.1,
+    "drive_time_hours": 4.22,
+    "train_time_hours": 3.35,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "巴黎→布卢瓦": {
+    "distance_km": 160.2,
+    "drive_time_hours": 2.38,
+    "train_time_hours": 2.55,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "巴黎→圣米歇尔山": {
+    "distance_km": 284.0,
+    "drive_time_hours": 4.33,
+    "train_time_hours": 4.33,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "巴黎→圣马洛": {
+    "distance_km": 321.9,
+    "drive_time_hours": 4.47,
+    "train_time_hours": 2.68,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "伦敦→圣马洛": {
+    "distance_km": 345.7,
+    "drive_time_hours": 7.88,
+    "train_time_hours": 6.6,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "布鲁塞尔→丽丝": {
+    "distance_km": 157.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "阿姆斯特丹→羊角村": {
+    "distance_km": 89.8,
+    "drive_time_hours": 1.37,
+    "train_time_hours": 2.05,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "布鲁塞尔→羊角村": {
+    "distance_km": 241.5,
+    "drive_time_hours": 3.55,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "慕尼黑→贝希特斯加登": {
+    "distance_km": 120.1,
+    "drive_time_hours": 1.82,
+    "train_time_hours": 2.57,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "威尼斯→贝希特斯加登": {
+    "distance_km": 249.0,
+    "drive_time_hours": 4.83,
+    "train_time_hours": 6.98,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "维也纳→贝希特斯加登": {
+    "distance_km": 259.3,
+    "drive_time_hours": 3.48,
+    "train_time_hours": 3.65,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "苏黎世→黑森林": {
+    "distance_km": 107.4,
+    "drive_time_hours": null,
+    "train_time_hours": 3.87,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "法兰克福→黑森林": {
+    "distance_km": 204.9,
+    "drive_time_hours": 2.75,
+    "train_time_hours": 2.98,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "慕尼黑→黑森林": {
+    "distance_km": 254.7,
+    "drive_time_hours": 4.03,
+    "train_time_hours": 4.95,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "苏黎世→海德堡": {
+    "distance_km": 227.2,
+    "drive_time_hours": 3.43,
+    "train_time_hours": 3.75,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "慕尼黑→海德堡": {
+    "distance_km": 253.3,
+    "drive_time_hours": 3.75,
+    "train_time_hours": 2.9,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "格拉纳达→科尔多瓦": {
+    "distance_km": 130.6,
+    "drive_time_hours": 2.2,
+    "train_time_hours": 1.47,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "尼斯→普罗旺斯": {
+    "distance_km": 142.3,
+    "drive_time_hours": 2.43,
+    "train_time_hours": 3.65,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "日内瓦→普罗旺斯": {
+    "distance_km": 282.5,
+    "drive_time_hours": 4.22,
+    "train_time_hours": 8.78,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "Bad Ischl→维也纳": {
+    "distance_km": 280,
+    "drive_time_hours": 3.0,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "Bad Ischl→萨尔茨堡": {
+    "distance_km": 55,
+    "drive_time_hours": 0.75,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "Bad Ischl→慕尼黑": {
+    "distance_km": 180,
+    "drive_time_hours": 2.0,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "圣沃尔夫冈→维也纳": {
+    "distance_km": 290,
+    "drive_time_hours": 3.2,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "圣沃尔夫冈→萨尔茨堡": {
+    "distance_km": 50,
+    "drive_time_hours": 0.67,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "圣沃尔夫冈→慕尼黑": {
+    "distance_km": 170,
+    "drive_time_hours": 1.9,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "哈尔施塔特→维也纳": {
+    "distance_km": 290,
+    "drive_time_hours": 3.2,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "哈尔施塔特→萨尔茨堡": {
+    "distance_km": 75,
+    "drive_time_hours": 1.0,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "哈尔施塔特→慕尼黑": {
+    "distance_km": 200,
+    "drive_time_hours": 2.3,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "奥斯陆→罗弗敦": {
+    "distance_km": 1200,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "特罗姆瑟→罗弗敦": {
+    "distance_km": 400,
+    "drive_time_hours": 6.0,
+    "train_time_hours": null,
+    "flight_time_hours": 1.0,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "雷克雅未克→特罗姆瑟": {
+    "distance_km": 2100,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": false
+  },
+  "那不勒斯→罗马": {
+    "distance_km": 225,
+    "drive_time_hours": 2.5,
+    "train_time_hours": 1.2,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "阿马尔菲→罗马": {
+    "distance_km": 270,
+    "drive_time_hours": 3.0,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "那不勒斯/庞贝/阿马尔菲海岸→罗马": {
+    "distance_km": 225,
+    "drive_time_hours": 2.5,
+    "train_time_hours": 1.2,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "那不勒斯→阿马尔菲": {
+    "distance_km": 60,
+    "drive_time_hours": 1.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "那不勒斯→那不勒斯/庞贝/阿马尔菲海岸": {
+    "distance_km": 60,
+    "drive_time_hours": 1.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "Bad Ischl->波尔扎诺": {
+    "drive_time_hours": 4.0,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "走A10/A22高速经布伦纳山口，约220km"
+  },
+  "波尔扎诺->Bad Ischl": {
+    "drive_time_hours": 4.0,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "走A22/A10高速经布伦纳山口，约220km"
+  },
+  "Bad Ischl->奥蒂塞伊": {
+    "drive_time_hours": 4.0,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "走A10/A22高速经布伦纳山口，约240km"
+  },
+  "奥蒂塞伊->Bad Ischl": {
+    "drive_time_hours": 4.0,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "走A22/A10高速经布伦纳山口，约240km"
+  },
+  "波尔扎诺->罗马": {
+    "drive_time_hours": 5.6,
+    "train_time_hours": 4.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "自驾走A22/A1，火车需在维罗纳或博洛尼亚换乘"
+  },
+  "罗马->波尔扎诺": {
+    "drive_time_hours": 5.6,
+    "train_time_hours": 4.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "自驾走A1/A22，火车需在维罗纳或博洛尼亚换乘"
+  },
+  "奥蒂塞伊->罗马": {
+    "drive_time_hours": 5.6,
+    "train_time_hours": 4.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "先开到波尔扎诺坐火车，或全程自驾"
+  },
+  "罗马->奥蒂塞伊": {
+    "drive_time_hours": 5.6,
+    "train_time_hours": 4.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "先坐火车到波尔扎诺再自驾，或全程自驾"
+  },
+  "波尔扎诺->威尼斯": {
+    "drive_time_hours": 2.0,
+    "train_time_hours": 2.17,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "走A22高速"
+  },
+  "威尼斯->波尔扎诺": {
+    "drive_time_hours": 2.0,
+    "train_time_hours": 2.17,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "走A22高速"
+  },
+  "奥蒂塞伊->威尼斯": {
+    "drive_time_hours": 2.3,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "先开到波尔扎诺坐火车或继续自驾"
+  },
+  "威尼斯->奥蒂塞伊": {
+    "drive_time_hours": 2.3,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "自驾走A22"
+  },
+  "威尼斯->罗马": {
+    "drive_time_hours": 5.5,
+    "train_time_hours": 3.75,
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 8,
+    "note": "高铁约3h45min"
+  },
+  "国王湖->萨尔茨堡": {
+    "drive_time_hours": 0.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测30min"
+  },
+  "萨尔茨堡->国王湖": {
+    "drive_time_hours": 0.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测30min"
+  },
+  "Berchtesgaden->萨尔茨堡": {
+    "drive_time_hours": 0.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测30min"
+  },
+  "萨尔茨堡->Berchtesgaden": {
+    "drive_time_hours": 0.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测30min"
+  },
+  "国王湖->慕尼黑": {
+    "drive_time_hours": 1.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测1h30min"
+  },
+  "慕尼黑->国王湖": {
+    "drive_time_hours": 1.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测1h30min"
+  },
+  "国王湖->奥蒂塞伊": {
+    "drive_time_hours": 2.12,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测2h7min"
+  },
+  "奥蒂塞伊->国王湖": {
+    "drive_time_hours": 2.12,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测2h7min"
+  },
+  "霞慕尼->日内瓦": {
+    "drive_time_hours": 1.15,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测1h9min"
+  },
+  "日内瓦->霞慕尼": {
+    "drive_time_hours": 1.15,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测1h9min"
+  },
+  "Chamonix->日内瓦": {
+    "drive_time_hours": 1.15,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测1h9min"
+  },
+  "日内瓦->Chamonix": {
+    "drive_time_hours": 1.15,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测1h9min"
+  },
+  "霞慕尼->米兰": {
+    "drive_time_hours": 2.48,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测2h29min"
+  },
+  "米兰->霞慕尼": {
+    "drive_time_hours": 2.48,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测2h29min"
+  },
+  "霞慕尼->奥蒂塞伊": {
+    "drive_time_hours": 4.85,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测4h51min，翻山路"
+  },
+  "奥蒂塞伊->霞慕尼": {
+    "drive_time_hours": 4.85,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测4h51min，翻山路"
+  },
+  "因特拉肯->米兰": {
+    "drive_time_hours": 2.75,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测2h45min"
+  },
+  "米兰->因特拉肯": {
+    "drive_time_hours": 2.75,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测2h45min"
+  },
+  "托斯卡纳->罗马": {
+    "drive_time_hours": 2.78,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测Siena→Rome 2h47min"
+  },
+  "罗马->托斯卡纳": {
+    "drive_time_hours": 2.78,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测Rome→Siena 2h47min"
+  },
+  "托斯卡纳->佛罗伦萨": {
+    "drive_time_hours": 1.28,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测Siena→Florence 1h17min"
+  },
+  "佛罗伦萨->托斯卡纳": {
+    "drive_time_hours": 1.28,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测Florence→Siena 1h17min"
+  },
+  "米兰->托斯卡纳": {
+    "distance_km": 366,
+    "drive_time_hours": 4.1,
+    "train_time_hours": 3.08,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测Milan→Siena 4h6min drive, 3h5min train"
+  },
+  "普罗旺斯->尼斯": {
+    "distance_km": 177,
+    "drive_time_hours": 2.22,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测Aix-en-Provence→Nice 2h13min drive，无直达火车（仅大巴）"
+  },
+  "因特拉肯->奥蒂塞伊": {
+    "distance_km": 487,
+    "drive_time_hours": 6.12,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "note": "Google Maps实测Interlaken→Ortisei 6h7min drive，公共交通需换乘5次8h+"
+  },
+  "雷克雅未克->哥本哈根": {
+    "distance_km": 1794,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true,
+    "note": "冰岛航空直飞"
+  },
+  "雅典->圣托里尼": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 0.75,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true,
+    "note": "希腊群岛航空/爱琴海航空"
+  },
+  "巴塞罗那->马略卡岛": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.0,
+    "flight_frequency_per_day": 20,
+    "is_nonstop": true,
+    "note": "伏林航空/瑞安航空"
+  },
+  "马德里->马略卡岛": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "罗马->巴勒莫": {
+    "distance_km": 427.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.03,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "米兰->巴勒莫": {
+    "distance_km": 887.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.61,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "威尼斯->巴勒莫": {
+    "distance_km": 819.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.52,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "雅典->巴勒莫": {
+    "distance_km": 907.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.63,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "马德里->巴勒莫": {
+    "distance_km": 1488.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.36,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "巴塞罗那->巴勒莫": {
+    "distance_km": 1022.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.78,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "巴黎->巴勒莫": {
+    "distance_km": 1486.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.36,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "法兰克福->巴勒莫": {
+    "distance_km": 1384.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.23,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "苏黎世->巴勒莫": {
+    "distance_km": 1101.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.88,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "伦敦->巴勒莫": {
+    "distance_km": 1824.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.78,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "巴勒莫->罗马": {
+    "distance_km": 427.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.03,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "巴勒莫->米兰": {
+    "distance_km": 887.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.61,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "巴勒莫->威尼斯": {
+    "distance_km": 819.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.52,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "巴勒莫->雅典": {
+    "distance_km": 907.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.63,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "巴勒莫->马德里": {
+    "distance_km": 1488.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.36,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "巴勒莫->巴塞罗那": {
+    "distance_km": 1022.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.78,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "巴勒莫->巴黎": {
+    "distance_km": 1486.0,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.36,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "巴勒莫->法兰克福": {
+    "distance_km": 1384.9,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.23,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "巴勒莫->苏黎世": {
+    "distance_km": 1101.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.88,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "巴勒莫->伦敦": {
+    "distance_km": 1824.7,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.78,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "慕尼黑->巴勒莫": {
+    "distance_km": 1124.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.91,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "巴勒莫->慕尼黑": {
+    "distance_km": 1124.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.91,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "柏林->巴勒莫": {
+    "distance_km": 1602.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "巴勒莫->柏林": {
+    "distance_km": 1602.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "阿姆斯特丹->巴勒莫": {
+    "distance_km": 1715.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.64,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "巴勒莫->阿姆斯特丹": {
+    "distance_km": 1715.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.64,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "日内瓦->巴勒莫": {
+    "distance_km": 1077.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.85,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "巴勒莫->日内瓦": {
+    "distance_km": 1077.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.85,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "维也纳->巴勒莫": {
+    "distance_km": 1149.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.94,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "巴勒莫->维也纳": {
+    "distance_km": 1149.1,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.94,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "哥本哈根->巴勒莫": {
+    "distance_km": 1954.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.94,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "巴勒莫->哥本哈根": {
+    "distance_km": 1954.6,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.94,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "斯德哥尔摩->巴勒莫": {
+    "distance_km": 2383.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.48,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "巴勒莫->斯德哥尔摩": {
+    "distance_km": 2383.2,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.48,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "布拉格->巴勒莫": {
+    "distance_km": 1333.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.17,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "巴勒莫->布拉格": {
+    "distance_km": 1333.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.17,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "布达佩斯->巴勒莫": {
+    "distance_km": 1141.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.93,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "巴勒莫->布达佩斯": {
+    "distance_km": 1141.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.93,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "里斯本->巴勒莫": {
+    "distance_km": 1956.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.95,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "巴勒莫->里斯本": {
+    "distance_km": 1956.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.95,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "伊斯坦布尔->巴勒莫": {
+    "distance_km": 1375.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.22,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "巴勒莫->伊斯坦布尔": {
+    "distance_km": 1375.3,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.22,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "那不勒斯->巴勒莫": {
+    "distance_km": 314.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 0.89,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "巴勒莫->那不勒斯": {
+    "distance_km": 314.5,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 0.89,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "佛罗伦萨->巴勒莫": {
+    "distance_km": 653.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.32,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "巴勒莫->佛罗伦萨": {
+    "distance_km": 653.8,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.32,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "苏黎世->因特拉肯": {
+    "distance_km": 92.4,
+    "drive_time_hours": 1.6,
+    "train_time_hours": 2.08,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "卢塞恩->因特拉肯": {
+    "distance_km": 53.5,
+    "drive_time_hours": 0.92,
+    "train_time_hours": 1.92,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "卢塞恩->采尔马特": {
+    "distance_km": 122.3,
+    "drive_time_hours": 2.3,
+    "train_time_hours": 3.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "因特拉肯->采尔马特": {
+    "distance_km": 73.9,
+    "drive_time_hours": 1.75,
+    "train_time_hours": 2.17,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "卢塞恩->苏黎世": {
+    "distance_km": 52.8,
+    "drive_time_hours": 0.83,
+    "train_time_hours": 0.8,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "采尔马特->苏黎世": {
+    "distance_km": 162.5,
+    "drive_time_hours": 2.5,
+    "train_time_hours": 3.25,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "因特拉肯->苏黎世": {
+    "distance_km": 92.4,
+    "drive_time_hours": 1.6,
+    "train_time_hours": 2.08,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "采尔马特->因特拉肯": {
+    "distance_km": 73.9,
+    "drive_time_hours": 1.75,
+    "train_time_hours": 2.17,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "因特拉肯->卢塞恩": {
+    "distance_km": 53.5,
+    "drive_time_hours": 0.92,
+    "train_time_hours": 1.92,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "采尔马特->卢塞恩": {
+    "distance_km": 122.3,
+    "drive_time_hours": 2.3,
+    "train_time_hours": 3.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "阿姆斯特丹->丽丝": {
+    "distance_km": 40,
+    "drive_time_hours": 0.75,
+    "train_time_hours": 1.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "丽丝->阿姆斯特丹": {
+    "distance_km": 40,
+    "drive_time_hours": 0.75,
+    "train_time_hours": 1.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "佛罗伦萨->五渔村": {
+    "distance_km": 185,
+    "drive_time_hours": 2.5,
+    "train_time_hours": 2.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "五渔村->佛罗伦萨": {
+    "distance_km": 185,
+    "drive_time_hours": 2.5,
+    "train_time_hours": 2.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "拉斯佩齐亚->五渔村": {
+    "distance_km": 15,
+    "drive_time_hours": 0.33,
+    "train_time_hours": 0.25,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "五渔村->拉斯佩齐亚": {
+    "distance_km": 15,
+    "drive_time_hours": 0.33,
+    "train_time_hours": 0.25,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "巴勒莫->切法卢": {
+    "distance_km": 70,
+    "drive_time_hours": 1.0,
+    "train_time_hours": 1.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "切法卢->巴勒莫": {
+    "distance_km": 70,
+    "drive_time_hours": 1.0,
+    "train_time_hours": 1.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "巴勒莫->阿格里真托": {
+    "distance_km": 130,
+    "drive_time_hours": 2.0,
+    "train_time_hours": 2.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "阿格里真托->巴勒莫": {
+    "distance_km": 130,
+    "drive_time_hours": 2.0,
+    "train_time_hours": 2.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "米兰->圣莫里茨": {
+    "distance_km": 210,
+    "drive_time_hours": 3.5,
+    "train_time_hours": 4.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "圣莫里茨->米兰": {
+    "distance_km": 210,
+    "drive_time_hours": 3.5,
+    "train_time_hours": 4.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "慕尼黑->多洛米蒂": {
+    "distance_km": 280,
+    "drive_time_hours": 3.5,
+    "train_time_hours": 5.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "多洛米蒂->慕尼黑": {
+    "distance_km": 280,
+    "drive_time_hours": 3.5,
+    "train_time_hours": 5.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "米兰->多洛米蒂": {
+    "distance_km": 260,
+    "drive_time_hours": 3.5,
+    "train_time_hours": 4.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "多洛米蒂->米兰": {
+    "distance_km": 260,
+    "drive_time_hours": 3.5,
+    "train_time_hours": 4.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "那不勒斯->阿马尔菲海岸": {
+    "distance_km": 60,
+    "drive_time_hours": 1.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "阿马尔菲海岸->那不勒斯": {
+    "distance_km": 60,
+    "drive_time_hours": 1.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "威尼斯->十六湖": {
+    "distance_km": 420,
+    "drive_time_hours": 5.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "十六湖->威尼斯": {
+    "distance_km": 420,
+    "drive_time_hours": 5.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "斯普利特->十六湖": {
+    "distance_km": 250,
+    "drive_time_hours": 3.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "十六湖->斯普利特": {
+    "distance_km": 250,
+    "drive_time_hours": 3.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "巴黎->卢瓦尔河谷": {
+    "distance_km": 200,
+    "drive_time_hours": 2.5,
+    "train_time_hours": 1.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "卢瓦尔河谷->巴黎": {
+    "distance_km": 200,
+    "drive_time_hours": 2.5,
+    "train_time_hours": 1.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "巴黎->图尔": {
+    "distance_km": 240,
+    "drive_time_hours": 2.5,
+    "train_time_hours": 1.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "图尔->巴黎": {
+    "distance_km": 240,
+    "drive_time_hours": 2.5,
+    "train_time_hours": 1.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "巴黎->圣米歇尔山": {
+    "distance_km": 360,
+    "drive_time_hours": 3.5,
+    "train_time_hours": 3.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "圣米歇尔山->巴黎": {
+    "distance_km": 360,
+    "drive_time_hours": 3.5,
+    "train_time_hours": 3.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "巴黎->斯特拉斯堡": {
+    "distance_km": 490,
+    "drive_time_hours": 4.5,
+    "train_time_hours": 1.83,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "斯特拉斯堡->巴黎": {
+    "distance_km": 490,
+    "drive_time_hours": 4.5,
+    "train_time_hours": 1.83,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "巴黎->科尔马": {
+    "distance_km": 530,
+    "drive_time_hours": 5.0,
+    "train_time_hours": 2.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "科尔马->巴黎": {
+    "distance_km": 530,
+    "drive_time_hours": 5.0,
+    "train_time_hours": 2.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "马赛->阿维尼翁": {
+    "distance_km": 105,
+    "drive_time_hours": 1.25,
+    "train_time_hours": 0.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "阿维尼翁->马赛": {
+    "distance_km": 105,
+    "drive_time_hours": 1.25,
+    "train_time_hours": 0.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "日内瓦->霞慕尼/安纳西": {
+    "distance_km": 90,
+    "drive_time_hours": 1.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "霞慕尼/安纳西->日内瓦": {
+    "distance_km": 90,
+    "drive_time_hours": 1.5,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "尼斯->普罗旺斯（阿维尼翁/马赛）": {
+    "distance_km": 180,
+    "drive_time_hours": 2.5,
+    "train_time_hours": 2.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "普罗旺斯（阿维尼翁/马赛）->尼斯": {
+    "distance_km": 180,
+    "drive_time_hours": 2.5,
+    "train_time_hours": 2.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "马赛->普罗旺斯（阿维尼翁/马赛）": {
+    "distance_km": 30,
+    "drive_time_hours": 0.5,
+    "train_time_hours": 0.33,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "普罗旺斯（阿维尼翁/马赛）->马赛": {
+    "distance_km": 30,
+    "drive_time_hours": 0.5,
+    "train_time_hours": 0.33,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "尼斯->蔚蓝海岸（尼斯/摩纳哥/戛纳）": {
+    "distance_km": 10,
+    "drive_time_hours": 0.25,
+    "train_time_hours": 0.25,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "蔚蓝海岸（尼斯/摩纳哥/戛纳）->尼斯": {
+    "distance_km": 10,
+    "drive_time_hours": 0.25,
+    "train_time_hours": 0.25,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "法兰克福->海德堡": {
+    "distance_km": 90,
+    "drive_time_hours": 1.0,
+    "train_time_hours": 0.83,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "海德堡->法兰克福": {
+    "distance_km": 90,
+    "drive_time_hours": 1.0,
+    "train_time_hours": 0.83,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "斯特拉斯堡->科尔马/斯特拉斯堡": {
+    "distance_km": 10,
+    "drive_time_hours": 0.17,
+    "train_time_hours": 0.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "科尔马/斯特拉斯堡->斯特拉斯堡": {
+    "distance_km": 10,
+    "drive_time_hours": 0.17,
+    "train_time_hours": 0.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "法兰克福->科尔马/斯特拉斯堡": {
+    "distance_km": 220,
+    "drive_time_hours": 2.5,
+    "train_time_hours": 3.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "科尔马/斯特拉斯堡->法兰克福": {
+    "distance_km": 220,
+    "drive_time_hours": 2.5,
+    "train_time_hours": 3.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "塞维利亚->科尔多瓦": {
+    "distance_km": 140,
+    "drive_time_hours": 1.5,
+    "train_time_hours": 0.75,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "科尔多瓦->塞维利亚": {
+    "distance_km": 140,
+    "drive_time_hours": 1.5,
+    "train_time_hours": 0.75,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "马德里->科尔多瓦": {
+    "distance_km": 400,
+    "drive_time_hours": 4.0,
+    "train_time_hours": 1.75,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "科尔多瓦->马德里": {
+    "distance_km": 400,
+    "drive_time_hours": 4.0,
+    "train_time_hours": 1.75,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "巴塞罗那->特内里费岛": {
+    "distance_km": 1900,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.0,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "特内里费岛->巴塞罗那": {
+    "distance_km": 1900,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.0,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "马德里->特内里费岛": {
+    "distance_km": 1750,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "特内里费岛->马德里": {
+    "distance_km": 1750,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "巴塞罗那->伊维萨岛": {
+    "distance_km": 300,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.0,
+    "flight_frequency_per_day": 20,
+    "is_nonstop": true
+  },
+  "伊维萨岛->巴塞罗那": {
+    "distance_km": 300,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.0,
+    "flight_frequency_per_day": 20,
+    "is_nonstop": true
+  },
+  "马德里->伊维萨岛": {
+    "distance_km": 430,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 18,
+    "is_nonstop": true
+  },
+  "伊维萨岛->马德里": {
+    "distance_km": 430,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 18,
+    "is_nonstop": true
+  },
+  "帕尔马->马略卡岛": {
+    "distance_km": 10,
+    "drive_time_hours": 0.25,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "马略卡岛->帕尔马": {
+    "distance_km": 10,
+    "drive_time_hours": 0.25,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "维也纳->萨尔茨堡": {
+    "distance_km": 300,
+    "drive_time_hours": 3.0,
+    "train_time_hours": 2.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "萨尔茨堡->维也纳": {
+    "distance_km": 300,
+    "drive_time_hours": 3.0,
+    "train_time_hours": 2.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "日内瓦->采尔马特": {
+    "distance_km": 170,
+    "drive_time_hours": 2.5,
+    "train_time_hours": 3.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "采尔马特->日内瓦": {
+    "distance_km": 170,
+    "drive_time_hours": 2.5,
+    "train_time_hours": 3.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "卑尔根->斯塔万格": {
+    "distance_km": 210,
+    "drive_time_hours": 5.5,
+    "train_time_hours": null,
+    "flight_time_hours": 0.75,
+    "flight_frequency_per_day": 6,
+    "is_nonstop": true
+  },
+  "斯塔万格->卑尔根": {
+    "distance_km": 210,
+    "drive_time_hours": 5.5,
+    "train_time_hours": null,
+    "flight_time_hours": 0.75,
+    "flight_frequency_per_day": 6,
+    "is_nonstop": true
+  },
+  "奥斯陆->斯塔万格": {
+    "distance_km": 470,
+    "drive_time_hours": 8.0,
+    "train_time_hours": null,
+    "flight_time_hours": 1.0,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "斯塔万格->奥斯陆": {
+    "distance_km": 470,
+    "drive_time_hours": 8.0,
+    "train_time_hours": null,
+    "flight_time_hours": 1.0,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "巴黎->圣米歇尔山/圣马洛": {
+    "distance_km": 360,
+    "drive_time_hours": 3.5,
+    "train_time_hours": 3.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "圣米歇尔山/圣马洛->巴黎": {
+    "distance_km": 360,
+    "drive_time_hours": 3.5,
+    "train_time_hours": 3.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": false
+  },
+  "伦敦->爱丁堡": {
+    "distance_km": 534,
+    "drive_time_hours": 7.5,
+    "train_time_hours": 4.5,
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 23,
+    "is_nonstop": true
+  },
+  "慕尼黑->汉堡": {
+    "distance_km": 775,
+    "drive_time_hours": 7.5,
+    "train_time_hours": 5.83,
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 16,
+    "is_nonstop": true
+  },
+  "巴黎->里昂": {
+    "distance_km": 465,
+    "drive_time_hours": 4.67,
+    "train_time_hours": 2.0,
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "牛津->伦敦": {
+    "distance_km": 92,
+    "drive_time_hours": 1.5,
+    "train_time_hours": 1.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "罗腾堡->慕尼黑": {
+    "distance_km": 230,
+    "drive_time_hours": 2.5,
+    "train_time_hours": 3.0,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "爱丁堡->伦敦": {
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 22,
+    "is_nonstop": true
+  },
+  "爱丁堡->巴黎": {
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "爱丁堡->阿姆斯特丹": {
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "爱丁堡->都柏林": {
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 12,
+    "is_nonstop": true
+  },
+  "爱丁堡->布鲁塞尔": {
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "爱丁堡->法兰克福": {
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "爱丁堡->慕尼黑": {
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "曼彻斯特->巴黎": {
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "曼彻斯特->阿姆斯特丹": {
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 11,
+    "is_nonstop": true
+  },
+  "曼彻斯特->都柏林": {
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 13,
+    "is_nonstop": true
+  },
+  "曼彻斯特->布鲁塞尔": {
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "曼彻斯特->法兰克福": {
+    "flight_time_hours": 1.75,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "曼彻斯特->慕尼黑": {
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 4,
+    "is_nonstop": true
+  },
+  "曼彻斯特->巴塞罗那": {
+    "flight_time_hours": 2.33,
+    "flight_frequency_per_day": 6,
+    "is_nonstop": true
+  },
+  "曼彻斯特->罗马": {
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "曼彻斯特->米兰": {
+    "flight_time_hours": 2.25,
+    "flight_frequency_per_day": 4,
+    "is_nonstop": true
+  },
+  "利物浦->都柏林": {
+    "flight_time_hours": 0.92,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "利物浦->巴黎": {
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "利物浦->阿姆斯特丹": {
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "利物浦->巴塞罗那": {
+    "flight_time_hours": 2.33,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "利物浦->马德里": {
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "伯明翰->都柏林": {
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 10,
+    "is_nonstop": true
+  },
+  "伯明翰->巴黎": {
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "伯明翰->阿姆斯特丹": {
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "伯明翰->法兰克福": {
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "伯明翰->米兰": {
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "伯明翰->慕尼黑": {
+    "flight_time_hours": 1.83,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "伯明翰->马德里": {
+    "flight_time_hours": 2.42,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "格拉斯哥->伦敦": {
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "格拉斯哥->都柏林": {
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "格拉斯哥->巴黎": {
+    "flight_time_hours": 1.83,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "格拉斯哥->阿姆斯特丹": {
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "格拉斯哥->法兰克福": {
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "格拉斯哥->巴塞罗那": {
+    "flight_time_hours": 2.83,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "汉堡->慕尼黑": {
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 16,
+    "is_nonstop": true
+  },
+  "汉堡->法兰克福": {
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 15,
+    "is_nonstop": true
+  },
+  "汉堡->阿姆斯特丹": {
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "汉堡->伦敦": {
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "汉堡->哥本哈根": {
+    "flight_time_hours": 0.83,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "汉堡->巴黎": {
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "汉堡->苏黎世": {
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "汉堡->维也纳": {
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "科隆->柏林": {
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "科隆->慕尼黑": {
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "科隆->伦敦": {
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "科隆->苏黎世": {
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "科隆->维也纳": {
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 6,
+    "is_nonstop": true
+  },
+  "科隆->巴塞罗那": {
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "杜塞尔多夫->柏林": {
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "杜塞尔多夫->慕尼黑": {
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "杜塞尔多夫->法兰克福": {
+    "flight_time_hours": 0.83,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "杜塞尔多夫->阿姆斯特丹": {
+    "flight_time_hours": 0.83,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "杜塞尔多夫->伦敦": {
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "杜塞尔多夫->巴黎": {
+    "flight_time_hours": 1.25,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "杜塞尔多夫->米兰": {
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "杜塞尔多夫->马德里": {
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "斯图加特->柏林": {
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 6,
+    "is_nonstop": true
+  },
+  "斯图加特->慕尼黑": {
+    "flight_time_hours": 0.75,
+    "flight_frequency_per_day": 4,
+    "is_nonstop": true
+  },
+  "斯图加特->法兰克福": {
+    "flight_time_hours": 0.83,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "斯图加特->苏黎世": {
+    "flight_time_hours": 0.75,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "斯图加特->伦敦": {
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "斯图加特->阿姆斯特丹": {
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "里昂->巴黎": {
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "里昂->尼斯": {
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "里昂->伦敦": {
+    "flight_time_hours": 1.67,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "里昂->阿姆斯特丹": {
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 4,
+    "is_nonstop": true
+  },
+  "里昂->法兰克福": {
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 4,
+    "is_nonstop": true
+  },
+  "里昂->罗马": {
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "里昂->巴塞罗那": {
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": true
+  },
+  "伊兹密尔->伊斯坦布尔": {
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 17,
+    "is_nonstop": true
+  },
+  "伊兹密尔->雅典": {
+    "flight_time_hours": null,
+    "flight_frequency_per_day": 1,
+    "is_nonstop": true
+  },
+  "伊兹密尔->安卡拉": {
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "伊兹密尔->安塔利亚": {
+    "flight_time_hours": 1.08,
+    "flight_frequency_per_day": 3,
+    "is_nonstop": true
+  },
+  "赫尔格达->开罗": {
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "鹿特丹->伦敦": {
+    "flight_time_hours": 0.92,
+    "flight_frequency_per_day": 7,
+    "is_nonstop": true
+  },
+  "萨格勒布->维也纳": {
+    "flight_time_hours": 0.92,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "萨格勒布->慕尼黑": {
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "萨格勒布->法兰克福": {
+    "flight_time_hours": 1.58,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "萨格勒布->伦敦": {
+    "flight_time_hours": 2.33,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "萨格勒布->巴黎": {
+    "flight_time_hours": 2.08,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "伦敦->曼彻斯特": {
+    "flight_time_hours": 0.92,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "慕尼黑->科隆": {
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "慕尼黑->杜塞尔多夫": {
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 0,
+    "is_nonstop": true
+  },
+  "慕尼黑->斯图加特": {
+    "flight_time_hours": 0.75,
+    "flight_frequency_per_day": 4,
+    "is_nonstop": true
+  },
+  "巴黎->曼彻斯特": {
+    "flight_time_hours": 1.33,
+    "flight_frequency_per_day": 8,
+    "is_nonstop": true
+  },
+  "巴黎->伯明翰": {
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 6,
+    "is_nonstop": true
+  },
+  "伦敦->布里斯托": {
+    "distance_km": 190.0,
+    "drive_time_hours": 2.5,
+    "train_time_hours": 1.75,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "布里斯托->伦敦": {
+    "distance_km": 190.0,
+    "drive_time_hours": 2.5,
+    "train_time_hours": 1.75,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "里昂->米兰": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "里昂->马德里": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.75,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "里昂->布鲁塞尔": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.0,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "里昂->苏黎世": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.92,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": false
+  },
+  "里昂->都柏林": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "鹿特丹->巴黎": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.0,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": false
+  },
+  "鹿特丹->柏林": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": false
+  },
+  "鹿特丹->慕尼黑": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": false
+  },
+  "鹿特丹->巴塞罗那": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.17,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "鹿特丹->罗马": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 2.17,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "鹿特丹->米兰": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": false
+  },
+  "鹿特丹->都柏林": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": false
+  },
+  "萨格勒布->布达佩斯": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 3.08,
+    "flight_frequency_per_day": 2,
+    "is_nonstop": false
+  },
+  "萨格勒布->布拉格": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.17,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "萨格勒布->柏林": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.5,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "萨格勒布->罗马": {
+    "distance_km": null,
+    "drive_time_hours": null,
+    "train_time_hours": null,
+    "flight_time_hours": 1.42,
+    "flight_frequency_per_day": 5,
+    "is_nonstop": true
+  },
+  "伦敦->牛津": {
+    "drive_time_hours": 0.83,
+    "train_time_hours": 0.83
+  },
+  "牛津->湖区": {
+    "drive_time_hours": 4.35,
+    "train_time_hours": 4.35
+  },
+  "湖区->爱丁堡": {
+    "drive_time_hours": 2.6,
+    "train_time_hours": 2.6
+  },
+  "伦敦->湖区": {
+    "drive_time_hours": 5.43,
+    "train_time_hours": 5.43
+  },
+  "阿维拉->马德里": {
+    "drive_time_hours": 1.35,
+    "train_time_hours": 1.35
+  },
+  "英国湖区->爱丁堡": {
+    "drive_time_hours": 2.58,
+    "train_time_hours": 2.58
+  },
+  "阿姆斯特丹->库肯霍夫": {
+    "drive_time_hours": 0.62,
+    "train_time_hours": 0.62
+  },
+  "罗德岛->雅典": {
+    "flight_time_hours": 0.75,
+    "flight_frequency_per_day": 4
+  },
+  "伦敦->圣托里尼": {
+    "flight_time_hours": 4.0,
+    "flight_frequency_per_day": 2
+  },
+  "巴黎->圣托里尼": {
+    "flight_time_hours": 3.5,
+    "flight_frequency_per_day": 2
+  },
+  "阿姆斯特丹->圣托里尼": {
+    "flight_time_hours": 3.75,
+    "flight_frequency_per_day": 1
+  },
+  "罗马->圣托里尼": {
+    "flight_time_hours": 2.0,
+    "flight_frequency_per_day": 2
+  },
+  "米兰->圣托里尼": {
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 1
+  },
+  "慕尼黑->圣托里尼": {
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 1
+  },
+  "维也纳->圣托里尼": {
+    "flight_time_hours": 2.5,
+    "flight_frequency_per_day": 1
+  },
+  "苏黎世->圣托里尼": {
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 1
+  },
+  "巴塞罗那->圣托里尼": {
+    "flight_time_hours": 3.25,
+    "flight_frequency_per_day": 1
+  },
+  "布拉格->圣托里尼": {
+    "flight_time_hours": 2.75,
+    "flight_frequency_per_day": 1
+  },
+  "法兰克福→罗腾堡": {
+    "drive_time_hours": 2.0,
+    "train_time_hours": 2.5
+  },
+  "柏林→德累斯顿": {
+    "drive_time_hours": 2.0,
+    "train_time_hours": 2.0
+  },
+  "布拉格→德累斯顿": {
+    "drive_time_hours": 1.5,
+    "train_time_hours": 2.0
+  },
+  "伦敦→剑桥": {
+    "drive_time_hours": 1.3,
+    "train_time_hours": 1.0
+  },
+  "伦敦→巴斯": {
+    "drive_time_hours": 2.5,
+    "train_time_hours": 1.5
+  },
+  "布里斯托→巴斯": {
+    "drive_time_hours": 0.5,
+    "train_time_hours": 0.5
+  },
+  "伦敦→约克": {
+    "drive_time_hours": 3.5,
+    "train_time_hours": 2.0
+  },
+  "曼彻斯特→约克": {
+    "drive_time_hours": 1.5,
+    "train_time_hours": 1.0
+  },
+  "曼彻斯特→英国湖区": {
+    "drive_time_hours": 2.0,
+    "train_time_hours": 2.5
+  },
+  "爱丁堡→苏格兰高地": {
+    "drive_time_hours": 3.5
+  },
+  "格拉斯哥→苏格兰高地": {
+    "drive_time_hours": 3.0
+  },
+  "巴黎→埃特勒塔": {
+    "drive_time_hours": 2.5,
+    "train_time_hours": 2.5
+  },
+  "巴黎→象鼻山": {
+    "drive_time_hours": 2.5
+  },
+  "巴黎→枫丹白露宫": {
+    "drive_time_hours": 1.0,
+    "train_time_hours": 0.8
+  },
+  "斯普利特→扎达尔": {
+    "drive_time_hours": 1.5
+  },
+  "开罗→赫尔格达": {
+    "drive_time_hours": 5.5
+  },
+  "国王湖→萨尔茨堡": {
+    "drive_time_hours": 0.5,
+    "train_time_hours": 1.0
+  },
+  "国王湖→慕尼黑": {
+    "drive_time_hours": 2.0,
+    "train_time_hours": 2.5
+  },
+  "安纳西→日内瓦": {
+    "drive_time_hours": 1.0,
+    "train_time_hours": 0.8
+  },
+  "霞慕尼→安纳西": {
+    "drive_time_hours": 1.5
+  },
+  "萨尔茨堡→Bad Ischl": {
+    "drive_time_hours": 0.75
+  },
+  "科尔马→斯特拉斯堡": {
+    "distance_km": 70,
+    "drive_time_hours": 1.0,
+    "train_time_hours": 0.5,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  },
+  "圣米歇尔山→圣马洛": {
+    "distance_km": 50,
+    "drive_time_hours": 1.0,
+    "train_time_hours": null,
+    "flight_time_hours": null,
+    "flight_frequency_per_day": null,
+    "is_nonstop": false
+  }
+}

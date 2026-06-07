@@ -1,0 +1,229 @@
+{
+  "region": "Oceania",
+  "month": 1,
+  "total_days": 9,
+  "target_days": 10,
+  "candidates": [
+    {
+      "name": "亚萨瓦群岛",
+      "days": 5,
+      "tag_score": 4.3,
+      "season_score": -0.2,
+      "total_score": 4.1,
+      "matched_tags": {
+        "海岛海滨": 0.95,
+        "自然风光": 0.9,
+        "人文历史": 0.7,
+        "水上活动": 0.9,
+        "度假休闲": 0.85
+      },
+      "best_season": "5-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    },
+    {
+      "name": "南岛",
+      "days": 10,
+      "tag_score": 3.25,
+      "season_score": -0.2,
+      "total_score": 3.05,
+      "matched_tags": {
+        "人文历史": 0.7,
+        "自然风光": 0.95,
+        "海岛海滨": 0.7,
+        "户外探险": 0.9
+      },
+      "best_season": "12-2月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    },
+    {
+      "name": "汉密尔顿岛",
+      "days": 4,
+      "tag_score": 2.7,
+      "season_score": 0.1,
+      "total_score": 2.8,
+      "matched_tags": {
+        "海岛海滨": 1.0,
+        "自然风光": 0.9,
+        "亲子家庭": 0.8
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        -20.35,
+        148.95
+      ]
+    },
+    {
+      "name": "艾尔利海滩",
+      "days": 4,
+      "tag_score": 2.6,
+      "season_score": 0.1,
+      "total_score": 2.7,
+      "matched_tags": {
+        "海岛海滨": 1.0,
+        "自然风光": 0.9,
+        "户外探险": 0.7
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        -20.27,
+        148.72
+      ]
+    },
+    {
+      "name": "玛玛努卡群岛",
+      "days": 3,
+      "tag_score": 2.75,
+      "season_score": -0.2,
+      "total_score": 2.55,
+      "matched_tags": {
+        "海岛海滨": 0.95,
+        "度假休闲": 0.9,
+        "水上活动": 0.9
+      },
+      "best_season": "5-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    },
+    {
+      "name": "悉尼",
+      "days": 3,
+      "tag_score": 2.3,
+      "season_score": 0.1,
+      "total_score": 2.4,
+      "matched_tags": {
+        "自然风光": 0.7,
+        "海岛海滨": 0.7,
+        "亲子家庭": 0.9
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        -33.87,
+        151.21
+      ]
+    },
+    {
+      "name": "黄金海岸",
+      "days": 4,
+      "tag_score": 2.6,
+      "season_score": -0.2,
+      "total_score": 2.4,
+      "matched_tags": {
+        "自然风光": 0.7,
+        "海岛海滨": 1.0,
+        "亲子家庭": 0.9
+      },
+      "best_season": "4-11月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        -28.02,
+        153.43
+      ]
+    },
+    {
+      "name": "乌鲁鲁",
+      "days": 4,
+      "tag_score": 2.4,
+      "season_score": -0.2,
+      "total_score": 2.2,
+      "matched_tags": {
+        "自然风光": 1.0,
+        "户外探险": 0.8,
+        "人文历史": 0.6
+      },
+      "best_season": "4-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        -25.34,
+        131.04
+      ]
+    },
+    {
+      "name": "大洋路",
+      "days": 3,
+      "tag_score": 1.7,
+      "season_score": 0.1,
+      "total_score": 1.8,
+      "matched_tags": {
+        "自然风光": 0.9,
+        "海岛海滨": 0.8
+      },
+      "best_season": "全年",
+      "loop_type": "loop",
+      "hub_city": "墨尔本",
+      "coordinates": [
+        -37.81,
+        144.96
+      ]
+    },
+    {
+      "name": "凯恩斯",
+      "days": 2,
+      "tag_score": 1.7,
+      "season_score": -0.2,
+      "total_score": 1.5,
+      "matched_tags": {
+        "自然风光": 0.7,
+        "海岛海滨": 1.0
+      },
+      "best_season": "5-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        -16.92,
+        145.77
+      ]
+    }
+  ],
+  "selected": [
+    {
+      "name": "亚萨瓦群岛",
+      "days": 5,
+      "tag_score": 4.3,
+      "season_score": -0.2,
+      "total_score": 4.1,
+      "matched_tags": {
+        "海岛海滨": 0.95,
+        "自然风光": 0.9,
+        "人文历史": 0.7,
+        "水上活动": 0.9,
+        "度假休闲": 0.85
+      },
+      "best_season": "5-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": null
+    },
+    {
+      "name": "汉密尔顿岛",
+      "days": 4,
+      "tag_score": 2.7,
+      "season_score": 0.1,
+      "total_score": 2.8,
+      "matched_tags": {
+        "海岛海滨": 1.0,
+        "自然风光": 0.9,
+        "亲子家庭": 0.8
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        -20.35,
+        148.95
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+day,activity,transport,stay
+0,【到达日】飞抵旧金山，前往红杉国家公园,✈️ 国际航班,红杉国家公园
+1,红杉公园：General Sherman Tree、Moro Rock、Tunnel Log,🚗 自驾,红杉公园
+2,国王峡谷：General Grant Tree、Zumwalt Meadow、Boyden Cavern,🚗 自驾1.5h,红杉公园
+3,【跨城大交通】全天移动及办理入住,🚆/✈️ 红杉公园→洛杉矶(3.70h自驾) → 洛杉矶→优胜美地国家公园(6.00h自驾),优胜美地国家公园
+4,隧道观景点、冰川点：远眺Half Dome和山谷全景,🚗 自驾,优胜美地
+5,约塞米蒂山谷：El Capitan、Bridalveil Fall、Yosemite Falls,🚗 自驾,优胜美地
+6,Mist Trail：Vernal Fall、Nevada Fall,🚗 自驾,优胜美地
+7,Half Dome登山（需许可证）或蒙诺湖、红杉林,🚗 自驾,优胜美地
+8,【跨城大交通】全天移动及办理入住,🚆/✈️ 优胜美地→旧金山(4.50h自驾) → 旧金山→波特兰(2.67h飞机（1.67h飞行 + 1.0h安检）) → 波特兰→火山口湖国家公园(4.50h自驾),火山口湖国家公园
+9,Rim Drive环湖、Watchman Overlook、Cleetwood Cove Trail,🚗 自驾,火山口湖
+10,【离开日】从火山口湖前往西雅图，飞离,✈️ 国际航班,-

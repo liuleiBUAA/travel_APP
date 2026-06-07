@@ -1,0 +1,231 @@
+{
+  "region": "North_America",
+  "month": 10,
+  "total_days": 10,
+  "target_days": 10,
+  "candidates": [
+    {
+      "name": "优胜美地国家公园",
+      "days": 4,
+      "tag_score": 0.9,
+      "season_score": 0.3,
+      "total_score": 1.2,
+      "matched_tags": {
+        "自然风光": 0.9
+      },
+      "best_season": "4-10月",
+      "loop_type": null,
+      "hub_city": "旧金山",
+      "coordinates": [
+        37.7749,
+        -122.4194
+      ]
+    },
+    {
+      "name": "红杉国家公园",
+      "days": 2,
+      "tag_score": 0.9,
+      "season_score": 0.3,
+      "total_score": 1.2,
+      "matched_tags": {
+        "自然风光": 0.9
+      },
+      "best_season": "4-5月、9-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        36.4864,
+        -118.5658
+      ]
+    },
+    {
+      "name": "火山口湖国家公园",
+      "days": 1,
+      "tag_score": 0.9,
+      "season_score": 0.3,
+      "total_score": 1.2,
+      "matched_tags": {
+        "自然风光": 0.9
+      },
+      "best_season": "7-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        42.8684,
+        -122.1685
+      ]
+    },
+    {
+      "name": "🔄 精华版美西环线",
+      "days": 4,
+      "tag_score": 0.8,
+      "season_score": 0.3,
+      "total_score": 1.1,
+      "matched_tags": {
+        "自然风光": 0.8
+      },
+      "best_season": "4-6月、9-10月",
+      "loop_type": "loop",
+      "hub_city": "拉斯维加斯",
+      "coordinates": [
+        36.1699,
+        -115.1398
+      ]
+    },
+    {
+      "name": "🔄 羚羊谷+大峡谷2日环线",
+      "days": 2,
+      "tag_score": 0.8,
+      "season_score": 0.3,
+      "total_score": 1.1,
+      "matched_tags": {
+        "自然风光": 0.8
+      },
+      "best_season": "4-6月、9-10月",
+      "loop_type": "loop",
+      "hub_city": "拉斯维加斯",
+      "coordinates": [
+        36.1699,
+        -115.1398
+      ]
+    },
+    {
+      "name": "1号公路",
+      "days": 4,
+      "tag_score": 0.7,
+      "season_score": 0.3,
+      "total_score": 1.0,
+      "matched_tags": {
+        "自然风光": 0.7
+      },
+      "best_season": "5-10月",
+      "loop_type": "linear",
+      "hub_city": "旧金山",
+      "coordinates": [
+        37.7749,
+        -122.4194
+      ]
+    },
+    {
+      "name": "波特兰",
+      "days": 3,
+      "tag_score": 0.8,
+      "season_score": 0.1,
+      "total_score": 0.9,
+      "matched_tags": {
+        "自然风光": 0.8
+      },
+      "best_season": "全年",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        45.5152,
+        -122.6784
+      ]
+    },
+    {
+      "name": "🔄 黄石大提顿环线",
+      "days": 4,
+      "tag_score": 0.9,
+      "season_score": -0.2,
+      "total_score": 0.7,
+      "matched_tags": {
+        "自然风光": 0.9
+      },
+      "best_season": "6月-9月",
+      "loop_type": "loop",
+      "hub_city": "盐湖城",
+      "coordinates": [
+        40.7608,
+        -111.891
+      ]
+    },
+    {
+      "name": "华盛顿州“海山冰川”大环线",
+      "days": 7,
+      "tag_score": 0.9,
+      "season_score": -0.2,
+      "total_score": 0.7,
+      "matched_tags": {
+        "自然风光": 0.9
+      },
+      "best_season": "7-9月",
+      "loop_type": "loop",
+      "hub_city": "西雅图",
+      "coordinates": [
+        47.6062,
+        -122.3321
+      ]
+    },
+    {
+      "name": "冰川国家公园",
+      "days": 5,
+      "tag_score": 0.9,
+      "season_score": -0.2,
+      "total_score": 0.7,
+      "matched_tags": {
+        "自然风光": 0.9
+      },
+      "best_season": "7-9月",
+      "loop_type": "linear",
+      "hub_city": "Kalispell",
+      "coordinates": [
+        48.202158,
+        -114.315321
+      ]
+    }
+  ],
+  "selected": [
+    {
+      "name": "优胜美地国家公园",
+      "days": 4,
+      "tag_score": 0.9,
+      "season_score": 0.3,
+      "total_score": 1.2,
+      "matched_tags": {
+        "自然风光": 0.9
+      },
+      "best_season": "4-10月",
+      "loop_type": null,
+      "hub_city": "旧金山",
+      "coordinates": [
+        37.7749,
+        -122.4194
+      ]
+    },
+    {
+      "name": "红杉国家公园",
+      "days": 2,
+      "tag_score": 0.9,
+      "season_score": 0.3,
+      "total_score": 1.2,
+      "matched_tags": {
+        "自然风光": 0.9
+      },
+      "best_season": "4-5月、9-10月",
+      "loop_type": null,
+      "hub_city": null,
+      "coordinates": [
+        36.4864,
+        -118.5658
+      ]
+    },
+    {
+      "name": "🔄 精华版美西环线",
+      "days": 4,
+      "tag_score": 0.8,
+      "season_score": 0.3,
+      "total_score": 1.1,
+      "matched_tags": {
+        "自然风光": 0.8
+      },
+      "best_season": "4-6月、9-10月",
+      "loop_type": "loop",
+      "hub_city": "拉斯维加斯",
+      "coordinates": [
+        36.1699,
+        -115.1398
+      ]
+    }
+  ]
+}

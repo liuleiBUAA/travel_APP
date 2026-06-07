@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.env
+
+# Database
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+*.log
+node_modules/
+
+# Project specific
+.harness/
+.preview/
+backend/__pycache__/
+backend/services/__pycache__/
+backend/.harness/
+backend/harness/
+backend/travel_companion.db
