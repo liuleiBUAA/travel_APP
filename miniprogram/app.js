@@ -19,7 +19,7 @@ App({
       const token = wx.getStorageSync('token')
       if (token) {
         try {
-          const res = await api.getMe(token)
+          const res = await api.getMe()  // ✅ 修复: 不传token参数
           console.log('[autoLogin] getMe响应:', JSON.stringify(res))
           if (res && typeof res === 'object' && (res.success !== false)) {
             // getMe 返回 user_id 即可认为有效

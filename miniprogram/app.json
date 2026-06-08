@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/guide/guide",
     "pages/match/match",
-    "pages/profile/profile"
+    "pages/profile/profile",
+    "pages/trip-detail/trip-detail"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -19,19 +20,27 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "发布行程"
+        "text": "发布行程",
+        "iconPath": "images/tabbar/publish.png",
+        "selectedIconPath": "images/tabbar/publish_active.png"
       },
       {
         "pagePath": "pages/guide/guide",
-        "text": "生成攻略"
+        "text": "生成攻略",
+        "iconPath": "images/tabbar/guide.png",
+        "selectedIconPath": "images/tabbar/guide_active.png"
       },
       {
         "pagePath": "pages/match/match",
-        "text": "找搭子"
+        "text": "找搭子",
+        "iconPath": "images/tabbar/match.png",
+        "selectedIconPath": "images/tabbar/match_active.png"
       },
       {
         "pagePath": "pages/profile/profile",
-        "text": "我的"
+        "text": "我的",
+        "iconPath": "images/tabbar/profile.png",
+        "selectedIconPath": "images/tabbar/profile_active.png"
       }
     ]
   },

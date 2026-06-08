@@ -30,7 +30,7 @@ Page({
     if (app.globalData.userInfo && app.globalData.userInfo.user_id) {
       const u = app.globalData.userInfo
       this.setData({ isLoggedIn: true, userInfo: u, userId: u.user_id || '' })
-      this.loadMyTrips(u.user_id)
+      this.loadMyTrips()  // ✅ 修复: 不传user_id
       this.maybeShowProfileSetup(u)
       return
     }
@@ -38,12 +38,12 @@ Page({
     if (token) {
       if (!this._checkingLogin) {
         this._checkingLogin = true
-        api.getMe(token).then(res => {
+        api.getMe().then(res => {  // ✅ 修复: 不传token参数
           this._checkingLogin = false
           if (res && (res.success || res.user_id)) {
             app.globalData.userInfo = { ...res, token }
             this.setData({ isLoggedIn: true, userInfo: res, userId: res.user_id || '' })
-            this.loadMyTrips(res.user_id)
+            this.loadMyTrips()  // ✅ 修复: 不传user_id
             this.maybeShowProfileSetup(res)
           }
         }).catch(() => {
@@ -97,7 +97,8 @@ Page({
     if (!token) return
 
     try {
-      const res = await api.updateProfile(token, tempNickname || undefined, undefined, tempAvatarUrl || undefined)
+      // ✅ 修复: 不传token参数,由api.js自动从storage获取
+      const res = await api.updateProfile(tempNickname || undefined, undefined, tempAvatarUrl || undefined)
       if (res && (res.user_id || res.nickname)) {
         // 更新全局数据
         const updated = { ...app.globalData.userInfo }
@@ -151,11 +152,16 @@ Page({
   },
 
   // ---- 我发布的行程 ----
-  async loadMyTrips(userId) {
-    if (!userId) return
+  async loadMyTrips() {
+    // ✅ 修复: 检查token,不需要userId参数
+    const token = wx.getStorageSync('token')
+    if (!token) {
+      this.setData({ myTrips: [], myTripsLoading: false, myTripsEmpty: true })
+      return
+    }
     this.setData({ myTripsLoading: true, myTripsEmpty: false })
     try {
-      const res = await api.getMyCompanions(userId)
+      const res = await api.getMyCompanions()  // ✅ 修复: 不传userId
       if (res.success && Array.isArray(res.data)) {
         const trips = res.data.map(t => ({
           ...t,
@@ -176,14 +182,28 @@ Page({
   },
 
   onTripDetail(e) {
+    console.log('[onTripDetail] 被触发', e)
     const trip = e.currentTarget.dataset.trip
-    if (!trip) return
-    const cities = (trip.route && Array.isArray(trip.route.cities)) ? trip.route.cities.join(' → ') : '行程详情'
-    wx.showModal({
-      title: cities,
-      content: `出发日期: ${trip.travel_date || '未设置'}\n天数: ${trip.duration_days || 0}天\n交通: ${trip.transport_mode || '不限'}\n住宿: ${trip.accommodation || '不限'}\n消费: ${trip.budget_level || '经济'}\n拍照: ${trip.good_at_photo || '不限'}\n发布于: ${trip.created_at || '未知'}`,
-      showCancel: false,
-      confirmText: '知道了'
+    console.log('[onTripDetail] trip数据:', JSON.stringify(trip).substring(0, 200))
+    if (!trip) {
+      console.error('[onTripDetail] trip为空，返回')
+      return
+    }
+
+    // 跳转到行程详情页面，传递 companion_id
+    wx.navigateTo({
+      url: `/pages/trip-detail/trip-detail?id=${trip.companion_id}`,
+      fail: (err) => {
+        console.error('[onTripDetail] 跳转失败', err)
+        // 降级方案：如果详情页不存在，用 showModal 展示简要信息
+        const cities = (trip.route && Array.isArray(trip.route.cities)) ? trip.route.cities.join(' → ') : '行程详情'
+        wx.showModal({
+          title: cities,
+          content: `出发日期: ${trip.travel_date || '未设置'}\n天数: ${trip.duration_days || 0}天\n交通: ${trip.transport_mode || '不限'}\n住宿: ${trip.accommodation || '不限'}\n消费: ${trip.budget_level || '经济'}\n拍照: ${trip.good_at_photo || '不限'}\n发布于: ${trip.created_at || '未知'}`,
+          showCancel: false,
+          confirmText: '知道了'
+        })
+      }
     })
   },
 

@@ -1,7 +1,7 @@
 // API配置
 // 开发环境: http://localhost:8000/api
-// 生产环境: https://awesometravelpartner.cn/api (域名被腾讯云边缘拦截，临时用源站IP)
-const BASE_URL = 'https://111.229.241.225/api'
+// 生产环境: https://awesometravelpartner.cn/api
+const BASE_URL = 'https://awesometravelpartner.cn/api'
 
 function getToken() {
   return wx.getStorageSync('token') || ''
@@ -36,11 +36,13 @@ module.exports = {
   wxLogin(code, nickname, avatarUrl) {
     return request('/auth/wx-login', 'POST', { code, nickname, avatar_url: avatarUrl })
   },
-  getMe(token) {
-    return request(`/auth/me?token=${encodeURIComponent(token)}`)
+  getMe() {
+    // ✅ 修复: 使用header传token,不用query参数
+    return request('/auth/me')
   },
-  updateProfile(token, nickname, gender, avatarUrl) {
-    return request('/auth/update-profile', 'POST', { token, nickname, gender, avatar_url: avatarUrl })
+  updateProfile(nickname, gender, avatarUrl) {
+    // ✅ 修复: token从storage自动获取,不用参数传递
+    return request('/auth/update-profile', 'POST', { nickname, gender, avatar_url: avatarUrl })
   },
   // 目的地
   getCountries(region) {
@@ -66,10 +68,14 @@ module.exports = {
   listCompanions(limit) {
     return request(`/companions/list?limit=${limit || 20}`)
   },
-  getMyCompanions(userId, limit) {
-    return request(`/companions/my?user_id=${encodeURIComponent(userId)}&limit=${limit || 20}`)
+  getMyCompanions(limit) {
+    // ✅ 修复: 不传user_id,后端从token中解析
+    return request(`/companions/my?limit=${limit || 20}`)
   },
   searchCompanions(keyword, limit) {
     return request(`/companions/search?keyword=${encodeURIComponent(keyword)}&limit=${limit || 20}`)
+  },
+  getCompanionDetail(id) {
+    return request(`/companions/${id}`)
   }
 }

@@ -106,6 +106,17 @@ def get_current_user_from_token(authorization: Optional[str] = Header(None)) -> 
     finally:
         db.close()
 
+def _get_display_name(db, user_id_str: str, fallback_name: str) -> str:
+    """从 User 表获取最新昵称，user_id 可能是整数字符串或旧格式如 'user_xxx'"""
+    try:
+        uid = int(user_id_str)
+        owner = db.query(User).filter(User.id == uid).first()
+        if owner and owner.nickname:
+            return owner.nickname
+    except (ValueError, TypeError):
+        pass
+    return fallback_name
+
 def get_optional_user(authorization: Optional[str] = Header(None)) -> Optional[User]:
     """可选鉴权：token 存在时返回用户，不存在返回 None"""
     if not authorization:
@@ -151,9 +162,7 @@ class RouteGenerateRequest(BaseModel):
 
 
 class CompanionPublishRequest(BaseModel):
-    """发布找搭子请求"""
-    user_id: str
-    user_name: str
+    """发布找搭子请求 - 已修复：user_id 和 user_name 从 token 自动获取"""
     route_json: Dict[str, Any]  # 完整的路线JSON
     travel_date: str  # "2026-05-01"
     duration_days: int
@@ -216,8 +225,7 @@ class WebLoginRequest(BaseModel):
 
 
 class UpdateProfileRequest(BaseModel):
-    """更新资料请求"""
-    token: str
+    """更新资料请求 - 已修复：不需要token参数"""
     nickname: Optional[str] = None
     gender: Optional[str] = None
     avatar_url: Optional[str] = None
@@ -238,6 +246,7 @@ async def root():
             "POST /api/companions/match - 匹配搜索",
             "GET /api/companions/list - 获取所有发布",
             "GET /api/companions/my - 获取我的发布",
+            "GET /api/companions/{id} - 获取行程详情",
         ]
     }
 
@@ -267,23 +276,14 @@ async def wx_login(req: WxLoginRequest):
 
 
 @app.get("/api/auth/me")
-async def get_me(token: str = ""):
-    """获取当前登录用户信息"""
-    if not token:
-        raise HTTPException(status_code=401, detail="未登录")
-    db = next(get_db())
-    try:
-        user = get_current_user(db, token)
-        if not user:
-            raise HTTPException(status_code=401, detail="token无效或已过期")
-        return {
-            "success": True,
-            "user_id": user.id,
-            "nickname": user.nickname,
-            "avatar_url": user.avatar_url
-        }
-    finally:
-        db.close()
+async def get_me(current_user: User = Depends(get_current_user_from_token)):
+    """获取当前登录用户信息 - 已修复：从 Authorization header 获取 token"""
+    return {
+        "success": True,
+        "user_id": current_user.id,
+        "nickname": current_user.nickname,
+        "avatar_url": current_user.avatar_url
+    }
 
 
 @app.post("/api/auth/register")
@@ -313,13 +313,28 @@ async def web_login(req: WebLoginRequest):
 
 
 @app.post("/api/auth/update-profile")
-async def api_update_profile(req: UpdateProfileRequest):
-    """更新用户资料"""
+async def api_update_profile(req: UpdateProfileRequest, current_user: User = Depends(get_current_user_from_token)):
+    """更新用户资料 - 已修复：从 Authorization header 获取 token"""
     db = next(get_db())
     try:
-        result = update_profile(db, req.token, req.nickname, req.gender, req.avatar_url)
-        return {"success": True, **result}
-    except ValueError as e:
+        # 🔒 安全修复：从鉴权中间件获取的 current_user 更新资料
+        if req.nickname:
+            current_user.nickname = req.nickname
+        if req.gender:
+            current_user.gender = req.gender
+        if req.avatar_url:
+            current_user.avatar_url = req.avatar_url
+        db.commit()
+
+        return {
+            "success": True,
+            "user_id": current_user.id,
+            "nickname": current_user.nickname,
+            "avatar_url": current_user.avatar_url,
+            "gender": getattr(current_user, 'gender', None)
+        }
+    except Exception as e:
+        db.rollback()
         raise HTTPException(status_code=400, detail=str(e))
     finally:
         db.close()
@@ -429,7 +444,7 @@ async def publish_companion(request: CompanionPublishRequest, current_user: User
 
         # 创建发布记录
         companion = Companion(
-            user_id=current_user.id,  # ✅ 从鉴权中间件获取
+            user_id=str(current_user.id),  # ✅ 从鉴权中间件获取，转字符串匹配列类型
             user_name=current_user.nickname or f"旅行者{current_user.id}",  # ✅ 从数据库获取
             route_json=json.dumps(request.route_json, ensure_ascii=False),
             cities=cities_str,  # ✅ 独立存储城市列表
@@ -619,7 +634,7 @@ async def match_companions(request: CompanionMatchRequest):
             if True:  # 改为始终通过（硬性条件已在前面筛选）
                 matches.append({
                     "companion_id": companion.id,
-                    "user_name": companion.user_name,
+                    "user_name": _get_display_name(db, companion.user_id, companion.user_name),
                     "route": companion_route,
                     "travel_date": companion.travel_date.strftime("%Y-%m-%d"),
                     "duration_days": companion.duration_days,
@@ -674,9 +689,11 @@ async def search_companions(keyword: str = "", limit: int = 20, offset: int = 0)
 
         result = []
         for c in companions:
+            # 从 User 表获取最新昵称
+            display_name = _get_display_name(db, c.user_id, c.user_name)
             result.append({
                 "companion_id": c.id,
-                "user_name": c.user_name,
+                "user_name": display_name,
                 "route": json.loads(c.route_json),
                 "travel_date": c.travel_date.strftime("%Y-%m-%d"),
                 "duration_days": c.duration_days,
@@ -717,9 +734,11 @@ async def list_companions(limit: int = 20, offset: int = 0):
 
         result = []
         for c in companions:
+            # 从 User 表获取最新昵称
+            display_name = _get_display_name(db, c.user_id, c.user_name)
             result.append({
                 "companion_id": c.id,
-                "user_name": c.user_name,
+                "user_name": display_name,
                 "route": json.loads(c.route_json),
                 "travel_date": c.travel_date.strftime("%Y-%m-%d"),
                 "duration_days": c.duration_days,
@@ -753,8 +772,9 @@ async def get_my_companions(current_user: User = Depends(get_current_user_from_t
         from models import Companion
 
         # 🔒 安全修复：从鉴权中间件获取的 current_user 查询，不信任 query 参数
+        # 使用 str() 确保类型匹配（user_id 是 String 列）
         companions = db.query(Companion)\
-            .filter(Companion.user_id == current_user.id)\
+            .filter(Companion.user_id == str(current_user.id))\
             .order_by(Companion.created_at.desc())\
             .limit(limit)\
             .offset(offset)\
@@ -762,9 +782,11 @@ async def get_my_companions(current_user: User = Depends(get_current_user_from_t
 
         result = []
         for c in companions:
+            # 从 User 表获取最新昵称
+            display_name = _get_display_name(db, c.user_id, c.user_name)
             result.append({
                 "companion_id": c.id,
-                "user_name": c.user_name,
+                "user_name": display_name,
                 "route": json.loads(c.route_json),
                 "travel_date": c.travel_date.strftime("%Y-%m-%d"),
                 "duration_days": c.duration_days,
@@ -785,6 +807,50 @@ async def get_my_companions(current_user: User = Depends(get_current_user_from_t
             "data": result
         }
 
+    except Exception as e:
+        raise HTTPException(500, f"查询失败: {str(e)}")
+
+
+@app.get("/api/companions/{companion_id}")
+async def get_companion_detail(companion_id: int, current_user: Optional[User] = Depends(get_optional_user)):
+    """获取行程详情"""
+    db = next(get_db())
+
+    try:
+        from models import Companion
+
+        companion = db.query(Companion).filter(Companion.id == companion_id).first()
+        if not companion:
+            raise HTTPException(404, "行程不存在")
+
+        # 从 User 表获取最新昵称
+        display_name = _get_display_name(db, companion.user_id, companion.user_name)
+
+        return {
+            "success": True,
+            "data": {
+                "companion_id": companion.id,
+                "user_id": companion.user_id,
+                "user_name": display_name,
+                "route": json.loads(companion.route_json),
+                "travel_date": companion.travel_date.strftime("%Y-%m-%d"),
+                "duration_days": companion.duration_days,
+                "flexibility_days": companion.flexibility_days,
+                "seeking": json.loads(companion.seeking),
+                "transport_mode": getattr(companion, "transport_mode", "不限"),
+                "accommodation": getattr(companion, "accommodation", "不限"),
+                "budget_level": getattr(companion, "budget_level", "经济"),
+                "good_at_photo": getattr(companion, "good_at_photo", "不限"),
+                "user_male_count": getattr(companion, "user_male_count", 0),
+                "user_female_count": getattr(companion, "user_female_count", 1),
+                "current_people": f"{getattr(companion, 'user_male_count', 0)}男{getattr(companion, 'user_female_count', 1)}女",
+                "preferences": json.loads(companion.preferences) if companion.preferences else {},
+                "created_at": companion.created_at.strftime("%Y-%m-%d %H:%M")
+            }
+        }
+
+    except HTTPException:
+        raise
     except Exception as e:
         raise HTTPException(500, f"查询失败: {str(e)}")
 

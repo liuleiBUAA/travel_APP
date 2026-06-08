@@ -32,20 +32,24 @@
       <view class="form-label">国家筛选（可多选）</view>
       <view class="country-selector">
         <view wx:if="{{recommendCountries.length === 0}}" class="hint-text">加载中...</view>
-        <label wx:for="{{recommendCountries}}" wx:key="*this" class="checkbox-item">
-          <checkbox value="{{item}}" bindchange="toggleManualRecommendCountry" data-country="{{item}}" />
-          <text>{{item}}</text>
-        </label>
+        <checkbox-group wx:for="{{recommendCountries}}" wx:key="*this" bindchange="toggleManualRecommendCountry" data-country="{{item}}">
+          <label class="checkbox-item">
+            <checkbox value="{{item}}" />
+            <text>{{item}}</text>
+          </label>
+        </checkbox-group>
       </view>
     </view>
 
     <view class="form-group">
       <view class="form-label">旅行主题（可多选）</view>
       <view class="country-selector">
-        <label wx:for="{{tagOptions}}" wx:key="value" class="checkbox-item">
-          <checkbox value="{{item.value}}" bindchange="toggleManualRecommendTag" data-tag="{{item.value}}" />
-          <text>{{item.label}}</text>
-        </label>
+        <checkbox-group wx:for="{{tagOptions}}" wx:key="value" bindchange="toggleManualRecommendTag" data-tag="{{item.value}}">
+          <label class="checkbox-item">
+            <checkbox value="{{item.value}}" />
+            <text>{{item.label}}</text>
+          </label>
+        </checkbox-group>
       </view>
     </view>
 

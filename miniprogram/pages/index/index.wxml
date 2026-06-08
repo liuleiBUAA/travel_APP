@@ -136,10 +136,12 @@
         <view class="form-label">选择国家（多选）</view>
         <view class="country-selector">
           <view wx:if="{{manualCountries.length === 0}}" class="hint-text">加载中...</view>
-          <label wx:for="{{manualCountries}}" wx:key="*this" class="checkbox-item">
-            <checkbox value="{{item}}" bindchange="toggleManualCountry" data-country="{{item}}" />
-            <text>{{item}}</text>
-          </label>
+          <checkbox-group wx:for="{{manualCountries}}" wx:key="*this" bindchange="toggleManualCountry" data-country="{{item}}">
+            <label class="checkbox-item">
+              <checkbox value="{{item}}" />
+              <text>{{item}}</text>
+            </label>
+          </checkbox-group>
         </view>
       </view>
 
@@ -228,10 +230,12 @@
     <view class="form-group">
       <view class="form-label">消费水平</view>
       <view class="checkbox-group">
-        <label wx:for="{{budgetOptions}}" wx:key="*this" class="checkbox-item">
-          <checkbox value="{{item}}" bindchange="toggleBudget" data-value="{{item}}" />
-          <text>{{item}}</text>
-        </label>
+        <checkbox-group wx:for="{{budgetOptions}}" wx:key="*this" bindchange="toggleBudget" data-value="{{item}}">
+          <label class="checkbox-item">
+            <checkbox value="{{item}}" />
+            <text>{{item}}</text>
+          </label>
+        </checkbox-group>
       </view>
     </view>
 

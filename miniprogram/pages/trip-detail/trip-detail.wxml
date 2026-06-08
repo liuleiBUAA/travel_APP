@@ -1,0 +1,111 @@
+<view class="container">
+  <view wx:if="{{loading}}" class="loading">
+    <text>加载中...</text>
+  </view>
+
+  <view wx:else class="detail-content">
+    <!-- 路线城市 -->
+    <view class="card route-card">
+      <view class="card-title">路线城市</view>
+      <view class="cities-list">
+        <block wx:for="{{route.cities}}" wx:key="index">
+          <text class="city">{{item}}</text>
+          <text wx:if="{{index < route.cities.length - 1}}" class="arrow">→</text>
+        </block>
+      </view>
+    </view>
+
+    <!-- 基本信息 -->
+    <view class="card info-card">
+      <view class="card-title">基本信息</view>
+      <view class="info-row">
+        <text class="label">发布人：</text>
+        <text class="value">{{detail.user_name}}</text>
+      </view>
+      <view class="info-row">
+        <text class="label">出发日期：</text>
+        <text class="value">{{detail.travel_date}}</text>
+      </view>
+      <view class="info-row">
+        <text class="label">行程天数：</text>
+        <text class="value">{{detail.duration_days}}天</text>
+      </view>
+      <view class="info-row">
+        <text class="label">时间灵活度：</text>
+        <text class="value">±{{detail.flexibility_days}}天</text>
+      </view>
+      <view class="info-row">
+        <text class="label">人数组成：</text>
+        <text class="value">{{detail.current_people}}</text>
+      </view>
+    </view>
+
+    <!-- 出行偏好 -->
+    <view class="card preference-card">
+      <view class="card-title">出行偏好</view>
+      <view class="info-row">
+        <text class="label">交通方式：</text>
+        <text class="value">{{detail.transport_mode}}</text>
+      </view>
+      <view class="info-row">
+        <text class="label">住宿安排：</text>
+        <text class="value">{{detail.accommodation}}</text>
+      </view>
+      <view class="info-row">
+        <text class="label">消费水平：</text>
+        <text class="value">{{detail.budget_level}}</text>
+      </view>
+      <view class="info-row">
+        <text class="label">拍照技能：</text>
+        <text class="value">{{detail.good_at_photo}}</text>
+      </view>
+    </view>
+
+    <!-- 每日行程 -->
+    <view wx:if="{{route.itinerary && route.itinerary.length > 0}}" class="card itinerary-card">
+      <view class="card-title">每日行程</view>
+      <view class="itinerary-list">
+        <block wx:for="{{route.itinerary}}" wx:key="day">
+          <view class="day-item">
+            <view class="day-header">第{{item.day}}天</view>
+            <view class="day-content">
+              <view wx:if="{{item.cities}}" class="day-row">
+                <text class="day-label">城市：</text>
+                <text class="day-value">{{item.cities}}</text>
+              </view>
+              <view wx:if="{{item.activities}}" class="day-row">
+                <text class="day-label">活动：</text>
+                <text class="day-value">{{item.activities}}</text>
+              </view>
+              <view wx:if="{{item.transport}}" class="day-row">
+                <text class="day-label">交通：</text>
+                <text class="day-value">{{item.transport}}</text>
+              </view>
+              <view wx:if="{{item.accommodation}}" class="day-row">
+                <text class="day-label">住宿：</text>
+                <text class="day-value">{{item.accommodation}}</text>
+              </view>
+            </view>
+          </view>
+        </block>
+      </view>
+    </view>
+
+    <!-- 找搭子需求 -->
+    <view class="card seeking-card">
+      <view class="card-title">找搭子需求</view>
+      <view class="info-row">
+        <text class="label">找搭子人数：</text>
+        <text class="value">{{seeking.people_min || 1}}-{{seeking.people_max || 2}}人</text>
+      </view>
+      <view class="info-row">
+        <text class="label">性别要求：</text>
+        <text class="value">{{seeking.gender || '不限'}}</text>
+      </view>
+      <view wx:if="{{seeking.age_range}}" class="info-row">
+        <text class="label">年龄范围：</text>
+        <text class="value">{{seeking.age_range}}</text>
+      </view>
+    </view>
+  </view>
+</view>

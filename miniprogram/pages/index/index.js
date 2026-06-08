@@ -155,7 +155,8 @@ Page({
 
   // ---- 用户资料 ----
   showEditNickname() {
-    this.setData({ editingNickname: true, newNickname: this.data.userInfo?.nickname || '' })
+    const ui = this.data.userInfo || {}
+    this.setData({ editingNickname: true, newNickname: ui.nickname || '' })
   },
 
   cancelEditNickname() {
@@ -418,10 +419,8 @@ Page({
 
       app.globalData.generatedRoute = route
 
-      // 发布
+      // 发布 - ✅ 修复: 不传 user_id 和 user_name，后端从 token 自动获取
       const pubRes = await api.publishCompanion({
-        user_id: app.globalData.userInfo.user_id || `user_${Date.now()}`,
-        user_name: userName,
         route_json: route,
         travel_date: d.travelDate,
         duration_days: route.total_days || 10,

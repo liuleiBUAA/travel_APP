@@ -192,5 +192,14 @@ Page({
       wx.showToast({ title: '匹配失败', icon: 'none' })
       console.error('匹配失败', err)
     }
+  },
+
+  goToDetail(e) {
+    const id = e.currentTarget.dataset.id
+    if (id) {
+      wx.navigateTo({
+        url: `/pages/trip-detail/trip-detail?id=${id}`
+      })
+    }
   }
 })
