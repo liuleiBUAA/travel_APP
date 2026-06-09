@@ -1,5 +1,5 @@
 .hint-text {
-  color: #999;
+  color: var(--c-text-muted);
   font-size: 24rpx;
   padding: 16rpx;
 }
@@ -14,17 +14,18 @@
   flex: 1;
   min-width: 120rpx;
   padding: 14rpx;
-  background: #fff;
-  border: 2rpx solid #e0e0e0;
+  background: var(--c-card);
+  border: 2rpx solid var(--c-border);
   border-radius: 10rpx;
   text-align: center;
   font-size: 26rpx;
+  color: var(--c-text-sub);
 }
 
 .region-btn.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--grad-primary);
   color: #fff;
-  border-color: #667eea;
+  border-color: var(--c-primary);
 }
 
 .country-list {
@@ -35,16 +36,17 @@
 
 .country-btn {
   padding: 12rpx 20rpx;
-  background: #fff;
-  border: 2rpx solid #e0e0e0;
+  background: var(--c-card);
+  border: 2rpx solid var(--c-border);
   border-radius: 10rpx;
   font-size: 24rpx;
+  color: var(--c-text-sub);
 }
 
 .country-btn.active {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background: var(--grad-accent);
   color: #fff;
-  border-color: #f093fb;
+  border-color: var(--c-accent);
 }
 
 .country-selector {
@@ -52,9 +54,9 @@
   flex-wrap: wrap;
   gap: 16rpx;
   padding: 16rpx;
-  border: 2rpx solid #e0e0e0;
-  border-radius: 12rpx;
-  background: #fff;
+  border: 2rpx solid var(--c-border);
+  border-radius: var(--radius-ctrl);
+  background: var(--c-card);
 }
 
 .checkbox-item {
@@ -72,23 +74,23 @@
 
 .tag-btn {
   padding: 12rpx 20rpx;
-  background: #f5f5ff;
-  border: 2rpx solid #e0e0e0;
+  background: var(--c-soft);
+  border: 2rpx solid var(--c-border);
   border-radius: 10rpx;
   font-size: 24rpx;
 }
 
 .tag-btn.active {
-  background: #667eea;
+  background: var(--c-primary);
   color: #fff;
-  border-color: #667eea;
+  border-color: var(--c-primary);
 }
 
 .recommend-result {
   margin-top: 20rpx;
   padding: 20rpx;
-  background: #f5f7fa;
-  border-radius: 12rpx;
+  background: var(--c-soft);
+  border-radius: var(--radius-ctrl);
 }
 
 .option-row {
@@ -100,8 +102,8 @@
 
 .summary {
   display: flex;
-  background: #f5f7fa;
-  border-radius: 12rpx;
+  background: var(--c-soft);
+  border-radius: var(--radius-ctrl);
   padding: 20rpx;
   margin-bottom: 20rpx;
 }
@@ -114,31 +116,31 @@
 .summary-number {
   font-size: 48rpx;
   font-weight: bold;
-  color: #667eea;
+  color: var(--c-primary);
 }
 
 .summary-label {
   font-size: 22rpx;
-  color: #666;
+  color: var(--c-text-sub);
   margin-top: 6rpx;
 }
 
 .route-cities {
   font-size: 26rpx;
-  color: #667eea;
+  color: var(--c-primary);
   padding: 16rpx;
-  background: #f5f5ff;
+  background: var(--c-soft);
   border-radius: 10rpx;
   margin-bottom: 20rpx;
   line-height: 1.8;
 }
 
 .day-card {
-  background: #fff;
+  background: var(--c-card);
   padding: 20rpx;
   margin-bottom: 16rpx;
-  border-radius: 12rpx;
-  border-left: 6rpx solid #667eea;
+  border-radius: var(--radius-ctrl);
+  border-left: 6rpx solid var(--c-primary);
   box-shadow: 0 2rpx 10rpx rgba(0,0,0,0.05);
 }
 
@@ -152,32 +154,32 @@
 .day-number {
   font-size: 30rpx;
   font-weight: 600;
-  color: #667eea;
+  color: var(--c-primary);
 }
 
 .day-stay {
   font-size: 24rpx;
-  color: #666;
-  background: #fff5f0;
+  color: var(--c-text-sub);
+  background: var(--c-soft);
   padding: 6rpx 16rpx;
   border-radius: 16rpx;
-  border: 1rpx solid #ffe0d0;
+  border: 1rpx solid var(--c-border);
 }
 
 .day-activity {
   font-size: 26rpx;
-  color: #333;
+  color: var(--c-text);
   line-height: 1.8;
   padding: 12rpx;
-  background: #fafafa;
+  background: var(--c-input-bg);
   border-radius: 8rpx;
   margin-bottom: 10rpx;
 }
 
 .day-transport {
   font-size: 24rpx;
-  color: #666;
+  color: var(--c-text-sub);
   padding: 10rpx 12rpx;
-  background: #f0f8ff;
+  background: var(--c-soft);
   border-radius: 8rpx;
 }

@@ -1,7 +1,61 @@
+/* ============================================================
+   主题变量区  THEME START
+   切换主题：把 miniprogram/themes/ 下任一主题文件的内容
+   整段替换掉下面 THEME START ~ THEME END 之间的内容即可。
+   当前主题：B 紫色收敛版（theme-b-purple）
+   ============================================================ */
+page {
+  /* 品牌色 */
+  --c-primary: #667eea;
+  --c-primary-2: #764ba2;
+  --grad-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+  --c-accent: #667eea;
+  --grad-accent: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+  --c-success: #14b8a6;
+  --grad-success: linear-gradient(135deg, #14b8a6 0%, #38d9a9 100%);
+
+  --c-danger: #f5576c;
+
+  /* 背景 */
+  --c-bg: #f5f7fa;
+  --c-card: #ffffff;
+  --c-soft: #f3f4fb;
+  --c-input-bg: #fafbfc;
+
+  /* 文字 */
+  --c-text: #1f2433;
+  --c-text-sub: #5b6273;
+  --c-text-muted: #8a91a3;
+  --c-text-faint: #b7bdc9;
+
+  /* 描边 */
+  --c-border: #e6e8ee;
+  --c-border-soft: #f0f1f4;
+
+  /* 城市徽章 */
+  --c-badge-bg: #eef1fb;
+  --c-badge-text: #667eea;
+
+  /* 匹配分数条 */
+  --c-score-route: #667eea;
+  --c-score-time: #14b8a6;
+  --c-score-pref: #f0a020;
+
+  /* 圆角 / 阴影 */
+  --radius-card: 20rpx;
+  --radius-ctrl: 14rpx;
+  --shadow-card: 0 4rpx 18rpx rgba(30, 40, 80, 0.06);
+}
+/* ============================================================
+   THEME END
+   ============================================================ */
+
 page {
   font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
-  background: #f5f7fa;
-  color: #333;
+  background: var(--c-bg);
+  color: var(--c-text);
   font-size: 28rpx;
 }
 
@@ -10,23 +64,36 @@ page {
 }
 
 .card {
-  background: #fff;
-  border-radius: 20rpx;
+  background: var(--c-card);
+  border-radius: var(--radius-card);
   padding: 30rpx;
   margin-bottom: 20rpx;
-  box-shadow: 0 4rpx 20rpx rgba(0,0,0,0.08);
+  box-shadow: var(--shadow-card);
 }
 
+/* 卡片标题：降噪，用深灰而非主色，避免每个标题都在抢视觉 */
 .card-title {
-  color: #667eea;
-  font-size: 36rpx;
+  color: var(--c-text);
+  font-size: 34rpx;
   font-weight: 600;
-  margin-bottom: 30rpx;
+  margin-bottom: 28rpx;
+  display: flex;
+  align-items: center;
+}
+
+/* 标题左侧的主色竖条，作为唯一的品牌色锚点 */
+.card-title::before {
+  content: '';
+  width: 8rpx;
+  height: 30rpx;
+  border-radius: 4rpx;
+  background: var(--grad-primary);
+  margin-right: 16rpx;
 }
 
 .form-label {
   font-size: 28rpx;
-  color: #333;
+  color: var(--c-text-sub);
   font-weight: 500;
   margin-bottom: 12rpx;
 }
@@ -35,12 +102,12 @@ page {
   width: 100%;
   height: 88rpx;
   line-height: 88rpx;
-  padding: 0 20rpx;
-  border: 2rpx solid #e0e0e0;
-  border-radius: 12rpx;
+  padding: 0 24rpx;
+  border: 2rpx solid var(--c-border);
+  border-radius: var(--radius-ctrl);
   font-size: 30rpx;
-  color: #333;
-  background: #fafafa;
+  color: var(--c-text);
+  background: var(--c-input-bg);
   box-sizing: border-box;
 }
 
@@ -50,10 +117,10 @@ page {
 
 .btn-primary {
   width: 100%;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--grad-primary);
   color: #fff;
   border: none;
-  border-radius: 12rpx;
+  border-radius: var(--radius-ctrl);
   font-size: 30rpx;
   font-weight: 600;
   padding: 22rpx 0;
@@ -62,10 +129,10 @@ page {
 
 .btn-success {
   width: 100%;
-  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  background: var(--grad-success);
   color: #fff;
   border: none;
-  border-radius: 12rpx;
+  border-radius: var(--radius-ctrl);
   font-size: 30rpx;
   font-weight: 600;
   padding: 22rpx 0;
@@ -73,10 +140,10 @@ page {
 
 .btn-secondary {
   width: 100%;
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background: var(--grad-accent);
   color: #fff;
   border: none;
-  border-radius: 12rpx;
+  border-radius: var(--radius-ctrl);
   font-size: 30rpx;
   font-weight: 600;
   padding: 22rpx 0;
@@ -84,7 +151,7 @@ page {
 
 .tag {
   display: inline-block;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--grad-primary);
   color: #fff;
   padding: 8rpx 20rpx;
   border-radius: 24rpx;
@@ -102,31 +169,31 @@ page {
   flex-wrap: wrap;
   min-height: 60rpx;
   padding: 10rpx;
-  border: 2rpx dashed #e0e0e0;
-  border-radius: 12rpx;
+  border: 2rpx dashed var(--c-border);
+  border-radius: var(--radius-ctrl);
 }
 
 .msg-success {
-  background: #efe;
-  color: #3a3;
+  background: #e9f9f3;
+  color: #0f9d75;
   padding: 20rpx;
-  border-radius: 12rpx;
+  border-radius: var(--radius-ctrl);
   font-size: 26rpx;
   margin-top: 16rpx;
 }
 
 .msg-error {
-  background: #fee;
-  color: #c33;
+  background: #fdecef;
+  color: var(--c-danger);
   padding: 20rpx;
-  border-radius: 12rpx;
+  border-radius: var(--radius-ctrl);
   font-size: 26rpx;
   margin-top: 16rpx;
 }
 
 .loading-text {
   text-align: center;
-  color: #667eea;
+  color: var(--c-primary);
   padding: 30rpx;
   font-size: 28rpx;
 }

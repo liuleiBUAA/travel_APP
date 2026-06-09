@@ -1,0 +1,54 @@
+/* ============================================================
+   主题变量区  THEME START
+   主题 B：紫色收敛版（theme-b-purple）—— 当前默认
+   沿用原有 #667eea 紫主色，去掉打架的粉/绿渐变，统一成一套体系
+   用法：把本文件 THEME START ~ THEME END 之间内容，
+        替换掉 app.wxss 顶部对应区块。
+   ============================================================ */
+page {
+  /* 品牌色 */
+  --c-primary: #667eea;
+  --c-primary-2: #764ba2;
+  --grad-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+  --c-accent: #667eea;
+  --grad-accent: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+  --c-success: #14b8a6;
+  --grad-success: linear-gradient(135deg, #14b8a6 0%, #38d9a9 100%);
+
+  --c-danger: #f5576c;
+
+  /* 背景 */
+  --c-bg: #f5f7fa;
+  --c-card: #ffffff;
+  --c-soft: #f3f4fb;
+  --c-input-bg: #fafbfc;
+
+  /* 文字 */
+  --c-text: #1f2433;
+  --c-text-sub: #5b6273;
+  --c-text-muted: #8a91a3;
+  --c-text-faint: #b7bdc9;
+
+  /* 描边 */
+  --c-border: #e6e8ee;
+  --c-border-soft: #f0f1f4;
+
+  /* 城市徽章 */
+  --c-badge-bg: #eef1fb;
+  --c-badge-text: #667eea;
+
+  /* 匹配分数条 */
+  --c-score-route: #667eea;
+  --c-score-time: #14b8a6;
+  --c-score-pref: #f0a020;
+
+  /* 圆角 / 阴影 */
+  --radius-card: 20rpx;
+  --radius-ctrl: 14rpx;
+  --shadow-card: 0 4rpx 18rpx rgba(30, 40, 80, 0.06);
+}
+/* ============================================================
+   THEME END
+   ============================================================ */

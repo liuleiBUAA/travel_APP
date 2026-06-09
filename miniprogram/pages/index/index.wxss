@@ -8,18 +8,19 @@
   flex: 1;
   min-width: 140rpx;
   padding: 16rpx;
-  background: #fff;
-  border: 2rpx solid #e0e0e0;
-  border-radius: 12rpx;
+  background: var(--c-card);
+  border: 2rpx solid var(--c-border);
+  border-radius: var(--radius-ctrl);
   text-align: center;
   font-size: 26rpx;
   font-weight: 500;
+  color: var(--c-text-sub);
 }
 
 .region-btn.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--grad-primary);
   color: #fff;
-  border-color: #667eea;
+  border-color: var(--c-primary);
 }
 
 .country-list {
@@ -30,17 +31,18 @@
 
 .country-btn {
   padding: 14rpx 24rpx;
-  background: #fff;
-  border: 2rpx solid #e0e0e0;
+  background: var(--c-card);
+  border: 2rpx solid var(--c-border);
   border-radius: 10rpx;
   font-size: 26rpx;
   font-weight: 500;
+  color: var(--c-text-sub);
 }
 
 .country-btn.active {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background: var(--grad-accent);
   color: #fff;
-  border-color: #f093fb;
+  border-color: var(--c-accent);
 }
 
 .city-grid {
@@ -52,16 +54,17 @@
 .city-item {
   width: calc(33% - 8rpx);
   padding: 16rpx 10rpx;
-  background: #f5f5ff;
-  border: 1rpx solid #e0e0e0;
+  background: var(--c-soft);
+  border: 1rpx solid var(--c-border);
   border-radius: 10rpx;
   text-align: center;
   box-sizing: border-box;
 }
 
 .city-item.selected {
-  background: #667eea;
+  background: var(--c-primary);
   color: #fff;
+  border-color: var(--c-primary);
 }
 
 .city-item.selected .city-info {
@@ -75,29 +78,29 @@
 
 .city-info {
   font-size: 20rpx;
-  color: #999;
+  color: var(--c-text-muted);
   margin-top: 4rpx;
 }
 
 .hint-text {
-  color: #999;
+  color: var(--c-text-muted);
   font-size: 24rpx;
   padding: 16rpx;
   width: 100%;
 }
 
 .search-results {
-  border: 1rpx solid #e0e0e0;
+  border: 1rpx solid var(--c-border);
   border-top: none;
   border-radius: 0 0 12rpx 12rpx;
   max-height: 300rpx;
   overflow-y: auto;
-  background: #fff;
+  background: var(--c-card);
 }
 
 .search-item {
   padding: 16rpx 20rpx;
-  border-bottom: 1rpx solid #f0f0f0;
+  border-bottom: 1rpx solid var(--c-border-soft);
   font-size: 26rpx;
 }
 
@@ -111,8 +114,8 @@
   flex-wrap: wrap;
   gap: 16rpx;
   padding: 16rpx;
-  border: 2rpx solid #e0e0e0;
-  border-radius: 12rpx;
+  border: 2rpx solid var(--c-border);
+  border-radius: var(--radius-ctrl);
 }
 
 .checkbox-item {
@@ -123,7 +126,7 @@
 }
 
 .clear-btn {
-  color: #f5576c;
+  color: var(--c-danger);
   font-size: 24rpx;
 }
 
@@ -140,11 +143,11 @@
 .user-name {
   font-size: 30rpx;
   font-weight: 600;
-  color: #333;
+  color: var(--c-text);
 }
 
 .edit-btn {
-  color: #667eea;
+  color: var(--c-primary);
   font-size: 24rpx;
 }
 
@@ -156,13 +159,13 @@
 }
 
 .save-btn {
-  color: #667eea;
+  color: var(--c-primary);
   font-size: 26rpx;
   font-weight: 500;
 }
 
 .cancel-btn {
-  color: #999;
+  color: var(--c-text-muted);
   font-size: 26rpx;
 }
 
@@ -175,54 +178,55 @@
 .mode-btn {
   flex: 1;
   padding: 16rpx;
-  background: #fff;
-  border: 2rpx solid #e0e0e0;
-  border-radius: 12rpx;
+  background: var(--c-card);
+  border: 2rpx solid var(--c-border);
+  border-radius: var(--radius-ctrl);
   text-align: center;
   font-size: 26rpx;
   font-weight: 500;
+  color: var(--c-text-sub);
 }
 
 .mode-btn.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--grad-primary);
   color: #fff;
-  border-color: #667eea;
+  border-color: var(--c-primary);
 }
 
 /* 手动输入模式 */
 .form-textarea {
   width: 100%;
   padding: 16rpx;
-  background: #f8f8f8;
-  border: 2rpx solid #e0e0e0;
-  border-radius: 12rpx;
+  background: var(--c-input-bg);
+  border: 2rpx solid var(--c-border);
+  border-radius: var(--radius-ctrl);
   font-size: 26rpx;
   resize: vertical;
 }
 
 .picker-input {
-  background: #f8f8f8;
+  background: var(--c-input-bg);
   padding: 16rpx;
-  border-radius: 12rpx;
+  border-radius: var(--radius-ctrl);
   font-size: 26rpx;
 }
 
 .manual-preview {
   margin-top: 24rpx;
   padding: 20rpx;
-  background: #f0f4ff;
-  border-radius: 12rpx;
-  border-left: 6rpx solid #667eea;
+  background: var(--c-soft);
+  border-radius: var(--radius-ctrl);
+  border-left: 6rpx solid var(--c-primary);
 }
 
 .preview-title {
   font-size: 24rpx;
-  color: #666;
+  color: var(--c-text-sub);
   margin-bottom: 8rpx;
 }
 
 .preview-content {
   font-size: 28rpx;
-  color: #333;
+  color: var(--c-text);
   font-weight: 500;
 }

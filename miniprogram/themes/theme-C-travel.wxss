@@ -1,0 +1,54 @@
+/* ============================================================
+   主题变量区  THEME START
+   主题 C：明快旅行风（theme-c-travel）
+   珊瑚橙主色 + 天空蓝强调，年轻活泼有旅行感
+   用法：把本文件 THEME START ~ THEME END 之间内容，
+        替换掉 app.wxss 顶部对应区块。
+   ============================================================ */
+page {
+  /* 品牌色 */
+  --c-primary: #ff6b5c;
+  --c-primary-2: #ff8a5c;
+  --grad-primary: linear-gradient(135deg, #ff7b5c 0%, #ff5c8a 100%);
+
+  --c-accent: #2bb3c0;
+  --grad-accent: linear-gradient(135deg, #2bb3c0 0%, #1e95c4 100%);
+
+  --c-success: #14b8a6;
+  --grad-success: linear-gradient(135deg, #2bd4a0 0%, #14b89a 100%);
+
+  --c-danger: #ef4444;
+
+  /* 背景 */
+  --c-bg: #fef7f4;
+  --c-card: #ffffff;
+  --c-soft: #fff1ec;
+  --c-input-bg: #fffaf8;
+
+  /* 文字 */
+  --c-text: #2a2320;
+  --c-text-sub: #6b5f59;
+  --c-text-muted: #a39690;
+  --c-text-faint: #cabfb9;
+
+  /* 描边 */
+  --c-border: #f0e3dd;
+  --c-border-soft: #f7eee9;
+
+  /* 城市徽章 */
+  --c-badge-bg: #e6f6f8;
+  --c-badge-text: #1e95c4;
+
+  /* 匹配分数条 */
+  --c-score-route: #ff6b5c;
+  --c-score-time: #2bb3c0;
+  --c-score-pref: #f59e0b;
+
+  /* 圆角 / 阴影 */
+  --radius-card: 24rpx;
+  --radius-ctrl: 16rpx;
+  --shadow-card: 0 6rpx 22rpx rgba(255, 107, 92, 0.10);
+}
+/* ============================================================
+   THEME END
+   ============================================================ */

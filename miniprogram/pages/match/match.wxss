@@ -9,31 +9,31 @@
 }
 
 .btn-search {
-  background: #667eea;
+  background: var(--c-primary);
   color: #fff;
   font-size: 26rpx;
   padding: 0 28rpx;
   height: 72rpx;
   line-height: 72rpx;
-  border-radius: 12rpx;
+  border-radius: var(--radius-ctrl);
   min-width: 120rpx;
 }
 
 .search-result-hint {
-  color: #667eea;
+  color: var(--c-primary);
   font-size: 26rpx;
   font-weight: 500;
   margin-bottom: 16rpx;
 }
 
 .hint-text {
-  color: #999;
+  color: var(--c-text-muted);
   font-size: 24rpx;
   padding: 16rpx;
 }
 
 .match-card, .companion-card {
-  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+  background: var(--c-soft);
   border-radius: 16rpx;
   padding: 24rpx;
   margin-bottom: 20rpx;
@@ -50,12 +50,12 @@
 .match-user {
   font-size: 34rpx;
   font-weight: 600;
-  color: #333;
+  color: var(--c-text);
   margin-bottom: 8rpx;
 }
 
 .match-score {
-  background: #667eea;
+  background: var(--grad-primary);
   color: #fff;
   padding: 8rpx 20rpx;
   border-radius: 24rpx;
@@ -64,7 +64,7 @@
 }
 
 .match-date {
-  color: #666;
+  color: var(--c-text-sub);
   font-size: 24rpx;
   margin-bottom: 16rpx;
 }
@@ -77,23 +77,23 @@
 }
 
 .city-badge {
-  background: #fff;
+  background: var(--c-card);
   padding: 8rpx 18rpx;
   border-radius: 20rpx;
   font-size: 24rpx;
-  color: #667eea;
+  color: var(--c-badge-text);
 }
 
 .match-info {
   font-size: 24rpx;
-  color: #666;
+  color: var(--c-text-sub);
   line-height: 1.8;
   margin-bottom: 12rpx;
 }
 
 .match-info-text {
   font-size: 24rpx;
-  color: #666;
+  color: var(--c-text-sub);
   line-height: 1.8;
   margin-top: 4rpx;
 }
@@ -109,21 +109,21 @@
   align-items: center;
   gap: 12rpx;
   font-size: 22rpx;
-  color: #666;
+  color: var(--c-text-sub);
   position: relative;
 }
 
 .score-bar {
   height: 8rpx;
-  background: #667eea;
+  background: var(--c-score-route);
   border-radius: 4rpx;
   min-width: 10rpx;
 }
 
 .score-bar.time {
-  background: #38ef7d;
+  background: var(--c-score-time);
 }
 
 .score-bar.pref {
-  background: #f093fb;
+  background: var(--c-score-pref);
 }

@@ -1,0 +1,54 @@
+/* ============================================================
+   主题变量区  THEME START
+   主题 A：清爽留白现代风（theme-a-clean）
+   靛蓝主色 + 中性灰阶，白底大留白，类似 Airbnb/小红书的干净感
+   用法：把本文件 THEME START ~ THEME END 之间内容，
+        替换掉 app.wxss 顶部对应区块。
+   ============================================================ */
+page {
+  /* 品牌色 */
+  --c-primary: #3b6fe0;
+  --c-primary-2: #2f59c4;
+  --grad-primary: linear-gradient(135deg, #3b6fe0 0%, #2f59c4 100%);
+
+  --c-accent: #3b6fe0;
+  --grad-accent: linear-gradient(135deg, #5b8def 0%, #3b6fe0 100%);
+
+  --c-success: #16a34a;
+  --grad-success: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+
+  --c-danger: #e5484d;
+
+  /* 背景 */
+  --c-bg: #f7f8fa;
+  --c-card: #ffffff;
+  --c-soft: #f2f5fb;
+  --c-input-bg: #f7f9fc;
+
+  /* 文字 */
+  --c-text: #16191f;
+  --c-text-sub: #565d6b;
+  --c-text-muted: #8b92a1;
+  --c-text-faint: #bcc2cc;
+
+  /* 描边 */
+  --c-border: #e8eaef;
+  --c-border-soft: #f0f1f4;
+
+  /* 城市徽章 */
+  --c-badge-bg: #eaf1fe;
+  --c-badge-text: #3b6fe0;
+
+  /* 匹配分数条 */
+  --c-score-route: #3b6fe0;
+  --c-score-time: #16a34a;
+  --c-score-pref: #f59e0b;
+
+  /* 圆角 / 阴影 */
+  --radius-card: 24rpx;
+  --radius-ctrl: 16rpx;
+  --shadow-card: 0 6rpx 24rpx rgba(20, 30, 60, 0.05);
+}
+/* ============================================================
+   THEME END
+   ============================================================ */
