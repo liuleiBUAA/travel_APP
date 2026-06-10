@@ -212,6 +212,9 @@
       <text wx:for="{{routeCities}}" wx:key="*this">{{item}}<text wx:if="{{index < routeCities.length - 1}}"> → </text></text>
     </view>
 
+    <!-- 打通：用这条路线去找搭子 -->
+    <button class="btn-secondary" style="margin-bottom:20rpx;" bindtap="goFindCompanion">🤝 用这条路线找搭子</button>
+
     <view wx:for="{{routeItinerary}}" wx:key="day" class="day-card">
       <view class="day-header">
         <view class="day-number">Day {{item.day}}</view>

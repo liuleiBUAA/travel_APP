@@ -65,6 +65,17 @@ Page({
     } else {
       this.setData({ userInfo: null, userName: '' })
     }
+
+    // 从「做攻略」带路线过来：填充已选城市并切到智能选城模式
+    if (app.globalData.routeFromGuide) {
+      app.globalData.routeFromGuide = false
+      const cities = Array.isArray(app.globalData.selectedCities) ? app.globalData.selectedCities : []
+      if (cities.length > 0) {
+        this.setData({ selectedCities: cities, inputMode: 'smart' })
+        wx.showToast({ title: '已带入攻略路线，填日期即可发布', icon: 'none', duration: 2200 })
+      }
+    }
+
     app.globalData.selectedCities = this.data.selectedCities
   },
 

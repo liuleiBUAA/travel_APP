@@ -342,5 +342,19 @@ Page({
     } catch (err) {
       this.setData({ loading: false, errorMsg: '生成失败' })
     }
+  },
+
+  // ---- 打通：带着已生成的路线去发布找搭子 ----
+  goFindCompanion() {
+    const route = this.data.route
+    if (!route) {
+      wx.showToast({ title: '请先生成攻略', icon: 'none' })
+      return
+    }
+    // 标记来自攻略，发布页 onShow 据此填充城市，避免被覆盖
+    app.globalData.generatedRoute = route
+    app.globalData.selectedCities = Array.isArray(route.cities) ? route.cities.slice() : []
+    app.globalData.routeFromGuide = true
+    wx.switchTab({ url: '/pages/index/index' })
   }
 })
