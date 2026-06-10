@@ -31,7 +31,7 @@ Component({
     travelDate: '2026-05-15',
     peopleMin: '1',
     peopleMax: '2',
-    genderOptions: ['不限', '男', '女'],
+    genderOptions: ['不限', '男', '女', '情侣'],
     genderIndex: 0,
     transportOptions: ['不限', '公共交通为主', '自驾为主', '混合'],
     transportIndex: 0,

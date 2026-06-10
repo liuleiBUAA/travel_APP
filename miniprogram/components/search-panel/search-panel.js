@@ -23,7 +23,7 @@ Component({
     flexIndex: 2,
     peopleMin: '',
     peopleMax: '',
-    genderOptions: ['不限', '男', '女'],
+    genderOptions: ['不限', '男', '女', '情侣'],
     genderIndex: 0,
     transportOptions: ['不限', '公共交通为主', '自驾为主', '混合'],
     transportIndex: 0,
