@@ -1,22 +1,10 @@
 <view class="container">
-  <!-- 模式切换：两张大卡片 -->
-  <view class="mode-cards">
-    <view class="mode-card mode-card-recommend {{guideMode === 'recommend' ? 'active' : ''}}" bindtap="switchGuideMode" data-mode="recommend" hover-class="mode-card-hover">
-      <view class="mode-card-emoji">✨</view>
-      <view class="mode-card-text">
-        <view class="mode-card-title">帮我推荐</view>
-        <view class="mode-card-desc">告诉我月份和偏好，自动推荐目的地</view>
-      </view>
-      <view class="mode-card-check">{{guideMode === 'recommend' ? '✓' : ''}}</view>
-    </view>
-
-    <view class="mode-card mode-card-pick {{guideMode === 'pick' ? 'active' : ''}}" bindtap="switchGuideMode" data-mode="pick" hover-class="mode-card-hover">
-      <view class="mode-card-emoji">📍</view>
-      <view class="mode-card-text">
-        <view class="mode-card-title">知道去哪</view>
-        <view class="mode-card-desc">自己选择想去的城市，直接生成路线</view>
-      </view>
-      <view class="mode-card-check">{{guideMode === 'pick' ? '✓' : ''}}</view>
+  <!-- 模式切换 -->
+  <view class="card">
+    <view class="card-title">做攻略</view>
+    <view class="mode-list">
+      <view class="mode-btn {{guideMode === 'recommend' ? 'active' : ''}}" bindtap="switchGuideMode" data-mode="recommend">✨ 帮我推荐</view>
+      <view class="mode-btn {{guideMode === 'pick' ? 'active' : ''}}" bindtap="switchGuideMode" data-mode="pick">📍 知道去哪</view>
     </view>
   </view>
 
