@@ -1,24 +1,11 @@
-<view class="companion">
-  <view class="greeting">
-    <view class="greeting-hi">找搭子 🤝</view>
-    <view class="greeting-sub">发布你的路线，或看看谁在等同行</view>
-  </view>
-
-  <view class="cards">
-    <!-- 发布路线 -->
-    <view class="big-card card-publish" bindtap="goPublish" hover-class="big-card-hover">
-      <view class="big-card-emoji">📤</view>
-      <view class="big-card-title">发布路线</view>
-      <view class="big-card-desc">发布你的行程，等待同期同路线的旅伴匹配</view>
-      <view class="big-card-go">去发布 ›</view>
+<view class="container">
+  <!-- 模式切换（与做攻略一致：上方两个药丸 tab，点击进入对应页） -->
+  <view class="card">
+    <view class="card-title">找搭子</view>
+    <view class="mode-list">
+      <view class="mode-btn" bindtap="goPublish">📤 发布路线</view>
+      <view class="mode-btn" bindtap="goSearch">🔍 搜搭子</view>
     </view>
-
-    <!-- 搜搭子 -->
-    <view class="big-card card-search" bindtap="goSearch" hover-class="big-card-hover">
-      <view class="big-card-emoji">🔍</view>
-      <view class="big-card-title">搜搭子</view>
-      <view class="big-card-desc">按目的地搜索、精确匹配，主动找到合适的搭子</view>
-      <view class="big-card-go">去搜索 ›</view>
-    </view>
+    <view class="mode-hint">发布你的路线，或看看谁在等同行</view>
   </view>
 </view>
