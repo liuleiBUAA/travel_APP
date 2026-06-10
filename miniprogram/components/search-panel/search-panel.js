@@ -44,13 +44,19 @@ Component({
   lifetimes: {
     attached() {
       // 同页 tab 切换时只触发 attached、不触发 pageLifetimes.show，
-      // 故在此也加载一次，保证切到本 tab 能看到数据
+      // 故在此也加载一次。置标志位，避免独立页里 attached+show 重复请求
+      this._justAttached = true
       this.refreshOnShow()
     }
   },
 
   pageLifetimes: {
     show() {
+      // attached 刚跑过则跳过本次，防止重复请求
+      if (this._justAttached) {
+        this._justAttached = false
+        return
+      }
       this.refreshOnShow()
     }
   },
