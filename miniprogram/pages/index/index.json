@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "发布行程"
+  "navigationBarTitleText": "发布行程",
+  "usingComponents": {
+    "publish-panel": "/components/publish-panel/publish-panel"
+  }
 }
