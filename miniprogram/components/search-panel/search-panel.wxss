@@ -1,0 +1,129 @@
+.search-bar {
+  display: flex;
+  gap: 12rpx;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+}
+
+.btn-search {
+  background: var(--c-primary);
+  color: #fff;
+  font-size: 26rpx;
+  padding: 0 28rpx;
+  height: 72rpx;
+  line-height: 72rpx;
+  border-radius: var(--radius-ctrl);
+  min-width: 120rpx;
+}
+
+.search-result-hint {
+  color: var(--c-primary);
+  font-size: 26rpx;
+  font-weight: 500;
+  margin-bottom: 16rpx;
+}
+
+.hint-text {
+  color: var(--c-text-muted);
+  font-size: 24rpx;
+  padding: 16rpx;
+}
+
+.match-card, .companion-card {
+  background: var(--c-soft);
+  border-radius: 16rpx;
+  padding: 24rpx;
+  margin-bottom: 20rpx;
+  position: relative;
+}
+
+.match-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+
+.match-user {
+  font-size: 34rpx;
+  font-weight: 600;
+  color: var(--c-text);
+  margin-bottom: 8rpx;
+}
+
+.match-score {
+  background: var(--grad-primary);
+  color: #fff;
+  padding: 8rpx 20rpx;
+  border-radius: 24rpx;
+  font-weight: 600;
+  font-size: 26rpx;
+}
+
+.match-date {
+  color: var(--c-text-sub);
+  font-size: 24rpx;
+  margin-bottom: 16rpx;
+}
+
+.match-cities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10rpx;
+  margin-bottom: 16rpx;
+}
+
+.city-badge {
+  background: var(--c-card);
+  padding: 8rpx 18rpx;
+  border-radius: 20rpx;
+  font-size: 24rpx;
+  color: var(--c-badge-text);
+}
+
+.match-info {
+  font-size: 24rpx;
+  color: var(--c-text-sub);
+  line-height: 1.8;
+  margin-bottom: 12rpx;
+}
+
+.match-info-text {
+  font-size: 24rpx;
+  color: var(--c-text-sub);
+  line-height: 1.8;
+  margin-top: 4rpx;
+}
+
+.match-scores {
+  display: flex;
+  flex-direction: column;
+  gap: 8rpx;
+}
+
+.score-item {
+  display: flex;
+  align-items: center;
+  gap: 12rpx;
+  font-size: 22rpx;
+  color: var(--c-text-sub);
+  position: relative;
+}
+
+.score-bar {
+  height: 8rpx;
+  background: var(--c-score-route);
+  border-radius: 4rpx;
+  min-width: 10rpx;
+}
+
+.score-bar.time {
+  background: var(--c-score-time);
+}
+
+.score-bar.pref {
+  background: var(--c-score-pref);
+}

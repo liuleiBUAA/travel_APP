@@ -1,3 +1,6 @@
 {
-  "navigationBarTitleText": "找搭子"
+  "navigationBarTitleText": "找搭子",
+  "usingComponents": {
+    "search-panel": "/components/search-panel/search-panel"
+  }
 }
