@@ -1,0 +1,24 @@
+<view class="login-page">
+  <!-- 启动时校验登录态，老用户在这一闪而过 -->
+  <view wx:if="{{checking}}" class="checking">
+    <view class="logo-circle">✈️</view>
+    <text class="checking-text">加载中...</text>
+  </view>
+
+  <!-- 未登录：登录界面 -->
+  <view wx:else class="login-body">
+    <view class="brand">
+      <view class="logo-circle">✈️</view>
+      <text class="brand-name">找搭子</text>
+      <text class="brand-slogan">生成专属攻略 · 找到同行旅伴</text>
+    </view>
+
+    <view class="login-actions">
+      <button class="btn-wechat" bindtap="onWxLogin" loading="{{logging}}" disabled="{{logging}}">
+        <text class="wechat-icon">💬</text> 微信一键登录
+      </button>
+      <view wx:if="{{errorMsg}}" class="login-error">{{errorMsg}}</view>
+      <text class="login-tip">登录即表示同意用户协议与隐私政策</text>
+    </view>
+  </view>
+</view>

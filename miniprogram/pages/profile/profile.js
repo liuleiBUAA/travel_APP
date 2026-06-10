@@ -142,10 +142,9 @@ Page({
       content: '确定要退出登录吗？',
       success: (res) => {
         if (res.confirm) {
-          wx.removeStorageSync('token')
-          app.globalData.userInfo = null
           this.setData({ isLoggedIn: false, userInfo: null, userId: '', myTrips: [] })
-          wx.showToast({ title: '已退出登录', icon: 'none' })
+          // 退出后回到登录页（登录门槛）
+          app.logout()
         }
       }
     })

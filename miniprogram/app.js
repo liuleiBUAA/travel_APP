@@ -10,45 +10,17 @@ App({
   },
 
   onLaunch() {
-    this.autoLogin()
+    // 登录门槛由启动页 pages/login 把守：
+    // 启动页校验 token，有效则进主界面，无效则停在登录页。
+    // 这里只做绑定，不再静默进入主界面。
     this.wxLogin = this.wxLogin.bind(this)
   },
 
-  async autoLogin() {
-    try {
-      const token = wx.getStorageSync('token')
-      if (token) {
-        try {
-          const res = await api.getMe()  // ✅ 修复: 不传token参数
-          console.log('[autoLogin] getMe响应:', JSON.stringify(res))
-          if (res && typeof res === 'object' && (res.success !== false)) {
-            // getMe 返回 user_id 即可认为有效
-            if (res.user_id) {
-              this.globalData.userInfo = { ...res, token }
-              console.log('[autoLogin] token有效，用户:', this.globalData.userInfo)
-              // 刷新所有已加载页面的 onShow
-              const pages = getCurrentPages()
-              pages.forEach(page => {
-                if (page && typeof page.onShow === 'function') {
-                  page.onShow()
-                }
-              })
-              return
-            }
-          }
-          console.warn('[autoLogin] getMe返回格式异常，清除token:', res)
-          wx.removeStorageSync('token')
-        } catch (e) {
-          console.error('[autoLogin] getMe失败，清除token重新微信登录', e)
-          wx.removeStorageSync('token')
-        }
-      }
-      // 无token或已失效，走微信登录
-      console.log('[autoLogin] 触发微信登录')
-      await this.wxLogin()
-    } catch (e) {
-      console.error('[autoLogin] 自动登录异常', e)
-    }
+  // 退出登录后，把用户送回登录页
+  logout() {
+    wx.removeStorageSync('token')
+    this.globalData.userInfo = null
+    wx.reLaunch({ url: '/pages/login/login' })
   },
 
   async wxLogin() {
