@@ -178,85 +178,91 @@
 
   <!-- 发布信息 -->
   <view class="card">
-    <view class="card-title">4. 发布信息</view>
+    <view class="card-title">发布找搭子</view>
 
-    <view wx:if="{{userInfo}}" class="form-group">
-      <view class="form-label">昵称（登录后自动填充）</view>
-      <input class="form-input" disabled value="{{userInfo.nickname}}" />
-    </view>
-
-    <view wx:else class="form-group">
-      <view class="form-label">昵称</view>
-      <input class="form-input" placeholder="请先登录" disabled />
-    </view>
-
+    <!-- 必填：出发日期 -->
     <view class="form-group">
-      <view class="form-label">出发日期</view>
+      <view class="form-label">出发日期 <text class="req-mark">*必填</text></view>
       <picker mode="date" value="{{travelDate}}" bindchange="onDateChange">
         <view class="form-input">{{travelDate}}</view>
       </picker>
     </view>
 
-    <view class="form-group">
-      <view class="form-label">找搭子人数</view>
-      <view class="row">
-        <input class="form-input" style="width: 45%;" type="number" value="{{peopleMin}}" bindinput="onInput" data-field="peopleMin" placeholder="最少" />
-        <text style="padding: 0 10rpx;">-</text>
-        <input class="form-input" style="width: 45%;" type="number" value="{{peopleMax}}" bindinput="onInput" data-field="peopleMax" placeholder="最多" />
+    <!-- 必填提示：地点在上方选择 -->
+    <view class="req-hint">
+      <text>📍 出行地点：</text>
+      <text wx:if="{{selectedCities.length > 0 || manualCities}}" class="req-hint-ok">已选择（在上方修改）</text>
+      <text wx:else class="req-hint-warn">请先在上方选择城市</text>
+    </view>
+
+    <!-- 更多偏好（可选，默认收起） -->
+    <view class="more-toggle" bindtap="toggleMorePrefs">
+      <text>更多偏好（选填，不填也能发）</text>
+      <text class="more-arrow">{{showMorePrefs ? '收起 ▲' : '展开 ▼'}}</text>
+    </view>
+
+    <view wx:if="{{showMorePrefs}}" class="more-panel">
+      <view class="form-group">
+        <view class="form-label">找搭子人数</view>
+        <view class="row">
+          <input class="form-input" style="width: 45%;" type="number" value="{{peopleMin}}" bindinput="onInput" data-field="peopleMin" placeholder="最少" />
+          <text style="padding: 0 10rpx;">-</text>
+          <input class="form-input" style="width: 45%;" type="number" value="{{peopleMax}}" bindinput="onInput" data-field="peopleMax" placeholder="最多" />
+        </view>
+      </view>
+
+      <view class="form-group">
+        <view class="form-label">找什么性别的搭子</view>
+        <picker range="{{genderOptions}}" value="{{genderIndex}}" bindchange="onPickerChange" data-field="genderIndex">
+          <view class="form-input">{{genderOptions[genderIndex]}}</view>
+        </picker>
+      </view>
+
+      <view class="form-group">
+        <view class="form-label">交通方式</view>
+        <picker range="{{transportOptions}}" value="{{transportIndex}}" bindchange="onPickerChange" data-field="transportIndex">
+          <view class="form-input">{{transportOptions[transportIndex]}}</view>
+        </picker>
+      </view>
+
+      <view class="form-group">
+        <view class="form-label">住宿安排</view>
+        <picker range="{{accommodationOptions}}" value="{{accommodationIndex}}" bindchange="onPickerChange" data-field="accommodationIndex">
+          <view class="form-input">{{accommodationOptions[accommodationIndex]}}</view>
+        </picker>
+      </view>
+
+      <view class="form-group">
+        <view class="form-label">消费水平</view>
+        <view class="checkbox-group">
+          <checkbox-group wx:for="{{budgetOptions}}" wx:key="*this" bindchange="toggleBudget" data-value="{{item}}">
+            <label class="checkbox-item">
+              <checkbox value="{{item}}" />
+              <text>{{item}}</text>
+            </label>
+          </checkbox-group>
+        </view>
+      </view>
+
+      <view class="form-group">
+        <view class="form-label">你的拍照技能</view>
+        <picker range="{{photoOptions}}" value="{{photoIndex}}" bindchange="onPickerChange" data-field="photoIndex">
+          <view class="form-input">{{photoOptions[photoIndex]}}</view>
+        </picker>
+      </view>
+
+      <view class="form-group">
+        <view class="form-label">你们的组成</view>
+        <view class="row">
+          <input class="form-input" style="width: 45%;" type="number" value="{{userMaleCount}}" bindinput="onInput" data-field="userMaleCount" placeholder="男生人数" />
+          <text style="padding: 0 10rpx;">男</text>
+          <input class="form-input" style="width: 45%;" type="number" value="{{userFemaleCount}}" bindinput="onInput" data-field="userFemaleCount" placeholder="女生人数" />
+          <text>女</text>
+        </view>
       </view>
     </view>
 
-    <view class="form-group">
-      <view class="form-label">找什么性别的搭子</view>
-      <picker range="{{genderOptions}}" value="{{genderIndex}}" bindchange="onPickerChange" data-field="genderIndex">
-        <view class="form-input">{{genderOptions[genderIndex]}}</view>
-      </picker>
-    </view>
-
-    <view class="form-group">
-      <view class="form-label">交通方式</view>
-      <picker range="{{transportOptions}}" value="{{transportIndex}}" bindchange="onPickerChange" data-field="transportIndex">
-        <view class="form-input">{{transportOptions[transportIndex]}}</view>
-      </picker>
-    </view>
-
-    <view class="form-group">
-      <view class="form-label">住宿安排</view>
-      <picker range="{{accommodationOptions}}" value="{{accommodationIndex}}" bindchange="onPickerChange" data-field="accommodationIndex">
-        <view class="form-input">{{accommodationOptions[accommodationIndex]}}</view>
-      </picker>
-    </view>
-
-    <view class="form-group">
-      <view class="form-label">消费水平</view>
-      <view class="checkbox-group">
-        <checkbox-group wx:for="{{budgetOptions}}" wx:key="*this" bindchange="toggleBudget" data-value="{{item}}">
-          <label class="checkbox-item">
-            <checkbox value="{{item}}" />
-            <text>{{item}}</text>
-          </label>
-        </checkbox-group>
-      </view>
-    </view>
-
-    <view class="form-group">
-      <view class="form-label">你的拍照技能</view>
-      <picker range="{{photoOptions}}" value="{{photoIndex}}" bindchange="onPickerChange" data-field="photoIndex">
-        <view class="form-input">{{photoOptions[photoIndex]}}</view>
-      </picker>
-    </view>
-
-    <view class="form-group">
-      <view class="form-label">你们的组成</view>
-      <view class="row">
-        <input class="form-input" style="width: 45%;" type="number" value="{{userMaleCount}}" bindinput="onInput" data-field="userMaleCount" placeholder="男生人数" />
-        <text style="padding: 0 10rpx;">男</text>
-        <input class="form-input" style="width: 45%;" type="number" value="{{userFemaleCount}}" bindinput="onInput" data-field="userFemaleCount" placeholder="女生人数" />
-        <text>女</text>
-      </view>
-    </view>
-
-    <button class="btn-primary" bindtap="publish">发布行程</button>
+    <button class="btn-primary publish-btn" bindtap="publish">🚀 一键发布</button>
 
     <view wx:if="{{publishMsg}}" class="{{publishOk ? 'msg-success' : 'msg-error'}}">{{publishMsg}}</view>
   </view>

@@ -40,6 +40,7 @@ Page({
     userFemaleCount: '1',
     publishMsg: '',
     publishOk: false,
+    showMorePrefs: false,  // 更多偏好折叠（默认收起，可选项）
     // 用户
     userInfo: null,
     editingNickname: false,
@@ -297,6 +298,11 @@ Page({
       this.setData({ selectedCities: list, cityInput: '', searchResults: [] })
       app.globalData.selectedCities = list
     }
+  },
+
+  // ---- 更多偏好折叠 ----
+  toggleMorePrefs() {
+    this.setData({ showMorePrefs: !this.data.showMorePrefs })
   },
 
   // ---- 表单 ----

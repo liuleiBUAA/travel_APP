@@ -230,3 +230,60 @@
   color: var(--c-text);
   font-weight: 500;
 }
+
+/* 一键发布相关 */
+.req-mark {
+  color: var(--c-danger);
+  font-size: 22rpx;
+  font-weight: 400;
+  margin-left: 6rpx;
+}
+
+.req-hint {
+  display: flex;
+  align-items: center;
+  gap: 6rpx;
+  font-size: 26rpx;
+  color: var(--c-text-sub);
+  padding: 16rpx 20rpx;
+  background: var(--c-soft);
+  border-radius: var(--radius-ctrl);
+  margin-bottom: 24rpx;
+}
+
+.req-hint-ok {
+  color: var(--c-success);
+  font-weight: 500;
+}
+
+.req-hint-warn {
+  color: var(--c-danger);
+  font-weight: 500;
+}
+
+.more-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22rpx 24rpx;
+  background: var(--c-soft);
+  border-radius: var(--radius-ctrl);
+  font-size: 28rpx;
+  color: var(--c-text-sub);
+  margin-bottom: 24rpx;
+}
+
+.more-arrow {
+  color: var(--c-primary);
+  font-size: 26rpx;
+}
+
+.more-panel {
+  padding-top: 4rpx;
+}
+
+.publish-btn {
+  font-size: 34rpx;
+  padding: 26rpx 0;
+  margin-top: 10rpx;
+}
