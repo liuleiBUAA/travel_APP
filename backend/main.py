@@ -509,16 +509,23 @@ async def match_companions(request: CompanionMatchRequest):
             user_has_male = request.user_male_count > 0
             user_has_female = request.user_female_count > 0
 
+            # 用户是否为情侣：正好一男一女
+            user_is_couple = (request.user_male_count == 1 and request.user_female_count == 1)
+
             # 性别匹配逻辑：
             # 1. 对方要求"不限" → 任何组成都可以
             # 2. 对方要求"男" → 用户必须有男生（可以有女生）
             # 3. 对方要求"女" → 用户必须有女生（可以有男生）
+            # 4. 对方要求"情侣" → 用户必须是一男一女
             if seeking_gender == "男":
                 if not user_has_male:
                     continue  # 用户没有男生，不匹配
             elif seeking_gender == "女":
                 if not user_has_female:
                     continue  # 用户没有女生，不匹配
+            elif seeking_gender == "情侣":
+                if not user_is_couple:
+                    continue  # 用户不是一男一女，不匹配
 
             # ========== 用户的找搭子筛选条件（可选）==========
 
@@ -542,8 +549,12 @@ async def match_companions(request: CompanionMatchRequest):
             # 2. 用户的性别要求
             if request.gender and request.gender != "不限":
                 # 对方的男女组成
-                companion_has_male = getattr(companion, "user_male_count", 0) > 0
-                companion_has_female = getattr(companion, "user_female_count", 1) > 0
+                companion_male = getattr(companion, "user_male_count", 0)
+                companion_female = getattr(companion, "user_female_count", 1)
+                companion_has_male = companion_male > 0
+                companion_has_female = companion_female > 0
+                # 对方是否为情侣：正好一男一女
+                companion_is_couple = (companion_male == 1 and companion_female == 1)
 
                 # 用户要求"男" → 对方必须有男生
                 if request.gender == "男":
@@ -552,6 +563,10 @@ async def match_companions(request: CompanionMatchRequest):
                 # 用户要求"女" → 对方必须有女生
                 elif request.gender == "女":
                     if not companion_has_female:
+                        continue
+                # 用户要求"情侣" → 对方必须是一男一女
+                elif request.gender == "情侣":
+                    if not companion_is_couple:
                         continue
 
             # 计算路线相似度
