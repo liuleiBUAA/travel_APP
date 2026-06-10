@@ -207,6 +207,20 @@
   color: var(--c-text-muted);
 }
 
+.trip-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trip-delete {
+  font-size: 24rpx;
+  color: var(--c-danger);
+  padding: 8rpx 20rpx;
+  background: #fdecef;
+  border-radius: 24rpx;
+}
+
 .loading-text {
   color: var(--c-text-muted);
   font-size: 26rpx;

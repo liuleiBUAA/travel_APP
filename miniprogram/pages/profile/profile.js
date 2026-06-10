@@ -206,6 +206,33 @@ Page({
     })
   },
 
+  // 删除自己的行程
+  onDeleteTrip(e) {
+    const id = e.currentTarget.dataset.id
+    if (!id) return
+    wx.showModal({
+      title: '删除行程',
+      content: '删除后其他人将无法看到这条找搭子信息，确定删除吗？',
+      confirmText: '删除',
+      confirmColor: '#ef4444',
+      success: async (res) => {
+        if (!res.confirm) return
+        try {
+          const r = await api.deleteCompanion(id)
+          if (r && r.success) {
+            wx.showToast({ title: '已删除', icon: 'success' })
+            this.loadMyTrips()
+          } else {
+            wx.showToast({ title: (r && r.detail) || '删除失败', icon: 'none' })
+          }
+        } catch (err) {
+          console.error('删除行程失败', err)
+          wx.showToast({ title: '网络错误', icon: 'none' })
+        }
+      }
+    })
+  },
+
   goMyTrips() { /* 已在页面内展示 */ },
   goMyGuides() { wx.showToast({ title: '功能开发中', icon: 'none' }) },
   goMyMatches() { wx.showToast({ title: '功能开发中', icon: 'none' }) },

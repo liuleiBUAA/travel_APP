@@ -101,7 +101,10 @@
           <text class="trip-tag">{{item.budget_level || '经济'}}</text>
           <text class="trip-tag">{{item.good_at_photo || '不限'}}</text>
         </view>
-        <view class="trip-created">发布于 {{item.created_at || '未知'}}</view>
+        <view class="trip-footer">
+          <view class="trip-created">发布于 {{item.created_at || '未知'}}</view>
+          <view class="trip-delete" catchtap="onDeleteTrip" data-id="{{item.companion_id}}">删除</view>
+        </view>
       </view>
     </view>
   </view>
