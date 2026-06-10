@@ -355,6 +355,6 @@ Page({
     app.globalData.generatedRoute = route
     app.globalData.selectedCities = Array.isArray(route.cities) ? route.cities.slice() : []
     app.globalData.routeFromGuide = true
-    wx.switchTab({ url: '/pages/index/index' })
+    wx.navigateTo({ url: '/pages/index/index' })
   }
 })

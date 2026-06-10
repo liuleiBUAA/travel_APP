@@ -2,6 +2,7 @@
   "pages": [
     "pages/login/login",
     "pages/home/home",
+    "pages/companion/companion",
     "pages/index/index",
     "pages/guide/guide",
     "pages/match/match",
@@ -27,7 +28,7 @@
         "selectedIconPath": "images/tabbar/guide_active.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/companion/companion",
         "text": "找搭子",
         "iconPath": "images/tabbar/match.png",
         "selectedIconPath": "images/tabbar/match_active.png"

@@ -15,9 +15,9 @@ Page({
     wx.navigateTo({ url: '/pages/guide/guide' })
   },
 
-  // 找搭子 / 发布路线（tab 页，switchTab）
+  // 找搭子（tab 页，switchTab 到找搭子选择页）
   goPublish() {
-    wx.switchTab({ url: '/pages/index/index' })
+    wx.switchTab({ url: '/pages/companion/companion' })
   },
 
   // 浏览搭子（非 tab 页，navigateTo）
