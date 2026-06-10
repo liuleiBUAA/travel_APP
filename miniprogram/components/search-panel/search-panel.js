@@ -41,17 +41,30 @@ Component({
     companions: []
   },
 
+  lifetimes: {
+    attached() {
+      // 同页 tab 切换时只触发 attached、不触发 pageLifetimes.show，
+      // 故在此也加载一次，保证切到本 tab 能看到数据
+      this.refreshOnShow()
+    }
+  },
+
   pageLifetimes: {
     show() {
+      this.refreshOnShow()
+    }
+  },
+
+  methods: {
+    // show 时的刷新逻辑（attached 与 pageLifetimes.show 共用）
+    refreshOnShow() {
       const sc = app.globalData && Array.isArray(app.globalData.selectedCities)
         ? app.globalData.selectedCities
         : []
       this.setData({ selectedCities: sc })
       this.loadCompanions()
-    }
-  },
+    },
 
-  methods: {
     onSearchInput(e) {
       this.setData({ searchKeyword: e.detail.value })
     },

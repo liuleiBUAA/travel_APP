@@ -59,11 +59,26 @@ Component({
         this.setData({ selectedCities: g.selectedCities, currentRegion: g.currentRegion })
       }
       this.loadCountries(this.data.currentRegion)
+      // 同页 tab 切换时只触发 attached、不触发 pageLifetimes.show，
+      // 故在此也执行一次 show 逻辑，保证用户信息/带入路线正确
+      this.refreshOnShow()
     }
   },
 
   pageLifetimes: {
     show() {
+      this.refreshOnShow()
+    },
+
+    hide() {
+      // 同步到全局
+      app.globalData.selectedCities = this.data.selectedCities
+    }
+  },
+
+  methods: {
+    // show 时的刷新逻辑（attached 与 pageLifetimes.show 共用）
+    refreshOnShow() {
       // 同步用户信息，自动填充昵称
       if (app.globalData.userInfo) {
         this.setData({
@@ -87,13 +102,6 @@ Component({
       app.globalData.selectedCities = this.data.selectedCities
     },
 
-    hide() {
-      // 同步到全局
-      app.globalData.selectedCities = this.data.selectedCities
-    }
-  },
-
-  methods: {
     // ---- 输入模式切换 ----
     switchInputMode(e) {
       const mode = e.currentTarget.dataset.mode

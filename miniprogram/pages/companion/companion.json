@@ -1,5 +1,9 @@
 {
   "navigationBarTitleText": "找搭子",
   "navigationBarBackgroundColor": "#667eea",
-  "navigationBarTextStyle": "white"
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "publish-panel": "/components/publish-panel/publish-panel",
+    "search-panel": "/components/search-panel/search-panel"
+  }
 }

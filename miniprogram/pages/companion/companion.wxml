@@ -1,11 +1,13 @@
 <view class="container">
-  <!-- 模式切换（与做攻略一致：上方两个药丸 tab，点击进入对应页） -->
+  <!-- 模式切换（与做攻略一致：上方两个药丸 tab，同页切换） -->
   <view class="card">
     <view class="card-title">找搭子</view>
     <view class="mode-list">
-      <view class="mode-btn" bindtap="goPublish">📤 发布路线</view>
-      <view class="mode-btn" bindtap="goSearch">🔍 搜搭子</view>
+      <view class="mode-btn {{tab === 'publish' ? 'active' : ''}}" bindtap="switchTab" data-tab="publish">📤 发布路线</view>
+      <view class="mode-btn {{tab === 'search' ? 'active' : ''}}" bindtap="switchTab" data-tab="search">🔍 搜搭子</view>
     </view>
-    <view class="mode-hint">发布你的路线，或看看谁在等同行</view>
   </view>
+
+  <publish-panel wx:if="{{tab === 'publish'}}" />
+  <search-panel wx:if="{{tab === 'search'}}" />
 </view>

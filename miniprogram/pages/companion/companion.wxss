@@ -21,9 +21,3 @@
   color: #fff;
   border-color: var(--c-primary);
 }
-
-.mode-hint {
-  margin-top: 24rpx;
-  font-size: 24rpx;
-  color: var(--c-text-muted);
-}

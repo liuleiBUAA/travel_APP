@@ -1,11 +1,13 @@
 Page({
-  // 发布路线（非 tab 页，navigateTo）
-  goPublish() {
-    wx.navigateTo({ url: '/pages/index/index' })
+  data: {
+    // 'publish' = 发布路线，'search' = 搜搭子
+    tab: 'publish'
   },
 
-  // 搜搭子（非 tab 页，navigateTo）
-  goSearch() {
-    wx.navigateTo({ url: '/pages/match/match' })
+  switchTab(e) {
+    const tab = e.currentTarget.dataset.tab
+    if (tab !== this.data.tab) {
+      this.setData({ tab })
+    }
   }
 })
