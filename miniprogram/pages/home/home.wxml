@@ -28,7 +28,7 @@
   <view class="quick-row">
     <view class="quick-item" bindtap="goMatch">
       <text class="quick-emoji">🔍</text>
-      <text class="quick-text">浏览搭子</text>
+      <text class="quick-text">大家都去哪</text>
     </view>
     <view class="quick-item" bindtap="goProfile">
       <text class="quick-emoji">👤</text>
