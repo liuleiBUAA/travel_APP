@@ -1,8 +1,8 @@
 const api = require('../../utils/api')
 const app = getApp()
 
-// 登录成功后进入的主界面
-const HOME_URL = '/pages/index/index'
+// 登录成功后进入的主界面（首页）
+const HOME_URL = '/pages/home/home'
 
 Page({
   data: {

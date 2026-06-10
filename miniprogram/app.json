@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/login/login",
+    "pages/home/home",
     "pages/index/index",
     "pages/guide/guide",
     "pages/match/match",
@@ -20,19 +21,13 @@
     "borderStyle": "black",
     "list": [
       {
-        "pagePath": "pages/index/index",
-        "text": "发布行程",
-        "iconPath": "images/tabbar/publish.png",
-        "selectedIconPath": "images/tabbar/publish_active.png"
-      },
-      {
-        "pagePath": "pages/guide/guide",
-        "text": "生成攻略",
+        "pagePath": "pages/home/home",
+        "text": "首页",
         "iconPath": "images/tabbar/guide.png",
         "selectedIconPath": "images/tabbar/guide_active.png"
       },
       {
-        "pagePath": "pages/match/match",
+        "pagePath": "pages/index/index",
         "text": "找搭子",
         "iconPath": "images/tabbar/match.png",
         "selectedIconPath": "images/tabbar/match_active.png"

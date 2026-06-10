@@ -1,0 +1,38 @@
+<view class="home">
+  <!-- 顶部问候 -->
+  <view class="greeting">
+    <view class="greeting-hi">你好{{nickname ? '，' + nickname : ''}} 👋</view>
+    <view class="greeting-sub">今天想去哪里？</view>
+  </view>
+
+  <!-- 两大主线 -->
+  <view class="cards">
+    <!-- 做攻略 -->
+    <view class="big-card card-guide" bindtap="goGuide" hover-class="big-card-hover">
+      <view class="big-card-emoji">🗺️</view>
+      <view class="big-card-title">做攻略</view>
+      <view class="big-card-desc">选好目的地，自动生成 Day-by-Day 完整行程</view>
+      <view class="big-card-go">开始规划 ›</view>
+    </view>
+
+    <!-- 找搭子 -->
+    <view class="big-card card-match" bindtap="goPublish" hover-class="big-card-hover">
+      <view class="big-card-emoji">🤝</view>
+      <view class="big-card-title">找搭子</view>
+      <view class="big-card-desc">发布你的路线，匹配同期同路线的旅伴</view>
+      <view class="big-card-go">发布 / 匹配 ›</view>
+    </view>
+  </view>
+
+  <!-- 快捷入口 -->
+  <view class="quick-row">
+    <view class="quick-item" bindtap="goMatch">
+      <text class="quick-emoji">🔍</text>
+      <text class="quick-text">浏览搭子</text>
+    </view>
+    <view class="quick-item" bindtap="goProfile">
+      <text class="quick-emoji">👤</text>
+      <text class="quick-text">我的</text>
+    </view>
+  </view>
+</view>

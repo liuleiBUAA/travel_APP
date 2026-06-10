@@ -474,7 +474,7 @@ Page({
             cancelText: '稍后',
             success: (res) => {
               if (res.confirm) {
-                wx.switchTab({ url: '/pages/match/match' })
+                wx.navigateTo({ url: '/pages/match/match' })
               }
             }
           })
