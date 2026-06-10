@@ -4,28 +4,65 @@
   padding: 16rpx;
 }
 
-/* 模式切换 */
-.mode-list {
+/* 模式切换：两张大卡片 */
+.mode-cards {
   display: flex;
-  gap: 16rpx;
+  flex-direction: column;
+  gap: 20rpx;
+  margin-bottom: 20rpx;
 }
 
-.mode-btn {
-  flex: 1;
-  padding: 16rpx;
+.mode-card {
+  display: flex;
+  align-items: center;
+  gap: 24rpx;
   background: var(--c-card);
-  border: 2rpx solid var(--c-border);
-  border-radius: var(--radius-ctrl);
-  text-align: center;
-  font-size: 26rpx;
-  font-weight: 500;
-  color: var(--c-text-sub);
+  border: 3rpx solid var(--c-border);
+  border-radius: var(--radius-card);
+  padding: 32rpx 30rpx;
+  box-shadow: var(--shadow-card);
 }
 
-.mode-btn.active {
-  background: var(--grad-primary);
-  color: #fff;
+.mode-card-hover {
+  transform: scale(0.99);
+  opacity: 0.95;
+}
+
+.mode-card.active {
   border-color: var(--c-primary);
+  background: var(--c-soft);
+}
+
+.mode-card-emoji {
+  font-size: 60rpx;
+  flex-shrink: 0;
+}
+
+.mode-card-text {
+  flex: 1;
+}
+
+.mode-card-title {
+  font-size: 34rpx;
+  font-weight: 700;
+  color: var(--c-text);
+  margin-bottom: 8rpx;
+}
+
+.mode-card-desc {
+  font-size: 24rpx;
+  color: var(--c-text-muted);
+  line-height: 1.5;
+}
+
+.mode-card-check {
+  width: 44rpx;
+  height: 44rpx;
+  flex-shrink: 0;
+  color: var(--c-primary);
+  font-size: 36rpx;
+  font-weight: 700;
+  text-align: center;
 }
 
 /* 城市网格（知道去哪模式） */
