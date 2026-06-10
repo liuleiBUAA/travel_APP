@@ -2,51 +2,51 @@
    主题变量区  THEME START
    切换主题：把 miniprogram/themes/ 下任一主题文件的内容
    整段替换掉下面 THEME START ~ THEME END 之间的内容即可。
-   当前主题：B 紫色收敛版（theme-b-purple）
+   当前主题：C 明快旅行风（theme-c-travel）
    ============================================================ */
 page {
   /* 品牌色 */
-  --c-primary: #667eea;
-  --c-primary-2: #764ba2;
-  --grad-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --c-primary: #ff6b5c;
+  --c-primary-2: #ff8a5c;
+  --grad-primary: linear-gradient(135deg, #ff7b5c 0%, #ff5c8a 100%);
 
-  --c-accent: #667eea;
-  --grad-accent: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --c-accent: #2bb3c0;
+  --grad-accent: linear-gradient(135deg, #2bb3c0 0%, #1e95c4 100%);
 
   --c-success: #14b8a6;
-  --grad-success: linear-gradient(135deg, #14b8a6 0%, #38d9a9 100%);
+  --grad-success: linear-gradient(135deg, #2bd4a0 0%, #14b89a 100%);
 
-  --c-danger: #f5576c;
+  --c-danger: #ef4444;
 
   /* 背景 */
-  --c-bg: #f5f7fa;
+  --c-bg: #fef7f4;
   --c-card: #ffffff;
-  --c-soft: #f3f4fb;
-  --c-input-bg: #fafbfc;
+  --c-soft: #fff1ec;
+  --c-input-bg: #fffaf8;
 
   /* 文字 */
-  --c-text: #1f2433;
-  --c-text-sub: #5b6273;
-  --c-text-muted: #8a91a3;
-  --c-text-faint: #b7bdc9;
+  --c-text: #2a2320;
+  --c-text-sub: #6b5f59;
+  --c-text-muted: #a39690;
+  --c-text-faint: #cabfb9;
 
   /* 描边 */
-  --c-border: #e6e8ee;
-  --c-border-soft: #f0f1f4;
+  --c-border: #f0e3dd;
+  --c-border-soft: #f7eee9;
 
   /* 城市徽章 */
-  --c-badge-bg: #eef1fb;
-  --c-badge-text: #667eea;
+  --c-badge-bg: #e6f6f8;
+  --c-badge-text: #1e95c4;
 
   /* 匹配分数条 */
-  --c-score-route: #667eea;
-  --c-score-time: #14b8a6;
-  --c-score-pref: #f0a020;
+  --c-score-route: #ff6b5c;
+  --c-score-time: #2bb3c0;
+  --c-score-pref: #f59e0b;
 
   /* 圆角 / 阴影 */
-  --radius-card: 20rpx;
-  --radius-ctrl: 14rpx;
-  --shadow-card: 0 4rpx 18rpx rgba(30, 40, 80, 0.06);
+  --radius-card: 24rpx;
+  --radius-ctrl: 16rpx;
+  --shadow-card: 0 6rpx 22rpx rgba(255, 107, 92, 0.10);
 }
 /* ============================================================
    THEME END

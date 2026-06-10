@@ -11,15 +11,15 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#667eea",
+    "navigationBarBackgroundColor": "#ff6b5c",
     "navigationBarTitleText": "找搭子",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
-    "color": "#999",
-    "selectedColor": "#667eea",
-    "backgroundColor": "#fff",
-    "borderStyle": "black",
+    "color": "#999999",
+    "selectedColor": "#ff6b5c",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
     "list": [
       {
         "pagePath": "pages/home/home",

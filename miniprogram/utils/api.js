@@ -77,5 +77,8 @@ module.exports = {
   },
   getCompanionDetail(id) {
     return request(`/companions/${id}`)
+  },
+  deleteCompanion(id) {
+    return request(`/companions/${id}`, 'DELETE')
   }
 }
