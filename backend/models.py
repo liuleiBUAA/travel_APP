@@ -56,6 +56,7 @@ class Companion(Base):
     good_at_photo = Column(String(10), nullable=True, comment="拍照技能：一般/擅长/大师")
     user_male_count = Column(Integer, nullable=True, comment="男生人数")
     user_female_count = Column(Integer, nullable=True, comment="女生人数")
+    contact_wechat = Column(String(100), nullable=True, comment="联系方式（微信号），登录后在详情页可见")
 
     # 其他偏好（JSON存储，可选）
     preferences = Column(Text, nullable=True, comment="其他偏好")

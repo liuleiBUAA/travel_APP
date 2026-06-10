@@ -178,6 +178,7 @@ class CompanionPublishRequest(BaseModel):
     good_at_photo: Optional[str] = "不限"  # 拍照技能：不限/一般/擅长/大师
     user_male_count: int = 0  # 男生人数
     user_female_count: int = 1  # 女生人数
+    contact_wechat: Optional[str] = None  # 联系方式（微信号），详情页仅登录用户可见
 
     preferences: Optional[Dict[str, Any]] = None  # 其他偏好
 
@@ -458,6 +459,7 @@ async def publish_companion(request: CompanionPublishRequest, current_user: User
             good_at_photo=request.good_at_photo,
             user_male_count=request.user_male_count,
             user_female_count=request.user_female_count,
+            contact_wechat=(request.contact_wechat or '').strip()[:100] or None,
             preferences=json.dumps(request.preferences or {}, ensure_ascii=False)
         )
 
@@ -841,12 +843,19 @@ async def get_companion_detail(companion_id: int, current_user: Optional[User] =
         # 从 User 表获取最新昵称
         display_name = _get_display_name(db, companion.user_id, companion.user_name)
 
+        # 联系方式仅登录用户可见，未登录返回 None（前端显示"登录后查看"）
+        contact = getattr(companion, "contact_wechat", None)
+        contact_visible = current_user is not None
+
         return {
             "success": True,
             "data": {
                 "companion_id": companion.id,
                 "user_id": companion.user_id,
                 "user_name": display_name,
+                "contact_wechat": contact if contact_visible else None,
+                "has_contact": bool(contact),
+                "is_mine": current_user is not None and str(current_user.id) == str(companion.user_id),
                 "route": json.loads(companion.route_json),
                 "travel_date": companion.travel_date.strftime("%Y-%m-%d"),
                 "duration_days": companion.duration_days,
@@ -870,6 +879,29 @@ async def get_companion_detail(companion_id: int, current_user: Optional[User] =
         raise HTTPException(500, f"查询失败: {str(e)}")
 
 
+@app.delete("/api/companions/{companion_id}")
+async def delete_companion(companion_id: int, current_user: User = Depends(get_current_user_from_token)):
+    """删除自己发布的行程"""
+    db = next(get_db())
+    try:
+        from models import Companion
+
+        companion = db.query(Companion).filter(Companion.id == companion_id).first()
+        if not companion:
+            raise HTTPException(404, "行程不存在")
+        if str(companion.user_id) != str(current_user.id):
+            raise HTTPException(403, "只能删除自己发布的行程")
+
+        db.delete(companion)
+        db.commit()
+        return {"success": True, "message": "已删除"}
+    except HTTPException:
+        raise
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(500, f"删除失败: {str(e)}")
+    finally:
+        db.close()
 
 
 @app.get("/api/destinations/popular")
