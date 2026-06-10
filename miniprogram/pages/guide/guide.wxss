@@ -4,6 +4,91 @@
   padding: 16rpx;
 }
 
+/* 模式切换 */
+.mode-list {
+  display: flex;
+  gap: 16rpx;
+}
+
+.mode-btn {
+  flex: 1;
+  padding: 16rpx;
+  background: var(--c-card);
+  border: 2rpx solid var(--c-border);
+  border-radius: var(--radius-ctrl);
+  text-align: center;
+  font-size: 26rpx;
+  font-weight: 500;
+  color: var(--c-text-sub);
+}
+
+.mode-btn.active {
+  background: var(--grad-primary);
+  color: #fff;
+  border-color: var(--c-primary);
+}
+
+/* 城市网格（知道去哪模式） */
+.city-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12rpx;
+}
+
+.city-item {
+  width: calc(33% - 8rpx);
+  padding: 16rpx 10rpx;
+  background: var(--c-soft);
+  border: 1rpx solid var(--c-border);
+  border-radius: 10rpx;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.city-item.selected {
+  background: var(--c-primary);
+  color: #fff;
+  border-color: var(--c-primary);
+}
+
+.city-item.selected .city-info {
+  color: rgba(255,255,255,0.8);
+}
+
+.city-name {
+  font-size: 26rpx;
+  font-weight: 500;
+}
+
+.city-info {
+  font-size: 20rpx;
+  color: var(--c-text-muted);
+  margin-top: 4rpx;
+}
+
+.clear-btn {
+  color: var(--c-danger);
+  font-size: 24rpx;
+}
+
+/* 折叠条 */
+.more-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22rpx 24rpx;
+  background: var(--c-soft);
+  border-radius: var(--radius-ctrl);
+  font-size: 28rpx;
+  color: var(--c-text-sub);
+  margin: 24rpx 0;
+}
+
+.more-arrow {
+  color: var(--c-primary);
+  font-size: 26rpx;
+}
+
 .region-list {
   display: flex;
   flex-wrap: wrap;

@@ -3,7 +3,13 @@ const app = getApp()
 
 Page({
   data: {
+    guideMode: 'recommend',   // 'recommend' 帮我推荐 | 'pick' 知道去哪
     selectedCities: [],
+    // 「知道去哪」模式：自己选城
+    pickCountries: [],
+    pickCurrentCountry: '',
+    pickCities: [],
+    showRouteOptions: false,  // 路线高级选项折叠
     // 推荐
     monthOptions: [
       { value: 1, label: '1月 - 冬季' }, { value: 2, label: '2月 - 冬季' },
@@ -217,6 +223,75 @@ Page({
     this.setData({ selectedCities: merged })
     app.globalData.selectedCities = merged
     wx.showToast({ title: `已添加${cities.length}个城市`, icon: 'success' })
+  },
+
+  // ---- 模式切换 ----
+  switchGuideMode(e) {
+    const mode = e.currentTarget.dataset.mode
+    this.setData({ guideMode: mode })
+    if (mode === 'pick' && this.data.pickCountries.length === 0) {
+      this.loadPickCountries(this.data.regionOptions.find(r => r.value === this.data.recommendRegion).cn)
+    }
+  },
+
+  toggleRouteOptions() {
+    this.setData({ showRouteOptions: !this.data.showRouteOptions })
+  },
+
+  // ---- 「知道去哪」模式：自己选城（区域→国家→城市）----
+  selectPickRegion(e) {
+    const region = e.currentTarget.dataset.region
+    const opt = this.data.regionOptions.find(r => r.value === region)
+    this.setData({ recommendRegion: region, pickCurrentCountry: '', pickCities: [], pickCountries: [] })
+    this.loadPickCountries(opt.cn)
+  },
+
+  async loadPickCountries(regionCN) {
+    try {
+      const res = await api.getCountries(regionCN)
+      this.setData({ pickCountries: (res && res.success && Array.isArray(res.countries)) ? res.countries : [] })
+    } catch (e) {
+      this.setData({ pickCountries: [] })
+    }
+  },
+
+  selectPickCountry(e) {
+    const country = e.currentTarget.dataset.country
+    this.setData({ pickCurrentCountry: country })
+    this.loadPickCities(country)
+  },
+
+  async loadPickCities(country) {
+    const regionCN = this.data.regionOptions.find(r => r.value === this.data.recommendRegion).cn
+    try {
+      const res = await api.getCities(regionCN, country, 16)
+      this.setData({ pickCities: (res && res.success && Array.isArray(res.cities)) ? res.cities : [] })
+    } catch (e) {
+      this.setData({ pickCities: [] })
+    }
+  },
+
+  togglePickCity(e) {
+    const name = e.currentTarget.dataset.name
+    let list = this.data.selectedCities.slice()
+    const idx = list.indexOf(name)
+    if (idx > -1) list.splice(idx, 1)
+    else list.push(name)
+    this.setData({ selectedCities: list })
+    app.globalData.selectedCities = list
+  },
+
+  removeSelectedCity(e) {
+    const name = e.currentTarget.dataset.name
+    const list = this.data.selectedCities.filter(c => c !== name)
+    this.setData({ selectedCities: list })
+    app.globalData.selectedCities = list
+  },
+
+  clearSelectedCities() {
+    this.setData({ selectedCities: [] })
+    app.globalData.selectedCities = []
+    app.globalData.generatedRoute = null
   },
 
   // ---- 路线生成 ----
