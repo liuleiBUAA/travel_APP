@@ -44,7 +44,6 @@
       <image class="avatar" src="{{userInfo.avatar_url || '/images/default_avatar.png'}}" mode="aspectFill" />
       <view class="profile-info">
         <text class="nickname">{{userInfo.nickname || userInfo.nickName || '旅行者'}}</text>
-        <text class="user-id">ID: {{userId || ''}}</text>
       </view>
     </view>
 
