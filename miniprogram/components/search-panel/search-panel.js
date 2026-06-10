@@ -13,7 +13,8 @@ Component({
     searchDone: false,
     searchResults: [],
     selectedCities: [],
-    matchDate: '2026-05-15',
+    matchDate: '',
+    todayStr: '',
     flexOptions: [
       { value: 3, label: '±3天' },
       { value: 5, label: '±5天' },
@@ -43,6 +44,12 @@ Component({
 
   lifetimes: {
     attached() {
+      // 默认匹配日期 = 30天后，日期选择下限 = 今天
+      const fmt = (dt) => `${dt.getFullYear()}-${String(dt.getMonth() + 1).padStart(2, '0')}-${String(dt.getDate()).padStart(2, '0')}`
+      const now = new Date()
+      const defaultDate = new Date(now.getTime() + 30 * 24 * 3600 * 1000)
+      this.setData({ todayStr: fmt(now), matchDate: fmt(defaultDate) })
+
       // 同页 tab 切换时只触发 attached、不触发 pageLifetimes.show，
       // 故在此也加载一次。置标志位，避免独立页里 attached+show 重复请求
       this._justAttached = true

@@ -28,7 +28,9 @@ Component({
     manualPreviewText: '',
     // 表单
     userName: '',
-    travelDate: '2026-05-15',
+    travelDate: '',
+    todayStr: '',
+    contactWechat: '',
     peopleMin: '1',
     peopleMax: '2',
     genderOptions: ['不限', '男', '女', '情侣'],
@@ -54,6 +56,12 @@ Component({
 
   lifetimes: {
     attached() {
+      // 默认出发日期 = 30天后，日期选择下限 = 今天
+      const fmt = (dt) => `${dt.getFullYear()}-${String(dt.getMonth() + 1).padStart(2, '0')}-${String(dt.getDate()).padStart(2, '0')}`
+      const now = new Date()
+      const defaultDate = new Date(now.getTime() + 30 * 24 * 3600 * 1000)
+      this.setData({ todayStr: fmt(now), travelDate: fmt(defaultDate) })
+
       const g = app.globalData
       if (g.selectedCities.length > 0) {
         this.setData({ selectedCities: g.selectedCities, currentRegion: g.currentRegion })
@@ -476,7 +484,8 @@ Component({
           budget_level: d.budgetSelected.join(','),
           good_at_photo: d.photoOptions[d.photoIndex],
           user_male_count: parseInt(d.userMaleCount),
-          user_female_count: parseInt(d.userFemaleCount)
+          user_female_count: parseInt(d.userFemaleCount),
+          contact_wechat: (d.contactWechat || '').trim() || null
         })
 
         wx.hideLoading()

@@ -182,9 +182,15 @@
   <!-- 必填：出发日期 -->
   <view class="form-group">
     <view class="form-label">出发日期 <text class="req-mark">*必填</text></view>
-    <picker mode="date" value="{{travelDate}}" bindchange="onDateChange">
+    <picker mode="date" value="{{travelDate}}" start="{{todayStr}}" bindchange="onDateChange">
       <view class="form-input">{{travelDate}}</view>
     </picker>
+  </view>
+
+  <!-- 选填：微信号 -->
+  <view class="form-group">
+    <view class="form-label">微信号（选填）</view>
+    <input class="form-input" value="{{contactWechat}}" bindinput="onInput" data-field="contactWechat" placeholder="留下微信号，搭子登录后可在详情页看到" maxlength="50" />
   </view>
 
   <!-- 必填提示：地点在上方选择 -->

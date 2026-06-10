@@ -4,60 +4,99 @@
   </view>
 
   <view wx:else class="detail-content">
-    <!-- 路线城市 -->
+    <!-- 路线 hero -->
     <view class="card route-card">
-      <view class="card-title">路线城市</view>
+      <view class="route-publisher">
+        <view class="publisher-avatar">{{detail.user_name ? detail.user_name[0] : '旅'}}</view>
+        <view class="publisher-info">
+          <view class="publisher-name">{{detail.user_name}}</view>
+          <view class="publisher-meta">{{detail.travel_date}} 出发 · {{detail.duration_days}}天 · ±{{detail.flexibility_days}}天</view>
+        </view>
+      </view>
       <view class="cities-list">
         <block wx:for="{{route.cities}}" wx:key="index">
           <text class="city">{{item}}</text>
           <text wx:if="{{index < route.cities.length - 1}}" class="arrow">→</text>
         </block>
       </view>
+      <view class="route-stats">
+        <view class="stat-item">
+          <view class="stat-num">{{route.city_count || route.cities.length}}</view>
+          <view class="stat-label">城市</view>
+        </view>
+        <view class="stat-item">
+          <view class="stat-num">{{detail.duration_days}}</view>
+          <view class="stat-label">天数</view>
+        </view>
+        <view class="stat-item">
+          <view class="stat-num">{{detail.current_people}}</view>
+          <view class="stat-label">现有成员</view>
+        </view>
+      </view>
     </view>
 
-    <!-- 基本信息 -->
-    <view class="card info-card">
-      <view class="card-title">基本信息</view>
-      <view class="info-row">
-        <text class="label">发布人：</text>
-        <text class="value">{{detail.user_name}}</text>
+    <!-- 联系 / 分享操作区 -->
+    <view class="card action-card">
+      <!-- 有联系方式且已登录可见 -->
+      <view wx:if="{{detail.contact_wechat}}" class="contact-row" bindtap="copyContact">
+        <view class="contact-left">
+          <text class="contact-icon">💬</text>
+          <view>
+            <view class="contact-label">微信号</view>
+            <view class="contact-value">{{detail.contact_wechat}}</view>
+          </view>
+        </view>
+        <view class="contact-copy">复制</view>
       </view>
-      <view class="info-row">
-        <text class="label">出发日期：</text>
-        <text class="value">{{detail.travel_date}}</text>
+      <!-- 有联系方式但未登录 -->
+      <view wx:elif="{{detail.has_contact}}" class="contact-row contact-locked" bindtap="goLogin">
+        <view class="contact-left">
+          <text class="contact-icon">🔒</text>
+          <view class="contact-label">登录后查看对方微信号</view>
+        </view>
+        <view class="contact-copy">去登录</view>
       </view>
-      <view class="info-row">
-        <text class="label">行程天数：</text>
-        <text class="value">{{detail.duration_days}}天</text>
+      <!-- 发布者没留联系方式 -->
+      <view wx:else class="contact-row contact-none">
+        <view class="contact-left">
+          <text class="contact-icon">💬</text>
+          <view class="contact-label">对方未留联系方式，分享给好友帮TA扩散吧</view>
+        </view>
       </view>
-      <view class="info-row">
-        <text class="label">时间灵活度：</text>
-        <text class="value">±{{detail.flexibility_days}}天</text>
-      </view>
-      <view class="info-row">
-        <text class="label">人数组成：</text>
-        <text class="value">{{detail.current_people}}</text>
+
+      <view class="action-btns">
+        <button class="btn-share" open-type="share">
+          <text>↗️ 分享这条行程</text>
+        </button>
+        <button wx:if="{{detail.is_mine}}" class="btn-delete" bindtap="onDelete">删除</button>
       </view>
     </view>
 
     <!-- 出行偏好 -->
     <view class="card preference-card">
       <view class="card-title">出行偏好</view>
+      <view class="pref-tags">
+        <view class="pref-tag">🚄 {{detail.transport_mode || '不限'}}</view>
+        <view class="pref-tag">🏨 {{detail.accommodation || '不限'}}</view>
+        <view class="pref-tag">💰 {{detail.budget_level || '经济'}}</view>
+        <view class="pref-tag">📷 {{detail.good_at_photo || '不限'}}</view>
+      </view>
+    </view>
+
+    <!-- 找搭子需求 -->
+    <view class="card seeking-card">
+      <view class="card-title">想找的搭子</view>
       <view class="info-row">
-        <text class="label">交通方式：</text>
-        <text class="value">{{detail.transport_mode}}</text>
+        <text class="label">人数：</text>
+        <text class="value">{{seeking.people_min || 1}}-{{seeking.people_max || 2}}人</text>
       </view>
       <view class="info-row">
-        <text class="label">住宿安排：</text>
-        <text class="value">{{detail.accommodation}}</text>
+        <text class="label">性别：</text>
+        <text class="value">{{seeking.gender || '不限'}}</text>
       </view>
-      <view class="info-row">
-        <text class="label">消费水平：</text>
-        <text class="value">{{detail.budget_level}}</text>
-      </view>
-      <view class="info-row">
-        <text class="label">拍照技能：</text>
-        <text class="value">{{detail.good_at_photo}}</text>
+      <view wx:if="{{seeking.age_range}}" class="info-row">
+        <text class="label">年龄：</text>
+        <text class="value">{{seeking.age_range}}</text>
       </view>
     </view>
 
@@ -67,44 +106,23 @@
       <view class="itinerary-list">
         <block wx:for="{{route.itinerary}}" wx:key="day">
           <view class="day-item">
-            <view class="day-header">第{{item.day}}天</view>
+            <view class="day-header">Day {{item.day}}<text wx:if="{{item.city || item.stay}}" class="day-city"> · {{item.city || item.stay}}</text></view>
             <view class="day-content">
-              <view wx:if="{{item.cities}}" class="day-row">
-                <text class="day-label">城市：</text>
-                <text class="day-value">{{item.cities}}</text>
-              </view>
-              <view wx:if="{{item.activities}}" class="day-row">
-                <text class="day-label">活动：</text>
-                <text class="day-value">{{item.activities}}</text>
+              <view wx:if="{{item.activity || item.activities}}" class="day-row">
+                <text class="day-label">活动</text>
+                <text class="day-value">{{item.activity || item.activities}}</text>
               </view>
               <view wx:if="{{item.transport}}" class="day-row">
-                <text class="day-label">交通：</text>
+                <text class="day-label">交通</text>
                 <text class="day-value">{{item.transport}}</text>
               </view>
               <view wx:if="{{item.accommodation}}" class="day-row">
-                <text class="day-label">住宿：</text>
+                <text class="day-label">住宿</text>
                 <text class="day-value">{{item.accommodation}}</text>
               </view>
             </view>
           </view>
         </block>
-      </view>
-    </view>
-
-    <!-- 找搭子需求 -->
-    <view class="card seeking-card">
-      <view class="card-title">找搭子需求</view>
-      <view class="info-row">
-        <text class="label">找搭子人数：</text>
-        <text class="value">{{seeking.people_min || 1}}-{{seeking.people_max || 2}}人</text>
-      </view>
-      <view class="info-row">
-        <text class="label">性别要求：</text>
-        <text class="value">{{seeking.gender || '不限'}}</text>
-      </view>
-      <view wx:if="{{seeking.age_range}}" class="info-row">
-        <text class="label">年龄范围：</text>
-        <text class="value">{{seeking.age_range}}</text>
       </view>
     </view>
   </view>
