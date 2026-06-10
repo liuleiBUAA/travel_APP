@@ -1,27 +1,54 @@
 <view class="home">
-  <!-- 顶部问候 -->
-  <view class="greeting">
+  <!-- 顶部 hero -->
+  <view class="hero">
+    <view class="hero-deco deco-1">✈️</view>
+    <view class="hero-deco deco-2">🌍</view>
     <view class="greeting-hi">你好{{nickname ? '，' + nickname : ''}} 👋</view>
-    <view class="greeting-sub">今天想去哪里？</view>
+    <view class="greeting-sub">下一段旅程，从这里开始</view>
   </view>
 
   <!-- 两大主线 -->
   <view class="cards">
     <!-- 做攻略 -->
     <view class="big-card card-guide" bindtap="goGuide" hover-class="big-card-hover">
-      <view class="big-card-emoji">🗺️</view>
-      <view class="big-card-title">做攻略</view>
-      <view class="big-card-desc">选好目的地，自动生成 Day-by-Day 完整行程</view>
+      <view class="big-card-body">
+        <view class="big-card-emoji">🗺️</view>
+        <view class="big-card-text">
+          <view class="big-card-title">做攻略</view>
+          <view class="big-card-desc">选好目的地，自动生成 Day-by-Day 行程</view>
+        </view>
+      </view>
       <view class="big-card-go">开始规划 ›</view>
     </view>
 
     <!-- 找搭子 -->
     <view class="big-card card-match" bindtap="goPublish" hover-class="big-card-hover">
-      <view class="big-card-emoji">🤝</view>
-      <view class="big-card-title">找搭子</view>
-      <view class="big-card-desc">发布你的路线，匹配同期同路线的旅伴</view>
+      <view class="big-card-body">
+        <view class="big-card-emoji">🤝</view>
+        <view class="big-card-text">
+          <view class="big-card-title">找搭子</view>
+          <view class="big-card-desc">发布路线，匹配同期同路线的旅伴</view>
+        </view>
+      </view>
       <view class="big-card-go">发布 / 匹配 ›</view>
     </view>
+  </view>
+
+  <!-- 最新搭子动态 -->
+  <view class="recent-section" wx:if="{{recent.length > 0}}">
+    <view class="section-header">
+      <text class="section-title">最新找搭子</text>
+      <text class="section-more" bindtap="goMatch">查看全部 ›</text>
+    </view>
+    <scroll-view scroll-x class="recent-scroll" show-scrollbar="{{false}}">
+      <view class="recent-row">
+        <view wx:for="{{recent}}" wx:key="companion_id" class="recent-card" bindtap="goDetail" data-id="{{item.companion_id}}">
+          <view class="recent-cities">{{item.citiesText}}</view>
+          <view class="recent-meta">{{item.travel_date}} · {{item.duration_days}}天</view>
+          <view class="recent-user">{{item.user_name}} · {{item.current_people}}</view>
+        </view>
+      </view>
+    </scroll-view>
   </view>
 
   <!-- 快捷入口 -->
@@ -32,7 +59,7 @@
     </view>
     <view class="quick-item" bindtap="goProfile">
       <text class="quick-emoji">👤</text>
-      <text class="quick-text">我的</text>
+      <text class="quick-text">我的行程</text>
     </view>
   </view>
 </view>

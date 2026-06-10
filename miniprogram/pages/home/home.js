@@ -1,13 +1,42 @@
+const api = require('../../utils/api')
 const app = getApp()
 
 Page({
   data: {
-    nickname: ''
+    nickname: '',
+    recent: []
   },
 
   onShow() {
     const u = app.globalData.userInfo
     this.setData({ nickname: (u && (u.nickname || u.nickName)) || '' })
+    this.loadRecent()
+  },
+
+  // 最新找搭子动态（横滑卡片）
+  async loadRecent() {
+    try {
+      const res = await api.listCompanions(6)
+      if (res.success && Array.isArray(res.data)) {
+        const recent = res.data.map(c => {
+          const cities = (c.route && Array.isArray(c.route.cities)) ? c.route.cities : []
+          return {
+            ...c,
+            citiesText: cities.slice(0, 3).join(' → ') + (cities.length > 3 ? '…' : '')
+          }
+        })
+        this.setData({ recent })
+      }
+    } catch (err) {
+      console.error('加载最新发布失败', err)
+    }
+  },
+
+  goDetail(e) {
+    const id = e.currentTarget.dataset.id
+    if (id) {
+      wx.navigateTo({ url: `/pages/trip-detail/trip-detail?id=${id}` })
+    }
   },
 
   // 做攻略（非 tab 页，navigateTo）
