@@ -58,6 +58,7 @@ from services.route_service import RouteService
 from services.match_service import MatchService
 from services.auth_service import (wx_code2session, login_or_register, get_current_user,
                                     register_web, login_web, update_profile, verify_token)
+from services.wx_service import msg_sec_check
 from models import User
 
 app = FastAPI(title="找搭子小程序API", version="1.0.0")
@@ -230,6 +231,39 @@ class UpdateProfileRequest(BaseModel):
     nickname: Optional[str] = None
     gender: Optional[str] = None
     avatar_url: Optional[str] = None
+    # 旅行名片字段（可选）
+    bio: Optional[str] = None
+    budget_level: Optional[str] = None
+    good_at_photo: Optional[str] = None
+    accommodation_pref: Optional[str] = None
+    driving: Optional[str] = None
+    tags: Optional[str] = None
+
+
+# 名片选择字段的合法值（"" 表示清空）
+PROFILE_FIELD_OPTIONS = {
+    "budget_level": ["穷游", "经济", "舒适", "轻奢"],
+    "good_at_photo": ["一般", "擅长", "大师"],
+    "accommodation_pref": ["不限", "可拼房", "各住各的"],
+    "driving": ["不会开车", "会开但尽量不开", "愿意当司机"],
+}
+
+
+def _profile_card_dict(user: User) -> dict:
+    """用户旅行名片字段（对外展示用）"""
+    return {
+        "bio": getattr(user, "bio", None),
+        "budget_level": getattr(user, "budget_level", None),
+        "good_at_photo": getattr(user, "good_at_photo", None),
+        "accommodation_pref": getattr(user, "accommodation_pref", None),
+        "driving": getattr(user, "driving", None),
+        "tags": [t for t in (getattr(user, "tags", None) or "").split(",") if t],
+    }
+
+
+class CommentCreateRequest(BaseModel):
+    """发表留言请求"""
+    content: str
 
 
 # ==================== API路由 ====================
@@ -283,7 +317,9 @@ async def get_me(current_user: User = Depends(get_current_user_from_token)):
         "success": True,
         "user_id": current_user.id,
         "nickname": current_user.nickname,
-        "avatar_url": current_user.avatar_url
+        "avatar_url": current_user.avatar_url,
+        "gender": current_user.gender,
+        **_profile_card_dict(current_user)
     }
 
 
@@ -319,21 +355,57 @@ async def api_update_profile(req: UpdateProfileRequest, current_user: User = Dep
     db = next(get_db())
     try:
         # 🔒 安全修复：从鉴权中间件获取的 current_user 更新资料
+        # current_user 来自已关闭的session，需在本session重新查询
+        user = db.query(User).filter(User.id == current_user.id).first()
+        if not user:
+            raise HTTPException(status_code=401, detail="用户不存在")
+
         if req.nickname:
-            current_user.nickname = req.nickname
+            user.nickname = req.nickname
         if req.gender:
-            current_user.gender = req.gender
+            user.gender = req.gender
         if req.avatar_url:
-            current_user.avatar_url = req.avatar_url
+            user.avatar_url = req.avatar_url
+
+        # 旅行名片：bio 过内容安全检测
+        if req.bio is not None:
+            bio = req.bio.strip()
+            if len(bio) > 200:
+                raise HTTPException(status_code=400, detail="自我介绍最多200字")
+            if bio:
+                check = msg_sec_check(bio, user.openid, scene=1)
+                if not check["pass"]:
+                    raise HTTPException(status_code=400, detail="自我介绍包含违规内容，请修改")
+            user.bio = bio or None
+
+        # 名片选择字段：校验合法值（传 "" 清空）
+        for field, options in PROFILE_FIELD_OPTIONS.items():
+            value = getattr(req, field)
+            if value is not None:
+                if value and value not in options:
+                    raise HTTPException(status_code=400, detail=f"{field} 取值无效")
+                setattr(user, field, value or None)
+
+        if req.tags is not None:
+            tag_list = [t.strip() for t in req.tags.split(",") if t.strip()]
+            if len(tag_list) > 10:
+                raise HTTPException(status_code=400, detail="标签最多10个")
+            user.tags = ",".join(tag_list) or None
+
         db.commit()
+        db.refresh(user)
 
         return {
             "success": True,
-            "user_id": current_user.id,
-            "nickname": current_user.nickname,
-            "avatar_url": current_user.avatar_url,
-            "gender": getattr(current_user, 'gender', None)
+            "user_id": user.id,
+            "nickname": user.nickname,
+            "avatar_url": user.avatar_url,
+            "gender": user.gender,
+            **_profile_card_dict(user)
         }
+    except HTTPException:
+        db.rollback()
+        raise
     except Exception as e:
         db.rollback()
         raise HTTPException(status_code=400, detail=str(e))
@@ -843,6 +915,20 @@ async def get_companion_detail(companion_id: int, current_user: Optional[User] =
         # 从 User 表获取最新昵称
         display_name = _get_display_name(db, companion.user_id, companion.user_name)
 
+        # 作者旅行名片（供详情页作者卡片渲染）
+        author = None
+        try:
+            owner = db.query(User).filter(User.id == int(companion.user_id)).first()
+            if owner:
+                author = {
+                    "user_id": owner.id,
+                    "nickname": owner.nickname,
+                    "avatar_url": owner.avatar_url,
+                    **_profile_card_dict(owner)
+                }
+        except (ValueError, TypeError):
+            pass
+
         # 联系方式仅登录用户可见，未登录返回 None（前端显示"登录后查看"）
         contact = getattr(companion, "contact_wechat", None)
         contact_visible = current_user is not None
@@ -853,6 +939,7 @@ async def get_companion_detail(companion_id: int, current_user: Optional[User] =
                 "companion_id": companion.id,
                 "user_id": companion.user_id,
                 "user_name": display_name,
+                "author": author,
                 "contact_wechat": contact if contact_visible else None,
                 "has_contact": bool(contact),
                 "is_mine": current_user is not None and str(current_user.id) == str(companion.user_id),
@@ -893,6 +980,161 @@ async def delete_companion(companion_id: int, current_user: User = Depends(get_c
             raise HTTPException(403, "只能删除自己发布的行程")
 
         db.delete(companion)
+        db.commit()
+        return {"success": True, "message": "已删除"}
+    except HTTPException:
+        raise
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(500, f"删除失败: {str(e)}")
+    finally:
+        db.close()
+
+
+# ==================== 用户主页 ====================
+
+@app.get("/api/users/{user_id}/profile")
+async def get_user_profile(user_id: int):
+    """用户公开主页：昵称/头像/性别/旅行名片/发布数（无需登录）"""
+    db = next(get_db())
+    try:
+        from models import Companion
+
+        user = db.query(User).filter(User.id == user_id).first()
+        if not user:
+            raise HTTPException(404, "用户不存在")
+
+        companion_count = db.query(Companion).filter(
+            Companion.user_id == str(user.id)
+        ).count()
+
+        return {
+            "success": True,
+            "data": {
+                "user_id": user.id,
+                "nickname": user.nickname,
+                "avatar_url": user.avatar_url,
+                "gender": user.gender,
+                "joined_at": user.created_at.strftime("%Y-%m") if user.created_at else None,
+                "companion_count": companion_count,
+                **_profile_card_dict(user)
+            }
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(500, f"查询失败: {str(e)}")
+    finally:
+        db.close()
+
+
+# ==================== 帖子留言 ====================
+
+@app.get("/api/companions/{companion_id}/comments")
+async def list_comments(companion_id: int, current_user: Optional[User] = Depends(get_optional_user)):
+    """留言列表（公开），按时间正序，附带留言者最新昵称头像"""
+    db = next(get_db())
+    try:
+        from models import Comment, Companion
+
+        if not db.query(Companion).filter(Companion.id == companion_id).first():
+            raise HTTPException(404, "行程不存在")
+
+        comments = db.query(Comment).filter(
+            Comment.companion_id == companion_id
+        ).order_by(Comment.created_at.asc(), Comment.id.asc()).all()
+
+        # 批量取留言者信息，避免 N+1
+        uids = {int(c.user_id) for c in comments if str(c.user_id).isdigit()}
+        users = {u.id: u for u in db.query(User).filter(User.id.in_(uids)).all()} if uids else {}
+
+        items = []
+        for c in comments:
+            u = users.get(int(c.user_id)) if str(c.user_id).isdigit() else None
+            items.append({
+                "comment_id": c.id,
+                "user_id": c.user_id,
+                "nickname": u.nickname if u else "旅行者",
+                "avatar_url": u.avatar_url if u else None,
+                "content": c.content,
+                "is_mine": current_user is not None and str(current_user.id) == str(c.user_id),
+                "created_at": c.created_at.strftime("%Y-%m-%d %H:%M") if c.created_at else ""
+            })
+
+        return {"success": True, "data": items, "total": len(items)}
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(500, f"查询失败: {str(e)}")
+    finally:
+        db.close()
+
+
+@app.post("/api/companions/{companion_id}/comments")
+async def create_comment(companion_id: int, req: CommentCreateRequest,
+                         current_user: User = Depends(get_current_user_from_token)):
+    """发表留言（需登录），内容过微信 msgSecCheck"""
+    content = (req.content or "").strip()
+    if not content:
+        raise HTTPException(400, "留言内容不能为空")
+    if len(content) > 500:
+        raise HTTPException(400, "留言最多500字")
+
+    check = msg_sec_check(content, current_user.openid, scene=2)
+    if not check["pass"]:
+        raise HTTPException(400, "留言包含违规内容，请修改")
+
+    db = next(get_db())
+    try:
+        from models import Comment, Companion
+
+        if not db.query(Companion).filter(Companion.id == companion_id).first():
+            raise HTTPException(404, "行程不存在")
+
+        comment = Comment(
+            companion_id=companion_id,
+            user_id=str(current_user.id),
+            content=content
+        )
+        db.add(comment)
+        db.commit()
+        db.refresh(comment)
+
+        return {
+            "success": True,
+            "data": {
+                "comment_id": comment.id,
+                "user_id": comment.user_id,
+                "nickname": current_user.nickname,
+                "avatar_url": current_user.avatar_url,
+                "content": comment.content,
+                "is_mine": True,
+                "created_at": comment.created_at.strftime("%Y-%m-%d %H:%M") if comment.created_at else ""
+            }
+        }
+    except HTTPException:
+        raise
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(500, f"留言失败: {str(e)}")
+    finally:
+        db.close()
+
+
+@app.delete("/api/comments/{comment_id}")
+async def delete_comment(comment_id: int, current_user: User = Depends(get_current_user_from_token)):
+    """删除自己的留言"""
+    db = next(get_db())
+    try:
+        from models import Comment
+
+        comment = db.query(Comment).filter(Comment.id == comment_id).first()
+        if not comment:
+            raise HTTPException(404, "留言不存在")
+        if str(comment.user_id) != str(current_user.id):
+            raise HTTPException(403, "只能删除自己的留言")
+
+        db.delete(comment)
         db.commit()
         return {"success": True, "message": "已删除"}
     except HTTPException:
