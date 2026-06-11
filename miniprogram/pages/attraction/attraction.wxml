@@ -1,0 +1,21 @@
+<view class="container">
+  <view wx:if="{{loading}}" class="loading-text">加载中...</view>
+  <view wx:elif="{{errorMsg}}" class="msg-error">{{errorMsg}}</view>
+
+  <block wx:elif="{{playbook}}">
+    <view class="card">
+      <view class="pb-title">{{playbook.name}}</view>
+      <view class="pb-meta">
+        <text wx:if="{{playbook.city}}">📍 {{playbook.country}} · {{playbook.city}}</text>
+        <text wx:if="{{playbook.duration}}">⏱ 建议{{playbook.duration}}</text>
+      </view>
+      <view class="pb-summary">{{playbook.summary}}</view>
+      <view wx:if="{{playbook.best_time}}" class="pb-best-time">🗓 {{playbook.best_time}}</view>
+    </view>
+
+    <view wx:for="{{playbook.sections}}" wx:key="title" class="card">
+      <view class="pb-section-title">{{item.title}}</view>
+      <view class="pb-section-content">{{item.content}}</view>
+    </view>
+  </block>
+</view>

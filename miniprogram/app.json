@@ -11,7 +11,8 @@
     "pages/user-profile/user-profile",
     "pages/card-edit/card-edit",
     "pages/my-trips/my-trips",
-    "pages/my-buddies/my-buddies"
+    "pages/my-buddies/my-buddies",
+    "pages/attraction/attraction"
   ],
   "window": {
     "backgroundTextStyle": "light",

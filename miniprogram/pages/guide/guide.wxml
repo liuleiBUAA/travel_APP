@@ -245,6 +245,16 @@
         <view class="day-stay">{{item.stay}}</view>
       </view>
       <view class="day-activity">{{item.activity}}</view>
+      <view wx:if="{{item.playbooks && item.playbooks.length}}" class="day-playbooks">
+        <view
+          wx:for="{{item.playbooks}}"
+          wx:for-item="pb"
+          wx:key="name"
+          class="playbook-link"
+          bindtap="openPlaybook"
+          data-name="{{pb.name}}"
+        >📖 {{pb.name}}玩法 ›</view>
+      </view>
       <scroll-view wx:if="{{item.images && item.images.length}}" class="day-images" scroll-x>
         <view wx:for="{{item.images}}" wx:for-item="pic" wx:key="url" class="day-image-wrap">
           <image class="day-image" src="{{pic.url}}" mode="aspectFill" lazy-load

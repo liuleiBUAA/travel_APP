@@ -82,6 +82,11 @@ Page({
     wx.previewImage({ current: url, urls: (images || []).map(p => p.url) })
   },
 
+  openPlaybook(e) {
+    const name = e.currentTarget.dataset.name
+    wx.navigateTo({ url: `/pages/attraction/attraction?name=${encodeURIComponent(name)}` })
+  },
+
   // 行程里 images 的相对路径转完整 URL
   resolveItineraryImages(itinerary) {
     return (itinerary || []).map(d => {

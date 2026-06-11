@@ -343,3 +343,19 @@
   font-size: 22rpx;
   color: var(--c-text-muted);
 }
+
+/* Day卡片上的景点玩法入口 */
+.day-playbooks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12rpx;
+  margin: 10rpx 0;
+}
+
+.playbook-link {
+  font-size: 24rpx;
+  color: var(--c-primary);
+  background: rgba(255, 107, 92, 0.08);
+  border-radius: 999rpx;
+  padding: 6rpx 20rpx;
+}
