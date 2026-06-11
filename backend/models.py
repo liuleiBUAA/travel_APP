@@ -18,6 +18,15 @@ class User(Base):
     avatar_url = Column(String(500), nullable=True, comment="头像URL")
     gender = Column(String(10), nullable=True, comment="性别")
     login_type = Column(String(20), default="miniprogram", comment="登录方式: miniprogram/web")
+
+    # 旅行名片（全部可选，发帖时作为默认值预填）
+    bio = Column(String(200), nullable=True, comment="一句话自我介绍")
+    budget_level = Column(String(20), nullable=True, comment="消费习惯：穷游/经济/舒适/轻奢")
+    good_at_photo = Column(String(10), nullable=True, comment="拍照技能：一般/擅长/大师")
+    accommodation_pref = Column(String(20), nullable=True, comment="住宿偏好：不限/可拼房/各住各的")
+    driving = Column(String(20), nullable=True, comment="驾驶：不会开车/会开但尽量不开/愿意当司机")
+    tags = Column(String(300), nullable=True, comment="兴趣标签（逗号分隔）：早起党/夜猫子/美食控等")
+
     created_at = Column(DateTime, server_default=func.now())
     updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
 
@@ -67,6 +76,20 @@ class Companion(Base):
 
     def __repr__(self):
         return f"<Companion {self.id}: {self.user_name} - {self.travel_date}>"
+
+
+class Comment(Base):
+    """帖子留言表"""
+    __tablename__ = "comments"
+
+    id = Column(Integer, primary_key=True, index=True, autoincrement=True)
+    companion_id = Column(Integer, nullable=False, index=True, comment="所属搭子帖ID")
+    user_id = Column(String(50), nullable=False, index=True, comment="留言用户ID")
+    content = Column(String(500), nullable=False, comment="留言内容")
+    created_at = Column(DateTime, server_default=func.now(), comment="创建时间")
+
+    def __repr__(self):
+        return f"<Comment {self.id} on companion {self.companion_id}>"
 
 
 class UserMembership(Base):
