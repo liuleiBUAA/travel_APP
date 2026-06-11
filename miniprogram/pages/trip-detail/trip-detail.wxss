@@ -387,11 +387,44 @@
   word-break: break-all;
 }
 
+.comment-actions {
+  display: flex;
+  gap: 24rpx;
+  margin-top: 8rpx;
+}
+
 .comment-delete {
   font-size: 22rpx;
   color: #999;
-  margin-top: 8rpx;
-  align-self: flex-start;
+}
+
+.comment-exchange {
+  font-size: 22rpx;
+  color: var(--c-primary, #ff6b5c);
+}
+
+/* 交换微信：同意/拒绝按钮 */
+.exchange-handle-btns {
+  display: flex;
+  gap: 16rpx;
+  flex-shrink: 0;
+}
+
+.exchange-accept {
+  background: var(--grad-primary);
+  color: #fff;
+  font-size: 26rpx;
+  font-weight: 600;
+  padding: 12rpx 28rpx;
+  border-radius: 32rpx;
+}
+
+.exchange-reject {
+  background: #f0f0f0;
+  color: var(--c-text-sub, #666);
+  font-size: 26rpx;
+  padding: 12rpx 28rpx;
+  border-radius: 32rpx;
 }
 
 .comment-input-row {

@@ -1,0 +1,53 @@
+<view class="container">
+  <view wx:if="{{loading}}" class="loading-text">加载中...</view>
+  <view wx:elif="{{empty}}" class="hint-text">还没有交换记录\n在帖子下留言聊得来，就可以申请交换微信</view>
+
+  <!-- 收到的申请 -->
+  <view wx:if="{{received.length > 0}}" class="card">
+    <view class="card-title">收到的申请（{{received.length}}）</view>
+    <view wx:for="{{received}}" wx:key="exchange_id" class="buddy-item">
+      <image class="buddy-avatar" src="{{item.other.avatar_url || '/images/default_avatar.png'}}" mode="aspectFill"
+             bindtap="goUserProfile" data-uid="{{item.other.user_id}}" />
+      <view class="buddy-body">
+        <view class="buddy-name" bindtap="goUserProfile" data-uid="{{item.other.user_id}}">{{item.other.nickname || '旅行者'}}</view>
+        <view wx:if="{{item.other.bio}}" class="buddy-bio">{{item.other.bio}}</view>
+        <view wx:if="{{item.message}}" class="buddy-message">"{{item.message}}"</view>
+        <view class="buddy-meta" bindtap="goTrip" data-id="{{item.companion_id}}">{{item.created_at}} · 查看相关行程 ›</view>
+      </view>
+      <view class="buddy-btns">
+        <view class="exchange-reject" bindtap="onReject" data-id="{{item.exchange_id}}">拒绝</view>
+        <view class="exchange-accept" bindtap="onAccept" data-id="{{item.exchange_id}}">同意</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 已交换 -->
+  <view wx:if="{{accepted.length > 0}}" class="card">
+    <view class="card-title">已交换微信（{{accepted.length}}）</view>
+    <view wx:for="{{accepted}}" wx:key="exchange_id" class="buddy-item">
+      <image class="buddy-avatar" src="{{item.other.avatar_url || '/images/default_avatar.png'}}" mode="aspectFill"
+             bindtap="goUserProfile" data-uid="{{item.other.user_id}}" />
+      <view class="buddy-body">
+        <view class="buddy-name" bindtap="goUserProfile" data-uid="{{item.other.user_id}}">{{item.other.nickname || '旅行者'}}</view>
+        <view class="buddy-wechat">微信：{{item.other_wechat_id || '对方还没填微信号'}}</view>
+      </view>
+      <view wx:if="{{item.other_wechat_id}}" class="buddy-copy" bindtap="onCopyWechat" data-wechat="{{item.other_wechat_id}}">复制</view>
+    </view>
+  </view>
+
+  <!-- 我发出的 -->
+  <view wx:if="{{sent.length > 0}}" class="card">
+    <view class="card-title">我发出的（{{sent.length}}）</view>
+    <view wx:for="{{sent}}" wx:key="exchange_id" class="buddy-item">
+      <image class="buddy-avatar" src="{{item.other.avatar_url || '/images/default_avatar.png'}}" mode="aspectFill"
+             bindtap="goUserProfile" data-uid="{{item.other.user_id}}" />
+      <view class="buddy-body">
+        <view class="buddy-name" bindtap="goUserProfile" data-uid="{{item.other.user_id}}">{{item.other.nickname || '旅行者'}}</view>
+        <view class="buddy-meta" bindtap="goTrip" data-id="{{item.companion_id}}">{{item.created_at}} · 查看相关行程 ›</view>
+      </view>
+      <view class="buddy-status {{item.status === 'rejected' ? 'buddy-status-rejected' : ''}}">
+        {{item.status === 'pending' ? '等待同意' : '未同意'}}
+      </view>
+    </view>
+  </view>
+</view>

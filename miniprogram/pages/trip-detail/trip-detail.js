@@ -13,7 +13,10 @@ Page({
     commentsLoading: false,
     commentInput: '',
     commentSubmitting: false,
-    isLoggedIn: false
+    isLoggedIn: false,
+    // 交换微信（我与帖主之间）
+    exchangeStatus: 'none',
+    exchange: null
   },
 
   onLoad(options) {
@@ -29,8 +32,9 @@ Page({
   },
 
   onShow() {
-    // 从登录页回来时刷新登录态
+    // 从登录页/名片页回来时刷新登录态和交换状态
     this.setData({ isLoggedIn: !!wx.getStorageSync('token') })
+    if (this.data.detail) this.loadExchangeStatus()
   },
 
   // 转发给好友
@@ -71,6 +75,7 @@ Page({
           seeking,
           preferences
         })
+        this.loadExchangeStatus()
       } else {
         wx.showToast({ title: '获取详情失败', icon: 'none' })
         setTimeout(() => wx.navigateBack(), 1500)
@@ -173,21 +178,136 @@ Page({
     })
   },
 
-  // 复制联系方式
-  copyContact() {
-    const contact = this.data.detail && this.data.detail.contact_wechat
-    if (!contact) return
+  // ---- 交换微信 ----
+  async loadExchangeStatus() {
+    const d = this.data.detail
+    if (!d || d.is_mine || !this.data.isLoggedIn) return
+    const ownerId = d.author && d.author.user_id
+    if (!ownerId) return
+    try {
+      const res = await api.getExchangeStatus(this.data.companionId, ownerId)
+      if (res && res.success) {
+        this.setData({ exchangeStatus: res.status, exchange: res.data })
+      }
+    } catch (e) {
+      console.error('查询交换状态失败', e)
+    }
+  },
+
+  // 向帖主发起申请
+  onRequestExchange() {
+    const d = this.data.detail
+    const ownerId = d && d.author && d.author.user_id
+    if (!ownerId) {
+      wx.showToast({ title: '无法获取对方信息', icon: 'none' })
+      return
+    }
+    this._sendExchangeRequest(ownerId, d.user_name)
+  },
+
+  // 帖主向留言者发起申请
+  onRequestExchangeWith(e) {
+    const uid = Number(e.currentTarget.dataset.uid)
+    const nickname = e.currentTarget.dataset.nickname || '对方'
+    if (!uid) return
+    this._sendExchangeRequest(uid, nickname)
+  },
+
+  _sendExchangeRequest(toUserId, nickname) {
+    wx.showModal({
+      title: '申请交换微信',
+      content: `向 ${nickname} 发出交换微信申请，对方同意后你们将互相看到微信号`,
+      confirmText: '发申请',
+      success: async (res) => {
+        if (!res.confirm) return
+        try {
+          const r = await api.createExchange(Number(this.data.companionId), toUserId)
+          if (r && r.success) {
+            wx.showToast({ title: '申请已发出', icon: 'success' })
+            this.loadExchangeStatus()
+          } else {
+            const msg = (r && r.detail) || '申请失败'
+            if (msg.indexOf('微信号') >= 0) {
+              wx.showModal({
+                title: '先填微信号',
+                content: '交换微信前需要先在旅行名片里填写你的微信号',
+                confirmText: '去填写',
+                success: (m) => {
+                  if (m.confirm) wx.navigateTo({ url: '/pages/card-edit/card-edit' })
+                }
+              })
+            } else {
+              wx.showToast({ title: msg, icon: 'none' })
+            }
+          }
+        } catch (err) {
+          console.error('发起交换失败', err)
+          wx.showToast({ title: '网络错误', icon: 'none' })
+        }
+      }
+    })
+  },
+
+  async _handleExchange(action) {
+    const ex = this.data.exchange
+    if (!ex) return
+    try {
+      const r = await api.handleExchange(ex.exchange_id, action)
+      if (r && r.success) {
+        wx.showToast({ title: action === 'accept' ? '已同意，互见微信号' : '已拒绝', icon: 'none' })
+        this.loadExchangeStatus()
+      } else {
+        const msg = (r && r.detail) || '操作失败'
+        if (msg.indexOf('微信号') >= 0) {
+          wx.showModal({
+            title: '先填微信号',
+            content: '同意交换前需要先在旅行名片里填写你的微信号',
+            confirmText: '去填写',
+            success: (m) => {
+              if (m.confirm) wx.navigateTo({ url: '/pages/card-edit/card-edit' })
+            }
+          })
+        } else {
+          wx.showToast({ title: msg, icon: 'none' })
+        }
+      }
+    } catch (e) {
+      console.error('处理交换申请失败', e)
+      wx.showToast({ title: '网络错误', icon: 'none' })
+    }
+  },
+
+  onAcceptExchange() {
+    this._handleExchange('accept')
+  },
+
+  onRejectExchange() {
+    wx.showModal({
+      title: '拒绝申请',
+      content: '拒绝后对方近期无法再次向你申请，确定吗？',
+      confirmText: '拒绝',
+      confirmColor: '#ef4444',
+      success: (res) => {
+        if (res.confirm) this._handleExchange('reject')
+      }
+    })
+  },
+
+  // 复制已交换的微信号
+  copyWechat() {
+    const wechat = this.data.exchange && this.data.exchange.other_wechat_id
+    if (!wechat) return
     wx.setClipboardData({
-      data: contact,
+      data: wechat,
       success: () => wx.showToast({ title: '微信号已复制', icon: 'success' })
     })
   },
 
-  // 未登录点击联系方式 → 引导去登录
+  // 未登录点击 → 引导去登录
   goLogin() {
     wx.showModal({
       title: '需要登录',
-      content: '登录后即可查看对方联系方式',
+      content: '登录后即可留言、申请交换微信',
       confirmText: '去登录',
       success: (res) => {
         if (res.confirm) {

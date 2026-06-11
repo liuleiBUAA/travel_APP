@@ -30,7 +30,6 @@ Component({
     userName: '',
     travelDate: '',
     todayStr: '',
-    contactWechat: '',
     peopleMin: '1',
     peopleMax: '2',
     genderOptions: ['不限', '男', '女', '情侣'],
@@ -511,8 +510,7 @@ Component({
           budget_level: d.budgetSelected.join(','),
           good_at_photo: d.photoOptions[d.photoIndex],
           user_male_count: parseInt(d.userMaleCount),
-          user_female_count: parseInt(d.userFemaleCount),
-          contact_wechat: (d.contactWechat || '').trim() || null
+          user_female_count: parseInt(d.userFemaleCount)
         })
 
         wx.hideLoading()

@@ -5,6 +5,7 @@ Page({
     loading: true,
     saving: false,
     editBio: '',
+    editWechat: '',
     budgetOptions: ['穷游', '经济', '舒适', '轻奢'],
     photoOptions: ['一般', '擅长', '大师'],
     accommodationOptions: ['不限', '可拼房', '各住各的'],
@@ -29,6 +30,7 @@ Page({
         this.setData({
           loading: false,
           editBio: me.bio || '',
+          editWechat: me.wechat_id || '',
           budgetIndex: this.data.budgetOptions.indexOf(me.budget_level || ''),
           photoIndex: this.data.photoOptions.indexOf(me.good_at_photo || ''),
           accommodationIndex: this.data.accommodationOptions.indexOf(me.accommodation_pref || ''),
@@ -47,6 +49,10 @@ Page({
 
   onBioInput(e) {
     this.setData({ editBio: e.detail.value })
+  },
+
+  onWechatInput(e) {
+    this.setData({ editWechat: e.detail.value })
   },
 
   onBudgetChange(e) { this.setData({ budgetIndex: Number(e.detail.value) }) },
@@ -74,6 +80,7 @@ Page({
     try {
       const res = await api.updateProfile({
         bio: d.editBio.trim(),
+        wechat_id: d.editWechat.trim(),
         budget_level: d.budgetIndex >= 0 ? d.budgetOptions[d.budgetIndex] : '',
         good_at_photo: d.photoIndex >= 0 ? d.photoOptions[d.photoIndex] : '',
         accommodation_pref: d.accommodationIndex >= 0 ? d.accommodationOptions[d.accommodationIndex] : '',

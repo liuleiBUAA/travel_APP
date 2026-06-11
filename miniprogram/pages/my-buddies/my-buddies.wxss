@@ -1,0 +1,120 @@
+.card {
+  margin-bottom: 20rpx;
+}
+
+.buddy-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16rpx;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid var(--c-border-soft);
+}
+
+.buddy-item:last-child {
+  border-bottom: none;
+}
+
+.buddy-avatar {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+  flex-shrink: 0;
+}
+
+.buddy-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.buddy-name {
+  font-size: 28rpx;
+  font-weight: 600;
+  color: var(--c-text);
+}
+
+.buddy-bio {
+  font-size: 24rpx;
+  color: var(--c-text-sub);
+  margin-top: 4rpx;
+}
+
+.buddy-message {
+  font-size: 24rpx;
+  color: var(--c-text);
+  background: var(--c-soft);
+  border-radius: 8rpx;
+  padding: 8rpx 16rpx;
+  margin-top: 8rpx;
+}
+
+.buddy-meta {
+  font-size: 22rpx;
+  color: var(--c-text-muted);
+  margin-top: 8rpx;
+}
+
+.buddy-wechat {
+  font-size: 26rpx;
+  color: var(--c-text);
+  margin-top: 6rpx;
+}
+
+.buddy-btns {
+  display: flex;
+  gap: 12rpx;
+  flex-shrink: 0;
+}
+
+.exchange-accept {
+  background: var(--grad-primary);
+  color: #fff;
+  font-size: 24rpx;
+  font-weight: 600;
+  padding: 10rpx 24rpx;
+  border-radius: 28rpx;
+}
+
+.exchange-reject {
+  background: #f0f0f0;
+  color: var(--c-text-sub);
+  font-size: 24rpx;
+  padding: 10rpx 24rpx;
+  border-radius: 28rpx;
+}
+
+.buddy-copy {
+  background: var(--grad-primary);
+  color: #fff;
+  font-size: 24rpx;
+  font-weight: 600;
+  padding: 10rpx 24rpx;
+  border-radius: 28rpx;
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.buddy-status {
+  font-size: 24rpx;
+  color: var(--c-text-muted);
+  flex-shrink: 0;
+  align-self: center;
+}
+
+.buddy-status-rejected {
+  color: var(--c-text-faint);
+}
+
+.loading-text {
+  color: var(--c-text-muted);
+  font-size: 26rpx;
+  text-align: center;
+  padding: 80rpx 0;
+}
+
+.hint-text {
+  color: var(--c-text-faint);
+  font-size: 26rpx;
+  text-align: center;
+  padding: 80rpx 0;
+  white-space: pre-line;
+}

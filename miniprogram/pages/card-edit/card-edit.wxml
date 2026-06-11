@@ -8,6 +8,10 @@
         <textarea class="card-bio-input" value="{{editBio}}" maxlength="200" placeholder="一句话介绍自己，比如：爱摄影爱美食，求靠谱搭子" bindinput="onBioInput" auto-height />
       </view>
       <view class="card-form-item">
+        <text class="card-form-label">微信号（私密，仅交换成功的搭子可见）</text>
+        <input class="card-wechat-input" value="{{editWechat}}" maxlength="50" placeholder="填写后才能和搭子交换微信" bindinput="onWechatInput" />
+      </view>
+      <view class="card-form-item">
         <text class="card-form-label">消费习惯</text>
         <picker range="{{budgetOptions}}" value="{{budgetIndex}}" bindchange="onBudgetChange">
           <view class="card-picker">{{budgetIndex >= 0 ? budgetOptions[budgetIndex] : '请选择'}}</view>

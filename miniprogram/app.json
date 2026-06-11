@@ -10,7 +10,8 @@
     "pages/trip-detail/trip-detail",
     "pages/user-profile/user-profile",
     "pages/card-edit/card-edit",
-    "pages/my-trips/my-trips"
+    "pages/my-trips/my-trips",
+    "pages/my-buddies/my-buddies"
   ],
   "window": {
     "backgroundTextStyle": "light",

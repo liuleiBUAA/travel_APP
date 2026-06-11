@@ -44,32 +44,61 @@
 
     <!-- 联系 / 分享操作区 -->
     <view class="card action-card">
-      <!-- 有联系方式且已登录可见 -->
-      <view wx:if="{{detail.contact_wechat}}" class="contact-row" bindtap="copyContact">
-        <view class="contact-left">
-          <text class="contact-icon">💬</text>
-          <view>
-            <view class="contact-label">微信号</view>
-            <view class="contact-value">{{detail.contact_wechat}}</view>
-          </view>
-        </view>
-        <view class="contact-copy">复制</view>
-      </view>
-      <!-- 有联系方式但未登录 -->
-      <view wx:elif="{{detail.has_contact}}" class="contact-row contact-locked" bindtap="goLogin">
+      <!-- 未登录 -->
+      <view wx:if="{{!isLoggedIn}}" class="contact-row contact-locked" bindtap="goLogin">
         <view class="contact-left">
           <text class="contact-icon">🔒</text>
-          <view class="contact-label">登录后查看对方微信号</view>
+          <view class="contact-label">登录后可申请和TA交换微信</view>
         </view>
         <view class="contact-copy">去登录</view>
       </view>
-      <!-- 发布者没留联系方式 -->
-      <view wx:else class="contact-row contact-none">
-        <view class="contact-left">
-          <text class="contact-icon">💬</text>
-          <view class="contact-label">对方未留联系方式，分享给好友帮TA扩散吧</view>
+      <!-- 自己的帖子：从留言区向留言者发起 -->
+      <block wx:elif="{{!detail.is_mine}}">
+        <!-- 已交换成功 -->
+        <view wx:if="{{exchangeStatus === 'accepted'}}" class="contact-row" bindtap="copyWechat">
+          <view class="contact-left">
+            <text class="contact-icon">💬</text>
+            <view>
+              <view class="contact-label">已交换微信</view>
+              <view class="contact-value">{{exchange.other_wechat_id}}</view>
+            </view>
+          </view>
+          <view class="contact-copy">复制</view>
         </view>
-      </view>
+        <!-- 我发出的申请等待处理 -->
+        <view wx:elif="{{exchangeStatus === 'pending' && exchange.is_sender}}" class="contact-row contact-none">
+          <view class="contact-left">
+            <text class="contact-icon">⏳</text>
+            <view class="contact-label">已申请交换微信，等待对方同意</view>
+          </view>
+        </view>
+        <!-- 对方向我发的申请 -->
+        <view wx:elif="{{exchangeStatus === 'pending' && !exchange.is_sender}}" class="contact-row">
+          <view class="contact-left">
+            <text class="contact-icon">💬</text>
+            <view class="contact-label">TA想和你交换微信</view>
+          </view>
+          <view class="exchange-handle-btns">
+            <view class="exchange-reject" catchtap="onRejectExchange">拒绝</view>
+            <view class="exchange-accept" catchtap="onAcceptExchange">同意</view>
+          </view>
+        </view>
+        <!-- 被拒冷却 -->
+        <view wx:elif="{{exchangeStatus === 'rejected' && exchange.is_sender}}" class="contact-row contact-none">
+          <view class="contact-left">
+            <text class="contact-icon">💬</text>
+            <view class="contact-label">对方暂未同意交换，过几天可再试</view>
+          </view>
+        </view>
+        <!-- 可发起申请 -->
+        <view wx:else class="contact-row" bindtap="onRequestExchange">
+          <view class="contact-left">
+            <text class="contact-icon">💬</text>
+            <view class="contact-label">留言聊得来？申请和TA交换微信</view>
+          </view>
+          <view class="contact-copy">申请</view>
+        </view>
+      </block>
 
       <view class="action-btns">
         <button class="btn-share" open-type="share">
@@ -149,7 +178,11 @@
             <text class="comment-time">{{item.created_at}}</text>
           </view>
           <view class="comment-content">{{item.content}}</view>
-          <view wx:if="{{item.is_mine}}" class="comment-delete" bindtap="onDeleteComment" data-id="{{item.comment_id}}">删除</view>
+          <view class="comment-actions">
+            <view wx:if="{{detail.is_mine && !item.is_mine}}" class="comment-exchange"
+                  bindtap="onRequestExchangeWith" data-uid="{{item.user_id}}" data-nickname="{{item.nickname}}">换微信</view>
+            <view wx:if="{{item.is_mine}}" class="comment-delete" bindtap="onDeleteComment" data-id="{{item.comment_id}}">删除</view>
+          </view>
         </view>
       </view>
 

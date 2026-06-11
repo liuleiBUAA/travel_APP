@@ -178,6 +178,8 @@ Page({
     wx.navigateTo({ url: '/pages/my-trips/my-trips' })
   },
   goMyGuides() { wx.showToast({ title: '功能开发中', icon: 'none' }) },
-  goMyMatches() { wx.showToast({ title: '功能开发中', icon: 'none' }) },
+  goMyMatches() {
+    wx.navigateTo({ url: '/pages/my-buddies/my-buddies' })
+  },
   goSettings() { wx.showToast({ title: '功能开发中', icon: 'none' }) },
 })

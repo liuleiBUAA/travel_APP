@@ -30,6 +30,16 @@
   padding: 16rpx;
 }
 
+.card-wechat-input {
+  width: 100%;
+  box-sizing: border-box;
+  height: 76rpx;
+  font-size: 28rpx;
+  background: #f7f7f7;
+  border-radius: var(--radius-ctrl, 16rpx);
+  padding: 0 16rpx;
+}
+
 .card-picker {
   font-size: 28rpx;
   background: #f7f7f7;

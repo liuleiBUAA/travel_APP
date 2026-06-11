@@ -94,5 +94,18 @@ module.exports = {
   },
   deleteComment(commentId) {
     return request(`/comments/${commentId}`, 'DELETE')
+  },
+  // 交换微信
+  createExchange(companionId, toUserId, message) {
+    return request('/exchanges', 'POST', { companion_id: companionId, to_user_id: toUserId, message: message || null })
+  },
+  handleExchange(exchangeId, action) {
+    return request(`/exchanges/${exchangeId}/handle`, 'POST', { action })
+  },
+  getMyExchanges() {
+    return request('/exchanges/my')
+  },
+  getExchangeStatus(companionId, otherUserId) {
+    return request(`/exchanges/status?companion_id=${companionId}&other_user_id=${otherUserId}`)
   }
 }
