@@ -346,3 +346,109 @@
   font-weight: 600;
   padding: 20rpx 0;
 }
+
+/* ---- 旅行名片 ---- */
+.travel-card {
+  margin-top: 20rpx;
+}
+
+.card-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-edit-btn {
+  font-size: 26rpx;
+  color: #ff6b5c;
+  padding: 4rpx 16rpx;
+}
+
+.card-bio {
+  font-size: 28rpx;
+  color: var(--c-text-sub, #666);
+  margin: 16rpx 0;
+  line-height: 1.5;
+}
+
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12rpx;
+  margin-top: 12rpx;
+}
+
+.card-tag {
+  font-size: 24rpx;
+  color: #ff6b5c;
+  background: var(--c-soft, #fff1ec);
+  border-radius: 999rpx;
+  padding: 8rpx 20rpx;
+}
+
+.card-form-item {
+  margin-top: 20rpx;
+}
+
+.card-form-label {
+  display: block;
+  font-size: 26rpx;
+  color: var(--c-text-sub, #666);
+  margin-bottom: 8rpx;
+}
+
+.card-bio-input {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 80rpx;
+  font-size: 28rpx;
+  background: #f7f7f7;
+  border-radius: var(--radius-ctrl, 16rpx);
+  padding: 16rpx;
+}
+
+.card-picker {
+  font-size: 28rpx;
+  background: #f7f7f7;
+  border-radius: var(--radius-ctrl, 16rpx);
+  padding: 16rpx;
+  color: #333;
+}
+
+.card-tag-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12rpx;
+}
+
+.card-tag-option {
+  font-size: 24rpx;
+  color: #666;
+  background: #f7f7f7;
+  border-radius: 999rpx;
+  padding: 10rpx 22rpx;
+}
+
+.card-tag-selected {
+  color: #fff;
+  background: var(--grad-primary, #ff6b5c);
+}
+
+.card-form-btns {
+  display: flex;
+  gap: 16rpx;
+  margin-top: 24rpx;
+  justify-content: flex-end;
+}
+
+.card-btn-cancel {
+  background: var(--c-soft, #fff1ec);
+  color: var(--c-text-sub, #666);
+  border: none;
+}
+
+.card-btn-save {
+  background: var(--grad-primary, #ff6b5c);
+  color: #fff;
+  border: none;
+}

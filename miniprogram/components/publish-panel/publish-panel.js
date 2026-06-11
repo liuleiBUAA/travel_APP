@@ -222,7 +222,7 @@ Component({
       const token = wx.getStorageSync('token')
       if (!token) { wx.showToast({ title: '请先登录', icon: 'none' }); return }
       try {
-        const res = await api.updateProfile(token, nickname)
+        const res = await api.updateProfile({ nickname })
         if (res.success) {
           app.globalData.userInfo.nickname = res.nickname
           this.setData({ userInfo: app.globalData.userInfo, userName: res.nickname, editingNickname: false })

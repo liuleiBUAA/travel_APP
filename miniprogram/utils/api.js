@@ -40,9 +40,13 @@ module.exports = {
     // ✅ 修复: 使用header传token,不用query参数
     return request('/auth/me')
   },
-  updateProfile(nickname, gender, avatarUrl) {
+  updateProfile(data) {
     // ✅ 修复: token从storage自动获取,不用参数传递
-    return request('/auth/update-profile', 'POST', { nickname, gender, avatar_url: avatarUrl })
+    // data 可含: nickname/gender/avatar_url + 名片字段 bio/budget_level/good_at_photo/accommodation_pref/driving/tags
+    return request('/auth/update-profile', 'POST', data)
+  },
+  getUserProfile(userId) {
+    return request(`/users/${userId}/profile`)
   },
   // 目的地
   getCountries(region) {
@@ -80,5 +84,15 @@ module.exports = {
   },
   deleteCompanion(id) {
     return request(`/companions/${id}`, 'DELETE')
+  },
+  // 留言
+  getComments(companionId) {
+    return request(`/companions/${companionId}/comments`)
+  },
+  postComment(companionId, content) {
+    return request(`/companions/${companionId}/comments`, 'POST', { content })
+  },
+  deleteComment(commentId) {
+    return request(`/comments/${commentId}`, 'DELETE')
   }
 }

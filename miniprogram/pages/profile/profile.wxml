@@ -47,6 +47,73 @@
       </view>
     </view>
 
+    <!-- 旅行名片 -->
+    <view class="card travel-card">
+      <view class="card-title-row">
+        <text class="card-title">我的旅行名片</text>
+        <text wx:if="{{!cardEditing}}" class="card-edit-btn" bindtap="onEditCard">编辑</text>
+      </view>
+
+      <!-- 展示态 -->
+      <block wx:if="{{!cardEditing}}">
+        <view wx:if="{{card.bio}}" class="card-bio">{{card.bio}}</view>
+        <view class="card-tags">
+          <text wx:if="{{card.budget_level}}" class="card-tag">💰 {{card.budget_level}}</text>
+          <text wx:if="{{card.good_at_photo}}" class="card-tag">📷 拍照{{card.good_at_photo}}</text>
+          <text wx:if="{{card.accommodation_pref}}" class="card-tag">🏨 {{card.accommodation_pref}}</text>
+          <text wx:if="{{card.driving}}" class="card-tag">🚗 {{card.driving}}</text>
+          <text wx:for="{{card.tags}}" wx:key="*this" class="card-tag">{{item}}</text>
+        </view>
+        <view wx:if="{{!card.bio && !card.budget_level && !card.good_at_photo && !card.accommodation_pref && !card.driving && card.tags.length === 0}}" class="hint-text">
+          完善名片，让搭子提前了解你（发帖时自动带入）
+        </view>
+      </block>
+
+      <!-- 编辑态 -->
+      <block wx:else>
+        <view class="card-form-item">
+          <text class="card-form-label">自我介绍</text>
+          <textarea class="card-bio-input" value="{{editBio}}" maxlength="200" placeholder="一句话介绍自己，比如：爱摄影爱美食，求靠谱搭子" bindinput="onBioInput" auto-height />
+        </view>
+        <view class="card-form-item">
+          <text class="card-form-label">消费习惯</text>
+          <picker range="{{budgetOptions}}" value="{{budgetIndex}}" bindchange="onBudgetChange">
+            <view class="card-picker">{{budgetIndex >= 0 ? budgetOptions[budgetIndex] : '请选择'}}</view>
+          </picker>
+        </view>
+        <view class="card-form-item">
+          <text class="card-form-label">拍照技能</text>
+          <picker range="{{photoOptions}}" value="{{photoIndex}}" bindchange="onPhotoChange">
+            <view class="card-picker">{{photoIndex >= 0 ? photoOptions[photoIndex] : '请选择'}}</view>
+          </picker>
+        </view>
+        <view class="card-form-item">
+          <text class="card-form-label">住宿偏好</text>
+          <picker range="{{accommodationOptions}}" value="{{accommodationIndex}}" bindchange="onAccommodationChange">
+            <view class="card-picker">{{accommodationIndex >= 0 ? accommodationOptions[accommodationIndex] : '请选择'}}</view>
+          </picker>
+        </view>
+        <view class="card-form-item">
+          <text class="card-form-label">驾驶</text>
+          <picker range="{{drivingOptions}}" value="{{drivingIndex}}" bindchange="onDrivingChange">
+            <view class="card-picker">{{drivingIndex >= 0 ? drivingOptions[drivingIndex] : '请选择'}}</view>
+          </picker>
+        </view>
+        <view class="card-form-item">
+          <text class="card-form-label">兴趣标签</text>
+          <view class="card-tag-options">
+            <text wx:for="{{tagOptions}}" wx:key="*this"
+                  class="card-tag-option {{editTags.indexOf(item) >= 0 ? 'card-tag-selected' : ''}}"
+                  bindtap="onToggleTag" data-tag="{{item}}">{{item}}</text>
+          </view>
+        </view>
+        <view class="card-form-btns">
+          <button class="card-btn-cancel" size="mini" bindtap="onCancelCard">取消</button>
+          <button class="card-btn-save" size="mini" loading="{{cardSaving}}" bindtap="onSaveCard">保存</button>
+        </view>
+      </block>
+    </view>
+
     <view class="card menu-card">
       <view class="menu-item" bindtap="onEditProfile">
         <text class="menu-icon">✏️</text>
