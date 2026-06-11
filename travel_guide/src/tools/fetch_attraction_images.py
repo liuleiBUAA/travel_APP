@@ -27,6 +27,12 @@ from zhconv import convert as zh_convert
 UA = {"User-Agent": "TravelGuideBot/1.0 (attraction image fetcher; contact: admin@awesometravelpartner.cn)"}
 DELAY = 1.5  # 礼貌限速
 
+# 重点景点补图：景点名 → 额外的 Commons 搜索词（英文命中率高）。
+# 每个查询词下载一张，文件名接在主图后面（_2、_3…）。
+EXTRA_QUERIES = {
+    "凡尔赛宫": ["Hall of Mirrors Versailles", "Palace of Versailles gardens"],
+}
+
 # 行程里的叫法 → 维基词条名。自动匹配不上时人工补这张表（跑完看 manifest 里的 miss）。
 ALIASES = {
     "教皇宫": "亚维农教皇宫",
@@ -229,6 +235,31 @@ def fetch_one(city, attraction, bbox=None):
     return None
 
 
+def fetch_extras(attraction, city_dir, out_dir, start_idx=2):
+    """按 EXTRA_QUERIES 给重点景点补图，返回 manifest extras 列表。"""
+    extras = []
+    for n, query in enumerate(EXTRA_QUERIES.get(attraction, [])):
+        print(f"  补图 [{query}] ... ", end="", flush=True)
+        try:
+            f = commons_search(query)
+            time.sleep(DELAY)
+            info = commons_imageinfo(f) if f else None
+            if not info:
+                print("未命中")
+                continue
+            ext = os.path.splitext(info["file"])[1] or ".jpg"
+            local = os.path.join(city_dir, safe_name(attraction) + f"_{start_idx + n}" + ext.lower())
+            download(info["url"], local)
+            print(f"OK ({info['license']})")
+            extras.append({"local": os.path.relpath(local, out_dir),
+                           "license": info["license"], "artist": info["artist"],
+                           "commons_file": info["file"], "source": f"commons-search:{query}"})
+        except Exception as e:
+            print(f"ERROR {e}")
+        time.sleep(DELAY)
+    return extras
+
+
 def main(attractions_path, out_dir, bbox=None):
     rows = json.load(open(attractions_path, encoding="utf-8"))
     # 断点续跑：沿用上次 manifest 里已成功的条目
@@ -243,7 +274,13 @@ def main(attractions_path, out_dir, bbox=None):
     for i, row in enumerate(rows):
         city, attraction = row["city"], row["attraction"]
         if (city, attraction) in done:
-            manifest.append(done[(city, attraction)])
+            entry = done[(city, attraction)]
+            # 已有主图但 EXTRA_QUERIES 新加了补图查询：只补缺的部分
+            if EXTRA_QUERIES.get(attraction) and not entry.get("extras"):
+                print(f"[{i+1}/{len(rows)}] {city} / {attraction} 主图已有，补图:")
+                city_dir = os.path.join(out_dir, safe_name(city))
+                entry = {**entry, "extras": fetch_extras(attraction, city_dir, out_dir)}
+            manifest.append(entry)
             hit += 1
             continue
         print(f"[{i+1}/{len(rows)}] {city} / {attraction} ... ", end="", flush=True)
@@ -272,9 +309,12 @@ def main(attractions_path, out_dir, bbox=None):
             continue
         hit += 1
         print(f"OK ({info['source']}, {info['license']})")
-        manifest.append({**row, "status": "ok", "local": os.path.relpath(local, out_dir),
-                         "license": info["license"], "artist": info["artist"],
-                         "commons_file": info["file"], "source": info["source"]})
+        entry = {**row, "status": "ok", "local": os.path.relpath(local, out_dir),
+                 "license": info["license"], "artist": info["artist"],
+                 "commons_file": info["file"], "source": info["source"]}
+        if EXTRA_QUERIES.get(attraction):
+            entry["extras"] = fetch_extras(attraction, city_dir, out_dir)
+        manifest.append(entry)
         time.sleep(DELAY)
 
     os.makedirs(out_dir, exist_ok=True)

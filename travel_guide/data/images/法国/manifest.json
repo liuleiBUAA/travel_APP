@@ -47,7 +47,23 @@
   "license": "CC BY-SA 3.0",
   "artist": "ToucanWings",
   "commons_file": "Vue_aérienne_du_domaine_de_Versailles_par_ToucanWings_-_Creative_Commons_By_Sa_3.0_-_073.jpg",
-  "source": "zhwiki:凡尔赛宫"
+  "source": "zhwiki:凡尔赛宫",
+  "extras": [
+   {
+    "local": "巴黎/凡尔赛宫_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Myrabella",
+    "commons_file": "Chateau Versailles Galerie des Glaces.jpg",
+    "source": "commons-search:Hall of Mirrors Versailles"
+   },
+   {
+    "local": "巴黎/凡尔赛宫_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Basile Morin",
+    "commons_file": "Water reflection of the Orangerie garden and Palace of Versailles with blue sky in France.jpg",
+    "source": "commons-search:Palace of Versailles gardens"
+   }
+  ]
  },
  {
   "city": "巴黎",

@@ -32,12 +32,16 @@ def main(img_dir, out_html):
         parts.append(f"<h2>{city}</h2><div class='grid'>")
         for m in items:
             if m["status"] == "ok":
-                src = os.path.join(rel, m["local"])
-                parts.append(
-                    f"<div class='card'><img src='{src}' loading='lazy'>"
-                    f"<div class='name'>{m['attraction']}</div>"
-                    f"<div class='meta'>{m.get('source','')}<br>{m.get('license','')} / {m.get('artist','')}</div></div>"
-                )
+                # 主图 + 补图（extras）各占一张卡片
+                pics = [m] + [{**e, "attraction": f"{m['attraction']} #{n+2}"}
+                              for n, e in enumerate(m.get("extras", []))]
+                for p in pics:
+                    src = os.path.join(rel, p["local"])
+                    parts.append(
+                        f"<div class='card'><img src='{src}' loading='lazy'>"
+                        f"<div class='name'>{p.get('attraction', m['attraction'])}</div>"
+                        f"<div class='meta'>{p.get('source','')}<br>{p.get('license','')} / {p.get('artist','')}</div></div>"
+                    )
             else:
                 parts.append(
                     f"<div class='card miss'><div class='name'>{m['attraction']}</div>"
