@@ -29,6 +29,10 @@ cp -r backend/* /opt/travel_companion_miniapp/backend/
 mkdir -p /opt/travel_companion_miniapp/travel_guide/data/images
 cp -r travel_guide/data/images/* /opt/travel_companion_miniapp/travel_guide/data/images/
 
+# 同步玩法/城市攻略（详情页内容，2026-06-11 起）
+mkdir -p /opt/travel_companion_miniapp/travel_guide/data/playbooks
+cp -r travel_guide/data/playbooks/* /opt/travel_companion_miniapp/travel_guide/data/playbooks/
+
 # 跑迁移（都幂等，重复跑无害）
 cd /opt/travel_companion_miniapp/backend
 python3 migrate_add_user_profile_comments.py
@@ -78,6 +82,8 @@ curl -s "https://awesometravelpartner.cn/api/companions/1" | grep -c contact_wec
 curl -s -o /dev/null -w "%{http_code} %{content_type}\n" "https://awesometravelpartner.cn/api/static/attractions/法国/巴黎/卢浮宫_1.jpg"
 # 行程带 images 字段：
 curl -s -X POST "https://awesometravelpartner.cn/api/routes/generate" -H "Content-Type: application/json" -d '{"cities":["巴黎"]}' | grep -c '"images"'   # 期望 > 0
+# 玩法详情接口（期望返回 success: true）：
+curl -s "https://awesometravelpartner.cn/api/attractions/playbook?name=巴黎" | grep -c success   # 期望 1
 ```
 
 小程序侧：退出登录 → 重新微信登录（验证新 Secret）→ 名片填微信号 → 留言 → 申请交换微信 → 对方在「我的搭子」同意 → 互见微信号。
