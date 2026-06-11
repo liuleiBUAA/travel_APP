@@ -52,11 +52,13 @@ class ImageIndex:
         if seen is None:
             seen = set()
         result = []
+        used_names = set()  # 一天内每个景点只出一张，剩余图位留给同天其他景点
         for attraction, pic in self._entries:
             if cities is not None and pic["_city"] not in cities:
                 continue
-            if attraction in activity and pic["_src"] not in seen:
+            if attraction in activity and pic["_src"] not in seen and pic["name"] not in used_names:
                 seen.add(pic["_src"])
+                used_names.add(pic["name"])
                 result.append({k: v for k, v in pic.items() if k != "_src" and k != "_city"})
                 if len(result) >= limit:
                     break

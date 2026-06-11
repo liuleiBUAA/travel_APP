@@ -38,15 +38,19 @@ class RouteService:
         self.city_mapping = load_city_mapping(base_dir=base_dir)
         print(f"✅ [RouteService] 已加载 {len(self.destinations)} 个目的地")
 
-    @staticmethod
-    def _attach_images(itinerary: List[Dict[str, Any]], cities: List[str] = None) -> List[Dict[str, Any]]:
+    def _attach_images(self, itinerary: List[Dict[str, Any]], cities: List[str] = None) -> List[Dict[str, Any]]:
         """给每天的行程按 activity 文本匹配景点图片和玩法入口（无则不加字段）；
         有城市攻略的城市，在它停留的第一天挂 city_guide 入口。
-        cities: 路线的目的地列表，传入时图片只在这些目的地里找（防重名景点跨城误挂）"""
+        cities: 路线的目的地列表，传入时图片只在这些目的地里找（防重名景点跨城误挂）。
+        manifest 的 city 是目的地 key（如"蔚蓝海岸（尼斯/摩纳哥/戛纳）"），
+        用户城市名要经 city_mapping 映射后才对得上。"""
         from services.playbook_service import get_playbook_index
         index = get_image_index()
         pb_index = get_playbook_index()
-        city_set = set(cities) if cities else None
+        city_set = None
+        if cities:
+            city_set = set(cities)
+            city_set.update(self.city_mapping.get(c) for c in cities if self.city_mapping.get(c))
         seen = set()  # 整个行程内同一张图只出现一次（跨天去重）
         guided_cities = set()  # 同一城市的攻略入口只在第一天出现
         for day in itinerary:
