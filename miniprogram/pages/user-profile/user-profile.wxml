@@ -1,0 +1,35 @@
+<view class="container">
+  <view wx:if="{{loading}}" class="loading-text">加载中...</view>
+  <view wx:elif="{{notFound}}" class="hint-text">用户不存在</view>
+
+  <block wx:elif="{{profile}}">
+    <!-- 用户基本信息 -->
+    <view class="card user-head">
+      <image class="user-avatar" src="{{profile.avatar_url || '/images/default_avatar.png'}}" mode="aspectFill" />
+      <view class="user-head-info">
+        <view class="user-nickname">{{profile.nickname || '旅行者'}}</view>
+        <view class="user-meta">
+          <text wx:if="{{profile.gender}}">{{profile.gender}} · </text>
+          <text wx:if="{{profile.joined_at}}">{{profile.joined_at}} 加入 · </text>
+          <text>发布 {{profile.companion_count}} 条行程</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 旅行名片 -->
+    <view class="card">
+      <view class="card-title">旅行名片</view>
+      <view wx:if="{{profile.bio}}" class="user-bio">{{profile.bio}}</view>
+      <view class="user-tags">
+        <text wx:if="{{profile.budget_level}}" class="user-tag">💰 {{profile.budget_level}}</text>
+        <text wx:if="{{profile.good_at_photo}}" class="user-tag">📷 拍照{{profile.good_at_photo}}</text>
+        <text wx:if="{{profile.accommodation_pref}}" class="user-tag">🏨 {{profile.accommodation_pref}}</text>
+        <text wx:if="{{profile.driving}}" class="user-tag">🚗 {{profile.driving}}</text>
+        <text wx:for="{{profile.tags}}" wx:key="*this" class="user-tag">{{item}}</text>
+      </view>
+      <view wx:if="{{!profile.bio && !profile.budget_level && !profile.good_at_photo && !profile.accommodation_pref && !profile.driving && profile.tags.length === 0}}" class="hint-text">
+        TA 还没有填写旅行名片
+      </view>
+    </view>
+  </block>
+</view>

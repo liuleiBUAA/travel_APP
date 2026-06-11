@@ -7,7 +7,8 @@
     "pages/guide/guide",
     "pages/match/match",
     "pages/profile/profile",
-    "pages/trip-detail/trip-detail"
+    "pages/trip-detail/trip-detail",
+    "pages/user-profile/user-profile"
   ],
   "window": {
     "backgroundTextStyle": "light",

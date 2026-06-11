@@ -1,0 +1,64 @@
+.container {
+  padding: 24rpx;
+}
+
+.loading-text,
+.hint-text {
+  text-align: center;
+  color: #999;
+  font-size: 26rpx;
+  padding: 40rpx 0;
+}
+
+.user-head {
+  display: flex;
+  align-items: center;
+  gap: 24rpx;
+}
+
+.user-avatar {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  background: var(--c-soft, #fff1ec);
+  flex-shrink: 0;
+}
+
+.user-head-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.user-nickname {
+  font-size: 34rpx;
+  font-weight: 600;
+  color: #333;
+}
+
+.user-meta {
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 8rpx;
+}
+
+.user-bio {
+  font-size: 28rpx;
+  color: var(--c-text-sub, #666);
+  line-height: 1.5;
+  margin: 16rpx 0;
+}
+
+.user-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12rpx;
+  margin-top: 12rpx;
+}
+
+.user-tag {
+  font-size: 24rpx;
+  color: #ff6b5c;
+  background: var(--c-soft, #fff1ec);
+  border-radius: 999rpx;
+  padding: 8rpx 20rpx;
+}
