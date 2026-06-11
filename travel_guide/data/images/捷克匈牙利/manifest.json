@@ -1,0 +1,210 @@
+[
+ {
+  "city": "布拉格",
+  "attraction": "查理大桥",
+  "status": "ok",
+  "local": "布拉格/查理大桥_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Jakub Hałun",
+  "commons_file": "20190816_Most_Karola_w_Pradze_1707_5398_DxO.jpg",
+  "source": "zhwiki:查理大桥",
+  "extras": [
+   {
+    "local": "布拉格/查理大桥_2.jpg",
+    "license": "FAL",
+    "artist": "A.Savin",
+    "commons_file": "Prague 07-2016 View from Petrinska Tower img2.jpg",
+    "source": "commons-supplement:Charles Bridge"
+   },
+   {
+    "local": "布拉格/查理大桥_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Tadeáš Gregor",
+    "commons_file": "Charles Bridge Covid.jpg",
+    "source": "commons-supplement:Charles Bridge"
+   },
+   {
+    "local": "布拉格/查理大桥_4.jpg",
+    "license": "FAL",
+    "artist": "A.Savin",
+    "commons_file": "Prague 07-2016 Charles Bridge John of Nepomuk statue img1.jpg",
+    "source": "commons-supplement:Charles Bridge"
+   }
+  ]
+ },
+ {
+  "city": "布拉格",
+  "attraction": "老城广场",
+  "status": "ok",
+  "local": "布拉格/老城广场_1.jpg",
+  "license": "FAL",
+  "artist": "A.Savin",
+  "commons_file": "Prague_07-2016_Old_Town_Square_img2.jpg",
+  "source": "zhwiki:老城广场 (布拉格)",
+  "extras": [
+   {
+    "local": "布拉格/老城广场_2.jpg",
+    "license": "FAL",
+    "artist": "A.Savin",
+    "commons_file": "Prague 07-2016 View from Old Town Hall Tower img3.jpg",
+    "source": "commons-supplement:老城广场 布拉格"
+   },
+   {
+    "local": "布拉格/老城广场_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Tadeáš Gregor",
+    "commons_file": "Jan Hus Statue, Old Town Square.jpg",
+    "source": "commons-supplement:老城广场 布拉格"
+   },
+   {
+    "local": "布拉格/老城广场_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Diliff",
+    "commons_file": "Prague Old Town Square, Czech Republic - Oct 2010.jpg",
+    "source": "commons-supplement:老城广场 布拉格"
+   }
+  ]
+ },
+ {
+  "city": "布拉格",
+  "attraction": "布拉格城堡",
+  "status": "ok",
+  "local": "布拉格/布拉格城堡_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "MSzybalski",
+  "commons_file": "Old_Town,_110_00_Prague-Prague_1,_Czech_Republic_-_panoramio_(201).jpg",
+  "source": "zhwiki:布拉格城堡",
+  "extras": [
+   {
+    "local": "布拉格/布拉格城堡_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Jorge Royan",
+    "commons_file": "Guard at the Prague castle, Prague - 7620 (cropped).jpg",
+    "source": "commons-supplement:Prague Castle"
+   },
+   {
+    "local": "布拉格/布拉格城堡_3.jpg",
+    "license": "CC BY 2.5",
+    "artist": "MathKnight   and Zachi Evenor",
+    "commons_file": "PragueCathedral03.jpg",
+    "source": "commons-supplement:Prague Castle"
+   },
+   {
+    "local": "布拉格/布拉格城堡_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Jakub Hałun",
+    "commons_file": "20190817 View of Prague Castle from Petřín 1345 5542.jpg",
+    "source": "commons-supplement:Prague Castle"
+   }
+  ]
+ },
+ {
+  "city": "布拉格",
+  "attraction": "圣维特大教堂",
+  "status": "miss"
+ },
+ {
+  "city": "布达佩斯",
+  "attraction": "国会大厦",
+  "status": "ok",
+  "local": "布达佩斯/国会大厦_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Gabinho",
+  "commons_file": "Parliament_of_Hungary_November_2017.jpg",
+  "source": "zhwiki:匈牙利國會大廈",
+  "extras": [
+   {
+    "local": "布达佩斯/国会大厦_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Martin Falbisoner",
+    "commons_file": "US Capitol west side.JPG",
+    "source": "commons-supplement:Capitol"
+   },
+   {
+    "local": "布达佩斯/国会大厦_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Martin Falbisoner",
+    "commons_file": "US Capitol east side.JPG",
+    "source": "commons-supplement:Capitol"
+   },
+   {
+    "local": "布达佩斯/国会大厦_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Martin Falbisoner",
+    "commons_file": "Capitol at Dusk 2.jpg",
+    "source": "commons-supplement:Capitol"
+   }
+  ]
+ },
+ {
+  "city": "布达佩斯",
+  "attraction": "链子桥",
+  "status": "miss"
+ },
+ {
+  "city": "布达佩斯",
+  "attraction": "温泉浴场",
+  "status": "ok",
+  "local": "布达佩斯/温泉浴场_1.jpg",
+  "license": "CC BY 3.0",
+  "artist": "Marc Ryckaert (MJJR)",
+  "commons_file": "Budapest_Széchenyi_Baths_R02.jpg",
+  "source": "zhwiki:塞切尼温泉浴场",
+  "extras": [
+   {
+    "local": "布达佩斯/温泉浴场_2.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Marc Ryckaert (MJJR)",
+    "commons_file": "Budapest Széchenyi Baths R01.jpg",
+    "source": "commons-supplement:温泉浴场"
+   },
+   {
+    "local": "布达佩斯/温泉浴场_3.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Mister No",
+    "commons_file": "Széchenyi Thermal Bath - panoramio.jpg",
+    "source": "commons-supplement:温泉浴场"
+   },
+   {
+    "local": "布达佩斯/温泉浴场_4.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Dezidor",
+    "commons_file": "Széchenyi thermal bath, Budapešť 0117.jpg",
+    "source": "commons-supplement:温泉浴场"
+   }
+  ]
+ },
+ {
+  "city": "布达佩斯",
+  "attraction": "城堡山",
+  "status": "ok",
+  "local": "布达佩斯/城堡山_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Chensiyuan",
+  "commons_file": "1_castle_hill_new_zealand_2018.jpg",
+  "source": "zhwiki:城堡山",
+  "extras": [
+   {
+    "local": "布达佩斯/城堡山_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Michal Klajban",
+    "commons_file": "View to Castle Hill Peak from Red Peak, Torlesse Range, New Zealand.jpg",
+    "source": "commons-supplement:Castle Hill, New Zealand"
+   },
+   {
+    "local": "布达佩斯/城堡山_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Michal Klajban",
+    "commons_file": "Kura Tāwhiti, Castle Hill, Canterbury, New Zealand.jpg",
+    "source": "commons-supplement:Castle Hill, New Zealand"
+   },
+   {
+    "local": "布达佩斯/城堡山_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Michal Klajban",
+    "commons_file": "Castle Hill Village, Canterbury, New Zealand 21.jpg",
+    "source": "commons-supplement:Castle Hill, New Zealand"
+   }
+  ]
+ }
+]

@@ -1,0 +1,529 @@
+[
+ {
+  "city": "苏黎世",
+  "attraction": "苏黎世湖",
+  "status": "ok",
+  "local": "苏黎世/苏黎世湖_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Thomas Woodtli",
+  "commons_file": "Zürichsee_Uto_Kulm.jpg",
+  "source": "zhwiki:苏黎世湖",
+  "extras": [
+   {
+    "local": "苏黎世/苏黎世湖_2.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Jakub Hałun",
+    "commons_file": "Lake Zurich at Rapperswil, 20250330 0825 7820.jpg",
+    "source": "commons-supplement:Lake Zurich"
+   },
+   {
+    "local": "苏黎世/苏黎世湖_3.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Jakub Hałun",
+    "commons_file": "Lake Zurich at Rapperswil, 20250330 0825 7818.jpg",
+    "source": "commons-supplement:Lake Zurich"
+   },
+   {
+    "local": "苏黎世/苏黎世湖_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Daniel Kraft",
+    "commons_file": "Zurich from Felsenegg blue hour 20210126.jpg",
+    "source": "commons-supplement:Lake Zurich"
+   }
+  ]
+ },
+ {
+  "city": "卢塞恩",
+  "attraction": "狮子纪念碑",
+  "status": "miss"
+ },
+ {
+  "city": "卢塞恩",
+  "attraction": "卡佩尔廊桥",
+  "status": "miss"
+ },
+ {
+  "city": "卢塞恩",
+  "attraction": "瑞吉山",
+  "status": "ok",
+  "local": "卢塞恩/瑞吉山_1.jpg",
+  "license": "GFDL",
+  "artist": "Audrius Meskauskas",
+  "commons_file": "Fog_Rigi.jpg",
+  "source": "zhwiki:里吉山",
+  "extras": [
+   {
+    "local": "卢塞恩/瑞吉山_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Roy Egloff",
+    "commons_file": "CH.ZG.Zug 2005-03-17 Rigi.jpg",
+    "source": "commons-supplement:Rigi"
+   },
+   {
+    "local": "卢塞恩/瑞吉山_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Kabelleger / David Gubler",
+    "commons_file": "RB BDhe 2-4 II Rigi Staffel - Rigi Kulm.jpg",
+    "source": "commons-supplement:Rigi"
+   },
+   {
+    "local": "卢塞恩/瑞吉山_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Gianluca Miscione",
+    "commons_file": "Rigi - hotel room with a view.jpg",
+    "source": "commons-supplement:Rigi"
+   }
+  ]
+ },
+ {
+  "city": "卢塞恩",
+  "attraction": "皮拉图斯山",
+  "status": "miss"
+ },
+ {
+  "city": "因特拉肯",
+  "attraction": "滑翔伞",
+  "status": "ok",
+  "local": "因特拉肯/滑翔伞_1.jpg",
+  "license": "CC BY-SA 2.0 fr",
+  "artist": "",
+  "commons_file": "Parapentiste_dome_1.jpg",
+  "source": "zhwiki:滑翔伞",
+  "extras": [
+   {
+    "local": "因特拉肯/滑翔伞_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Another one of my pictures:\n\n\n\nThis photograph was taken by Medium69 (William Cr",
+    "commons_file": "Parapente - 166.jpg",
+    "source": "commons-supplement:Paragliding"
+   },
+   {
+    "local": "因特拉肯/滑翔伞_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Basile Morin",
+    "commons_file": "Two-seater paramotor - Powered paragliding in flight - 3 quarter view a sunny afternoon in Don Det Laos.jpg",
+    "source": "commons-supplement:Paragliding"
+   },
+   {
+    "local": "因特拉肯/滑翔伞_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Another one of my pictures:\n\n\n\nThis photograph was taken by Medium69 (William Cr",
+    "commons_file": "Parapente - 184.jpg",
+    "source": "commons-supplement:Paragliding"
+   }
+  ]
+ },
+ {
+  "city": "因特拉肯",
+  "attraction": "逛吃",
+  "status": "miss"
+ },
+ {
+  "city": "因特拉肯",
+  "attraction": "格林德尔瓦尔德",
+  "status": "ok",
+  "local": "因特拉肯/格林德尔瓦尔德_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Cristo Vlahos",
+  "commons_file": "Grindelwald_View_02.jpg",
+  "source": "zhwiki:格林德尔瓦尔德",
+  "extras": [
+   {
+    "local": "因特拉肯/格林德尔瓦尔德_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "W. Bulach",
+    "commons_file": "00 0020 Grindelwald - Wetterhorn.jpg",
+    "source": "commons-supplement:Grindelwald"
+   },
+   {
+    "local": "因特拉肯/格林德尔瓦尔德_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "W. Bulach",
+    "commons_file": "00 3442 Grindelwald - Eiger (Schweiz).jpg",
+    "source": "commons-supplement:Grindelwald"
+   },
+   {
+    "local": "因特拉肯/格林德尔瓦尔德_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "W. Bulach",
+    "commons_file": "05 Grindelwald (CH) - Blick auf das Wetterhorn.jpg",
+    "source": "commons-supplement:Grindelwald"
+   }
+  ]
+ },
+ {
+  "city": "因特拉肯",
+  "attraction": "少女峰",
+  "status": "ok",
+  "local": "因特拉肯/少女峰_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Roland Zumbühl, Arlesheim",
+  "commons_file": "Jungfrau.jpg",
+  "source": "zhwiki:少女峰",
+  "extras": [
+   {
+    "local": "因特拉肯/少女峰_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Axel Tschentscher",
+    "commons_file": "Bern Church of the Holy Ghost Spire with Eiger Mönch Jungfrau 2019-10-16 18-50.jpg",
+    "source": "commons-supplement:Jungfrau"
+   },
+   {
+    "local": "因特拉肯/少女峰_3.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Gerd Fahrenhorst",
+    "commons_file": "Jungfrau (Michael Komorowski) 1.jpg",
+    "source": "commons-supplement:Jungfrau"
+   },
+   {
+    "local": "因特拉肯/少女峰_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Earth explorer",
+    "commons_file": "2008 Jungfrau-2.jpg",
+    "source": "commons-supplement:Jungfrau"
+   }
+  ]
+ },
+ {
+  "city": "因特拉肯",
+  "attraction": "梦幻山坡",
+  "status": "miss"
+ },
+ {
+  "city": "因特拉肯",
+  "attraction": "劳特布龙嫩",
+  "status": "miss"
+ },
+ {
+  "city": "因特拉肯",
+  "attraction": "翁根",
+  "status": "miss"
+ },
+ {
+  "city": "因特拉肯",
+  "attraction": "瀑布",
+  "status": "miss"
+ },
+ {
+  "city": "因特拉肯",
+  "attraction": "施皮茨",
+  "status": "ok",
+  "local": "因特拉肯/施皮茨_1.jpg",
+  "license": "CC BY-SA 2.5",
+  "artist": "Yesuitus2001 at de.wikipedia",
+  "commons_file": "Spiez.JPG",
+  "source": "zhwiki:施皮茨",
+  "extras": [
+   {
+    "local": "因特拉肯/施皮茨_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Christian David",
+    "commons_file": "Schloss Spiez und Hafen Spiez.jpg",
+    "source": "commons-supplement:Spiez"
+   },
+   {
+    "local": "因特拉肯/施皮茨_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "JoachimKohler-HB",
+    "commons_file": "Blick auf Schloss Spiez und Thunersee.jpg",
+    "source": "commons-supplement:Spiez"
+   },
+   {
+    "local": "因特拉肯/施皮茨_4.jpg",
+    "license": "Public domain",
+    "artist": "Gebrüder Sulzer",
+    "commons_file": "Schraubendampfer Spiez.jpg",
+    "source": "commons-supplement:Spiez"
+   }
+  ]
+ },
+ {
+  "city": "因特拉肯",
+  "attraction": "图恩湖",
+  "status": "ok",
+  "local": "因特拉肯/图恩湖_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Carsten Steger",
+  "commons_file": "Aerial_image_of_Lake_Thun_(view_from_the_east).jpg",
+  "source": "zhwiki:图恩湖",
+  "extras": [
+   {
+    "local": "因特拉肯/图恩湖_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Giles Laurent",
+    "commons_file": "14 Harder Kulm Lac Thoune Photo by Giles Laurent.jpg",
+    "source": "commons-supplement:Lake Thun"
+   },
+   {
+    "local": "因特拉肯/图恩湖_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Carsten Steger",
+    "commons_file": "Aerial image of Lake Thun (view from the east).jpg",
+    "source": "commons-supplement:Lake Thun"
+   },
+   {
+    "local": "因特拉肯/图恩湖_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "MartySwissCH",
+    "commons_file": "Lake Thun Panorama 2022 (view from Niesen).jpg",
+    "source": "commons-supplement:Lake Thun"
+   }
+  ]
+ },
+ {
+  "city": "因特拉肯",
+  "attraction": "布里恩茨湖",
+  "status": "ok",
+  "local": "因特拉肯/布里恩茨湖_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Carsten Steger",
+  "commons_file": "Aerial_image_of_Lake_Brienz_(view_from_the_southwest).jpg",
+  "source": "zhwiki:布里恩茨湖",
+  "extras": [
+   {
+    "local": "因特拉肯/布里恩茨湖_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Kabelleger / David Gubler (http://www.bahnbilder.ch)",
+    "commons_file": "ZB Interregio mit HGe 101 bei Niederried.jpg",
+    "source": "commons-supplement:Lake Brienz"
+   },
+   {
+    "local": "因特拉肯/布里恩茨湖_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "JoachimKohler-HB",
+    "commons_file": "BLS-Schiff \"Jungfrau\" an der Schifflände Brienz (2014).jpg",
+    "source": "commons-supplement:Lake Brienz"
+   },
+   {
+    "local": "因特拉肯/布里恩茨湖_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Carsten Steger",
+    "commons_file": "Aerial image of Lake Brienz (view from the southwest).jpg",
+    "source": "commons-supplement:Lake Brienz"
+   }
+  ]
+ },
+ {
+  "city": "蒙特勒",
+  "attraction": "西庸城堡",
+  "status": "ok",
+  "local": "蒙特勒/西庸城堡_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Giles Laurent",
+  "commons_file": "001_Chateau_de_Chillon_and_Dents_du_Midi_Photo_by_Giles_Laurent.jpg",
+  "source": "zhwiki:希永城堡",
+  "extras": [
+   {
+    "local": "蒙特勒/西庸城堡_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Giles Laurent",
+    "commons_file": "001 Chateau de Chillon and Dents du Midi Photo by Giles Laurent.jpg",
+    "source": "commons-supplement:Chillon Castle"
+   },
+   {
+    "local": "蒙特勒/西庸城堡_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Benjamin Gimmel BenHur",
+    "commons_file": "Schweiz Schloss Chillon Gesamtansicht.jpg",
+    "source": "commons-supplement:Chillon Castle"
+   },
+   {
+    "local": "蒙特勒/西庸城堡_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Llez",
+    "commons_file": "Château de Chillon - Veytaux 11.jpg",
+    "source": "commons-supplement:Chillon Castle"
+   }
+  ]
+ },
+ {
+  "city": "蒙特勒",
+  "attraction": "日内瓦湖",
+  "status": "ok",
+  "local": "蒙特勒/日内瓦湖_1.jpg",
+  "license": "CC BY-SA 3.0 igo",
+  "artist": "Copernicus Sentinel-2, ESA",
+  "commons_file": "Lake_Geneva_by_Sentinel-2.jpg",
+  "source": "zhwiki:萊芒湖",
+  "extras": [
+   {
+    "local": "蒙特勒/日内瓦湖_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Giles Laurent",
+    "commons_file": "093 Wild Mute swan at Lake Geneva during sunset Photo by Giles Laurent.jpg",
+    "source": "commons-supplement:Lake Geneva"
+   },
+   {
+    "local": "蒙特勒/日内瓦湖_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Giles Laurent",
+    "commons_file": "092 Wild Mute swan in flight at Lake Geneva during golden hour of sunset Photo by Giles Laurent.jpg",
+    "source": "commons-supplement:Lake Geneva"
+   },
+   {
+    "local": "蒙特勒/日内瓦湖_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dmitry A. Mottl",
+    "commons_file": "Lake Geneva from Chillon Castle.jpg",
+    "source": "commons-supplement:Lake Geneva"
+   }
+  ]
+ },
+ {
+  "city": "采尔马特",
+  "attraction": "马特洪峰",
+  "status": "ok",
+  "local": "采尔马特/马特洪峰_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Photo: chil, on Camptocamp.org\nDerivative work:Zacharie Grossen",
+  "commons_file": "Matterhorn_from_Domhütte_-_2.jpg",
+  "source": "zhwiki:马特峰",
+  "extras": [
+   {
+    "local": "采尔马特/马特洪峰_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Dirk Beyer",
+    "commons_file": "Matterhorn Riffelsee 2005-06-11.jpg",
+    "source": "commons-supplement:Matterhorn"
+   },
+   {
+    "local": "采尔马特/马特洪峰_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Liridon",
+    "commons_file": "Matterhorn, March 2019 (01).jpg",
+    "source": "commons-supplement:Matterhorn"
+   },
+   {
+    "local": "采尔马特/马特洪峰_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Giles Laurent",
+    "commons_file": "008 Milky way aligned with the Matterhorn reflecting in Stellisee Photo by Giles Laurent.jpg",
+    "source": "commons-supplement:Matterhorn"
+   }
+  ]
+ },
+ {
+  "city": "采尔马特",
+  "attraction": "戈尔内格拉特",
+  "status": "ok",
+  "local": "采尔马特/戈尔内格拉特_1.jpg",
+  "license": "Public domain",
+  "artist": "Johnw",
+  "commons_file": "Gornergrat.jpg",
+  "source": "zhwiki:戈爾內格拉特",
+  "extras": [
+   {
+    "local": "采尔马特/戈尔内格拉特_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Tobi 87",
+    "commons_file": "Panorama vom Gornergrat-Zermatt.jpg",
+    "source": "commons-supplement:Gornergrat"
+   },
+   {
+    "local": "采尔马特/戈尔内格拉特_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ka23 13",
+    "commons_file": "Gornergrat 20190717 1619.jpg",
+    "source": "commons-supplement:Gornergrat"
+   },
+   {
+    "local": "采尔马特/戈尔内格拉特_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Bob Tan",
+    "commons_file": "Aerial panorama of the Gornergrat 170622.jpg",
+    "source": "commons-supplement:Gornergrat"
+   }
+  ]
+ },
+ {
+  "city": "采尔马特",
+  "attraction": "五湖徒步",
+  "status": "miss"
+ },
+ {
+  "city": "采尔马特",
+  "attraction": "利菲尔湖",
+  "status": "miss"
+ },
+ {
+  "city": "日内瓦",
+  "attraction": "大喷泉",
+  "status": "ok",
+  "local": "日内瓦/大喷泉_1.jpg",
+  "license": "CC BY 2.5",
+  "artist": "Sylenius",
+  "commons_file": "Lake_Geneva.jpg",
+  "source": "zhwiki:大噴泉",
+  "extras": [
+   {
+    "local": "日内瓦/大喷泉_2.jpg",
+    "license": "Public domain",
+    "artist": "Original uploaded by Jmcboi (Transfered by Tomer T)",
+    "commons_file": "Jet d'eau Aug 06.JPG",
+    "source": "commons-supplement:Jet d'Eau"
+   },
+   {
+    "local": "日内瓦/大喷泉_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Wikibusters",
+    "commons_file": "Jet d'eau de Genève (swiss).jpg",
+    "source": "commons-supplement:Jet d'Eau"
+   },
+   {
+    "local": "日内瓦/大喷泉_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "John Samuel",
+    "commons_file": "Jet d'eau, Geneva.jpg",
+    "source": "commons-supplement:Jet d'Eau"
+   }
+  ]
+ },
+ {
+  "city": "圣莫里茨",
+  "attraction": "圣莫里茨湖",
+  "status": "ok",
+  "local": "圣莫里茨/圣莫里茨湖_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Tiia Monto",
+  "commons_file": "Lake_St._Moritz.jpg",
+  "source": "zhwiki:聖莫里茲湖",
+  "extras": [
+   {
+    "local": "圣莫里茨/圣莫里茨湖_2.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Murdockcrc",
+    "commons_file": "St Moritz Muottas.jpg",
+    "source": "commons-supplement:Lake St. Moritz"
+   },
+   {
+    "local": "圣莫里茨/圣莫里茨湖_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Isiwal",
+    "commons_file": "Sankt Moritz Lake Piz Muragl.jpg",
+    "source": "commons-supplement:Lake St. Moritz"
+   },
+   {
+    "local": "圣莫里茨/圣莫里茨湖_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "JoachimKohler-HB",
+    "commons_file": "Blick über den Sankt Moritzersee auf Sankt Moritz.jpg",
+    "source": "commons-supplement:Lake St. Moritz"
+   }
+  ]
+ },
+ {
+  "city": "圣莫里茨",
+  "attraction": "滑雪",
+  "status": "miss"
+ },
+ {
+  "city": "伯尔尼",
+  "attraction": "钟楼",
+  "status": "miss"
+ },
+ {
+  "city": "伯尔尼",
+  "attraction": "熊苑",
+  "status": "miss"
+ }
+]

@@ -1,0 +1,1080 @@
+[
+ {
+  "city": "罗马",
+  "attraction": "斗兽场",
+  "status": "ok",
+  "local": "罗马/斗兽场_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "FeaturedPics",
+  "commons_file": "Colosseo_2020.jpg",
+  "source": "zhwiki:罗马斗兽场",
+  "extras": [
+   {
+    "local": "罗马/斗兽场_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Diego Delso",
+    "commons_file": "Anfiteatro de Pula, Croacia, 2017-04-16, DD 01-06 PAN.jpg",
+    "source": "commons-supplement:Amphitheatre"
+   },
+   {
+    "local": "罗马/斗兽场_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Chme82",
+    "commons_file": "Amphitheatre Vindonissa at Night.jpg",
+    "source": "commons-supplement:Amphitheatre"
+   },
+   {
+    "local": "罗马/斗兽场_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Diego Delso",
+    "commons_file": "Anfiteatro de las ruinas romanas de Itálica, Santiponce, Sevilla, España, 2015-12-06, DD 34-45 PAN HDR.JPG",
+    "source": "commons-supplement:Amphitheatre"
+   }
+  ]
+ },
+ {
+  "city": "罗马",
+  "attraction": "古罗马广场",
+  "status": "ok",
+  "local": "罗马/古罗马广场_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but ple",
+  "commons_file": "Foro_Romano_Musei_Capitolini_Roma.jpg",
+  "source": "zhwiki:古羅馬廣場",
+  "extras": [
+   {
+    "local": "罗马/古罗马广场_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "BeBo86",
+    "commons_file": "Forum romanum 6k (5760x2097).jpg",
+    "source": "commons-supplement:Roman Forum"
+   },
+   {
+    "local": "罗马/古罗马广场_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Krzysztof Golik",
+    "commons_file": "Forum Romanum (14).jpg",
+    "source": "commons-supplement:Roman Forum"
+   },
+   {
+    "local": "罗马/古罗马广场_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but ple",
+    "commons_file": "Foro Romano Musei Capitolini Roma.jpg",
+    "source": "commons-supplement:Roman Forum"
+   }
+  ]
+ },
+ {
+  "city": "罗马",
+  "attraction": "梵蒂冈博物馆",
+  "status": "ok",
+  "local": "罗马/梵蒂冈博物馆_1.jpg",
+  "license": "CC BY 2.5",
+  "artist": "Aaron Logan",
+  "commons_file": "Lightmatter_vaticanmuseum.jpg",
+  "source": "zhwiki:梵蒂冈博物馆",
+  "extras": [
+   {
+    "local": "罗马/梵蒂冈博物馆_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Colin",
+    "commons_file": "Vatican Museums Spiral Staircase Looking Up 2012.jpg",
+    "source": "commons-supplement:Vatican Museums"
+   },
+   {
+    "local": "罗马/梵蒂冈博物馆_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Alvesgaspar",
+    "commons_file": "Two Bacchantes and a Bull (Vatican Museums) September 2015.1a.jpg",
+    "source": "commons-supplement:Vatican Museums"
+   },
+   {
+    "local": "罗马/梵蒂冈博物馆_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Colin",
+    "commons_file": "Vatican Museums Spiral Staircase 2012.jpg",
+    "source": "commons-supplement:Vatican Museums"
+   }
+  ]
+ },
+ {
+  "city": "罗马",
+  "attraction": "圣彼得大教堂",
+  "status": "ok",
+  "local": "罗马/圣彼得大教堂_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Alvesgaspar",
+  "commons_file": "Basilica_di_San_Pietro_in_Vaticano_September_2015-1a.jpg",
+  "source": "zhwiki:聖伯多祿大殿",
+  "extras": [
+   {
+    "local": "罗马/圣彼得大教堂_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Alvesgaspar",
+    "commons_file": "Basilica di San Pietro in Vaticano September 2015-1a.jpg",
+    "source": "commons-supplement:St. Peter's Basilica"
+   },
+   {
+    "local": "罗马/圣彼得大教堂_3.jpg",
+    "license": "CC0",
+    "artist": "Jebulon",
+    "commons_file": "Basilica Sancti Petri blue hour.jpg",
+    "source": "commons-supplement:St. Peter's Basilica"
+   },
+   {
+    "local": "罗马/圣彼得大教堂_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Jebulon",
+    "commons_file": "Ponte Vittorio Emanuele II San Pietro, Rome, Italy.jpg",
+    "source": "commons-supplement:St. Peter's Basilica"
+   }
+  ]
+ },
+ {
+  "city": "罗马",
+  "attraction": "许愿池",
+  "status": "miss"
+ },
+ {
+  "city": "罗马",
+  "attraction": "万神殿",
+  "status": "ok",
+  "local": "罗马/万神殿_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Alexander Russy",
+  "commons_file": "Pantheon,_Rom.jpg",
+  "source": "zhwiki:万神庙",
+  "extras": [
+   {
+    "local": "罗马/万神殿_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Rabax63",
+    "commons_file": "Pantheon Rom 1 cropped.jpg",
+    "source": "commons-supplement:Pantheon, Rome"
+   },
+   {
+    "local": "罗马/万神殿_3.jpg",
+    "license": "CC0",
+    "artist": "Wilfredor",
+    "commons_file": "Pantheon (Rome), Dome interior.jpg",
+    "source": "commons-supplement:Pantheon, Rome"
+   },
+   {
+    "local": "罗马/万神殿_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Rome (IT), Pantheon -- 2013 -- 3572.jpg",
+    "source": "commons-supplement:Pantheon, Rome"
+   }
+  ]
+ },
+ {
+  "city": "罗马",
+  "attraction": "纳沃纳广场",
+  "status": "ok",
+  "local": "罗马/纳沃纳广场_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "",
+  "commons_file": "Rzym_Fontanna_Czterech_Rzek.jpg",
+  "source": "zhwiki:纳沃纳广场",
+  "extras": [
+   {
+    "local": "罗马/纳沃纳广场_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Myrabella",
+    "commons_file": "Piazza Navona 1.jpg",
+    "source": "commons-supplement:Piazza Navona"
+   },
+   {
+    "local": "罗马/纳沃纳广场_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Rome (Italy), Piazza Navona -- 2013 -- 4418.jpg",
+    "source": "commons-supplement:Piazza Navona"
+   },
+   {
+    "local": "罗马/纳沃纳广场_4.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Meshari Alawfi",
+    "commons_file": "PiazzaNavona1.jpg",
+    "source": "commons-supplement:Piazza Navona"
+   }
+  ]
+ },
+ {
+  "city": "佛罗伦萨",
+  "attraction": "圣母百花大教堂",
+  "status": "ok",
+  "local": "佛罗伦萨/圣母百花大教堂_1.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Bruce Stokes on Flickr",
+  "commons_file": "View_of_Santa_Maria_del_Fiore_in_Florence.jpg",
+  "source": "zhwiki:聖母百花大教堂",
+  "extras": [
+   {
+    "local": "佛罗伦萨/圣母百花大教堂_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dllu",
+    "commons_file": "Florence Cathedral seen from Piazzale Michelangelo night dllu.jpg",
+    "source": "commons-supplement:Florence Cathedral"
+   },
+   {
+    "local": "佛罗伦萨/圣母百花大教堂_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Petar Milošević",
+    "commons_file": "Florence Duomo from Michelangelo hill.jpg",
+    "source": "commons-supplement:Florence Cathedral"
+   },
+   {
+    "local": "佛罗伦萨/圣母百花大教堂_4.jpg",
+    "license": "CC BY-SA 2.5",
+    "artist": "Thermos",
+    "commons_file": "CampanileGiotto-01.jpg",
+    "source": "commons-supplement:Florence Cathedral"
+   }
+  ]
+ },
+ {
+  "city": "佛罗伦萨",
+  "attraction": "领主广场",
+  "status": "ok",
+  "local": "佛罗伦萨/领主广场_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "No machine-readable author provided. JoJan assumed (based on copyright claims).",
+  "commons_file": "Firenze.PalVecchio.statues.JPG",
+  "source": "zhwiki:领主广场",
+  "extras": [
+   {
+    "local": "佛罗伦萨/领主广场_2.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Eusebius",
+    "commons_file": "Florence - David - tête.jpg",
+    "source": "commons-supplement:Piazza della Signoria"
+   },
+   {
+    "local": "佛罗伦萨/领主广场_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Ввласенко",
+    "commons_file": "View of Piazza della Signoria and Basilica of Santa Croce from Giotto's Bell Tower. Florence, Italy.jpg",
+    "source": "commons-supplement:Piazza della Signoria"
+   },
+   {
+    "local": "佛罗伦萨/领主广场_4.jpg",
+    "license": "CC BY 2.5",
+    "artist": "Samuli Lintula",
+    "commons_file": "Piazza della Signoria.jpg",
+    "source": "commons-supplement:Piazza della Signoria"
+   }
+  ]
+ },
+ {
+  "city": "佛罗伦萨",
+  "attraction": "乌菲兹美术馆",
+  "status": "ok",
+  "local": "佛罗伦萨/乌菲兹美术馆_1.jpg",
+  "license": "CC BY 3.0",
+  "artist": "Michelle Maria",
+  "commons_file": "Florence,_Italy_Uffizi_Museum_-_panoramio_(5).jpg",
+  "source": "zhwiki:烏菲茲美術館",
+  "extras": [
+   {
+    "local": "佛罗伦萨/乌菲兹美术馆_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Petar Milošević",
+    "commons_file": "Uffizi Gallery - Daughter of Niobe bent by terror.jpg",
+    "source": "commons-supplement:Uffizi"
+   },
+   {
+    "local": "佛罗伦萨/乌菲兹美术馆_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Arek N.",
+    "commons_file": "Florence, Italy - panoramio (125).jpg",
+    "source": "commons-supplement:Uffizi"
+   },
+   {
+    "local": "佛罗伦萨/乌菲兹美术馆_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ingo Mehling",
+    "commons_file": "Florence - Uffizi from Arno.jpg",
+    "source": "commons-supplement:Uffizi"
+   }
+  ]
+ },
+ {
+  "city": "佛罗伦萨",
+  "attraction": "老桥",
+  "status": "miss"
+ },
+ {
+  "city": "佛罗伦萨",
+  "attraction": "米开朗基罗广场",
+  "status": "ok",
+  "local": "佛罗伦萨/米开朗基罗广场_1.jpg",
+  "license": "Public domain",
+  "artist": "Attributed to Daniele da Volterra",
+  "commons_file": "Michelangelo_Daniele_da_Volterra_(dettaglio).jpg",
+  "source": "zhwiki:米开朗基罗",
+  "extras": [
+   {
+    "local": "佛罗伦萨/米开朗基罗广场_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Diego Delso",
+    "commons_file": "Vista de Florencia desde Piazzale Michelangelo, Italia, 2022-09-18, DD 212-214 HDR.jpg",
+    "source": "commons-supplement:Piazzale Michelangelo"
+   },
+   {
+    "local": "佛罗伦萨/米开朗基罗广场_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dllu",
+    "commons_file": "Florence Cathedral seen from Piazzale Michelangelo night dllu.jpg",
+    "source": "commons-supplement:Piazzale Michelangelo"
+   },
+   {
+    "local": "佛罗伦萨/米开朗基罗广场_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "CEphoto, Uwe Aranas",
+    "commons_file": "Florence Italy Bronze-replica-of-Michelangelos-David-at-Piazzale-Michelangelo-01.jpg",
+    "source": "commons-supplement:Piazzale Michelangelo"
+   }
+  ]
+ },
+ {
+  "city": "威尼斯",
+  "attraction": "圣马可广场",
+  "status": "ok",
+  "local": "威尼斯/圣马可广场_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Matthias Süßen",
+  "commons_file": "Piazza_San_Marco_(Venice)_at_night-msu-2021-6449-.jpg",
+  "source": "zhwiki:圣马可广场",
+  "extras": [
+   {
+    "local": "威尼斯/圣马可广场_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but ple",
+    "commons_file": "Panorama Piazza San Marco and Venice on Easter 2013.jpg",
+    "source": "commons-supplement:Piazza San Marco"
+   },
+   {
+    "local": "威尼斯/圣马可广场_3.jpg",
+    "license": "Public domain",
+    "artist": "Canaletto",
+    "commons_file": "Canaletto - The Piazza San Marco in Venice - Google Art Project.jpg",
+    "source": "commons-supplement:Piazza San Marco"
+   },
+   {
+    "local": "威尼斯/圣马可广场_4.jpg",
+    "license": "Public domain",
+    "artist": "Canaletto",
+    "commons_file": "Giovanni Antonio Canal, il Canaletto - Piazza San Marco - WGA03883.jpg",
+    "source": "commons-supplement:Piazza San Marco"
+   }
+  ]
+ },
+ {
+  "city": "威尼斯",
+  "attraction": "总督宫",
+  "status": "miss"
+ },
+ {
+  "city": "威尼斯",
+  "attraction": "彩色岛",
+  "status": "miss"
+ },
+ {
+  "city": "威尼斯",
+  "attraction": "玻璃岛",
+  "status": "miss"
+ },
+ {
+  "city": "米兰",
+  "attraction": "米兰大教堂",
+  "status": "ok",
+  "local": "米兰/米兰大教堂_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Jiuguang Wang",
+  "commons_file": "Milan_Cathedral_from_Piazza_del_Duomo.jpg",
+  "source": "zhwiki:米兰主教座堂",
+  "extras": [
+   {
+    "local": "米兰/米兰大教堂_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Daniel Case",
+    "commons_file": "View west along Duomo roof, Milan.jpg",
+    "source": "commons-supplement:Milan Cathedral"
+   },
+   {
+    "local": "米兰/米兰大教堂_3.jpg",
+    "license": "Public domain",
+    "artist": "Didier Descouens",
+    "commons_file": "Bemberg Fondation Toulouse - La cathédrale de Milan 1895 - Walter Sickert 23.7x15.9.jpg",
+    "source": "commons-supplement:Milan Cathedral"
+   },
+   {
+    "local": "米兰/米兰大教堂_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Jakub Hałun",
+    "commons_file": "20110724 Milan Cathedral 5260.jpg",
+    "source": "commons-supplement:Milan Cathedral"
+   }
+  ]
+ },
+ {
+  "city": "五渔村",
+  "attraction": "彩色村庄徒步",
+  "status": "miss"
+ },
+ {
+  "city": "五渔村",
+  "attraction": "里奥马焦雷",
+  "status": "ok",
+  "local": "五渔村/里奥马焦雷_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Tango7174",
+  "commons_file": "Liguria_5Terre3_tango7174.jpg",
+  "source": "zhwiki:里奥马焦雷",
+  "extras": [
+   {
+    "local": "五渔村/里奥马焦雷_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but p",
+    "commons_file": "Riomaggiore From Ferry Cinque Terre Italy Sep23 A7C 07414.jpg",
+    "source": "commons-supplement:Riomaggiore"
+   },
+   {
+    "local": "五渔村/里奥马焦雷_3.jpg",
+    "license": "CC BY-SA 2.5 ca",
+    "artist": "СССР",
+    "commons_file": "Panorama di Riomaggiore.jpg",
+    "source": "commons-supplement:Riomaggiore"
+   },
+   {
+    "local": "五渔村/里奥马焦雷_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but p",
+    "commons_file": "Ferry SP4461 Riomaggiore Cinque Terre Sep23 A7C 07311.jpg",
+    "source": "commons-supplement:Riomaggiore"
+   }
+  ]
+ },
+ {
+  "city": "五渔村",
+  "attraction": "蒙特罗索",
+  "status": "ok",
+  "local": "五渔村/蒙特罗索_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "HombreDHojalata",
+  "commons_file": "Casa_do_Concello_de_Monterroso.JPG",
+  "source": "zhwiki:蒙特罗索",
+  "extras": [
+   {
+    "local": "五渔村/蒙特罗索_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Vanbasten 23",
+    "commons_file": "Casa consistorial de Monterroso.jpg",
+    "source": "commons-supplement:Monterroso"
+   },
+   {
+    "local": "五渔村/蒙特罗索_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Vanbasten 23",
+    "commons_file": "Monterroso.jpg",
+    "source": "commons-supplement:Monterroso"
+   },
+   {
+    "local": "五渔村/蒙特罗索_4.png",
+    "license": "Public domain",
+    "artist": "Silva Barreto y Almeida, Alejandro de (BIBLIOTECA NACIONAL DE ESPAÑA)",
+    "commons_file": "Monterroso escudo.png",
+    "source": "commons-supplement:Monterroso"
+   }
+  ]
+ },
+ {
+  "city": "托斯卡纳",
+  "attraction": "奥尔恰谷",
+  "status": "ok",
+  "local": "托斯卡纳/奥尔恰谷_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Carlo cattaneo fotografie",
+  "commons_file": "I_cipressi_della_Val_D'Orcia.jpg",
+  "source": "zhwiki:奥尔恰谷",
+  "extras": [
+   {
+    "local": "托斯卡纳/奥尔恰谷_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "JP Vets",
+    "commons_file": "In Val d'Orcia.jpg",
+    "source": "commons-supplement:Val d'Orcia"
+   },
+   {
+    "local": "托斯卡纳/奥尔恰谷_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Anna.Massini",
+    "commons_file": "Wle 2023 - val d'orcia 3 - Rotoballe.jpg",
+    "source": "commons-supplement:Val d'Orcia"
+   },
+   {
+    "local": "托斯卡纳/奥尔恰谷_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Stefanoacetelli",
+    "commons_file": "Val d'orcia -pienza.JPG",
+    "source": "commons-supplement:Val d'Orcia"
+   }
+  ]
+ },
+ {
+  "city": "托斯卡纳",
+  "attraction": "田园风光",
+  "status": "miss"
+ },
+ {
+  "city": "托斯卡纳",
+  "attraction": "皮恩扎",
+  "status": "ok",
+  "local": "托斯卡纳/皮恩扎_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Beckstet",
+  "commons_file": "Dom_Fassade3-_s.jpg",
+  "source": "zhwiki:皮恩扎",
+  "extras": [
+   {
+    "local": "托斯卡纳/皮恩扎_2.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Anna.Massini",
+    "commons_file": "Pienza - Pozzo dei cani.jpg",
+    "source": "commons-supplement:Pienza"
+   },
+   {
+    "local": "托斯卡纳/皮恩扎_3.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Anna.Massini",
+    "commons_file": "Tabernacolo in Pienza dedicato alla Madonna in ricordo delle missioni 1951.jpg",
+    "source": "commons-supplement:Pienza"
+   },
+   {
+    "local": "托斯卡纳/皮恩扎_4.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Anna.Massini",
+    "commons_file": "Pozzo dei cani a Pienza.jpg",
+    "source": "commons-supplement:Pienza"
+   }
+  ]
+ },
+ {
+  "city": "托斯卡纳",
+  "attraction": "蒙特普尔恰诺",
+  "status": "ok",
+  "local": "托斯卡纳/蒙特普尔恰诺_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Ra Boe",
+  "commons_file": "Montepulciano_d_Abruzzo_05_(RaBoe).jpg",
+  "source": "zhwiki:阿布鲁佐的蒙特普尔恰诺",
+  "extras": [
+   {
+    "local": "托斯卡纳/蒙特普尔恰诺_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Agne27",
+    "commons_file": "Montepulciano d'abruzzo wine.jpg",
+    "source": "commons-supplement:Montepulciano d'Abruzzo"
+   },
+   {
+    "local": "托斯卡纳/蒙特普尔恰诺_3.jpg",
+    "license": "CC BY 2.0",
+    "artist": "e_calamar",
+    "commons_file": "Montepulciano d'Abruzzo Cerasuolo 2007.jpg",
+    "source": "commons-supplement:Montepulciano d'Abruzzo"
+   },
+   {
+    "local": "托斯卡纳/蒙特普尔恰诺_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Yozh",
+    "commons_file": "Montepulciano d'Abruzzo Levorato.jpg",
+    "source": "commons-supplement:Montepulciano d'Abruzzo"
+   }
+  ]
+ },
+ {
+  "city": "托斯卡纳",
+  "attraction": "天空之城",
+  "status": "ok",
+  "local": "托斯卡纳/天空之城_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Kim Ahlström from Tokyo, Japan",
+  "commons_file": "Laputian Robot at the Ghibli Museum.jpg",
+  "source": "commons-search:Castle in the Sky",
+  "extras": [
+   {
+    "local": "托斯卡纳/天空之城_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Klaus with K",
+    "commons_file": "Dunvegan Castle in the mist01editcrop 2007-08-22.jpg",
+    "source": "commons-supplement:Castle in the Sky"
+   },
+   {
+    "local": "托斯卡纳/天空之城_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Lusheeta at Japanese Wikipedia",
+    "commons_file": "Laputa pan.jpg",
+    "source": "commons-supplement:Castle in the Sky"
+   },
+   {
+    "local": "托斯卡纳/天空之城_4.png",
+    "license": "CC BY 2.5",
+    "artist": "Aco - acongs.lofter",
+    "commons_file": "Cast of Novoland Castle in the Sky in 2016.png",
+    "source": "commons-supplement:Castle in the Sky"
+   }
+  ]
+ },
+ {
+  "city": "多洛米蒂",
+  "attraction": "富纳斯山谷",
+  "status": "miss"
+ },
+ {
+  "city": "多洛米蒂",
+  "attraction": "布拉耶斯湖",
+  "status": "ok",
+  "local": "多洛米蒂/布拉耶斯湖_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "STirol",
+  "commons_file": "Pragser_Wildsee_Seekofel_von_Bucht.jpg",
+  "source": "zhwiki:布拉耶斯湖",
+  "extras": [
+   {
+    "local": "多洛米蒂/布拉耶斯湖_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "kallerna",
+    "commons_file": "Lago di Braies South Tyrol 3.jpg",
+    "source": "commons-supplement:Pragser Wildsee"
+   },
+   {
+    "local": "多洛米蒂/布拉耶斯湖_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "kallerna",
+    "commons_file": "Lago di Braies South Tyrol 6.jpg",
+    "source": "commons-supplement:Pragser Wildsee"
+   },
+   {
+    "local": "多洛米蒂/布拉耶斯湖_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "kallerna",
+    "commons_file": "Lago di Braies South Tyrol 7.jpg",
+    "source": "commons-supplement:Pragser Wildsee"
+   }
+  ]
+ },
+ {
+  "city": "多洛米蒂",
+  "attraction": "刀锋山",
+  "status": "miss"
+ },
+ {
+  "city": "多洛米蒂",
+  "attraction": "休斯山",
+  "status": "miss"
+ },
+ {
+  "city": "那不勒斯/庞贝/阿马尔菲海岸",
+  "attraction": "庞贝",
+  "status": "ok",
+  "local": "那不勒斯_庞贝_阿马尔菲海岸/庞贝_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "ElfQrin",
+  "commons_file": "Theathres_of_Pompeii.jpg",
+  "source": "zhwiki:庞贝",
+  "extras": [
+   {
+    "local": "那不勒斯_庞贝_阿马尔菲海岸/庞贝_2.jpg",
+    "license": "CC0",
+    "artist": "Jebulon",
+    "commons_file": "Composition ruins Pompeii.jpg",
+    "source": "commons-supplement:Pompeii"
+   },
+   {
+    "local": "那不勒斯_庞贝_阿马尔菲海岸/庞贝_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Commonists",
+    "commons_file": "Casa di Ottavio Quartione (Pompeii) - Giardino (Pompeii).jpg",
+    "source": "commons-supplement:Pompeii"
+   },
+   {
+    "local": "那不勒斯_庞贝_阿马尔菲海岸/庞贝_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Commonists",
+    "commons_file": "Stones on Via di Castricio (Pompeii).jpg",
+    "source": "commons-supplement:Pompeii"
+   }
+  ]
+ },
+ {
+  "city": "那不勒斯/庞贝/阿马尔菲海岸",
+  "attraction": "庞贝古城",
+  "status": "ok",
+  "local": "那不勒斯_庞贝_阿马尔菲海岸/庞贝古城_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "ElfQrin",
+  "commons_file": "Theathres_of_Pompeii.jpg",
+  "source": "zhwiki:庞贝",
+  "extras": [
+   {
+    "local": "那不勒斯_庞贝_阿马尔菲海岸/庞贝古城_2.jpg",
+    "license": "CC0",
+    "artist": "Jebulon",
+    "commons_file": "Composition ruins Pompeii.jpg",
+    "source": "commons-supplement:Pompeii"
+   },
+   {
+    "local": "那不勒斯_庞贝_阿马尔菲海岸/庞贝古城_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Commonists",
+    "commons_file": "Casa di Ottavio Quartione (Pompeii) - Giardino (Pompeii).jpg",
+    "source": "commons-supplement:Pompeii"
+   },
+   {
+    "local": "那不勒斯_庞贝_阿马尔菲海岸/庞贝古城_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Commonists",
+    "commons_file": "Stones on Via di Castricio (Pompeii).jpg",
+    "source": "commons-supplement:Pompeii"
+   }
+  ]
+ },
+ {
+  "city": "那不勒斯/庞贝/阿马尔菲海岸",
+  "attraction": "阿马尔菲",
+  "status": "ok",
+  "local": "那不勒斯_庞贝_阿马尔菲海岸/阿马尔菲_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "No machine-readable author provided. Sudodana2048 assumed (based on copyright cl",
+  "commons_file": "Amalfi_sea_view_Italy.JPG",
+  "source": "zhwiki:阿马尔菲",
+  "extras": [
+   {
+    "local": "那不勒斯_庞贝_阿马尔菲海岸/阿马尔菲_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Berthold Werner",
+    "commons_file": "Amalfi BW 2013-05-15 10-09-21.jpg",
+    "source": "commons-supplement:Amalfi"
+   },
+   {
+    "local": "那不勒斯_庞贝_阿马尔菲海岸/阿马尔菲_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Berthold Werner",
+    "commons_file": "Amalfi BW 2013-05-15 10-31-26 DxO.jpg",
+    "source": "commons-supplement:Amalfi"
+   },
+   {
+    "local": "那不勒斯_庞贝_阿马尔菲海岸/阿马尔菲_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "No machine-readable author provided. Sudodana2048 assumed (based on copyright cl",
+    "commons_file": "Amalfi sea view Italy.JPG",
+    "source": "commons-supplement:Amalfi"
+   }
+  ]
+ },
+ {
+  "city": "那不勒斯/庞贝/阿马尔菲海岸",
+  "attraction": "阿马尔菲镇",
+  "status": "miss"
+ },
+ {
+  "city": "那不勒斯/庞贝/阿马尔菲海岸",
+  "attraction": "索伦托",
+  "status": "ok",
+  "local": "那不勒斯_庞贝_阿马尔菲海岸/索伦托_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Martin Stiburek",
+  "commons_file": "Sorrento_054.JPG",
+  "source": "zhwiki:索伦托",
+  "extras": [
+   {
+    "local": "那不勒斯_庞贝_阿马尔菲海岸/索伦托_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Berthold Werner",
+    "commons_file": "Sorrento BW 2013-05-12 14-22-51.jpg",
+    "source": "commons-supplement:Sorrento"
+   },
+   {
+    "local": "那不勒斯_庞贝_阿马尔菲海岸/索伦托_3.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Alexis Lours",
+    "commons_file": "View of Sorrento from Piazza Tasso.jpg",
+    "source": "commons-supplement:Sorrento"
+   },
+   {
+    "local": "那不勒斯_庞贝_阿马尔菲海岸/索伦托_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Diego Delso",
+    "commons_file": "Sorrento, Italia, 2023-03-26, DD 09.jpg",
+    "source": "commons-supplement:Sorrento"
+   }
+  ]
+ },
+ {
+  "city": "那不勒斯/庞贝/阿马尔菲海岸",
+  "attraction": "卡普里岛",
+  "status": "ok",
+  "local": "那不勒斯_庞贝_阿马尔菲海岸/卡普里岛_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "",
+  "commons_file": "Wyspa_Capri.JPG",
+  "source": "zhwiki:卡普里岛",
+  "extras": [
+   {
+    "local": "那不勒斯_庞贝_阿马尔菲海岸/卡普里岛_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Berthold Werner",
+    "commons_file": "Capri harbour from Anacapri 2013.jpg",
+    "source": "commons-supplement:Capri"
+   },
+   {
+    "local": "那不勒斯_庞贝_阿马尔菲海岸/卡普里岛_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Berthold Werner",
+    "commons_file": "Capri BW 2013-05-14 16-40-17 DxO.jpg",
+    "source": "commons-supplement:Capri"
+   },
+   {
+    "local": "那不勒斯_庞贝_阿马尔菲海岸/卡普里岛_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Berthold Werner",
+    "commons_file": "Capri BW 2013-05-14 15-11-35 1 DxO.jpg",
+    "source": "commons-supplement:Capri"
+   }
+  ]
+ },
+ {
+  "city": "西西里岛",
+  "attraction": "阿格里真托",
+  "status": "ok",
+  "local": "西西里岛/阿格里真托_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Berthold Werner",
+  "commons_file": "Temple_of_Concordia,_Agrigento_BW_2012-10-07_13-09-13.jpg",
+  "source": "zhwiki:阿格里真托",
+  "extras": [
+   {
+    "local": "西西里岛/阿格里真托_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ambra75",
+    "commons_file": "Agrigento, Sicilia, Italia 2.jpg",
+    "source": "commons-supplement:Agrigento"
+   },
+   {
+    "local": "西西里岛/阿格里真托_3.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Sharon Hahn Darlin",
+    "commons_file": "Agrigento, Sicilia, Italia 🇮🇹 - Ristobar Io e Te.jpg",
+    "source": "commons-supplement:Agrigento"
+   },
+   {
+    "local": "西西里岛/阿格里真托_4.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "jschoenhofer",
+    "commons_file": "Agrigento 4m1.jpg",
+    "source": "commons-supplement:Agrigento"
+   }
+  ]
+ },
+ {
+  "city": "西西里岛",
+  "attraction": "土耳其阶梯",
+  "status": "ok",
+  "local": "西西里岛/土耳其阶梯_1.jpg",
+  "license": "CC BY 3.0",
+  "artist": "Carnby",
+  "commons_file": "Scala_dei_Turchi_panorama.jpg",
+  "source": "zhwiki:土耳其阶梯",
+  "extras": [
+   {
+    "local": "西西里岛/土耳其阶梯_2.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Carnby",
+    "commons_file": "Scala dei Turchi panorama.jpg",
+    "source": "commons-supplement:Scala dei Turchi"
+   },
+   {
+    "local": "西西里岛/土耳其阶梯_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Diafane",
+    "commons_file": "Scala dei Turchi vista dal Madison.jpg",
+    "source": "commons-supplement:Scala dei Turchi"
+   },
+   {
+    "local": "西西里岛/土耳其阶梯_4.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Enrico Strocchi",
+    "commons_file": "Scala dei Turchi 2017.jpg",
+    "source": "commons-supplement:Scala dei Turchi"
+   }
+  ]
+ },
+ {
+  "city": "西西里岛",
+  "attraction": "神殿之谷",
+  "status": "ok",
+  "local": "西西里岛/神殿之谷_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Berthold Werner",
+  "commons_file": "Temple_of_Concordia,_Agrigento_BW_2012-10-07_13-09-13.jpg",
+  "source": "zhwiki:神殿之谷",
+  "extras": [
+   {
+    "local": "西西里岛/神殿之谷_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Cayambe",
+    "commons_file": "Valle dei Templi – towards Temple of Concordia.jpg",
+    "source": "commons-supplement:Valle dei Templi"
+   },
+   {
+    "local": "西西里岛/神殿之谷_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Cayambe",
+    "commons_file": "Valle dei Templi – Temple of Concordia 2024a.jpg",
+    "source": "commons-supplement:Valle dei Templi"
+   },
+   {
+    "local": "西西里岛/神殿之谷_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Cayambe",
+    "commons_file": "Valle dei Templi – Temple of Concordia 2024b.jpg",
+    "source": "commons-supplement:Valle dei Templi"
+   }
+  ]
+ },
+ {
+  "city": "西西里岛",
+  "attraction": "锡拉库萨",
+  "status": "ok",
+  "local": "西西里岛/锡拉库萨_1.jpg",
+  "license": "Attribution",
+  "artist": "I FRATELLI ANGELO e GIORGIO BONOMO from Pomezia, ROMA, ITALIA",
+  "commons_file": "Veduta_aerea_di_Siracusa_e_con_l'Etna_sullo_sfondo_(Foto_di_Angelo_Bonomo).jpg",
+  "source": "zhwiki:锡拉库萨",
+  "extras": [
+   {
+    "local": "西西里岛/锡拉库萨_2.jpg",
+    "license": "CC0",
+    "artist": "Julian Lupyan",
+    "commons_file": "Statue of Saint Paul by Ignazio Marabitti and Syracuse Cathedral's Baroque Facade.jpg",
+    "source": "commons-supplement:Syracuse, Sicily"
+   },
+   {
+    "local": "西西里岛/锡拉库萨_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Ввласенко",
+    "commons_file": "Jo Yacht in Syracuse. Sicily, Italy.jpg",
+    "source": "commons-supplement:Syracuse, Sicily"
+   },
+   {
+    "local": "西西里岛/锡拉库萨_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Cayambe",
+    "commons_file": "Syracuse, Sicily – Osteria Rais.jpg",
+    "source": "commons-supplement:Syracuse, Sicily"
+   }
+  ]
+ },
+ {
+  "city": "西西里岛",
+  "attraction": "陶尔米纳",
+  "status": "ok",
+  "local": "西西里岛/陶尔米纳_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Berthold Werner",
+  "commons_file": "Taormina_BW_2012-10-05_16-15-42.jpg",
+  "source": "zhwiki:陶尔米纳",
+  "extras": [
+   {
+    "local": "西西里岛/陶尔米纳_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Berthold Werner",
+    "commons_file": "Taormina BW 2025-04-27 09-32-42.jpg",
+    "source": "commons-supplement:Taormina"
+   },
+   {
+    "local": "西西里岛/陶尔米纳_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Berthold Werner",
+    "commons_file": "Taormina BW 2025-04-27 09-32-30.jpg",
+    "source": "commons-supplement:Taormina"
+   },
+   {
+    "local": "西西里岛/陶尔米纳_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Berthold Werner",
+    "commons_file": "Taormina BW 2025-04-27 10-10-49.jpg",
+    "source": "commons-supplement:Taormina"
+   }
+  ]
+ },
+ {
+  "city": "西西里岛",
+  "attraction": "切法卢",
+  "status": "ok",
+  "local": "西西里岛/切法卢_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Berthold Werner",
+  "commons_file": "Cefalu_Cathedral_exterior_BW_2012-10-11_12-13-18.jpg",
+  "source": "zhwiki:切法卢",
+  "extras": [
+   {
+    "local": "西西里岛/切法卢_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Berthold Werner",
+    "commons_file": "Cefalù BW 2025-05-01 11-12-27.jpg",
+    "source": "commons-supplement:Cefalù"
+   },
+   {
+    "local": "西西里岛/切法卢_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Berthold Werner",
+    "commons_file": "Cefalù BW 2025-05-01 09-35-46.jpg",
+    "source": "commons-supplement:Cefalù"
+   },
+   {
+    "local": "西西里岛/切法卢_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Berthold Werner",
+    "commons_file": "Cefalù BW 2025-05-01 09-33-36.jpg",
+    "source": "commons-supplement:Cefalù"
+   }
+  ]
+ },
+ {
+  "city": "西西里岛",
+  "attraction": "巴勒莫",
+  "status": "ok",
+  "local": "西西里岛/巴勒莫_1.png",
+  "license": "CC BY-SA 4.0",
+  "artist": "Waldgang",
+  "commons_file": "Palermo_collage.png",
+  "source": "zhwiki:巴勒莫",
+  "extras": [
+   {
+    "local": "西西里岛/巴勒莫_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "José Luiz",
+    "commons_file": "Saint Dominic - San Domenico - Palermo - Italy 2015.JPG",
+    "source": "commons-supplement:Palermo"
+   },
+   {
+    "local": "西西里岛/巴勒莫_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "José Luiz",
+    "commons_file": "Detail - Building in Piazza Marina - Palermo - Italy 2015.JPG",
+    "source": "commons-supplement:Palermo"
+   },
+   {
+    "local": "西西里岛/巴勒莫_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "José Luiz",
+    "commons_file": "St Cataldus - Capela Palatina - Palermo - Italy 2015.JPG",
+    "source": "commons-supplement:Palermo"
+   }
+  ]
+ }
+]

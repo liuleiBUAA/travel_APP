@@ -1,0 +1,657 @@
+[
+ {
+  "city": "挪威",
+  "attraction": "维格兰雕塑公园",
+  "status": "miss"
+ },
+ {
+  "city": "挪威",
+  "attraction": "皇宫",
+  "status": "miss"
+ },
+ {
+  "city": "挪威",
+  "attraction": "卑尔根古城",
+  "status": "miss"
+ },
+ {
+  "city": "挪威",
+  "attraction": "布吕根码头",
+  "status": "ok",
+  "local": "挪威/布吕根码头_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Diego Delso",
+  "commons_file": "Bryggen,_Bergen,_Noruega,_2019-09-08,_DD_115-117_PAN.jpg",
+  "source": "zhwiki:布吕根"
+ },
+ {
+  "city": "挪威",
+  "attraction": "哈当厄尔峡湾一日游",
+  "status": "miss"
+ },
+ {
+  "city": "挪威",
+  "attraction": "纳伊柔峡湾",
+  "status": "miss"
+ },
+ {
+  "city": "挪威",
+  "attraction": "弗洛姆",
+  "status": "ok",
+  "local": "挪威/弗洛姆_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Bjoertvedt",
+  "commons_file": "Flaam_kyrkjestad_RK_84171_IMG_6305.jpg",
+  "source": "zhwiki:弗洛姆 (挪威)",
+  "extras": [
+   {
+    "local": "挪威/弗洛姆_2.jpg",
+    "license": "CC BY-SA 3.0 de",
+    "artist": "Müller-May",
+    "commons_file": "Erich Fromm 1974 (cropped)2.jpg",
+    "source": "commons-supplement:Erich Fromm"
+   },
+   {
+    "local": "挪威/弗洛姆_3.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Arturo Espinosa",
+    "commons_file": "Erich Fromm.jpg",
+    "source": "commons-supplement:Erich Fromm"
+   },
+   {
+    "local": "挪威/弗洛姆_4.jpg",
+    "license": "CC BY-SA 3.0 de",
+    "artist": "Müller-May",
+    "commons_file": "Erich Fromm 1974.jpg",
+    "source": "commons-supplement:Erich Fromm"
+   }
+  ]
+ },
+ {
+  "city": "挪威",
+  "attraction": "松恩峡湾",
+  "status": "ok",
+  "local": "挪威/松恩峡湾_1.png",
+  "license": "CC BY-SA 3.0",
+  "artist": "Farhan 17:03, 21 January 2008 (UTC)",
+  "commons_file": "Sognefjord.png",
+  "source": "zhwiki:松恩峡湾",
+  "extras": [
+   {
+    "local": "挪威/松恩峡湾_2.jpg",
+    "license": "Public domain",
+    "artist": "Adelsteen Normann",
+    "commons_file": "Adelsteen Normann Sognefjord.jpg",
+    "source": "commons-supplement:Sognefjord"
+   },
+   {
+    "local": "挪威/松恩峡湾_3.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Acediscovery",
+    "commons_file": "Sognefjord-Norway-April-2011.jpg",
+    "source": "commons-supplement:Sognefjord"
+   },
+   {
+    "local": "挪威/松恩峡湾_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "en:User:Worldtraveller,",
+    "commons_file": "Sognefjord, Norway.jpg",
+    "source": "commons-supplement:Sognefjord"
+   }
+  ]
+ },
+ {
+  "city": "挪威",
+  "attraction": "布道石徒步",
+  "status": "miss"
+ },
+ {
+  "city": "挪威",
+  "attraction": "吕瑟峡湾",
+  "status": "ok",
+  "local": "挪威/吕瑟峡湾_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Stefan Krause, Germany",
+  "commons_file": "Preikestolen_Norge.jpg",
+  "source": "zhwiki:呂瑟峽灣",
+  "extras": [
+   {
+    "local": "挪威/吕瑟峡湾_2.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Acediscovery",
+    "commons_file": "View-of-Lysefjord-Norway-April-2011.jpg",
+    "source": "commons-supplement:Lysefjord"
+   },
+   {
+    "local": "挪威/吕瑟峡湾_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Hesselhaker",
+    "commons_file": "MS Lysefjord.jpg",
+    "source": "commons-supplement:Lysefjord"
+   },
+   {
+    "local": "挪威/吕瑟峡湾_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Carsten Steger",
+    "commons_file": "Panorama of Lysefjord.jpg",
+    "source": "commons-supplement:Lysefjord"
+   }
+  ]
+ },
+ {
+  "city": "挪威",
+  "attraction": "渔民屋",
+  "status": "miss"
+ },
+ {
+  "city": "挪威",
+  "attraction": "峡湾",
+  "status": "ok",
+  "local": "挪威/峡湾_1.jpg",
+  "license": "CC BY-SA 2.5",
+  "artist": "Erik A. Drabløs",
+  "commons_file": "Norwegian_Fjord.jpg",
+  "source": "zhwiki:峡湾",
+  "extras": [
+   {
+    "local": "挪威/峡湾_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Marius Valen",
+    "commons_file": "Tip of the fjord-Abstract.jpg",
+    "source": "commons-supplement:Fjord"
+   },
+   {
+    "local": "挪威/峡湾_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Ximonic (Simo Räsänen)",
+    "commons_file": "Summer night at Lyngspollen, Lyngen fjord, Troms, Norway, 2012 June.jpg",
+    "source": "commons-supplement:Fjord"
+   },
+   {
+    "local": "挪威/峡湾_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Gordon Leggett",
+    "commons_file": "2015-09-18 MS OCEAN ENDEAVOUR - IMO 7625811, at Qeqertarsuaq Island (Karrat Fjord), Greenland.jpg",
+    "source": "commons-supplement:Fjord"
+   }
+  ]
+ },
+ {
+  "city": "挪威",
+  "attraction": "特罗洛",
+  "status": "miss"
+ },
+ {
+  "city": "挪威",
+  "attraction": "罗弗敦群岛深度游",
+  "status": "miss"
+ },
+ {
+  "city": "挪威",
+  "attraction": "极光",
+  "status": "ok",
+  "local": "挪威/极光_1.jpg",
+  "license": "CC BY-SA 1.0",
+  "artist": "The original uploader was 14jbella at English Wikipedia.",
+  "commons_file": "Aurora_Borealis_and_Australis_Poster.jpg",
+  "source": "zhwiki:极光",
+  "extras": [
+   {
+    "local": "挪威/极光_2.jpg",
+    "license": "Public domain",
+    "artist": "Ross Burgener",
+    "commons_file": "Aurora australis dancing over an LED illuminated igloo.jpg",
+    "source": "commons-supplement:Aurora"
+   },
+   {
+    "local": "挪威/极光_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Giles Laurent",
+    "commons_file": "039 Northern lights over Mývatn (Iceland) Photo by Giles Laurent.jpg",
+    "source": "commons-supplement:Aurora"
+   },
+   {
+    "local": "挪威/极光_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "W.carter",
+    "commons_file": "Multicolored aurora borealis pillar over Brastad.jpg",
+    "source": "commons-supplement:Aurora"
+   }
+  ]
+ },
+ {
+  "city": "挪威",
+  "attraction": "极地博物馆",
+  "status": "miss"
+ },
+ {
+  "city": "挪威",
+  "attraction": "缆车",
+  "status": "miss"
+ },
+ {
+  "city": "挪威",
+  "attraction": "塞尼亚半岛",
+  "status": "miss"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "黄金圈（间歇泉",
+  "status": "ok",
+  "local": "冰岛_8天环线_/黄金圈_间歇泉_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Jniemenmaa (talk) 07:50, 11 July 2009 (UTC) at en.wikipedia",
+  "commons_file": "Gullfoss_2009.jpg",
+  "source": "zhwiki:黄金圈"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "黄金瀑布）",
+  "status": "miss"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "塞里雅兰瀑布",
+  "status": "ok",
+  "local": "冰岛_8天环线_/塞里雅兰瀑布_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Diego Delso",
+  "commons_file": "Seljalandsfoss,_Suðurland,_Islandia,_2014-08-16,_DD_201-203_HDR.JPG",
+  "source": "zhwiki:塞利亚兰瀑布",
+  "extras": [
+   {
+    "local": "冰岛_8天环线_/塞里雅兰瀑布_2.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Jakub Hałun",
+    "commons_file": "Seljalandsfoss Waterfall, Iceland, 20240720 1501 3099.jpg",
+    "source": "commons-supplement:Seljalandsfoss"
+   },
+   {
+    "local": "冰岛_8天环线_/塞里雅兰瀑布_3.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Jakub Hałun",
+    "commons_file": "Seljalandsfoss Waterfall, Iceland, 20240720 1500 3096.jpg",
+    "source": "commons-supplement:Seljalandsfoss"
+   },
+   {
+    "local": "冰岛_8天环线_/塞里雅兰瀑布_4.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Jakub Hałun",
+    "commons_file": "Seljalandsfoss Waterfall, Iceland, 20240720 1457 3084.jpg",
+    "source": "commons-supplement:Seljalandsfoss"
+   }
+  ]
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "斯科加瀑布",
+  "status": "ok",
+  "local": "冰岛_8天环线_/斯科加瀑布_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Hansueli Krapf",
+  "commons_file": "2008-05-24_35_Skógafoss.jpg",
+  "source": "zhwiki:史可加瀑布",
+  "extras": [
+   {
+    "local": "冰岛_8天环线_/斯科加瀑布_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Martin Falbisoner",
+    "commons_file": "Skógafoss July 2014.JPG",
+    "source": "commons-supplement:Skógafoss"
+   },
+   {
+    "local": "冰岛_8天环线_/斯科加瀑布_3.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Jakub Hałun",
+    "commons_file": "Skógafoss Waterfall, Iceland, 20240720 1330 2993.jpg",
+    "source": "commons-supplement:Skógafoss"
+   },
+   {
+    "local": "冰岛_8天环线_/斯科加瀑布_4.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Jakub Hałun",
+    "commons_file": "Skógafoss Waterfall, Iceland, 20240720 1411 3075.jpg",
+    "source": "commons-supplement:Skógafoss"
+   }
+  ]
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "黑沙滩",
+  "status": "miss"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "冰河湖",
+  "status": "ok",
+  "local": "冰岛_8天环线_/冰河湖_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Kenny Muir",
+  "commons_file": "Jokulsarlon_lake,_Iceland.jpg",
+  "source": "zhwiki:杰古沙龙冰河湖",
+  "extras": [
+   {
+    "local": "冰岛_8天环线_/冰河湖_2.jpg",
+    "license": "Public domain",
+    "artist": "NASA",
+    "commons_file": "Glacial lakes, Bhutan.jpg",
+    "source": "commons-supplement:Glacial lake"
+   },
+   {
+    "local": "冰岛_8天环线_/冰河湖_3.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Kenny Muir",
+    "commons_file": "Jokulsarlon lake, Iceland.jpg",
+    "source": "commons-supplement:Glacial lake"
+   },
+   {
+    "local": "冰岛_8天环线_/冰河湖_4.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Vyacheslav Argenberg",
+    "commons_file": "Mountains in snow, Mountain lake, Chola Valley, Nepal, Himalayas.jpg",
+    "source": "commons-supplement:Glacial lake"
+   }
+  ]
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "蓝冰洞",
+  "status": "miss"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "东部峡湾",
+  "status": "ok",
+  "local": "冰岛_8天环线_/东部峡湾_1.jpg",
+  "license": "CC BY-SA 2.5",
+  "artist": "Erik A. Drabløs",
+  "commons_file": "Norwegian_Fjord.jpg",
+  "source": "zhwiki:峡湾"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "黛提瀑布",
+  "status": "ok",
+  "local": "冰岛_8天环线_/黛提瀑布_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Roger McLassus",
+  "commons_file": "Iceland_Dettifoss_1972-4.jpg",
+  "source": "zhwiki:黛提瀑布",
+  "extras": [
+   {
+    "local": "冰岛_8天环线_/黛提瀑布_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Roger McLassus",
+    "commons_file": "Iceland Dettifoss 1972-4.jpg",
+    "source": "commons-supplement:Dettifoss"
+   },
+   {
+    "local": "冰岛_8天环线_/黛提瀑布_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Roger McLassus",
+    "commons_file": "Iceland Dettifoss 1972.jpg",
+    "source": "commons-supplement:Dettifoss"
+   },
+   {
+    "local": "冰岛_8天环线_/黛提瀑布_4.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Jakub Hałun",
+    "commons_file": "Dettifoss, Iceland, 20240716 1500 1531.jpg",
+    "source": "commons-supplement:Dettifoss"
+   }
+  ]
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "众神瀑布",
+  "status": "ok",
+  "local": "冰岛_8天环线_/众神瀑布_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Andreas Tille",
+  "commons_file": "GothafossWinter.jpg",
+  "source": "zhwiki:眾神瀑布",
+  "extras": [
+   {
+    "local": "冰岛_8天环线_/众神瀑布_2.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Jakub Hałun",
+    "commons_file": "Goðafoss Waterfall, Iceland, 20240716 0921 1217.jpg",
+    "source": "commons-supplement:Goðafoss"
+   },
+   {
+    "local": "冰岛_8天环线_/众神瀑布_3.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Jakub Hałun",
+    "commons_file": "Goðafoss Waterfall, Iceland, 20240716 0852 1131.jpg",
+    "source": "commons-supplement:Goðafoss"
+   },
+   {
+    "local": "冰岛_8天环线_/众神瀑布_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Martin Falbisoner",
+    "commons_file": "Goðafoss July 2014.JPG",
+    "source": "commons-supplement:Goðafoss"
+   }
+  ]
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "玄武岩柱大峡谷",
+  "status": "miss"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "米湖温泉",
+  "status": "miss"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "犀牛石",
+  "status": "ok",
+  "local": "冰岛_8天环线_/犀牛石_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Árni Gunnarsson",
+  "commons_file": "Hvítserkur.JPG",
+  "source": "zhwiki:犀牛石 (冰島)",
+  "extras": [
+   {
+    "local": "冰岛_8天环线_/犀牛石_2.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Jakub Hałun",
+    "commons_file": "Hvítserkur, a basalt stack in northwest Iceland, 20240715 1123 0831.jpg",
+    "source": "commons-supplement:犀牛石"
+   },
+   {
+    "local": "冰岛_8天环线_/犀牛石_3.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Jakub Hałun",
+    "commons_file": "Hvítserkur, a basalt stack in northwest Iceland, 20240715 1124 0834.jpg",
+    "source": "commons-supplement:犀牛石"
+   },
+   {
+    "local": "冰岛_8天环线_/犀牛石_4.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Jakub Hałun",
+    "commons_file": "Hvítserkur Sea Stack, Northwestern Region, Iceland, 20240715 1137 0852.jpg",
+    "source": "commons-supplement:犀牛石"
+   }
+  ]
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "蓝湖温泉",
+  "status": "miss"
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "小美人鱼",
+  "status": "miss"
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "趣伏里公园",
+  "status": "ok",
+  "local": "哥本哈根/趣伏里公园_1.jpg",
+  "license": "CC BY 4.0",
+  "artist": "European Commission",
+  "commons_file": "Tivoli_Gardens_3.jpg",
+  "source": "zhwiki:蒂沃利公园",
+  "extras": [
+   {
+    "local": "哥本哈根/趣伏里公园_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Jakub Hałun",
+    "commons_file": "Fountain in Tivoli Gardens, Copenhagen, 20220618 1307 7156.jpg",
+    "source": "commons-supplement:Tivoli Gardens"
+   },
+   {
+    "local": "哥本哈根/趣伏里公园_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Petar Milošević",
+    "commons_file": "Nymphaea Laydekeri Purpurata (park Tivoli).jpg",
+    "source": "commons-supplement:Tivoli Gardens"
+   },
+   {
+    "local": "哥本哈根/趣伏里公园_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Sailing10",
+    "commons_file": "Tivoli Garden Easter.jpg",
+    "source": "commons-supplement:Tivoli Gardens"
+   }
+  ]
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "新港",
+  "status": "ok",
+  "local": "哥本哈根/新港_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Michael Apel",
+  "commons_file": "Nyhavn_MichaD.jpg",
+  "source": "zhwiki:新港 (哥本哈根)",
+  "extras": [
+   {
+    "local": "哥本哈根/新港_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Kopenhagen (DK), Nyhavn -- 2017 -- 1711.jpg",
+    "source": "commons-supplement:新港 哥本哈根"
+   },
+   {
+    "local": "哥本哈根/新港_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Moahim",
+    "commons_file": "2018 - Nyhavn on sunset.jpg",
+    "source": "commons-supplement:新港 哥本哈根"
+   },
+   {
+    "local": "哥本哈根/新港_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Jakub Hałun",
+    "commons_file": "Nyhavn, Copenhagen, 20220618 1728 7354.jpg",
+    "source": "commons-supplement:新港 哥本哈根"
+   }
+  ]
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "皇宫",
+  "status": "miss"
+ },
+ {
+  "city": "斯德哥尔摩",
+  "attraction": "皇宫",
+  "status": "miss"
+ },
+ {
+  "city": "斯德哥尔摩",
+  "attraction": "诺贝尔博物馆",
+  "status": "ok",
+  "local": "斯德哥尔摩/诺贝尔博物馆_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Holger.Ellgaard",
+  "commons_file": "Nobelmuseet_2009.jpg",
+  "source": "zhwiki:諾貝爾博物館",
+  "extras": [
+   {
+    "local": "斯德哥尔摩/诺贝尔博物馆_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Liridon",
+    "commons_file": "Stockholm - Nobel Prize Museum - April 2019.jpg",
+    "source": "commons-supplement:Nobel Prize Museum"
+   },
+   {
+    "local": "斯德哥尔摩/诺贝尔博物馆_3.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Hajotthu",
+    "commons_file": "Nobel Prize Museum Entrance Stockholm 20240611.JPG",
+    "source": "commons-supplement:Nobel Prize Museum"
+   },
+   {
+    "local": "斯德哥尔摩/诺贝尔博物馆_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Audrey Lebioda, Nationalmuseum",
+    "commons_file": "Old Town Culture Crawl No 2, Nobel Prize Museum, Alfred Nobel room.jpg",
+    "source": "commons-supplement:Nobel Prize Museum"
+   }
+  ]
+ },
+ {
+  "city": "斯德哥尔摩",
+  "attraction": "瓦萨沉船博物馆",
+  "status": "ok",
+  "local": "斯德哥尔摩/瓦萨沉船博物馆_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Ad Meskens",
+  "commons_file": "Stockholm_Vasa_Museum_and_Nordic_Museum_09.jpg",
+  "source": "zhwiki:瓦萨沉船博物馆",
+  "extras": [
+   {
+    "local": "斯德哥尔摩/瓦萨沉船博物馆_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Martin Falbisoner",
+    "commons_file": "Stockholm August 2020 - Kastellet, Vasa Museum, and Nordic Museum.jpg",
+    "source": "commons-supplement:Vasa Museum"
+   },
+   {
+    "local": "斯德哥尔摩/瓦萨沉船博物馆_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "John Samuel",
+    "commons_file": "Vasa museum In Stockholm.jpg",
+    "source": "commons-supplement:Vasa Museum"
+   },
+   {
+    "local": "斯德哥尔摩/瓦萨沉船博物馆_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Rosser1954",
+    "commons_file": "Lightship at the Vasa Museum, Stockholm.jpg",
+    "source": "commons-supplement:Vasa Museum"
+   }
+  ]
+ },
+ {
+  "city": "圣诞老人村",
+  "attraction": "圣诞老人办公室",
+  "status": "miss"
+ },
+ {
+  "city": "圣诞老人村",
+  "attraction": "跨越北极圈",
+  "status": "miss"
+ },
+ {
+  "city": "罗弗敦",
+  "attraction": "Hamnøy 桥头 + Reine + 徒步 Reinebringen",
+  "status": "miss"
+ },
+ {
+  "city": "罗弗敦",
+  "attraction": "徒步 Ryten + Ramberg 海滩散步",
+  "status": "miss"
+ },
+ {
+  "city": "罗弗敦",
+  "attraction": "下一个目的地",
+  "status": "miss"
+ }
+]

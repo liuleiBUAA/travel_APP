@@ -7,7 +7,30 @@
   "license": "CC0",
   "artist": "Ali Sabbagh",
   "commons_file": "West_facade_of_the_Cour_Carrée,_Louvre_Palace,_Paris_5_October_2017.jpg",
-  "source": "zhwiki:卢浮宫"
+  "source": "zhwiki:卢浮宫",
+  "extras": [
+   {
+    "local": "巴黎/卢浮宫_2.jpg",
+    "license": "CC BY 2.5",
+    "artist": "Benh LIEU SONG",
+    "commons_file": "Cour Napoléon at night - Louvre.jpg",
+    "source": "commons-supplement:Louvre Palace"
+   },
+   {
+    "local": "巴黎/卢浮宫_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "User:Gloumouth1",
+    "commons_file": "Le Louvre - Aile Richelieu.jpg",
+    "source": "commons-supplement:Louvre Palace"
+   },
+   {
+    "local": "巴黎/卢浮宫_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Benh LIEU SONG (Flickr)",
+    "commons_file": "Louvre Museum Wikimedia Commons.jpg",
+    "source": "commons-supplement:Louvre Palace"
+   }
+  ]
  },
  {
   "city": "巴黎",
@@ -17,7 +40,30 @@
   "license": "CC BY-SA 4.0",
   "artist": "Mbzt",
   "commons_file": "F4666_Paris_8_Avenue_des_Champs_Elysees_rwk.jpg",
-  "source": "zhwiki:香榭丽舍大街"
+  "source": "zhwiki:香榭丽舍大街",
+  "extras": [
+   {
+    "local": "巴黎/香榭丽舍大街_2.jpg",
+    "license": "CC0",
+    "artist": "Pierre Blaché from Paris, France",
+    "commons_file": "Avenue des Champs-Elysées, Paris 12 December 2020.jpg",
+    "source": "commons-supplement:Champs-Élysées"
+   },
+   {
+    "local": "巴黎/香榭丽舍大街_3.jpg",
+    "license": "Public domain",
+    "artist": "Jack Downey, U.S. Office of War Information",
+    "commons_file": "Crowds of French patriots line the Champs Elysees-edit2.jpg",
+    "source": "commons-supplement:Champs-Élysées"
+   },
+   {
+    "local": "巴黎/香榭丽舍大街_4.jpg",
+    "license": "CC0",
+    "artist": "Jebulon",
+    "commons_file": "Avenue des Champs-Elysées from top of Arc de triomphe Paris.jpg",
+    "source": "commons-supplement:Champs-Élysées"
+   }
+  ]
  },
  {
   "city": "巴黎",
@@ -27,7 +73,30 @@
   "license": "CC BY-SA 4.0",
   "artist": "CrisNYCa",
   "commons_file": "Tour_Eiffel_14.jpg",
-  "source": "zhwiki:艾菲爾鐵塔"
+  "source": "zhwiki:艾菲爾鐵塔",
+  "extras": [
+   {
+    "local": "巴黎/埃菲尔铁塔_2.jpg",
+    "license": "Public domain",
+    "artist": "Benh LIEU SONG",
+    "commons_file": "Tour Eiffel Wikimedia Commons.jpg",
+    "source": "commons-supplement:Eiffel Tower"
+   },
+   {
+    "local": "巴黎/埃菲尔铁塔_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Jorge Royan",
+    "commons_file": "Paris - The Eiffel Tower in spring - 2307.jpg",
+    "source": "commons-supplement:Eiffel Tower"
+   },
+   {
+    "local": "巴黎/埃菲尔铁塔_4.jpg",
+    "license": "Public domain",
+    "artist": "Gabriel Loppé",
+    "commons_file": "Lightning striking the Eiffel Tower - NOAA.jpg",
+    "source": "commons-supplement:Eiffel Tower"
+   }
+  ]
  },
  {
   "city": "巴黎",
@@ -37,7 +106,30 @@
   "license": "CC0",
   "artist": "Maxime Homme",
   "commons_file": "Vue_du_troisième_étage_de_la_Tour_Effeil_07.JPG",
-  "source": "zhwiki:塞纳河"
+  "source": "zhwiki:塞纳河",
+  "extras": [
+   {
+    "local": "巴黎/塞纳河_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but ple",
+    "commons_file": "Seine Pont Royal Louvre Paris.jpg",
+    "source": "commons-supplement:Seine"
+   },
+   {
+    "local": "巴黎/塞纳河_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "DXR",
+    "commons_file": "Front de Seine as seen from Pont Mirabeau 140412 1.jpg",
+    "source": "commons-supplement:Seine"
+   },
+   {
+    "local": "巴黎/塞纳河_4.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Getfunky Paris",
+    "commons_file": "Eiffel Tower and Pont Alexandre III at night.jpg",
+    "source": "commons-supplement:Seine"
+   }
+  ]
  },
  {
   "city": "巴黎",
@@ -62,6 +154,13 @@
     "artist": "Basile Morin",
     "commons_file": "Water reflection of the Orangerie garden and Palace of Versailles with blue sky in France.jpg",
     "source": "commons-search:Palace of Versailles gardens"
+   },
+   {
+    "local": "巴黎/凡尔赛宫_4.png",
+    "license": "Public domain",
+    "artist": "Claude-Louis Châtelet",
+    "commons_file": "Plan du jardin et chateau de la Reine.png",
+    "source": "commons-supplement:Palace of Versailles"
    }
   ]
  },
@@ -73,7 +172,30 @@
   "license": "CC BY-SA 2.0",
   "artist": "Cheng-en Cheng from Taichung City, Taiwan",
   "commons_file": "Gare_d'Orsay_(49570190081).jpg",
-  "source": "zhwiki:奥赛博物馆"
+  "source": "zhwiki:奥赛博物馆",
+  "extras": [
+   {
+    "local": "巴黎/奥赛博物馆_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "DXR",
+    "commons_file": "Musee d'Orsay and Pont Royal, North-West view 140402 1.jpg",
+    "source": "commons-supplement:Musée d'Orsay"
+   },
+   {
+    "local": "巴黎/奥赛博物馆_3.jpg",
+    "license": "CC BY 2.5",
+    "artist": "Benh",
+    "commons_file": "MuseeOrsay 20070324.jpg",
+    "source": "commons-supplement:Musée d'Orsay"
+   },
+   {
+    "local": "巴黎/奥赛博物馆_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Sanchezn",
+    "commons_file": "MuseeDOrsay.jpg",
+    "source": "commons-supplement:Musée d'Orsay"
+   }
+  ]
  },
  {
   "city": "巴黎",
@@ -83,7 +205,30 @@
   "license": "CC BY-SA 4.0",
   "artist": "GFreihalter",
   "commons_file": "Paris_1er_Jardin_des_Tuileries_573.jpg",
-  "source": "zhwiki:杜樂麗花園"
+  "source": "zhwiki:杜樂麗花園",
+  "extras": [
+   {
+    "local": "巴黎/杜乐丽花园_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Moonik",
+    "commons_file": "Grand bassin octogonal Jardin des Tuileries 003.jpg",
+    "source": "commons-supplement:Tuileries Garden"
+   },
+   {
+    "local": "巴黎/杜乐丽花园_3.jpg",
+    "license": "Public domain",
+    "artist": "Charles Fichot",
+    "commons_file": "Paris moderne. Les Tuileries, le Louvre, et la rue de Rivoli, vue prise du Jardin des Tuileries.jpg",
+    "source": "commons-supplement:Tuileries Garden"
+   },
+   {
+    "local": "巴黎/杜乐丽花园_4.jpg",
+    "license": "CC0",
+    "artist": "Ali Sabbagh",
+    "commons_file": "Pavillon de Flore from the Tuileries Garden, Paris 5 November 2019.jpg",
+    "source": "commons-supplement:Tuileries Garden"
+   }
+  ]
  },
  {
   "city": "巴黎",
@@ -93,7 +238,30 @@
   "license": "CC BY-SA 3.0",
   "artist": "",
   "commons_file": "ParijsMontmartre.JPG",
-  "source": "zhwiki:蒙馬特"
+  "source": "zhwiki:蒙馬特",
+  "extras": [
+   {
+    "local": "巴黎/蒙马特高地_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Terragio67",
+    "commons_file": "L'escalier de droite menant à la Basilique de Montmartre - GT 03 - 2024.jpg",
+    "source": "commons-supplement:Montmartre"
+   },
+   {
+    "local": "巴黎/蒙马特高地_3.jpg",
+    "license": "Public domain",
+    "artist": "Camille Pissarro",
+    "commons_file": "Camille Pissarro - Boulevard Montmartre, Spring - Google Art Project.jpg",
+    "source": "commons-supplement:Montmartre"
+   },
+   {
+    "local": "巴黎/蒙马特高地_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Christophe Meneboeuf",
+    "commons_file": "Montmarte 2 (pixinn.net).jpg",
+    "source": "commons-supplement:Montmartre"
+   }
+  ]
  },
  {
   "city": "巴黎",
@@ -108,7 +276,30 @@
   "license": "CC BY-SA 3.0",
   "artist": "Cayambe",
   "commons_file": "Nice Baie des anges 02.jpg",
-  "source": "commons-search:Baie des Anges"
+  "source": "commons-search:Baie des Anges",
+  "extras": [
+   {
+    "local": "蔚蓝海岸_尼斯_摩纳哥_戛纳_/天使湾_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Cayambe",
+    "commons_file": "Nice Baie des anges 01.jpg",
+    "source": "commons-supplement:Baie des Anges"
+   },
+   {
+    "local": "蔚蓝海岸_尼斯_摩纳哥_戛纳_/天使湾_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ermell",
+    "commons_file": "Nizza-Baie des Anges-4070865.jpg",
+    "source": "commons-supplement:Baie des Anges"
+   },
+   {
+    "local": "蔚蓝海岸_尼斯_摩纳哥_戛纳_/天使湾_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ermell",
+    "commons_file": "Nizza-Baie des Anges-4070867.jpg",
+    "source": "commons-supplement:Baie des Anges"
+   }
+  ]
  },
  {
   "city": "蔚蓝海岸（尼斯/摩纳哥/戛纳）",
@@ -118,7 +309,30 @@
   "license": "CC BY-SA 3.0",
   "artist": "Sergey Ashmarin",
   "commons_file": "Mediterranean_coast_-_Eze,_France_-_panoramio.jpg",
-  "source": "zhwiki:埃兹"
+  "source": "zhwiki:埃兹",
+  "extras": [
+   {
+    "local": "蔚蓝海岸_尼斯_摩纳哥_戛纳_/埃兹小镇_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ketounette",
+    "commons_file": "Érize-la-Petite 3.jpg",
+    "source": "commons-supplement:埃兹小镇"
+   },
+   {
+    "local": "蔚蓝海岸_尼斯_摩纳哥_戛纳_/埃兹小镇_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ketounette",
+    "commons_file": "Érize-la-Petite 1.jpg",
+    "source": "commons-supplement:埃兹小镇"
+   },
+   {
+    "local": "蔚蓝海岸_尼斯_摩纳哥_戛纳_/埃兹小镇_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ketounette",
+    "commons_file": "Érize-la-Petite 2.jpg",
+    "source": "commons-supplement:埃兹小镇"
+   }
+  ]
  },
  {
   "city": "蔚蓝海岸（尼斯/摩纳哥/戛纳）",
@@ -128,7 +342,30 @@
   "license": "CC BY-SA 3.0",
   "artist": "Tobi 87",
   "commons_file": "Panorama von Monaco-La Turbie.jpg",
-  "source": "commons-search:Monaco"
+  "source": "commons-search:Monaco",
+  "extras": [
+   {
+    "local": "蔚蓝海岸_尼斯_摩纳哥_戛纳_/摩纳哥_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Diego Delso",
+    "commons_file": "Vista de Mónaco, 2016-06-23, DD 12.jpg",
+    "source": "commons-supplement:Monaco"
+   },
+   {
+    "local": "蔚蓝海岸_尼斯_摩纳哥_戛纳_/摩纳哥_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Syedahmed 1",
+    "commons_file": "Principality of Monaco, The Silent Waves.jpg",
+    "source": "commons-supplement:Monaco"
+   },
+   {
+    "local": "蔚蓝海岸_尼斯_摩纳哥_戛纳_/摩纳哥_4.png",
+    "license": "CC0",
+    "artist": "Hollowayvideo",
+    "commons_file": "Monte carlo Monaco Panorama 2014.png",
+    "source": "commons-supplement:Monaco"
+   }
+  ]
  },
  {
   "city": "蔚蓝海岸（尼斯/摩纳哥/戛纳）",
@@ -138,7 +375,30 @@
   "license": "CC BY-SA 3.0",
   "artist": "Kazimierz Mendlik",
   "commons_file": "Cannes_Francja_-_zbliżenie,_widok_z_nowego_portu._-_panoramio.jpg",
-  "source": "zhwiki:戛纳"
+  "source": "zhwiki:戛纳",
+  "extras": [
+   {
+    "local": "蔚蓝海岸_尼斯_摩纳哥_戛纳_/戛纳_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Spike",
+    "commons_file": "Cannes from Suquet Tower 02.jpg",
+    "source": "commons-supplement:Cannes"
+   },
+   {
+    "local": "蔚蓝海岸_尼斯_摩纳哥_戛纳_/戛纳_3.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Jenny Andersson / News Oresund",
+    "commons_file": "Hamnen Cannes Mipim 20140312 (13120667594).jpg",
+    "source": "commons-supplement:Cannes"
+   },
+   {
+    "local": "蔚蓝海岸_尼斯_摩纳哥_戛纳_/戛纳_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Spike",
+    "commons_file": "Cannes from Suquet Tower 03.jpg",
+    "source": "commons-supplement:Cannes"
+   }
+  ]
  },
  {
   "city": "普罗旺斯（阿维尼翁/马赛）",
@@ -148,7 +408,30 @@
   "license": "CC BY-SA 3.0",
   "artist": "Jean-Marc Rosier (de/from http://www.cjrosier.com + http://www.gordes-immobilier",
   "commons_file": "Avignon,_Palais_des_Papes_by_JM_Rosier.jpg",
-  "source": "zhwiki-alias:教宗宮 (亞維農)"
+  "source": "zhwiki-alias:教宗宮 (亞維農)",
+  "extras": [
+   {
+    "local": "普罗旺斯_阿维尼翁_马赛_/教皇宫_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Parsifall",
+    "commons_file": "Loreto Palazzo Apostolico 05.jpg",
+    "source": "commons-supplement:Apostolic Palace"
+   },
+   {
+    "local": "普罗旺斯_阿维尼翁_马赛_/教皇宫_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ank Kumar",
+    "commons_file": "Vatican Swiss Guards at Apostolic Palace (Ank Kumar, Infosys) 01.jpg",
+    "source": "commons-supplement:Apostolic Palace"
+   },
+   {
+    "local": "普罗旺斯_阿维尼翁_马赛_/教皇宫_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ank Kumar",
+    "commons_file": "Vatican Swiss Guards at Apostolic Palace (Ank Kumar, Infosys) 02.jpg",
+    "source": "commons-supplement:Apostolic Palace"
+   }
+  ]
  },
  {
   "city": "普罗旺斯（阿维尼翁/马赛）",
@@ -158,7 +441,30 @@
   "license": "CC BY-SA 3.0",
   "artist": "Chiugoran",
   "commons_file": "Saint-benezet_in_southeastern_France.jpg",
-  "source": "zhwiki-alias:圣贝内泽桥"
+  "source": "zhwiki-alias:圣贝内泽桥",
+  "extras": [
+   {
+    "local": "普罗旺斯_阿维尼翁_马赛_/断桥_2.jpg",
+    "license": "CC BY 2.5",
+    "artist": "陸天冷",
+    "commons_file": "Broken Bridge, Hangzhou, China.jpg",
+    "source": "commons-supplement:Broken Bridge (Hangzhou)"
+   },
+   {
+    "local": "普罗旺斯_阿维尼翁_马赛_/断桥_3.jpg",
+    "license": "CC0",
+    "artist": "Suicasmo",
+    "commons_file": "Broken Bridge (Hangzhou) 20250505.jpg",
+    "source": "commons-supplement:Broken Bridge (Hangzhou)"
+   },
+   {
+    "local": "普罗旺斯_阿维尼翁_马赛_/断桥_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "钉钉",
+    "commons_file": "Broken Bridge，Hangzhou.jpg",
+    "source": "commons-supplement:Broken Bridge (Hangzhou)"
+   }
+  ]
  },
  {
   "city": "普罗旺斯（阿维尼翁/马赛）",
@@ -168,7 +474,30 @@
   "license": "CC BY-SA 3.0",
   "artist": "Vi..Cult...",
   "commons_file": "La_Sorgue_le_31_mai_2008_avec_1,53_mètres_de_hauteur,_La_Fontaine_de_Vaucluse_16.JPG",
-  "source": "zhwiki-alias:沃克吕兹泉"
+  "source": "zhwiki-alias:沃克吕兹泉",
+  "extras": [
+   {
+    "local": "普罗旺斯_阿维尼翁_马赛_/泉水城_2.jpg",
+    "license": "CC0",
+    "artist": "鏌翷",
+    "commons_file": "小胖城潮泉水庫.jpg",
+    "source": "commons-supplement:泉水城"
+   },
+   {
+    "local": "普罗旺斯_阿维尼翁_马赛_/泉水城_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Azylber",
+    "commons_file": "Quanshui Station.JPG",
+    "source": "commons-supplement:泉水城"
+   },
+   {
+    "local": "普罗旺斯_阿维尼翁_马赛_/泉水城_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Doung PINMAIrypa Lungingae",
+    "commons_file": "HK 堅尼地城 Kennedy Town 北街 North Street shop 泉水茶居 Fountain Tea House Restaurant January 2022 Px3 01.jpg",
+    "source": "commons-supplement:泉水城"
+   }
+  ]
  },
  {
   "city": "普罗旺斯（阿维尼翁/马赛）",
@@ -178,7 +507,30 @@
   "license": "CC BY 4.0",
   "artist": "Jean-Pol GRANDMONT",
   "commons_file": "0_Gordes_sur_son_piton_rocheux.jpg",
-  "source": "zhwiki-alias:戈尔德"
+  "source": "zhwiki-alias:戈尔德",
+  "extras": [
+   {
+    "local": "普罗旺斯_阿维尼翁_马赛_/石头城_2.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Kevin Dooley from Chandler, AZ, USA",
+    "commons_file": "Nanjing city park (9378839458).jpg",
+    "source": "commons-supplement:Stone City (Nanjing)"
+   },
+   {
+    "local": "普罗旺斯_阿维尼翁_马赛_/石头城_3.jpg",
+    "license": "Public Domain",
+    "artist": "Yinan Chen",
+    "commons_file": "Gfp-china-nanjing-city-wall.jpg",
+    "source": "commons-supplement:Stone City (Nanjing)"
+   },
+   {
+    "local": "普罗旺斯_阿维尼翁_马赛_/石头城_4.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Good Free Photos",
+    "commons_file": "Nanjing-from-city-walls.jpg - panoramio.jpg",
+    "source": "commons-supplement:Stone City (Nanjing)"
+   }
+  ]
  },
  {
   "city": "普罗旺斯（阿维尼翁/马赛）",
@@ -188,7 +540,23 @@
   "license": "CC BY-SA 2.0 de",
   "artist": "Hawobo at German Wikipedia",
   "commons_file": "Roussillon_(Vaucluse).JPG",
-  "source": "zhwiki-alias:鲁西永 (沃克吕兹省)"
+  "source": "zhwiki-alias:鲁西永 (沃克吕兹省)",
+  "extras": [
+   {
+    "local": "普罗旺斯_阿维尼翁_马赛_/红土城_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "BabelStone",
+    "commons_file": "Inner Mongolia Museum red and white glazed vase A.jpg",
+    "source": "commons-supplement:红土城"
+   },
+   {
+    "local": "普罗旺斯_阿维尼翁_马赛_/红土城_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "BabelStone",
+    "commons_file": "Inner Mongolia Museum red and white glazed vase B.jpg",
+    "source": "commons-supplement:红土城"
+   }
+  ]
  },
  {
   "city": "普罗旺斯（阿维尼翁/马赛）",
@@ -208,7 +576,30 @@
   "license": "CC BY 4.0",
   "artist": "Olivier Cleynen",
   "commons_file": "Aerial_view_of_the_Lake_of_Sainte-Croix_05.jpg",
-  "source": "zhwiki:圣十字湖"
+  "source": "zhwiki:圣十字湖",
+  "extras": [
+   {
+    "local": "普罗旺斯_阿维尼翁_马赛_/圣十字湖_2.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Olivier Cleynen",
+    "commons_file": "Aerial view of the Lake of Sainte-Croix 05.jpg",
+    "source": "commons-supplement:Lake of Sainte-Croix"
+   },
+   {
+    "local": "普罗旺斯_阿维尼翁_马赛_/圣十字湖_3.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Olivier Cleynen",
+    "commons_file": "Aerial view of the Lake of Sainte-Croix 03.jpg",
+    "source": "commons-supplement:Lake of Sainte-Croix"
+   },
+   {
+    "local": "普罗旺斯_阿维尼翁_马赛_/圣十字湖_4.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Olivier Cleynen",
+    "commons_file": "Aerial view of the Lake of Sainte-Croix 01.jpg",
+    "source": "commons-supplement:Lake of Sainte-Croix"
+   }
+  ]
  },
  {
   "city": "普罗旺斯（阿维尼翁/马赛）",
@@ -218,7 +609,30 @@
   "license": "CC BY-SA 2.0",
   "artist": "Kim",
   "commons_file": "Eglise_ND_du_Mont_Marseille.jpg",
-  "source": "zhwiki-alias:山上圣母堂 (马赛)"
+  "source": "zhwiki-alias:山上圣母堂 (马赛)",
+  "extras": [
+   {
+    "local": "普罗旺斯_阿维尼翁_马赛_/守护圣母教堂_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Huanokinhejo",
+    "commons_file": "哈尔滨圣母守护教堂.jpg",
+    "source": "commons-supplement:守护圣母教堂"
+   },
+   {
+    "local": "普罗旺斯_阿维尼翁_马赛_/守护圣母教堂_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Huanokinhejo",
+    "commons_file": "哈尔滨圣母守护教堂，侧面.jpg",
+    "source": "commons-supplement:守护圣母教堂"
+   },
+   {
+    "local": "普罗旺斯_阿维尼翁_马赛_/守护圣母教堂_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Yoshi Canopus",
+    "commons_file": "Harbin Church of Intercession 2.jpg",
+    "source": "commons-supplement:守护圣母教堂"
+   }
+  ]
  },
  {
   "city": "普罗旺斯（阿维尼翁/马赛）",
@@ -238,7 +652,30 @@
   "license": "CC BY-SA 4.0",
   "artist": "Zairon",
   "commons_file": "Azay-le-Rideaux_Château_d'Azay-le-Rideau_Südseite_6.jpg",
-  "source": "zhwiki:卢瓦尔河谷 (传统地区)"
+  "source": "zhwiki:卢瓦尔河谷 (传统地区)",
+  "extras": [
+   {
+    "local": "卢瓦尔河谷/卢瓦尔河谷_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Suavemarimagno",
+    "commons_file": "Val-de-loire-montsoreau-lever-de-soleil.jpg",
+    "source": "commons-supplement:Loire Valley"
+   },
+   {
+    "local": "卢瓦尔河谷/卢瓦尔河谷_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Neige19",
+    "commons_file": "Château de Montsoreau, depuis la rive droite de la Loire.jpg",
+    "source": "commons-supplement:Loire Valley"
+   },
+   {
+    "local": "卢瓦尔河谷/卢瓦尔河谷_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Suavemarimagno",
+    "commons_file": "Val-de-loire-montsoreau-heure-bleue.jpg",
+    "source": "commons-supplement:Loire Valley"
+   }
+  ]
  },
  {
   "city": "卢瓦尔河谷",
@@ -248,7 +685,30 @@
   "license": "GFDL",
   "artist": "It is a derivative work of Ra-smit's photo.",
   "commons_file": "Chateau_de_Chenonceau_2008E.jpg",
-  "source": "zhwiki:舍農索城堡"
+  "source": "zhwiki:舍農索城堡",
+  "extras": [
+   {
+    "local": "卢瓦尔河谷/舍农索城堡_2.jpg",
+    "license": "GFDL",
+    "artist": "It is a derivative work of Ra-smit's photo.",
+    "commons_file": "Chateau de Chenonceau 2008E.jpg",
+    "source": "commons-supplement:Château de Chenonceau"
+   },
+   {
+    "local": "卢瓦尔河谷/舍农索城堡_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Gzen92",
+    "commons_file": "Château de Chenonceau - chapelle - clocher (Chenonceaux).jpg",
+    "source": "commons-supplement:Château de Chenonceau"
+   },
+   {
+    "local": "卢瓦尔河谷/舍农索城堡_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Gzen92",
+    "commons_file": "Château de Chenonceau - caryatides (Chenonceaux).jpg",
+    "source": "commons-supplement:Château de Chenonceau"
+   }
+  ]
  },
  {
   "city": "卢瓦尔河谷",
@@ -258,7 +718,30 @@
   "license": "CC BY-SA 4.0",
   "artist": "Rolf Kranz",
   "commons_file": "Amboise,_Blick_vom_gegenüberliegenden_Ufer_der_Loire.jpg",
-  "source": "zhwiki-alias:昂布瓦斯"
+  "source": "zhwiki-alias:昂布瓦斯",
+  "extras": [
+   {
+    "local": "卢瓦尔河谷/昂布瓦兹_2.jpg",
+    "license": "Public domain",
+    "artist": "Wilhelm Benque / Adam Cuerden",
+    "commons_file": "Wilhelm Benque - Photograph of Ambroise Thomas.jpg",
+    "source": "commons-supplement:昂布瓦兹"
+   },
+   {
+    "local": "卢瓦尔河谷/昂布瓦兹_3.jpg",
+    "license": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "commons_file": "Ambroise Thomas 2.jpg",
+    "source": "commons-supplement:昂布瓦兹"
+   },
+   {
+    "local": "卢瓦尔河谷/昂布瓦兹_4.jpg",
+    "license": "Public domain",
+    "artist": "Charles-Jules Robert / Adolphe Mouilleron",
+    "commons_file": "Ambroise Thomas 1868.jpg",
+    "source": "commons-supplement:昂布瓦兹"
+   }
+  ]
  },
  {
   "city": "卢瓦尔河谷",
@@ -268,7 +751,30 @@
   "license": "CC BY-SA 4.0",
   "artist": "Carsten Steger",
   "commons_file": "Aerial_image_of_Château_de_Chambord_(view_from_the_southeast).jpg",
-  "source": "zhwiki:香波尔城堡"
+  "source": "zhwiki:香波尔城堡",
+  "extras": [
+   {
+    "local": "卢瓦尔河谷/香波堡_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Benh LIEU SONG",
+    "commons_file": "Chambord Castle Northwest facade.jpg",
+    "source": "commons-supplement:Château de Chambord"
+   },
+   {
+    "local": "卢瓦尔河谷/香波堡_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Pierre André Leclercq",
+    "commons_file": "Royal carriage in Stables of Marshal, Château de Chambord, Loir-et-Cher..jpg",
+    "source": "commons-supplement:Château de Chambord"
+   },
+   {
+    "local": "卢瓦尔河谷/香波堡_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Pierre André Leclercq",
+    "commons_file": "Chambord Eté2016 exposition de Calèches au château (4).jpg",
+    "source": "commons-supplement:Château de Chambord"
+   }
+  ]
  },
  {
   "city": "圣米歇尔山/圣马洛",
@@ -278,7 +784,30 @@
   "license": "CC BY-SA 4.0",
   "artist": "Amaustan",
   "commons_file": "Mont-Saint-Michel_vu_du_ciel.jpg",
-  "source": "zhwiki:聖米歇爾山"
+  "source": "zhwiki:聖米歇爾山",
+  "extras": [
+   {
+    "local": "圣米歇尔山_圣马洛/圣米歇尔山_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Elizaveta Butryn",
+    "commons_file": "Le Mont-Saint-Michel, Normandie, France, nature.jpg",
+    "source": "commons-supplement:圣米歇尔山"
+   },
+   {
+    "local": "圣米歇尔山_圣马洛/圣米歇尔山_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Clément Bardot",
+    "commons_file": "Mont Saint-Michel, Normandie.jpg",
+    "source": "commons-supplement:圣米歇尔山"
+   },
+   {
+    "local": "圣米歇尔山_圣马洛/圣米歇尔山_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Horst J. Meuter",
+    "commons_file": "Mont-Saint-Michel, Normandie 03.jpg",
+    "source": "commons-supplement:圣米歇尔山"
+   }
+  ]
  },
  {
   "city": "圣米歇尔山/圣马洛",
@@ -288,7 +817,30 @@
   "license": "Public domain",
   "artist": "Fabos",
   "commons_file": "IMG_2935_StMalo.JPG",
-  "source": "zhwiki:圣马洛"
+  "source": "zhwiki:圣马洛",
+  "extras": [
+   {
+    "local": "圣米歇尔山_圣马洛/圣马洛_2.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Eusebius",
+    "commons_file": "Saint-Malo - armes de Bretagne.jpg",
+    "source": "commons-supplement:Saint-Malo"
+   },
+   {
+    "local": "圣米歇尔山_圣马洛/圣马洛_3.jpg",
+    "license": "Public domain",
+    "artist": "Alphonse Hénaff",
+    "commons_file": "Procession des saints de Bretagne - diocèse de Saint-Malo, cathédrale saint Pierre, Rennes, France.jpg",
+    "source": "commons-supplement:Saint-Malo"
+   },
+   {
+    "local": "圣米歇尔山_圣马洛/圣马洛_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Pierre André Leclercq",
+    "commons_file": "Saint-Malo Ships at berth in 2017 (bis).jpg",
+    "source": "commons-supplement:Saint-Malo"
+   }
+  ]
  },
  {
   "city": "圣米歇尔山/圣马洛",
@@ -308,7 +860,30 @@
   "license": "CC BY 3.0",
   "artist": "Leicester Holyday",
   "commons_file": "Annecy,_France_-_panoramio_(9).jpg",
-  "source": "zhwiki:阿讷西"
+  "source": "zhwiki:阿讷西",
+  "extras": [
+   {
+    "local": "安纳西/安纳西_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Another one of my pictures:\n\n\n\nThis photograph was taken by Medium69 (William Cr",
+    "commons_file": "Homme statue - 214.jpg",
+    "source": "commons-supplement:Annecy"
+   },
+   {
+    "local": "安纳西/安纳西_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Another one of my pictures:\n\n\n\nThis photograph was taken by Medium69 (William Cr",
+    "commons_file": "Basilique de la Visitation - 207.jpg",
+    "source": "commons-supplement:Annecy"
+   },
+   {
+    "local": "安纳西/安纳西_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dmitry A. Mottl",
+    "commons_file": "Annecy 1.jpg",
+    "source": "commons-supplement:Annecy"
+   }
+  ]
  },
  {
   "city": "安纳西",
@@ -328,7 +903,30 @@
   "license": "CC BY-SA 4.0",
   "artist": "Arnaud 25",
   "commons_file": "Chamonix_008_+_noms.jpg",
-  "source": "zhwiki:沙莫尼蒙勃朗"
+  "source": "zhwiki:沙莫尼蒙勃朗",
+  "extras": [
+   {
+    "local": "霞慕尼/霞慕尼_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Alexandre Buisse (Nattfodd)",
+    "commons_file": "Mont Blanc du Tacul depuis l'Aiguille du Midi.jpg",
+    "source": "commons-supplement:Chamonix"
+   },
+   {
+    "local": "霞慕尼/霞慕尼_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Nicolas Sanchez, edit by Digon3",
+    "commons_file": "PanoMontBlancHDR edit 1.jpg",
+    "source": "commons-supplement:Chamonix"
+   },
+   {
+    "local": "霞慕尼/霞慕尼_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Alexandre Buisse (Nattfodd)",
+    "commons_file": "Dôme du Goûter depuis la gare des glaciers.jpg",
+    "source": "commons-supplement:Chamonix"
+   }
+  ]
  },
  {
   "city": "霞慕尼",
@@ -338,7 +936,30 @@
   "license": "CC BY-SA 3.0",
   "artist": "Max572",
   "commons_file": "Monte_bianco.JPG",
-  "source": "zhwiki:勃朗峰"
+  "source": "zhwiki:勃朗峰",
+  "extras": [
+   {
+    "local": "霞慕尼/勃朗峰_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Tinelot Wittermans",
+    "commons_file": "Mont Blanc and Dome du Gouter.jpg",
+    "source": "commons-supplement:Mont Blanc"
+   },
+   {
+    "local": "霞慕尼/勃朗峰_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dmitry A. Mottl",
+    "commons_file": "Mont Blanc from Les Arcs 1950.jpg",
+    "source": "commons-supplement:Mont Blanc"
+   },
+   {
+    "local": "霞慕尼/勃朗峰_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Alexandre Buisse (Nattfodd)",
+    "commons_file": "Mont Blanc du Tacul depuis l'Aiguille du Midi.jpg",
+    "source": "commons-supplement:Mont Blanc"
+   }
+  ]
  },
  {
   "city": "科尔马/斯特拉斯堡",
@@ -348,7 +969,30 @@
   "license": "FAL",
   "artist": "Shuying YU",
   "commons_file": "Voyage11,_Colmar,_Petite_Venise.jpg",
-  "source": "zhwiki:科尔马"
+  "source": "zhwiki:科尔马",
+  "extras": [
+   {
+    "local": "科尔马_斯特拉斯堡/科尔马_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Gzen92",
+    "commons_file": "Rue des Marchands depuis le Koïfhus (Colmar) (4).jpg",
+    "source": "commons-supplement:Colmar"
+   },
+   {
+    "local": "科尔马_斯特拉斯堡/科尔马_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Krzysztof Golik",
+    "commons_file": "Little Venice in Colmar 01.jpg",
+    "source": "commons-supplement:Colmar"
+   },
+   {
+    "local": "科尔马_斯特拉斯堡/科尔马_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "© Ralph Hammann - Wikimedia Commons",
+    "commons_file": "Colmar StMartin 49.JPG",
+    "source": "commons-supplement:Colmar"
+   }
+  ]
  },
  {
   "city": "科尔马/斯特拉斯堡",
@@ -358,7 +1002,30 @@
   "license": "FAL",
   "artist": "Shuying YU",
   "commons_file": "Voyage11,_Colmar,_Petite_Venise.jpg",
-  "source": "zhwiki-alias:科尔马"
+  "source": "zhwiki-alias:科尔马",
+  "extras": [
+   {
+    "local": "科尔马_斯特拉斯堡/小威尼斯_2.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Flocci Nivis",
+    "commons_file": "20241002 Petite Venise Colmar 02.jpg",
+    "source": "commons-supplement:小威尼斯"
+   },
+   {
+    "local": "科尔马_斯特拉斯堡/小威尼斯_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Ji-Elle",
+    "commons_file": "Colmar-Petite Venise (3).jpg",
+    "source": "commons-supplement:小威尼斯"
+   },
+   {
+    "local": "科尔马_斯特拉斯堡/小威尼斯_4.jpg",
+    "license": "FAL",
+    "artist": "Shuying YU",
+    "commons_file": "Voyage10, Colmar, Petite Venise.jpg",
+    "source": "commons-supplement:小威尼斯"
+   }
+  ]
  },
  {
   "city": "科尔马/斯特拉斯堡",
@@ -368,7 +1035,30 @@
   "license": "CC BY-SA 3.0",
   "artist": "Jonathan Martz",
   "commons_file": "Strasbourg_Cathedral.jpg",
-  "source": "zhwiki:斯特拉斯堡"
+  "source": "zhwiki:斯特拉斯堡",
+  "extras": [
+   {
+    "local": "科尔马_斯特拉斯堡/斯特拉斯堡_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Gzen92",
+    "commons_file": "Gare - couloir nord (Strasbourg) (2).jpg",
+    "source": "commons-supplement:Strasbourg"
+   },
+   {
+    "local": "科尔马_斯特拉斯堡/斯特拉斯堡_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Gzen92",
+    "commons_file": "Maison aux glycines (Strasbourg).jpg",
+    "source": "commons-supplement:Strasbourg"
+   },
+   {
+    "local": "科尔马_斯特拉斯堡/斯特拉斯堡_4.jpg",
+    "license": "CC0",
+    "artist": "Jebulon",
+    "commons_file": "Strasbourg Concorde.jpg",
+    "source": "commons-supplement:Strasbourg"
+   }
+  ]
  },
  {
   "city": "波尔多",
@@ -378,7 +1068,30 @@
   "license": "CC BY-SA 3.0",
   "artist": "Coyau",
   "commons_file": "Bordeaux_-_Place_de_la_Bourse_2009-06-29.jpg",
-  "source": "zhwiki:交易所广场"
+  "source": "zhwiki:交易所广场",
+  "extras": [
+   {
+    "local": "波尔多/交易所广场_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Coyau",
+    "commons_file": "Bordeaux - Place de la Bourse 2009-06-29.jpg",
+    "source": "commons-supplement:Place de la Bourse, Bordeaux"
+   },
+   {
+    "local": "波尔多/交易所广场_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "W. Bulach",
+    "commons_file": "00 1686 Place de la Bourse (Bordeaux).jpg",
+    "source": "commons-supplement:Place de la Bourse, Bordeaux"
+   },
+   {
+    "local": "波尔多/交易所广场_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Javier Perez Montes",
+    "commons_file": "Place de la Bourse et le miroir d'eau - Bordeaux 02.jpg",
+    "source": "commons-supplement:Place de la Bourse, Bordeaux"
+   }
+  ]
  },
  {
   "city": "波尔多",
@@ -388,7 +1101,30 @@
   "license": "CC BY-SA 3.0",
   "artist": "Larrousiney at French Wikipedia",
   "commons_file": "DunePyla.JPG",
-  "source": "zhwiki:皮拉沙丘"
+  "source": "zhwiki:皮拉沙丘",
+  "extras": [
+   {
+    "local": "波尔多/皮拉沙丘_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Jörg Braukmann",
+    "commons_file": "Sommet de la Dune du Pilat.jpg",
+    "source": "commons-supplement:Dune of Pilat"
+   },
+   {
+    "local": "波尔多/皮拉沙丘_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Jörg Braukmann",
+    "commons_file": "Dune du Pilat - Atlantique.jpg",
+    "source": "commons-supplement:Dune of Pilat"
+   },
+   {
+    "local": "波尔多/皮拉沙丘_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Jörg Braukmann",
+    "commons_file": "Dune du Pilat (Cap Ferret).jpg",
+    "source": "commons-supplement:Dune of Pilat"
+   }
+  ]
  },
  {
   "city": "波尔多",
@@ -403,7 +1139,30 @@
   "license": "CC BY-SA 2.0",
   "artist": "Dennis G. Jarvis",
   "commons_file": "France-003038_-_Basilica_of_Notre-Dame_de_Fourvière_(15939822990).jpg",
-  "source": "zhwiki:富维耶圣母圣殿"
+  "source": "zhwiki:富维耶圣母圣殿",
+  "extras": [
+   {
+    "local": "里昂/富维耶圣母院_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Phyrexian",
+    "commons_file": "Lyon - Notre-Dame de Fourvière 6918.jpg",
+    "source": "commons-supplement:Basilica of Notre-Dame de Fourvière"
+   },
+   {
+    "local": "里昂/富维耶圣母院_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Phyrexian",
+    "commons_file": "Lyon - Notre-Dame de Fourvière 6911.jpg",
+    "source": "commons-supplement:Basilica of Notre-Dame de Fourvière"
+   },
+   {
+    "local": "里昂/富维耶圣母院_4.jpg",
+    "license": "Public domain",
+    "artist": "Phyrexian",
+    "commons_file": "Lyon - Notre-Dame de Fourvière 6919.jpg",
+    "source": "commons-supplement:Basilica of Notre-Dame de Fourvière"
+   }
+  ]
  },
  {
   "city": "里昂",
@@ -413,7 +1172,30 @@
   "license": "CC BY-SA 3.0",
   "artist": "Gonedelyon",
   "commons_file": "La_Place_des_Terreaux_de_nuit.JPG",
-  "source": "zhwiki:半岛 (里昂)"
+  "source": "zhwiki:半岛 (里昂)",
+  "extras": [
+   {
+    "local": "里昂/半岛区_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Diego Delso",
+    "commons_file": "Faro de Holmbergs, Suðurnes, Islandia, 2014-08-15, DD 114.JPG",
+    "source": "commons-supplement:半岛区"
+   },
+   {
+    "local": "里昂/半岛区_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Diego Delso",
+    "commons_file": "Staður, Suðurnes, Islandia, 2014-08-13, DD 077.JPG",
+    "source": "commons-supplement:半岛区"
+   },
+   {
+    "local": "里昂/半岛区_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Diego Delso",
+    "commons_file": "Caballos pastando en Vogar, Suðurnes, Islandia, 2014-08-15, DD 111.JPG",
+    "source": "commons-supplement:半岛区"
+   }
+  ]
  },
  {
   "city": "象鼻山",
@@ -433,6 +1215,29 @@
   "license": "CC BY-SA 4.0",
   "artist": "Jacky Delville",
   "commons_file": "Fontainebleau,Château_Royal.jpg",
-  "source": "zhwiki:枫丹白露宫"
+  "source": "zhwiki:枫丹白露宫",
+  "extras": [
+   {
+    "local": "枫丹白露宫/枫丹白露宫_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Gzen92\n\nEdited by User:Radomianin",
+    "commons_file": "Château de Fontainebleau (Fontainebleau) edited (2).jpg",
+    "source": "commons-supplement:Palace of Fontainebleau"
+   },
+   {
+    "local": "枫丹白露宫/枫丹白露宫_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Diliff",
+    "commons_file": "Palace of Fontainebleau, France - July 2011.jpg",
+    "source": "commons-supplement:Palace of Fontainebleau"
+   },
+   {
+    "local": "枫丹白露宫/枫丹白露宫_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Louis Petitot",
+    "commons_file": "Château de Fontainebleau-Ulysse-20170625.jpg",
+    "source": "commons-supplement:Palace of Fontainebleau"
+   }
+  ]
  }
 ]

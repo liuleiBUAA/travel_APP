@@ -1,0 +1,998 @@
+[
+ {
+  "city": "悉尼",
+  "attraction": "悉尼歌剧院",
+  "status": "ok",
+  "local": "悉尼/悉尼歌剧院_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Kgbo",
+  "commons_file": "Sydney_Opera_House_from_Circular_Quay,_2023,_10.jpg",
+  "source": "zhwiki:悉尼歌剧院",
+  "extras": [
+   {
+    "local": "悉尼/悉尼歌剧院_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Diliff",
+    "commons_file": "Sydney Opera House - Dec 2008.jpg",
+    "source": "commons-supplement:Sydney Opera House"
+   },
+   {
+    "local": "悉尼/悉尼歌剧院_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Sydney (AU), Opera House -- 2019 -- 3054.jpg",
+    "source": "commons-supplement:Sydney Opera House"
+   },
+   {
+    "local": "悉尼/悉尼歌剧院_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Benh LIEU SONG (Flickr)",
+    "commons_file": "Sydney Opera House and Harbour Bridge Dusk (3) 2019-06-21.jpg",
+    "source": "commons-supplement:Sydney Opera House"
+   }
+  ]
+ },
+ {
+  "city": "悉尼",
+  "attraction": "海港大桥",
+  "status": "ok",
+  "local": "悉尼/海港大桥_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Dietmar Rabich",
+  "commons_file": "Sydney_(AU),_Harbour_Bridge_--_2019_--_2179.jpg",
+  "source": "zhwiki:雪梨海港大橋",
+  "extras": [
+   {
+    "local": "悉尼/海港大桥_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+    "commons_file": "Sydney Harbour Bridge from Circular Quay.jpg",
+    "source": "commons-supplement:海港大桥 悉尼"
+   },
+   {
+    "local": "悉尼/海港大桥_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Diliff",
+    "commons_file": "Sydney Harbour Bridge night.jpg",
+    "source": "commons-supplement:海港大桥 悉尼"
+   },
+   {
+    "local": "悉尼/海港大桥_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Benh LIEU SONG (Flickr)",
+    "commons_file": "Sydney Opera House and Harbour Bridge Dusk (3) 2019-06-21.jpg",
+    "source": "commons-supplement:海港大桥 悉尼"
+   }
+  ]
+ },
+ {
+  "city": "悉尼",
+  "attraction": "岩石区",
+  "status": "ok",
+  "local": "悉尼/岩石区_1.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Mike Cogh",
+  "commons_file": "Street_through_The_Rocks.jpg",
+  "source": "zhwiki:岩石區 (悉尼)",
+  "extras": [
+   {
+    "local": "悉尼/岩石区_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Sydney (AU), The Rocks -- 2019 -- 2133.jpg",
+    "source": "commons-supplement:The Rocks, New South Wales"
+   },
+   {
+    "local": "悉尼/岩石区_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Sydney (AU), The Rocks, George Street -- 2019 -- 3566.jpg",
+    "source": "commons-supplement:The Rocks, New South Wales"
+   },
+   {
+    "local": "悉尼/岩石区_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Sydney (AU), The Rocks, Nurses Walk -- 2019 -- 3556.jpg",
+    "source": "commons-supplement:The Rocks, New South Wales"
+   }
+  ]
+ },
+ {
+  "city": "悉尼",
+  "attraction": "邦迪海滩",
+  "status": "ok",
+  "local": "悉尼/邦迪海滩_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "No machine-readable author provided. Enochlau assumed (based on copyright claims",
+  "commons_file": "Bondi2.jpg",
+  "source": "zhwiki:邦代海灘",
+  "extras": [
+   {
+    "local": "悉尼/邦迪海滩_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Sydney (AU), Bondi Beach -- 2019 -- 2354.jpg",
+    "source": "commons-supplement:Bondi Beach"
+   },
+   {
+    "local": "悉尼/邦迪海滩_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Sydney (AU), Bondi Beach -- 2019 -- 2349.jpg",
+    "source": "commons-supplement:Bondi Beach"
+   },
+   {
+    "local": "悉尼/邦迪海滩_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "DXR",
+    "commons_file": "Bondi Beach, southwest view 20230224 3.jpg",
+    "source": "commons-supplement:Bondi Beach"
+   }
+  ]
+ },
+ {
+  "city": "悉尼",
+  "attraction": "塔龙加动物园",
+  "status": "ok",
+  "local": "悉尼/塔龙加动物园_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Coekon",
+  "commons_file": "Taronga_Zoo,_New_South_Wales_Australia.jpg",
+  "source": "zhwiki:塔龍加動物園",
+  "extras": [
+   {
+    "local": "悉尼/塔龙加动物园_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Grendelkhan",
+    "commons_file": "Taronga Zoo ferry wharf from ferry.jpg",
+    "source": "commons-supplement:Taronga Zoo"
+   },
+   {
+    "local": "悉尼/塔龙加动物园_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Maksym Kozlenko",
+    "commons_file": "2020-10-08 Taronga Western Plains Zoo.jpg",
+    "source": "commons-supplement:Taronga Zoo"
+   },
+   {
+    "local": "悉尼/塔龙加动物园_4.jpg",
+    "license": "Public domain",
+    "artist": "Jan Derk",
+    "commons_file": "Sydney taronga zoo.jpg",
+    "source": "commons-supplement:Taronga Zoo"
+   }
+  ]
+ },
+ {
+  "city": "悉尼",
+  "attraction": "灯塔",
+  "status": "miss"
+ },
+ {
+  "city": "悉尼",
+  "attraction": "蓝山一日游",
+  "status": "miss"
+ },
+ {
+  "city": "墨尔本",
+  "attraction": "弗林德斯街车站",
+  "status": "ok",
+  "local": "墨尔本/弗林德斯街车站_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Rob Deutscher",
+  "commons_file": "Flinders_Street_Station_illuminated_at_night.jpg",
+  "source": "zhwiki:佛林德茲街車站",
+  "extras": [
+   {
+    "local": "墨尔本/弗林德斯街车站_2.jpg",
+    "license": "Public domain",
+    "artist": "Victoria State Transport Authority, restored by Adam Cuerden",
+    "commons_file": "Flinders Street Station, Melbourne, at the intersection of Swanston Street and Flinders Street, 1927 - Glass plate.jpg",
+    "source": "commons-supplement:Flinders Street railway station"
+   },
+   {
+    "local": "墨尔本/弗林德斯街车站_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Melbourne (AU), View from Eureka Tower, Flinders Street Railway Station -- 2019 -- 1462.jpg",
+    "source": "commons-supplement:Flinders Street railway station"
+   },
+   {
+    "local": "墨尔本/弗林德斯街车站_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Melbourne (AU), Flinders Street Railway Station -- 2019 -- 202623.jpg",
+    "source": "commons-supplement:Flinders Street railway station"
+   }
+  ]
+ },
+ {
+  "city": "墨尔本",
+  "attraction": "联邦广场",
+  "status": "miss"
+ },
+ {
+  "city": "墨尔本",
+  "attraction": "企鹅归巢",
+  "status": "miss"
+ },
+ {
+  "city": "墨尔本",
+  "attraction": "小企鹅",
+  "status": "miss"
+ },
+ {
+  "city": "墨尔本",
+  "attraction": "索伦托",
+  "status": "ok",
+  "local": "墨尔本/索伦托_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Martin Stiburek",
+  "commons_file": "Sorrento_054.JPG",
+  "source": "zhwiki:索伦托",
+  "extras": [
+   {
+    "local": "墨尔本/索伦托_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Berthold Werner",
+    "commons_file": "Sorrento BW 2013-05-12 14-22-51.jpg",
+    "source": "commons-supplement:Sorrento"
+   },
+   {
+    "local": "墨尔本/索伦托_3.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Alexis Lours",
+    "commons_file": "View of Sorrento from Piazza Tasso.jpg",
+    "source": "commons-supplement:Sorrento"
+   },
+   {
+    "local": "墨尔本/索伦托_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Diego Delso",
+    "commons_file": "Sorrento, Italia, 2023-03-26, DD 09.jpg",
+    "source": "commons-supplement:Sorrento"
+   }
+  ]
+ },
+ {
+  "city": "墨尔本",
+  "attraction": "彩色小屋",
+  "status": "miss"
+ },
+ {
+  "city": "大洋路",
+  "attraction": "阿波罗湾",
+  "status": "ok",
+  "local": "大洋路/阿波罗湾_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Marcus Wong Wongm",
+  "commons_file": "Apollo_Bay_from_Mariners_Lookout.jpg",
+  "source": "zhwiki:阿波罗贝",
+  "extras": [
+   {
+    "local": "大洋路/阿波罗湾_2.jpg",
+    "license": "Public domain",
+    "artist": "NASA; restored by Michel Vuijlsteke",
+    "commons_file": "Apollo 11 Launch2.jpg",
+    "source": "commons-supplement:Apollo Bay"
+   },
+   {
+    "local": "大洋路/阿波罗湾_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Apollo Bay (AU), Shelby Mustang GT500 -- 2019 -- 081017.jpg",
+    "source": "commons-supplement:Apollo Bay"
+   },
+   {
+    "local": "大洋路/阿波罗湾_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Apollo Bay (AU), Beach -- 2019 -- 170512.jpg",
+    "source": "commons-supplement:Apollo Bay"
+   }
+  ]
+ },
+ {
+  "city": "大洋路",
+  "attraction": "坎贝尔港",
+  "status": "ok",
+  "local": "大洋路/坎贝尔港_1.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Whinging Pom",
+  "commons_file": "Port_Campbell.jpg",
+  "source": "zhwiki:坎貝爾港",
+  "extras": [
+   {
+    "local": "大洋路/坎贝尔港_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Peterborough (AU), Port Campbell National Park, Worm Bay -- 2019 -- 0863.jpg",
+    "source": "commons-supplement:Port Campbell"
+   },
+   {
+    "local": "大洋路/坎贝尔港_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Princetown (AU), Port Campbell National Park, Twelve Apostles -- 2019 -- 0969.jpg",
+    "source": "commons-supplement:Port Campbell"
+   },
+   {
+    "local": "大洋路/坎贝尔港_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Princetown (AU), Port Campbell National Park, Twelve Apostles -- 2019 -- 0930.jpg",
+    "source": "commons-supplement:Port Campbell"
+   }
+  ]
+ },
+ {
+  "city": "塔斯马尼亚",
+  "attraction": "萨拉曼卡集市",
+  "status": "ok",
+  "local": "塔斯马尼亚/萨拉曼卡集市_1.jpg",
+  "license": "BSD",
+  "artist": "",
+  "commons_file": "Salamanca_Market,_Hobart,_Tasmania.jpg",
+  "source": "zhwiki:萨拉曼卡 (塔斯马尼亚州)"
+ },
+ {
+  "city": "塔斯马尼亚",
+  "attraction": "MONA博物馆",
+  "status": "miss"
+ },
+ {
+  "city": "塔斯马尼亚",
+  "attraction": "生蚝农场",
+  "status": "miss"
+ },
+ {
+  "city": "塔斯马尼亚",
+  "attraction": "The Neck",
+  "status": "miss"
+ },
+ {
+  "city": "塔斯马尼亚",
+  "attraction": "亚瑟港",
+  "status": "ok",
+  "local": "塔斯马尼亚/亚瑟港_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
+  "commons_file": "Port Arthur Panorama.jpg",
+  "source": "commons-search:Port Arthur",
+  "extras": [
+   {
+    "local": "塔斯马尼亚/亚瑟港_2.jpg",
+    "license": "Public domain",
+    "artist": "Anson Brothers",
+    "commons_file": "Penitentiary and Mount Arthur Tasmania by Anson Brothers.jpg",
+    "source": "commons-supplement:Port Arthur"
+   },
+   {
+    "local": "塔斯马尼亚/亚瑟港_3.jpg",
+    "license": "Public domain",
+    "artist": "National Weather Service Lake Charles, Louisiana",
+    "commons_file": "EF2 damage Port Arthur, Texas 2024 (2).jpg",
+    "source": "commons-supplement:Port Arthur"
+   },
+   {
+    "local": "塔斯马尼亚/亚瑟港_4.jpg",
+    "license": "Public domain",
+    "artist": "National Weather Service Lake Charles LA",
+    "commons_file": "EF2 damage Port Arthur, Texas 2024 (1).jpg",
+    "source": "commons-supplement:Port Arthur"
+   }
+  ]
+ },
+ {
+  "city": "塔斯马尼亚",
+  "attraction": "里士满古镇",
+  "status": "miss"
+ },
+ {
+  "city": "塔斯马尼亚",
+  "attraction": "爬山",
+  "status": "miss"
+ },
+ {
+  "city": "塔斯马尼亚",
+  "attraction": "游船",
+  "status": "miss"
+ },
+ {
+  "city": "塔斯马尼亚",
+  "attraction": "朗塞斯顿",
+  "status": "ok",
+  "local": "塔斯马尼亚/朗塞斯顿_1.png",
+  "license": "CC BY-SA 3.0",
+  "artist": "",
+  "commons_file": "LGATasmania_Launceston.png",
+  "source": "zhwiki:朗塞斯顿 (塔斯马尼亚州)",
+  "extras": [
+   {
+    "local": "塔斯马尼亚/朗塞斯顿_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Diego Delso",
+    "commons_file": "Launceston-Tasmania-Australia06.JPG",
+    "source": "commons-supplement:Launceston, Tasmania"
+   },
+   {
+    "local": "塔斯马尼亚/朗塞斯顿_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Diego Delso",
+    "commons_file": "Launceston-Tasmania-Australia05.JPG",
+    "source": "commons-supplement:Launceston, Tasmania"
+   },
+   {
+    "local": "塔斯马尼亚/朗塞斯顿_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Diego Delso",
+    "commons_file": "Launceston-Tasmania-Australia07.JPG",
+    "source": "commons-supplement:Launceston, Tasmania"
+   }
+  ]
+ },
+ {
+  "city": "塔斯马尼亚",
+  "attraction": "摇篮山",
+  "status": "ok",
+  "local": "塔斯马尼亚/摇篮山_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Bjørn Christian Tørrissen",
+  "commons_file": "Cradle_Mountain_Behind_Dove_Lake.jpg",
+  "source": "zhwiki:搖籃山",
+  "extras": [
+   {
+    "local": "塔斯马尼亚/摇篮山_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Thennicke",
+    "commons_file": "Boat shed and Cradle Mountain at Dove Lake, Tas.jpg",
+    "source": "commons-supplement:Cradle Mountain"
+   },
+   {
+    "local": "塔斯马尼亚/摇篮山_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Diego Delso",
+    "commons_file": "Parque Nacional Cradle Mountain-Tasmania-Australia04.JPG",
+    "source": "commons-supplement:Cradle Mountain"
+   },
+   {
+    "local": "塔斯马尼亚/摇篮山_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Darren Grattidge",
+    "commons_file": "Kitchen Hut with Cradle Mountain in the background.jpg",
+    "source": "commons-supplement:Cradle Mountain"
+   }
+  ]
+ },
+ {
+  "city": "布里斯班",
+  "attraction": "市政厅",
+  "status": "ok",
+  "local": "布里斯班/市政厅_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Chris Olszewski",
+  "commons_file": "Brisbane_City_Hall_at_night.jpg",
+  "source": "zhwiki:布里斯班市政廳",
+  "extras": [
+   {
+    "local": "布里斯班/市政厅_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Krzysztof Golik",
+    "commons_file": "Town hall of Aosta (3).jpg",
+    "source": "commons-supplement:Town hall"
+   },
+   {
+    "local": "布里斯班/市政厅_3.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Trougnouf (Benoit Brummer)",
+    "commons_file": "Dendermonde town hall and belfry during golden hour (DSCF0501).jpg",
+    "source": "commons-supplement:Town hall"
+   },
+   {
+    "local": "布里斯班/市政厅_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Coyau",
+    "commons_file": "Paris, mairie du 10e arrdt, hall 04.jpg",
+    "source": "commons-supplement:Town hall"
+   }
+  ]
+ },
+ {
+  "city": "布里斯班",
+  "attraction": "皇后街",
+  "status": "ok",
+  "local": "布里斯班/皇后街_1.jpg",
+  "license": "CC BY 3.0",
+  "artist": "SusanRichards85 - Modification of original by EuroCarGT",
+  "commons_file": "Queen Street West Sign Toronto.jpg",
+  "source": "commons-search:Queen Street",
+  "extras": [
+   {
+    "local": "布里斯班/皇后街_2.jpg",
+    "license": "Public domain",
+    "artist": "Figaro at en.wikipedia",
+    "commons_file": "Queen-Street-Brisbane-Queensland.jpg",
+    "source": "commons-supplement:皇后街 布里斯班"
+   },
+   {
+    "local": "布里斯班/皇后街_3.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Unknown authorUnknown author",
+    "commons_file": "Corner of Queen Street and Creek Street, circa 1920.jpg",
+    "source": "commons-supplement:皇后街 布里斯班"
+   },
+   {
+    "local": "布里斯班/皇后街_4.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Unknown authorUnknown author",
+    "commons_file": "Queen Street, March 1934.jpg",
+    "source": "commons-supplement:皇后街 布里斯班"
+   }
+  ]
+ },
+ {
+  "city": "布里斯班",
+  "attraction": "南岸公园",
+  "status": "ok",
+  "local": "布里斯班/南岸公园_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Brisbane City Council",
+  "commons_file": "28_-_South_Bank_Parklands_(4741163759).jpg",
+  "source": "zhwiki:南岸公園",
+  "extras": [
+   {
+    "local": "布里斯班/南岸公园_2.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Anonymous",
+    "commons_file": "At the Parklands at South Bank, South Brisbane, 2021.jpg",
+    "source": "commons-supplement:South Bank Parklands"
+   },
+   {
+    "local": "布里斯班/南岸公园_3.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Brisbane City Council",
+    "commons_file": "28 - South Bank Parklands (4741163759).jpg",
+    "source": "commons-supplement:South Bank Parklands"
+   },
+   {
+    "local": "布里斯班/南岸公园_4.jpg",
+    "license": "Public domain",
+    "artist": "Queensland State Archives",
+    "commons_file": "Brisbane's \"new\" South Bank Parklands, August 1992.jpg",
+    "source": "commons-supplement:South Bank Parklands"
+   }
+  ]
+ },
+ {
+  "city": "布里斯班",
+  "attraction": "浮潜",
+  "status": "miss"
+ },
+ {
+  "city": "布里斯班",
+  "attraction": "喂海豚",
+  "status": "miss"
+ },
+ {
+  "city": "布里斯班",
+  "attraction": "滑沙",
+  "status": "miss"
+ },
+ {
+  "city": "黄金海岸",
+  "attraction": "冲浪者天堂海滩",
+  "status": "ok",
+  "local": "黄金海岸/冲浪者天堂海滩_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "chillmimi",
+  "commons_file": "Surfers_Paradise,_QLD_skyline.jpg",
+  "source": "zhwiki:冲浪者天堂"
+ },
+ {
+  "city": "黄金海岸",
+  "attraction": "Q1观景台",
+  "status": "miss"
+ },
+ {
+  "city": "黄金海岸",
+  "attraction": "华纳兄弟电影世界",
+  "status": "ok",
+  "local": "黄金海岸/华纳兄弟电影世界_1.jpg",
+  "license": "Public domain",
+  "artist": "Zanekingi at English Wikipedia",
+  "commons_file": "Superman Escape over Movie World's entrance.jpg",
+  "source": "commons-search:Warner Bros. Movie World",
+  "extras": [
+   {
+    "local": "黄金海岸/华纳兄弟电影世界_2.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Mohd Fazlin Mohd Effendy Ooi",
+    "commons_file": "Grand Entrance - Warner Bros. Movie World.jpg",
+    "source": "commons-supplement:Warner Bros. Movie World"
+   },
+   {
+    "local": "黄金海岸/华纳兄弟电影世界_3.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Phalinn Ooi from Kuala Lumpur, Malaysia",
+    "commons_file": "Warner Bros. Movie World ticket booths.jpg",
+    "source": "commons-supplement:Warner Bros. Movie World"
+   },
+   {
+    "local": "黄金海岸/华纳兄弟电影世界_4.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "s13n1",
+    "commons_file": "Perspective alley (Warner Bros. Movie World).jpg",
+    "source": "commons-supplement:Warner Bros. Movie World"
+   }
+  ]
+ },
+ {
+  "city": "黄金海岸",
+  "attraction": "狂野水上世界",
+  "status": "miss"
+ },
+ {
+  "city": "黄金海岸",
+  "attraction": "抱考拉",
+  "status": "miss"
+ },
+ {
+  "city": "黄金海岸",
+  "attraction": "喂袋鼠",
+  "status": "miss"
+ },
+ {
+  "city": "黄金海岸",
+  "attraction": "海洋世界",
+  "status": "miss"
+ },
+ {
+  "city": "黄金海岸",
+  "attraction": "伯利角日落",
+  "status": "miss"
+ },
+ {
+  "city": "凯恩斯",
+  "attraction": "浮潜",
+  "status": "miss"
+ },
+ {
+  "city": "凯恩斯",
+  "attraction": "潜水",
+  "status": "miss"
+ },
+ {
+  "city": "凯恩斯",
+  "attraction": "库兰达热带雨林",
+  "status": "miss"
+ },
+ {
+  "city": "凯恩斯",
+  "attraction": "缆车",
+  "status": "miss"
+ },
+ {
+  "city": "珀斯",
+  "attraction": "珀斯市区",
+  "status": "ok",
+  "local": "珀斯/珀斯市区_1.png",
+  "license": "CC BY-SA 3.0",
+  "artist": "Rhyshuw1",
+  "commons_file": "Perth_Montage.png",
+  "source": "zhwiki:珀斯"
+ },
+ {
+  "city": "珀斯",
+  "attraction": "天鹅谷",
+  "status": "ok",
+  "local": "珀斯/天鹅谷_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Mdf",
+  "commons_file": "Cygnus-columbianus-columbianus-001.jpg",
+  "source": "zhwiki:天鹅"
+ },
+ {
+  "city": "珀斯",
+  "attraction": "洛尼斯特岛一日游",
+  "status": "miss"
+ },
+ {
+  "city": "阿德莱德",
+  "attraction": "中央市场",
+  "status": "ok",
+  "local": "阿德莱德/中央市场_1.jpg",
+  "license": "CC BY 2.5",
+  "artist": "Scott W.",
+  "commons_file": "Adelaide_Central_Market.jpg",
+  "source": "zhwiki:阿得雷德中央市場",
+  "extras": [
+   {
+    "local": "阿德莱德/中央市场_2.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "David Holt\nuploaded and derivative work: MrPanyGoff",
+    "commons_file": "Riga Central Market Hall.jpg",
+    "source": "commons-supplement:Central Market"
+   },
+   {
+    "local": "阿德莱德/中央市场_3.jpg",
+    "license": "Public domain",
+    "artist": "Daderot",
+    "commons_file": "Central Market, Lancaster, PA - IMG 7734.JPG",
+    "source": "commons-supplement:Central Market"
+   },
+   {
+    "local": "阿德莱德/中央市场_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Tahirshah999",
+    "commons_file": "CENTRAL MARKET, ANTIQUE SHOP, CASABLANCA, MOROCCO.jpg",
+    "source": "commons-supplement:Central Market"
+   }
+  ]
+ },
+ {
+  "city": "阿德莱德",
+  "attraction": "动物园",
+  "status": "ok",
+  "local": "阿德莱德/动物园_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Kevin1086",
+  "commons_file": "Giants_of_the_Savanna.jpg",
+  "source": "zhwiki:動物園",
+  "extras": [
+   {
+    "local": "阿德莱德/动物园_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Hans Hillewaert",
+    "commons_file": "Meerkat (Suricata suricatta).jpg",
+    "source": "commons-supplement:Zoo"
+   },
+   {
+    "local": "阿德莱德/动物园_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Basile Morin",
+    "commons_file": "Close-up photograph of an Iguana iguana.jpg",
+    "source": "commons-supplement:Zoo"
+   },
+   {
+    "local": "阿德莱德/动物园_4.jpg",
+    "license": "Public domain",
+    "artist": "Dave Pape",
+    "commons_file": "Panthera tigris altaica 13 - Buffalo Zoo.jpg",
+    "source": "commons-supplement:Zoo"
+   }
+  ]
+ },
+ {
+  "city": "阿德莱德",
+  "attraction": "海狮",
+  "status": "miss"
+ },
+ {
+  "city": "阿德莱德",
+  "attraction": "考拉",
+  "status": "miss"
+ },
+ {
+  "city": "堪培拉",
+  "attraction": "国会大厦",
+  "status": "ok",
+  "local": "堪培拉/国会大厦_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Martin Falbisoner",
+  "commons_file": "US Capitol west side.JPG",
+  "source": "commons-search:Capitol",
+  "extras": [
+   {
+    "local": "堪培拉/国会大厦_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Martin Falbisoner",
+    "commons_file": "US Capitol east side.JPG",
+    "source": "commons-supplement:Capitol"
+   },
+   {
+    "local": "堪培拉/国会大厦_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Martin Falbisoner",
+    "commons_file": "Capitol at Dusk 2.jpg",
+    "source": "commons-supplement:Capitol"
+   },
+   {
+    "local": "堪培拉/国会大厦_4.jpg",
+    "license": "CC BY 2.5",
+    "artist": "Diliff",
+    "commons_file": "US Capitol dome Jan 2006.jpg",
+    "source": "commons-supplement:Capitol"
+   }
+  ]
+ },
+ {
+  "city": "堪培拉",
+  "attraction": "战争纪念馆",
+  "status": "ok",
+  "local": "堪培拉/战争纪念馆_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Shkuru Afshar",
+  "commons_file": "Australian_War_Memorial_front_view.jpg",
+  "source": "zhwiki:澳洲戰爭紀念館",
+  "extras": [
+   {
+    "local": "堪培拉/战争纪念馆_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Rodhullandemu",
+    "commons_file": "Thornton Hough War Memorial 1.jpg",
+    "source": "commons-supplement:War memorial"
+   },
+   {
+    "local": "堪培拉/战争纪念馆_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Rodhullandemu",
+    "commons_file": "War memorial 1, Liverpool Sheltering Home.jpg",
+    "source": "commons-supplement:War memorial"
+   },
+   {
+    "local": "堪培拉/战争纪念馆_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Kritzolina",
+    "commons_file": "War memorial in Geltendorf 02.jpg",
+    "source": "commons-supplement:War memorial"
+   }
+  ]
+ },
+ {
+  "city": "艾尔利海滩",
+  "attraction": "海滩泻湖泳池",
+  "status": "miss"
+ },
+ {
+  "city": "艾尔利海滩",
+  "attraction": "小镇逛街",
+  "status": "miss"
+ },
+ {
+  "city": "艾尔利海滩",
+  "attraction": "浮潜",
+  "status": "miss"
+ },
+ {
+  "city": "艾尔利海滩",
+  "attraction": "深潜",
+  "status": "ok",
+  "local": "艾尔利海滩/深潜_1.jpg",
+  "license": "Public domain",
+  "artist": "NASA, ESA, CSA, and STScI",
+  "commons_file": "Webb's First Deep Field.jpg",
+  "source": "commons-search:Deep One",
+  "extras": [
+   {
+    "local": "艾尔利海滩/深潜_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Motokoka",
+    "commons_file": "Model of DSV Shinkai 6500, TSUKUBA EXPO CENTER.jpg",
+    "source": "commons-supplement:深潜"
+   },
+   {
+    "local": "艾尔利海滩/深潜_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "PhantomII.Rider",
+    "commons_file": "Shinkai 6500 in maintenance.jpg",
+    "source": "commons-supplement:深潜"
+   },
+   {
+    "local": "艾尔利海滩/深潜_4.jpg",
+    "license": "Public domain",
+    "artist": "toshinori baba",
+    "commons_file": "Shinnkai 6500 01.JPG",
+    "source": "commons-supplement:深潜"
+   }
+  ]
+ },
+ {
+  "city": "艾尔利海滩",
+  "attraction": "希尔湾观景台",
+  "status": "miss"
+ },
+ {
+  "city": "艾尔利海滩",
+  "attraction": "小飞机看心形礁与白天堂沙滩",
+  "status": "miss"
+ },
+ {
+  "city": "汉密尔顿岛",
+  "attraction": "猫眼海滩",
+  "status": "miss"
+ },
+ {
+  "city": "汉密尔顿岛",
+  "attraction": "浮潜",
+  "status": "miss"
+ },
+ {
+  "city": "汉密尔顿岛",
+  "attraction": "皮划艇",
+  "status": "ok",
+  "local": "汉密尔顿岛/皮划艇_1.png",
+  "license": "CC BY-SA 3.0",
+  "artist": "Mahyongg",
+  "commons_file": "WW_Open_Canoe_in_Big_Water.png",
+  "source": "zhwiki:皮划艇",
+  "extras": [
+   {
+    "local": "汉密尔顿岛/皮划艇_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "JackyM59",
+    "commons_file": "Durbuy - L'Ourthe et le château.jpg",
+    "source": "commons-supplement:Canoeing"
+   },
+   {
+    "local": "汉密尔顿岛/皮划艇_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Petar Milošević",
+    "commons_file": "Canoe in abandoned channel, River Ljubljanica, Slovenia.jpg",
+    "source": "commons-supplement:Canoeing"
+   },
+   {
+    "local": "汉密尔顿岛/皮划艇_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Christiaan Briggs",
+    "commons_file": "Boat on Euphrates.jpg",
+    "source": "commons-supplement:Canoeing"
+   }
+  ]
+ },
+ {
+  "city": "汉密尔顿岛",
+  "attraction": "深潜",
+  "status": "miss"
+ },
+ {
+  "city": "汉密尔顿岛",
+  "attraction": "直升机看心形礁",
+  "status": "miss"
+ },
+ {
+  "city": "汉密尔顿岛",
+  "attraction": "白天堂沙滩一日游",
+  "status": "miss"
+ },
+ {
+  "city": "汉密尔顿岛",
+  "attraction": "One Tree Hill看夕阳",
+  "status": "miss"
+ },
+ {
+  "city": "汉密尔顿岛",
+  "attraction": "野生动物园与考拉合影",
+  "status": "miss"
+ },
+ {
+  "city": "汉密尔顿岛",
+  "attraction": "离岛",
+  "status": "miss"
+ },
+ {
+  "city": "乌鲁鲁",
+  "attraction": "平衡车环绕",
+  "status": "miss"
+ },
+ {
+  "city": "乌鲁鲁",
+  "attraction": "12km徒步",
+  "status": "miss"
+ },
+ {
+  "city": "乌鲁鲁",
+  "attraction": "Rim Walk徒步",
+  "status": "miss"
+ },
+ {
+  "city": "乌鲁鲁",
+  "attraction": "卡塔丘塔日出+早餐",
+  "status": "miss"
+ },
+ {
+  "city": "乌鲁鲁",
+  "attraction": "原野星光展",
+  "status": "miss"
+ }
+]

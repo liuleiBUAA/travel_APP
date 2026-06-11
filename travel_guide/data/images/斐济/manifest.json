@@ -1,0 +1,115 @@
+[
+ {
+  "city": "主岛维提岛",
+  "attraction": "丹娜努海滩",
+  "status": "miss"
+ },
+ {
+  "city": "主岛维提岛",
+  "attraction": "沉睡巨人花园",
+  "status": "miss"
+ },
+ {
+  "city": "主岛维提岛",
+  "attraction": "斐济博物馆",
+  "status": "ok",
+  "local": "主岛维提岛/斐济博物馆_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "User:Matthias Süßen",
+  "commons_file": "Fiji_Museum_Clock_Tower_Suva_MatthiasSuessen-7816.jpg",
+  "source": "zhwiki:斐濟博物館",
+  "extras": [
+   {
+    "local": "主岛维提岛/斐济博物馆_2.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Yuko Hara from Yokohama, Japan",
+    "commons_file": "Fiji Museum in Suva.jpg",
+    "source": "commons-supplement:Fiji Museum"
+   },
+   {
+    "local": "主岛维提岛/斐济博物馆_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "User:Matthias Süßen",
+    "commons_file": "Fiji Museum Clock Tower Suva MatthiasSuessen-7816.jpg",
+    "source": "commons-supplement:Fiji Museum"
+   },
+   {
+    "local": "主岛维提岛/斐济博物馆_4.jpg",
+    "license": "Public domain",
+    "artist": "Theodore Kleinschmidt",
+    "commons_file": "Veiqia - female tattoing in Fiji.jpg",
+    "source": "commons-supplement:Fiji Museum"
+   }
+  ]
+ },
+ {
+  "city": "主岛维提岛",
+  "attraction": "Suva森林公园",
+  "status": "miss"
+ },
+ {
+  "city": "玛玛努卡群岛",
+  "attraction": "浮潜",
+  "status": "miss"
+ },
+ {
+  "city": "玛玛努卡群岛",
+  "attraction": "水上运动",
+  "status": "miss"
+ },
+ {
+  "city": "玛玛努卡群岛",
+  "attraction": "日光浴",
+  "status": "miss"
+ },
+ {
+  "city": "玛玛努卡群岛",
+  "attraction": "海上皮划艇",
+  "status": "miss"
+ },
+ {
+  "city": "亚萨瓦群岛",
+  "attraction": "海滩探索",
+  "status": "miss"
+ },
+ {
+  "city": "亚萨瓦群岛",
+  "attraction": "浮潜",
+  "status": "miss"
+ },
+ {
+  "city": "亚萨瓦群岛",
+  "attraction": "与蝠鲼游泳",
+  "status": "miss"
+ },
+ {
+  "city": "亚萨瓦群岛",
+  "attraction": "蓝洞",
+  "status": "miss"
+ },
+ {
+  "city": "亚萨瓦群岛",
+  "attraction": "Lau洞穴",
+  "status": "miss"
+ },
+ {
+  "city": "亚萨瓦群岛",
+  "attraction": "传统村落体验",
+  "status": "miss"
+ },
+ {
+  "city": "亚萨瓦群岛",
+  "attraction": "卡瓦仪式",
+  "status": "miss"
+ },
+ {
+  "city": "楠迪",
+  "attraction": "丹娜努海滩",
+  "status": "miss"
+ },
+ {
+  "city": "楠迪",
+  "attraction": "沉睡巨人花园",
+  "status": "miss"
+ }
+]

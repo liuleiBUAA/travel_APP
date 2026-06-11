@@ -1,0 +1,526 @@
+[
+ {
+  "city": "班夫国家公园",
+  "attraction": "硫磺山缆车",
+  "status": "ok",
+  "local": "班夫国家公园/硫磺山缆车_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Chensiyuan at English Wikipedia",
+  "commons_file": "Day267jsulphurmountain.JPG",
+  "source": "zhwiki:硫磺山 (加拿大)"
+ },
+ {
+  "city": "班夫国家公园",
+  "attraction": "惊奇角",
+  "status": "miss"
+ },
+ {
+  "city": "班夫国家公园",
+  "attraction": "路易斯湖",
+  "status": "ok",
+  "local": "班夫国家公园/路易斯湖_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Pierre5018",
+  "commons_file": "Lake Louise 2018-03 ski.jpg",
+  "source": "commons-search:Lake Louise",
+  "extras": [
+   {
+    "local": "班夫国家公园/路易斯湖_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Chensiyuan",
+    "commons_file": "1 lake louise pano 2019.jpg",
+    "source": "commons-supplement:Lake Louise"
+   },
+   {
+    "local": "班夫国家公园/路易斯湖_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Banff National Park (AB, Canada), Lake Louise -- 2022 -- 2197.jpg",
+    "source": "commons-supplement:Lake Louise"
+   },
+   {
+    "local": "班夫国家公园/路易斯湖_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Banff National Park (AB, Canada), Lake Louise -- 2022 -- 2199.jpg",
+    "source": "commons-supplement:Lake Louise"
+   }
+  ]
+ },
+ {
+  "city": "班夫国家公园",
+  "attraction": "梦莲湖",
+  "status": "ok",
+  "local": "班夫国家公园/梦莲湖_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Chensiyuan",
+  "commons_file": "1_moraine_lake_pano_2019.jpg",
+  "source": "zhwiki:梦莲湖",
+  "extras": [
+   {
+    "local": "班夫国家公园/梦莲湖_2.jpg",
+    "license": "Public domain",
+    "artist": "Gorgo",
+    "commons_file": "Moraine Lake 17092005.jpg",
+    "source": "commons-supplement:Moraine Lake"
+   },
+   {
+    "local": "班夫国家公园/梦莲湖_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Tobias Alt, Tobi 87",
+    "commons_file": "Moraine Lake-Banff NP.JPG",
+    "source": "commons-supplement:Moraine Lake"
+   },
+   {
+    "local": "班夫国家公园/梦莲湖_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Chensiyuan",
+    "commons_file": "1 moraine lake pano 2019.jpg",
+    "source": "commons-supplement:Moraine Lake"
+   }
+  ]
+ },
+ {
+  "city": "贾斯珀国家公园",
+  "attraction": "玛琳湖",
+  "status": "miss"
+ },
+ {
+  "city": "贾斯珀国家公园",
+  "attraction": "玛琳峡谷",
+  "status": "miss"
+ },
+ {
+  "city": "温哥华",
+  "attraction": "斯坦利公园",
+  "status": "miss"
+ },
+ {
+  "city": "温哥华",
+  "attraction": "卡皮拉诺吊桥",
+  "status": "ok",
+  "local": "温哥华/卡皮拉诺吊桥_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Markus Säynevirta",
+  "commons_file": "Capilano Suspension Bridge, Vancouver, Canada (July 2016) 1.jpg",
+  "source": "commons-search:Capilano Suspension Bridge",
+  "extras": [
+   {
+    "local": "温哥华/卡皮拉诺吊桥_2.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "alyssa BLACK. from toronto, canada",
+    "commons_file": "Vancouver capilano suspension bridge. (12225426414).jpg",
+    "source": "commons-supplement:卡皮拉诺吊桥"
+   },
+   {
+    "local": "温哥华/卡皮拉诺吊桥_3.jpg",
+    "license": "CC BY 2.0",
+    "artist": "David J Laporte",
+    "commons_file": "Capilano suspension bridge -a.jpg",
+    "source": "commons-supplement:卡皮拉诺吊桥"
+   },
+   {
+    "local": "温哥华/卡皮拉诺吊桥_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Carlos Delgado",
+    "commons_file": "Capilano Suspension Bridge-Vancouver.jpg",
+    "source": "commons-supplement:卡皮拉诺吊桥"
+   }
+  ]
+ },
+ {
+  "city": "温哥华",
+  "attraction": "格兰维尔岛",
+  "status": "ok",
+  "local": "温哥华/格兰维尔岛_1.jpg",
+  "license": "Public domain",
+  "artist": "Zhatt",
+  "commons_file": "Granville_Island.jpg",
+  "source": "zhwiki:固蘭湖島",
+  "extras": [
+   {
+    "local": "温哥华/格兰维尔岛_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Xicotencatl",
+    "commons_file": "Granville Island Vancouver 04.JPG",
+    "source": "commons-supplement:Granville Island"
+   },
+   {
+    "local": "温哥华/格兰维尔岛_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Xicotencatl",
+    "commons_file": "Granville Island 02.jpg",
+    "source": "commons-supplement:Granville Island"
+   },
+   {
+    "local": "温哥华/格兰维尔岛_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Xicotencatl",
+    "commons_file": "Granville Island 01.jpg",
+    "source": "commons-supplement:Granville Island"
+   }
+  ]
+ },
+ {
+  "city": "温哥华",
+  "attraction": "煤气镇",
+  "status": "ok",
+  "local": "温哥华/煤气镇_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Anthony Maw, Vancouver, Canada",
+  "commons_file": "8262_2012-07-16_Gastown_Steam_Clock_HDR_2012-07-16_Gastown_HDR.jpg",
+  "source": "zhwiki:煤氣鎮",
+  "extras": [
+   {
+    "local": "温哥华/煤气镇_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Xicotencatl",
+    "commons_file": "Gastown-8.JPG",
+    "source": "commons-supplement:Gastown"
+   },
+   {
+    "local": "温哥华/煤气镇_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Xiao23",
+    "commons_file": "Gastown 06.jpg",
+    "source": "commons-supplement:Gastown"
+   },
+   {
+    "local": "温哥华/煤气镇_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Xiao23",
+    "commons_file": "Gastown 10.jpg",
+    "source": "commons-supplement:Gastown"
+   }
+  ]
+ },
+ {
+  "city": "多伦多",
+  "attraction": "CN塔",
+  "status": "ok",
+  "local": "多伦多/CN塔_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Wladyslaw",
+  "commons_file": "Toronto_-_ON_-_Toronto_Harbourfront7.jpg",
+  "source": "zhwiki:CN電視塔",
+  "extras": [
+   {
+    "local": "多伦多/CN塔_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Wladyslaw",
+    "commons_file": "Toronto - ON - Toronto Harbourfront7.jpg",
+    "source": "commons-supplement:CN Tower"
+   },
+   {
+    "local": "多伦多/CN塔_3.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Wladyslaw, Correction of perspective distortion: Niabot",
+    "commons_file": "Toronto - ON - CN Tower bei Nacht2.jpg",
+    "source": "commons-supplement:CN Tower"
+   },
+   {
+    "local": "多伦多/CN塔_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Wladyslaw (talk)",
+    "commons_file": "Toronto - ON - Schaft des CN Tower.jpg",
+    "source": "commons-supplement:CN Tower"
+   }
+  ]
+ },
+ {
+  "city": "多伦多",
+  "attraction": "皇家安大略博物馆",
+  "status": "ok",
+  "local": "多伦多/皇家安大略博物馆_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Maksim Sokolov (Maxergon)",
+  "commons_file": "Royal_Ontario_Museum_in_Fall_2021.jpg",
+  "source": "zhwiki:皇家安大略博物館",
+  "extras": [
+   {
+    "local": "多伦多/皇家安大略博物馆_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Maksim Sokolov (Maxergon)",
+    "commons_file": "Royal Ontario Museum in Fall 2021.jpg",
+    "source": "commons-supplement:Royal Ontario Museum"
+   },
+   {
+    "local": "多伦多/皇家安大略博物馆_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Maksim Sokolov (Maxergon)",
+    "commons_file": "Mosaic Ceiling in Royal Ontario Museum.jpg",
+    "source": "commons-supplement:Royal Ontario Museum"
+   },
+   {
+    "local": "多伦多/皇家安大略博物馆_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Maksim Sokolov (maxergon.com)",
+    "commons_file": "Queen's Park Entrance of the Royal Ontario Museum (view form inside).jpg",
+    "source": "commons-supplement:Royal Ontario Museum"
+   }
+  ]
+ },
+ {
+  "city": "多伦多",
+  "attraction": "卡萨罗马城堡",
+  "status": "ok",
+  "local": "多伦多/卡萨罗马城堡_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Larry Koester",
+  "commons_file": "Casa_Loma_(23170005321).jpg",
+  "source": "zhwiki:卡萨罗马城堡",
+  "extras": [
+   {
+    "local": "多伦多/卡萨罗马城堡_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Abbeywood",
+    "commons_file": "Casa Loma Wasagaming.jpg",
+    "source": "commons-supplement:Casa Loma"
+   },
+   {
+    "local": "多伦多/卡萨罗马城堡_3.jpg",
+    "license": "Public domain",
+    "artist": "GTD Aquitaine",
+    "commons_file": "Wells Hill Avenue Casa Loma Toronto.jpg",
+    "source": "commons-supplement:Casa Loma"
+   },
+   {
+    "local": "多伦多/卡萨罗马城堡_4.jpg",
+    "license": "CC BY 4.0",
+    "artist": "ImagePerson",
+    "commons_file": "Casa Loma Toronto Exterior Architecture detail 2006 08.jpg",
+    "source": "commons-supplement:Casa Loma"
+   }
+  ]
+ },
+ {
+  "city": "多伦多",
+  "attraction": "唐人街",
+  "status": "ok",
+  "local": "多伦多/唐人街_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "chensiyuan",
+  "commons_file": "Chinatown_manhattan_2009.JPG",
+  "source": "zhwiki:唐人街",
+  "extras": [
+   {
+    "local": "多伦多/唐人街_2.jpg",
+    "license": "Public domain",
+    "artist": "Derek Jensen (Tysto)",
+    "commons_file": "Chinatown-manhattan-2004.jpg",
+    "source": "commons-supplement:Chinatown"
+   },
+   {
+    "local": "多伦多/唐人街_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Michielverbeek",
+    "commons_file": "Den Haag-Chinatown, straatzicht Wagenstraat-Stille Veerkade-Amsterdamse Veerkade foto3 2017-09-24 11.18.jpg",
+    "source": "commons-supplement:Chinatown"
+   },
+   {
+    "local": "多伦多/唐人街_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Mojnsen",
+    "commons_file": "Chinatown New York City.jpg",
+    "source": "commons-supplement:Chinatown"
+   }
+  ]
+ },
+ {
+  "city": "尼亚加拉瀑布",
+  "attraction": "尼亚加拉瀑布游船",
+  "status": "miss"
+ },
+ {
+  "city": "尼亚加拉瀑布",
+  "attraction": "瀑布夜景",
+  "status": "miss"
+ },
+ {
+  "city": "黄刀镇",
+  "attraction": "极光观测",
+  "status": "miss"
+ },
+ {
+  "city": "黄刀镇",
+  "attraction": "大奴湖",
+  "status": "ok",
+  "local": "黄刀镇/大奴湖_1.jpg",
+  "license": "Public domain",
+  "artist": "Jacques Descloitres, MODIS Land Rapid Response Team, NASA/GSFC",
+  "commons_file": "Canada.A2002160.1920.721.250m.jpg",
+  "source": "zhwiki:大奴湖",
+  "extras": [
+   {
+    "local": "黄刀镇/大奴湖_2.jpg",
+    "license": "Public domain",
+    "artist": "Paul Gierszewski",
+    "commons_file": "UtsingiPoint-GreatSlaveLake.JPG",
+    "source": "commons-supplement:Great Slave Lake"
+   },
+   {
+    "local": "黄刀镇/大奴湖_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ymblanter",
+    "commons_file": "Great Slave Lake beach in Hay River 2.jpg",
+    "source": "commons-supplement:Great Slave Lake"
+   },
+   {
+    "local": "黄刀镇/大奴湖_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ymblanter",
+    "commons_file": "Great Slave Lake beach in Hay River 3.jpg",
+    "source": "commons-supplement:Great Slave Lake"
+   }
+  ]
+ },
+ {
+  "city": "班夫+贾斯珀\"梦幻冰原\"环线",
+  "attraction": "班夫镇",
+  "status": "ok",
+  "local": "班夫+贾斯珀_梦幻冰原_环线/班夫镇_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Tobias Alt, Tobi 87",
+  "commons_file": "Peyto Lake-Banff NP-Canada.jpg",
+  "source": "commons-search:Banff",
+  "extras": [
+   {
+    "local": "班夫+贾斯珀_梦幻冰原_环线/班夫镇_2.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Florian Fuchs",
+    "commons_file": "Lake Agnes im Banff National Park.jpg",
+    "source": "commons-supplement:Banff"
+   },
+   {
+    "local": "班夫+贾斯珀_梦幻冰原_环线/班夫镇_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "DXR",
+    "commons_file": "Banff Ave, Banff, south view 20240820 1.jpg",
+    "source": "commons-supplement:Banff"
+   },
+   {
+    "local": "班夫+贾斯珀_梦幻冰原_环线/班夫镇_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Chris Woodrich",
+    "commons_file": "Thunderbird by Stewart Steinhauer (2000), Banff, Alberta, 2025-07-12.jpg",
+    "source": "commons-supplement:Banff"
+   }
+  ]
+ },
+ {
+  "city": "班夫+贾斯珀\"梦幻冰原\"环线",
+  "attraction": "硫磺山缆车",
+  "status": "miss"
+ },
+ {
+  "city": "班夫+贾斯珀\"梦幻冰原\"环线",
+  "attraction": "惊奇角",
+  "status": "miss"
+ },
+ {
+  "city": "班夫+贾斯珀\"梦幻冰原\"环线",
+  "attraction": "梦莲湖",
+  "status": "ok",
+  "local": "班夫+贾斯珀_梦幻冰原_环线/梦莲湖_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Chensiyuan",
+  "commons_file": "1_moraine_lake_pano_2019.jpg",
+  "source": "zhwiki:梦莲湖",
+  "extras": [
+   {
+    "local": "班夫+贾斯珀_梦幻冰原_环线/梦莲湖_2.jpg",
+    "license": "Public domain",
+    "artist": "Gorgo",
+    "commons_file": "Moraine Lake 17092005.jpg",
+    "source": "commons-supplement:Moraine Lake"
+   },
+   {
+    "local": "班夫+贾斯珀_梦幻冰原_环线/梦莲湖_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Tobias Alt, Tobi 87",
+    "commons_file": "Moraine Lake-Banff NP.JPG",
+    "source": "commons-supplement:Moraine Lake"
+   },
+   {
+    "local": "班夫+贾斯珀_梦幻冰原_环线/梦莲湖_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Chensiyuan",
+    "commons_file": "1 moraine lake pano 2019.jpg",
+    "source": "commons-supplement:Moraine Lake"
+   }
+  ]
+ },
+ {
+  "city": "班夫+贾斯珀\"梦幻冰原\"环线",
+  "attraction": "露易丝湖（划船",
+  "status": "miss"
+ },
+ {
+  "city": "班夫+贾斯珀\"梦幻冰原\"环线",
+  "attraction": "徒步）",
+  "status": "miss"
+ },
+ {
+  "city": "班夫+贾斯珀\"梦幻冰原\"环线",
+  "attraction": "弓湖",
+  "status": "miss"
+ },
+ {
+  "city": "班夫+贾斯珀\"梦幻冰原\"环线",
+  "attraction": "贾斯珀",
+  "status": "miss"
+ },
+ {
+  "city": "班夫+贾斯珀\"梦幻冰原\"环线",
+  "attraction": "玛琳湖",
+  "status": "miss"
+ },
+ {
+  "city": "班夫+贾斯珀\"梦幻冰原\"环线",
+  "attraction": "玛琳峡谷",
+  "status": "miss"
+ },
+ {
+  "city": "班夫+贾斯珀\"梦幻冰原\"环线",
+  "attraction": "哥伦比亚冰原天空步道",
+  "status": "miss"
+ },
+ {
+  "city": "班夫+贾斯珀\"梦幻冰原\"环线",
+  "attraction": "阿萨巴斯卡瀑布",
+  "status": "ok",
+  "local": "班夫+贾斯珀_梦幻冰原_环线/阿萨巴斯卡瀑布_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Jakub Fryš",
+  "commons_file": "Athabasca_Falls_-_Jasper.jpg",
+  "source": "zhwiki:阿萨巴斯卡瀑布",
+  "extras": [
+   {
+    "local": "班夫+贾斯珀_梦幻冰原_环线/阿萨巴斯卡瀑布_2.jpg",
+    "license": "Public domain",
+    "artist": "Ken Thomas",
+    "commons_file": "Athabasca Falls-27527.jpg",
+    "source": "commons-supplement:Athabasca Falls"
+   },
+   {
+    "local": "班夫+贾斯珀_梦幻冰原_环线/阿萨巴斯卡瀑布_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Jakub Fryš",
+    "commons_file": "Athabasca Falls - Jasper.jpg",
+    "source": "commons-supplement:Athabasca Falls"
+   },
+   {
+    "local": "班夫+贾斯珀_梦幻冰原_环线/阿萨巴斯卡瀑布_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Migueldalugdugan",
+    "commons_file": "Free falling Athabasca Falls.jpg",
+    "source": "commons-supplement:Athabasca Falls"
+   }
+  ]
+ },
+ {
+  "city": "班夫+贾斯珀\"梦幻冰原\"环线",
+  "attraction": "结束环线",
+  "status": "miss"
+ }
+]

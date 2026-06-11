@@ -1,0 +1,256 @@
+[
+ {
+  "city": "阿姆斯特丹",
+  "attraction": "国立博物馆",
+  "status": "miss"
+ },
+ {
+  "city": "阿姆斯特丹",
+  "attraction": "梵高博物馆",
+  "status": "ok",
+  "local": "阿姆斯特丹/梵高博物馆_1.png",
+  "license": "Public domain",
+  "artist": "Koeweiden Postma[1]",
+  "commons_file": "Logo_-_Van_Gogh_Museum.png",
+  "source": "zhwiki:梵高博物馆",
+  "extras": [
+   {
+    "local": "阿姆斯特丹/梵高博物馆_2.jpg",
+    "license": "Public domain",
+    "artist": "Vincent van Gogh",
+    "commons_file": "Vincent van Gogh - Sunflowers - VGM F458.jpg",
+    "source": "commons-supplement:Van Gogh Museum"
+   },
+   {
+    "local": "阿姆斯特丹/梵高博物馆_3.jpg",
+    "license": "Public domain",
+    "artist": "Vincent van Gogh",
+    "commons_file": "Van Gogh - Starry Night - Google Art Project.jpg",
+    "source": "commons-supplement:Van Gogh Museum"
+   },
+   {
+    "local": "阿姆斯特丹/梵高博物馆_4.jpg",
+    "license": "Public domain",
+    "artist": "Vincent van Gogh",
+    "commons_file": "Vincent van Gogh - The yellow house ('The street').jpg",
+    "source": "commons-supplement:Van Gogh Museum"
+   }
+  ]
+ },
+ {
+  "city": "阿姆斯特丹",
+  "attraction": "梵高公园",
+  "status": "miss"
+ },
+ {
+  "city": "阿姆斯特丹",
+  "attraction": "水坝广场",
+  "status": "ok",
+  "local": "阿姆斯特丹/水坝广场_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Coenvanderwoude",
+  "commons_file": "Paleis_op_de_Dam.jpg",
+  "source": "zhwiki:水坝广场",
+  "extras": [
+   {
+    "local": "阿姆斯特丹/水坝广场_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Txllxt TxllxT",
+    "commons_file": "Amsterdam - Dam Square - 360° Panorama 1.jpg",
+    "source": "commons-supplement:Dam Square"
+   },
+   {
+    "local": "阿姆斯特丹/水坝广场_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Txllxt TxllxT",
+    "commons_file": "Amsterdam - Dam Square - 360° Panorama 2.jpg",
+    "source": "commons-supplement:Dam Square"
+   },
+   {
+    "local": "阿姆斯特丹/水坝广场_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Txllxt TxllxT",
+    "commons_file": "Amsterdam - Dam Square - View on Damrak, Beurs van Berlage & Bijenkorf.jpg",
+    "source": "commons-supplement:Dam Square"
+   }
+  ]
+ },
+ {
+  "city": "库肯霍夫",
+  "attraction": "库肯霍夫公园",
+  "status": "ok",
+  "local": "库肯霍夫/库肯霍夫公园_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Tiago Fioreze",
+  "commons_file": "Keukenhof_tulips.JPG",
+  "source": "zhwiki:库肯霍夫",
+  "extras": [
+   {
+    "local": "库肯霍夫/库肯霍夫公园_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Nyx Ning",
+    "commons_file": "荷兰 库肯霍夫郁金香公园 - panoramio.jpg",
+    "source": "commons-supplement:库肯霍夫公园 库肯霍夫"
+   },
+   {
+    "local": "库肯霍夫/库肯霍夫公园_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Nyx Ning",
+    "commons_file": "荷兰 库肯霍夫郁金香公园 - panoramio (1).jpg",
+    "source": "commons-supplement:库肯霍夫公园 库肯霍夫"
+   }
+  ]
+ },
+ {
+  "city": "羊角村",
+  "attraction": "自行车",
+  "status": "ok",
+  "local": "羊角村/自行车_1.jpg",
+  "license": "CC BY 2.5",
+  "artist": "Brosen",
+  "commons_file": "Brosen_city_bicycle.jpg",
+  "source": "zhwiki:自行車",
+  "extras": [
+   {
+    "local": "羊角村/自行车_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "W. Bulach",
+    "commons_file": ".00 3321 Petersen-Fahrrad.jpg",
+    "source": "commons-supplement:Velocipede"
+   },
+   {
+    "local": "羊角村/自行车_3.jpg",
+    "license": "Public domain",
+    "artist": "John Ferneley",
+    "commons_file": "Velocipede (horse).jpg",
+    "source": "commons-supplement:Velocipede"
+   },
+   {
+    "local": "羊角村/自行车_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "W. Bulach",
+    "commons_file": "00 8327 Historisches Fahrrad.jpg",
+    "source": "commons-supplement:Velocipede"
+   }
+  ]
+ },
+ {
+  "city": "羊角村",
+  "attraction": "运河",
+  "status": "miss"
+ },
+ {
+  "city": "布鲁塞尔",
+  "attraction": "大广场",
+  "status": "ok",
+  "local": "布鲁塞尔/大广场_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Celuici",
+  "commons_file": "Grand-Place,_Brussels_-_panorama,_June_2018.jpg",
+  "source": "zhwiki:布鲁塞尔大广场",
+  "extras": [
+   {
+    "local": "布鲁塞尔/大广场_2.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Trougnouf",
+    "commons_file": "Grand-Place Flower Carpet 2018 (18mm).jpg",
+    "source": "commons-supplement:大广场 布鲁塞尔"
+   },
+   {
+    "local": "布鲁塞尔/大广场_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Celuici",
+    "commons_file": "Grand-Place, Brussels - panorama, June 2018.jpg",
+    "source": "commons-supplement:大广场 布鲁塞尔"
+   },
+   {
+    "local": "布鲁塞尔/大广场_4.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Trougnouf",
+    "commons_file": "Grand Place Flower Carpet 2018 (30mm).jpg",
+    "source": "commons-supplement:大广场 布鲁塞尔"
+   }
+  ]
+ },
+ {
+  "city": "布鲁塞尔",
+  "attraction": "撒尿小童",
+  "status": "miss"
+ },
+ {
+  "city": "布鲁塞尔",
+  "attraction": "原子球",
+  "status": "ok",
+  "local": "布鲁塞尔/原子球_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Zairon",
+  "commons_file": "Laeken_Atomium_06.jpg",
+  "source": "zhwiki:原子球塔",
+  "extras": [
+   {
+    "local": "布鲁塞尔/原子球_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Trougnouf (Benoit Brummer)",
+    "commons_file": "Atomium sphere (DSCF1211).jpg",
+    "source": "commons-supplement:原子球"
+   },
+   {
+    "local": "布鲁塞尔/原子球_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Diego Delso",
+    "commons_file": "Atomium, Bruselas, Bélgica, 2021-12-15, DD 148-150 HDR.jpg",
+    "source": "commons-supplement:原子球"
+   },
+   {
+    "local": "布鲁塞尔/原子球_4.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Trougnouf (Benoit Brummer)",
+    "commons_file": "The Atomium during civil twilight (DSCF1135).jpg",
+    "source": "commons-supplement:原子球"
+   }
+  ]
+ },
+ {
+  "city": "鹿特丹",
+  "attraction": "立体方块屋",
+  "status": "miss"
+ },
+ {
+  "city": "鹿特丹",
+  "attraction": "鹿特丹港",
+  "status": "ok",
+  "local": "鹿特丹/鹿特丹港_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Mlefter",
+  "commons_file": "Erasmusbrug_seen_from_Euromast.jpg",
+  "source": "zhwiki:鹿特丹",
+  "extras": [
+   {
+    "local": "鹿特丹/鹿特丹港_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Martin Falbisoner",
+    "commons_file": "AIDAperla in Rotterdam - September 2019.jpg",
+    "source": "commons-supplement:Port of Rotterdam"
+   },
+   {
+    "local": "鹿特丹/鹿特丹港_3.jpg",
+    "license": "Public domain",
+    "artist": "NASA Earth Observatory images by Joshua Stevens, using Landsat data from the U.S",
+    "commons_file": "Port of Rotterdam Landsat 8 Photo 8 May 2016.jpg",
+    "source": "commons-supplement:Port of Rotterdam"
+   },
+   {
+    "local": "鹿特丹/鹿特丹港_4.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Olivier Cleynen",
+    "commons_file": "Aerial photograph of the port of Rotterdam in 2017 (1).jpg",
+    "source": "commons-supplement:Port of Rotterdam"
+   }
+  ]
+ },
+ {
+  "city": "鹿特丹",
+  "attraction": "现代建筑",
+  "status": "miss"
+ }
+]

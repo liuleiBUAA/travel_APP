@@ -1,0 +1,288 @@
+[
+ {
+  "city": "伊斯坦布尔",
+  "attraction": "蓝色清真寺",
+  "status": "miss"
+ },
+ {
+  "city": "伊斯坦布尔",
+  "attraction": "圣索菲亚大教堂",
+  "status": "miss"
+ },
+ {
+  "city": "伊斯坦布尔",
+  "attraction": "大巴扎",
+  "status": "ok",
+  "local": "伊斯坦布尔/大巴扎_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "No machine-readable author provided. OsvaldoGago assumed (based on copyright cla",
+  "commons_file": "Grand_Bazaar_01.JPG",
+  "source": "zhwiki:大巴扎 (伊斯坦布尔)",
+  "extras": [
+   {
+    "local": "伊斯坦布尔/大巴扎_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Amir Pashaei",
+    "commons_file": "Roof of the qom grand bazaar, qom, iran.jpg",
+    "source": "commons-supplement:Grand Bazaar"
+   },
+   {
+    "local": "伊斯坦布尔/大巴扎_3.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Babak Farrokhi",
+    "commons_file": "Tehran Old Bazaar.jpg",
+    "source": "commons-supplement:Grand Bazaar"
+   },
+   {
+    "local": "伊斯坦布尔/大巴扎_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Amir Pashaei",
+    "commons_file": "Roof of the qom grand bazaar.jpg",
+    "source": "commons-supplement:Grand Bazaar"
+   }
+  ]
+ },
+ {
+  "city": "伊斯坦布尔",
+  "attraction": "香料市场",
+  "status": "miss"
+ },
+ {
+  "city": "伊斯坦布尔",
+  "attraction": "博斯普鲁斯海峡",
+  "status": "ok",
+  "local": "伊斯坦布尔/博斯普鲁斯海峡_1.jpg",
+  "license": "Public domain",
+  "artist": "Astronaut photograph ISS008-E-21752",
+  "commons_file": "Istanbul_and_Bosporus_big.jpg",
+  "source": "zhwiki:博斯普鲁斯海峡",
+  "extras": [
+   {
+    "local": "伊斯坦布尔/博斯普鲁斯海峡_2.jpg",
+    "license": "Public domain",
+    "artist": "Astronaut photograph ISS008-E-21752",
+    "commons_file": "Istanbul and Bosporus big.jpg",
+    "source": "commons-supplement:Bosporus"
+   },
+   {
+    "local": "伊斯坦布尔/博斯普鲁斯海峡_3.jpg",
+    "license": "FAL",
+    "artist": "A.Savin",
+    "commons_file": "Istanbul asv2020-02 img55 View of Beşiktaş.jpg",
+    "source": "commons-supplement:Bosporus"
+   },
+   {
+    "local": "伊斯坦布尔/博斯普鲁斯海峡_4.jpg",
+    "license": "CC0",
+    "artist": "Julian Lupyan",
+    "commons_file": "Pond and Fence along the Bosporus Strait, Dolmabahçe Palace, Istanbul.jpg",
+    "source": "commons-supplement:Bosporus"
+   }
+  ]
+ },
+ {
+  "city": "卡帕多奇亚",
+  "attraction": "热气球",
+  "status": "ok",
+  "local": "卡帕多奇亚/热气球_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Kropsoq",
+  "commons_file": "2006_Ojiya_balloon_festival_011.jpg",
+  "source": "zhwiki:热气球",
+  "extras": [
+   {
+    "local": "卡帕多奇亚/热气球_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Tomas Castelazo",
+    "commons_file": "Leon hot air balloon festival 2010.jpg",
+    "source": "commons-supplement:Hot air balloon"
+   },
+   {
+    "local": "卡帕多奇亚/热气球_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Tomas Castelazo",
+    "commons_file": "Darth vader hot air balloon.jpg",
+    "source": "commons-supplement:Hot air balloon"
+   },
+   {
+    "local": "卡帕多奇亚/热气球_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Benh LIEU SONG (Flickr)",
+    "commons_file": "Cappadocia Balloon Inflating Wikimedia Commons.JPG",
+    "source": "commons-supplement:Hot air balloon"
+   }
+  ]
+ },
+ {
+  "city": "卡帕多奇亚",
+  "attraction": "格雷梅露天博物馆",
+  "status": "miss"
+ },
+ {
+  "city": "卡帕多奇亚",
+  "attraction": "洞穴酒店",
+  "status": "miss"
+ },
+ {
+  "city": "卡帕多奇亚",
+  "attraction": "精灵烟囱",
+  "status": "miss"
+ },
+ {
+  "city": "安塔利亚",
+  "attraction": "哈德良门",
+  "status": "miss"
+ },
+ {
+  "city": "安塔利亚",
+  "attraction": "阿斯班多斯",
+  "status": "miss"
+ },
+ {
+  "city": "费特希耶",
+  "attraction": "滑翔伞",
+  "status": "ok",
+  "local": "费特希耶/滑翔伞_1.jpg",
+  "license": "CC BY-SA 2.0 fr",
+  "artist": "",
+  "commons_file": "Parapentiste_dome_1.jpg",
+  "source": "zhwiki:滑翔伞",
+  "extras": [
+   {
+    "local": "费特希耶/滑翔伞_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Another one of my pictures:\n\n\n\nThis photograph was taken by Medium69 (William Cr",
+    "commons_file": "Parapente - 166.jpg",
+    "source": "commons-supplement:Paragliding"
+   },
+   {
+    "local": "费特希耶/滑翔伞_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Basile Morin",
+    "commons_file": "Two-seater paramotor - Powered paragliding in flight - 3 quarter view a sunny afternoon in Don Det Laos.jpg",
+    "source": "commons-supplement:Paragliding"
+   },
+   {
+    "local": "费特希耶/滑翔伞_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Another one of my pictures:\n\n\n\nThis photograph was taken by Medium69 (William Cr",
+    "commons_file": "Parapente - 184.jpg",
+    "source": "commons-supplement:Paragliding"
+   }
+  ]
+ },
+ {
+  "city": "费特希耶",
+  "attraction": "蝴蝶谷",
+  "status": "ok",
+  "local": "费特希耶/蝴蝶谷_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "ONewYork",
+  "commons_file": "HK_Butterfly_Valley_Road_Flyover_n_Bus_6D_n_36B.JPG",
+  "source": "zhwiki:蝴蝶谷",
+  "extras": [
+   {
+    "local": "费特希耶/蝴蝶谷_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ezzeldin.Elbaksawy",
+    "commons_file": "Butterfly Valley, Fethiye.jpg",
+    "source": "commons-supplement:Butterfly Valley"
+   },
+   {
+    "local": "费特希耶/蝴蝶谷_3.jpg",
+    "license": "CC0",
+    "artist": "Maurice07",
+    "commons_file": "Valley of Butterflies.JPG",
+    "source": "commons-supplement:Butterfly Valley"
+   },
+   {
+    "local": "费特希耶/蝴蝶谷_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Subhendukhan",
+    "commons_file": "Close wing position of Delias belladonna Fabricius, 1793 – Hill Jezebel Butterflies of Talle valley - 5.jpg",
+    "source": "commons-supplement:Butterfly Valley"
+   }
+  ]
+ },
+ {
+  "city": "费特希耶",
+  "attraction": "厄吕代尼兹海滩",
+  "status": "miss"
+ },
+ {
+  "city": "伊兹密尔",
+  "attraction": "以弗所古城",
+  "status": "ok",
+  "local": "伊兹密尔/以弗所古城_1.png",
+  "license": "CC BY-SA 2.0",
+  "artist": "Bshong0520",
+  "commons_file": "Ephesus11.png",
+  "source": "zhwiki:以弗所",
+  "extras": [
+   {
+    "local": "伊兹密尔/以弗所古城_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Benh LIEU SONG",
+    "commons_file": "Ephesus Celsus Library Façade.jpg",
+    "source": "commons-supplement:以弗所古城"
+   },
+   {
+    "local": "伊兹密尔/以弗所古城_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Bernard Gagnon",
+    "commons_file": "Ephesus - Prytaneion.jpg",
+    "source": "commons-supplement:以弗所古城"
+   },
+   {
+    "local": "伊兹密尔/以弗所古城_4.jpg",
+    "license": "CC BY 3.0",
+    "artist": "lienyuan lee",
+    "commons_file": "Public Toilets at Ephesus 以弗所古城公共便座 - panoramio.jpg",
+    "source": "commons-supplement:以弗所古城"
+   }
+  ]
+ },
+ {
+  "city": "伊兹密尔",
+  "attraction": "塞尔丘克",
+  "status": "ok",
+  "local": "伊兹密尔/塞尔丘克_1.jpg",
+  "license": "Public domain",
+  "artist": "user \"Henry VIII\" on English Wikipedia",
+  "commons_file": "Selcuk.jpg",
+  "source": "zhwiki:塞尔丘克",
+  "extras": [
+   {
+    "local": "伊兹密尔/塞尔丘克_2.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Francisco Anzola",
+    "commons_file": "Selçuk fortress.jpg",
+    "source": "commons-supplement:Selçuk"
+   },
+   {
+    "local": "伊兹密尔/塞尔丘克_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ekrem.Ozcan",
+    "commons_file": "Meryem Ana Heykeli, Selçuk.jpg",
+    "source": "commons-supplement:Selçuk"
+   },
+   {
+    "local": "伊兹密尔/塞尔丘克_4.jpg",
+    "license": "CC0",
+    "artist": "Bernard Gagnon",
+    "commons_file": "Selçuk Sultan Türbe.jpg",
+    "source": "commons-supplement:Selçuk"
+   }
+  ]
+ },
+ {
+  "city": "伊兹密尔",
+  "attraction": "科纳克广场",
+  "status": "miss"
+ },
+ {
+  "city": "伊兹密尔",
+  "attraction": "海滨长廊",
+  "status": "miss"
+ }
+]

@@ -1,0 +1,245 @@
+[
+ {
+  "city": "雅典",
+  "attraction": "卫城",
+  "status": "ok",
+  "local": "雅典/卫城_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Spirosparas",
+  "commons_file": "Acropolis_Of_Athens_Greece_04.jpg",
+  "source": "zhwiki:雅典衛城",
+  "extras": [
+   {
+    "local": "雅典/卫城_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "A.Savin",
+    "commons_file": "Attica 06-13 Athens 50 View from Philopappos - Acropolis Hill.jpg",
+    "source": "commons-supplement:Acropolis"
+   },
+   {
+    "local": "雅典/卫城_3.jpg",
+    "license": "CC0",
+    "artist": "Jebulon",
+    "commons_file": "Erechtheum Acropolis Athens.jpg",
+    "source": "commons-supplement:Acropolis"
+   },
+   {
+    "local": "雅典/卫城_4.jpg",
+    "license": "CC BY-SA 3.0 de",
+    "artist": "Thomas Wolf, www.foto-tw.de",
+    "commons_file": "Akropolis mit Umgebung.jpg",
+    "source": "commons-supplement:Acropolis"
+   }
+  ]
+ },
+ {
+  "city": "雅典",
+  "attraction": "帕特农神庙",
+  "status": "ok",
+  "local": "雅典/帕特农神庙_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Steve Swayne",
+  "commons_file": "The_Parthenon_in_Athens.jpg",
+  "source": "zhwiki:帕德嫩神廟",
+  "extras": [
+   {
+    "local": "雅典/帕特农神庙_2.jpg",
+    "license": "Public domain",
+    "artist": "User:Mountain",
+    "commons_file": "Parthenon from west.jpg",
+    "source": "commons-supplement:Parthenon"
+   },
+   {
+    "local": "雅典/帕特农神庙_3.jpg",
+    "license": "CC BY-SA 2.5",
+    "artist": "Thermos",
+    "commons_file": "Parthenon from south.jpg",
+    "source": "commons-supplement:Parthenon"
+   },
+   {
+    "local": "雅典/帕特农神庙_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "A.Savin",
+    "commons_file": "Attica 06-13 Athens 35 Parthenon.jpg",
+    "source": "commons-supplement:Parthenon"
+   }
+  ]
+ },
+ {
+  "city": "雅典",
+  "attraction": "宪法广场",
+  "status": "ok",
+  "local": "雅典/宪法广场_1.jpg",
+  "license": "Public domain",
+  "artist": "User Argos'Dad on en.wikipedia",
+  "commons_file": "Evzone.jpg",
+  "source": "zhwiki:宪法广场 (雅典)",
+  "extras": [
+   {
+    "local": "雅典/宪法广场_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "C messier",
+    "commons_file": "Πλατεία Συντάγματος 6386.jpg",
+    "source": "commons-supplement:宪法广场 雅典"
+   },
+   {
+    "local": "雅典/宪法广场_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Texniths",
+    "commons_file": "Syntagma Square (January 2022).jpg",
+    "source": "commons-supplement:宪法广场 雅典"
+   },
+   {
+    "local": "雅典/宪法广场_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ozanp689",
+    "commons_file": "Syntagma Square Christmas tree 2023.jpg",
+    "source": "commons-supplement:宪法广场 雅典"
+   }
+  ]
+ },
+ {
+  "city": "雅典",
+  "attraction": "普拉卡",
+  "status": "ok",
+  "local": "雅典/普拉卡_1.jpg",
+  "license": "Public domain",
+  "artist": "JFKennedy at English Wikipedia",
+  "commons_file": "Athens_Plaka07.jpg",
+  "source": "zhwiki:普拉卡",
+  "extras": [
+   {
+    "local": "雅典/普拉卡_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Joanbanjo",
+    "commons_file": "Carrer del barri de Plaka, Atenes.JPG",
+    "source": "commons-supplement:Plaka"
+   },
+   {
+    "local": "雅典/普拉卡_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "George E. Koronaios",
+    "commons_file": "Nameless street in Plaka on July 15, 2024.jpg",
+    "source": "commons-supplement:Plaka"
+   },
+   {
+    "local": "雅典/普拉卡_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "George E. Koronaios",
+    "commons_file": "Old metal door in Plaka on June 8, 2024.jpg",
+    "source": "commons-supplement:Plaka"
+   }
+  ]
+ },
+ {
+  "city": "圣托里尼",
+  "attraction": "红沙滩",
+  "status": "miss"
+ },
+ {
+  "city": "圣托里尼",
+  "attraction": "伊亚日落",
+  "status": "miss"
+ },
+ {
+  "city": "圣托里尼",
+  "attraction": "酒庄",
+  "status": "ok",
+  "local": "圣托里尼/酒庄_1.jpg",
+  "license": "Public domain",
+  "artist": "Ken Case",
+  "commons_file": "Chateau_Lafite.jpg",
+  "source": "zhwiki:拉菲酒庄",
+  "extras": [
+   {
+    "local": "圣托里尼/酒庄_2.jpg",
+    "license": "Public domain",
+    "artist": "Unspecified",
+    "commons_file": "Tashkent Winery Enterprise of the Heirs of N. I. Ivanov.jpg",
+    "source": "commons-supplement:Winery"
+   },
+   {
+    "local": "圣托里尼/酒庄_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Elgaard",
+    "commons_file": "Les Avinturiers winery rv site.jpg",
+    "source": "commons-supplement:Winery"
+   },
+   {
+    "local": "圣托里尼/酒庄_4.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Kerry Raymond",
+    "commons_file": "Winery, Sirromet Winery, Mount Cotton, 2014.jpg",
+    "source": "commons-supplement:Winery"
+   }
+  ]
+ },
+ {
+  "city": "圣托里尼",
+  "attraction": "费罗斯特法尼",
+  "status": "miss"
+ },
+ {
+  "city": "克里特岛",
+  "attraction": "克诺索斯宫",
+  "status": "ok",
+  "local": "克里特岛/克诺索斯宫_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Bernard Gagnon",
+  "commons_file": "Knossos_-_North_Portico_02.jpg",
+  "source": "zhwiki:克诺索斯",
+  "extras": [
+   {
+    "local": "克里特岛/克诺索斯宫_2.jpg",
+    "license": "CC0",
+    "artist": "Jebulon",
+    "commons_file": "The \"cup bearer\" fresco Knossos Heraklion museum Crete Greece.jpg",
+    "source": "commons-supplement:Knossos"
+   },
+   {
+    "local": "克里特岛/克诺索斯宫_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but ple",
+    "commons_file": "Knossos in Crete west court.jpg",
+    "source": "commons-supplement:Knossos"
+   },
+   {
+    "local": "克里特岛/克诺索斯宫_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Bernard Gagnon",
+    "commons_file": "Knossos - North Portico 02.jpg",
+    "source": "commons-supplement:Knossos"
+   }
+  ]
+ },
+ {
+  "city": "克里特岛",
+  "attraction": "威尼斯港口",
+  "status": "miss"
+ },
+ {
+  "city": "米克诺斯",
+  "attraction": "小威尼斯",
+  "status": "miss"
+ },
+ {
+  "city": "米克诺斯",
+  "attraction": "风车阵",
+  "status": "miss"
+ },
+ {
+  "city": "米克诺斯",
+  "attraction": "天堂海滩",
+  "status": "miss"
+ },
+ {
+  "city": "罗德岛",
+  "attraction": "骑士城堡",
+  "status": "miss"
+ },
+ {
+  "city": "罗德岛",
+  "attraction": "林多斯卫城",
+  "status": "miss"
+ }
+]

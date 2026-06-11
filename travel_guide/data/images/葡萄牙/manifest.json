@@ -1,0 +1,154 @@
+[
+ {
+  "city": "里斯本",
+  "attraction": "贝伦塔",
+  "status": "ok",
+  "local": "里斯本/贝伦塔_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Suicasmo",
+  "commons_file": "Torre_de_Belém_20180717-2.jpg",
+  "source": "zhwiki:贝伦塔",
+  "extras": [
+   {
+    "local": "里斯本/贝伦塔_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Alvesgaspar",
+    "commons_file": "Torre Belém April 2009-4a.jpg",
+    "source": "commons-supplement:Belém Tower"
+   },
+   {
+    "local": "里斯本/贝伦塔_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Diego Delso",
+    "commons_file": "Torre de Belém, Lisboa, Portugal, 2012-05-12, DD 16.JPG",
+    "source": "commons-supplement:Belém Tower"
+   },
+   {
+    "local": "里斯本/贝伦塔_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Berthold Werner",
+    "commons_file": "Lisbon Torre de Belém BW 2018-10-03 16-35-39.jpg",
+    "source": "commons-supplement:Belém Tower"
+   }
+  ]
+ },
+ {
+  "city": "里斯本",
+  "attraction": "哲罗姆派修道院",
+  "status": "miss"
+ },
+ {
+  "city": "里斯本",
+  "attraction": "罗卡角",
+  "status": "ok",
+  "local": "里斯本/罗卡角_1.jpg",
+  "license": "Public domain",
+  "artist": "Szilas",
+  "commons_file": "Cabo_da_Roca.JPG",
+  "source": "zhwiki:罗卡角",
+  "extras": [
+   {
+    "local": "里斯本/罗卡角_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Ввласенко",
+    "commons_file": "Cabo da Roca - Cape Roca.JPG",
+    "source": "commons-supplement:Cabo da Roca"
+   },
+   {
+    "local": "里斯本/罗卡角_3.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Jakub Hałun",
+    "commons_file": "Monument of Cabo da Roca, Portugal, 20250606 1546 0318.jpg",
+    "source": "commons-supplement:Cabo da Roca"
+   },
+   {
+    "local": "里斯本/罗卡角_4.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Jakub Hałun",
+    "commons_file": "Monument of Cabo da Roca, Portugal, 20250606 1519 0257.jpg",
+    "source": "commons-supplement:Cabo da Roca"
+   }
+  ]
+ },
+ {
+  "city": "里斯本",
+  "attraction": "阿尔法玛老城",
+  "status": "miss"
+ },
+ {
+  "city": "波尔图",
+  "attraction": "杜罗河畔",
+  "status": "ok",
+  "local": "波尔图/杜罗河畔_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Paula Santos",
+  "commons_file": "Douro_River_Portugal.jpg",
+  "source": "zhwiki:杜罗河",
+  "extras": [
+   {
+    "local": "波尔图/杜罗河畔_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Pravdaverita",
+    "commons_file": "Aranda de Duero Aerea.jpg",
+    "source": "commons-supplement:杜罗河畔"
+   },
+   {
+    "local": "波尔图/杜罗河畔_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Malopez 21",
+    "commons_file": "Aranda de Duero, Plaza Mayor, 1.jpg",
+    "source": "commons-supplement:杜罗河畔"
+   },
+   {
+    "local": "波尔图/杜罗河畔_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Malopez 21",
+    "commons_file": "Aranda de Duero, bodega 02.jpg",
+    "source": "commons-supplement:杜罗河畔"
+   }
+  ]
+ },
+ {
+  "city": "波尔图",
+  "attraction": "波特酒窖",
+  "status": "ok",
+  "local": "波尔图/波特酒窖_1.jpg",
+  "license": "Public domain",
+  "artist": "Jon Sullivan",
+  "commons_file": "Port_wine.jpg",
+  "source": "zhwiki:波特酒"
+ },
+ {
+  "city": "波尔图",
+  "attraction": "莱罗书店",
+  "status": "ok",
+  "local": "波尔图/莱罗书店_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "A_nostalgia_na_Lello.jpg: Alegna13\nA_Livraria_Lello_e_Irmão.jpg: Alegna13\nA_pont",
+  "commons_file": "A_Livraria_Lello_e_Irmão-A_ponte_de_encanto.jpg",
+  "source": "zhwiki:萊羅書店",
+  "extras": [
+   {
+    "local": "波尔图/莱罗书店_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "John Samuel",
+    "commons_file": "Exterior view of Livraria Lello 02.jpg",
+    "source": "commons-supplement:Livraria Lello"
+   },
+   {
+    "local": "波尔图/莱罗书店_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "John Samuel",
+    "commons_file": "Exterior view of Livraria Lello 01.jpg",
+    "source": "commons-supplement:Livraria Lello"
+   },
+   {
+    "local": "波尔图/莱罗书店_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "John Samuel",
+    "commons_file": "Interior view of Livraria Lello 01.jpg",
+    "source": "commons-supplement:Livraria Lello"
+   }
+  ]
+ }
+]

@@ -1,0 +1,451 @@
+[
+ {
+  "city": "北岛",
+  "attraction": "天空塔",
+  "status": "ok",
+  "local": "北岛/天空塔_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Jorge Royan",
+  "commons_file": "Waitemata_Harbour,_Ferry_dock_and_the_Skytower,_Auckland_-_0206.jpg",
+  "source": "zhwiki:天空塔",
+  "extras": [
+   {
+    "local": "北岛/天空塔_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Krzysztof Golik",
+    "commons_file": "Sky Tower Auckland 01.jpg",
+    "source": "commons-supplement:Sky Tower (Auckland)"
+   },
+   {
+    "local": "北岛/天空塔_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Krzysztof Golik",
+    "commons_file": "Sky Tower Auckland 03.jpg",
+    "source": "commons-supplement:Sky Tower (Auckland)"
+   },
+   {
+    "local": "北岛/天空塔_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Krzysztof Golik",
+    "commons_file": "Sky Tower from Mayoral Drive.jpg",
+    "source": "commons-supplement:Sky Tower (Auckland)"
+   }
+  ]
+ },
+ {
+  "city": "北岛",
+  "attraction": "海港",
+  "status": "miss"
+ },
+ {
+  "city": "北岛",
+  "attraction": "毛利文化",
+  "status": "miss"
+ },
+ {
+  "city": "北岛",
+  "attraction": "地热公园",
+  "status": "miss"
+ },
+ {
+  "city": "北岛",
+  "attraction": "霍比屯",
+  "status": "miss"
+ },
+ {
+  "city": "北岛",
+  "attraction": "Te Papa博物馆",
+  "status": "miss"
+ },
+ {
+  "city": "北岛",
+  "attraction": "古巴街",
+  "status": "miss"
+ },
+ {
+  "city": "北岛",
+  "attraction": "维塔工作室",
+  "status": "ok",
+  "local": "北岛/维塔工作室_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Duane Weller",
+  "commons_file": "Weta_Workshop_Buildings.jpg",
+  "source": "zhwiki:维塔工作室",
+  "extras": [
+   {
+    "local": "北岛/维塔工作室_2.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Duane Weller",
+    "commons_file": "Weta Workshop Buildings.jpg",
+    "source": "commons-supplement:Wētā Workshop"
+   },
+   {
+    "local": "北岛/维塔工作室_3.jpg",
+    "license": "CC BY 2.0",
+    "artist": "US Embassy",
+    "commons_file": "Ambassador Gilbert has a face cast made at Weta Workshops, January 11, 2016 - 32119758171.jpg",
+    "source": "commons-supplement:Wētā Workshop"
+   },
+   {
+    "local": "北岛/维塔工作室_4.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Carlos Pacheco from Toronto, Canada",
+    "commons_file": "Wētā Workshop (52379012447).jpg",
+    "source": "commons-supplement:Wētā Workshop"
+   }
+  ]
+ },
+ {
+  "city": "北岛",
+  "attraction": "惠灵顿缆车",
+  "status": "ok",
+  "local": "北岛/惠灵顿缆车_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Simeon W from Wellington, New Zealand",
+  "commons_file": "City_Lights_(33522578970).jpg",
+  "source": "zhwiki:惠灵顿"
+ },
+ {
+  "city": "北岛",
+  "attraction": "Oriental Bay",
+  "status": "miss"
+ },
+ {
+  "city": "南岛",
+  "attraction": "途径亚瑟通道",
+  "status": "miss"
+ },
+ {
+  "city": "南岛",
+  "attraction": "城堡山",
+  "status": "ok",
+  "local": "南岛/城堡山_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Chensiyuan",
+  "commons_file": "1_castle_hill_new_zealand_2018.jpg",
+  "source": "zhwiki:城堡山",
+  "extras": [
+   {
+    "local": "南岛/城堡山_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Michal Klajban",
+    "commons_file": "View to Castle Hill Peak from Red Peak, Torlesse Range, New Zealand.jpg",
+    "source": "commons-supplement:Castle Hill, New Zealand"
+   },
+   {
+    "local": "南岛/城堡山_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Michal Klajban",
+    "commons_file": "Kura Tāwhiti, Castle Hill, Canterbury, New Zealand.jpg",
+    "source": "commons-supplement:Castle Hill, New Zealand"
+   },
+   {
+    "local": "南岛/城堡山_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Michal Klajban",
+    "commons_file": "Castle Hill Village, Canterbury, New Zealand 21.jpg",
+    "source": "commons-supplement:Castle Hill, New Zealand"
+   }
+  ]
+ },
+ {
+  "city": "南岛",
+  "attraction": "约瑟夫冰川健行",
+  "status": "miss"
+ },
+ {
+  "city": "南岛",
+  "attraction": "马森湖",
+  "status": "miss"
+ },
+ {
+  "city": "南岛",
+  "attraction": "孤独的树",
+  "status": "miss"
+ },
+ {
+  "city": "南岛",
+  "attraction": "迷宫世界",
+  "status": "miss"
+ },
+ {
+  "city": "南岛",
+  "attraction": "箭镇",
+  "status": "ok",
+  "local": "南岛/箭镇_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Bgabel",
+  "commons_file": "NZL-arrowt-buckinghamstr.jpg",
+  "source": "zhwiki:箭鎮",
+  "extras": [
+   {
+    "local": "南岛/箭镇_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "W. Bulach",
+    "commons_file": "00 0352 Buildings in Arrowtown.jpg",
+    "source": "commons-supplement:Arrowtown"
+   },
+   {
+    "local": "南岛/箭镇_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Schwede66",
+    "commons_file": "Arrowtown Gaol 485.jpg",
+    "source": "commons-supplement:Arrowtown"
+   },
+   {
+    "local": "南岛/箭镇_4.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Stephen Allwood",
+    "commons_file": "Early Winter over Arrowtown.jpg",
+    "source": "commons-supplement:Arrowtown"
+   }
+  ]
+ },
+ {
+  "city": "南岛",
+  "attraction": "跳伞",
+  "status": "miss"
+ },
+ {
+  "city": "南岛",
+  "attraction": "蹦极",
+  "status": "miss"
+ },
+ {
+  "city": "南岛",
+  "attraction": "天际缆车",
+  "status": "miss"
+ },
+ {
+  "city": "南岛",
+  "attraction": "高山鹿园",
+  "status": "miss"
+ },
+ {
+  "city": "南岛",
+  "attraction": "游船",
+  "status": "miss"
+ },
+ {
+  "city": "南岛",
+  "attraction": "观光飞行",
+  "status": "miss"
+ },
+ {
+  "city": "南岛",
+  "attraction": "格林诺奇",
+  "status": "ok",
+  "local": "南岛/格林诺奇_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Vladka Kennett",
+  "commons_file": "Glenorchy_at_the_Head_of_Lake_Wakatipu.jpg",
+  "source": "zhwiki:格林諾奇",
+  "extras": [
+   {
+    "local": "南岛/格林诺奇_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Vladka Kennett",
+    "commons_file": "Glenorchy at the Head of Lake Wakatipu.jpg",
+    "source": "commons-supplement:Glenorchy, New Zealand"
+   },
+   {
+    "local": "南岛/格林诺奇_3.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Michelle Maria",
+    "commons_file": "Glenorchy, New Zealand - panoramio.jpg",
+    "source": "commons-supplement:Glenorchy, New Zealand"
+   },
+   {
+    "local": "南岛/格林诺奇_4.jpg",
+    "license": "CC0",
+    "artist": "Paul Stewart",
+    "commons_file": "Astrophotography workshop in Glenorchy, New Zealand.jpg",
+    "source": "commons-supplement:Glenorchy, New Zealand"
+   }
+  ]
+ },
+ {
+  "city": "南岛",
+  "attraction": "瓦卡蒂普湖",
+  "status": "ok",
+  "local": "南岛/瓦卡蒂普湖_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Coekon",
+  "commons_file": "Lake_Wakatipu_and_Remarkable_Mountains.jpg",
+  "source": "zhwiki:瓦卡蒂普湖",
+  "extras": [
+   {
+    "local": "南岛/瓦卡蒂普湖_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Krzysztof Golik",
+    "commons_file": "Lake Wakatipu 06.jpg",
+    "source": "commons-supplement:Lake Wakatipu"
+   },
+   {
+    "local": "南岛/瓦卡蒂普湖_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Krzysztof Golik",
+    "commons_file": "Lake Wakatipu 20.jpg",
+    "source": "commons-supplement:Lake Wakatipu"
+   },
+   {
+    "local": "南岛/瓦卡蒂普湖_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Avenue",
+    "commons_file": "Lake Wakatipu, northwest end.jpg",
+    "source": "commons-supplement:Lake Wakatipu"
+   }
+  ]
+ },
+ {
+  "city": "南岛",
+  "attraction": "隧道海滩",
+  "status": "miss"
+ },
+ {
+  "city": "南岛",
+  "attraction": "奥塔哥半岛",
+  "status": "miss"
+ },
+ {
+  "city": "南岛",
+  "attraction": "莫拉基大圆石",
+  "status": "miss"
+ },
+ {
+  "city": "南岛",
+  "attraction": "小蓝企鹅回巢",
+  "status": "ok",
+  "local": "南岛/小蓝企鹅回巢_1.png",
+  "license": "CC BY 4.0",
+  "artist": "Grosser et al.",
+  "commons_file": "Map-of-distribution-of-Eudyptula-penguins-Blue-and-red-colours-indicate.png",
+  "source": "zhwiki:小藍企鵝"
+ },
+ {
+  "city": "南岛",
+  "attraction": "普卡基湖",
+  "status": "ok",
+  "local": "南岛/普卡基湖_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Victor Gane",
+  "commons_file": "Lake_Pukaki_vgane.jpg",
+  "source": "zhwiki:普卡基湖",
+  "extras": [
+   {
+    "local": "南岛/普卡基湖_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Michal Klajban",
+    "commons_file": "Lake Pukaki, Canterbury, New Zealand.jpg",
+    "source": "commons-supplement:Lake Pukaki"
+   },
+   {
+    "local": "南岛/普卡基湖_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Christopher Crouzet",
+    "commons_file": "Lake Pukaki, New Zealand.jpg",
+    "source": "commons-supplement:Lake Pukaki"
+   },
+   {
+    "local": "南岛/普卡基湖_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Krzysztof Golik",
+    "commons_file": "Lake Pukaki 16.jpg",
+    "source": "commons-supplement:Lake Pukaki"
+   }
+  ]
+ },
+ {
+  "city": "南岛",
+  "attraction": "胡克峡谷步道",
+  "status": "miss"
+ },
+ {
+  "city": "南岛",
+  "attraction": "观星",
+  "status": "miss"
+ },
+ {
+  "city": "南岛",
+  "attraction": "好牧羊人教堂",
+  "status": "miss"
+ },
+ {
+  "city": "南岛",
+  "attraction": "Astro Café",
+  "status": "miss"
+ },
+ {
+  "city": "奥克兰",
+  "attraction": "天空塔",
+  "status": "ok",
+  "local": "奥克兰/天空塔_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Jorge Royan",
+  "commons_file": "Waitemata_Harbour,_Ferry_dock_and_the_Skytower,_Auckland_-_0206.jpg",
+  "source": "zhwiki:天空塔",
+  "extras": [
+   {
+    "local": "奥克兰/天空塔_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Krzysztof Golik",
+    "commons_file": "Sky Tower Auckland 01.jpg",
+    "source": "commons-supplement:Sky Tower (Auckland)"
+   },
+   {
+    "local": "奥克兰/天空塔_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Krzysztof Golik",
+    "commons_file": "Sky Tower Auckland 03.jpg",
+    "source": "commons-supplement:Sky Tower (Auckland)"
+   },
+   {
+    "local": "奥克兰/天空塔_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Krzysztof Golik",
+    "commons_file": "Sky Tower from Mayoral Drive.jpg",
+    "source": "commons-supplement:Sky Tower (Auckland)"
+   }
+  ]
+ },
+ {
+  "city": "奥克兰",
+  "attraction": "海港",
+  "status": "miss"
+ },
+ {
+  "city": "奥克兰",
+  "attraction": "毛利文化",
+  "status": "miss"
+ },
+ {
+  "city": "奥克兰",
+  "attraction": "地热公园",
+  "status": "miss"
+ },
+ {
+  "city": "奥克兰",
+  "attraction": "霍比屯",
+  "status": "miss"
+ },
+ {
+  "city": "皇后镇",
+  "attraction": "跳伞",
+  "status": "miss"
+ },
+ {
+  "city": "皇后镇",
+  "attraction": "蹦极",
+  "status": "miss"
+ },
+ {
+  "city": "皇后镇",
+  "attraction": "天际缆车",
+  "status": "miss"
+ },
+ {
+  "city": "皇后镇",
+  "attraction": "米尔福德峡湾一日游",
+  "status": "miss"
+ }
+]

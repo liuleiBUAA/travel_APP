@@ -1,0 +1,415 @@
+[
+ {
+  "city": "迪拜",
+  "attraction": "哈利法塔",
+  "status": "ok",
+  "local": "迪拜/哈利法塔_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Aheilner",
+  "commons_file": "Burj dubai 3.11.08.jpg",
+  "source": "commons-search:Burj Khalifa",
+  "extras": [
+   {
+    "local": "迪拜/哈利法塔_2.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Laika ac",
+    "commons_file": "Burj Khalifa (16260269606).jpg",
+    "source": "commons-supplement:Burj Khalifa"
+   },
+   {
+    "local": "迪拜/哈利法塔_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ank Kumar",
+    "commons_file": "The making of Burj Khalifa, Dubai (Ank Kumar) 09.jpg",
+    "source": "commons-supplement:Burj Khalifa"
+   },
+   {
+    "local": "迪拜/哈利法塔_4.jpg",
+    "license": "CC BY 4.0",
+    "artist": "ECWiki1",
+    "commons_file": "Burj Khalifa Dubai, UAE at Sunset 001 by Eric Chamchoum.jpg",
+    "source": "commons-supplement:Burj Khalifa"
+   }
+  ]
+ },
+ {
+  "city": "迪拜",
+  "attraction": "迪拜mall",
+  "status": "miss"
+ },
+ {
+  "city": "迪拜",
+  "attraction": "沙漠冲沙",
+  "status": "miss"
+ },
+ {
+  "city": "迪拜",
+  "attraction": "朱美拉海滩",
+  "status": "miss"
+ },
+ {
+  "city": "阿布扎比",
+  "attraction": "谢赫扎耶德大清真寺",
+  "status": "ok",
+  "local": "阿布扎比/谢赫扎耶德大清真寺_1.jpg",
+  "license": "CC BY 3.0",
+  "artist": "Jaseem Hamza",
+  "commons_file": "Sheikh Zayed Grand Mosque in Abu Dhabi - panoramio.jpg",
+  "source": "commons-search:Sheikh Zayed Grand Mosque",
+  "extras": [
+   {
+    "local": "阿布扎比/谢赫扎耶德大清真寺_2.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Jaseem Hamza",
+    "commons_file": "Gradens Sheikh Zayed Grand Mosque in Abu Dhabi - panoramio.jpg",
+    "source": "commons-supplement:Sheikh Zayed Grand Mosque"
+   },
+   {
+    "local": "阿布扎比/谢赫扎耶德大清真寺_3.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Jaseem Hamza",
+    "commons_file": "Sheikh Zayed Grand Mosque in Abu Dhabi - panoramio (7).jpg",
+    "source": "commons-supplement:Sheikh Zayed Grand Mosque"
+   },
+   {
+    "local": "阿布扎比/谢赫扎耶德大清真寺_4.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Jaseem Hamza",
+    "commons_file": "Sheikh Zayed Grand Mosque in Abu Dhabi - panoramio (8).jpg",
+    "source": "commons-supplement:Sheikh Zayed Grand Mosque"
+   }
+  ]
+ },
+ {
+  "city": "阿布扎比",
+  "attraction": "卢浮宫",
+  "status": "ok",
+  "local": "阿布扎比/卢浮宫_1.jpg",
+  "license": "CC0",
+  "artist": "Ali Sabbagh",
+  "commons_file": "West_facade_of_the_Cour_Carrée,_Louvre_Palace,_Paris_5_October_2017.jpg",
+  "source": "zhwiki:卢浮宫",
+  "extras": [
+   {
+    "local": "阿布扎比/卢浮宫_2.jpg",
+    "license": "CC BY 2.5",
+    "artist": "Benh LIEU SONG",
+    "commons_file": "Cour Napoléon at night - Louvre.jpg",
+    "source": "commons-supplement:Louvre Palace"
+   },
+   {
+    "local": "阿布扎比/卢浮宫_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "User:Gloumouth1",
+    "commons_file": "Le Louvre - Aile Richelieu.jpg",
+    "source": "commons-supplement:Louvre Palace"
+   },
+   {
+    "local": "阿布扎比/卢浮宫_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Benh LIEU SONG (Flickr)",
+    "commons_file": "Louvre Museum Wikimedia Commons.jpg",
+    "source": "commons-supplement:Louvre Palace"
+   }
+  ]
+ },
+ {
+  "city": "开罗",
+  "attraction": "金字塔",
+  "status": "ok",
+  "local": "开罗/金字塔_1.jpg",
+  "license": "Copyrighted free use",
+  "artist": "Jon Bodsworth",
+  "commons_file": "01_khafre_north.jpg",
+  "source": "zhwiki:金字塔",
+  "extras": [
+   {
+    "local": "开罗/金字塔_2.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Ricardo Liberato",
+    "commons_file": "All Gizah Pyramids.jpg",
+    "source": "commons-supplement:Pyramid"
+   },
+   {
+    "local": "开罗/金字塔_3.jpg",
+    "license": "Public domain",
+    "artist": "Eduard Spelterini",
+    "commons_file": "Spelterini Pyramids.jpg",
+    "source": "commons-supplement:Pyramid"
+   },
+   {
+    "local": "开罗/金字塔_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dllu",
+    "commons_file": "South face of the Transamerica Pyramid, 2017.jpg",
+    "source": "commons-supplement:Pyramid"
+   }
+  ]
+ },
+ {
+  "city": "开罗",
+  "attraction": "狮身人面像",
+  "status": "ok",
+  "local": "开罗/狮身人面像_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Taken by the uploader, w:es:Usuario:Barcex",
+  "commons_file": "Great_Sphinx_of_Giza_-_20080716a.jpg",
+  "source": "zhwiki:狮身人面像",
+  "extras": [
+   {
+    "local": "开罗/狮身人面像_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Petar Milošević",
+    "commons_file": "Great Sphinx (أبو الهول).jpg",
+    "source": "commons-supplement:Great Sphinx of Giza"
+   },
+   {
+    "local": "开罗/狮身人面像_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "en:User:Hajor",
+    "commons_file": "Egypt.Giza.Sphinx.01.jpg",
+    "source": "commons-supplement:Great Sphinx of Giza"
+   },
+   {
+    "local": "开罗/狮身人面像_4.jpg",
+    "license": "Public domain",
+    "artist": "David Roberts",
+    "commons_file": "The Great Sphinx, Pyramids of Gizeh-1839) by David Roberts, RA.jpg",
+    "source": "commons-supplement:Great Sphinx of Giza"
+   }
+  ]
+ },
+ {
+  "city": "开罗",
+  "attraction": "埃及博物馆",
+  "status": "ok",
+  "local": "开罗/埃及博物馆_1.jpg",
+  "license": "CC BY 3.0",
+  "artist": "Bs0u10e01",
+  "commons_file": "The_Egyptian_Museum.jpg",
+  "source": "zhwiki:埃及博物館",
+  "extras": [
+   {
+    "local": "开罗/埃及博物馆_2.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Bs0u10e01",
+    "commons_file": "The Egyptian Museum.jpg",
+    "source": "commons-supplement:Egyptian Museum"
+   },
+   {
+    "local": "开罗/埃及博物馆_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Шухрат Саъдиев",
+    "commons_file": "Museum of Egyptian Antiquities (Cairo) 2.jpg",
+    "source": "commons-supplement:Egyptian Museum"
+   },
+   {
+    "local": "开罗/埃及博物馆_4.jpg",
+    "license": "CC0",
+    "artist": "Gary Lee Todd, Ph.D.",
+    "commons_file": "Ancient Egyptian Bronze Axes in Cairo Egyptian Museum 2.jpg",
+    "source": "commons-supplement:Egyptian Museum"
+   }
+  ]
+ },
+ {
+  "city": "开罗",
+  "attraction": "哈利利市场",
+  "status": "miss"
+ },
+ {
+  "city": "卢克索",
+  "attraction": "卢克索神庙",
+  "status": "ok",
+  "local": "卢克索/卢克索神庙_1.jpg",
+  "license": "CC BY 3.0",
+  "artist": "Marc Ryckaert",
+  "commons_file": "Luxor_Temple_R04.jpg",
+  "source": "zhwiki:卢克索神庙",
+  "extras": [
+   {
+    "local": "卢克索/卢克索神庙_2.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Marc Ryckaert",
+    "commons_file": "Luxor Temple R04.jpg",
+    "source": "commons-supplement:Luxor Temple"
+   },
+   {
+    "local": "卢克索/卢克索神庙_3.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Marc Ryckaert",
+    "commons_file": "Luxor Temple Square R01.jpg",
+    "source": "commons-supplement:Luxor Temple"
+   },
+   {
+    "local": "卢克索/卢克索神庙_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Diego Delso",
+    "commons_file": "Templo de Luxor, Luxor, Egipto, 2022-04-01, DD 36.jpg",
+    "source": "commons-supplement:Luxor Temple"
+   }
+  ]
+ },
+ {
+  "city": "卢克索",
+  "attraction": "卡尔纳克神庙",
+  "status": "ok",
+  "local": "卢克索/卡尔纳克神庙_1.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Vyacheslav Argenberg",
+  "commons_file": "Luxor,_Egypt,_Karnak,_Great_Hypostyle_Hall.jpg",
+  "source": "zhwiki:卡纳克神庙",
+  "extras": [
+   {
+    "local": "卢克索/卡尔纳克神庙_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Hamerani",
+    "commons_file": "Karnak temple complex 12.jpg",
+    "source": "commons-supplement:Karnak"
+   },
+   {
+    "local": "卢克索/卡尔纳克神庙_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Hamerani",
+    "commons_file": "Karnak temple complex 14.JPG",
+    "source": "commons-supplement:Karnak"
+   },
+   {
+    "local": "卢克索/卡尔纳克神庙_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Hamerani",
+    "commons_file": "Karnak temple complex 4.jpg",
+    "source": "commons-supplement:Karnak"
+   }
+  ]
+ },
+ {
+  "city": "卢克索",
+  "attraction": "帝王谷",
+  "status": "ok",
+  "local": "卢克索/帝王谷_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Wouter Hagens",
+  "commons_file": "Luxor_Valley_of_the_Kings_B.jpg",
+  "source": "zhwiki:帝王谷",
+  "extras": [
+   {
+    "local": "卢克索/帝王谷_2.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Vyacheslav Argenberg",
+    "commons_file": "Thebes, Luxor, Egypt, Valley of the Kings from above.jpg",
+    "source": "commons-supplement:Valley of the Kings"
+   },
+   {
+    "local": "卢克索/帝王谷_3.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Vyacheslav Argenberg",
+    "commons_file": "Thebes, Luxor, Egypt, Panoramic view of the Valley of the Kings.jpg",
+    "source": "commons-supplement:Valley of the Kings"
+   },
+   {
+    "local": "卢克索/帝王谷_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Nabbegat",
+    "commons_file": "Valley of the Kings model 01.jpg",
+    "source": "commons-supplement:Valley of the Kings"
+   }
+  ]
+ },
+ {
+  "city": "卢克索",
+  "attraction": "王后谷",
+  "status": "ok",
+  "local": "卢克索/王后谷_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Zureks",
+  "commons_file": "Valley_of_the_Queens_by_Zureks.jpg",
+  "source": "zhwiki:王后谷",
+  "extras": [
+   {
+    "local": "卢克索/王后谷_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Diego Delso",
+    "commons_file": "Valle de las Reinas, Luxor, Egipto, 2022-04-03, DD 17.jpg",
+    "source": "commons-supplement:Valley of the Queens"
+   },
+   {
+    "local": "卢克索/王后谷_3.jpg",
+    "license": "CC0",
+    "artist": "",
+    "commons_file": "Theban region, Valley of the Queens, Transport of antiquities, 1905-1906, photo 5 of 14 - Archivio fotografico Museo Egizio, Turin B00145.jpg",
+    "source": "commons-supplement:Valley of the Queens"
+   },
+   {
+    "local": "卢克索/王后谷_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Zureks",
+    "commons_file": "Valley of the Queens by Zureks.jpg",
+    "source": "commons-supplement:Valley of the Queens"
+   }
+  ]
+ },
+ {
+  "city": "阿斯旺",
+  "attraction": "阿布辛贝神庙",
+  "status": "ok",
+  "local": "阿斯旺/阿布辛贝神庙_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Francisco Anzola",
+  "commons_file": "Abu_Simbel_Main_Temple_(2346939149).jpg",
+  "source": "zhwiki:阿布·辛拜勒神庙",
+  "extras": [
+   {
+    "local": "阿斯旺/阿布辛贝神庙_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Diego Delso",
+    "commons_file": "Templo de Ramsés II, Abu Simbel, Egipto, 2022-04-02, DD 26-28 HDR.jpg",
+    "source": "commons-supplement:Abu Simbel"
+   },
+   {
+    "local": "阿斯旺/阿布辛贝神庙_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Diego Delso",
+    "commons_file": "Templo de Ramsés II, Abu Simbel, Egipto, 2022-04-02, DD 74-76 HDR.jpg",
+    "source": "commons-supplement:Abu Simbel"
+   },
+   {
+    "local": "阿斯旺/阿布辛贝神庙_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Diego Delso",
+    "commons_file": "Templo de Nefertari, Abu Simbel, Egipto, 2022-04-02, DD 153.jpg",
+    "source": "commons-supplement:Abu Simbel"
+   }
+  ]
+ },
+ {
+  "city": "阿斯旺",
+  "attraction": "菲莱神庙",
+  "status": "miss"
+ },
+ {
+  "city": "阿斯旺",
+  "attraction": "努比亚村",
+  "status": "miss"
+ },
+ {
+  "city": "赫尔格达",
+  "attraction": "红海潜水",
+  "status": "miss"
+ },
+ {
+  "city": "赫尔格达",
+  "attraction": "海滩度假",
+  "status": "miss"
+ },
+ {
+  "city": "赫尔格达",
+  "attraction": "吉夫顿岛",
+  "status": "miss"
+ },
+ {
+  "city": "赫尔格达",
+  "attraction": "浮潜",
+  "status": "miss"
+ }
+]

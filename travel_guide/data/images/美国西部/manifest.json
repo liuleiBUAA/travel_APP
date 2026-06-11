@@ -1,0 +1,1062 @@
+[
+ {
+  "city": "旧金山",
+  "attraction": "金门大桥",
+  "status": "ok",
+  "local": "旧金山/金门大桥_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Frank Schulenburg",
+  "commons_file": "Golden_Gate_Bridge_as_seen_from_Battery_East.jpg",
+  "source": "zhwiki:金门大桥",
+  "extras": [
+   {
+    "local": "旧金山/金门大桥_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Frank Schulenburg",
+    "commons_file": "Golden Gate Bridge as seen from Marshall’s Beach, March 2018.jpg",
+    "source": "commons-supplement:Golden Gate Bridge"
+   },
+   {
+    "local": "旧金山/金门大桥_3.jpg",
+    "license": "CC BY-SA 2.5",
+    "artist": "Daniel Schwen",
+    "commons_file": "SF Golden Gate Bridge splash CA.jpg",
+    "source": "commons-supplement:Golden Gate Bridge"
+   },
+   {
+    "local": "旧金山/金门大桥_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "San Francisco (CA, USA), Golden Gate Bridge -- 2022 -- 3023 (bw).jpg",
+    "source": "commons-supplement:Golden Gate Bridge"
+   }
+  ]
+ },
+ {
+  "city": "旧金山",
+  "attraction": "渔人码头",
+  "status": "ok",
+  "local": "旧金山/渔人码头_1.jpg",
+  "license": "Public domain",
+  "artist": "U.S. Army Corps of Engineers, photographer not specified or unknown",
+  "commons_file": "Fishermans_Wharf_aerial_view.jpg",
+  "source": "zhwiki:舊金山漁人碼頭",
+  "extras": [
+   {
+    "local": "旧金山/渔人码头_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "King of Hearts",
+    "commons_file": "Fisherman's Wharf San Francisco January 2013 002.jpg",
+    "source": "commons-supplement:Fisherman's Wharf"
+   },
+   {
+    "local": "旧金山/渔人码头_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "San Francisco (CA, USA), Fisherman's Wharf, Liebesschlösser -- 2022 -- 2873.jpg",
+    "source": "commons-supplement:Fisherman's Wharf"
+   },
+   {
+    "local": "旧金山/渔人码头_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "San Francisco (CA, USA), Pioneer Park, Blick auf Fisherman's Wharf -- 2022 -- 3083.jpg",
+    "source": "commons-supplement:Fisherman's Wharf"
+   }
+  ]
+ },
+ {
+  "city": "旧金山",
+  "attraction": "九曲花街",
+  "status": "ok",
+  "local": "旧金山/九曲花街_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Christopher Michel",
+  "commons_file": "Lombard_Street_2020.jpg",
+  "source": "zhwiki:倫巴底街 (三藩市)",
+  "extras": [
+   {
+    "local": "旧金山/九曲花街_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "San Francisco (CA, USA), Lombard Street, Blick auf Alcatraz -- 2022 -- 3080.jpg",
+    "source": "commons-supplement:Lombard Street (San Francisco)"
+   },
+   {
+    "local": "旧金山/九曲花街_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "San Francisco (CA, USA), Lombard Street -- 2022 -- 3079.jpg",
+    "source": "commons-supplement:Lombard Street (San Francisco)"
+   },
+   {
+    "local": "旧金山/九曲花街_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "San Francisco (CA, USA), Lombard Street -- 2022 -- 3077.jpg",
+    "source": "commons-supplement:Lombard Street (San Francisco)"
+   }
+  ]
+ },
+ {
+  "city": "洛杉矶",
+  "attraction": "洛杉矶环球影城",
+  "status": "miss"
+ },
+ {
+  "city": "洛杉矶",
+  "attraction": "华纳兄弟工作室",
+  "status": "ok",
+  "local": "洛杉矶/华纳兄弟工作室_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "AussieTechBlits",
+  "commons_file": "Warner Bros. Pictures (2020, Tenet Variant).jpg",
+  "source": "commons-search:Warner Bros. Entertainment",
+  "extras": [
+   {
+    "local": "洛杉矶/华纳兄弟工作室_2.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Kārlis Dambrāns from Latvia",
+    "commons_file": "Warner Bros. Studio VIP Tour (15608791758).jpg",
+    "source": "commons-supplement:华纳兄弟工作室"
+   },
+   {
+    "local": "洛杉矶/华纳兄弟工作室_3.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Kārlis Dambrāns from Latvia",
+    "commons_file": "Warner Bros. Studio VIP Tour (15608371739).jpg",
+    "source": "commons-supplement:华纳兄弟工作室"
+   },
+   {
+    "local": "洛杉矶/华纳兄弟工作室_4.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Kārlis Dambrāns from Latvia",
+    "commons_file": "Warner Bros. Studio VIP Tour (15609358530).jpg",
+    "source": "commons-supplement:华纳兄弟工作室"
+   }
+  ]
+ },
+ {
+  "city": "洛杉矶",
+  "attraction": "Getty美术馆",
+  "status": "miss"
+ },
+ {
+  "city": "洛杉矶",
+  "attraction": "好莱坞标志牌",
+  "status": "miss"
+ },
+ {
+  "city": "洛杉矶",
+  "attraction": "圣莫尼卡海滩",
+  "status": "ok",
+  "local": "洛杉矶/圣莫尼卡海滩_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Alexander Migl",
+  "commons_file": "Santa_Monica_State_Beach_P4060277.jpg",
+  "source": "zhwiki:圣莫尼卡海滩",
+  "extras": [
+   {
+    "local": "洛杉矶/圣莫尼卡海滩_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Los Angeles (California, USA), Santa Monica Beach -- 2012 -- 5308.jpg",
+    "source": "commons-supplement:Santa Monica State Beach"
+   },
+   {
+    "local": "洛杉矶/圣莫尼卡海滩_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Los Angeles (California, USA), Santa Monica Beach -- 2012 -- 5301.jpg",
+    "source": "commons-supplement:Santa Monica State Beach"
+   },
+   {
+    "local": "洛杉矶/圣莫尼卡海滩_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Los Angeles (California, USA), Santa Monica Beach, Will Rogers Monument -- 2012 -- 5306.jpg",
+    "source": "commons-supplement:Santa Monica State Beach"
+   }
+  ]
+ },
+ {
+  "city": "洛杉矶",
+  "attraction": "格里菲斯天文台",
+  "status": "ok",
+  "local": "洛杉矶/格里菲斯天文台_1.jpg",
+  "license": "CC BY 2.5",
+  "artist": "Matthew Field",
+  "commons_file": "Griffith_observatory_2006.jpg",
+  "source": "zhwiki:格里菲斯天文台",
+  "extras": [
+   {
+    "local": "洛杉矶/格里菲斯天文台_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+    "commons_file": "Griffith Observatory 2012 01.jpg",
+    "source": "commons-supplement:Griffith Observatory"
+   },
+   {
+    "local": "洛杉矶/格里菲斯天文台_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+    "commons_file": "Griffith Observatory 2012 18.jpg",
+    "source": "commons-supplement:Griffith Observatory"
+   },
+   {
+    "local": "洛杉矶/格里菲斯天文台_4.jpg",
+    "license": "CC BY 2.5",
+    "artist": "Matthew Field",
+    "commons_file": "Griffith observatory 2006.jpg",
+    "source": "commons-supplement:Griffith Observatory"
+   }
+  ]
+ },
+ {
+  "city": "拉斯维加斯",
+  "attraction": "拉斯大道",
+  "status": "miss"
+ },
+ {
+  "city": "拉斯维加斯",
+  "attraction": "看表演",
+  "status": "miss"
+ },
+ {
+  "city": "圣地亚哥",
+  "attraction": "中途岛航母",
+  "status": "miss"
+ },
+ {
+  "city": "圣地亚哥",
+  "attraction": "拉霍亚海滩",
+  "status": "miss"
+ },
+ {
+  "city": "圣地亚哥",
+  "attraction": "巴尔博亚公园",
+  "status": "miss"
+ },
+ {
+  "city": "圣地亚哥",
+  "attraction": "动物园",
+  "status": "ok",
+  "local": "圣地亚哥/动物园_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Kevin1086",
+  "commons_file": "Giants_of_the_Savanna.jpg",
+  "source": "zhwiki:動物園",
+  "extras": [
+   {
+    "local": "圣地亚哥/动物园_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Hans Hillewaert",
+    "commons_file": "Meerkat (Suricata suricatta).jpg",
+    "source": "commons-supplement:Zoo"
+   },
+   {
+    "local": "圣地亚哥/动物园_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Basile Morin",
+    "commons_file": "Close-up photograph of an Iguana iguana.jpg",
+    "source": "commons-supplement:Zoo"
+   },
+   {
+    "local": "圣地亚哥/动物园_4.jpg",
+    "license": "Public domain",
+    "artist": "Dave Pape",
+    "commons_file": "Panthera tigris altaica 13 - Buffalo Zoo.jpg",
+    "source": "commons-supplement:Zoo"
+   }
+  ]
+ },
+ {
+  "city": "西雅图",
+  "attraction": "太空针塔",
+  "status": "ok",
+  "local": "西雅图/太空针塔_1.jpg",
+  "license": "Public domain",
+  "artist": "Jordon Kalilich",
+  "commons_file": "Space_Needle_2011-07-04.jpg",
+  "source": "zhwiki:太空針塔",
+  "extras": [
+   {
+    "local": "西雅图/太空针塔_2.jpg",
+    "license": "Public domain",
+    "artist": "MyName (Cacophony)",
+    "commons_file": "SpaceNeedleTopClose.jpg",
+    "source": "commons-supplement:Space Needle"
+   },
+   {
+    "local": "西雅图/太空针塔_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "King of Hearts",
+    "commons_file": "Seattle from Space Needle June 2018 003.jpg",
+    "source": "commons-supplement:Space Needle"
+   },
+   {
+    "local": "西雅图/太空针塔_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "King of Hearts",
+    "commons_file": "Seattle from Space Needle June 2018 010.jpg",
+    "source": "commons-supplement:Space Needle"
+   }
+  ]
+ },
+ {
+  "city": "西雅图",
+  "attraction": "派克市场",
+  "status": "ok",
+  "local": "西雅图/派克市场_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Daniel Schwen",
+  "commons_file": "Pike_Place_Market_Seattle.jpg",
+  "source": "zhwiki:派克市场",
+  "extras": [
+   {
+    "local": "西雅图/派克市场_2.jpg",
+    "license": "CC0",
+    "artist": "Julian Lupyan",
+    "commons_file": "Maximilien Restaurant Sign in Pike Place Market, Seattle, Washington, 2025.jpg",
+    "source": "commons-supplement:Pike Place Market"
+   },
+   {
+    "local": "西雅图/派克市场_3.jpg",
+    "license": "CC0",
+    "artist": "Julian Lupyan",
+    "commons_file": "Waterfront Viewpoint Sign at Pike Place Market, Seattle, Washington, 2025.jpg",
+    "source": "commons-supplement:Pike Place Market"
+   },
+   {
+    "local": "西雅图/派克市场_4.jpg",
+    "license": "CC0",
+    "artist": "Julian Lupyan",
+    "commons_file": "Blown Glass for sale in Pike Place Market, Seattle, Washington, 2025.jpg",
+    "source": "commons-supplement:Pike Place Market"
+   }
+  ]
+ },
+ {
+  "city": "西雅图",
+  "attraction": "奇胡利玻璃博物馆",
+  "status": "ok",
+  "local": "西雅图/奇胡利玻璃博物馆_1.png",
+  "license": "CC BY-SA 4.0",
+  "artist": "Jkan997",
+  "commons_file": "World_museums.png",
+  "source": "zhwiki:博物馆"
+ },
+ {
+  "city": "1号公路",
+  "attraction": "蒙特雷",
+  "status": "ok",
+  "local": "1号公路/蒙特雷_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Daniel Escobedo",
+  "commons_file": "Skyline_de_Monterrey.jpg",
+  "source": "zhwiki:蒙特雷",
+  "extras": [
+   {
+    "local": "1号公路/蒙特雷_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Malva730",
+    "commons_file": "Monterrey Sierra madre paisaje.jpg",
+    "source": "commons-supplement:Monterrey"
+   },
+   {
+    "local": "1号公路/蒙特雷_3.jpg",
+    "license": "Public domain",
+    "artist": "Diario de Monterrey",
+    "commons_file": "Rayados de Monterrey vs Lanus 1956.jpg",
+    "source": "commons-supplement:Monterrey"
+   },
+   {
+    "local": "1号公路/蒙特雷_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "AlfredoMoraPavon",
+    "commons_file": "Monterrey en gris.jpg",
+    "source": "commons-supplement:Monterrey"
+   }
+  ]
+ },
+ {
+  "city": "1号公路",
+  "attraction": "17英里",
+  "status": "miss"
+ },
+ {
+  "city": "1号公路",
+  "attraction": "卡梅尔小镇",
+  "status": "miss"
+ },
+ {
+  "city": "1号公路",
+  "attraction": "大苏尔",
+  "status": "ok",
+  "local": "1号公路/大苏尔_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Diliff",
+  "commons_file": "Central_Californian_Coastline,_Big_Sur_-_May_2013.jpg",
+  "source": "zhwiki:大瑟尔",
+  "extras": [
+   {
+    "local": "1号公路/大苏尔_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "King of Hearts",
+    "commons_file": "McWay Falls Big Sur May 2011 001.jpg",
+    "source": "commons-supplement:Big Sur"
+   },
+   {
+    "local": "1号公路/大苏尔_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Diliff",
+    "commons_file": "Central Californian Coastline, Big Sur - May 2013.jpg",
+    "source": "commons-supplement:Big Sur"
+   },
+   {
+    "local": "1号公路/大苏尔_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "King of Hearts",
+    "commons_file": "Big Sur May 2011 panorama.jpg",
+    "source": "commons-supplement:Big Sur"
+   }
+  ]
+ },
+ {
+  "city": "1号公路",
+  "attraction": "Bixby Bridge",
+  "status": "miss"
+ },
+ {
+  "city": "1号公路",
+  "attraction": "McWay Falls",
+  "status": "miss"
+ },
+ {
+  "city": "1号公路",
+  "attraction": "SLO小镇",
+  "status": "miss"
+ },
+ {
+  "city": "1号公路",
+  "attraction": "Pismo Beach日落",
+  "status": "miss"
+ },
+ {
+  "city": "1号公路",
+  "attraction": "挖蛤蜊",
+  "status": "miss"
+ },
+ {
+  "city": "1号公路",
+  "attraction": "洛杉矶",
+  "status": "ok",
+  "local": "1号公路/洛杉矶_1.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Gnaphron",
+  "commons_file": "Hollywood_sign_(8485145044).jpg",
+  "source": "zhwiki:洛杉矶",
+  "extras": [
+   {
+    "local": "1号公路/洛杉矶_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Los Angeles (California, USA), South Olive Street -- 2012 -- 4847.jpg",
+    "source": "commons-supplement:Los Angeles"
+   },
+   {
+    "local": "1号公路/洛杉矶_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Tuxyso",
+    "commons_file": "Skyscraper Los Angeles Downtown 2013.jpg",
+    "source": "commons-supplement:Los Angeles"
+   },
+   {
+    "local": "1号公路/洛杉矶_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Tuxyso",
+    "commons_file": "Los Angeles Aerial view 2013.jpg",
+    "source": "commons-supplement:Los Angeles"
+   }
+  ]
+ },
+ {
+  "city": "🔄 精华版美西环线",
+  "attraction": "锡安",
+  "status": "miss"
+ },
+ {
+  "city": "🔄 精华版美西环线",
+  "attraction": "The Narrows",
+  "status": "miss"
+ },
+ {
+  "city": "🔄 精华版美西环线",
+  "attraction": "布莱斯峡谷",
+  "status": "miss"
+ },
+ {
+  "city": "🔄 精华版美西环线",
+  "attraction": "Navajo Loop",
+  "status": "miss"
+ },
+ {
+  "city": "🔄 精华版美西环线",
+  "attraction": "拱门",
+  "status": "miss"
+ },
+ {
+  "city": "🔄 精华版美西环线",
+  "attraction": "Delicate Arch日落",
+  "status": "miss"
+ },
+ {
+  "city": "🔄 精华版美西环线",
+  "attraction": "Landscape Arch",
+  "status": "miss"
+ },
+ {
+  "city": "🔄 羚羊谷+大峡谷2日环线",
+  "attraction": "拉斯维加斯",
+  "status": "ok",
+  "local": "🔄 羚羊谷+大峡谷2日环线/拉斯维加斯_1.jpg",
+  "license": "Public domain",
+  "artist": "Carol M. Highsmith",
+  "commons_file": "Night_aerial_view,_Las_Vegas,_Nevada,_04649u.jpg",
+  "source": "zhwiki:拉斯维加斯",
+  "extras": [
+   {
+    "local": "🔄 羚羊谷+大峡谷2日环线/拉斯维加斯_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "commons_file": "Las Vegas (Nevada, USA), The Strip -- 2012 -- 6232.jpg",
+    "source": "commons-supplement:Las Vegas"
+   },
+   {
+    "local": "🔄 羚羊谷+大峡谷2日环线/拉斯维加斯_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Frank Schulenburg",
+    "commons_file": "Las Vegas-5603 (The Venetian).jpg",
+    "source": "commons-supplement:Las Vegas"
+   },
+   {
+    "local": "🔄 羚羊谷+大峡谷2日环线/拉斯维加斯_4.jpg",
+    "license": "Public domain",
+    "artist": "Master Sgt. Benjamin Bloker",
+    "commons_file": "A USAF F-16 pilot breaking right on final approach over northern Las Vegas.jpg",
+    "source": "commons-supplement:Las Vegas"
+   }
+  ]
+ },
+ {
+  "city": "🔄 羚羊谷+大峡谷2日环线",
+  "attraction": "佩吉",
+  "status": "miss"
+ },
+ {
+  "city": "🔄 羚羊谷+大峡谷2日环线",
+  "attraction": "下午羚羊谷",
+  "status": "miss"
+ },
+ {
+  "city": "🔄 羚羊谷+大峡谷2日环线",
+  "attraction": "马蹄湾日落",
+  "status": "miss"
+ },
+ {
+  "city": "🔄 羚羊谷+大峡谷2日环线",
+  "attraction": "大峡谷",
+  "status": "ok",
+  "local": "🔄 羚羊谷+大峡谷2日环线/大峡谷_1.jpeg",
+  "license": "CC BY 3.0",
+  "artist": "Lennart Sikkema",
+  "commons_file": "Canyon_River_Tree_(165872763).jpeg",
+  "source": "zhwiki:大峽谷",
+  "extras": [
+   {
+    "local": "🔄 羚羊谷+大峡谷2日环线/大峡谷_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Tuxyso",
+    "commons_file": "Grand Canyon Hopi Point with rainbow 2013.jpg",
+    "source": "commons-supplement:Grand Canyon"
+   },
+   {
+    "local": "🔄 羚羊谷+大峡谷2日环线/大峡谷_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Krigore",
+    "commons_file": "Grand Canyon West – panoramic view from Guano Point.jpg",
+    "source": "commons-supplement:Grand Canyon"
+   },
+   {
+    "local": "🔄 羚羊谷+大峡谷2日环线/大峡谷_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Tomascastelazo",
+    "commons_file": "Grand canyon march 2013.jpg",
+    "source": "commons-supplement:Grand Canyon"
+   }
+  ]
+ },
+ {
+  "city": "🔄 黄石大提顿环线",
+  "attraction": "大提顿",
+  "status": "miss"
+ },
+ {
+  "city": "🔄 黄石大提顿环线",
+  "attraction": "Jenny Lake",
+  "status": "miss"
+ },
+ {
+  "city": "🔄 黄石大提顿环线",
+  "attraction": "Jackson小镇",
+  "status": "miss"
+ },
+ {
+  "city": "🔄 黄石大提顿环线",
+  "attraction": "Schwabacher Landing日出",
+  "status": "miss"
+ },
+ {
+  "city": "🔄 黄石大提顿环线",
+  "attraction": "西黄石",
+  "status": "miss"
+ },
+ {
+  "city": "🔄 黄石大提顿环线",
+  "attraction": "Old Faithful",
+  "status": "miss"
+ },
+ {
+  "city": "🔄 黄石大提顿环线",
+  "attraction": "Grand Prismatic大棱镜",
+  "status": "miss"
+ },
+ {
+  "city": "🔄 黄石大提顿环线",
+  "attraction": "Grand Canyon大峡谷",
+  "status": "miss"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "派克市场",
+  "status": "ok",
+  "local": "华盛顿州“海山冰川”大环线/派克市场_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Daniel Schwen",
+  "commons_file": "Pike_Place_Market_Seattle.jpg",
+  "source": "zhwiki:派克市场",
+  "extras": [
+   {
+    "local": "华盛顿州“海山冰川”大环线/派克市场_2.jpg",
+    "license": "CC0",
+    "artist": "Julian Lupyan",
+    "commons_file": "Maximilien Restaurant Sign in Pike Place Market, Seattle, Washington, 2025.jpg",
+    "source": "commons-supplement:Pike Place Market"
+   },
+   {
+    "local": "华盛顿州“海山冰川”大环线/派克市场_3.jpg",
+    "license": "CC0",
+    "artist": "Julian Lupyan",
+    "commons_file": "Waterfront Viewpoint Sign at Pike Place Market, Seattle, Washington, 2025.jpg",
+    "source": "commons-supplement:Pike Place Market"
+   },
+   {
+    "local": "华盛顿州“海山冰川”大环线/派克市场_4.jpg",
+    "license": "CC0",
+    "artist": "Julian Lupyan",
+    "commons_file": "Blown Glass for sale in Pike Place Market, Seattle, Washington, 2025.jpg",
+    "source": "commons-supplement:Pike Place Market"
+   }
+  ]
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "太空针塔",
+  "status": "ok",
+  "local": "华盛顿州“海山冰川”大环线/太空针塔_1.jpg",
+  "license": "Public domain",
+  "artist": "Jordon Kalilich",
+  "commons_file": "Space_Needle_2011-07-04.jpg",
+  "source": "zhwiki:太空針塔",
+  "extras": [
+   {
+    "local": "华盛顿州“海山冰川”大环线/太空针塔_2.jpg",
+    "license": "Public domain",
+    "artist": "MyName (Cacophony)",
+    "commons_file": "SpaceNeedleTopClose.jpg",
+    "source": "commons-supplement:Space Needle"
+   },
+   {
+    "local": "华盛顿州“海山冰川”大环线/太空针塔_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "King of Hearts",
+    "commons_file": "Seattle from Space Needle June 2018 003.jpg",
+    "source": "commons-supplement:Space Needle"
+   },
+   {
+    "local": "华盛顿州“海山冰川”大环线/太空针塔_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "King of Hearts",
+    "commons_file": "Seattle from Space Needle June 2018 010.jpg",
+    "source": "commons-supplement:Space Needle"
+   }
+  ]
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "奇胡利玻璃艺术馆",
+  "status": "miss"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "飓风岭",
+  "status": "miss"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "飓风山",
+  "status": "miss"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "克雷森特湖",
+  "status": "miss"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "Rialto 海滩",
+  "status": "miss"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "Hoh 温带雨林",
+  "status": "miss"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "Ruby 海滩",
+  "status": "miss"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "天堂景区",
+  "status": "miss"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "日出景区",
+  "status": "miss"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "斯凯莱特步道",
+  "status": "miss"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "Diablo 湖",
+  "status": "miss"
+ },
+ {
+  "city": "波特兰",
+  "attraction": "日本花园",
+  "status": "ok",
+  "local": "波特兰/日本花园_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Laurascudder",
+  "commons_file": "Portland_Japanese_garden_creek.jpg",
+  "source": "zhwiki:波特兰日本花园",
+  "extras": [
+   {
+    "local": "波特兰/日本花园_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Laitche",
+    "commons_file": "Japanese garden at Daisen Park in Sakai, October 2018 - 662.jpg",
+    "source": "commons-supplement:Japanese garden"
+   },
+   {
+    "local": "波特兰/日本花园_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Laitche",
+    "commons_file": "Japanese garden scenery at Expo’70 Commemorative Park in Osaka, November 2017 - 146.jpg",
+    "source": "commons-supplement:Japanese garden"
+   },
+   {
+    "local": "波特兰/日本花园_4.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Jeremy Reding from Seattle, USA",
+    "commons_file": "Portland Japanese Garden maple.jpg",
+    "source": "commons-supplement:Japanese garden"
+   }
+  ]
+ },
+ {
+  "city": "波特兰",
+  "attraction": "Powell's书店",
+  "status": "miss"
+ },
+ {
+  "city": "波特兰",
+  "attraction": "中国园林",
+  "status": "ok",
+  "local": "波特兰/中国园林_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "xiquinhosilva",
+  "commons_file": "Humble_Administrator_Garden_48396-Suzhou_(49171766422).jpg",
+  "source": "zhwiki:中國園林",
+  "extras": [
+   {
+    "local": "波特兰/中国园林_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Agnes Monkelbaan",
+    "commons_file": "Chinese tuin Het Verborgen Rijk van Ming in Hortus Haren 03.jpg",
+    "source": "commons-supplement:Chinese garden"
+   },
+   {
+    "local": "波特兰/中国园林_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "AgainErick",
+    "commons_file": "Chinese garden - Diergaarde Blijdorp - Rotterdam - spring 2021.jpg",
+    "source": "commons-supplement:Chinese garden"
+   },
+   {
+    "local": "波特兰/中国园林_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Velella",
+    "commons_file": "The Chinese garden at Treborth Botanic Garden.jpg",
+    "source": "commons-supplement:Chinese garden"
+   }
+  ]
+ },
+ {
+  "city": "波特兰",
+  "attraction": "Pittock Mansion",
+  "status": "miss"
+ },
+ {
+  "city": "波特兰",
+  "attraction": "Multnomah Falls",
+  "status": "miss"
+ },
+ {
+  "city": "波特兰",
+  "attraction": "Vista House",
+  "status": "miss"
+ },
+ {
+  "city": "波特兰",
+  "attraction": "Latourell Falls",
+  "status": "miss"
+ },
+ {
+  "city": "波特兰",
+  "attraction": "Haystack Rock",
+  "status": "miss"
+ },
+ {
+  "city": "优胜美地国家公园",
+  "attraction": "隧道观景点",
+  "status": "miss"
+ },
+ {
+  "city": "优胜美地国家公园",
+  "attraction": "远眺Half Dome和山谷全景",
+  "status": "miss"
+ },
+ {
+  "city": "优胜美地国家公园",
+  "attraction": "El Capitan",
+  "status": "ok",
+  "local": "优胜美地国家公园/El Capitan_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Clementp.fr",
+  "commons_file": "El_Capitan_en_Californie.jpg",
+  "source": "zhwiki:酋长岩",
+  "extras": [
+   {
+    "local": "优胜美地国家公园/El Capitan_2.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Dave Riggs",
+    "commons_file": "El Capitan 4.jpg",
+    "source": "commons-supplement:El Capitan"
+   },
+   {
+    "local": "优胜美地国家公园/El Capitan_3.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Roy Luck",
+    "commons_file": "The Nose El Capitan Yosemite.jpg",
+    "source": "commons-supplement:El Capitan"
+   },
+   {
+    "local": "优胜美地国家公园/El Capitan_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Melgna",
+    "commons_file": "El Capitan and Valley View.jpg",
+    "source": "commons-supplement:El Capitan"
+   }
+  ]
+ },
+ {
+  "city": "优胜美地国家公园",
+  "attraction": "Bridalveil Fall",
+  "status": "miss"
+ },
+ {
+  "city": "优胜美地国家公园",
+  "attraction": "Yosemite Falls",
+  "status": "miss"
+ },
+ {
+  "city": "优胜美地国家公园",
+  "attraction": "Vernal Fall",
+  "status": "miss"
+ },
+ {
+  "city": "优胜美地国家公园",
+  "attraction": "Nevada Fall",
+  "status": "miss"
+ },
+ {
+  "city": "优胜美地国家公园",
+  "attraction": "Half Dome登山或蒙诺湖",
+  "status": "miss"
+ },
+ {
+  "city": "优胜美地国家公园",
+  "attraction": "红杉林",
+  "status": "miss"
+ },
+ {
+  "city": "冰川国家公园",
+  "attraction": "公园",
+  "status": "ok",
+  "local": "冰川国家公园/公园_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Robert M. Russell",
+  "commons_file": "Mountain_Goat_at_Hidden_Lake.jpg",
+  "source": "zhwiki:冰河國家公園 (美國)",
+  "extras": [
+   {
+    "local": "冰川国家公园/公园_2.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Marc Ryckaert",
+    "commons_file": "Brussels Cinquantenaire R04.jpg",
+    "source": "commons-supplement:Park"
+   },
+   {
+    "local": "冰川国家公园/公园_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "King of Hearts",
+    "commons_file": "Prospect Park New York October 2015 003.jpg",
+    "source": "commons-supplement:Park"
+   },
+   {
+    "local": "冰川国家公园/公园_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Laitche",
+    "commons_file": "Spot-billed duck, Tennōji Park, Osaka, October 2015.jpg",
+    "source": "commons-supplement:Park"
+   }
+  ]
+ },
+ {
+  "city": "冰川国家公园",
+  "attraction": "Lake McDonald",
+  "status": "miss"
+ },
+ {
+  "city": "冰川国家公园",
+  "attraction": "Logan Pass",
+  "status": "miss"
+ },
+ {
+  "city": "冰川国家公园",
+  "attraction": "Hidden Lake",
+  "status": "miss"
+ },
+ {
+  "city": "冰川国家公园",
+  "attraction": "Highline Trail或Avalanche Lake徒步",
+  "status": "miss"
+ },
+ {
+  "city": "冰川国家公园",
+  "attraction": "Grinnell Glacier",
+  "status": "miss"
+ },
+ {
+  "city": "冰川国家公园",
+  "attraction": "Iceberg Lake Trail徒步",
+  "status": "miss"
+ },
+ {
+  "city": "红杉国家公园",
+  "attraction": "General Sherman Tree",
+  "status": "miss"
+ },
+ {
+  "city": "红杉国家公园",
+  "attraction": "Moro Rock",
+  "status": "miss"
+ },
+ {
+  "city": "红杉国家公园",
+  "attraction": "Tunnel Log",
+  "status": "miss"
+ },
+ {
+  "city": "红杉国家公园",
+  "attraction": "General Grant Tree",
+  "status": "miss"
+ },
+ {
+  "city": "红杉国家公园",
+  "attraction": "Zumwalt Meadow",
+  "status": "miss"
+ },
+ {
+  "city": "红杉国家公园",
+  "attraction": "Boyden Cavern",
+  "status": "miss"
+ },
+ {
+  "city": "死亡谷国家公园",
+  "attraction": "Dante's View",
+  "status": "miss"
+ },
+ {
+  "city": "死亡谷国家公园",
+  "attraction": "Zabriskie Point日落",
+  "status": "miss"
+ },
+ {
+  "city": "死亡谷国家公园",
+  "attraction": "Badwater Basin",
+  "status": "miss"
+ },
+ {
+  "city": "死亡谷国家公园",
+  "attraction": "Mesquite Sand Dunes",
+  "status": "miss"
+ },
+ {
+  "city": "死亡谷国家公园",
+  "attraction": "Artist's Palette",
+  "status": "miss"
+ },
+ {
+  "city": "火山口湖国家公园",
+  "attraction": "Rim Drive环湖",
+  "status": "miss"
+ },
+ {
+  "city": "火山口湖国家公园",
+  "attraction": "Watchman Overlook",
+  "status": "miss"
+ },
+ {
+  "city": "火山口湖国家公园",
+  "attraction": "Cleetwood Cove Trail",
+  "status": "miss"
+ }
+]
