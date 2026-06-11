@@ -1493,6 +1493,9 @@ async def get_tiers():
 @app.post("/api/membership/buy")
 async def buy_membership(request: MembershipBuyRequest, current_user: User = Depends(get_current_user_from_token)):
     """购买/升级会员 - 已修复：从 token 获取 user_id，需接入真实支付"""
+    # 无支付校验，会员体系上线前整体关闭，防止免费拿VIP
+    if not ENABLE_MEMBERSHIP:
+        raise HTTPException(403, "会员功能暂未开放")
     if request.tier not in ["basic", "vip"]:
         raise HTTPException(400, "无效的会员等级")
     if request.period not in ["quarterly", "yearly"]:

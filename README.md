@@ -69,7 +69,7 @@ git push origin main
 
 ```env
 WX_MINI_APPID=wx781c464fc0568970
-WX_MINI_SECRET=77ba74f777f8afd614f1fc63dd297212
+WX_MINI_SECRET=<从微信公众平台获取，不要提交到git>
 ```
 
 ### GitHub 仓库

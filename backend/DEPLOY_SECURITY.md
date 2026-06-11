@@ -16,7 +16,7 @@ sudo vim /etc/systemd/system/travel-companion.service
 
 # 添加环境变量（使用下面生成的强随机密钥）
 [Service]
-Environment="TOKEN_SECRET=bcA1oShGbDvM5_F6BA8uDRJeTgcH7ufg92aosFqori4"
+Environment="TOKEN_SECRET=<强随机密钥，用 python3 -c 'import secrets; print(secrets.token_urlsafe(32))' 生成，不要提交到git>"
 Environment="WX_MINI_APPID=你的小程序APPID"
 Environment="WX_MINI_SECRET=你的小程序SECRET"
 

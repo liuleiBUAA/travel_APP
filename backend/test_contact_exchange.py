@@ -8,10 +8,12 @@
     pytest test_contact_exchange.py -v
 """
 
+import os
 import sys
 import types
 from pathlib import Path
 
+os.environ["DEV_AUTH"] = "1"  # 测试用 dev 模式登录
 sys.path.insert(0, str(Path(__file__).parent))
 
 # 测试用独立数据库

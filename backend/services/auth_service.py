@@ -18,6 +18,9 @@ WX_WEB_APPID = os.environ.get("WX_WEB_APPID", "")
 WX_WEB_SECRET = os.environ.get("WX_WEB_SECRET", "")
 # Token签名密钥
 TOKEN_SECRET = os.environ.get("TOKEN_SECRET", "travel-companion-dev-secret-change-me")
+# 开发模式登录开关：必须显式设 DEV_AUTH=1 才允许模拟 openid，
+# 防止生产环境漏配 WX_MINI_APPID 时静默变成"任意 code 都能登录"
+DEV_AUTH = os.environ.get("DEV_AUTH", "") == "1"
 TOKEN_EXPIRE = 7 * 24 * 3600  # 7天
 
 
@@ -56,8 +59,11 @@ def verify_token(token: str) -> Optional[dict]:
 def wx_code2session(code: str) -> Optional[dict]:
     """小程序 code 换 openid + session_key"""
     if not WX_MINI_APPID or not WX_MINI_SECRET:
-        # 开发模式：没配appid时用code模拟openid
-        return {"openid": f"dev_{code}", "session_key": "dev"}
+        if DEV_AUTH:
+            # 开发模式：显式开启后才用code模拟openid
+            return {"openid": f"dev_{code}", "session_key": "dev"}
+        print("微信登录失败: 未配置 WX_MINI_APPID/WX_MINI_SECRET（开发调试请设 DEV_AUTH=1）")
+        return None
 
     url = (
         f"https://api.weixin.qq.com/sns/jscode2session"

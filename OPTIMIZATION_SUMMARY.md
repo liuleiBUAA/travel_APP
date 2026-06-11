@@ -95,7 +95,7 @@ allow_origins=ALLOWED_ORIGINS
 **文件**: `backend/.env.example`, `backend/DEPLOY_SECURITY.md`
 
 **改动**:
-- 生成强随机密钥: `bcA1oShGbDvM5_F6BA8uDRJeTgcH7ufg92aosFqori4`
+- 生成强随机密钥: `python3 -c "import secrets; print(secrets.token_urlsafe(32))"`（实际值只放服务器环境变量）
 - 提供环境变量配置说明
 
 **部署后影响**: 无法伪造 token（前提是在服务器上设置了强随机密钥）。
@@ -178,7 +178,7 @@ header: {
 
    # 添加以下环境变量
    [Service]
-   Environment="TOKEN_SECRET=bcA1oShGbDvM5_F6BA8uDRJeTgcH7ufg92aosFqori4"
+   Environment="TOKEN_SECRET=<强随机密钥，见上方生成命令>"
    Environment="WX_MINI_APPID=你的小程序APPID"
    Environment="WX_MINI_SECRET=你的小程序SECRET"
 
