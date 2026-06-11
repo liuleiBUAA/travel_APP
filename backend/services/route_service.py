@@ -42,8 +42,9 @@ class RouteService:
     def _attach_images(itinerary: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """给每天的行程按 activity 文本匹配景点图片（无图时不加字段）"""
         index = get_image_index()
+        seen = set()  # 整个行程内同一张图只出现一次（跨天去重）
         for day in itinerary:
-            images = index.match(day.get("activity", ""))
+            images = index.match(day.get("activity", ""), seen=seen)
             if images:
                 day["images"] = images
         return itinerary

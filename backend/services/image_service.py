@@ -37,11 +37,16 @@ class ImageIndex:
         self._entries.sort(key=lambda e: -len(e[0]))
         print(f"✅ [ImageIndex] 已加载 {len(self._entries)} 张景点图片")
 
-    def match(self, activity: str, limit: int = 3) -> List[Dict]:
-        """返回 activity 文本中出现的景点的图片，最多 limit 张。"""
+    def match(self, activity: str, limit: int = 3, seen: set = None) -> List[Dict]:
+        """返回 activity 文本中出现的景点的图片，最多 limit 张。
+
+        seen: 调用方传入并跨多次调用复用时，可实现跨天去重（同一张图整个行程只出现一次）。
+        """
         if not activity:
             return []
-        result, seen = [], set()
+        if seen is None:
+            seen = set()
+        result = []
         for attraction, pic in self._entries:
             if attraction in activity and pic["_src"] not in seen:
                 seen.add(pic["_src"])
