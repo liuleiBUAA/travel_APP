@@ -1,0 +1,46 @@
+<view class="container">
+  <view wx:if="{{loading}}" class="loading-text">加载中...</view>
+
+  <block wx:else>
+    <view class="card">
+      <view class="card-form-item">
+        <text class="card-form-label">自我介绍</text>
+        <textarea class="card-bio-input" value="{{editBio}}" maxlength="200" placeholder="一句话介绍自己，比如：爱摄影爱美食，求靠谱搭子" bindinput="onBioInput" auto-height />
+      </view>
+      <view class="card-form-item">
+        <text class="card-form-label">消费习惯</text>
+        <picker range="{{budgetOptions}}" value="{{budgetIndex}}" bindchange="onBudgetChange">
+          <view class="card-picker">{{budgetIndex >= 0 ? budgetOptions[budgetIndex] : '请选择'}}</view>
+        </picker>
+      </view>
+      <view class="card-form-item">
+        <text class="card-form-label">拍照技能</text>
+        <picker range="{{photoOptions}}" value="{{photoIndex}}" bindchange="onPhotoChange">
+          <view class="card-picker">{{photoIndex >= 0 ? photoOptions[photoIndex] : '请选择'}}</view>
+        </picker>
+      </view>
+      <view class="card-form-item">
+        <text class="card-form-label">住宿偏好</text>
+        <picker range="{{accommodationOptions}}" value="{{accommodationIndex}}" bindchange="onAccommodationChange">
+          <view class="card-picker">{{accommodationIndex >= 0 ? accommodationOptions[accommodationIndex] : '请选择'}}</view>
+        </picker>
+      </view>
+      <view class="card-form-item">
+        <text class="card-form-label">驾驶</text>
+        <picker range="{{drivingOptions}}" value="{{drivingIndex}}" bindchange="onDrivingChange">
+          <view class="card-picker">{{drivingIndex >= 0 ? drivingOptions[drivingIndex] : '请选择'}}</view>
+        </picker>
+      </view>
+      <view class="card-form-item">
+        <text class="card-form-label">兴趣标签</text>
+        <view class="card-tag-options">
+          <text wx:for="{{tagOptions}}" wx:key="*this"
+                class="card-tag-option {{editTags.indexOf(item) >= 0 ? 'card-tag-selected' : ''}}"
+                bindtap="onToggleTag" data-tag="{{item}}">{{item}}</text>
+        </view>
+      </view>
+    </view>
+
+    <button class="btn-save" loading="{{saving}}" bindtap="onSave">保存</button>
+  </block>
+</view>

@@ -1,0 +1,70 @@
+.loading-text {
+  color: var(--c-text-muted);
+  font-size: 26rpx;
+  text-align: center;
+  padding: 80rpx 0;
+}
+
+.card-form-item {
+  margin-top: 20rpx;
+}
+
+.card-form-item:first-child {
+  margin-top: 0;
+}
+
+.card-form-label {
+  display: block;
+  font-size: 26rpx;
+  color: var(--c-text-sub, #666);
+  margin-bottom: 8rpx;
+}
+
+.card-bio-input {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 80rpx;
+  font-size: 28rpx;
+  background: #f7f7f7;
+  border-radius: var(--radius-ctrl, 16rpx);
+  padding: 16rpx;
+}
+
+.card-picker {
+  font-size: 28rpx;
+  background: #f7f7f7;
+  border-radius: var(--radius-ctrl, 16rpx);
+  padding: 16rpx;
+  color: #333;
+}
+
+.card-tag-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12rpx;
+}
+
+.card-tag-option {
+  font-size: 24rpx;
+  color: #666;
+  background: #f7f7f7;
+  border-radius: 999rpx;
+  padding: 10rpx 22rpx;
+}
+
+.card-tag-selected {
+  color: #fff;
+  background: var(--grad-primary, #ff6b5c);
+}
+
+.btn-save {
+  width: 100%;
+  background: var(--grad-primary);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-ctrl);
+  font-size: 30rpx;
+  font-weight: 600;
+  padding: 22rpx 0;
+  margin-top: 30rpx;
+}

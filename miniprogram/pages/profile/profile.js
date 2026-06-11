@@ -12,25 +12,8 @@ Page({
     showProfileSetup: false,
     tempAvatarUrl: '',
     tempNickname: '',
-    // 我发布的行程
-    myTrips: [],
-    myTripsLoading: false,
-    myTripsEmpty: false,
-    // 旅行名片
+    // 旅行名片（展示用）
     card: { bio: '', budget_level: '', good_at_photo: '', accommodation_pref: '', driving: '', tags: [] },
-    cardEditing: false,
-    cardSaving: false,
-    editBio: '',
-    budgetOptions: ['穷游', '经济', '舒适', '轻奢'],
-    photoOptions: ['一般', '擅长', '大师'],
-    accommodationOptions: ['不限', '可拼房', '各住各的'],
-    drivingOptions: ['不会开车', '会开但尽量不开', '愿意当司机'],
-    budgetIndex: -1,
-    photoIndex: -1,
-    accommodationIndex: -1,
-    drivingIndex: -1,
-    tagOptions: ['早起党', '夜猫子', '美食控', '博物馆爱好者', '徒步', '购物', '摄影', '自驾老手', '持国际驾照', '小众路线'],
-    editTags: [],
   },
 
   onLoad() {
@@ -45,7 +28,6 @@ Page({
     if (app.globalData.userInfo && app.globalData.userInfo.user_id) {
       const u = app.globalData.userInfo
       this.setData({ isLoggedIn: true, userInfo: u, userId: u.user_id || '' })
-      this.loadMyTrips()  // ✅ 修复: 不传user_id
       this.loadCard()
       this.maybeShowProfileSetup(u)
       return
@@ -54,13 +36,12 @@ Page({
     if (token) {
       if (!this._checkingLogin) {
         this._checkingLogin = true
-        api.getMe().then(res => {  // ✅ 修复: 不传token参数
+        api.getMe().then(res => {
           this._checkingLogin = false
           if (res && (res.success || res.user_id)) {
             app.globalData.userInfo = { ...res, token }
             this.setData({ isLoggedIn: true, userInfo: res, userId: res.user_id || '' })
             this._applyCard(res)
-            this.loadMyTrips()  // ✅ 修复: 不传user_id
             this.maybeShowProfileSetup(res)
           }
         }).catch(() => {
@@ -69,7 +50,7 @@ Page({
       }
       return
     }
-    this.setData({ isLoggedIn: false, userInfo: null, userId: '', myTrips: [] })
+    this.setData({ isLoggedIn: false, userInfo: null, userId: '' })
   },
 
   // ---- 旅行名片 ----
@@ -96,70 +77,7 @@ Page({
   },
 
   onEditCard() {
-    const c = this.data.card
-    this.setData({
-      cardEditing: true,
-      editBio: c.bio,
-      budgetIndex: this.data.budgetOptions.indexOf(c.budget_level),
-      photoIndex: this.data.photoOptions.indexOf(c.good_at_photo),
-      accommodationIndex: this.data.accommodationOptions.indexOf(c.accommodation_pref),
-      drivingIndex: this.data.drivingOptions.indexOf(c.driving),
-      editTags: [...c.tags]
-    })
-  },
-
-  onCancelCard() {
-    this.setData({ cardEditing: false })
-  },
-
-  onBioInput(e) {
-    this.setData({ editBio: e.detail.value })
-  },
-
-  onBudgetChange(e) { this.setData({ budgetIndex: Number(e.detail.value) }) },
-  onPhotoChange(e) { this.setData({ photoIndex: Number(e.detail.value) }) },
-  onAccommodationChange(e) { this.setData({ accommodationIndex: Number(e.detail.value) }) },
-  onDrivingChange(e) { this.setData({ drivingIndex: Number(e.detail.value) }) },
-
-  onToggleTag(e) {
-    const tag = e.currentTarget.dataset.tag
-    const tags = [...this.data.editTags]
-    const i = tags.indexOf(tag)
-    if (i >= 0) {
-      tags.splice(i, 1)
-    } else {
-      if (tags.length >= 10) { wx.showToast({ title: '最多10个标签', icon: 'none' }); return }
-      tags.push(tag)
-    }
-    this.setData({ editTags: tags })
-  },
-
-  async onSaveCard() {
-    if (this.data.cardSaving) return
-    const d = this.data
-    this.setData({ cardSaving: true })
-    try {
-      const res = await api.updateProfile({
-        bio: d.editBio.trim(),
-        budget_level: d.budgetIndex >= 0 ? d.budgetOptions[d.budgetIndex] : '',
-        good_at_photo: d.photoIndex >= 0 ? d.photoOptions[d.photoIndex] : '',
-        accommodation_pref: d.accommodationIndex >= 0 ? d.accommodationOptions[d.accommodationIndex] : '',
-        driving: d.drivingIndex >= 0 ? d.drivingOptions[d.drivingIndex] : '',
-        tags: d.editTags.join(',')
-      })
-      if (res && res.success) {
-        this._applyCard(res)
-        this.setData({ cardEditing: false })
-        wx.showToast({ title: '名片已保存', icon: 'success' })
-      } else {
-        wx.showToast({ title: (res && res.detail) || '保存失败', icon: 'none' })
-      }
-    } catch (e) {
-      console.error('保存名片失败', e)
-      wx.showToast({ title: '网络错误', icon: 'none' })
-    } finally {
-      this.setData({ cardSaving: false })
-    }
+    wx.navigateTo({ url: '/pages/card-edit/card-edit' })
   },
 
   // 检查是否需要弹出完善资料
@@ -204,7 +122,6 @@ Page({
     if (!token) return
 
     try {
-      // ✅ 修复: 不传token参数,由api.js自动从storage获取
       const res = await api.updateProfile({ nickname: tempNickname || undefined, avatar_url: tempAvatarUrl || undefined })
       if (res && (res.user_id || res.nickname)) {
         // 更新全局数据
@@ -249,7 +166,7 @@ Page({
       content: '确定要退出登录吗？',
       success: (res) => {
         if (res.confirm) {
-          this.setData({ isLoggedIn: false, userInfo: null, userId: '', myTrips: [] })
+          this.setData({ isLoggedIn: false, userInfo: null, userId: '' })
           // 退出后回到登录页（登录门槛）
           app.logout()
         }
@@ -257,90 +174,9 @@ Page({
     })
   },
 
-  // ---- 我发布的行程 ----
-  async loadMyTrips() {
-    // ✅ 修复: 检查token,不需要userId参数
-    const token = wx.getStorageSync('token')
-    if (!token) {
-      this.setData({ myTrips: [], myTripsLoading: false, myTripsEmpty: true })
-      return
-    }
-    this.setData({ myTripsLoading: true, myTripsEmpty: false })
-    try {
-      const res = await api.getMyCompanions()  // ✅ 修复: 不传userId
-      if (res.success && Array.isArray(res.data)) {
-        const trips = res.data.map(t => ({
-          ...t,
-          route: (t.route && Array.isArray(t.route.cities)) ? t.route : { cities: [] }
-        }))
-        this.setData({
-          myTrips: trips,
-          myTripsLoading: false,
-          myTripsEmpty: trips.length === 0
-        })
-      } else {
-        this.setData({ myTrips: [], myTripsLoading: false, myTripsEmpty: true })
-      }
-    } catch (err) {
-      console.error('加载我的行程失败', err)
-      this.setData({ myTrips: [], myTripsLoading: false, myTripsEmpty: true })
-    }
+  goMyTrips() {
+    wx.navigateTo({ url: '/pages/my-trips/my-trips' })
   },
-
-  onTripDetail(e) {
-    console.log('[onTripDetail] 被触发', e)
-    const trip = e.currentTarget.dataset.trip
-    console.log('[onTripDetail] trip数据:', JSON.stringify(trip).substring(0, 200))
-    if (!trip) {
-      console.error('[onTripDetail] trip为空，返回')
-      return
-    }
-
-    // 跳转到行程详情页面，传递 companion_id
-    wx.navigateTo({
-      url: `/pages/trip-detail/trip-detail?id=${trip.companion_id}`,
-      fail: (err) => {
-        console.error('[onTripDetail] 跳转失败', err)
-        // 降级方案：如果详情页不存在，用 showModal 展示简要信息
-        const cities = (trip.route && Array.isArray(trip.route.cities)) ? trip.route.cities.join(' → ') : '行程详情'
-        wx.showModal({
-          title: cities,
-          content: `出发日期: ${trip.travel_date || '未设置'}\n天数: ${trip.duration_days || 0}天\n交通: ${trip.transport_mode || '不限'}\n住宿: ${trip.accommodation || '不限'}\n消费: ${trip.budget_level || '经济'}\n拍照: ${trip.good_at_photo || '不限'}\n发布于: ${trip.created_at || '未知'}`,
-          showCancel: false,
-          confirmText: '知道了'
-        })
-      }
-    })
-  },
-
-  // 删除自己的行程
-  onDeleteTrip(e) {
-    const id = e.currentTarget.dataset.id
-    if (!id) return
-    wx.showModal({
-      title: '删除行程',
-      content: '删除后其他人将无法看到这条找搭子信息，确定删除吗？',
-      confirmText: '删除',
-      confirmColor: '#ef4444',
-      success: async (res) => {
-        if (!res.confirm) return
-        try {
-          const r = await api.deleteCompanion(id)
-          if (r && r.success) {
-            wx.showToast({ title: '已删除', icon: 'success' })
-            this.loadMyTrips()
-          } else {
-            wx.showToast({ title: (r && r.detail) || '删除失败', icon: 'none' })
-          }
-        } catch (err) {
-          console.error('删除行程失败', err)
-          wx.showToast({ title: '网络错误', icon: 'none' })
-        }
-      }
-    })
-  },
-
-  goMyTrips() { /* 已在页面内展示 */ },
   goMyGuides() { wx.showToast({ title: '功能开发中', icon: 'none' }) },
   goMyMatches() { wx.showToast({ title: '功能开发中', icon: 'none' }) },
   goSettings() { wx.showToast({ title: '功能开发中', icon: 'none' }) },

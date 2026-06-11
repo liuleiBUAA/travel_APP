@@ -1,0 +1,27 @@
+<view class="container">
+  <view wx:if="{{myTripsLoading}}" class="loading-text">加载中...</view>
+  <view wx:elif="{{myTripsEmpty}}" class="hint-text">暂无发布的行程</view>
+
+  <view wx:for="{{myTrips}}" wx:key="companion_id" class="card trip-card" bindtap="onTripDetail" data-trip="{{item}}">
+    <view class="trip-cities">
+      <text wx:for="{{item.route.cities}}" wx:for-item="city" wx:key="*this" class="city-badge">{{city}}</text>
+    </view>
+    <view class="trip-meta">
+      <text class="trip-date">{{item.travel_date || '待定'}}</text>
+      <text class="trip-sep">·</text>
+      <text class="trip-days">{{item.duration_days || 0}}天</text>
+      <text class="trip-sep">·</text>
+      <text class="trip-people">{{item.current_people || '未知'}}</text>
+    </view>
+    <view class="trip-tags">
+      <text class="trip-tag">{{item.transport_mode || '不限'}}</text>
+      <text class="trip-tag">{{item.accommodation || '不限'}}</text>
+      <text class="trip-tag">{{item.budget_level || '经济'}}</text>
+      <text class="trip-tag">{{item.good_at_photo || '不限'}}</text>
+    </view>
+    <view class="trip-footer">
+      <view class="trip-created">发布于 {{item.created_at || '未知'}}</view>
+      <view class="trip-delete" catchtap="onDeleteTrip" data-id="{{item.companion_id}}">删除</view>
+    </view>
+  </view>
+</view>

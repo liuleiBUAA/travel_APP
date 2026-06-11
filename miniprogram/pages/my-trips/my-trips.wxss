@@ -1,0 +1,71 @@
+.trip-card {
+  margin-bottom: 20rpx;
+}
+.trip-cities {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10rpx;
+  margin-bottom: 12rpx;
+}
+.city-badge {
+  background: var(--c-badge-bg);
+  color: var(--c-badge-text);
+  border-radius: 6rpx;
+  padding: 4rpx 14rpx;
+  font-size: 24rpx;
+}
+.trip-meta {
+  display: flex;
+  align-items: center;
+  gap: 6rpx;
+  margin-bottom: 10rpx;
+}
+.trip-date, .trip-days, .trip-people {
+  font-size: 26rpx;
+  color: var(--c-text-sub);
+}
+.trip-sep {
+  color: var(--c-text-faint);
+  font-size: 26rpx;
+}
+.trip-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8rpx;
+  margin-bottom: 8rpx;
+}
+.trip-tag {
+  background: var(--c-soft);
+  color: var(--c-text-sub);
+  border-radius: 4rpx;
+  padding: 4rpx 12rpx;
+  font-size: 22rpx;
+}
+.trip-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.trip-created {
+  font-size: 22rpx;
+  color: var(--c-text-muted);
+}
+.trip-delete {
+  font-size: 24rpx;
+  color: var(--c-danger);
+  padding: 8rpx 20rpx;
+  background: #fdecef;
+  border-radius: 24rpx;
+}
+.loading-text {
+  color: var(--c-text-muted);
+  font-size: 26rpx;
+  text-align: center;
+  padding: 80rpx 0;
+}
+.hint-text {
+  color: var(--c-text-faint);
+  font-size: 26rpx;
+  text-align: center;
+  padding: 80rpx 0;
+}

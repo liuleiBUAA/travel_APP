@@ -8,7 +8,9 @@
     "pages/match/match",
     "pages/profile/profile",
     "pages/trip-detail/trip-detail",
-    "pages/user-profile/user-profile"
+    "pages/user-profile/user-profile",
+    "pages/card-edit/card-edit",
+    "pages/my-trips/my-trips"
   ],
   "window": {
     "backgroundTextStyle": "light",
