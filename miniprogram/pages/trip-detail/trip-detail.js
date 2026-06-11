@@ -7,7 +7,13 @@ Page({
     detail: null,
     route: null,
     seeking: {},
-    preferences: {}
+    preferences: {},
+    // 留言
+    comments: [],
+    commentsLoading: false,
+    commentInput: '',
+    commentSubmitting: false,
+    isLoggedIn: false
   },
 
   onLoad(options) {
@@ -17,8 +23,14 @@ Page({
       setTimeout(() => wx.navigateBack(), 1500)
       return
     }
-    this.setData({ companionId: id })
+    this.setData({ companionId: id, isLoggedIn: !!wx.getStorageSync('token') })
     this.loadDetail()
+    this.loadComments()
+  },
+
+  onShow() {
+    // 从登录页回来时刷新登录态
+    this.setData({ isLoggedIn: !!wx.getStorageSync('token') })
   },
 
   // 转发给好友
@@ -68,6 +80,97 @@ Page({
       wx.showToast({ title: '加载失败', icon: 'none' })
       this.setData({ loading: false })
     }
+  },
+
+  // 查看作者主页
+  goAuthorProfile() {
+    const author = this.data.detail && this.data.detail.author
+    if (!author || !author.user_id) return
+    wx.navigateTo({ url: `/pages/user-profile/user-profile?id=${author.user_id}` })
+  },
+
+  // 查看留言者主页
+  goCommenterProfile(e) {
+    const uid = e.currentTarget.dataset.uid
+    if (!uid) return
+    wx.navigateTo({ url: `/pages/user-profile/user-profile?id=${uid}` })
+  },
+
+  // ---- 留言 ----
+  async loadComments() {
+    this.setData({ commentsLoading: true })
+    try {
+      const res = await api.getComments(this.data.companionId)
+      if (res.success && Array.isArray(res.data)) {
+        this.setData({ comments: res.data, commentsLoading: false })
+      } else {
+        this.setData({ comments: [], commentsLoading: false })
+      }
+    } catch (e) {
+      console.error('加载留言失败', e)
+      this.setData({ comments: [], commentsLoading: false })
+    }
+  },
+
+  onCommentInput(e) {
+    this.setData({ commentInput: e.detail.value })
+  },
+
+  async onSubmitComment() {
+    if (this.data.commentSubmitting) return
+    const content = this.data.commentInput.trim()
+    if (!content) {
+      wx.showToast({ title: '留言不能为空', icon: 'none' })
+      return
+    }
+    if (!wx.getStorageSync('token')) {
+      this.goLogin()
+      return
+    }
+    this.setData({ commentSubmitting: true })
+    try {
+      const res = await api.postComment(this.data.companionId, content)
+      if (res && res.success && res.data) {
+        this.setData({
+          comments: [...this.data.comments, res.data],
+          commentInput: ''
+        })
+        wx.showToast({ title: '留言成功', icon: 'success' })
+      } else {
+        wx.showToast({ title: (res && res.detail) || '留言失败', icon: 'none' })
+      }
+    } catch (e) {
+      console.error('留言失败', e)
+      wx.showToast({ title: '网络错误', icon: 'none' })
+    } finally {
+      this.setData({ commentSubmitting: false })
+    }
+  },
+
+  onDeleteComment(e) {
+    const id = e.currentTarget.dataset.id
+    if (!id) return
+    wx.showModal({
+      title: '删除留言',
+      content: '确定删除这条留言吗？',
+      confirmText: '删除',
+      confirmColor: '#ef4444',
+      success: async (res) => {
+        if (!res.confirm) return
+        try {
+          const r = await api.deleteComment(id)
+          if (r && r.success) {
+            this.setData({ comments: this.data.comments.filter(c => c.comment_id !== id) })
+            wx.showToast({ title: '已删除', icon: 'success' })
+          } else {
+            wx.showToast({ title: (r && r.detail) || '删除失败', icon: 'none' })
+          }
+        } catch (err) {
+          console.error('删除留言失败', err)
+          wx.showToast({ title: '网络错误', icon: 'none' })
+        }
+      }
+    })
   },
 
   // 复制联系方式

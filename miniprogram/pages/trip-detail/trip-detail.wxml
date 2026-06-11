@@ -6,11 +6,18 @@
   <view wx:else class="detail-content">
     <!-- 路线 hero -->
     <view class="card route-card">
-      <view class="route-publisher">
-        <view class="publisher-avatar">{{detail.user_name ? detail.user_name[0] : '旅'}}</view>
+      <view class="route-publisher" bindtap="goAuthorProfile">
+        <image wx:if="{{detail.author.avatar_url}}" class="publisher-avatar-img" src="{{detail.author.avatar_url}}" mode="aspectFill" />
+        <view wx:else class="publisher-avatar">{{detail.user_name ? detail.user_name[0] : '旅'}}</view>
         <view class="publisher-info">
-          <view class="publisher-name">{{detail.user_name}}</view>
+          <view class="publisher-name">{{detail.user_name}} <text wx:if="{{detail.author}}" class="publisher-arrow">›</text></view>
           <view class="publisher-meta">{{detail.travel_date}} 出发 · {{detail.duration_days}}天 · ±{{detail.flexibility_days}}天</view>
+          <view wx:if="{{detail.author && (detail.author.budget_level || detail.author.driving || detail.author.good_at_photo || detail.author.accommodation_pref)}}" class="publisher-card-tags">
+            <text wx:if="{{detail.author.budget_level}}" class="publisher-card-tag">💰{{detail.author.budget_level}}</text>
+            <text wx:if="{{detail.author.good_at_photo}}" class="publisher-card-tag">📷{{detail.author.good_at_photo}}</text>
+            <text wx:if="{{detail.author.accommodation_pref}}" class="publisher-card-tag">🏨{{detail.author.accommodation_pref}}</text>
+            <text wx:if="{{detail.author.driving}}" class="publisher-card-tag">🚗{{detail.author.driving}}</text>
+          </view>
         </view>
       </view>
       <view class="cities-list">
@@ -124,6 +131,35 @@
           </view>
         </block>
       </view>
+    </view>
+
+    <!-- 留言区 -->
+    <view class="card comments-card">
+      <view class="card-title">留言（{{comments.length}}）</view>
+
+      <view wx:if="{{commentsLoading}}" class="loading-text">加载中...</view>
+      <view wx:elif="{{comments.length === 0}}" class="comments-empty">还没有留言，问问行程细节，聊几句再加微信～</view>
+
+      <view wx:for="{{comments}}" wx:key="comment_id" class="comment-item">
+        <image class="comment-avatar" src="{{item.avatar_url || '/images/default_avatar.png'}}" mode="aspectFill"
+               bindtap="goCommenterProfile" data-uid="{{item.user_id}}" />
+        <view class="comment-body">
+          <view class="comment-head">
+            <text class="comment-nickname" bindtap="goCommenterProfile" data-uid="{{item.user_id}}">{{item.nickname}}</text>
+            <text class="comment-time">{{item.created_at}}</text>
+          </view>
+          <view class="comment-content">{{item.content}}</view>
+          <view wx:if="{{item.is_mine}}" class="comment-delete" bindtap="onDeleteComment" data-id="{{item.comment_id}}">删除</view>
+        </view>
+      </view>
+
+      <!-- 输入区 -->
+      <view wx:if="{{isLoggedIn}}" class="comment-input-row">
+        <input class="comment-input" value="{{commentInput}}" maxlength="500"
+               placeholder="问问行程细节..." bindinput="onCommentInput" confirm-type="send" bindconfirm="onSubmitComment" />
+        <button class="comment-send" size="mini" loading="{{commentSubmitting}}" bindtap="onSubmitComment">发送</button>
+      </view>
+      <view wx:else class="comment-login-hint" bindtap="goLogin">登录后留言</view>
     </view>
   </view>
 </view>

@@ -293,3 +293,136 @@
   color: var(--c-text-sub);
   flex: 1;
 }
+
+/* ---- 作者名片 ---- */
+.publisher-avatar-img {
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 44rpx;
+  background: rgba(255, 255, 255, 0.25);
+  flex-shrink: 0;
+}
+
+.publisher-arrow {
+  opacity: 0.7;
+  font-size: 28rpx;
+}
+
+.publisher-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8rpx;
+  margin-top: 8rpx;
+}
+
+.publisher-card-tag {
+  font-size: 20rpx;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 999rpx;
+  padding: 4rpx 14rpx;
+}
+
+/* ---- 留言区 ---- */
+.loading-text {
+  text-align: center;
+  color: #999;
+  font-size: 26rpx;
+  padding: 20rpx 0;
+}
+
+.comments-empty {
+  color: #999;
+  font-size: 26rpx;
+  padding: 24rpx 0;
+  text-align: center;
+}
+
+.comment-item {
+  display: flex;
+  gap: 16rpx;
+  padding: 20rpx 0;
+  border-bottom: 1rpx solid #f2f2f2;
+}
+
+.comment-item:last-of-type {
+  border-bottom: none;
+}
+
+.comment-avatar {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 32rpx;
+  background: var(--c-soft, #fff1ec);
+  flex-shrink: 0;
+}
+
+.comment-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.comment-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.comment-nickname {
+  font-size: 26rpx;
+  color: #ff6b5c;
+  font-weight: 500;
+}
+
+.comment-time {
+  font-size: 22rpx;
+  color: #bbb;
+}
+
+.comment-content {
+  font-size: 28rpx;
+  color: #333;
+  margin-top: 8rpx;
+  line-height: 1.5;
+  word-break: break-all;
+}
+
+.comment-delete {
+  font-size: 22rpx;
+  color: #999;
+  margin-top: 8rpx;
+  align-self: flex-start;
+}
+
+.comment-input-row {
+  display: flex;
+  gap: 16rpx;
+  align-items: center;
+  margin-top: 20rpx;
+}
+
+.comment-input {
+  flex: 1;
+  background: #f7f7f7;
+  border-radius: 999rpx;
+  padding: 14rpx 28rpx;
+  font-size: 28rpx;
+}
+
+.comment-send {
+  background: var(--grad-primary, #ff6b5c);
+  color: #fff;
+  border: none;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.comment-login-hint {
+  text-align: center;
+  color: #ff6b5c;
+  font-size: 26rpx;
+  padding: 20rpx 0;
+  margin-top: 12rpx;
+  background: var(--c-soft, #fff1ec);
+  border-radius: 999rpx;
+}
