@@ -1,0 +1,25 @@
+{
+  "name": "瑞吉山",
+  "aliases": [
+    "Rigi"
+  ],
+  "city": "卢塞恩",
+  "country": "瑞士",
+  "summary": "「山峦皇后」：齿轨火车+游船组成环线，山顶360度看阿尔卑斯群峰与湖区。Swiss Travel Pass全程免费，是瑞士性价比最高的一座山。",
+  "sections": [
+    {
+      "title": "经典环线",
+      "content": "卢塞恩游船1小时到菲茨瑙（Vitznau）→欧洲最古老齿轨火车上山到Rigi Kulm山顶→另一侧下到韦吉斯（Weggis）或Arth-Goldau接火车回卢塞恩。船+齿轨+缆车全部Swiss Pass免费，半天到一天打包湖与山。"
+    },
+    {
+      "title": "山顶与徒步",
+      "content": "Rigi Kulm（1798米）看皮拉图斯、少女峰区群峰+下方卢塞恩湖和楚格湖双湖。经典轻徒步：Rigi Kaltbad到First段的全景步道平缓推娃都行，配悬崖边温泉（Mineralbad & Spa，玻璃池看山）是隐藏玩法。"
+    },
+    {
+      "title": "实用贴士",
+      "content": "秋冬卢塞恩湖区常有海雾（Nebelmeer），山下阴山上晴——山顶浮在云海上，反而是摄影彩蛋，出发前看官网webcam。日出场住山顶酒店或赶首班齿轨。和皮拉图斯山二选一的话：要缓坡草甸云海选瑞吉，要陡峭戏剧感选皮拉图斯。"
+    }
+  ],
+  "duration": "半天-1天",
+  "best_time": "全年；秋季云海，夏季徒步"
+}

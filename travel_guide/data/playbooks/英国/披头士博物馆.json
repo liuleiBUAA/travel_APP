@@ -1,0 +1,25 @@
+{
+  "name": "披头士博物馆",
+  "aliases": [
+    "The Beatles Story"
+  ],
+  "city": "利物浦",
+  "country": "英国",
+  "summary": "阿尔伯特码头的The Beatles Story：乐队从洞穴俱乐部到解散的全程沉浸展。配Cavern Club现场和两位成员故居，利物浦大半天就是披头士主题日。",
+  "sections": [
+    {
+      "title": "门票与参观",
+      "content": "官网买票含多语言语音导览（有中文）。展线按时间走：汉堡时期→Cavern Club复原→披头士狂热→《Sgt. Pepper》→单飞，约1.5-2小时。约翰·列侬的白色钢琴（Imagine）是镇馆。"
+    },
+    {
+      "title": "周边联动",
+      "content": "Mathew Street的Cavern Club（重建版）白天就有现场翻唱，进去喝一杯听一组是标配。Magical Mystery Tour巴士2小时跑完Penny Lane、Strawberry Field等歌名实景。列侬和麦卡特尼故居由国民信托管理，小团预约制，铁粉提前订。"
+    },
+    {
+      "title": "实用贴士",
+      "content": "博物馆在阿尔伯特码头，泰特利物浦、利物浦博物馆都在同一码头区，免费馆穿插安排。利物浦市中心紧凑步行可达。足球迷加安菲尔德球场Tour（利物浦FC），和披头士凑成利物浦双主题。"
+    }
+  ],
+  "duration": "2小时（主题一日）",
+  "best_time": "全年"
+}
