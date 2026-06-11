@@ -33,14 +33,19 @@ class ImageIndex:
                         "credit": f"{p.get('license', '')} {p.get('artist', '')}".strip(),
                         # 同一张源图可能因别名存了两份（圣马洛/圣马洛古城墙），匹配时按它去重
                         "_src": p.get("commons_file", p["local"]),
+                        # 所属目的地（manifest 的 city，与 *_destinations.json 的 key 一致），
+                        # 用于按路线城市过滤，避免"老桥"（海德堡）挂到佛罗伦萨行程上
+                        "_city": m.get("city", ""),
                     }))
         self._entries.sort(key=lambda e: -len(e[0]))
         print(f"✅ [ImageIndex] 已加载 {len(self._entries)} 张景点图片")
 
-    def match(self, activity: str, limit: int = 3, seen: set = None) -> List[Dict]:
+    def match(self, activity: str, limit: int = 3, seen: set = None, cities: set = None) -> List[Dict]:
         """返回 activity 文本中出现的景点的图片，最多 limit 张。
 
         seen: 调用方传入并跨多次调用复用时，可实现跨天去重（同一张图整个行程只出现一次）。
+        cities: 路线包含的目的地集合；传入时只挂这些目的地的图，
+                避免重名景点跨目的地误挂（海德堡"老桥"挂到佛罗伦萨）。
         """
         if not activity:
             return []
@@ -48,9 +53,11 @@ class ImageIndex:
             seen = set()
         result = []
         for attraction, pic in self._entries:
+            if cities is not None and pic["_city"] not in cities:
+                continue
             if attraction in activity and pic["_src"] not in seen:
                 seen.add(pic["_src"])
-                result.append({k: v for k, v in pic.items() if k != "_src"})
+                result.append({k: v for k, v in pic.items() if k != "_src" and k != "_city"})
                 if len(result) >= limit:
                     break
         return result

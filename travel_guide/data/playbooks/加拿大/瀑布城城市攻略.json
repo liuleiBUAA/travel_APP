@@ -1,0 +1,32 @@
+{
+  "name": "瀑布城",
+  "type": "city",
+  "aliases": [],
+  "city": "瀑布城",
+  "country": "加拿大",
+  "summary": "尼亚加拉瀑布加拿大侧：正面马蹄瀑布视角完胜美国侧，游船+夜景灯光秀是两大动作，1天1晚足够。",
+  "sections": [
+    {
+      "title": "到达与市内交通",
+      "content": "从多伦多自驾QEW高速约1.5小时；不自驾坐GO Train到Niagara Falls站再转WEGO巴士，或参加多伦多出发一日团（含接送最省心）。景区沿瀑布一条线展开，WEGO观光巴士串联所有景点和酒店区，买24/48小时票随上随下。瀑布边停车场约30加元一天，酒店停车另收费，自驾党算总账。"
+    },
+    {
+      "title": "住宿建议",
+      "content": "想看瀑布景观房就住Fallsview区两家高层：Hilton Fallsview和Marriott Fallsview，订房认准「Fallsview/瀑布景」房型并确认高楼层，普通房看的是停车场。赌场酒店Fallsview Casino连着商场餐厅，雨天不出楼。预算有限住Lundy's Lane沿线汽车旅馆，WEGO可达。住一晚的意义在夜景：瀑布每晚彩色灯光秀，夏季和节假日加放烟花。"
+    },
+    {
+      "title": "必看与通票",
+      "content": "游船Hornblower（现名Niagara City Cruises）是核心项目，开到马蹄瀑布脚下水雾扑面，旺季排队1小时起，网上买票+赶早班最稳；发雨衣，手机做好防水。第二推荐Journey Behind the Falls，从隧道钻到瀑布背后。加拿大侧正面看马蹄瀑布，视角天然优于美国侧，无需过境。玩多个项目买Adventure Pass（含游船+瀑布后探险+WEGO）比单买省。"
+    },
+    {
+      "title": "美食",
+      "content": "瀑布景观餐厅吃的是位置：Skylon塔旋转餐厅和Table Rock House正对马蹄瀑布，晚餐订靠窗位看灯光秀。Clifton Hill一带连锁快餐为主，性价比一般。本地隐藏玩法是车程20分钟的Niagara-on-the-Lake小镇：加拿大冰酒核心产区，酒庄品鉴（Inniskillin、Peller Estates）+湖边小镇下午茶，比瀑布边吃得好。"
+    },
+    {
+      "title": "实用贴士",
+      "content": "游船运营季约4月底-11月底，冬季停航但冰瀑+灯光别有味道。夏季周末和加美长周末人最多，工作日体验翻倍。带美签可走彩虹桥步行过境看美国侧（Cave of the Winds木栈道近距离体验不同），无美签别排到桥口。水雾随风向飘，观景台和游船都可能淋湿，电子设备防水。赌场19岁以上凭护照入场。"
+    }
+  ],
+  "duration": "1-2天",
+  "best_time": "5-10月；游船运营、夜景烟花最密集"
+}

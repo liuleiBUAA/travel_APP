@@ -1,6 +1,9 @@
 {
   "name": "巴黎迪士尼",
-  "aliases": ["迪士尼", "迪士尼乐园（巴黎）", "Disneyland Paris"],
+  "aliases": [
+    "迪士尼乐园（巴黎）",
+    "Disneyland Paris"
+  ],
   "city": "巴黎",
   "country": "法国",
   "summary": "欧洲唯一的迪士尼度假区，在巴黎市区以东约32公里的Marne-la-Vallée，含迪士尼乐园和华特迪士尼影城两个园区。建议至少一整天，城堡和巡游是巴黎园的招牌。",

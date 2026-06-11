@@ -1,0 +1,32 @@
+{
+  "name": "茂宜岛",
+  "type": "city",
+  "aliases": [],
+  "city": "茂宜岛",
+  "country": "美国",
+  "summary": "夏威夷度假天花板：哈纳之路自驾+哈雷阿卡拉火山日出（必须提前预约）双招牌，无公共交通，租车是硬前提。",
+  "sections": [
+    {
+      "title": "到达与交通",
+      "content": "OGG（Kahului）机场有美西直飞和檀香山20分钟岛间航班。茂宜岛没有可用的公共交通，落地租车是硬前提，旺季提前1-2个月订；敞篷Jeep/Mustang是经典选择但后备箱小，行李多选SUV。岛呈8字形：机场居中，西侧Lahaina/Kaanapali和南侧Wailea/Kihei是两大度假区，到哪都是30-50分钟车程。加油在Kahului最便宜，上哈纳之路前必须加满。"
+    },
+    {
+      "title": "住宿建议",
+      "content": "南岸Wailea是高端度假区（Four Seasons、Grand Wailea），Kihei同海岸线但有大量平价公寓式condo，性价比最佳；西岸Kaanapali海滩酒店带状排开，日落和观鲸位置好。注意2023年Lahaina镇大火后重建中，订西岸前确认酒店和周边状态。哈纳小镇住一晚（Hana-Maui Resort或民宿）可把哈纳之路拆成两天，体验完全不同。Resort fee和停车费普遍，算总价。"
+    },
+    {
+      "title": "必看与活动",
+      "content": "哈雷阿卡拉日出必须在recreation.gov预约（提前60天放票+前2天补放少量），凌晨3点出发开2小时山路，山顶3055米仅5-10度带厚外套；订不到改看日落（无需预约）。哈纳之路600多个弯+50多座单车道桥，7点前出发避车流，重点停双子瀑布、Wai'anapanapa黑沙滩（需另约时段）、哈纳镇；晕车者提前吃药。冬季12-3月全岛观鲸，Molokini火山口浮潜选早班船水最清。"
+    },
+    {
+      "title": "美食",
+      "content": "茂宜岛banana bread是哈纳之路路边摊标配（Halfway to Hana老摊）。Kihei的Coconut's Fish Cafe鱼taco、Paia小镇的Mama's Fish House（茂宜岛最难订的海景餐厅，提前数周订位）是两端代表。食材贵，condo党可在Costco（机场旁，凭会员卡）采购自炊省一半餐费。Ululani's刨冰多家分店，比威基基的便宜。"
+    },
+    {
+      "title": "实用贴士",
+      "content": "哈纳之路全程手机几乎无信号，离线地图+下载好攻略App（Shaka Guide中文语音导览好评）再出发；让后车先行是本地礼仪，单车道桥对向先到先过。哈雷阿卡拉和Wai'anapanapa两个预约是行程硬节点，先订到再排其他。防晒同样必须reef-safe。车内不留物品，热门trail停车场砸窗常见。岛上节奏慢，4晚以上才能不赶。"
+    }
+  ],
+  "duration": "3-5天",
+  "best_time": "4-5月、9-11月；天气稳定人少，12-3月加观鲸"
+}
