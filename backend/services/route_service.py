@@ -722,22 +722,42 @@ class RouteService:
                 "all_cities": all_popular
             }
 
-    def search_destinations(self, query: str) -> List[str]:
+    def search_destinations(self, query: str) -> List[Dict[str, Any]]:
         """
-        搜索目的地（自动完成）
-        返回匹配的城市名称列表
+        搜索目的地联想（自动完成）
+        国家排在前面（如输入"法"联想出"法国"），其后是城市
+        返回 [{"type": "country"|"city", "name", "region", ...}]
         """
         if not query:
             return []
+        q = query.lower()
+        region_cn = {"Europe": "欧洲", "Asia": "亚洲", "North_America": "北美", "Oceania": "大洋洲"}
 
-        # 从destinations中搜索
-        matched = []
-        for dest_name in self.destinations.keys():
-            if query.lower() in dest_name.lower() or query in dest_name:
-                matched.append(dest_name)
+        suggestions = []
+        # 国家匹配
+        structure = self.get_destination_structure()
+        for region_info in structure.values():
+            for country in region_info["countries"].keys():
+                if q in country.lower():
+                    suggestions.append({
+                        "type": "country",
+                        "name": country,
+                        "region": region_info["name"],
+                    })
+        # 城市匹配
+        for dest_name, info in self.destinations.items():
+            if q in dest_name.lower():
+                suggestions.append({
+                    "type": "city",
+                    "name": dest_name,
+                    "country": "/".join(info.get("countries") or []),
+                    "region": region_cn.get(info.get("region", ""), ""),
+                    "days": info.get("days", 0),
+                })
+            if len(suggestions) >= 20:
+                break
 
-        # 限制返回数量
-        return matched[:20]
+        return suggestions[:20]
 
     def _format_route_json(self, raw_result: Dict[str, Any], cities: List[str]) -> Dict[str, Any]:
         """

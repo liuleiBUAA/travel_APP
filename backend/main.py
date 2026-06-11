@@ -1408,14 +1408,15 @@ async def get_popular_destinations(region: Optional[str] = None):
 
 @app.get("/api/destinations/search")
 async def search_destinations(q: str = ""):
-    """搜索目的地（自动完成）"""
+    """搜索目的地联想（国家+城市）"""
     try:
-        # 从所有destinations中搜索
-        results = route_service.search_destinations(q)
+        suggestions = route_service.search_destinations(q)
 
         return {
             "success": True,
-            "results": results
+            # results 保留纯城市名数组，兼容旧版客户端
+            "results": [s["name"] for s in suggestions if s["type"] == "city"],
+            "suggestions": suggestions
         }
     except Exception as e:
         raise HTTPException(500, f"搜索失败: {str(e)}")
