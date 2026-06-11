@@ -344,19 +344,33 @@ Component({
       this._searchTimer = setTimeout(async () => {
         try {
           const res = await api.searchDestinations(val)
-          this.setData({ searchResults: Array.isArray(res.results) ? res.results : [] })
+          this.setData({ searchResults: Array.isArray(res.suggestions) ? res.suggestions : [] })
         } catch (err) {
           console.error('搜索失败', err)
         }
       }, 300)
     },
 
-    selectSearchCity(e) {
-      const name = e.currentTarget.dataset.name
-      if (this.data.selectedCities.indexOf(name) === -1) {
-        const list = this.data.selectedCities.concat(name)
+    selectSearchSuggestion(e) {
+      const item = this.data.searchResults[e.currentTarget.dataset.index]
+      if (!item) return
+      if (item.type === 'country') {
+        // 选国家：切到对应区域并展开该国城市卡片
+        this.setData({
+          cityInput: '',
+          searchResults: [],
+          currentRegion: item.region || this.data.currentRegion,
+          currentCountry: item.name
+        })
+        app.globalData.currentRegion = this.data.currentRegion
+        if (item.region) this.loadCountries(item.region)
+        this.loadCities(item.region || this.data.currentRegion, item.name)
+      } else if (this.data.selectedCities.indexOf(item.name) === -1) {
+        const list = this.data.selectedCities.concat(item.name)
         this.setData({ selectedCities: list, cityInput: '', searchResults: [] })
         app.globalData.selectedCities = list
+      } else {
+        this.setData({ cityInput: '', searchResults: [] })
       }
     },
 

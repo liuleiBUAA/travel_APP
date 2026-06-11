@@ -6,6 +6,8 @@ Page({
     guideMode: 'recommend',   // 'recommend' 帮我推荐 | 'pick' 知道去哪
     selectedCities: [],
     // 「知道去哪」模式：自己选城
+    pickSearchInput: '',
+    pickSuggestions: [],
     pickCountries: [],
     pickCurrentCountry: '',
     pickCities: [],
@@ -252,6 +254,48 @@ Page({
 
   toggleRouteOptions() {
     this.setData({ showRouteOptions: !this.data.showRouteOptions })
+  },
+
+  // ---- 「知道去哪」模式：搜索联想（国家+城市）----
+  onPickSearchInput(e) {
+    const val = e.detail.value.trim()
+    this.setData({ pickSearchInput: val })
+    if (!val) {
+      this.setData({ pickSuggestions: [] })
+      return
+    }
+    clearTimeout(this._pickSearchTimer)
+    this._pickSearchTimer = setTimeout(async () => {
+      try {
+        const res = await api.searchDestinations(val)
+        this.setData({ pickSuggestions: Array.isArray(res.suggestions) ? res.suggestions : [] })
+      } catch (err) {
+        console.error('搜索失败', err)
+      }
+    }, 300)
+  },
+
+  selectPickSuggestion(e) {
+    const item = this.data.pickSuggestions[e.currentTarget.dataset.index]
+    if (!item) return
+    if (item.type === 'country') {
+      // 选国家：切到对应区域并展开该国城市卡片
+      const opt = this.data.regionOptions.find(r => r.cn === item.region)
+      this.setData({
+        pickSearchInput: '',
+        pickSuggestions: [],
+        recommendRegion: opt ? opt.value : this.data.recommendRegion,
+        pickCurrentCountry: item.name
+      })
+      if (opt) this.loadPickCountries(opt.cn)
+      this.loadPickCities(item.name)
+    } else {
+      // 选城市：直接加入已选
+      let list = this.data.selectedCities.slice()
+      if (list.indexOf(item.name) === -1) list.push(item.name)
+      this.setData({ pickSearchInput: '', pickSuggestions: [], selectedCities: list })
+      app.globalData.selectedCities = list
+    }
   },
 
   // ---- 「知道去哪」模式：自己选城（区域→国家→城市）----

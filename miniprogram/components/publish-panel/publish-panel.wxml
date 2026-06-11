@@ -36,9 +36,35 @@
 
 <!-- 智能选城模式 -->
 <block wx:if="{{inputMode === 'smart'}}">
+  <!-- 搜索直达 -->
+  <view class="card">
+    <view class="card-title">🔍 想去哪？</view>
+    <input
+      class="form-input"
+      placeholder="输入国家或城市，如：法国、巴黎"
+      value="{{cityInput}}"
+      bindinput="onCityInput"
+      bindconfirm="addManualCity"
+    />
+    <!-- 搜索建议 -->
+    <view wx:if="{{searchResults.length > 0}}" class="search-results">
+      <view
+        wx:for="{{searchResults}}"
+        wx:key="index"
+        class="search-item"
+        bindtap="selectSearchSuggestion"
+        data-index="{{index}}"
+      >
+        <text class="sug-name">{{item.type === 'country' ? '🌍 ' : '📍 '}}{{item.name}}</text>
+        <text class="sug-meta" wx:if="{{item.type === 'country'}}">{{item.region}} · 看该国城市</text>
+        <text class="sug-meta" wx:else>{{item.country}}{{item.days ? ' · 建议' + item.days + '天' : ''}}</text>
+      </view>
+    </view>
+  </view>
+
   <!-- 选择区域 -->
   <view class="card">
-    <view class="card-title">1. 选择区域</view>
+    <view class="card-title">或者逛逛：1. 选择区域</view>
     <view class="region-list">
       <view
         wx:for="{{regions}}"
@@ -80,28 +106,6 @@
         <view class="city-info">{{item.recommended_days}}天 · {{item.best_season}}</view>
       </view>
       <view wx:if="{{cities.length === 0}}" class="hint-text">请先选择国家</view>
-    </view>
-
-    <!-- 手动输入 -->
-    <view class="form-group" style="margin-top: 20rpx;">
-      <view class="form-label">或手动输入</view>
-      <input
-        class="form-input"
-        placeholder="输入城市名，点击添加"
-        value="{{cityInput}}"
-        bindinput="onCityInput"
-        bindconfirm="addManualCity"
-      />
-      <!-- 搜索建议 -->
-      <view wx:if="{{searchResults.length > 0}}" class="search-results">
-        <view
-          wx:for="{{searchResults}}"
-          wx:key="*this"
-          class="search-item"
-          bindtap="selectSearchCity"
-          data-name="{{item}}"
-        >{{item}}</view>
-      </view>
     </view>
 
     <!-- 已选城市 -->

@@ -87,6 +87,29 @@
       <view class="card-title">选择目的地</view>
 
       <view class="form-group">
+        <view class="form-label">🔍 想去哪？</view>
+        <input
+          class="form-input"
+          placeholder="输入国家或城市，如：法国、巴黎"
+          value="{{pickSearchInput}}"
+          bindinput="onPickSearchInput"
+        />
+        <view wx:if="{{pickSuggestions.length > 0}}" class="search-results">
+          <view
+            wx:for="{{pickSuggestions}}"
+            wx:key="index"
+            class="search-item"
+            bindtap="selectPickSuggestion"
+            data-index="{{index}}"
+          >
+            <text class="sug-name">{{item.type === 'country' ? '🌍 ' : '📍 '}}{{item.name}}</text>
+            <text class="sug-meta" wx:if="{{item.type === 'country'}}">{{item.region}} · 看该国城市</text>
+            <text class="sug-meta" wx:else>{{item.country}}{{item.days ? ' · 建议' + item.days + '天' : ''}}</text>
+          </view>
+        </view>
+      </view>
+
+      <view class="form-group">
         <view class="form-label">区域</view>
         <view class="region-list">
           <view

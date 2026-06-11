@@ -300,3 +300,31 @@
   margin: 16rpx 0;
   opacity: 0.7;
 }
+
+/* 目的地搜索联想 */
+.search-results {
+  border: 1rpx solid var(--c-border);
+  border-top: none;
+  border-radius: 0 0 12rpx 12rpx;
+  max-height: 400rpx;
+  overflow-y: auto;
+  background: var(--c-card);
+}
+
+.search-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16rpx 20rpx;
+  border-bottom: 1rpx solid var(--c-border-soft);
+  font-size: 26rpx;
+}
+
+.sug-name {
+  font-weight: 500;
+}
+
+.sug-meta {
+  font-size: 22rpx;
+  color: var(--c-text-muted);
+}
