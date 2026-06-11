@@ -268,3 +268,35 @@
   background: var(--c-soft);
   border-radius: 8rpx;
 }
+
+.day-images {
+  white-space: nowrap;
+  margin-bottom: 10rpx;
+}
+
+.day-image-wrap {
+  display: inline-block;
+  margin-right: 12rpx;
+}
+
+.day-image {
+  width: 320rpx;
+  height: 200rpx;
+  border-radius: 8rpx;
+  background: var(--c-soft);
+}
+
+.day-image-name {
+  font-size: 22rpx;
+  color: var(--c-text-sub);
+  text-align: center;
+  margin-top: 4rpx;
+}
+
+.image-credit {
+  font-size: 20rpx;
+  color: var(--c-text-sub);
+  text-align: center;
+  margin: 16rpx 0;
+  opacity: 0.7;
+}

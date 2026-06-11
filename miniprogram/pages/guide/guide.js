@@ -74,6 +74,22 @@ Page({
     errorMsg: ''
   },
 
+  // 点图放大预览，同一天的图可左右滑
+  previewDayImage(e) {
+    const { images, url } = e.currentTarget.dataset
+    wx.previewImage({ current: url, urls: (images || []).map(p => p.url) })
+  },
+
+  // 行程里 images 的相对路径转完整 URL
+  resolveItineraryImages(itinerary) {
+    return (itinerary || []).map(d => {
+      if (Array.isArray(d.images) && d.images.length) {
+        d.images = d.images.map(p => ({ ...p, url: api.imageUrl(p.url) }))
+      }
+      return d
+    })
+  },
+
   onLoad() {
     this.loadRecommendCountries('欧洲')
   },
@@ -88,7 +104,7 @@ Page({
       this.setData({
         route: r,
         routeCities: Array.isArray(r.cities) ? r.cities : [],
-        routeItinerary: Array.isArray(r.itinerary) ? r.itinerary : []
+        routeItinerary: this.resolveItineraryImages(Array.isArray(r.itinerary) ? r.itinerary : [])
       })
     }
     // onShow 也调用一次，确保切换 tab 后也能加载
@@ -336,7 +352,7 @@ Page({
 
       const route = res.route || null
       const routeCities = (route && Array.isArray(route.cities)) ? route.cities : []
-      const routeItinerary = (route && Array.isArray(route.itinerary)) ? route.itinerary : []
+      const routeItinerary = this.resolveItineraryImages((route && Array.isArray(route.itinerary)) ? route.itinerary : [])
       app.globalData.generatedRoute = route
       this.setData({ route, routeCities, routeItinerary, loading: false })
     } catch (err) {

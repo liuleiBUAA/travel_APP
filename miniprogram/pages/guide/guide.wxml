@@ -221,8 +221,16 @@
         <view class="day-stay">{{item.stay}}</view>
       </view>
       <view class="day-activity">{{item.activity}}</view>
+      <scroll-view wx:if="{{item.images && item.images.length}}" class="day-images" scroll-x>
+        <view wx:for="{{item.images}}" wx:for-item="pic" wx:key="url" class="day-image-wrap">
+          <image class="day-image" src="{{pic.url}}" mode="aspectFill" lazy-load
+                 data-images="{{item.images}}" data-url="{{pic.url}}" bindtap="previewDayImage" />
+          <view class="day-image-name">{{pic.name}}</view>
+        </view>
+      </scroll-view>
       <view class="day-transport">{{item.transport}}</view>
     </view>
+    <view wx:if="{{routeItinerary.length}}" class="image-credit">景点图片来自 Wikimedia Commons（CC 许可）</view>
   </view>
 
   <view wx:if="{{errorMsg}}" class="msg-error">{{errorMsg}}</view>

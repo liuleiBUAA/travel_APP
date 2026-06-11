@@ -63,6 +63,12 @@ from models import User
 
 app = FastAPI(title="找搭子小程序API", version="1.0.0")
 
+# 景点图片静态托管。挂在 /api/ 下是为了复用 nginx 现有的 /api/ 代理，生产不用改 nginx
+from fastapi.staticfiles import StaticFiles
+_attractions_dir = Path(__file__).parent.parent / "travel_guide" / "data" / "images"
+if _attractions_dir.exists():
+    app.mount("/api/static/attractions", StaticFiles(directory=str(_attractions_dir)), name="attractions")
+
 # CORS配置 - 修复：使用白名单替代 *
 ALLOWED_ORIGINS = [
     "https://ht.awesometravelpartner.cn",

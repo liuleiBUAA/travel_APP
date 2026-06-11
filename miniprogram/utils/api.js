@@ -31,7 +31,15 @@ function request(url, method, data) {
   })
 }
 
+// 后端返回的图片路径是 /api/static/... 的相对路径，拼上域名
+const ORIGIN = BASE_URL.replace(/\/api$/, '')
+function imageUrl(path) {
+  if (!path) return ''
+  return path.indexOf('http') === 0 ? path : ORIGIN + path
+}
+
 module.exports = {
+  imageUrl,
   // 认证
   wxLogin(code, nickname, avatarUrl) {
     return request('/auth/wx-login', 'POST', { code, nickname, avatar_url: avatarUrl })

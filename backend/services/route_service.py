@@ -12,6 +12,8 @@ from functools import lru_cache
 travel_guide_path = Path(__file__).parent.parent.parent / "travel_guide"
 sys.path.insert(0, str(travel_guide_path))
 
+from services.image_service import get_image_index
+
 from src.core.route_planner import TravelEngine
 from src.core.recommend_smart import (
     get_all_destinations,
@@ -35,6 +37,16 @@ class RouteService:
         self.coordinates = load_coordinates(base_dir=base_dir)
         self.city_mapping = load_city_mapping(base_dir=base_dir)
         print(f"✅ [RouteService] 已加载 {len(self.destinations)} 个目的地")
+
+    @staticmethod
+    def _attach_images(itinerary: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """给每天的行程按 activity 文本匹配景点图片（无图时不加字段）"""
+        index = get_image_index()
+        for day in itinerary:
+            images = index.match(day.get("activity", ""))
+            if images:
+                day["images"] = images
+        return itinerary
 
     @staticmethod
     def _make_cache_key(cities: List[str], **kwargs) -> str:
@@ -184,7 +196,7 @@ class RouteService:
                 "cities": optimized_nodes,
                 "city_count": len(optimized_nodes),
                 "total_days": total_days,
-                "itinerary": itinerary,
+                "itinerary": self._attach_images(itinerary),
                 "days_per_city": days_per_city,
                 "unique_cities": unique_cities,
                 "description": f"{' → '.join(optimized_nodes)} 共{total_days}天",
@@ -332,7 +344,7 @@ class RouteService:
                 "input_cities": cities,  # 保留用户输入的顺序（供参考）
                 "city_count": len(optimized_cities),
                 "total_days": total_days,
-                "itinerary": itinerary,  # ⭐完整的Day-by-Day行程
+                "itinerary": self._attach_images(itinerary),  # ⭐完整的Day-by-Day行程
                 "days_per_city": days_per_city,
                 "unique_cities": unique_cities,
                 "description": f"{' → '.join(optimized_cities)} 共{total_days}天，含详细行程",
@@ -390,7 +402,7 @@ class RouteService:
             "cities": cities,
             "city_count": len(cities),
             "total_days": total_days,
-            "itinerary": itinerary,
+            "itinerary": self._attach_images(itinerary),
             "cities_detail": cities_detail,
             "description": f"{' → '.join(cities)} 共{total_days}天"
         }
@@ -747,7 +759,7 @@ class RouteService:
             "city_count": len(cities),
             "total_days": len(itinerary),
             "days_per_city": days_per_city,
-            "itinerary": itinerary,  # 完整行程
+            "itinerary": self._attach_images(itinerary),  # 完整行程
             "cities_detail": [
                 {
                     "name": city,
