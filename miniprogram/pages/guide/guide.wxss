@@ -359,3 +359,8 @@
   border-radius: 999rpx;
   padding: 6rpx 20rpx;
 }
+
+.city-guide-link {
+  background: rgba(255, 107, 92, 0.16);
+  font-weight: 500;
+}

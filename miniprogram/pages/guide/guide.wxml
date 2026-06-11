@@ -245,7 +245,13 @@
         <view class="day-stay">{{item.stay}}</view>
       </view>
       <view class="day-activity">{{item.activity}}</view>
-      <view wx:if="{{item.playbooks && item.playbooks.length}}" class="day-playbooks">
+      <view wx:if="{{item.city_guide || (item.playbooks && item.playbooks.length)}}" class="day-playbooks">
+        <view
+          wx:if="{{item.city_guide}}"
+          class="playbook-link city-guide-link"
+          bindtap="openPlaybook"
+          data-name="{{item.city_guide.name}}"
+        >🏙 {{item.city_guide.name}}城市攻略 ›</view>
         <view
           wx:for="{{item.playbooks}}"
           wx:for-item="pb"

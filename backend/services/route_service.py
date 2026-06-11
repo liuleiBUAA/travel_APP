@@ -40,11 +40,13 @@ class RouteService:
 
     @staticmethod
     def _attach_images(itinerary: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """给每天的行程按 activity 文本匹配景点图片和玩法入口（无则不加字段）"""
+        """给每天的行程按 activity 文本匹配景点图片和玩法入口（无则不加字段）；
+        有城市攻略的城市，在它停留的第一天挂 city_guide 入口"""
         from services.playbook_service import get_playbook_index
         index = get_image_index()
         pb_index = get_playbook_index()
         seen = set()  # 整个行程内同一张图只出现一次（跨天去重）
+        guided_cities = set()  # 同一城市的攻略入口只在第一天出现
         for day in itinerary:
             images = index.match(day.get("activity", ""), seen=seen)
             if images:
@@ -52,6 +54,11 @@ class RouteService:
             playbooks = pb_index.match(day.get("activity", ""))
             if playbooks:
                 day["playbooks"] = playbooks
+            stay = day.get("stay", "")
+            city_pb = pb_index.get_city(stay) if stay not in guided_cities else None
+            if city_pb:
+                guided_cities.add(stay)
+                day["city_guide"] = {"name": city_pb["name"], "summary": city_pb.get("summary", "")}
         return itinerary
 
     @staticmethod
