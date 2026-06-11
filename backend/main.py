@@ -238,6 +238,7 @@ class UpdateProfileRequest(BaseModel):
     accommodation_pref: Optional[str] = None
     driving: Optional[str] = None
     tags: Optional[str] = None
+    wechat_id: Optional[str] = None
 
 
 # 名片选择字段的合法值（"" 表示清空）
@@ -264,6 +265,18 @@ def _profile_card_dict(user: User) -> dict:
 class CommentCreateRequest(BaseModel):
     """发表留言请求"""
     content: str
+
+
+class ExchangeCreateRequest(BaseModel):
+    """发起交换微信申请"""
+    companion_id: int
+    to_user_id: int
+    message: Optional[str] = None
+
+
+class ExchangeHandleRequest(BaseModel):
+    """处理交换申请：accept / reject"""
+    action: str
 
 
 # ==================== API路由 ====================
@@ -319,6 +332,7 @@ async def get_me(current_user: User = Depends(get_current_user_from_token)):
         "nickname": current_user.nickname,
         "avatar_url": current_user.avatar_url,
         "gender": current_user.gender,
+        "wechat_id": getattr(current_user, "wechat_id", None),
         **_profile_card_dict(current_user)
     }
 
@@ -392,6 +406,13 @@ async def api_update_profile(req: UpdateProfileRequest, current_user: User = Dep
                 raise HTTPException(status_code=400, detail="标签最多10个")
             user.tags = ",".join(tag_list) or None
 
+        # 微信号（私密字段，传 "" 清空）
+        if req.wechat_id is not None:
+            wechat = req.wechat_id.strip()
+            if len(wechat) > 100:
+                raise HTTPException(status_code=400, detail="微信号过长")
+            user.wechat_id = wechat or None
+
         db.commit()
         db.refresh(user)
 
@@ -401,6 +422,7 @@ async def api_update_profile(req: UpdateProfileRequest, current_user: User = Dep
             "nickname": user.nickname,
             "avatar_url": user.avatar_url,
             "gender": user.gender,
+            "wechat_id": getattr(user, "wechat_id", None),
             **_profile_card_dict(user)
         }
     except HTTPException:
@@ -531,11 +553,18 @@ async def publish_companion(request: CompanionPublishRequest, current_user: User
             good_at_photo=request.good_at_photo,
             user_male_count=request.user_male_count,
             user_female_count=request.user_female_count,
-            contact_wechat=(request.contact_wechat or '').strip()[:100] or None,
             preferences=json.dumps(request.preferences or {}, ensure_ascii=False)
         )
 
         db.add(companion)
+
+        # 兼容老版本客户端：发布时带的微信号存入用户私密字段（帖子上不再展示）
+        wechat = (request.contact_wechat or '').strip()[:100]
+        if wechat:
+            publisher = db.query(User).filter(User.id == current_user.id).first()
+            if publisher and not getattr(publisher, "wechat_id", None):
+                publisher.wechat_id = wechat
+
         db.commit()
         db.refresh(companion)
 
@@ -929,10 +958,6 @@ async def get_companion_detail(companion_id: int, current_user: Optional[User] =
         except (ValueError, TypeError):
             pass
 
-        # 联系方式仅登录用户可见，未登录返回 None（前端显示"登录后查看"）
-        contact = getattr(companion, "contact_wechat", None)
-        contact_visible = current_user is not None
-
         return {
             "success": True,
             "data": {
@@ -940,8 +965,6 @@ async def get_companion_detail(companion_id: int, current_user: Optional[User] =
                 "user_id": companion.user_id,
                 "user_name": display_name,
                 "author": author,
-                "contact_wechat": contact if contact_visible else None,
-                "has_contact": bool(contact),
                 "is_mine": current_user is not None and str(current_user.id) == str(companion.user_id),
                 "route": json.loads(companion.route_json),
                 "travel_date": companion.travel_date.strftime("%Y-%m-%d"),
@@ -1142,6 +1165,219 @@ async def delete_comment(comment_id: int, current_user: User = Depends(get_curre
     except Exception as e:
         db.rollback()
         raise HTTPException(500, f"删除失败: {str(e)}")
+    finally:
+        db.close()
+
+
+# ==================== 交换微信 ====================
+
+EXCHANGE_DAILY_LIMIT = 20          # 每人每天最多发起申请数
+EXCHANGE_REJECT_COOLDOWN_DAYS = 7  # 被拒后对同一人冷却天数
+
+
+def _exchange_dict(ex, db, me_id: int) -> dict:
+    """交换申请的对外序列化；accepted 时附上对方微信号"""
+    other_id = ex.to_user_id if ex.from_user_id == me_id else ex.from_user_id
+    other = db.query(User).filter(User.id == other_id).first()
+    item = {
+        "exchange_id": ex.id,
+        "companion_id": ex.companion_id,
+        "from_user_id": ex.from_user_id,
+        "to_user_id": ex.to_user_id,
+        "is_sender": ex.from_user_id == me_id,
+        "message": ex.message,
+        "status": ex.status,
+        "created_at": ex.created_at.strftime("%Y-%m-%d %H:%M") if ex.created_at else "",
+        "other": None,
+        "other_wechat_id": None,
+    }
+    if other:
+        item["other"] = {
+            "user_id": other.id,
+            "nickname": other.nickname,
+            "avatar_url": other.avatar_url,
+            **_profile_card_dict(other)
+        }
+        if ex.status == "accepted":
+            item["other_wechat_id"] = getattr(other, "wechat_id", None)
+    return item
+
+
+@app.post("/api/exchanges")
+async def create_exchange(req: ExchangeCreateRequest, current_user: User = Depends(get_current_user_from_token)):
+    """发起交换微信申请（帖主和留言者都可发起）"""
+    db = next(get_db())
+    try:
+        from models import ContactExchange, Companion, Comment
+
+        me = db.query(User).filter(User.id == current_user.id).first()
+        if not me:
+            raise HTTPException(401, "用户不存在")
+        if not getattr(me, "wechat_id", None):
+            raise HTTPException(400, "请先在「我的旅行名片」里填写你的微信号")
+        if req.to_user_id == me.id:
+            raise HTTPException(400, "不能和自己交换微信")
+
+        target = db.query(User).filter(User.id == req.to_user_id).first()
+        if not target:
+            raise HTTPException(404, "对方用户不存在")
+
+        companion = db.query(Companion).filter(Companion.id == req.companion_id).first()
+        if not companion:
+            raise HTTPException(404, "行程不存在")
+
+        # 双方必须与该帖相关：帖主，或在帖下留过言
+        def related(uid: int) -> bool:
+            if str(companion.user_id) == str(uid):
+                return True
+            return db.query(Comment).filter(
+                Comment.companion_id == companion.id,
+                Comment.user_id == str(uid)
+            ).first() is not None
+
+        if not related(me.id) or not related(target.id):
+            raise HTTPException(400, "请先在帖子下留言聊一聊，再申请交换微信")
+
+        # 同一对用户同一帖子：已通过则不必重复；有待处理则不能重发
+        existing = db.query(ContactExchange).filter(
+            ContactExchange.companion_id == companion.id,
+            ((ContactExchange.from_user_id == me.id) & (ContactExchange.to_user_id == target.id)) |
+            ((ContactExchange.from_user_id == target.id) & (ContactExchange.to_user_id == me.id))
+        ).order_by(ContactExchange.created_at.desc()).first()
+        if existing:
+            if existing.status == "accepted":
+                raise HTTPException(400, "你们已经交换过微信了，去「我的搭子」查看")
+            if existing.status == "pending":
+                if existing.from_user_id == me.id:
+                    raise HTTPException(400, "申请已发出，等待对方处理")
+                raise HTTPException(400, "对方已向你发出申请，去「我的搭子」处理即可")
+            # rejected：冷却期内不能再发
+            if existing.from_user_id == me.id and existing.handled_at:
+                cooldown_end = existing.handled_at + timedelta(days=EXCHANGE_REJECT_COOLDOWN_DAYS)
+                if datetime.now() < cooldown_end:
+                    raise HTTPException(400, f"对方暂未同意，{EXCHANGE_REJECT_COOLDOWN_DAYS}天后可再次申请")
+
+        # 每日发起上限
+        today_start = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)
+        today_count = db.query(ContactExchange).filter(
+            ContactExchange.from_user_id == me.id,
+            ContactExchange.created_at >= today_start
+        ).count()
+        if today_count >= EXCHANGE_DAILY_LIMIT:
+            raise HTTPException(400, "今日申请次数已用完，明天再来吧")
+
+        message = (req.message or "").strip()[:200]
+        if message:
+            check = msg_sec_check(message, me.openid, scene=2)
+            if not check["pass"]:
+                raise HTTPException(400, "附言包含违规内容，请修改")
+
+        ex = ContactExchange(
+            companion_id=companion.id,
+            from_user_id=me.id,
+            to_user_id=target.id,
+            message=message or None,
+            status="pending"
+        )
+        db.add(ex)
+        db.commit()
+        db.refresh(ex)
+        return {"success": True, "data": _exchange_dict(ex, db, me.id)}
+    except HTTPException:
+        db.rollback()
+        raise
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(500, f"申请失败: {str(e)}")
+    finally:
+        db.close()
+
+
+@app.post("/api/exchanges/{exchange_id}/handle")
+async def handle_exchange(exchange_id: int, req: ExchangeHandleRequest,
+                          current_user: User = Depends(get_current_user_from_token)):
+    """同意/拒绝交换申请（仅接收方）；同意后双方互见微信号"""
+    if req.action not in ("accept", "reject"):
+        raise HTTPException(400, "action 必须是 accept 或 reject")
+    db = next(get_db())
+    try:
+        from models import ContactExchange
+
+        ex = db.query(ContactExchange).filter(ContactExchange.id == exchange_id).first()
+        if not ex:
+            raise HTTPException(404, "申请不存在")
+        if ex.to_user_id != current_user.id:
+            raise HTTPException(403, "只能处理发给你的申请")
+        if ex.status != "pending":
+            raise HTTPException(400, "该申请已处理过")
+
+        if req.action == "accept":
+            me = db.query(User).filter(User.id == current_user.id).first()
+            if not getattr(me, "wechat_id", None):
+                raise HTTPException(400, "请先在「我的旅行名片」里填写你的微信号，再同意交换")
+
+        ex.status = "accepted" if req.action == "accept" else "rejected"
+        ex.handled_at = datetime.now()
+        db.commit()
+        db.refresh(ex)
+        return {"success": True, "data": _exchange_dict(ex, db, current_user.id)}
+    except HTTPException:
+        db.rollback()
+        raise
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(500, f"处理失败: {str(e)}")
+    finally:
+        db.close()
+
+
+@app.get("/api/exchanges/my")
+async def list_my_exchanges(current_user: User = Depends(get_current_user_from_token)):
+    """我的交换列表：收到的待处理 / 我发出的 / 已交换成功"""
+    db = next(get_db())
+    try:
+        from models import ContactExchange
+
+        rows = db.query(ContactExchange).filter(
+            (ContactExchange.from_user_id == current_user.id) |
+            (ContactExchange.to_user_id == current_user.id)
+        ).order_by(ContactExchange.created_at.desc()).limit(100).all()
+
+        received, sent, accepted = [], [], []
+        for ex in rows:
+            item = _exchange_dict(ex, db, current_user.id)
+            if ex.status == "accepted":
+                accepted.append(item)
+            elif ex.to_user_id == current_user.id and ex.status == "pending":
+                received.append(item)
+            elif ex.from_user_id == current_user.id:
+                sent.append(item)
+        return {"success": True, "received": received, "sent": sent, "accepted": accepted}
+    except Exception as e:
+        raise HTTPException(500, f"查询失败: {str(e)}")
+    finally:
+        db.close()
+
+
+@app.get("/api/exchanges/status")
+async def get_exchange_status(companion_id: int, other_user_id: int,
+                              current_user: User = Depends(get_current_user_from_token)):
+    """查询当前用户与某人在某帖下的交换状态（前端按钮态用）"""
+    db = next(get_db())
+    try:
+        from models import ContactExchange
+
+        ex = db.query(ContactExchange).filter(
+            ContactExchange.companion_id == companion_id,
+            ((ContactExchange.from_user_id == current_user.id) & (ContactExchange.to_user_id == other_user_id)) |
+            ((ContactExchange.from_user_id == other_user_id) & (ContactExchange.to_user_id == current_user.id))
+        ).order_by(ContactExchange.created_at.desc()).first()
+
+        if not ex:
+            return {"success": True, "status": "none", "data": None}
+        return {"success": True, "status": ex.status, "data": _exchange_dict(ex, db, current_user.id)}
+    except Exception as e:
+        raise HTTPException(500, f"查询失败: {str(e)}")
     finally:
         db.close()
 

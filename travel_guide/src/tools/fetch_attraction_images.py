@@ -140,48 +140,65 @@ def title_matches(attraction, title):
     return a in t or t in a
 
 
-def page_ok(attraction, page, bbox, trusted_redirect):
+def in_bbox(page, bbox):
+    if not (bbox and page["coords"]):
+        return None  # 无法判断
+    lat, lon = page["coords"]
+    lat_min, lat_max, lon_min, lon_max = bbox
+    return lat_min <= lat <= lat_max and lon_min <= lon <= lon_max
+
+
+def page_trusted(attraction, page, bbox, trusted_redirect):
     """词条是否可信。地理校验优先：有坐标必须落在 bbox 内；
     精确查询（维基自己的重定向，如"安纳西"→"阿讷西"）坐标对了就信，
     全文搜索结果还要求标题和景点名对得上（防"断桥"搜出不相干词条）。"""
-    if page is None or not page["image"]:
+    if page is None:
         return False
-    if bbox and page["coords"]:
-        lat, lon = page["coords"]
-        lat_min, lat_max, lon_min, lon_max = bbox
-        if not (lat_min <= lat <= lat_max and lon_min <= lon <= lon_max):
-            return False
-        if trusted_redirect:
-            return True
+    geo = in_bbox(page, bbox)
+    if geo is False:
+        return False
+    if geo is True and trusted_redirect:
+        return True
     return title_matches(attraction, page["title"])
 
 
 def fetch_one(city, attraction, bbox=None):
     """返回 manifest 条目 dict（含 source 说明命中方式）或 None。配错比留空伤害大。"""
-    # 先精确标题查询（重定向可信）；两字泛称跳过（"断桥"会撞到杭州西湖断桥）
+    # 候选词条：先精确标题查询（重定向可信；两字泛称跳过，"断桥"会撞到杭州西湖断桥），
+    # 再按上下文全文搜索——城市主名 + 括号里的每个地名，
+    # 如 "普罗旺斯（阿维尼翁/马赛）" → ["普罗旺斯", "阿维尼翁", "马赛"]
     page = None
     if len(attraction) >= 3:
-        page = zh_wiki_exact(attraction)
-        if not page_ok(attraction, page, bbox, trusted_redirect=True):
-            page = None
+        cand = zh_wiki_exact(attraction)
         time.sleep(DELAY)
-    # 无果则全文搜索，上下文用城市主名 + 括号里的每个地名，
-    # 如 "普罗旺斯（阿维尼翁/马赛）" → ["普罗旺斯", "阿维尼翁", "马赛"]
-    if page is None:
+        if page_trusted(attraction, cand, bbox, trusted_redirect=True):
+            page = cand
+    if page is None or not page["image"]:
         contexts = [re.sub(r"[（(].*?[)）]", "", city).strip()]
         for paren in re.findall(r"[（(](.*?)[)）]", city):
             contexts += [p.strip() for p in paren.split("/") if p.strip()]
         for ctx in contexts:
             cand = zh_wiki_lookup(f"{attraction} {ctx}")
             time.sleep(DELAY)
-            if page_ok(attraction, cand, bbox, trusted_redirect=False):
-                page = cand
-                break
-    if page:
+            if page_trusted(attraction, cand, bbox, trusted_redirect=False):
+                if cand["image"] or page is None:
+                    page = cand
+                if page["image"]:
+                    break
+    if page and page["image"]:
         info = commons_imageinfo(page["image"])
         if info:
             info["source"] = f"zhwiki:{page['title']}"
             return info
+    # 可信词条但无主图（或主图是 SVG）：用英文名搜 Commons 兜底
+    if page and page["en"]:
+        time.sleep(DELAY)
+        f = commons_search(page["en"])
+        if f:
+            info = commons_imageinfo(f)
+            if info:
+                info["source"] = f"commons-search:{page['en']}"
+                return info
     return None
 
 

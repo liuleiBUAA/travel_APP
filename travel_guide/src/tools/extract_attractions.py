@@ -21,6 +21,9 @@ GENERIC_ALONE = {
     "老城漫步", "市区", "市中心", "漫步", "湖", "山",
 }
 
+# 连锁品牌景点：单独搜会命中品牌词条（"迪士尼"→华特迪士尼公司），搜索词前面拼上城市名
+BRAND_NAMES = {"迪士尼", "环球影城", "乐高乐园", "迪士尼乐园"}
+
 SEPARATORS = re.compile(r"[、，,;；/]|\s+或\s+")
 ARROW = re.compile(r"[→\-]>?|至|前往")
 
@@ -49,6 +52,8 @@ def extract(paths):
                         continue
                     if name in GENERIC_ALONE:
                         continue
+                    if name in BRAND_NAMES:
+                        name = re.sub(r"[（(].*?[)）]", "", city).strip() + name
                     key = (city, name)
                     if key in seen:
                         continue
