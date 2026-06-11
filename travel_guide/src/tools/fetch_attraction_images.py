@@ -1,12 +1,13 @@
 """为景点清单批量抓图（Wikimedia）。
 
 用法:
-    python3 fetch_attraction_images.py <attractions.json> <输出目录>
+    python3 fetch_attraction_images.py <attractions.json> <输出目录> [bbox]
 
-策略（按命中质量排序）:
-1. 中文维基百科搜词条 → 取词条主图（匹配度最高）
-2. 词条无主图时，用词条的英文名搜 Wikimedia Commons
-3. 都没有则留空
+    bbox: 可选地理围栏 "lat_min,lat_max,lon_min,lon_max"（如法国 "41,51.5,-5.6,9.8"），
+          词条带坐标但落在围栏外的直接判为配错，丢弃。
+
+策略: 中文维基精确查词条（信任重定向）→ 全文搜索（景点+城市，严格校验标题）
+      → 取词条主图。都没有则留空——配错比留空伤害大。
 
 每张图记录许可证和作者（extmetadata），写入 <输出目录>/manifest.json。
 """
@@ -45,9 +46,12 @@ def api(url):
         return json.loads(r.read())
 
 
+PROPS = "&prop=pageimages|langlinks|coordinates&piprop=name&lllang=en&colimit=1"
+
+
 def _parse_page(page):
-    title = page.get("title")
-    image = page.get("pageimage")  # 文件名，不带 File: 前缀
+    """返回 {title, image, en, coords}，image 为主图文件名（SVG 视为无图）。"""
+    image = page.get("pageimage")
     # SVG 主图基本都是 logo/地图，不是景点照片
     if image and image.lower().endswith(".svg"):
         image = None
@@ -55,31 +59,32 @@ def _parse_page(page):
     for ll in page.get("langlinks", []):
         if ll.get("lang") == "en":
             en = ll.get("*")
-    return title, image, en
+    coords = None
+    for c in page.get("coordinates", []):
+        coords = (c["lat"], c["lon"])
+    return {"title": page.get("title"), "image": image, "en": en, "coords": coords}
 
 
 def zh_wiki_exact(title):
-    """精确标题查词条（带重定向+繁简转换）。返回 (标题, 主图, 英文名)。"""
+    """精确标题查词条（带重定向+繁简转换）。返回 page dict 或 None。"""
     q = urllib.parse.quote(title)
     data = api(f"https://zh.wikipedia.org/w/api.php?action=query&format=json"
-               f"&titles={q}&redirects=1&converttitles=1"
-               f"&prop=pageimages|langlinks&piprop=name&lllang=en")
+               f"&titles={q}&redirects=1&converttitles=1{PROPS}")
     pages = data.get("query", {}).get("pages", {})
     for pid, page in pages.items():
         if int(pid) > 0 and "missing" not in page:
             return _parse_page(page)
-    return None, None, None
+    return None
 
 
 def zh_wiki_lookup(query):
-    """中文维基全文搜索，返回 (页面标题, 主图文件名, 英文标题)。"""
+    """中文维基全文搜索，返回 page dict 或 None。"""
     q = urllib.parse.quote(query)
     data = api(f"https://zh.wikipedia.org/w/api.php?action=query&format=json"
-               f"&generator=search&gsrsearch={q}&gsrlimit=1"
-               f"&prop=pageimages|langlinks&piprop=name&lllang=en")
+               f"&generator=search&gsrsearch={q}&gsrlimit=1{PROPS}")
     pages = data.get("query", {}).get("pages", {})
     if not pages:
-        return None, None, None
+        return None
     return _parse_page(next(iter(pages.values())))
 
 
@@ -135,50 +140,52 @@ def title_matches(attraction, title):
     return a in t or t in a
 
 
-def fetch_one(city, attraction):
-    """返回 manifest 条目 dict（含 source 说明命中方式）或 None。
+def page_ok(attraction, page, bbox, trusted_redirect):
+    """词条是否可信。地理校验优先：有坐标必须落在 bbox 内；
+    精确查询（维基自己的重定向，如"安纳西"→"阿讷西"）坐标对了就信，
+    全文搜索结果还要求标题和景点名对得上（防"断桥"搜出不相干词条）。"""
+    if page is None or not page["image"]:
+        return False
+    if bbox and page["coords"]:
+        lat, lon = page["coords"]
+        lat_min, lat_max, lon_min, lon_max = bbox
+        if not (lat_min <= lat <= lat_max and lon_min <= lon <= lon_max):
+            return False
+        if trusted_redirect:
+            return True
+    return title_matches(attraction, page["title"])
 
-    先用 "景点+城市" 全文搜索并严格校验标题——城市上下文能消歧
-    （"教皇宫"直接精确查会被重定向到梵蒂冈宗座宫，带上"普罗旺斯"才搜到阿维尼翁教皇宫）；
-    搜索跑题时（"安纳西"搜出"安纳托利亚"）校验会拦下。
-    无果再做精确标题查询，信任维基自己的重定向/繁简转换（"霞慕尼"→"沙莫尼蒙勃朗"）。
-    最后回退 Commons 英文搜索。配错比留空伤害大。
-    """
-    # 搜索上下文：城市主名 + 括号里的每个地名，如 "普罗旺斯（阿维尼翁/马赛）"
-    # → ["普罗旺斯", "阿维尼翁", "马赛"]。括号里的往往才是真正的消歧词。
-    contexts = [re.sub(r"[（(].*?[)）]", "", city).strip()]
-    for paren in re.findall(r"[（(](.*?)[)）]", city):
-        contexts += [p.strip() for p in paren.split("/") if p.strip()]
-    title = image = en = None
-    for ctx in contexts:
-        title, image, en = zh_wiki_lookup(f"{attraction} {ctx}")
-        if title_matches(attraction, title) and image:
-            break
-        image = en = None
+
+def fetch_one(city, attraction, bbox=None):
+    """返回 manifest 条目 dict（含 source 说明命中方式）或 None。配错比留空伤害大。"""
+    # 先精确标题查询（重定向可信）；两字泛称跳过（"断桥"会撞到杭州西湖断桥）
+    page = None
+    if len(attraction) >= 3:
+        page = zh_wiki_exact(attraction)
+        if not page_ok(attraction, page, bbox, trusted_redirect=True):
+            page = None
         time.sleep(DELAY)
-    # 精确查询的重定向也会跑题（"教皇宫"被重定向到梵蒂冈宗座宫），同样要校验；
-    # 两字泛称连查都不查（"断桥"会撞到杭州西湖断桥）
-    if not image and len(attraction) >= 3:
-        title, image, en = zh_wiki_exact(attraction)
-        if not title_matches(attraction, title):
-            image = en = None
-    if image:
-        info = commons_imageinfo(image)
+    # 无果则全文搜索，上下文用城市主名 + 括号里的每个地名，
+    # 如 "普罗旺斯（阿维尼翁/马赛）" → ["普罗旺斯", "阿维尼翁", "马赛"]
+    if page is None:
+        contexts = [re.sub(r"[（(].*?[)）]", "", city).strip()]
+        for paren in re.findall(r"[（(](.*?)[)）]", city):
+            contexts += [p.strip() for p in paren.split("/") if p.strip()]
+        for ctx in contexts:
+            cand = zh_wiki_lookup(f"{attraction} {ctx}")
+            time.sleep(DELAY)
+            if page_ok(attraction, cand, bbox, trusted_redirect=False):
+                page = cand
+                break
+    if page:
+        info = commons_imageinfo(page["image"])
         if info:
-            info["source"] = f"zhwiki:{title}"
+            info["source"] = f"zhwiki:{page['title']}"
             return info
-    if en:
-        time.sleep(DELAY)
-        f = commons_search(en)
-        if f:
-            info = commons_imageinfo(f)
-            if info:
-                info["source"] = f"commons-search:{en}"
-                return info
     return None
 
 
-def main(attractions_path, out_dir):
+def main(attractions_path, out_dir, bbox=None):
     rows = json.load(open(attractions_path, encoding="utf-8"))
     # 断点续跑：沿用上次 manifest 里已成功的条目
     done = {}
@@ -197,7 +204,7 @@ def main(attractions_path, out_dir):
             continue
         print(f"[{i+1}/{len(rows)}] {city} / {attraction} ... ", end="", flush=True)
         try:
-            info = fetch_one(city, attraction)
+            info = fetch_one(city, attraction, bbox)
         except Exception as e:
             print(f"ERROR {e}")
             manifest.append({**row, "status": "error", "error": str(e)})
@@ -233,4 +240,5 @@ def main(attractions_path, out_dir):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2])
+    bbox = tuple(float(x) for x in sys.argv[3].split(",")) if len(sys.argv) > 3 else None
+    main(sys.argv[1], sys.argv[2], bbox)

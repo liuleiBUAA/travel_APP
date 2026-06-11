@@ -24,7 +24,7 @@ Base = declarative_base()
 
 def init_db():
     """初始化数据库表"""
-    from models import Companion, User, UserMembership, Comment  # 导入模型
+    from models import Companion, User, UserMembership, Comment, ContactExchange  # 导入模型
     Base.metadata.create_all(bind=engine)
     print(f"✅ 数据库初始化完成: {DATABASE_PATH}")
 

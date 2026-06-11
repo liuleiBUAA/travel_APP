@@ -26,6 +26,7 @@ class User(Base):
     accommodation_pref = Column(String(20), nullable=True, comment="住宿偏好：不限/可拼房/各住各的")
     driving = Column(String(20), nullable=True, comment="驾驶：不会开车/会开但尽量不开/愿意当司机")
     tags = Column(String(300), nullable=True, comment="兴趣标签（逗号分隔）：早起党/夜猫子/美食控等")
+    wechat_id = Column(String(100), nullable=True, comment="微信号（私密，仅交换成功的对方可见）")
 
     created_at = Column(DateTime, server_default=func.now())
     updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
@@ -90,6 +91,23 @@ class Comment(Base):
 
     def __repr__(self):
         return f"<Comment {self.id} on companion {self.companion_id}>"
+
+
+class ContactExchange(Base):
+    """交换微信申请表（双向：帖主和留言者都可发起）"""
+    __tablename__ = "contact_exchanges"
+
+    id = Column(Integer, primary_key=True, index=True, autoincrement=True)
+    companion_id = Column(Integer, nullable=False, index=True, comment="关联的搭子帖ID")
+    from_user_id = Column(Integer, nullable=False, index=True, comment="发起方用户ID")
+    to_user_id = Column(Integer, nullable=False, index=True, comment="接收方用户ID")
+    message = Column(String(200), nullable=True, comment="申请附言")
+    status = Column(String(20), default="pending", index=True, comment="状态: pending/accepted/rejected")
+    created_at = Column(DateTime, server_default=func.now(), comment="发起时间")
+    handled_at = Column(DateTime, nullable=True, comment="处理时间")
+
+    def __repr__(self):
+        return f"<ContactExchange {self.id}: {self.from_user_id}->{self.to_user_id} {self.status}>"
 
 
 class UserMembership(Base):
