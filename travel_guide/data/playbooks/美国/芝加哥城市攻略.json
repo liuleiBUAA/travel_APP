@@ -1,0 +1,32 @@
+{
+  "name": "芝加哥",
+  "type": "city",
+  "aliases": [],
+  "city": "芝加哥",
+  "country": "美国",
+  "summary": "摩天楼建筑+密歇根湖滨+深盘披萨，核心景点集中在Loop和湖边；建筑游船是头牌体验，两三天能玩透。",
+  "sections": [
+    {
+      "title": "到达与市内交通",
+      "content": "奥黑尔机场（ORD）坐地铁蓝线约45分钟直达市中心Loop，5美元；中途点（Midway）机场坐橙线约25分钟。市内轨交叫「L」（高架铁路），闸机直接刷手机或信用卡（Ventra系统），单程2.5美元。Loop、千禧公园、海军码头都在步行范围；湖滨步道（Lakefront Trail）租Divvy共享单车骑行最爽。冬天风大温度低，景点间多利用Pedway地下通道。"
+    },
+    {
+      "title": "住宿建议",
+      "content": "Loop（市中心环线内）步行到千禧公园和艺术博物馆，商务酒店多，周末常有低价。River North餐厅酒吧密集，离地标近，是游客住宿首选区。Magnificent Mile（密歇根大道北段）购物方便，酒店偏高端。预算紧住South Loop，安静且地铁方便。3星周中150美元上下能搞定，比纽约友好得多。夜间避免独自前往南区（South Side）大部分区域。"
+    },
+    {
+      "title": "必看与通票",
+      "content": "建筑游船（Architecture River Cruise）是芝加哥第一体验，首选Chicago Architecture Center官方船或Wendella，旺季提前在线订，傍晚班次能看夕阳打在楼群上。云门（The Bean）在千禧公园免费随时看，清晨人最少。登高二选一：Willis Tower的Skydeck玻璃盒或360 Chicago（原Hancock楼，有Tilt倾斜舱）。芝加哥艺术博物馆全美顶级（《美国哥特式》《大碗岛》都在这），留半天。CityPASS约139美元含5项，玩满3项以上才划算。"
+    },
+    {
+      "title": "美食",
+      "content": "深盘披萨（Deep Dish）必打卡：Lou Malnati's、Giordano's、Pequod's（焦边派）任选一家，现烤要等40分钟，进店先点单再落座聊天；一个small够两人吃。芝加哥热狗（绝不放番茄酱）街头摊5美元解决。Italian Beef三明治（《大熊餐厅》同款）试Al's Beef。West Loop的Randolph街是新派餐厅一条街，Girl & the Goat等热店需提前订位。"
+    },
+    {
+      "title": "实用贴士",
+      "content": "「风城」名不虚传，湖边任何季节都比市区冷，多带一层。夏天（6-8月）是黄金季：湖滨沙滩、免费音乐节、海军码头周末烟花全开。冬天极寒可至零下20度，11月底到12月有圣诞市集可以一搏。治安两极：游客区（Loop、北区、湖滨）白天很安全，但远离西区南区的偏僻街区，深夜打车回酒店。"
+    }
+  ],
+  "duration": "2-3天",
+  "best_time": "6-9月，湖滨活动全开、气候舒适；冬季严寒慎行"
+}

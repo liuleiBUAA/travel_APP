@@ -1,0 +1,32 @@
+{
+  "name": "优胜美地",
+  "type": "city",
+  "aliases": [],
+  "city": "优胜美地",
+  "country": "美国",
+  "summary": "酋长岩、半圆顶和瀑布群是核心景观，旺季进园需预约、谷内住宿半年前订完，自驾进园后用免费shuttle游谷底。",
+  "sections": [
+    {
+      "title": "到达与交通",
+      "content": "最近的门户机场是弗雷斯诺FAT（南门2.5小时）；多数人从旧金山（4小时）或洛杉矶（5-6小时）租车自驾。走140号公路坡度最缓、冬季最少封路；120号Big Oak Flat入口离旧金山最近。谷底（Yosemite Valley）停车位极紧张，上午9点前进园，把车停在Yosemite Village或Curry Village停车场后全天坐免费谷底shuttle（约10-20分钟一班，覆盖所有谷内景点），高峰期开车在谷里找车位是灾难。"
+    },
+    {
+      "title": "住宿与营地",
+      "content": "谷内住宿在travelyosemite.com预订，提前5-6个月基本订完：Curry Village帐篷小屋约$150-180/晚，Yosemite Valley Lodge $280+，Ahwahnee酒店$500+。营地在recreation.gov放票，旺季名额数分钟抢空（提前5个月、每月15日早7点太平洋时间放票）。订不到就住园外：El Portal（140号路，进谷30分钟）、Mariposa（1小时，$120-200/晚）或Groveland。住园外意味着每天往返2小时车程，要起更早。"
+    },
+    {
+      "title": "必看与门票",
+      "content": "门票$35/车（7天有效）；计划一年去3个以上公园直接买America the Beautiful年票（$80）。近年旺季（约5月下旬-9月初及2月萤火瀑布期间）高峰时段进园实行预约制（timed entry，recreation.gov，$2手续费），园内有住宿订单可免预约，出发前务必查官网当年政策。必看：Tunnel View一览谷底全景（进谷必经，日落最佳）、酋长岩、优胜美地瀑布（春季水量最大）、Glacier Point俯瞰半圆顶（冰川点公路一般6-10月开放）。徒步推荐Mist Trail到Vernal Fall（往返5公里，会被水雾打湿）。"
+    },
+    {
+      "title": "餐饮补给",
+      "content": "谷内有Village Store超市（食品日用基本齐全，价格比园外贵30%），Curry Village有披萨和自助餐厅（人均$15-25），Yosemite Valley Lodge有food court。Ahwahnee酒店餐厅需着装预约，人均$60+。最经济的做法：在Oakhurst或Mariposa的大超市采购好水、面包、水果再进园，白天徒步全靠自带。油一定在园外加满——El Portal、Wawona有少量油站但价格极高，谷底没有加油站。"
+    },
+    {
+      "title": "实用贴士",
+      "content": "季节差异极大：4-6月瀑布最壮观；7-8月人最多、部分瀑布断流；Tioga Pass（120号东段）和Glacier Point Road约11月-次年5月底封闭，冬季自驾必须随车携带防滑链（法律要求，租车公司不提供，可在进山路上小店买$40-70）。黑熊活跃，食物和有气味物品绝不能留在车内过夜，必须放营地熊箱。谷内手机信号微弱，离线地图提前下好。2月中下旬的Horsetail Fall“萤火瀑布”需碰晴天且单独预约。"
+    }
+  ],
+  "duration": "2-3天",
+  "best_time": "5-6月，瀑布水量全年最大、Tioga Pass前后开通，且早于7-8月的人流顶峰。"
+}

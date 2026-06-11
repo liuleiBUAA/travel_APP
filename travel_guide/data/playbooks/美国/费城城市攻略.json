@@ -1,0 +1,32 @@
+{
+  "name": "费城",
+  "type": "city",
+  "aliases": [],
+  "city": "费城",
+  "country": "美国",
+  "summary": "独立厅+自由钟半天看完美国建国史，加博物馆和市场一天足够；常作纽约华盛顿之间的顺路站，独立厅门票要先取。",
+  "sections": [
+    {
+      "title": "到达与市内交通",
+      "content": "费城机场（PHL）坐SEPTA机场线火车25分钟到市中心，约7美元；从纽约来坐Amtrak约1.5小时，更省钱的Megabus/FlixBus约2小时。老城（Old City）历史景点全在步行范围内。市内地铁和公交用SEPTA Key卡或手机刷，但游客基本用不上——从老城到费城艺术博物馆步行40分钟，或打车10分钟。"
+    },
+    {
+      "title": "住宿建议",
+      "content": "Old City住下步行覆盖独立厅、自由钟和码头区，历史氛围最浓。Center City（市政厅周边）连锁酒店多、选择广，去哪都方便。Rittenhouse Square一带环境优雅餐厅密集，价格略高。费城酒店比纽约华盛顿便宜一截，3星150-200美元能拿下。避开北费城和西费城深处，治安明显差。"
+    },
+    {
+      "title": "必看与通票",
+      "content": "独立厅（Independence Hall）免费但必须持时段票进入：当天一早去游客中心（Independence Visitor Center）领免费票，或提前在recreation.gov付1美元手续费在线订，旺季强烈建议在线订妥。自由钟无需门票直接排队进，早上人少。国家宪法中心、贝琪·罗斯故居按兴趣选。费城艺术博物馆值得半天，门前的「洛奇台阶」跑一遍拍照是保留节目。东州监狱（Eastern State Penitentiary）废墟风独特，在线订票略便宜。"
+    },
+    {
+      "title": "美食",
+      "content": "费城芝士牛排（Cheesesteak）是必吃：老牌Pat's和Geno's在南费城街角对望可以各买一个对比，本地人更推Dalessandro's或John's Roast Pork。Reading Terminal Market是百年室内市场，DiNic's烤猪肉三明治、阿米什人摊位的甜点都值得，中午去最热闹，多数摊位周日缩短营业。点芝士牛排时说「whiz wit」（加芝士酱加洋葱）显内行。"
+    },
+    {
+      "title": "实用贴士",
+      "content": "核心历史区一天可逛完，搭配博物馆和市场建议住一晚。老城和Center City白天治安无虞，夜间不要步行远离主街。每月第一个周日和每周三晚费城艺术博物馆自愿付费（Pay What You Wish）。从费城顺路去兰开斯特阿米什村约1.5小时车程，适合自驾加一站。"
+    }
+  ],
+  "duration": "1-2天",
+  "best_time": "4-5月和9-10月气候宜人，适合步行逛历史街区"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "卡利斯佩尔",
+  "type": "city",
+  "aliases": ["Kalispell"],
+  "city": "卡利斯佩尔",
+  "country": "美国",
+  "summary": "冰川国家公园的门户城市，向阳大道7月前后才全线开放且夏季需预约通行，住宿和补给都在此解决最划算。",
+  "sections": [
+    {
+      "title": "到达与交通",
+      "content": "Glacier Park国际机场（FCA）就在卡利斯佩尔北郊15分钟，盐湖城、丹佛、西雅图有直飞，是进冰川国家公园最方便的门户；机场租车柜台齐全但旺季车源紧张，提前1-2个月订。市区到公园西门（West Glacier/Apgar）约50公里40分钟车程。园内明星公路向阳大道（Going-to-the-Sun Road）贯穿东西80公里；旺季Apgar游客中心有免费shuttle沿向阳大道接驳，停不到Logan Pass车位时很有用。Amtrak帝国建造者号火车也停靠West Glacier站。"
+    },
+    {
+      "title": "住宿与营地",
+      "content": "卡利斯佩尔市区连锁酒店多（$150-250/晚），是性价比最高的基地；更近公园的Whitefish（滑雪小镇，餐厅好，$200-350/晚）和West Glacier（门口但选择少）旺季提前3-4个月订。园内历史酒店Lake McDonald Lodge、Many Glacier Hotel体验独特，提前6-12个月在官方glaciernationalparklodges.com抢订（$250-500/晚）。营地中Apgar、Fish Creek等在recreation.gov预订，Many Glacier营地名额最抢手，放票分钟级售罄。"
+    },
+    {
+      "title": "必看与门票",
+      "content": "门票$35/车（7天），America the Beautiful年票（$80）适用。重点：近年夏季（约6月中-9月中）向阳大道等核心区高峰时段实行车辆预约（vehicle reservation，recreation.gov，$2，提前数月+部分名额前一天晚上放出），园内住宿/营地/活动订单可免预约，行前必查官网当年规则。向阳大道因高山积雪一般要到6月底-7月初才全线打通，10月中旬后封闭，行前查打通进度。必看：Logan Pass（Hidden Lake步道看山羊）、Lake McDonald彩色卵石湖、东侧Many Glacier区域（看灰熊和驼鹿概率最高，Grinnell冰川步道是全园精华）。"
+    },
+    {
+      "title": "餐饮补给",
+      "content": "卡利斯佩尔有Costco、Walmart和各大超市，是整个区域物价最低的补给点，进园前在此备齐食物、水和熊喷（bear spray，约$40-50，徒步必备，可在REI或超市买）。市区和Whitefish餐厅选择多：野牛汉堡、鳟鱼和当地精酿是特色，人均$20-40，huckleberry（越橘）冰淇淋和果酱是蒙大拿名产。园内仅Apgar、Lake McDonald等据点有简单餐饮和小卖部，又贵又少。油在卡利斯佩尔或West Glacier加满，园内无加油站。"
+    },
+    {
+      "title": "实用贴士",
+      "content": "行程要按“7月前后才全线开放”规划：6月来很可能开不到Logan Pass，最稳是7月中-9月中。这里是美国本土灰熊密度最高的区域，徒步必须随身熊喷并学会使用，结伴出声行走，食物按规定存放。天气变化快，夏天Logan Pass（2026米）也可能接近冰点，分层穿衣。东西两侧跨园车程远（绕行近3小时），看Many Glacier最好单独排一天并查其单独的预约要求。手机信号园内大部分没有。蚊虫7-8月凶猛，驱蚊液必备。9月中后大量设施关闭，但人少景美。"
+    }
+  ],
+  "duration": "3-4天",
+  "best_time": "7月中-9月中，向阳大道全线开放、步道无雪，是冰川国家公园唯一的完整窗口期。"
+}
