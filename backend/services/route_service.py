@@ -647,9 +647,16 @@ class RouteService:
                 else:
                     recommended_days = city_info.get("recommended_days", 2)
 
+                # 卡片展示用：裁掉括号注释（如"9-11月（赏秋…）"→"9-11月"）；
+                # "全年"类无信息量，置空让前端不渲染该行
+                season = city_info.get("best_season", "全年")
+                season = season.split("（")[0].split("(")[0].rstrip("，, ").strip()
+                if season.startswith("全年"):
+                    season = ""
+
                 cities.append({
                     "name": city_name,
-                    "best_season": city_info.get("best_season", "全年"),
+                    "best_season": season,
                     "recommended_days": recommended_days,
                 })
 

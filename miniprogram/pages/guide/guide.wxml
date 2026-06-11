@@ -147,7 +147,8 @@
             data-name="{{item.name}}"
           >
             <view class="city-name">{{item.name}}</view>
-            <view class="city-info">{{item.recommended_days}}天 · {{item.best_season}}</view>
+            <view class="city-days">建议{{item.recommended_days}}天</view>
+            <view wx:if="{{item.best_season}}" class="city-season">{{item.best_season}}最佳</view>
           </view>
           <view wx:if="{{pickCities.length === 0}}" class="hint-text">请先选择国家</view>
         </view>

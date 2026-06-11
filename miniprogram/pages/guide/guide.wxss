@@ -51,19 +51,34 @@
   border-color: var(--c-primary);
 }
 
-.city-item.selected .city-info {
-  color: rgba(255,255,255,0.8);
-}
-
 .city-name {
   font-size: 26rpx;
   font-weight: 500;
 }
 
-.city-info {
+.city-days {
+  display: inline-block;
+  font-size: 20rpx;
+  color: var(--c-primary);
+  background: rgba(255, 107, 92, 0.12);
+  border-radius: 999rpx;
+  padding: 2rpx 14rpx;
+  margin-top: 6rpx;
+}
+
+.city-item.selected .city-days {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.city-season {
   font-size: 20rpx;
   color: var(--c-text-muted);
   margin-top: 4rpx;
+}
+
+.city-item.selected .city-season {
+  color: rgba(255,255,255,0.8);
 }
 
 .clear-btn {
