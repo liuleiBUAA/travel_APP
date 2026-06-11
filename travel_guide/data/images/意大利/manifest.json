@@ -134,7 +134,35 @@
  {
   "city": "罗马",
   "attraction": "许愿池",
-  "status": "miss"
+  "status": "ok",
+  "local": "罗马/许愿池_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "NikonZ7II",
+  "commons_file": "Trevi_Fountain_-_Roma.jpg",
+  "source": "zhwiki-alias:特雷維噴泉",
+  "extras": [
+   {
+    "local": "罗马/许愿池_2.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "John McLeish",
+    "commons_file": "Wishing Well, Calderglen - geograph.org.uk - 429896.jpg",
+    "source": "commons-supplement:Wishing well"
+   },
+   {
+    "local": "罗马/许愿池_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Mtaylor848",
+    "commons_file": "Wishing Well, Monkswell Park, Knaresborough (6th September 2023).jpg",
+    "source": "commons-supplement:Wishing well"
+   },
+   {
+    "local": "罗马/许愿池_4.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Chris Downer",
+    "commons_file": "Upwey wishing well - geograph.org.uk - 478991.jpg",
+    "source": "commons-supplement:Wishing well"
+   }
+  ]
  },
  {
   "city": "罗马",
@@ -304,7 +332,35 @@
  {
   "city": "佛罗伦萨",
   "attraction": "老桥",
-  "status": "miss"
+  "status": "ok",
+  "local": "佛罗伦萨/老桥_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "No machine-readable author provided. RicciSpeziari~commonswiki assumed (based on",
+  "commons_file": "Ponte_Vecchio_visto_dal_ponte_di_Santa_Trinita.jpg",
+  "source": "zhwiki-alias:老桥",
+  "extras": [
+   {
+    "local": "佛罗伦萨/老桥_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Martin Falbisoner",
+    "commons_file": "Fireworks over Ponte Vecchio 2.JPG",
+    "source": "commons-supplement:Ponte Vecchio"
+   },
+   {
+    "local": "佛罗伦萨/老桥_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Martin Falbisoner",
+    "commons_file": "Ponte Vecchio at dusk 1.JPG",
+    "source": "commons-supplement:Ponte Vecchio"
+   },
+   {
+    "local": "佛罗伦萨/老桥_4.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Martin Falbisoner",
+    "commons_file": "Fireworks over Ponte Vecchio.JPG",
+    "source": "commons-supplement:Ponte Vecchio"
+   }
+  ]
  },
  {
   "city": "佛罗伦萨",
@@ -375,17 +431,87 @@
  {
   "city": "威尼斯",
   "attraction": "总督宫",
-  "status": "miss"
+  "status": "ok",
+  "local": "威尼斯/总督宫_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Matthias Süßen",
+  "commons_file": "Doge's_Palace_(Venice)-msu-2021-6487-.jpg",
+  "source": "zhwiki-alias:威尼斯总督府",
+  "extras": [
+   {
+    "local": "威尼斯/总督宫_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Didier Descouens",
+    "commons_file": "(Venice) Doge's Palace facing the sea.jpg",
+    "source": "commons-supplement:总督宫 威尼斯"
+   },
+   {
+    "local": "威尼斯/总督宫_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but ple",
+    "commons_file": "Gondole sul retro del Palazzo Ducale Venezia Ponte della Paglia.jpg",
+    "source": "commons-supplement:总督宫 威尼斯"
+   },
+   {
+    "local": "威尼斯/总督宫_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Martin Falbisoner",
+    "commons_file": "Saint Mark's Campanile and Palazzo Ducale, Venice, September 2017 -2.jpg",
+    "source": "commons-supplement:总督宫 威尼斯"
+   }
+  ]
  },
  {
   "city": "威尼斯",
   "attraction": "彩色岛",
-  "status": "miss"
+  "status": "ok",
+  "local": "威尼斯/彩色岛_1.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Jean-Pol GRANDMONT",
+  "commons_file": "0_Burano,_Fondamenta_di_Cao_Moleca,_Rio_San_Mauro_et_Fondamenta_Cavanella_(1).jpg",
+  "source": "zhwiki-alias:布拉諾島",
+  "extras": [
+   {
+    "local": "威尼斯/彩色岛_2.png",
+    "license": "Public domain",
+    "artist": "Amoretti, Carlo (1741-1816)",
+    "commons_file": "The First Map of the Strait of Magellan, 1520 WDL3972.png",
+    "source": "commons-supplement:彩色岛 威尼斯"
+   },
+   {
+    "local": "威尼斯/彩色岛_3.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "August Geyler",
+    "commons_file": "M019F001 Deckenlicht im Vulkan im Wörlitzer Park.jpg",
+    "source": "commons-supplement:彩色岛"
+   },
+   {
+    "local": "威尼斯/彩色岛_4.jpg",
+    "license": "CC0",
+    "artist": "Wilfredor",
+    "commons_file": "Chevrolet Malibu 1977 Color.jpg",
+    "source": "commons-supplement:彩色岛"
+   }
+  ]
  },
  {
   "city": "威尼斯",
   "attraction": "玻璃岛",
-  "status": "miss"
+  "status": "ok",
+  "local": "威尼斯/玻璃岛_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Sergey Ashmarin",
+  "commons_file": "Grand Canal of Murano - Venice, Italy - panoramio.jpg",
+  "source": "commons-search:Grand Canal of Murano Venice",
+  "extras": [
+   {
+    "local": "威尼斯/玻璃岛_2.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "August Geyler",
+    "commons_file": "M019F001 Deckenlicht im Vulkan im Wörlitzer Park.jpg",
+    "source": "commons-supplement:玻璃岛"
+   }
+  ]
  },
  {
   "city": "米兰",
@@ -423,7 +549,12 @@
  {
   "city": "五渔村",
   "attraction": "彩色村庄徒步",
-  "status": "miss"
+  "status": "ok",
+  "local": "五渔村/彩色村庄徒步_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "https://www.flickr.com/photos/150594450@N07/",
+  "commons_file": "Vernazza_and_the_sea,_Cinque_Terre,_Italy.jpg",
+  "source": "zhwiki-alias:五渔村"
  },
  {
   "city": "五渔村",
@@ -527,7 +658,35 @@
  {
   "city": "托斯卡纳",
   "attraction": "田园风光",
-  "status": "miss"
+  "status": "ok",
+  "local": "托斯卡纳/田园风光_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Carlo cattaneo fotografie",
+  "commons_file": "I_cipressi_della_Val_D'Orcia.jpg",
+  "source": "zhwiki-alias:奥尔恰谷",
+  "extras": [
+   {
+    "local": "托斯卡纳/田园风光_2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "天王星",
+    "commons_file": "田园风光 - panoramio.jpg",
+    "source": "commons-supplement:田园风光"
+   },
+   {
+    "local": "托斯卡纳/田园风光_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "lzcytao",
+    "commons_file": "田园风光 - panoramio (1).jpg",
+    "source": "commons-supplement:田园风光"
+   },
+   {
+    "local": "托斯卡纳/田园风光_4.jpg",
+    "license": "CC BY 3.0",
+    "artist": "涔水影人",
+    "commons_file": "侗寨田园风光 - panoramio.jpg",
+    "source": "commons-supplement:田园风光"
+   }
+  ]
  },
  {
   "city": "托斯卡纳",
@@ -631,7 +790,12 @@
  {
   "city": "多洛米蒂",
   "attraction": "富纳斯山谷",
-  "status": "miss"
+  "status": "ok",
+  "local": "多洛米蒂/富纳斯山谷_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but ple",
+  "commons_file": "Val de Funes cun la Odles d'auton Südtirol.jpg",
+  "source": "commons-search:Val di Funes Dolomites"
  },
  {
   "city": "多洛米蒂",
@@ -669,12 +833,68 @@
  {
   "city": "多洛米蒂",
   "attraction": "刀锋山",
-  "status": "miss"
+  "status": "ok",
+  "local": "多洛米蒂/刀锋山_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but ple",
+  "commons_file": "Groomed skirun from Seceda Val Gardena.jpg",
+  "source": "commons-search:The Dolomites from Seceda",
+  "extras": [
+   {
+    "local": "多洛米蒂/刀锋山_2.jpg",
+    "license": "Public domain",
+    "artist": "Joseph Swain",
+    "commons_file": "Prince Rupert at Edgehill.jpg",
+    "source": "commons-supplement:刀锋山"
+   },
+   {
+    "local": "多洛米蒂/刀锋山_3.png",
+    "license": "CC BY 2.5",
+    "artist": "Jlorenz1",
+    "commons_file": "Edgehill2.png",
+    "source": "commons-supplement:刀锋山"
+   },
+   {
+    "local": "多洛米蒂/刀锋山_4.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "David Stowell",
+    "commons_file": "Plaque on the Monument to the Battle of Edgehill - geograph.org.uk - 37622.jpg",
+    "source": "commons-supplement:刀锋山"
+   }
+  ]
  },
  {
   "city": "多洛米蒂",
   "attraction": "休斯山",
-  "status": "miss"
+  "status": "ok",
+  "local": "多洛米蒂/休斯山_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but ple",
+  "commons_file": "Saslonch_udu_da_Mont_de_Seuc.jpg",
+  "source": "zhwiki-alias:赛瑟阿尔姆",
+  "extras": [
+   {
+    "local": "多洛米蒂/休斯山_2.jpg",
+    "license": "Public domain",
+    "artist": "USGS",
+    "commons_file": "C79197s1 Ant.Map Carlyon Glacier.jpg",
+    "source": "commons-supplement:Mount Hughes"
+   },
+   {
+    "local": "多洛米蒂/休斯山_3.jpg",
+    "license": "No restrictions",
+    "artist": "The Library of Congress",
+    "commons_file": "Govenor Hughes making the ascent of Mount Marcy, highest peak of the Adirondacks LOC 3707366150.jpg",
+    "source": "commons-supplement:Mount Hughes"
+   },
+   {
+    "local": "多洛米蒂/休斯山_4.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Stephen Armstrong",
+    "commons_file": "St. Hughes Lodge, Aviary Mount, Armley, Leeds - geograph.org.uk - 8168243.jpg",
+    "source": "commons-supplement:Mount Hughes"
+   }
+  ]
  },
  {
   "city": "那不勒斯/庞贝/阿马尔菲海岸",
@@ -778,7 +998,35 @@
  {
   "city": "那不勒斯/庞贝/阿马尔菲海岸",
   "attraction": "阿马尔菲镇",
-  "status": "miss"
+  "status": "ok",
+  "local": "那不勒斯_庞贝_阿马尔菲海岸/阿马尔菲镇_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "No machine-readable author provided. Sudodana2048 assumed (based on copyright cl",
+  "commons_file": "Amalfi_sea_view_Italy.JPG",
+  "source": "zhwiki-alias:阿马尔菲",
+  "extras": [
+   {
+    "local": "那不勒斯_庞贝_阿马尔菲海岸/阿马尔菲镇_2.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Dirk Jan van Zoest",
+    "commons_file": "30500 Allègre-les-Fumades, France - panoramio.jpg",
+    "source": "commons-supplement:阿马尔菲镇"
+   },
+   {
+    "local": "那不勒斯_庞贝_阿马尔菲海岸/阿马尔菲镇_3.jpg",
+    "license": "CC0",
+    "artist": "Romainbehar",
+    "commons_file": "Allègre-les-Fumades - Auzon - Puits.jpg",
+    "source": "commons-supplement:阿马尔菲镇"
+   },
+   {
+    "local": "那不勒斯_庞贝_阿马尔菲海岸/阿马尔菲镇_4.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Sebleouf",
+    "commons_file": "Allègre-les-Fumades - Auzon - École 1 (juin 2025).jpg",
+    "source": "commons-supplement:阿马尔菲镇"
+   }
+  ]
  },
  {
   "city": "那不勒斯/庞贝/阿马尔菲海岸",

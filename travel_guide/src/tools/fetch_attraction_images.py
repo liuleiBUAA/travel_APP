@@ -34,6 +34,7 @@ EXTRA_QUERIES = {
 }
 
 # 行程里的叫法 → 维基词条名。自动匹配不上时人工补这张表（跑完看 manifest 里的 miss）。
+# 跨国重名/泛称用 "城市/景点" 限定（如老桥在海德堡和佛罗伦萨都有）。
 ALIASES = {
     "教皇宫": "亚维农教皇宫",
     "断桥": "圣贝内泽桥",
@@ -48,6 +49,22 @@ ALIASES = {
     "昂布瓦兹": "昂布瓦斯",
     "圣马洛古城墙": "圣马洛",
     "小威尼斯": "科尔马",
+    # 意大利
+    "许愿池": "特雷维喷泉",
+    "佛罗伦萨/老桥": "老桥",
+    "总督宫": "威尼斯总督府",
+    "彩色岛": "布拉诺岛",
+    "阿马尔菲镇": "阿马尔菲",
+    "休斯山": "赛瑟阿尔姆",
+    "彩色村庄徒步": "五渔村",
+    "托斯卡纳/田园风光": "奥尔恰谷",
+}
+
+# 词条没有或主图不行（玻璃岛词条主图是地图）→ 直接用确认过的 Commons 搜索词取图。
+COMMONS_QUERIES = {
+    "玻璃岛": "Grand Canal of Murano Venice",
+    "刀锋山": "The Dolomites from Seceda",
+    "富纳斯山谷": "Val di Funes Dolomites",
 }
 
 
@@ -187,9 +204,20 @@ def page_trusted(attraction, page, bbox, trusted_redirect):
 
 def fetch_one(city, attraction, bbox=None):
     """返回 manifest 条目 dict（含 source 说明命中方式）或 None。配错比留空伤害大。"""
+    # 人工确认过的 Commons 搜索词直取（词条无图或主图是地图时用）
+    cq = COMMONS_QUERIES.get(f"{city}/{attraction}") or COMMONS_QUERIES.get(attraction)
+    if cq:
+        f = commons_search(cq)
+        time.sleep(DELAY)
+        info = commons_imageinfo(f) if f else None
+        if info:
+            info["source"] = f"commons-search:{cq}"
+            return info
+        return None
     # 人工别名直查，不做标题校验（别名本身就是确认过的词条名）
-    if attraction in ALIASES:
-        page = zh_wiki_exact(ALIASES[attraction])
+    alias = ALIASES.get(f"{city}/{attraction}") or ALIASES.get(attraction)
+    if alias:
+        page = zh_wiki_exact(alias)
         time.sleep(DELAY)
         if page and in_bbox(page, bbox) is not False and page["image"]:
             info = commons_imageinfo(page["image"])
