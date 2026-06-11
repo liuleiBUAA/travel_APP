@@ -27,6 +27,23 @@ from zhconv import convert as zh_convert
 UA = {"User-Agent": "TravelGuideBot/1.0 (attraction image fetcher; contact: admin@awesometravelpartner.cn)"}
 DELAY = 1.5  # 礼貌限速
 
+# 行程里的叫法 → 维基词条名。自动匹配不上时人工补这张表（跑完看 manifest 里的 miss）。
+ALIASES = {
+    "教皇宫": "亚维农教皇宫",
+    "断桥": "圣贝内泽桥",
+    "泉水城": "沃克吕兹泉",
+    "石头城": "戈尔德",
+    "红土城": "鲁西永 (沃克吕兹省)",
+    "瓦伦索勒薰衣草": "瓦朗索勒",
+    "守护圣母教堂": "山上圣母堂 (马赛)",
+    "卡朗格峡湾": "卡朗克山",
+    "象鼻山悬崖": "埃特勒塔",
+    "安纳西湖": "阿讷西湖",
+    "昂布瓦兹": "昂布瓦斯",
+    "圣马洛古城墙": "圣马洛",
+    "小威尼斯": "科尔马",
+}
+
 
 def _open_with_retry(url, timeout):
     """429 时按 15/45/90 秒退避重试。"""
@@ -164,6 +181,16 @@ def page_trusted(attraction, page, bbox, trusted_redirect):
 
 def fetch_one(city, attraction, bbox=None):
     """返回 manifest 条目 dict（含 source 说明命中方式）或 None。配错比留空伤害大。"""
+    # 人工别名直查，不做标题校验（别名本身就是确认过的词条名）
+    if attraction in ALIASES:
+        page = zh_wiki_exact(ALIASES[attraction])
+        time.sleep(DELAY)
+        if page and in_bbox(page, bbox) is not False and page["image"]:
+            info = commons_imageinfo(page["image"])
+            if info:
+                info["source"] = f"zhwiki-alias:{page['title']}"
+                return info
+        return None
     # 候选词条：先精确标题查询（重定向可信；两字泛称跳过，"断桥"会撞到杭州西湖断桥），
     # 再按上下文全文搜索——城市主名 + 括号里的每个地名，
     # 如 "普罗旺斯（阿维尼翁/马赛）" → ["普罗旺斯", "阿维尼翁", "马赛"]

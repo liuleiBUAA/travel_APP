@@ -1,0 +1,422 @@
+[
+ {
+  "city": "巴黎",
+  "attraction": "卢浮宫",
+  "status": "ok",
+  "local": "巴黎/卢浮宫_1.jpg",
+  "license": "CC0",
+  "artist": "Ali Sabbagh",
+  "commons_file": "West_facade_of_the_Cour_Carrée,_Louvre_Palace,_Paris_5_October_2017.jpg",
+  "source": "zhwiki:卢浮宫"
+ },
+ {
+  "city": "巴黎",
+  "attraction": "香榭丽舍大街",
+  "status": "ok",
+  "local": "巴黎/香榭丽舍大街_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Mbzt",
+  "commons_file": "F4666_Paris_8_Avenue_des_Champs_Elysees_rwk.jpg",
+  "source": "zhwiki:香榭丽舍大街"
+ },
+ {
+  "city": "巴黎",
+  "attraction": "埃菲尔铁塔",
+  "status": "ok",
+  "local": "巴黎/埃菲尔铁塔_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "CrisNYCa",
+  "commons_file": "Tour_Eiffel_14.jpg",
+  "source": "zhwiki:艾菲爾鐵塔"
+ },
+ {
+  "city": "巴黎",
+  "attraction": "塞纳河",
+  "status": "ok",
+  "local": "巴黎/塞纳河_1.jpg",
+  "license": "CC0",
+  "artist": "Maxime Homme",
+  "commons_file": "Vue_du_troisième_étage_de_la_Tour_Effeil_07.JPG",
+  "source": "zhwiki:塞纳河"
+ },
+ {
+  "city": "巴黎",
+  "attraction": "凡尔赛宫",
+  "status": "ok",
+  "local": "巴黎/凡尔赛宫_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "ToucanWings",
+  "commons_file": "Vue_aérienne_du_domaine_de_Versailles_par_ToucanWings_-_Creative_Commons_By_Sa_3.0_-_073.jpg",
+  "source": "zhwiki:凡尔赛宫"
+ },
+ {
+  "city": "巴黎",
+  "attraction": "奥赛博物馆",
+  "status": "ok",
+  "local": "巴黎/奥赛博物馆_1.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Cheng-en Cheng from Taichung City, Taiwan",
+  "commons_file": "Gare_d'Orsay_(49570190081).jpg",
+  "source": "zhwiki:奥赛博物馆"
+ },
+ {
+  "city": "巴黎",
+  "attraction": "杜乐丽花园",
+  "status": "ok",
+  "local": "巴黎/杜乐丽花园_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "GFreihalter",
+  "commons_file": "Paris_1er_Jardin_des_Tuileries_573.jpg",
+  "source": "zhwiki:杜樂麗花園"
+ },
+ {
+  "city": "巴黎",
+  "attraction": "蒙马特高地",
+  "status": "ok",
+  "local": "巴黎/蒙马特高地_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "",
+  "commons_file": "ParijsMontmartre.JPG",
+  "source": "zhwiki:蒙馬特"
+ },
+ {
+  "city": "巴黎",
+  "attraction": "巴黎迪士尼",
+  "status": "miss"
+ },
+ {
+  "city": "蔚蓝海岸（尼斯/摩纳哥/戛纳）",
+  "attraction": "天使湾",
+  "status": "ok",
+  "local": "蔚蓝海岸_尼斯_摩纳哥_戛纳_/天使湾_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Cayambe",
+  "commons_file": "Nice Baie des anges 02.jpg",
+  "source": "commons-search:Baie des Anges"
+ },
+ {
+  "city": "蔚蓝海岸（尼斯/摩纳哥/戛纳）",
+  "attraction": "埃兹小镇",
+  "status": "ok",
+  "local": "蔚蓝海岸_尼斯_摩纳哥_戛纳_/埃兹小镇_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Sergey Ashmarin",
+  "commons_file": "Mediterranean_coast_-_Eze,_France_-_panoramio.jpg",
+  "source": "zhwiki:埃兹"
+ },
+ {
+  "city": "蔚蓝海岸（尼斯/摩纳哥/戛纳）",
+  "attraction": "摩纳哥",
+  "status": "ok",
+  "local": "蔚蓝海岸_尼斯_摩纳哥_戛纳_/摩纳哥_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Tobi 87",
+  "commons_file": "Panorama von Monaco-La Turbie.jpg",
+  "source": "commons-search:Monaco"
+ },
+ {
+  "city": "蔚蓝海岸（尼斯/摩纳哥/戛纳）",
+  "attraction": "戛纳",
+  "status": "ok",
+  "local": "蔚蓝海岸_尼斯_摩纳哥_戛纳_/戛纳_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Kazimierz Mendlik",
+  "commons_file": "Cannes_Francja_-_zbliżenie,_widok_z_nowego_portu._-_panoramio.jpg",
+  "source": "zhwiki:戛纳"
+ },
+ {
+  "city": "普罗旺斯（阿维尼翁/马赛）",
+  "attraction": "教皇宫",
+  "status": "ok",
+  "local": "普罗旺斯_阿维尼翁_马赛_/教皇宫_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Jean-Marc Rosier (de/from http://www.cjrosier.com + http://www.gordes-immobilier",
+  "commons_file": "Avignon,_Palais_des_Papes_by_JM_Rosier.jpg",
+  "source": "zhwiki-alias:教宗宮 (亞維農)"
+ },
+ {
+  "city": "普罗旺斯（阿维尼翁/马赛）",
+  "attraction": "断桥",
+  "status": "ok",
+  "local": "普罗旺斯_阿维尼翁_马赛_/断桥_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Chiugoran",
+  "commons_file": "Saint-benezet_in_southeastern_France.jpg",
+  "source": "zhwiki-alias:圣贝内泽桥"
+ },
+ {
+  "city": "普罗旺斯（阿维尼翁/马赛）",
+  "attraction": "泉水城",
+  "status": "ok",
+  "local": "普罗旺斯_阿维尼翁_马赛_/泉水城_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Vi..Cult...",
+  "commons_file": "La_Sorgue_le_31_mai_2008_avec_1,53_mètres_de_hauteur,_La_Fontaine_de_Vaucluse_16.JPG",
+  "source": "zhwiki-alias:沃克吕兹泉"
+ },
+ {
+  "city": "普罗旺斯（阿维尼翁/马赛）",
+  "attraction": "石头城",
+  "status": "ok",
+  "local": "普罗旺斯_阿维尼翁_马赛_/石头城_1.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Jean-Pol GRANDMONT",
+  "commons_file": "0_Gordes_sur_son_piton_rocheux.jpg",
+  "source": "zhwiki-alias:戈尔德"
+ },
+ {
+  "city": "普罗旺斯（阿维尼翁/马赛）",
+  "attraction": "红土城",
+  "status": "ok",
+  "local": "普罗旺斯_阿维尼翁_马赛_/红土城_1.jpg",
+  "license": "CC BY-SA 2.0 de",
+  "artist": "Hawobo at German Wikipedia",
+  "commons_file": "Roussillon_(Vaucluse).JPG",
+  "source": "zhwiki-alias:鲁西永 (沃克吕兹省)"
+ },
+ {
+  "city": "普罗旺斯（阿维尼翁/马赛）",
+  "attraction": "瓦伦索勒薰衣草",
+  "status": "ok",
+  "local": "普罗旺斯_阿维尼翁_马赛_/瓦伦索勒薰衣草_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Espirat",
+  "commons_file": "Panorama_sur_Valensole,_depuis_la_route_de_Riez._2016-04-18.jpg",
+  "source": "zhwiki-alias:瓦朗索勒"
+ },
+ {
+  "city": "普罗旺斯（阿维尼翁/马赛）",
+  "attraction": "圣十字湖",
+  "status": "ok",
+  "local": "普罗旺斯_阿维尼翁_马赛_/圣十字湖_1.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Olivier Cleynen",
+  "commons_file": "Aerial_view_of_the_Lake_of_Sainte-Croix_05.jpg",
+  "source": "zhwiki:圣十字湖"
+ },
+ {
+  "city": "普罗旺斯（阿维尼翁/马赛）",
+  "attraction": "守护圣母教堂",
+  "status": "ok",
+  "local": "普罗旺斯_阿维尼翁_马赛_/守护圣母教堂_1.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Kim",
+  "commons_file": "Eglise_ND_du_Mont_Marseille.jpg",
+  "source": "zhwiki-alias:山上圣母堂 (马赛)"
+ },
+ {
+  "city": "普罗旺斯（阿维尼翁/马赛）",
+  "attraction": "卡朗格峡湾",
+  "status": "ok",
+  "local": "普罗旺斯_阿维尼翁_马赛_/卡朗格峡湾_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "kallerna",
+  "commons_file": "En-Vau_calanque_4.jpg",
+  "source": "zhwiki-alias:卡朗克山"
+ },
+ {
+  "city": "卢瓦尔河谷",
+  "attraction": "卢瓦尔河谷",
+  "status": "ok",
+  "local": "卢瓦尔河谷/卢瓦尔河谷_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Zairon",
+  "commons_file": "Azay-le-Rideaux_Château_d'Azay-le-Rideau_Südseite_6.jpg",
+  "source": "zhwiki:卢瓦尔河谷 (传统地区)"
+ },
+ {
+  "city": "卢瓦尔河谷",
+  "attraction": "舍农索城堡",
+  "status": "ok",
+  "local": "卢瓦尔河谷/舍农索城堡_1.jpg",
+  "license": "GFDL",
+  "artist": "It is a derivative work of Ra-smit's photo.",
+  "commons_file": "Chateau_de_Chenonceau_2008E.jpg",
+  "source": "zhwiki:舍農索城堡"
+ },
+ {
+  "city": "卢瓦尔河谷",
+  "attraction": "昂布瓦兹",
+  "status": "ok",
+  "local": "卢瓦尔河谷/昂布瓦兹_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Rolf Kranz",
+  "commons_file": "Amboise,_Blick_vom_gegenüberliegenden_Ufer_der_Loire.jpg",
+  "source": "zhwiki-alias:昂布瓦斯"
+ },
+ {
+  "city": "卢瓦尔河谷",
+  "attraction": "香波堡",
+  "status": "ok",
+  "local": "卢瓦尔河谷/香波堡_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Carsten Steger",
+  "commons_file": "Aerial_image_of_Château_de_Chambord_(view_from_the_southeast).jpg",
+  "source": "zhwiki:香波尔城堡"
+ },
+ {
+  "city": "圣米歇尔山/圣马洛",
+  "attraction": "圣米歇尔山",
+  "status": "ok",
+  "local": "圣米歇尔山_圣马洛/圣米歇尔山_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Amaustan",
+  "commons_file": "Mont-Saint-Michel_vu_du_ciel.jpg",
+  "source": "zhwiki:聖米歇爾山"
+ },
+ {
+  "city": "圣米歇尔山/圣马洛",
+  "attraction": "圣马洛",
+  "status": "ok",
+  "local": "圣米歇尔山_圣马洛/圣马洛_1.jpg",
+  "license": "Public domain",
+  "artist": "Fabos",
+  "commons_file": "IMG_2935_StMalo.JPG",
+  "source": "zhwiki:圣马洛"
+ },
+ {
+  "city": "圣米歇尔山/圣马洛",
+  "attraction": "圣马洛古城墙",
+  "status": "ok",
+  "local": "圣米歇尔山_圣马洛/圣马洛古城墙_1.jpg",
+  "license": "Public domain",
+  "artist": "Fabos",
+  "commons_file": "IMG_2935_StMalo.JPG",
+  "source": "zhwiki-alias:圣马洛"
+ },
+ {
+  "city": "安纳西",
+  "attraction": "安纳西",
+  "status": "ok",
+  "local": "安纳西/安纳西_1.jpg",
+  "license": "CC BY 3.0",
+  "artist": "Leicester Holyday",
+  "commons_file": "Annecy,_France_-_panoramio_(9).jpg",
+  "source": "zhwiki:阿讷西"
+ },
+ {
+  "city": "安纳西",
+  "attraction": "安纳西湖",
+  "status": "ok",
+  "local": "安纳西/安纳西湖_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Guilhem Vellut from Annecy, France",
+  "commons_file": "Boat_@_Compagnie_des_Bateaux_du_Lac_d'Annecy_@_Lake_Annecy_@_Saint-Jorioz_(50488289926).jpg",
+  "source": "zhwiki-alias:阿讷西湖"
+ },
+ {
+  "city": "霞慕尼",
+  "attraction": "霞慕尼",
+  "status": "ok",
+  "local": "霞慕尼/霞慕尼_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Arnaud 25",
+  "commons_file": "Chamonix_008_+_noms.jpg",
+  "source": "zhwiki:沙莫尼蒙勃朗"
+ },
+ {
+  "city": "霞慕尼",
+  "attraction": "勃朗峰",
+  "status": "ok",
+  "local": "霞慕尼/勃朗峰_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Max572",
+  "commons_file": "Monte_bianco.JPG",
+  "source": "zhwiki:勃朗峰"
+ },
+ {
+  "city": "科尔马/斯特拉斯堡",
+  "attraction": "科尔马",
+  "status": "ok",
+  "local": "科尔马_斯特拉斯堡/科尔马_1.jpg",
+  "license": "FAL",
+  "artist": "Shuying YU",
+  "commons_file": "Voyage11,_Colmar,_Petite_Venise.jpg",
+  "source": "zhwiki:科尔马"
+ },
+ {
+  "city": "科尔马/斯特拉斯堡",
+  "attraction": "小威尼斯",
+  "status": "ok",
+  "local": "科尔马_斯特拉斯堡/小威尼斯_1.jpg",
+  "license": "FAL",
+  "artist": "Shuying YU",
+  "commons_file": "Voyage11,_Colmar,_Petite_Venise.jpg",
+  "source": "zhwiki-alias:科尔马"
+ },
+ {
+  "city": "科尔马/斯特拉斯堡",
+  "attraction": "斯特拉斯堡",
+  "status": "ok",
+  "local": "科尔马_斯特拉斯堡/斯特拉斯堡_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Jonathan Martz",
+  "commons_file": "Strasbourg_Cathedral.jpg",
+  "source": "zhwiki:斯特拉斯堡"
+ },
+ {
+  "city": "波尔多",
+  "attraction": "交易所广场",
+  "status": "ok",
+  "local": "波尔多/交易所广场_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Coyau",
+  "commons_file": "Bordeaux_-_Place_de_la_Bourse_2009-06-29.jpg",
+  "source": "zhwiki:交易所广场"
+ },
+ {
+  "city": "波尔多",
+  "attraction": "皮拉沙丘",
+  "status": "ok",
+  "local": "波尔多/皮拉沙丘_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Larrousiney at French Wikipedia",
+  "commons_file": "DunePyla.JPG",
+  "source": "zhwiki:皮拉沙丘"
+ },
+ {
+  "city": "波尔多",
+  "attraction": "葡萄酒庄之旅",
+  "status": "miss"
+ },
+ {
+  "city": "里昂",
+  "attraction": "富维耶圣母院",
+  "status": "ok",
+  "local": "里昂/富维耶圣母院_1.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Dennis G. Jarvis",
+  "commons_file": "France-003038_-_Basilica_of_Notre-Dame_de_Fourvière_(15939822990).jpg",
+  "source": "zhwiki:富维耶圣母圣殿"
+ },
+ {
+  "city": "里昂",
+  "attraction": "半岛区",
+  "status": "ok",
+  "local": "里昂/半岛区_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Gonedelyon",
+  "commons_file": "La_Place_des_Terreaux_de_nuit.JPG",
+  "source": "zhwiki:半岛 (里昂)"
+ },
+ {
+  "city": "象鼻山",
+  "attraction": "象鼻山悬崖",
+  "status": "ok",
+  "local": "象鼻山/象鼻山悬崖_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Bastenbas",
+  "commons_file": "Vue_d'ensemble_-_Étretat.jpg",
+  "source": "zhwiki-alias:埃特勒塔"
+ },
+ {
+  "city": "枫丹白露宫",
+  "attraction": "枫丹白露宫",
+  "status": "ok",
+  "local": "枫丹白露宫/枫丹白露宫_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Jacky Delville",
+  "commons_file": "Fontainebleau,Château_Royal.jpg",
+  "source": "zhwiki:枫丹白露宫"
+ }
+]
