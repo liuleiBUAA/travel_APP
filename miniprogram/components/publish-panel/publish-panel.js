@@ -99,6 +99,7 @@ Component({
           userInfo: app.globalData.userInfo,
           userName: app.globalData.userInfo.nickname || app.globalData.userInfo.nickName || ''
         })
+        this.prefillFromCard()
       } else {
         this.setData({ userInfo: null, userName: '' })
       }
@@ -210,6 +211,32 @@ Component({
 
     cancelEditNickname() {
       this.setData({ editingNickname: false })
+    },
+
+    // 用旅行名片预填发布表单默认值（仅首次，用户改过不覆盖）
+    async prefillFromCard() {
+      if (this._cardPrefilled) return
+      this._cardPrefilled = true
+      try {
+        const me = await api.getMe()
+        if (!me || !(me.success || me.user_id)) return
+        const d = this.data
+        const patch = {}
+        if (me.budget_level && d.budgetOptions.includes(me.budget_level)) {
+          patch.budgetSelected = [me.budget_level]
+        }
+        if (me.good_at_photo) {
+          const i = d.photoOptions.indexOf(me.good_at_photo)
+          if (i >= 0) patch.photoIndex = i
+        }
+        if (me.accommodation_pref) {
+          const i = d.accommodationOptions.indexOf(me.accommodation_pref)
+          if (i >= 0) patch.accommodationIndex = i
+        }
+        if (Object.keys(patch).length > 0) this.setData(patch)
+      } catch (e) {
+        console.error('名片预填失败', e)
+      }
     },
 
     onNicknameInput(e) {
