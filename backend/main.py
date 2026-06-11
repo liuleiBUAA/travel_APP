@@ -1422,6 +1422,16 @@ async def search_destinations(q: str = ""):
         raise HTTPException(500, f"搜索失败: {str(e)}")
 
 
+@app.get("/api/attractions/playbook")
+async def get_attraction_playbook(name: str):
+    """景点玩法详情（玩法页用）"""
+    from services.playbook_service import get_playbook_index
+    playbook = get_playbook_index().get(name)
+    if not playbook:
+        raise HTTPException(404, "暂无该景点的玩法攻略")
+    return {"success": True, "playbook": playbook}
+
+
 @app.get("/api/destinations/structure")
 async def get_destination_structure():
     """获取完整的目的地结构（区域→国家→城市）"""
