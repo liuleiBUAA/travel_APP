@@ -1,0 +1,212 @@
+[
+ {
+  "city": "罗马",
+  "attraction": "斗兽场",
+  "query": "Colosseum Rome"
+ },
+ {
+  "city": "罗马",
+  "attraction": "古罗马广场",
+  "query": "Roman Forum Rome"
+ },
+ {
+  "city": "罗马",
+  "attraction": "梵蒂冈博物馆",
+  "query": "Vatican Museums Rome"
+ },
+ {
+  "city": "罗马",
+  "attraction": "圣彼得大教堂",
+  "query": "St Peter's Basilica Vatican"
+ },
+ {
+  "city": "罗马",
+  "attraction": "许愿池",
+  "query": "Trevi Fountain Rome"
+ },
+ {
+  "city": "罗马",
+  "attraction": "万神殿",
+  "query": "Pantheon Rome"
+ },
+ {
+  "city": "罗马",
+  "attraction": "纳沃纳广场",
+  "query": "Piazza Navona Rome"
+ },
+ {
+  "city": "佛罗伦萨",
+  "attraction": "圣母百花大教堂",
+  "query": "Florence Cathedral Duomo"
+ },
+ {
+  "city": "佛罗伦萨",
+  "attraction": "领主广场",
+  "query": "Piazza della Signoria Florence"
+ },
+ {
+  "city": "佛罗伦萨",
+  "attraction": "乌菲兹美术馆",
+  "query": "Uffizi Gallery Florence"
+ },
+ {
+  "city": "佛罗伦萨",
+  "attraction": "老桥",
+  "query": "Ponte Vecchio Florence"
+ },
+ {
+  "city": "佛罗伦萨",
+  "attraction": "米开朗基罗广场",
+  "query": "Florence skyline Duomo panorama"
+ },
+ {
+  "city": "威尼斯",
+  "attraction": "圣马可广场",
+  "query": "St Mark's Square Venice"
+ },
+ {
+  "city": "威尼斯",
+  "attraction": "总督宫",
+  "query": "Doge's Palace Venice"
+ },
+ {
+  "city": "威尼斯",
+  "attraction": "彩色岛",
+  "query": "Burano island Venice colorful houses"
+ },
+ {
+  "city": "威尼斯",
+  "attraction": "玻璃岛",
+  "query": "Murano island Venice canal"
+ },
+ {
+  "city": "米兰",
+  "attraction": "米兰大教堂",
+  "query": "Milan Cathedral Duomo"
+ },
+ {
+  "city": "五渔村",
+  "attraction": "彩色村庄徒步",
+  "query": "Cinque Terre Italy"
+ },
+ {
+  "city": "五渔村",
+  "attraction": "里奥马焦雷",
+  "query": "Riomaggiore Cinque Terre"
+ },
+ {
+  "city": "五渔村",
+  "attraction": "蒙特罗索",
+  "query": "Monterosso al Mare Cinque Terre"
+ },
+ {
+  "city": "托斯卡纳",
+  "attraction": "奥尔恰谷",
+  "query": "Val d'Orcia Tuscany cypress"
+ },
+ {
+  "city": "托斯卡纳",
+  "attraction": "田园风光",
+  "query": "Tuscany countryside rolling hills"
+ },
+ {
+  "city": "托斯卡纳",
+  "attraction": "皮恩扎",
+  "query": "Pienza Tuscany town"
+ },
+ {
+  "city": "托斯卡纳",
+  "attraction": "蒙特普尔恰诺",
+  "query": "Montepulciano Tuscany hill town"
+ },
+ {
+  "city": "托斯卡纳",
+  "attraction": "天空之城",
+  "query": "Civita di Bagnoregio"
+ },
+ {
+  "city": "多洛米蒂",
+  "attraction": "富纳斯山谷",
+  "query": "Val di Funes Dolomites church"
+ },
+ {
+  "city": "多洛米蒂",
+  "attraction": "布拉耶斯湖",
+  "query": "Lago di Braies Dolomites"
+ },
+ {
+  "city": "多洛米蒂",
+  "attraction": "刀锋山",
+  "query": "Seceda Dolomites ridge"
+ },
+ {
+  "city": "多洛米蒂",
+  "attraction": "休斯山",
+  "query": "Alpe di Siusi Dolomites"
+ },
+ {
+  "city": "那不勒斯/庞贝/阿马尔菲海岸",
+  "attraction": "庞贝",
+  "query": "Pompeii ruins Italy"
+ },
+ {
+  "city": "那不勒斯/庞贝/阿马尔菲海岸",
+  "attraction": "庞贝古城",
+  "query": "Pompeii ancient city ruins"
+ },
+ {
+  "city": "那不勒斯/庞贝/阿马尔菲海岸",
+  "attraction": "阿马尔菲",
+  "query": "Amalfi Coast Italy"
+ },
+ {
+  "city": "那不勒斯/庞贝/阿马尔菲海岸",
+  "attraction": "阿马尔菲镇",
+  "query": "Amalfi town Italy"
+ },
+ {
+  "city": "那不勒斯/庞贝/阿马尔菲海岸",
+  "attraction": "索伦托",
+  "query": "Sorrento Italy coast"
+ },
+ {
+  "city": "那不勒斯/庞贝/阿马尔菲海岸",
+  "attraction": "卡普里岛",
+  "query": "Capri island Italy"
+ },
+ {
+  "city": "西西里岛",
+  "attraction": "阿格里真托",
+  "query": "Agrigento Valley of the Temples"
+ },
+ {
+  "city": "西西里岛",
+  "attraction": "土耳其阶梯",
+  "query": "Scala dei Turchi Sicily"
+ },
+ {
+  "city": "西西里岛",
+  "attraction": "神殿之谷",
+  "query": "Valley of the Temples Agrigento"
+ },
+ {
+  "city": "西西里岛",
+  "attraction": "锡拉库萨",
+  "query": "Syracuse Sicily Ortigia"
+ },
+ {
+  "city": "西西里岛",
+  "attraction": "陶尔米纳",
+  "query": "Taormina Sicily"
+ },
+ {
+  "city": "西西里岛",
+  "attraction": "切法卢",
+  "query": "Cefalu Sicily"
+ },
+ {
+  "city": "西西里岛",
+  "attraction": "巴勒莫",
+  "query": "Palermo Sicily"
+ }
+]

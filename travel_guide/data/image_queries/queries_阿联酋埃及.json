@@ -1,0 +1,23 @@
+[
+ {"city": "迪拜", "attraction": "哈利法塔", "query": "Burj Khalifa Dubai"},
+ {"city": "迪拜", "attraction": "迪拜mall", "query": "Dubai Mall aquarium fountain"},
+ {"city": "迪拜", "attraction": "沙漠冲沙", "query": "Dubai desert safari dune bashing"},
+ {"city": "迪拜", "attraction": "朱美拉海滩", "query": "Jumeirah Beach Burj Al Arab Dubai"},
+ {"city": "阿布扎比", "attraction": "谢赫扎耶德大清真寺", "query": "Sheikh Zayed Grand Mosque Abu Dhabi"},
+ {"city": "阿布扎比", "attraction": "卢浮宫", "query": "Louvre Abu Dhabi museum dome"},
+ {"city": "开罗", "attraction": "金字塔", "query": "Pyramids of Giza Egypt"},
+ {"city": "开罗", "attraction": "狮身人面像", "query": "Great Sphinx of Giza Egypt"},
+ {"city": "开罗", "attraction": "埃及博物馆", "query": "Egyptian Museum Cairo Tutankhamun"},
+ {"city": "开罗", "attraction": "哈利利市场", "query": "Khan el-Khalili bazaar Cairo"},
+ {"city": "卢克索", "attraction": "卢克索神庙", "query": "Luxor Temple Egypt"},
+ {"city": "卢克索", "attraction": "卡尔纳克神庙", "query": "Karnak Temple columns Luxor Egypt"},
+ {"city": "卢克索", "attraction": "帝王谷", "query": "Valley of the Kings Luxor Egypt"},
+ {"city": "卢克索", "attraction": "王后谷", "query": "Valley of the Queens Luxor Egypt"},
+ {"city": "阿斯旺", "attraction": "阿布辛贝神庙", "query": "Abu Simbel temple Egypt"},
+ {"city": "阿斯旺", "attraction": "菲莱神庙", "query": "Philae Temple Aswan Egypt"},
+ {"city": "阿斯旺", "attraction": "努比亚村", "query": "Nubian village Aswan colorful houses"},
+ {"city": "赫尔格达", "attraction": "红海潜水", "query": "Red Sea scuba diving Hurghada Egypt"},
+ {"city": "赫尔格达", "attraction": "海滩度假", "query": "Hurghada beach resort Red Sea Egypt"},
+ {"city": "赫尔格达", "attraction": "吉夫顿岛", "query": "Giftun Island Hurghada Egypt"},
+ {"city": "赫尔格达", "attraction": "浮潜", "query": "snorkeling coral reef Red Sea Hurghada"}
+]

@@ -1,0 +1,37 @@
+[
+ {
+  "city": "里斯本",
+  "attraction": "贝伦塔",
+  "query": "Belem Tower Lisbon Portugal"
+ },
+ {
+  "city": "里斯本",
+  "attraction": "哲罗姆派修道院",
+  "query": "Jeronimos Monastery Lisbon Portugal"
+ },
+ {
+  "city": "里斯本",
+  "attraction": "罗卡角",
+  "query": "Cabo da Roca Sintra Portugal"
+ },
+ {
+  "city": "里斯本",
+  "attraction": "阿尔法玛老城",
+  "query": "Alfama Lisbon tram 28"
+ },
+ {
+  "city": "波尔图",
+  "attraction": "杜罗河畔",
+  "query": "Porto Douro river Ribeira Portugal"
+ },
+ {
+  "city": "波尔图",
+  "attraction": "波特酒窖",
+  "query": "Porto wine cellar Vila Nova de Gaia"
+ },
+ {
+  "city": "波尔图",
+  "attraction": "莱罗书店",
+  "query": "Livraria Lello bookstore Porto"
+ }
+]

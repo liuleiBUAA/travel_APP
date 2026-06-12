@@ -1,0 +1,222 @@
+[
+ {
+  "city": "挪威",
+  "attraction": "维格兰雕塑公园",
+  "query": "Vigeland Park Oslo Norway"
+ },
+ {
+  "city": "挪威",
+  "attraction": "皇宫",
+  "query": "Royal Palace Oslo Norway"
+ },
+ {
+  "city": "挪威",
+  "attraction": "卑尔根古城",
+  "query": "Bergen old town Norway"
+ },
+ {
+  "city": "挪威",
+  "attraction": "布吕根码头",
+  "query": "Bryggen wharf Bergen Norway"
+ },
+ {
+  "city": "挪威",
+  "attraction": "哈当厄尔峡湾一日游",
+  "query": "Hardangerfjord Norway"
+ },
+ {
+  "city": "挪威",
+  "attraction": "纳伊柔峡湾",
+  "query": "Naeroyfjord Norway"
+ },
+ {
+  "city": "挪威",
+  "attraction": "弗洛姆",
+  "query": "Flam railway Norway"
+ },
+ {
+  "city": "挪威",
+  "attraction": "松恩峡湾",
+  "query": "Sognefjord Norway"
+ },
+ {
+  "city": "挪威",
+  "attraction": "布道石徒步",
+  "query": "Preikestolen Pulpit Rock Norway"
+ },
+ {
+  "city": "挪威",
+  "attraction": "吕瑟峡湾",
+  "query": "Lysefjord Norway"
+ },
+ {
+  "city": "挪威",
+  "attraction": "渔民屋",
+  "query": "Lofoten red rorbu cabins Norway"
+ },
+ {
+  "city": "挪威",
+  "attraction": "峡湾",
+  "query": "Geirangerfjord Norway"
+ },
+ {
+  "city": "挪威",
+  "attraction": "特罗洛",
+  "query": "Trolltunga Norway"
+ },
+ {
+  "city": "挪威",
+  "attraction": "罗弗敦群岛深度游",
+  "query": "Lofoten Islands Reine Norway"
+ },
+ {
+  "city": "挪威",
+  "attraction": "极光",
+  "query": "Northern Lights Aurora Tromso Norway"
+ },
+ {
+  "city": "挪威",
+  "attraction": "极地博物馆",
+  "query": "Polar Museum Tromso Norway"
+ },
+ {
+  "city": "挪威",
+  "attraction": "缆车",
+  "query": "Fjellheisen cable car Tromso Norway"
+ },
+ {
+  "city": "挪威",
+  "attraction": "塞尼亚半岛",
+  "query": "Senja island Norway"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "黄金圈（间歇泉",
+  "query": "Strokkur Geysir Iceland"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "黄金瀑布）",
+  "query": "Gullfoss waterfall Iceland"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "塞里雅兰瀑布",
+  "query": "Seljalandsfoss waterfall Iceland"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "斯科加瀑布",
+  "query": "Skogafoss waterfall Iceland"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "黑沙滩",
+  "query": "Reynisfjara black sand beach Iceland"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "冰河湖",
+  "query": "Jokulsarlon glacier lagoon Iceland"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "蓝冰洞",
+  "query": "Vatnajokull blue ice cave Iceland"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "东部峡湾",
+  "query": "Eastfjords Iceland"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "黛提瀑布",
+  "query": "Dettifoss waterfall Iceland"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "众神瀑布",
+  "query": "Godafoss waterfall Iceland"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "玄武岩柱大峡谷",
+  "query": "Studlagil basalt canyon Iceland"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "米湖温泉",
+  "query": "Myvatn Nature Baths Iceland"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "犀牛石",
+  "query": "Hvitserkur rock Iceland"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "蓝湖温泉",
+  "query": "Blue Lagoon Iceland"
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "小美人鱼",
+  "query": "Little Mermaid Copenhagen"
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "趣伏里公园",
+  "query": "Tivoli Gardens Copenhagen"
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "新港",
+  "query": "Nyhavn Copenhagen"
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "皇宫",
+  "query": "Amalienborg Palace Copenhagen"
+ },
+ {
+  "city": "斯德哥尔摩",
+  "attraction": "皇宫",
+  "query": "Royal Palace Stockholm Sweden"
+ },
+ {
+  "city": "斯德哥尔摩",
+  "attraction": "诺贝尔博物馆",
+  "query": "Nobel Prize Museum Stockholm"
+ },
+ {
+  "city": "斯德哥尔摩",
+  "attraction": "瓦萨沉船博物馆",
+  "query": "Vasa Museum Stockholm"
+ },
+ {
+  "city": "圣诞老人村",
+  "attraction": "圣诞老人办公室",
+  "query": "Santa Claus Village Rovaniemi Finland"
+ },
+ {
+  "city": "圣诞老人村",
+  "attraction": "跨越北极圈",
+  "query": "Arctic Circle line Rovaniemi Finland"
+ },
+ {
+  "city": "罗弗敦",
+  "attraction": "Hamnøy 桥头 + Reine + 徒步 Reinebringen",
+  "query": "Hamnoy Reine Lofoten Norway"
+ },
+ {
+  "city": "罗弗敦",
+  "attraction": "徒步 Ryten + Ramberg 海滩散步",
+  "query": "Ryten Ramberg beach Lofoten Norway"
+ },
+ {
+  "city": "罗弗敦",
+  "attraction": "下一个目的地",
+  "query": "Lofoten Islands Norway"
+ }
+]

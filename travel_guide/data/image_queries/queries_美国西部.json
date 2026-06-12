@@ -1,0 +1,497 @@
+[
+ {
+  "city": "旧金山",
+  "attraction": "金门大桥",
+  "query": "Golden Gate Bridge San Francisco"
+ },
+ {
+  "city": "旧金山",
+  "attraction": "渔人码头",
+  "query": "Fisherman's Wharf San Francisco"
+ },
+ {
+  "city": "旧金山",
+  "attraction": "九曲花街",
+  "query": "Lombard Street San Francisco"
+ },
+ {
+  "city": "洛杉矶",
+  "attraction": "洛杉矶环球影城",
+  "query": "Universal Studios Hollywood"
+ },
+ {
+  "city": "洛杉矶",
+  "attraction": "华纳兄弟工作室",
+  "query": "Warner Bros Studio Burbank"
+ },
+ {
+  "city": "洛杉矶",
+  "attraction": "Getty美术馆",
+  "query": "Getty Center Los Angeles"
+ },
+ {
+  "city": "洛杉矶",
+  "attraction": "好莱坞标志牌",
+  "query": "Hollywood Sign Los Angeles"
+ },
+ {
+  "city": "洛杉矶",
+  "attraction": "圣莫尼卡海滩",
+  "query": "Santa Monica Pier beach"
+ },
+ {
+  "city": "洛杉矶",
+  "attraction": "格里菲斯天文台",
+  "query": "Griffith Observatory Los Angeles"
+ },
+ {
+  "city": "拉斯维加斯",
+  "attraction": "拉斯大道",
+  "query": "Las Vegas Strip night"
+ },
+ {
+  "city": "拉斯维加斯",
+  "attraction": "看表演",
+  "query": "Las Vegas Strip night"
+ },
+ {
+  "city": "圣地亚哥",
+  "attraction": "中途岛航母",
+  "query": "USS Midway Museum San Diego"
+ },
+ {
+  "city": "圣地亚哥",
+  "attraction": "拉霍亚海滩",
+  "query": "La Jolla Cove San Diego"
+ },
+ {
+  "city": "圣地亚哥",
+  "attraction": "巴尔博亚公园",
+  "query": "Balboa Park San Diego"
+ },
+ {
+  "city": "圣地亚哥",
+  "attraction": "动物园",
+  "query": "San Diego Zoo"
+ },
+ {
+  "city": "西雅图",
+  "attraction": "太空针塔",
+  "query": "Space Needle Seattle"
+ },
+ {
+  "city": "西雅图",
+  "attraction": "派克市场",
+  "query": "Pike Place Market Seattle"
+ },
+ {
+  "city": "西雅图",
+  "attraction": "奇胡利玻璃博物馆",
+  "query": "Chihuly Garden and Glass Seattle"
+ },
+ {
+  "city": "1号公路",
+  "attraction": "蒙特雷",
+  "query": "Monterey Bay California"
+ },
+ {
+  "city": "1号公路",
+  "attraction": "17英里",
+  "query": "17 Mile Drive Pebble Beach"
+ },
+ {
+  "city": "1号公路",
+  "attraction": "卡梅尔小镇",
+  "query": "Carmel by the Sea California"
+ },
+ {
+  "city": "1号公路",
+  "attraction": "大苏尔",
+  "query": "Big Sur California coast"
+ },
+ {
+  "city": "1号公路",
+  "attraction": "Bixby Bridge",
+  "query": "Bixby Bridge Big Sur"
+ },
+ {
+  "city": "1号公路",
+  "attraction": "McWay Falls",
+  "query": "McWay Falls Big Sur"
+ },
+ {
+  "city": "1号公路",
+  "attraction": "SLO小镇",
+  "query": "San Luis Obispo California downtown"
+ },
+ {
+  "city": "1号公路",
+  "attraction": "Pismo Beach日落",
+  "query": "Pismo Beach California sunset"
+ },
+ {
+  "city": "1号公路",
+  "attraction": "挖蛤蜊",
+  "query": "Pismo Beach California coast"
+ },
+ {
+  "city": "1号公路",
+  "attraction": "洛杉矶",
+  "query": "Los Angeles skyline California"
+ },
+ {
+  "city": "🔄 精华版美西环线",
+  "attraction": "锡安",
+  "query": "Zion National Park canyon"
+ },
+ {
+  "city": "🔄 精华版美西环线",
+  "attraction": "The Narrows",
+  "query": "The Narrows Zion National Park"
+ },
+ {
+  "city": "🔄 精华版美西环线",
+  "attraction": "布莱斯峡谷",
+  "query": "Bryce Canyon National Park hoodoos"
+ },
+ {
+  "city": "🔄 精华版美西环线",
+  "attraction": "Navajo Loop",
+  "query": "Navajo Loop Trail Bryce Canyon"
+ },
+ {
+  "city": "🔄 精华版美西环线",
+  "attraction": "拱门",
+  "query": "Arches National Park Utah"
+ },
+ {
+  "city": "🔄 精华版美西环线",
+  "attraction": "Delicate Arch日落",
+  "query": "Delicate Arch sunset Arches National Park"
+ },
+ {
+  "city": "🔄 精华版美西环线",
+  "attraction": "Landscape Arch",
+  "query": "Landscape Arch Arches National Park"
+ },
+ {
+  "city": "🔄 羚羊谷+大峡谷2日环线",
+  "attraction": "拉斯维加斯",
+  "query": "Las Vegas Strip night"
+ },
+ {
+  "city": "🔄 羚羊谷+大峡谷2日环线",
+  "attraction": "佩吉",
+  "query": "Page Arizona Lake Powell"
+ },
+ {
+  "city": "🔄 羚羊谷+大峡谷2日环线",
+  "attraction": "下午羚羊谷",
+  "query": "Antelope Canyon Arizona"
+ },
+ {
+  "city": "🔄 羚羊谷+大峡谷2日环线",
+  "attraction": "马蹄湾日落",
+  "query": "Horseshoe Bend Page Arizona sunset"
+ },
+ {
+  "city": "🔄 羚羊谷+大峡谷2日环线",
+  "attraction": "大峡谷",
+  "query": "Grand Canyon Arizona"
+ },
+ {
+  "city": "🔄 黄石大提顿环线",
+  "attraction": "大提顿",
+  "query": "Grand Teton National Park"
+ },
+ {
+  "city": "🔄 黄石大提顿环线",
+  "attraction": "Jenny Lake",
+  "query": "Jenny Lake Grand Teton"
+ },
+ {
+  "city": "🔄 黄石大提顿环线",
+  "attraction": "Jackson小镇",
+  "query": "Jackson Hole Wyoming town"
+ },
+ {
+  "city": "🔄 黄石大提顿环线",
+  "attraction": "Schwabacher Landing日出",
+  "query": "Schwabacher Landing Grand Teton sunrise"
+ },
+ {
+  "city": "🔄 黄石大提顿环线",
+  "attraction": "西黄石",
+  "query": "West Yellowstone entrance"
+ },
+ {
+  "city": "🔄 黄石大提顿环线",
+  "attraction": "Old Faithful",
+  "query": "Old Faithful geyser Yellowstone"
+ },
+ {
+  "city": "🔄 黄石大提顿环线",
+  "attraction": "Grand Prismatic大棱镜",
+  "query": "Grand Prismatic Spring Yellowstone"
+ },
+ {
+  "city": "🔄 黄石大提顿环线",
+  "attraction": "Grand Canyon大峡谷",
+  "query": "Grand Canyon of the Yellowstone waterfall"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "派克市场",
+  "query": "Pike Place Market Seattle"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "太空针塔",
+  "query": "Space Needle Seattle"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "奇胡利玻璃艺术馆",
+  "query": "Chihuly Garden and Glass Seattle"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "飓风岭",
+  "query": "Hurricane Ridge Olympic National Park"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "飓风山",
+  "query": "Hurricane Ridge Olympic National Park"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "克雷森特湖",
+  "query": "Lake Crescent Olympic National Park"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "Rialto 海滩",
+  "query": "Rialto Beach Olympic National Park"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "Hoh 温带雨林",
+  "query": "Hoh Rainforest Olympic National Park"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "Ruby 海滩",
+  "query": "Ruby Beach Olympic National Park"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "天堂景区",
+  "query": "Paradise Mount Rainier National Park"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "日出景区",
+  "query": "Sunrise Mount Rainier National Park"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "斯凯莱特步道",
+  "query": "Skyline Trail Mount Rainier"
+ },
+ {
+  "city": "华盛顿州“海山冰川”大环线",
+  "attraction": "Diablo 湖",
+  "query": "Diablo Lake North Cascades"
+ },
+ {
+  "city": "波特兰",
+  "attraction": "日本花园",
+  "query": "Portland Japanese Garden"
+ },
+ {
+  "city": "波特兰",
+  "attraction": "Powell's书店",
+  "query": "Powell's City of Books Portland"
+ },
+ {
+  "city": "波特兰",
+  "attraction": "中国园林",
+  "query": "Lan Su Chinese Garden Portland"
+ },
+ {
+  "city": "波特兰",
+  "attraction": "Pittock Mansion",
+  "query": "Pittock Mansion Portland"
+ },
+ {
+  "city": "波特兰",
+  "attraction": "Multnomah Falls",
+  "query": "Multnomah Falls Oregon"
+ },
+ {
+  "city": "波特兰",
+  "attraction": "Vista House",
+  "query": "Vista House Columbia River Gorge"
+ },
+ {
+  "city": "波特兰",
+  "attraction": "Latourell Falls",
+  "query": "Latourell Falls Oregon"
+ },
+ {
+  "city": "波特兰",
+  "attraction": "Haystack Rock",
+  "query": "Haystack Rock Cannon Beach Oregon"
+ },
+ {
+  "city": "优胜美地国家公园",
+  "attraction": "隧道观景点",
+  "query": "Tunnel View Yosemite"
+ },
+ {
+  "city": "优胜美地国家公园",
+  "attraction": "远眺Half Dome和山谷全景",
+  "query": "Glacier Point Yosemite Valley view"
+ },
+ {
+  "city": "优胜美地国家公园",
+  "attraction": "El Capitan",
+  "query": "El Capitan Yosemite"
+ },
+ {
+  "city": "优胜美地国家公园",
+  "attraction": "Bridalveil Fall",
+  "query": "Bridalveil Fall Yosemite"
+ },
+ {
+  "city": "优胜美地国家公园",
+  "attraction": "Yosemite Falls",
+  "query": "Yosemite Falls"
+ },
+ {
+  "city": "优胜美地国家公园",
+  "attraction": "Vernal Fall",
+  "query": "Vernal Fall Yosemite"
+ },
+ {
+  "city": "优胜美地国家公园",
+  "attraction": "Nevada Fall",
+  "query": "Nevada Fall Yosemite"
+ },
+ {
+  "city": "优胜美地国家公园",
+  "attraction": "Half Dome登山或蒙诺湖",
+  "query": "Half Dome Yosemite"
+ },
+ {
+  "city": "优胜美地国家公园",
+  "attraction": "红杉林",
+  "query": "Mariposa Grove giant sequoia Yosemite"
+ },
+ {
+  "city": "冰川国家公园",
+  "attraction": "公园",
+  "query": "Glacier National Park Montana"
+ },
+ {
+  "city": "冰川国家公园",
+  "attraction": "Lake McDonald",
+  "query": "Lake McDonald Glacier National Park"
+ },
+ {
+  "city": "冰川国家公园",
+  "attraction": "Logan Pass",
+  "query": "Logan Pass Glacier National Park"
+ },
+ {
+  "city": "冰川国家公园",
+  "attraction": "Hidden Lake",
+  "query": "Hidden Lake Glacier National Park"
+ },
+ {
+  "city": "冰川国家公园",
+  "attraction": "Highline Trail或Avalanche Lake徒步",
+  "query": "Highline Trail Glacier National Park"
+ },
+ {
+  "city": "冰川国家公园",
+  "attraction": "Grinnell Glacier",
+  "query": "Grinnell Glacier Glacier National Park"
+ },
+ {
+  "city": "冰川国家公园",
+  "attraction": "Iceberg Lake Trail徒步",
+  "query": "Iceberg Lake Glacier National Park"
+ },
+ {
+  "city": "红杉国家公园",
+  "attraction": "General Sherman Tree",
+  "query": "General Sherman Tree Sequoia National Park"
+ },
+ {
+  "city": "红杉国家公园",
+  "attraction": "Moro Rock",
+  "query": "Moro Rock Sequoia National Park"
+ },
+ {
+  "city": "红杉国家公园",
+  "attraction": "Tunnel Log",
+  "query": "Tunnel Log Sequoia National Park"
+ },
+ {
+  "city": "红杉国家公园",
+  "attraction": "General Grant Tree",
+  "query": "General Grant Tree Kings Canyon"
+ },
+ {
+  "city": "红杉国家公园",
+  "attraction": "Zumwalt Meadow",
+  "query": "Zumwalt Meadow Kings Canyon"
+ },
+ {
+  "city": "红杉国家公园",
+  "attraction": "Boyden Cavern",
+  "query": "Boyden Cavern Kings Canyon"
+ },
+ {
+  "city": "死亡谷国家公园",
+  "attraction": "Dante's View",
+  "query": "Dante's View Death Valley"
+ },
+ {
+  "city": "死亡谷国家公园",
+  "attraction": "Zabriskie Point日落",
+  "query": "Zabriskie Point Death Valley sunset"
+ },
+ {
+  "city": "死亡谷国家公园",
+  "attraction": "Badwater Basin",
+  "query": "Badwater Basin Death Valley"
+ },
+ {
+  "city": "死亡谷国家公园",
+  "attraction": "Mesquite Sand Dunes",
+  "query": "Mesquite Flat Sand Dunes Death Valley"
+ },
+ {
+  "city": "死亡谷国家公园",
+  "attraction": "Artist's Palette",
+  "query": "Artists Palette Death Valley"
+ },
+ {
+  "city": "火山口湖国家公园",
+  "attraction": "Rim Drive环湖",
+  "query": "Crater Lake National Park Oregon"
+ },
+ {
+  "city": "火山口湖国家公园",
+  "attraction": "Watchman Overlook",
+  "query": "Watchman Overlook Crater Lake"
+ },
+ {
+  "city": "火山口湖国家公园",
+  "attraction": "Cleetwood Cove Trail",
+  "query": "Cleetwood Cove Trail Crater Lake"
+ }
+]

@@ -1,0 +1,42 @@
+[
+ {
+  "city": "布拉格",
+  "attraction": "查理大桥",
+  "query": "Charles Bridge Prague"
+ },
+ {
+  "city": "布拉格",
+  "attraction": "老城广场",
+  "query": "Old Town Square Prague astronomical clock"
+ },
+ {
+  "city": "布拉格",
+  "attraction": "布拉格城堡",
+  "query": "Prague Castle"
+ },
+ {
+  "city": "布拉格",
+  "attraction": "圣维特大教堂",
+  "query": "St Vitus Cathedral Prague"
+ },
+ {
+  "city": "布达佩斯",
+  "attraction": "国会大厦",
+  "query": "Hungarian Parliament Building Budapest"
+ },
+ {
+  "city": "布达佩斯",
+  "attraction": "链子桥",
+  "query": "Szechenyi Chain Bridge Budapest"
+ },
+ {
+  "city": "布达佩斯",
+  "attraction": "温泉浴场",
+  "query": "Szechenyi thermal bath Budapest"
+ },
+ {
+  "city": "布达佩斯",
+  "attraction": "城堡山",
+  "query": "Fisherman's Bastion Buda Castle Hill Budapest"
+ }
+]

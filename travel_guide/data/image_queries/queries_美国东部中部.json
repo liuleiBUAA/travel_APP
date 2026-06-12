@@ -1,0 +1,537 @@
+[
+ {
+  "city": "🔄 美东城市环线",
+  "attraction": "自由女神",
+  "query": "Statue of Liberty New York"
+ },
+ {
+  "city": "🔄 美东城市环线",
+  "attraction": "中央公园",
+  "query": "Central Park New York"
+ },
+ {
+  "city": "🔄 美东城市环线",
+  "attraction": "独立宫",
+  "query": "Independence Hall Philadelphia"
+ },
+ {
+  "city": "🔄 美东城市环线",
+  "attraction": "自由钟",
+  "query": "Liberty Bell Philadelphia"
+ },
+ {
+  "city": "🔄 美东城市环线",
+  "attraction": "白宫",
+  "query": "White House Washington DC"
+ },
+ {
+  "city": "🔄 美东城市环线",
+  "attraction": "林肯纪念堂",
+  "query": "Lincoln Memorial Washington DC"
+ },
+ {
+  "city": "🔄 美东城市环线",
+  "attraction": "国会山",
+  "query": "United States Capitol Washington DC"
+ },
+ {
+  "city": "🔄 美东城市环线",
+  "attraction": "史密森尼",
+  "query": "Smithsonian Castle Washington DC"
+ },
+ {
+  "city": "🔄 波士顿+阿卡迪亚环线",
+  "attraction": "阿卡迪亚",
+  "query": "Acadia National Park Maine"
+ },
+ {
+  "city": "🔄 波士顿+阿卡迪亚环线",
+  "attraction": "Cadillac Mountain日落",
+  "query": "Cadillac Mountain sunset Acadia"
+ },
+ {
+  "city": "🔄 波士顿+阿卡迪亚环线",
+  "attraction": "环岛自驾",
+  "query": "Park Loop Road Acadia"
+ },
+ {
+  "city": "🔄 波士顿+阿卡迪亚环线",
+  "attraction": "Sand Beach",
+  "query": "Sand Beach Acadia Maine"
+ },
+ {
+  "city": "🔄 波士顿+阿卡迪亚环线",
+  "attraction": "野生动物观察",
+  "query": "Acadia National Park Maine"
+ },
+ {
+  "city": "🔄 波士顿+阿卡迪亚环线",
+  "attraction": "Jordan Pond",
+  "query": "Jordan Pond Acadia Maine"
+ },
+ {
+  "city": "🔄 波士顿+阿卡迪亚环线",
+  "attraction": "清晨日出",
+  "query": "Cadillac Mountain sunrise Acadia"
+ },
+ {
+  "city": "纽约",
+  "attraction": "自由女神",
+  "query": "Statue of Liberty New York"
+ },
+ {
+  "city": "纽约",
+  "attraction": "中央公园",
+  "query": "Central Park New York"
+ },
+ {
+  "city": "纽约",
+  "attraction": "时代广场",
+  "query": "Times Square New York"
+ },
+ {
+  "city": "纽约",
+  "attraction": "大都会博物馆",
+  "query": "Metropolitan Museum of Art New York"
+ },
+ {
+  "city": "纽约",
+  "attraction": "华尔街",
+  "query": "Wall Street New York"
+ },
+ {
+  "city": "纽约",
+  "attraction": "联合国",
+  "query": "United Nations Headquarters New York"
+ },
+ {
+  "city": "波士顿",
+  "attraction": "自由之路",
+  "query": "Freedom Trail Boston"
+ },
+ {
+  "city": "波士顿",
+  "attraction": "昆西市场",
+  "query": "Quincy Market Boston"
+ },
+ {
+  "city": "波士顿",
+  "attraction": "哈佛",
+  "query": "Harvard University campus"
+ },
+ {
+  "city": "波士顿",
+  "attraction": "MIT",
+  "query": "MIT campus Cambridge"
+ },
+ {
+  "city": "华盛顿",
+  "attraction": "白宫",
+  "query": "White House Washington DC"
+ },
+ {
+  "city": "华盛顿",
+  "attraction": "林肯纪念堂",
+  "query": "Lincoln Memorial Washington DC"
+ },
+ {
+  "city": "华盛顿",
+  "attraction": "国会山",
+  "query": "United States Capitol Washington DC"
+ },
+ {
+  "city": "华盛顿",
+  "attraction": "史密森尼",
+  "query": "Smithsonian Castle Washington DC"
+ },
+ {
+  "city": "费城",
+  "attraction": "独立宫",
+  "query": "Independence Hall Philadelphia"
+ },
+ {
+  "city": "费城",
+  "attraction": "自由钟",
+  "query": "Liberty Bell Philadelphia"
+ },
+ {
+  "city": "尼亚加拉瀑布",
+  "attraction": "马蹄瀑布",
+  "query": "Horseshoe Falls Niagara"
+ },
+ {
+  "city": "尼亚加拉瀑布",
+  "attraction": "雾中少女号",
+  "query": "Maid of the Mist Niagara Falls"
+ },
+ {
+  "city": "尼亚加拉瀑布",
+  "attraction": "观瀑布视角",
+  "query": "Niagara Falls"
+ },
+ {
+  "city": "奥兰多",
+  "attraction": "奥兰多迪士尼",
+  "query": "Walt Disney World Cinderella Castle Orlando"
+ },
+ {
+  "city": "奥兰多",
+  "attraction": "奥兰多环球影城",
+  "query": "Universal Studios Orlando"
+ },
+ {
+  "city": "奥兰多",
+  "attraction": "肯尼迪航天中心",
+  "query": "Kennedy Space Center Florida"
+ },
+ {
+  "city": "奥兰多",
+  "attraction": "海洋世界",
+  "query": "SeaWorld Orlando"
+ },
+ {
+  "city": "迈阿密",
+  "attraction": "南海滩",
+  "query": "South Beach Miami"
+ },
+ {
+  "city": "迈阿密",
+  "attraction": "装饰艺术区",
+  "query": "Art Deco District Miami Beach"
+ },
+ {
+  "city": "迈阿密",
+  "attraction": "大沼泽地",
+  "query": "Everglades National Park Florida"
+ },
+ {
+  "city": "迈阿密",
+  "attraction": "钥匙群岛",
+  "query": "Florida Keys Overseas Highway"
+ },
+ {
+  "city": "芝加哥",
+  "attraction": "千禧公园",
+  "query": "Cloud Gate Millennium Park Chicago"
+ },
+ {
+  "city": "芝加哥",
+  "attraction": "海军码头",
+  "query": "Navy Pier Chicago"
+ },
+ {
+  "city": "芝加哥",
+  "attraction": "博物馆区",
+  "query": "Field Museum Chicago"
+ },
+ {
+  "city": "芝加哥",
+  "attraction": "密歇根大道",
+  "query": "Michigan Avenue Chicago"
+ },
+ {
+  "city": "新奥尔良",
+  "attraction": "法国区",
+  "query": "French Quarter New Orleans"
+ },
+ {
+  "city": "新奥尔良",
+  "attraction": "杰克逊广场",
+  "query": "Jackson Square New Orleans"
+ },
+ {
+  "city": "新奥尔良",
+  "attraction": "沼泽 tour",
+  "query": "Louisiana swamp bayou New Orleans"
+ },
+ {
+  "city": "新奥尔良",
+  "attraction": "Bourbon街",
+  "query": "Bourbon Street New Orleans"
+ },
+ {
+  "city": "坦帕",
+  "attraction": "Clearwater Beach 白沙滩",
+  "query": "Clearwater Beach Florida"
+ },
+ {
+  "city": "坦帕",
+  "attraction": "Ringling博物馆",
+  "query": "Ringling Museum Sarasota"
+ },
+ {
+  "city": "坦帕",
+  "attraction": "Siesta Beach",
+  "query": "Siesta Beach Sarasota Florida"
+ },
+ {
+  "city": "坦帕",
+  "attraction": "看海牛",
+  "query": "Florida manatee"
+ },
+ {
+  "city": "阿卡迪亚国家公园",
+  "attraction": "阿卡迪亚",
+  "query": "Acadia National Park Maine"
+ },
+ {
+  "city": "阿卡迪亚国家公园",
+  "attraction": "Cadillac Mountain",
+  "query": "Cadillac Mountain Acadia"
+ },
+ {
+  "city": "阿卡迪亚国家公园",
+  "attraction": "环岛自驾",
+  "query": "Park Loop Road Acadia"
+ },
+ {
+  "city": "阿卡迪亚国家公园",
+  "attraction": "Sand Beach",
+  "query": "Sand Beach Acadia Maine"
+ },
+ {
+  "city": "阿卡迪亚国家公园",
+  "attraction": "野生动物观察",
+  "query": "Acadia National Park Maine"
+ },
+ {
+  "city": "大雾山国家公园",
+  "attraction": "Cades Cove环线",
+  "query": "Cades Cove Great Smoky Mountains"
+ },
+ {
+  "city": "大雾山国家公园",
+  "attraction": "看野生动物（黑熊",
+  "query": "Great Smoky Mountains black bear"
+ },
+ {
+  "city": "大雾山国家公园",
+  "attraction": "鹿）",
+  "query": "Great Smoky Mountains National Park"
+ },
+ {
+  "city": "大雾山国家公园",
+  "attraction": "Clingmans Dome看云海",
+  "query": "Clingmans Dome Smoky Mountains"
+ },
+ {
+  "city": "大雾山国家公园",
+  "attraction": "Newfound Gap",
+  "query": "Newfound Gap Smoky Mountains"
+ },
+ {
+  "city": "仙纳度国家公园",
+  "attraction": "仙纳度",
+  "query": "Shenandoah National Park Virginia"
+ },
+ {
+  "city": "仙纳度国家公园",
+  "attraction": "Skyline Drive",
+  "query": "Skyline Drive Shenandoah"
+ },
+ {
+  "city": "仙纳度国家公园",
+  "attraction": "Marys Falls Trail",
+  "query": "Shenandoah waterfall trail"
+ },
+ {
+  "city": "仙纳度国家公园",
+  "attraction": "蓝岭公路",
+  "query": "Blue Ridge Parkway"
+ },
+ {
+  "city": "大沼泽地国家公园",
+  "attraction": "大沼泽地",
+  "query": "Everglades National Park Florida"
+ },
+ {
+  "city": "大沼泽地国家公园",
+  "attraction": "Airboat",
+  "query": "Everglades airboat Florida"
+ },
+ {
+  "city": "大沼泽地国家公园",
+  "attraction": "Shark Valley",
+  "query": "Shark Valley Everglades tower"
+ },
+ {
+  "city": "美东“蓝岭公路与双园”大环线",
+  "attraction": "行驶天际线公路",
+  "query": "Skyline Drive Shenandoah"
+ },
+ {
+  "city": "美东“蓝岭公路与双园”大环线",
+  "attraction": "全美最美景观道",
+  "query": "Blue Ridge Parkway"
+ },
+ {
+  "city": "美东“蓝岭公路与双园”大环线",
+  "attraction": "沿途多处观景台看群山起伏",
+  "query": "Blue Ridge Parkway overlook mountains"
+ },
+ {
+  "city": "美东“蓝岭公路与双园”大环线",
+  "attraction": "马布里磨坊",
+  "query": "Mabry Mill Blue Ridge Parkway"
+ },
+ {
+  "city": "美东“蓝岭公路与双园”大环线",
+  "attraction": "林维尔瀑布",
+  "query": "Linville Falls North Carolina"
+ },
+ {
+  "city": "美东“蓝岭公路与双园”大环线",
+  "attraction": "纽芬崖",
+  "query": "Newfound Gap Smoky Mountains"
+ },
+ {
+  "city": "美东“蓝岭公路与双园”大环线",
+  "attraction": "克林曼圆顶看云海",
+  "query": "Clingmans Dome Smoky Mountains"
+ },
+ {
+  "city": "美东“蓝岭公路与双园”大环线",
+  "attraction": "凯兹谷  环线看野生动物 (黑熊",
+  "query": "Cades Cove Great Smoky Mountains"
+ },
+ {
+  "city": "美东“蓝岭公路与双园”大环线",
+  "attraction": "鹿)",
+  "query": "Great Smoky Mountains National Park"
+ },
+ {
+  "city": "密歇根湖“巨型沙丘与五彩悬崖”大环线",
+  "attraction": "看沙丘与湖滩",
+  "query": "Sleeping Bear Dunes Lake Michigan"
+ },
+ {
+  "city": "密歇根湖“巨型沙丘与五彩悬崖”大环线",
+  "attraction": "攀登巨型沙丘",
+  "query": "Sleeping Bear Dunes climb"
+ },
+ {
+  "city": "密歇根湖“巨型沙丘与五彩悬崖”大环线",
+  "attraction": "看湖景日落",
+  "query": "Lake Michigan sunset"
+ },
+ {
+  "city": "密歇根湖“巨型沙丘与五彩悬崖”大环线",
+  "attraction": "苏必利尔湖南岸",
+  "query": "Lake Superior shoreline Michigan"
+ },
+ {
+  "city": "密歇根湖“巨型沙丘与五彩悬崖”大环线",
+  "attraction": "五彩悬崖",
+  "query": "Pictured Rocks National Lakeshore"
+ },
+ {
+  "city": "密歇根湖“巨型沙丘与五彩悬崖”大环线",
+  "attraction": "体验划皮划艇穿梭岩洞",
+  "query": "Pictured Rocks kayak cave"
+ },
+ {
+  "city": "密歇根湖“巨型沙丘与五彩悬崖”大环线",
+  "attraction": "瀑布徒步",
+  "query": "Upper Peninsula Michigan waterfall"
+ },
+ {
+  "city": "密歇根湖“巨型沙丘与五彩悬崖”大环线",
+  "attraction": "穿越威斯康星州森林",
+  "query": "Wisconsin forest"
+ },
+ {
+  "city": "亚特兰大",
+  "attraction": "可口可乐世界",
+  "query": "World of Coca-Cola Atlanta"
+ },
+ {
+  "city": "亚特兰大",
+  "attraction": "乔治亚水族馆",
+  "query": "Georgia Aquarium Atlanta"
+ },
+ {
+  "city": "亚特兰大",
+  "attraction": "CNN总部",
+  "query": "CNN Center Atlanta"
+ },
+ {
+  "city": "亚特兰大",
+  "attraction": "马丁·路德·金纪念馆",
+  "query": "Martin Luther King National Historic Site Atlanta"
+ },
+ {
+  "city": "亚特兰大",
+  "attraction": "奥林匹克公园",
+  "query": "Centennial Olympic Park Atlanta"
+ },
+ {
+  "city": "休斯顿",
+  "attraction": "休斯顿太空中心",
+  "query": "Space Center Houston"
+ },
+ {
+  "city": "休斯顿",
+  "attraction": "全天",
+  "query": "Houston Texas skyline"
+ },
+ {
+  "city": "休斯顿",
+  "attraction": "休斯顿自然科学博物馆",
+  "query": "Houston Museum of Natural Science"
+ },
+ {
+  "city": "休斯顿",
+  "attraction": "赫曼公园",
+  "query": "Hermann Park Houston"
+ },
+ {
+  "city": "丹佛",
+  "attraction": "16街步行街",
+  "query": "16th Street Mall Denver"
+ },
+ {
+  "city": "丹佛",
+  "attraction": "联合车站",
+  "query": "Denver Union Station"
+ },
+ {
+  "city": "丹佛",
+  "attraction": "州议会大厦",
+  "query": "Colorado State Capitol Denver"
+ },
+ {
+  "city": "丹佛",
+  "attraction": "红石公园",
+  "query": "Red Rocks Amphitheatre Denver"
+ },
+ {
+  "city": "丹佛",
+  "attraction": "丹佛艺术博物馆",
+  "query": "Denver Art Museum"
+ },
+ {
+  "city": "洛基山国家公园",
+  "attraction": "Bear Lake徒步",
+  "query": "Bear Lake Rocky Mountain National Park"
+ },
+ {
+  "city": "洛基山国家公园",
+  "attraction": "Emerald Lake",
+  "query": "Emerald Lake Rocky Mountain National Park"
+ },
+ {
+  "city": "洛基山国家公园",
+  "attraction": "Trail Ridge Road",
+  "query": "Trail Ridge Road Colorado"
+ },
+ {
+  "city": "洛基山国家公园",
+  "attraction": "Alpine Visitor Center",
+  "query": "Alpine Visitor Center Rocky Mountain"
+ },
+ {
+  "city": "洛基山国家公园",
+  "attraction": "Sky Pond徒步",
+  "query": "Sky Pond Rocky Mountain National Park"
+ }
+]

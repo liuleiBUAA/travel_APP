@@ -1,0 +1,227 @@
+[
+ {
+  "city": "伦敦",
+  "attraction": "大英博物馆",
+  "query": "British Museum London"
+ },
+ {
+  "city": "伦敦",
+  "attraction": "特拉法加广场",
+  "query": "Trafalgar Square London"
+ },
+ {
+  "city": "伦敦",
+  "attraction": "白金汉宫",
+  "query": "Buckingham Palace London"
+ },
+ {
+  "city": "伦敦",
+  "attraction": "西敏寺",
+  "query": "Westminster Abbey London"
+ },
+ {
+  "city": "伦敦",
+  "attraction": "大本钟",
+  "query": "Big Ben London"
+ },
+ {
+  "city": "伦敦",
+  "attraction": "伦敦塔",
+  "query": "Tower of London"
+ },
+ {
+  "city": "伦敦",
+  "attraction": "塔桥",
+  "query": "Tower Bridge London"
+ },
+ {
+  "city": "伦敦",
+  "attraction": "泰晤士河",
+  "query": "River Thames London"
+ },
+ {
+  "city": "伦敦",
+  "attraction": "剑桥或牛津一日游",
+  "query": "Cambridge University England"
+ },
+ {
+  "city": "爱丁堡",
+  "attraction": "爱丁堡城堡",
+  "query": "Edinburgh Castle Scotland"
+ },
+ {
+  "city": "爱丁堡",
+  "attraction": "皇家一英里",
+  "query": "Royal Mile Edinburgh"
+ },
+ {
+  "city": "爱丁堡",
+  "attraction": "卡尔顿山",
+  "query": "Calton Hill Edinburgh"
+ },
+ {
+  "city": "爱丁堡",
+  "attraction": "亚瑟王座",
+  "query": "Arthur's Seat Edinburgh"
+ },
+ {
+  "city": "爱丁堡",
+  "attraction": "荷里路德宫",
+  "query": "Palace of Holyroodhouse Edinburgh"
+ },
+ {
+  "city": "苏格兰高地",
+  "attraction": "尼斯湖",
+  "query": "Loch Ness Scotland"
+ },
+ {
+  "city": "苏格兰高地",
+  "attraction": "厄克特城堡",
+  "query": "Urquhart Castle Loch Ness"
+ },
+ {
+  "city": "苏格兰高地",
+  "attraction": "仙女池",
+  "query": "Fairy Pools Isle of Skye"
+ },
+ {
+  "city": "苏格兰高地",
+  "attraction": "老人峰",
+  "query": "Old Man of Storr Skye"
+ },
+ {
+  "city": "苏格兰高地",
+  "attraction": "格伦科峡谷",
+  "query": "Glencoe Scottish Highlands"
+ },
+ {
+  "city": "格拉斯哥",
+  "attraction": "格拉斯哥大教堂",
+  "query": "Glasgow Cathedral Scotland"
+ },
+ {
+  "city": "格拉斯哥",
+  "attraction": "乔治广场",
+  "query": "George Square Glasgow"
+ },
+ {
+  "city": "曼彻斯特",
+  "attraction": "老特拉福德球场",
+  "query": "Old Trafford Stadium Manchester"
+ },
+ {
+  "city": "曼彻斯特",
+  "attraction": "曼彻斯特博物馆",
+  "query": "Manchester Museum England"
+ },
+ {
+  "city": "利物浦",
+  "attraction": "披头士博物馆",
+  "query": "Beatles Story Museum Liverpool"
+ },
+ {
+  "city": "利物浦",
+  "attraction": "阿尔伯特码头",
+  "query": "Albert Dock Liverpool"
+ },
+ {
+  "city": "牛津",
+  "attraction": "牛津大学",
+  "query": "University of Oxford England"
+ },
+ {
+  "city": "牛津",
+  "attraction": "基督教堂学院",
+  "query": "Christ Church College Oxford"
+ },
+ {
+  "city": "牛津",
+  "attraction": "博德利图书馆",
+  "query": "Bodleian Library Oxford"
+ },
+ {
+  "city": "剑桥",
+  "attraction": "剑桥大学",
+  "query": "University of Cambridge England"
+ },
+ {
+  "city": "剑桥",
+  "attraction": "国王学院",
+  "query": "King's College Cambridge"
+ },
+ {
+  "city": "剑桥",
+  "attraction": "康河撑篙",
+  "query": "Punting River Cam Cambridge"
+ },
+ {
+  "city": "巴斯",
+  "attraction": "罗马浴场",
+  "query": "Roman Baths Bath England"
+ },
+ {
+  "city": "巴斯",
+  "attraction": "巴斯修道院",
+  "query": "Bath Abbey England"
+ },
+ {
+  "city": "巴斯",
+  "attraction": "皇家新月楼",
+  "query": "Royal Crescent Bath England"
+ },
+ {
+  "city": "约克",
+  "attraction": "约克大教堂",
+  "query": "York Minster England"
+ },
+ {
+  "city": "约克",
+  "attraction": "肉铺街",
+  "query": "The Shambles York"
+ },
+ {
+  "city": "约克",
+  "attraction": "古城墙",
+  "query": "York City Walls England"
+ },
+ {
+  "city": "英国湖区",
+  "attraction": "温德米尔湖",
+  "query": "Lake Windermere Lake District"
+ },
+ {
+  "city": "英国湖区",
+  "attraction": "波尼斯小镇",
+  "query": "Bowness-on-Windermere Lake District"
+ },
+ {
+  "city": "英国湖区",
+  "attraction": "凯西克",
+  "query": "Keswick Lake District England"
+ },
+ {
+  "city": "英国湖区",
+  "attraction": "德文特湖",
+  "query": "Derwentwater Lake District"
+ },
+ {
+  "city": "伯明翰",
+  "attraction": "伯明翰博物馆",
+  "query": "Birmingham Museum Art Gallery"
+ },
+ {
+  "city": "伯明翰",
+  "attraction": "运河区",
+  "query": "Birmingham Canals Brindleyplace"
+ },
+ {
+  "city": "布里斯托",
+  "attraction": "克利夫顿吊桥",
+  "query": "Clifton Suspension Bridge Bristol"
+ },
+ {
+  "city": "布里斯托",
+  "attraction": "港口区",
+  "query": "Bristol Harbourside England"
+ }
+]

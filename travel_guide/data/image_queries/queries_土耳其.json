@@ -1,0 +1,92 @@
+[
+ {
+  "city": "伊斯坦布尔",
+  "attraction": "蓝色清真寺",
+  "query": "Blue Mosque Istanbul"
+ },
+ {
+  "city": "伊斯坦布尔",
+  "attraction": "圣索菲亚大教堂",
+  "query": "Hagia Sophia Istanbul"
+ },
+ {
+  "city": "伊斯坦布尔",
+  "attraction": "大巴扎",
+  "query": "Grand Bazaar Istanbul"
+ },
+ {
+  "city": "伊斯坦布尔",
+  "attraction": "香料市场",
+  "query": "Spice Bazaar Istanbul"
+ },
+ {
+  "city": "伊斯坦布尔",
+  "attraction": "博斯普鲁斯海峡",
+  "query": "Bosphorus strait Istanbul"
+ },
+ {
+  "city": "卡帕多奇亚",
+  "attraction": "热气球",
+  "query": "Cappadocia hot air balloon Turkey"
+ },
+ {
+  "city": "卡帕多奇亚",
+  "attraction": "格雷梅露天博物馆",
+  "query": "Goreme Open Air Museum Cappadocia"
+ },
+ {
+  "city": "卡帕多奇亚",
+  "attraction": "洞穴酒店",
+  "query": "Cappadocia cave hotel terrace"
+ },
+ {
+  "city": "卡帕多奇亚",
+  "attraction": "精灵烟囱",
+  "query": "Cappadocia fairy chimneys"
+ },
+ {
+  "city": "安塔利亚",
+  "attraction": "哈德良门",
+  "query": "Hadrian's Gate Antalya"
+ },
+ {
+  "city": "安塔利亚",
+  "attraction": "阿斯班多斯",
+  "query": "Aspendos theatre Antalya"
+ },
+ {
+  "city": "费特希耶",
+  "attraction": "滑翔伞",
+  "query": "Oludeniz paragliding Fethiye"
+ },
+ {
+  "city": "费特希耶",
+  "attraction": "蝴蝶谷",
+  "query": "Butterfly Valley Fethiye Turkey"
+ },
+ {
+  "city": "费特希耶",
+  "attraction": "厄吕代尼兹海滩",
+  "query": "Oludeniz Blue Lagoon beach"
+ },
+ {
+  "city": "伊兹密尔",
+  "attraction": "以弗所古城",
+  "query": "Ephesus ancient city Library of Celsus"
+ },
+ {
+  "city": "伊兹密尔",
+  "attraction": "塞尔丘克",
+  "query": "Selcuk town Turkey"
+ },
+ {
+  "city": "伊兹密尔",
+  "attraction": "科纳克广场",
+  "query": "Konak Square clock tower Izmir"
+ },
+ {
+  "city": "伊兹密尔",
+  "attraction": "海滨长廊",
+  "query": "Izmir Kordon waterfront promenade"
+ }
+]

@@ -1,0 +1,77 @@
+[
+ {
+  "city": "雅典",
+  "attraction": "卫城",
+  "query": "Acropolis Athens Greece"
+ },
+ {
+  "city": "雅典",
+  "attraction": "帕特农神庙",
+  "query": "Parthenon Acropolis Athens"
+ },
+ {
+  "city": "雅典",
+  "attraction": "宪法广场",
+  "query": "Syntagma Square Athens guards"
+ },
+ {
+  "city": "雅典",
+  "attraction": "普拉卡",
+  "query": "Plaka neighborhood Athens"
+ },
+ {
+  "city": "圣托里尼",
+  "attraction": "红沙滩",
+  "query": "Red Beach Santorini Greece"
+ },
+ {
+  "city": "圣托里尼",
+  "attraction": "伊亚日落",
+  "query": "Santorini Oia sunset Greece"
+ },
+ {
+  "city": "圣托里尼",
+  "attraction": "酒庄",
+  "query": "Santorini winery vineyard Greece"
+ },
+ {
+  "city": "圣托里尼",
+  "attraction": "费罗斯特法尼",
+  "query": "Firostefani Santorini caldera view"
+ },
+ {
+  "city": "克里特岛",
+  "attraction": "克诺索斯宫",
+  "query": "Knossos Palace Crete Greece"
+ },
+ {
+  "city": "克里特岛",
+  "attraction": "威尼斯港口",
+  "query": "Chania Venetian Harbour Crete"
+ },
+ {
+  "city": "米克诺斯",
+  "attraction": "小威尼斯",
+  "query": "Little Venice Mykonos Greece"
+ },
+ {
+  "city": "米克诺斯",
+  "attraction": "风车阵",
+  "query": "Mykonos windmills Greece"
+ },
+ {
+  "city": "米克诺斯",
+  "attraction": "天堂海滩",
+  "query": "Paradise Beach Mykonos Greece"
+ },
+ {
+  "city": "罗德岛",
+  "attraction": "骑士城堡",
+  "query": "Palace of the Grand Master Rhodes"
+ },
+ {
+  "city": "罗德岛",
+  "attraction": "林多斯卫城",
+  "query": "Lindos Acropolis Rhodes Greece"
+ }
+]

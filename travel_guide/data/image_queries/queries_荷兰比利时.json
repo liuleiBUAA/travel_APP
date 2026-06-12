@@ -1,0 +1,67 @@
+[
+ {
+  "city": "阿姆斯特丹",
+  "attraction": "国立博物馆",
+  "query": "Rijksmuseum Amsterdam Netherlands"
+ },
+ {
+  "city": "阿姆斯特丹",
+  "attraction": "梵高博物馆",
+  "query": "Van Gogh Museum Amsterdam"
+ },
+ {
+  "city": "阿姆斯特丹",
+  "attraction": "梵高公园",
+  "query": "Museumplein Amsterdam I amsterdam sign"
+ },
+ {
+  "city": "阿姆斯特丹",
+  "attraction": "水坝广场",
+  "query": "Dam Square Amsterdam"
+ },
+ {
+  "city": "库肯霍夫",
+  "attraction": "库肯霍夫公园",
+  "query": "Keukenhof gardens tulips Netherlands"
+ },
+ {
+  "city": "羊角村",
+  "attraction": "自行车",
+  "query": "Giethoorn Netherlands cycling village"
+ },
+ {
+  "city": "羊角村",
+  "attraction": "运河",
+  "query": "Giethoorn canal boat Netherlands"
+ },
+ {
+  "city": "布鲁塞尔",
+  "attraction": "大广场",
+  "query": "Grand Place Brussels Belgium"
+ },
+ {
+  "city": "布鲁塞尔",
+  "attraction": "撒尿小童",
+  "query": "Manneken Pis Brussels Belgium"
+ },
+ {
+  "city": "布鲁塞尔",
+  "attraction": "原子球",
+  "query": "Atomium Brussels Belgium"
+ },
+ {
+  "city": "鹿特丹",
+  "attraction": "立体方块屋",
+  "query": "Cube Houses Rotterdam Netherlands"
+ },
+ {
+  "city": "鹿特丹",
+  "attraction": "鹿特丹港",
+  "query": "Port of Rotterdam Erasmus Bridge"
+ },
+ {
+  "city": "鹿特丹",
+  "attraction": "现代建筑",
+  "query": "Markthal Rotterdam modern architecture"
+ }
+]

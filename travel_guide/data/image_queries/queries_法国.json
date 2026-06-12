@@ -1,0 +1,217 @@
+[
+ {
+  "city": "巴黎",
+  "attraction": "卢浮宫",
+  "query": "Louvre Museum Paris"
+ },
+ {
+  "city": "巴黎",
+  "attraction": "香榭丽舍大街",
+  "query": "Champs-Elysees Paris Arc de Triomphe"
+ },
+ {
+  "city": "巴黎",
+  "attraction": "埃菲尔铁塔",
+  "query": "Eiffel Tower Paris"
+ },
+ {
+  "city": "巴黎",
+  "attraction": "塞纳河",
+  "query": "Seine River Paris"
+ },
+ {
+  "city": "巴黎",
+  "attraction": "凡尔赛宫",
+  "query": "Palace of Versailles"
+ },
+ {
+  "city": "巴黎",
+  "attraction": "奥赛博物馆",
+  "query": "Musee d'Orsay Paris"
+ },
+ {
+  "city": "巴黎",
+  "attraction": "杜乐丽花园",
+  "query": "Tuileries Garden Paris"
+ },
+ {
+  "city": "巴黎",
+  "attraction": "蒙马特高地",
+  "query": "Montmartre Sacre-Coeur Paris"
+ },
+ {
+  "city": "巴黎",
+  "attraction": "巴黎迪士尼",
+  "query": "Disneyland Paris castle"
+ },
+ {
+  "city": "蔚蓝海岸（尼斯/摩纳哥/戛纳）",
+  "attraction": "天使湾",
+  "query": "Baie des Anges Nice France"
+ },
+ {
+  "city": "蔚蓝海岸（尼斯/摩纳哥/戛纳）",
+  "attraction": "埃兹小镇",
+  "query": "Eze village France"
+ },
+ {
+  "city": "蔚蓝海岸（尼斯/摩纳哥/戛纳）",
+  "attraction": "摩纳哥",
+  "query": "Monaco Monte Carlo harbor"
+ },
+ {
+  "city": "蔚蓝海岸（尼斯/摩纳哥/戛纳）",
+  "attraction": "戛纳",
+  "query": "Cannes France Croisette"
+ },
+ {
+  "city": "普罗旺斯（阿维尼翁/马赛）",
+  "attraction": "教皇宫",
+  "query": "Palais des Papes Avignon"
+ },
+ {
+  "city": "普罗旺斯（阿维尼翁/马赛）",
+  "attraction": "断桥",
+  "query": "Pont Saint-Benezet Avignon bridge"
+ },
+ {
+  "city": "普罗旺斯（阿维尼翁/马赛）",
+  "attraction": "泉水城",
+  "query": "Fontaine-de-Vaucluse spring France"
+ },
+ {
+  "city": "普罗旺斯（阿维尼翁/马赛）",
+  "attraction": "石头城",
+  "query": "Gordes village Provence France"
+ },
+ {
+  "city": "普罗旺斯（阿维尼翁/马赛）",
+  "attraction": "红土城",
+  "query": "Roussillon ochre village Provence"
+ },
+ {
+  "city": "普罗旺斯（阿维尼翁/马赛）",
+  "attraction": "瓦伦索勒薰衣草",
+  "query": "Valensole lavender fields Provence"
+ },
+ {
+  "city": "普罗旺斯（阿维尼翁/马赛）",
+  "attraction": "圣十字湖",
+  "query": "Lac de Sainte-Croix Verdon France"
+ },
+ {
+  "city": "普罗旺斯（阿维尼翁/马赛）",
+  "attraction": "守护圣母教堂",
+  "query": "Notre-Dame de la Garde Marseille"
+ },
+ {
+  "city": "普罗旺斯（阿维尼翁/马赛）",
+  "attraction": "卡朗格峡湾",
+  "query": "Calanques Marseille France"
+ },
+ {
+  "city": "卢瓦尔河谷",
+  "attraction": "卢瓦尔河谷",
+  "query": "Loire Valley chateau France"
+ },
+ {
+  "city": "卢瓦尔河谷",
+  "attraction": "舍农索城堡",
+  "query": "Chateau de Chenonceau France"
+ },
+ {
+  "city": "卢瓦尔河谷",
+  "attraction": "昂布瓦兹",
+  "query": "Chateau d'Amboise Loire France"
+ },
+ {
+  "city": "卢瓦尔河谷",
+  "attraction": "香波堡",
+  "query": "Chateau de Chambord France"
+ },
+ {
+  "city": "圣米歇尔山/圣马洛",
+  "attraction": "圣米歇尔山",
+  "query": "Mont Saint-Michel France"
+ },
+ {
+  "city": "圣米歇尔山/圣马洛",
+  "attraction": "圣马洛",
+  "query": "Saint-Malo Brittany France"
+ },
+ {
+  "city": "圣米歇尔山/圣马洛",
+  "attraction": "圣马洛古城墙",
+  "query": "Saint-Malo city walls ramparts"
+ },
+ {
+  "city": "安纳西",
+  "attraction": "安纳西",
+  "query": "Annecy old town canal France"
+ },
+ {
+  "city": "安纳西",
+  "attraction": "安纳西湖",
+  "query": "Lake Annecy France"
+ },
+ {
+  "city": "霞慕尼",
+  "attraction": "霞慕尼",
+  "query": "Chamonix village Mont Blanc France"
+ },
+ {
+  "city": "霞慕尼",
+  "attraction": "勃朗峰",
+  "query": "Mont Blanc France Alps"
+ },
+ {
+  "city": "科尔马/斯特拉斯堡",
+  "attraction": "科尔马",
+  "query": "Colmar old town France"
+ },
+ {
+  "city": "科尔马/斯特拉斯堡",
+  "attraction": "小威尼斯",
+  "query": "Little Venice Colmar France"
+ },
+ {
+  "city": "科尔马/斯特拉斯堡",
+  "attraction": "斯特拉斯堡",
+  "query": "Strasbourg Petite France cathedral"
+ },
+ {
+  "city": "波尔多",
+  "attraction": "交易所广场",
+  "query": "Place de la Bourse Bordeaux mirror"
+ },
+ {
+  "city": "波尔多",
+  "attraction": "皮拉沙丘",
+  "query": "Dune du Pilat Arcachon France"
+ },
+ {
+  "city": "波尔多",
+  "attraction": "葡萄酒庄之旅",
+  "query": "Bordeaux vineyard chateau France"
+ },
+ {
+  "city": "里昂",
+  "attraction": "富维耶圣母院",
+  "query": "Basilica Notre-Dame de Fourviere Lyon"
+ },
+ {
+  "city": "里昂",
+  "attraction": "半岛区",
+  "query": "Presquile Lyon Place Bellecour"
+ },
+ {
+  "city": "象鼻山",
+  "attraction": "象鼻山悬崖",
+  "query": "Etretat cliffs Normandy France"
+ },
+ {
+  "city": "枫丹白露宫",
+  "attraction": "枫丹白露宫",
+  "query": "Chateau de Fontainebleau France"
+ }
+]

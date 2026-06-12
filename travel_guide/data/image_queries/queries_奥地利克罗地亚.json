@@ -1,0 +1,20 @@
+[
+ {"city": "维也纳", "attraction": "美泉宫", "query": "Schonbrunn Palace Vienna Austria"},
+ {"city": "维也纳", "attraction": "霍夫堡", "query": "Hofburg Palace Vienna Austria"},
+ {"city": "维也纳", "attraction": "斯蒂芬大教堂", "query": "St Stephens Cathedral Vienna Austria"},
+ {"city": "维也纳", "attraction": "纳许市场", "query": "Naschmarkt Vienna Austria"},
+ {"city": "奥地利湖区", "attraction": "戈绍湖", "query": "Lake Gosau Dachstein Austria"},
+ {"city": "奥地利湖区", "attraction": "哈尔施塔特游览", "query": "Hallstatt Austria"},
+ {"city": "奥地利湖区", "attraction": "游船", "query": "Hallstatt lake boat Austria"},
+ {"city": "奥地利湖区", "attraction": "Bad Ischl 查漏补缺", "query": "Bad Ischl town Austria"},
+ {"city": "杜布罗夫尼克", "attraction": "城墙", "query": "Dubrovnik city walls old town Croatia"},
+ {"city": "杜布罗夫尼克", "attraction": "皮瓦尔门", "query": "Pile Gate Dubrovnik Croatia"},
+ {"city": "杜布罗夫尼克", "attraction": "洛克鲁姆岛", "query": "Lokrum Island Dubrovnik Croatia"},
+ {"city": "十六湖", "attraction": "十六湖国家公园", "query": "Plitvice Lakes National Park Croatia"},
+ {"city": "斯普利特", "attraction": "戴克里先宫", "query": "Diocletians Palace Split Croatia"},
+ {"city": "扎达尔", "attraction": "海风琴", "query": "Sea Organ Zadar Croatia"},
+ {"city": "扎达尔", "attraction": "太阳敬礼", "query": "Sun Salutation Zadar Croatia"},
+ {"city": "萨格勒布", "attraction": "上城区", "query": "Zagreb Upper Town Croatia"},
+ {"city": "萨格勒布", "attraction": "圣马可教堂", "query": "St Marks Church Zagreb colorful roof"},
+ {"city": "萨格勒布", "attraction": "失恋博物馆", "query": "Museum of Broken Relationships Zagreb"}
+]
