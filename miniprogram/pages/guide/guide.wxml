@@ -268,6 +268,13 @@
           <view class="day-image-name">{{pic.name}}</view>
         </view>
       </scroll-view>
+      <view wx:if="{{item.distances && item.distances.length}}" class="day-distances">
+        <view wx:for="{{item.distances}}" wx:for-item="leg" wx:key="to" class="dist-leg">
+          <text class="dist-from">{{leg.from}}</text>
+          <text class="dist-arrow">→ 步行{{leg.min}}分 · {{leg.km}}km →</text>
+          <text class="dist-to">{{leg.to}}</text>
+        </view>
+      </view>
       <view class="day-transport">{{item.transport}}</view>
     </view>
     <view wx:if="{{routeItinerary.length}}" class="image-credit">景点图片来自 Wikimedia Commons（CC 许可）</view>

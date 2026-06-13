@@ -3,7 +3,9 @@
 
 输入: data/geo/<国家>_coords.json + data/<区域>/guides/<国家>_destinations.json
 输出: data/geo/<国家>_distances.json
-  { "巴黎": { "Day 1": [{"from":"卢浮宫","to":"香榭丽舍大街","km":3.5,"min":42}], ... } }
+  { "卢浮宫|香榭丽舍大街": {"km":3.5,"min":42}, ... }
+按"景点对"存（无序，键名两景点排序后用|连接），后端按当天 activity 里
+相邻景点实时查表 —— 不依赖 day 编号（规划器会插入到达/离开日，编号会偏移）。
 
 时间按 5km/h 步速算（OSRM 公共服务的 duration 不可信，按骑车速度返回）。
 线性/区域地点（河流、大街、海滩等）点对点距离无意义，跳过。
@@ -59,7 +61,6 @@ def main(country):
 
     out = {}
     for city, info in dest.items():
-        city_days = {}
         for day in info.get("itinerary", []):
             attrs = [a.strip() for a in re.split(r"[、,，]", day["activity"]) if a.strip()]
             # 去重保序 + 必须有坐标 + 非线性/区域地点
@@ -68,22 +69,16 @@ def main(country):
                 if a in coords and not is_skippable(a) and a not in seen:
                     seen.add(a)
                     usable.append(a)
-            if len(usable) < 2:
-                continue
-            legs = []
             for i in range(len(usable) - 1):
-                km = osrm_km(coords[usable[i]], coords[usable[i + 1]])
+                a, b = usable[i], usable[i + 1]
+                key = "|".join(sorted([a, b]))
+                if key in out:
+                    continue
+                km = osrm_km(coords[a], coords[b])
                 if km is not None:
-                    legs.append({
-                        "from": usable[i], "to": usable[i + 1],
-                        "km": round(km, 1), "min": round(km / 5 * 60),
-                    })
+                    out[key] = {"km": round(km, 1), "min": round(km / 5 * 60)}
                 time.sleep(0.5)
-            if legs:
-                city_days[day["day"]] = legs
-        if city_days:
-            out[city] = city_days
-            print(f"  {city}: {len(city_days)} 天有距离条", flush=True)
+    print(f"  共 {len(out)} 个景点对", flush=True)
 
     out_file = GEO_DIR / f"{country}_distances.json"
     json.dump(out, open(out_file, "w", encoding="utf-8"), ensure_ascii=False, indent=1)

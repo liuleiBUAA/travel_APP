@@ -45,8 +45,10 @@ class RouteService:
         manifest 的 city 是目的地 key（如"蔚蓝海岸（尼斯/摩纳哥/戛纳）"），
         用户城市名要经 city_mapping 映射后才对得上。"""
         from services.playbook_service import get_playbook_index
+        from services.distance_service import get_distance_index
         index = get_image_index()
         pb_index = get_playbook_index()
+        dist_index = get_distance_index()
         city_set = None
         if cities:
             city_set = set(cities)
@@ -65,6 +67,9 @@ class RouteService:
             if city_pb:
                 guided_cities.add(stay)
                 day["city_guide"] = {"name": city_pb["name"], "summary": city_pb.get("summary", "")}
+            legs = dist_index.legs_for_activity(day.get("activity", ""))
+            if legs:
+                day["distances"] = legs
         return itinerary
 
     @staticmethod

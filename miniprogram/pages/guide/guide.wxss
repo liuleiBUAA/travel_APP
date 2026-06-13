@@ -284,6 +284,27 @@
   border-radius: 8rpx;
 }
 
+.day-distances {
+  padding: 10rpx 12rpx;
+  background: var(--c-input-bg);
+  border-radius: 8rpx;
+  margin-bottom: 10rpx;
+}
+
+.dist-leg {
+  font-size: 24rpx;
+  line-height: 1.9;
+}
+
+.dist-from, .dist-to {
+  color: var(--c-text);
+}
+
+.dist-arrow {
+  color: var(--c-primary);
+  margin: 0 6rpx;
+}
+
 .day-images {
   white-space: nowrap;
   margin-bottom: 10rpx;
