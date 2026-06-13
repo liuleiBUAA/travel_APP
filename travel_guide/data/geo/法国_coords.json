@@ -1,0 +1,254 @@
+{
+ "卢浮宫": {
+  "lat": 48.861147,
+  "lon": 2.338028,
+  "query": "Louvre Museum Paris",
+  "city": "巴黎"
+ },
+ "香榭丽舍大街": {
+  "lat": 48.873456,
+  "lon": 2.297073,
+  "query": "Champs-Elysees Paris Arc de Triomphe",
+  "city": "巴黎"
+ },
+ "埃菲尔铁塔": {
+  "lat": 48.85826,
+  "lon": 2.294501,
+  "query": "Eiffel Tower Paris",
+  "city": "巴黎"
+ },
+ "塞纳河": {
+  "lat": 48.855306,
+  "lon": 2.420169,
+  "query": "Seine River Paris",
+  "city": "巴黎"
+ },
+ "凡尔赛宫": {
+  "lat": 48.804425,
+  "lon": 2.120285,
+  "query": "Palace of Versailles",
+  "city": "巴黎"
+ },
+ "奥赛博物馆": {
+  "lat": 48.859918,
+  "lon": 2.326585,
+  "query": "Musee d'Orsay Paris",
+  "city": "巴黎"
+ },
+ "杜乐丽花园": {
+  "lat": 48.863566,
+  "lon": 2.326955,
+  "query": "Tuileries Garden Paris",
+  "city": "巴黎"
+ },
+ "蒙马特高地": {
+  "lat": 48.886806,
+  "lon": 2.343015,
+  "query": "Montmartre Sacre-Coeur Paris",
+  "city": "巴黎"
+ },
+ "巴黎迪士尼": {
+  "lat": 48.870093,
+  "lon": 2.77405,
+  "query": "Disneyland Paris castle",
+  "city": "巴黎"
+ },
+ "天使湾": {
+  "lat": 43.69125,
+  "lon": 7.239912,
+  "query": "Baie des Anges Nice France",
+  "city": "蔚蓝海岸（尼斯/摩纳哥/戛纳）"
+ },
+ "埃兹小镇": {
+  "lat": 43.730239,
+  "lon": 7.361361,
+  "query": "Eze village France",
+  "city": "蔚蓝海岸（尼斯/摩纳哥/戛纳）"
+ },
+ "摩纳哥": {
+  "lat": 43.740296,
+  "lon": 7.426559,
+  "query": "Monaco Monte Carlo harbor",
+  "city": "蔚蓝海岸（尼斯/摩纳哥/戛纳）"
+ },
+ "戛纳": {
+  "lat": 43.551562,
+  "lon": 7.016581,
+  "query": "Cannes France Croisette",
+  "city": "蔚蓝海岸（尼斯/摩纳哥/戛纳）"
+ },
+ "教皇宫": {
+  "lat": 43.950708,
+  "lon": 4.807685,
+  "query": "Palais des Papes Avignon",
+  "city": "普罗旺斯（阿维尼翁/马赛）"
+ },
+ "断桥": {
+  "lat": 43.953749,
+  "lon": 4.805093,
+  "query": "Pont Saint-Benezet Avignon bridge",
+  "city": "普罗旺斯（阿维尼翁/马赛）"
+ },
+ "泉水城": {
+  "lat": 43.91767,
+  "lon": 5.132844,
+  "query": "Fontaine-de-Vaucluse spring France",
+  "city": "普罗旺斯（阿维尼翁/马赛）"
+ },
+ "石头城": {
+  "lat": 43.907426,
+  "lon": 5.180186,
+  "query": "Gordes village Provence France",
+  "city": "普罗旺斯（阿维尼翁/马赛）"
+ },
+ "红土城": {
+  "lat": 43.895492,
+  "lon": 5.297104,
+  "query": "Roussillon ochre village Provence",
+  "city": "普罗旺斯（阿维尼翁/马赛）"
+ },
+ "瓦伦索勒薰衣草": {
+  "lat": 43.832516,
+  "lon": 5.271662,
+  "query": "Valensole lavender fields Provence",
+  "city": "普罗旺斯（阿维尼翁/马赛）"
+ },
+ "圣十字湖": {
+  "lat": 43.767324,
+  "lon": 6.183931,
+  "query": "Lac de Sainte-Croix Verdon France",
+  "city": "普罗旺斯（阿维尼翁/马赛）"
+ },
+ "守护圣母教堂": {
+  "lat": 43.283946,
+  "lon": 5.371242,
+  "query": "Notre-Dame de la Garde Marseille",
+  "city": "普罗旺斯（阿维尼翁/马赛）"
+ },
+ "卡朗格峡湾": {
+  "lat": 43.25012,
+  "lon": 5.403143,
+  "query": "Calanques Marseille France",
+  "city": "普罗旺斯（阿维尼翁/马赛）"
+ },
+ "卢瓦尔河谷": {
+  "lat": 47.215687,
+  "lon": -1.549321,
+  "query": "Loire Valley chateau France",
+  "city": "卢瓦尔河谷"
+ },
+ "舍农索城堡": {
+  "lat": 47.324622,
+  "lon": 1.070418,
+  "query": "Chateau de Chenonceau France",
+  "city": "卢瓦尔河谷"
+ },
+ "昂布瓦兹": {
+  "lat": 47.413629,
+  "lon": 0.985972,
+  "query": "Chateau d'Amboise Loire France",
+  "city": "卢瓦尔河谷"
+ },
+ "香波堡": {
+  "lat": 47.61607,
+  "lon": 1.51705,
+  "query": "Chateau de Chambord France",
+  "city": "卢瓦尔河谷"
+ },
+ "圣米歇尔山": {
+  "lat": 48.635954,
+  "lon": -1.51146,
+  "query": "Mont Saint-Michel France",
+  "city": "圣米歇尔山/圣马洛"
+ },
+ "圣马洛": {
+  "lat": 48.649518,
+  "lon": -2.026041,
+  "query": "Saint-Malo Brittany France",
+  "city": "圣米歇尔山/圣马洛"
+ },
+ "安纳西": {
+  "lat": 46.203077,
+  "lon": 6.142471,
+  "query": "Annecy old town canal France",
+  "city": "安纳西"
+ },
+ "安纳西湖": {
+  "lat": 45.84936,
+  "lon": 6.171307,
+  "query": "Lake Annecy France",
+  "city": "安纳西"
+ },
+ "霞慕尼": {
+  "lat": 45.984002,
+  "lon": 6.927604,
+  "query": "Chamonix village Mont Blanc France",
+  "city": "霞慕尼"
+ },
+ "勃朗峰": {
+  "lat": 43.699036,
+  "lon": 7.2551,
+  "query": "Mont Blanc France Alps",
+  "city": "霞慕尼"
+ },
+ "科尔马": {
+  "lat": 48.143531,
+  "lon": 17.107787,
+  "query": "Colmar old town France",
+  "city": "科尔马/斯特拉斯堡"
+ },
+ "小威尼斯": {
+  "lat": 48.074634,
+  "lon": 7.360326,
+  "query": "Little Venice Colmar France",
+  "city": "科尔马/斯特拉斯堡"
+ },
+ "斯特拉斯堡": {
+  "lat": 47.217618,
+  "lon": -1.552825,
+  "query": "Strasbourg Petite France cathedral",
+  "city": "科尔马/斯特拉斯堡"
+ },
+ "交易所广场": {
+  "lat": 44.841456,
+  "lon": -0.57038,
+  "query": "Place de la Bourse Bordeaux mirror",
+  "city": "波尔多"
+ },
+ "皮拉沙丘": {
+  "lat": 44.588977,
+  "lon": -1.214204,
+  "query": "Dune du Pilat Arcachon France",
+  "city": "波尔多"
+ },
+ "葡萄酒庄之旅": {
+  "lat": 45.230775,
+  "lon": -0.775764,
+  "query": "Bordeaux vineyard chateau France",
+  "city": "波尔多"
+ },
+ "富维耶圣母院": {
+  "lat": 45.762341,
+  "lon": 4.821992,
+  "query": "Basilica Notre-Dame de Fourviere Lyon",
+  "city": "里昂"
+ },
+ "半岛区": {
+  "lat": 45.757516,
+  "lon": 4.831995,
+  "query": "Presquile Lyon Place Bellecour",
+  "city": "里昂"
+ },
+ "象鼻山悬崖": {
+  "lat": 49.707462,
+  "lon": 0.20319,
+  "query": "Etretat cliffs Normandy France",
+  "city": "象鼻山"
+ },
+ "枫丹白露宫": {
+  "lat": 48.402117,
+  "lon": 2.699851,
+  "query": "Chateau de Fontainebleau France",
+  "city": "枫丹白露宫"
+ }
+}
