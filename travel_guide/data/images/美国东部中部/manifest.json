@@ -4,31 +4,24 @@
   "attraction": "自由女神",
   "status": "ok",
   "local": "🔄 美东城市环线/自由女神_1.jpg",
-  "license": "Public domain",
-  "artist": "Nanine Vallain",
-  "commons_file": "Nanine_Vallain_-_Liberté.jpg",
-  "source": "zhwiki:自由女神",
+  "license": "Pexels",
+  "artist": "Federico Abis",
+  "commons_file": "pexels:33620005",
+  "source": "pexels:Statue of Liberty New York",
   "extras": [
    {
     "local": "🔄 美东城市环线/自由女神_2.jpg",
-    "license": "Public domain",
-    "artist": "Henry Mayer / Adam Cuerden",
-    "commons_file": "Henry Mayer, The Awakening, 1915 Cornell CUL PJM 1176 01 - Restoration.jpg",
-    "source": "commons-supplement:Liberty (personification)"
+    "license": "Pexels",
+    "artist": "kenneth Mayeden",
+    "commons_file": "pexels:28133996",
+    "source": "pexels:Statue of Liberty New York"
    },
    {
     "local": "🔄 美东城市环线/自由女神_3.jpg",
-    "license": "Public domain",
-    "artist": "Leslie-Judge Company",
-    "commons_file": "World War I Lady Liberty Ringing in Freedom Across The World.jpg",
-    "source": "commons-supplement:Liberty (personification)"
-   },
-   {
-    "local": "🔄 美东城市环线/自由女神_4.png",
-    "license": "CC BY 2.0",
-    "artist": "Mike Licht",
-    "commons_file": "Freedom to eRead, after Roger Roth Lady Liberty reading.png",
-    "source": "commons-supplement:Liberty (personification)"
+    "license": "Pexels",
+    "artist": "My Photos",
+    "commons_file": "pexels:7758569",
+    "source": "pexels:Statue of Liberty New York"
    }
   ]
  },
@@ -37,107 +30,128 @@
   "attraction": "中央公园",
   "status": "ok",
   "local": "🔄 美东城市环线/中央公园_1.jpg",
-  "license": "CC BY 2.0",
-  "artist": "Anthony Quintano from Hillsborough, NJ, United States",
-  "commons_file": "Global_Citizen_Festival_Central_Park_New_York_City_from_NYonAir_(15351915006).jpg",
-  "source": "zhwiki:中央公園",
+  "license": "Pexels",
+  "artist": "Shon Fay",
+  "commons_file": "pexels:14556880",
+  "source": "pexels:Central Park New York",
   "extras": [
    {
     "local": "🔄 美东城市环线/中央公园_2.jpg",
-    "license": "Public domain",
-    "artist": "Jet Lowe",
-    "commons_file": "Central Park New York City New York 23 cropped.jpg",
-    "source": "commons-supplement:Central Park"
+    "license": "Pexels",
+    "artist": "Louis",
+    "commons_file": "pexels:29073691",
+    "source": "pexels:Central Park New York"
    },
    {
     "local": "🔄 美东城市环线/中央公园_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Rhododendrites",
-    "commons_file": "Male northern cardinal in Central Park (52612).jpg",
-    "source": "commons-supplement:Central Park"
-   },
-   {
-    "local": "🔄 美东城市环线/中央公园_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "King of Hearts",
-    "commons_file": "Central Park New York October 2016 panorama 1.jpg",
-    "source": "commons-supplement:Central Park"
+    "license": "Pexels",
+    "artist": "Andres Figueroa",
+    "commons_file": "pexels:38048122",
+    "source": "pexels:Central Park New York"
    }
   ]
  },
  {
   "city": "🔄 美东城市环线",
   "attraction": "独立宫",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 美东城市环线/独立宫_1.jpg",
+  "license": "Pexels",
+  "artist": "Lavdrim Mustafi",
+  "commons_file": "pexels:14088588",
+  "source": "pexels:Independence Hall Philadelphia",
+  "extras": [
+   {
+    "local": "🔄 美东城市环线/独立宫_2.jpg",
+    "license": "Pexels",
+    "artist": "Lavdrim Mustafi",
+    "commons_file": "pexels:14088457",
+    "source": "pexels:Independence Hall Philadelphia"
+   },
+   {
+    "local": "🔄 美东城市环线/独立宫_3.jpg",
+    "license": "Pexels",
+    "artist": "Dan Parlante",
+    "commons_file": "pexels:5719238",
+    "source": "pexels:Independence Hall Philadelphia"
+   }
+  ]
  },
  {
   "city": "🔄 美东城市环线",
   "attraction": "自由钟",
   "status": "ok",
   "local": "🔄 美东城市环线/自由钟_1.jpg",
-  "license": "CC BY 2.0",
-  "artist": "William Zhang",
-  "commons_file": "Liberty_Bell_2017a.jpg",
-  "source": "zhwiki:自由钟",
+  "license": "Pexels",
+  "artist": "Brett Sayles",
+  "commons_file": "pexels:5437555",
+  "source": "pexels:Liberty Bell Philadelphia",
   "extras": [
    {
-    "local": "🔄 美东城市环线/自由钟_2.png",
-    "license": "CC BY-SA 4.0",
-    "artist": "Anush",
-    "commons_file": "Liberty Bell Zoomed Out.png",
-    "source": "commons-supplement:Liberty Bell"
+    "local": "🔄 美东城市环线/自由钟_2.jpg",
+    "license": "Pexels",
+    "artist": "Lavdrim Mustafi",
+    "commons_file": "pexels:14088457",
+    "source": "pexels:Liberty Bell Philadelphia"
    },
    {
     "local": "🔄 美东城市环线/自由钟_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "颐园居",
-    "commons_file": "Liberty Bell, Philadelphia 20240528.jpg",
-    "source": "commons-supplement:Liberty Bell"
-   },
-   {
-    "local": "🔄 美东城市环线/自由钟_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Mys 721tx",
-    "commons_file": "Liberty Bell, Aug 2019.jpg",
-    "source": "commons-supplement:Liberty Bell"
+    "license": "Pexels",
+    "artist": "Hande Yavuz",
+    "commons_file": "pexels:33312211",
+    "source": "pexels:Liberty Bell Philadelphia"
    }
   ]
  },
  {
   "city": "🔄 美东城市环线",
   "attraction": "白宫",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 美东城市环线/白宫_1.jpg",
+  "license": "Pexels",
+  "artist": "Aaron Kittredge",
+  "commons_file": "pexels:129112",
+  "source": "pexels:White House Washington DC",
+  "extras": [
+   {
+    "local": "🔄 美东城市环线/白宫_2.jpg",
+    "license": "Pexels",
+    "artist": "Gu Bra",
+    "commons_file": "pexels:6477549",
+    "source": "pexels:White House Washington DC"
+   },
+   {
+    "local": "🔄 美东城市环线/白宫_3.jpg",
+    "license": "Pexels",
+    "artist": "Pixabay",
+    "commons_file": "pexels:208686",
+    "source": "pexels:White House Washington DC"
+   }
+  ]
  },
  {
   "city": "🔄 美东城市环线",
   "attraction": "林肯纪念堂",
   "status": "ok",
-  "local": "🔄 美东城市环线/林肯纪念堂_1.jpeg",
-  "license": "Public domain",
-  "artist": "Aerial_view_of_Lincoln_Memorial_-_east_side.jpg: Carol M. Highsmith\nderivative w",
-  "commons_file": "Aerial_view_of_Lincoln_Memorial_-_east_side_EDIT.jpeg",
-  "source": "zhwiki:林肯纪念堂",
+  "local": "🔄 美东城市环线/林肯纪念堂_1.jpg",
+  "license": "Pexels",
+  "artist": "Tom Fisk",
+  "commons_file": "pexels:11732274",
+  "source": "pexels:Lincoln Memorial Washington DC",
   "extras": [
    {
     "local": "🔄 美东城市环线/林肯纪念堂_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Martin Falbisoner",
-    "commons_file": "Lincoln Memorial east side.JPG",
-    "source": "commons-supplement:Lincoln Memorial"
+    "license": "Pexels",
+    "artist": "Brett Aukburg",
+    "commons_file": "pexels:37215688",
+    "source": "pexels:Lincoln Memorial Washington DC"
    },
    {
     "local": "🔄 美东城市环线/林肯纪念堂_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Frank Schulenburg",
-    "commons_file": "Statue of Abraham Lincoln, Lincoln Memorial (2024)-L1005507.jpg",
-    "source": "commons-supplement:Lincoln Memorial"
-   },
-   {
-    "local": "🔄 美东城市环线/林肯纪念堂_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Cathy Rowe",
-    "commons_file": "Abraham Lincoln v2.jpg",
-    "source": "commons-supplement:Lincoln Memorial"
+    "license": "Pexels",
+    "artist": "Chris",
+    "commons_file": "pexels:32105027",
+    "source": "pexels:Lincoln Memorial Washington DC"
    }
   ]
  },
@@ -145,133 +159,259 @@
   "city": "🔄 美东城市环线",
   "attraction": "国会山",
   "status": "ok",
-  "local": "🔄 美东城市环线/国会山_1.tif",
-  "license": "Public domain",
-  "artist": "Carol M. Highsmith",
-  "commons_file": "Aerial_view_of_Washington,_D.C.14549a.tif",
-  "source": "zhwiki:国会山",
+  "local": "🔄 美东城市环线/国会山_1.jpg",
+  "license": "Pexels",
+  "artist": "Ivan Dražić",
+  "commons_file": "pexels:20417783",
+  "source": "pexels:United States Capitol Washington DC",
   "extras": [
    {
     "local": "🔄 美东城市环线/国会山_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Dllu",
-    "commons_file": "High rise view of Capitol Hill at night, looking east from Pine and 9th.jpg",
-    "source": "commons-supplement:Capitol Hill"
+    "license": "Pexels",
+    "artist": "terry bazemore iii",
+    "commons_file": "pexels:19574309",
+    "source": "pexels:United States Capitol Washington DC"
    },
    {
     "local": "🔄 美东城市环线/国会山_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Another Believer",
-    "commons_file": "Bober Tea and Mochi Dough, Capitol Hill, Seattle, 2024.jpg",
-    "source": "commons-supplement:Capitol Hill"
-   },
-   {
-    "local": "🔄 美东城市环线/国会山_4.jpg",
-    "license": "Public domain",
-    "artist": "Susan Weil",
-    "commons_file": "Capitol Hill Historic District 04.jpg",
-    "source": "commons-supplement:Capitol Hill"
+    "license": "Pexels",
+    "artist": "ale.studio_17 .",
+    "commons_file": "pexels:31305641",
+    "source": "pexels:United States Capitol Washington DC"
    }
   ]
  },
  {
   "city": "🔄 美东城市环线",
   "attraction": "史密森尼",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 美东城市环线/史密森尼_1.jpg",
+  "license": "Pexels",
+  "artist": "Lisa Marie Gonzalez",
+  "commons_file": "pexels:14608572",
+  "source": "pexels:Smithsonian Castle Washington DC",
+  "extras": [
+   {
+    "local": "🔄 美东城市环线/史密森尼_2.jpg",
+    "license": "Pexels",
+    "artist": "david hou",
+    "commons_file": "pexels:29704416",
+    "source": "pexels:Smithsonian Castle Washington DC"
+   },
+   {
+    "local": "🔄 美东城市环线/史密森尼_3.jpg",
+    "license": "Pexels",
+    "artist": "Ramaz Bluashvili",
+    "commons_file": "pexels:7017010",
+    "source": "pexels:Smithsonian Castle Washington DC"
+   }
+  ]
  },
  {
   "city": "🔄 波士顿+阿卡迪亚环线",
   "attraction": "阿卡迪亚",
   "status": "ok",
   "local": "🔄 波士顿+阿卡迪亚环线/阿卡迪亚_1.jpg",
-  "license": "CC BY 2.5",
-  "artist": "Esun",
-  "commons_file": "Arcadia Peahen 1.jpg",
-  "source": "commons-search:Arcadia",
+  "license": "Pexels",
+  "artist": "Blue Arauz",
+  "commons_file": "pexels:10053126",
+  "source": "pexels:Acadia National Park Maine",
   "extras": [
    {
     "local": "🔄 波士顿+阿卡迪亚环线/阿卡迪亚_2.jpg",
-    "license": "Public domain",
-    "artist": "City of Arcadia, California",
-    "commons_file": "Flag of Arcadia, California.jpg",
-    "source": "commons-supplement:Arcadia"
+    "license": "Pexels",
+    "artist": "Daniel Miller",
+    "commons_file": "pexels:34993330",
+    "source": "pexels:Acadia National Park Maine"
    },
    {
     "local": "🔄 波士顿+阿卡迪亚环线/阿卡迪亚_3.jpg",
-    "license": "Public domain",
-    "artist": "Thomas Eakins",
-    "commons_file": "Thomas Eakins - Arcadia.jpg",
-    "source": "commons-supplement:Arcadia"
-   },
-   {
-    "local": "🔄 波士顿+阿卡迪亚环线/阿卡迪亚_4.jpg",
-    "license": "Public domain",
-    "artist": "Ammodramus",
-    "commons_file": "Arcadia, Nebraska downtoiwn 1.JPG",
-    "source": "commons-supplement:Arcadia"
+    "license": "Pexels",
+    "artist": "Owen Casey",
+    "commons_file": "pexels:8947308",
+    "source": "pexels:Acadia National Park Maine"
    }
   ]
  },
  {
   "city": "🔄 波士顿+阿卡迪亚环线",
   "attraction": "Cadillac Mountain日落",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 波士顿+阿卡迪亚环线/Cadillac Mountain日落_1.jpg",
+  "license": "Pexels",
+  "artist": "Skyler Ewing",
+  "commons_file": "pexels:7554682",
+  "source": "pexels:Cadillac Mountain sunset Acadia",
+  "extras": [
+   {
+    "local": "🔄 波士顿+阿卡迪亚环线/Cadillac Mountain日落_2.jpg",
+    "license": "Pexels",
+    "artist": "Robert Schrader",
+    "commons_file": "pexels:11777386",
+    "source": "pexels:Cadillac Mountain sunset Acadia"
+   },
+   {
+    "local": "🔄 波士顿+阿卡迪亚环线/Cadillac Mountain日落_3.jpg",
+    "license": "Pexels",
+    "artist": "Skyler Ewing",
+    "commons_file": "pexels:12742741",
+    "source": "pexels:Cadillac Mountain sunset Acadia"
+   }
+  ]
  },
  {
   "city": "🔄 波士顿+阿卡迪亚环线",
   "attraction": "环岛自驾",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 波士顿+阿卡迪亚环线/环岛自驾_1.jpg",
+  "license": "Pexels",
+  "artist": "Mohan Nannapaneni",
+  "commons_file": "pexels:10852837",
+  "source": "pexels:Park Loop Road Acadia",
+  "extras": [
+   {
+    "local": "🔄 波士顿+阿卡迪亚环线/环岛自驾_2.jpg",
+    "license": "Pexels",
+    "artist": "Daniel Miller",
+    "commons_file": "pexels:34993330",
+    "source": "pexels:Park Loop Road Acadia"
+   },
+   {
+    "local": "🔄 波士顿+阿卡迪亚环线/环岛自驾_3.jpg",
+    "license": "Pexels",
+    "artist": "Blue Arauz",
+    "commons_file": "pexels:10053126",
+    "source": "pexels:Park Loop Road Acadia"
+   }
+  ]
  },
  {
   "city": "🔄 波士顿+阿卡迪亚环线",
   "attraction": "Sand Beach",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 波士顿+阿卡迪亚环线/Sand Beach_1.jpg",
+  "license": "Pexels",
+  "artist": "Nicole Seidl",
+  "commons_file": "pexels:35046941",
+  "source": "pexels:Sand Beach Acadia Maine",
+  "extras": [
+   {
+    "local": "🔄 波士顿+阿卡迪亚环线/Sand Beach_2.jpg",
+    "license": "Pexels",
+    "artist": "Nicole Seidl",
+    "commons_file": "pexels:35046940",
+    "source": "pexels:Sand Beach Acadia Maine"
+   },
+   {
+    "local": "🔄 波士顿+阿卡迪亚环线/Sand Beach_3.jpg",
+    "license": "Pexels",
+    "artist": "Free Nature Stock",
+    "commons_file": "pexels:97071",
+    "source": "pexels:Sand Beach Acadia Maine"
+   }
+  ]
  },
  {
   "city": "🔄 波士顿+阿卡迪亚环线",
   "attraction": "野生动物观察",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 波士顿+阿卡迪亚环线/野生动物观察_1.jpg",
+  "license": "Pexels",
+  "artist": "Blue Arauz",
+  "commons_file": "pexels:10053126",
+  "source": "pexels:Acadia National Park Maine",
+  "extras": [
+   {
+    "local": "🔄 波士顿+阿卡迪亚环线/野生动物观察_2.jpg",
+    "license": "Pexels",
+    "artist": "Daniel Miller",
+    "commons_file": "pexels:34993330",
+    "source": "pexels:Acadia National Park Maine"
+   },
+   {
+    "local": "🔄 波士顿+阿卡迪亚环线/野生动物观察_3.jpg",
+    "license": "Pexels",
+    "artist": "Owen Casey",
+    "commons_file": "pexels:8947308",
+    "source": "pexels:Acadia National Park Maine"
+   }
+  ]
  },
  {
   "city": "🔄 波士顿+阿卡迪亚环线",
   "attraction": "Jordan Pond",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 波士顿+阿卡迪亚环线/Jordan Pond_1.jpg",
+  "license": "Pexels",
+  "artist": "Alex",
+  "commons_file": "pexels:4102159",
+  "source": "pexels:Jordan Pond Acadia Maine",
+  "extras": [
+   {
+    "local": "🔄 波士顿+阿卡迪亚环线/Jordan Pond_2.jpg",
+    "license": "Pexels",
+    "artist": "Skyler Ewing",
+    "commons_file": "pexels:12505600",
+    "source": "pexels:Jordan Pond Acadia Maine"
+   },
+   {
+    "local": "🔄 波士顿+阿卡迪亚环线/Jordan Pond_3.jpg",
+    "license": "Pexels",
+    "artist": "Nicole Seidl",
+    "commons_file": "pexels:35046706",
+    "source": "pexels:Jordan Pond Acadia Maine"
+   }
+  ]
  },
  {
   "city": "🔄 波士顿+阿卡迪亚环线",
   "attraction": "清晨日出",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 波士顿+阿卡迪亚环线/清晨日出_1.jpg",
+  "license": "Pexels",
+  "artist": "Skyler Ewing",
+  "commons_file": "pexels:4592689",
+  "source": "pexels:Cadillac Mountain sunrise Acadia",
+  "extras": [
+   {
+    "local": "🔄 波士顿+阿卡迪亚环线/清晨日出_2.jpg",
+    "license": "Pexels",
+    "artist": "Skyler Ewing",
+    "commons_file": "pexels:7554682",
+    "source": "pexels:Cadillac Mountain sunrise Acadia"
+   },
+   {
+    "local": "🔄 波士顿+阿卡迪亚环线/清晨日出_3.jpg",
+    "license": "Pexels",
+    "artist": "Robert Schrader",
+    "commons_file": "pexels:11777386",
+    "source": "pexels:Cadillac Mountain sunrise Acadia"
+   }
+  ]
  },
  {
   "city": "纽约",
   "attraction": "自由女神",
   "status": "ok",
   "local": "纽约/自由女神_1.jpg",
-  "license": "Public domain",
-  "artist": "Nanine Vallain",
-  "commons_file": "Nanine_Vallain_-_Liberté.jpg",
-  "source": "zhwiki:自由女神",
+  "license": "Pexels",
+  "artist": "Federico Abis",
+  "commons_file": "pexels:33620005",
+  "source": "pexels:Statue of Liberty New York",
   "extras": [
    {
     "local": "纽约/自由女神_2.jpg",
-    "license": "Public domain",
-    "artist": "Henry Mayer / Adam Cuerden",
-    "commons_file": "Henry Mayer, The Awakening, 1915 Cornell CUL PJM 1176 01 - Restoration.jpg",
-    "source": "commons-supplement:Liberty (personification)"
+    "license": "Pexels",
+    "artist": "kenneth Mayeden",
+    "commons_file": "pexels:28133996",
+    "source": "pexels:Statue of Liberty New York"
    },
    {
     "local": "纽约/自由女神_3.jpg",
-    "license": "Public domain",
-    "artist": "Leslie-Judge Company",
-    "commons_file": "World War I Lady Liberty Ringing in Freedom Across The World.jpg",
-    "source": "commons-supplement:Liberty (personification)"
-   },
-   {
-    "local": "纽约/自由女神_4.png",
-    "license": "CC BY 2.0",
-    "artist": "Mike Licht",
-    "commons_file": "Freedom to eRead, after Roger Roth Lady Liberty reading.png",
-    "source": "commons-supplement:Liberty (personification)"
+    "license": "Pexels",
+    "artist": "My Photos",
+    "commons_file": "pexels:7758569",
+    "source": "pexels:Statue of Liberty New York"
    }
   ]
  },
@@ -280,31 +420,24 @@
   "attraction": "中央公园",
   "status": "ok",
   "local": "纽约/中央公园_1.jpg",
-  "license": "CC BY 2.0",
-  "artist": "Anthony Quintano from Hillsborough, NJ, United States",
-  "commons_file": "Global_Citizen_Festival_Central_Park_New_York_City_from_NYonAir_(15351915006).jpg",
-  "source": "zhwiki:中央公園",
+  "license": "Pexels",
+  "artist": "Shon Fay",
+  "commons_file": "pexels:14556880",
+  "source": "pexels:Central Park New York",
   "extras": [
    {
     "local": "纽约/中央公园_2.jpg",
-    "license": "Public domain",
-    "artist": "Jet Lowe",
-    "commons_file": "Central Park New York City New York 23 cropped.jpg",
-    "source": "commons-supplement:Central Park"
+    "license": "Pexels",
+    "artist": "Louis",
+    "commons_file": "pexels:29073691",
+    "source": "pexels:Central Park New York"
    },
    {
     "local": "纽约/中央公园_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Rhododendrites",
-    "commons_file": "Male northern cardinal in Central Park (52612).jpg",
-    "source": "commons-supplement:Central Park"
-   },
-   {
-    "local": "纽约/中央公园_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "King of Hearts",
-    "commons_file": "Central Park New York October 2016 panorama 1.jpg",
-    "source": "commons-supplement:Central Park"
+    "license": "Pexels",
+    "artist": "Andres Figueroa",
+    "commons_file": "pexels:38048122",
+    "source": "pexels:Central Park New York"
    }
   ]
  },
@@ -313,69 +446,76 @@
   "attraction": "时代广场",
   "status": "ok",
   "local": "纽约/时代广场_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Don Ramey Logan",
-  "commons_file": "Times_Square_April_2022_by_Don_Ramey_Logan.jpg",
-  "source": "zhwiki:時代廣場",
+  "license": "Pexels",
+  "artist": "Namrata Garad",
+  "commons_file": "pexels:34934277",
+  "source": "pexels:Times Square New York",
   "extras": [
    {
     "local": "纽约/时代广场_2.jpg",
-    "license": "CC BY 2.0",
-    "artist": "Anthony Quintano",
-    "commons_file": "Times Square Ball from above.jpg",
-    "source": "commons-supplement:Times Square"
+    "license": "Pexels",
+    "artist": "David Vives",
+    "commons_file": "pexels:19628062",
+    "source": "pexels:Times Square New York"
    },
    {
     "local": "纽约/时代广场_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Dietmar Rabich",
-    "commons_file": "New York City (New York, USA), Times Square-Duffy Square -- 2012 -- 6380.jpg",
-    "source": "commons-supplement:Times Square"
-   },
-   {
-    "local": "纽约/时代广场_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Ermell",
-    "commons_file": "Times Square nachts-20120518-RM-015143.jpg",
-    "source": "commons-supplement:Times Square"
+    "license": "Pexels",
+    "artist": "Holger J. Bub",
+    "commons_file": "pexels:18498510",
+    "source": "pexels:Times Square New York"
    }
   ]
  },
  {
   "city": "纽约",
   "attraction": "大都会博物馆",
-  "status": "miss"
+  "status": "ok",
+  "local": "纽约/大都会博物馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Faheem Jackson",
+  "commons_file": "pexels:33024243",
+  "source": "pexels:Metropolitan Museum of Art New York",
+  "extras": [
+   {
+    "local": "纽约/大都会博物馆_2.jpg",
+    "license": "Pexels",
+    "artist": "Charlotte May",
+    "commons_file": "pexels:5825359",
+    "source": "pexels:Metropolitan Museum of Art New York"
+   },
+   {
+    "local": "纽约/大都会博物馆_3.jpg",
+    "license": "Pexels",
+    "artist": "Quang Vuong",
+    "commons_file": "pexels:31097109",
+    "source": "pexels:Metropolitan Museum of Art New York"
+   }
+  ]
  },
  {
   "city": "纽约",
   "attraction": "华尔街",
   "status": "ok",
   "local": "纽约/华尔街_1.jpg",
-  "license": "CC BY 2.0",
-  "artist": "Billie Grace Ward from New York, USA",
-  "commons_file": "Subdued_FiDi_(50063555551).jpg",
-  "source": "zhwiki:华尔街",
+  "license": "Pexels",
+  "artist": "Colwyn Davis",
+  "commons_file": "pexels:33471680",
+  "source": "pexels:Wall Street New York",
   "extras": [
    {
     "local": "纽约/华尔街_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Dietmar Rabich",
-    "commons_file": "New York City (New York, USA), Wall Street -- 2012 -- 6614.jpg",
-    "source": "commons-supplement:Wall Street"
+    "license": "Pexels",
+    "artist": "Vlada Karpovich",
+    "commons_file": "pexels:4451949",
+    "source": "pexels:Wall Street New York"
    },
    {
     "local": "纽约/华尔街_3.jpg",
-    "license": "Public domain",
-    "artist": "Paul Strand",
-    "commons_file": "Wall Street by Paul Strand, 1915.jpg",
-    "source": "commons-supplement:Wall Street"
-   },
-   {
-    "local": "纽约/华尔街_4.jpg",
-    "license": "Public domain",
-    "artist": "William England",
-    "commons_file": "17 William England - Wall Street, New York.jpg",
-    "source": "commons-supplement:Wall Street"
+    "license": "Pexels",
+    "artist": "Willian Justen de Vasconcellos",
+    "commons_file": "pexels:32409127",
+    "source": "pexels:Wall Street New York"
    }
   ]
  },
@@ -384,31 +524,24 @@
   "attraction": "联合国",
   "status": "ok",
   "local": "纽约/联合国_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "",
-  "commons_file": "UNO_New_York.JPG",
-  "source": "zhwiki:联合国总部大楼",
+  "license": "Pexels",
+  "artist": "Sam Jotham Sutharson",
+  "commons_file": "pexels:16380789",
+  "source": "pexels:United Nations Headquarters New York",
   "extras": [
    {
     "local": "纽约/联合国_2.jpg",
-    "license": "CC BY 2.0",
-    "artist": "azugaldia",
-    "commons_file": "General Assembly of the United Nations.jpg",
-    "source": "commons-supplement:United Nations"
+    "license": "Pexels",
+    "artist": "Jan van der Wolf",
+    "commons_file": "pexels:7610412",
+    "source": "pexels:United Nations Headquarters New York"
    },
    {
-    "local": "纽约/联合国_3.jpeg",
-    "license": "Public domain",
-    "artist": "Post of Indonesia",
-    "commons_file": "Stamp of Indonesia - 1985 - Colnect 256089 - United Nations Organization.jpeg",
-    "source": "commons-supplement:United Nations"
-   },
-   {
-    "local": "纽约/联合国_4.jpeg",
-    "license": "Public domain",
-    "artist": "Post of Indonesia",
-    "commons_file": "Stamp of Indonesia - 1995 - Colnect 253423 - United Nations Organization.jpeg",
-    "source": "commons-supplement:United Nations"
+    "local": "纽约/联合国_3.jpg",
+    "license": "Pexels",
+    "artist": "Charles Parker",
+    "commons_file": "pexels:5847579",
+    "source": "pexels:United Nations Headquarters New York"
    }
   ]
  },
@@ -417,31 +550,24 @@
   "attraction": "自由之路",
   "status": "ok",
   "local": "波士顿/自由之路_1.jpg",
-  "license": "CC BY-SA 2.0",
-  "artist": "InSapphoWeTrust from Los Angeles, California, USA",
-  "commons_file": "Terminus,_Freedom_Trail_(7201188972).jpg",
-  "source": "zhwiki:自由之路",
+  "license": "Pexels",
+  "artist": "Phil Evenden",
+  "commons_file": "pexels:32797698",
+  "source": "pexels:Freedom Trail Boston",
   "extras": [
    {
     "local": "波士顿/自由之路_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Ingfbruno",
-    "commons_file": "USA-The Freedom Trail.JPG",
-    "source": "commons-supplement:Freedom Trail"
+    "license": "Pexels",
+    "artist": "Yurii Borshch",
+    "commons_file": "pexels:36791171",
+    "source": "pexels:Freedom Trail Boston"
    },
    {
     "local": "波士顿/自由之路_3.jpg",
-    "license": "Public domain",
-    "artist": "Michael Holley en:User:Swtpc6800 User:Swtpc6800",
-    "commons_file": "Freedom Trail Sign Boston 1974.jpg",
-    "source": "commons-supplement:Freedom Trail"
-   },
-   {
-    "local": "波士顿/自由之路_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Crisco 1492",
-    "commons_file": "Freedom Trail Marker, Boston, MA, 2023-02-21.jpg",
-    "source": "commons-supplement:Freedom Trail"
+    "license": "Pexels",
+    "artist": "Phil Evenden",
+    "commons_file": "pexels:17102614",
+    "source": "pexels:Freedom Trail Boston"
    }
   ]
  },
@@ -450,31 +576,24 @@
   "attraction": "昆西市场",
   "status": "ok",
   "local": "波士顿/昆西市场_1.jpg",
-  "license": "Public domain",
-  "artist": "Jack Boucher",
-  "commons_file": "Quincy_Market_south-east_sides.jpg",
-  "source": "zhwiki:昆西市场",
+  "license": "Pexels",
+  "artist": "Jonathan Fuentes",
+  "commons_file": "pexels:35182999",
+  "source": "pexels:Quincy Market Boston",
   "extras": [
    {
     "local": "波士顿/昆西市场_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "LGagnon",
-    "commons_file": "Quincy Market panoramic.jpg",
-    "source": "commons-supplement:Quincy Market"
+    "license": "Pexels",
+    "artist": "Mohan Nannapaneni",
+    "commons_file": "pexels:13248624",
+    "source": "pexels:Quincy Market Boston"
    },
    {
     "local": "波士顿/昆西市场_3.jpg",
-    "license": "Public domain",
-    "artist": "Jack Boucher",
-    "commons_file": "Quincy Market south-east sides.jpg",
-    "source": "commons-supplement:Quincy Market"
-   },
-   {
-    "local": "波士顿/昆西市场_4.png",
-    "license": "Public domain",
-    "artist": "Underwood &amp; Underwood",
-    "commons_file": "Faneuil Hall and Quincy Market - Nat Geo April 1923.png",
-    "source": "commons-supplement:Quincy Market"
+    "license": "Pexels",
+    "artist": "Phil Evenden",
+    "commons_file": "pexels:14611221",
+    "source": "pexels:Quincy Market Boston"
    }
   ]
  },
@@ -483,69 +602,76 @@
   "attraction": "哈佛",
   "status": "ok",
   "local": "波士顿/哈佛_1.jpg",
-  "license": "Public domain",
-  "artist": "Daderot",
-  "commons_file": "A Knight of the Order of the Holy Spirit, by Rene-Michel Slodtz, c. 1750, marble - Fogg Art Museum, Harvard University - DSC01291.jpg",
-  "source": "commons-search:Harvard University",
+  "license": "Pexels",
+  "artist": "Sandro Prates",
+  "commons_file": "pexels:21581285",
+  "source": "pexels:Harvard University campus",
   "extras": [
    {
     "local": "波士顿/哈佛_2.jpg",
-    "license": "Public domain",
-    "artist": "Unknown authorUnknown author",
-    "commons_file": "Thomas Riggs Sr. (1831-1920) in the Harvard University Class of 1852 (1922).jpg",
-    "source": "commons-supplement:Harvard University"
+    "license": "Pexels",
+    "artist": "Matthis Volquardsen",
+    "commons_file": "pexels:2305098",
+    "source": "pexels:Harvard University campus"
    },
    {
     "local": "波士顿/哈佛_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "David Adam Kess",
-    "commons_file": "Harvard University,. November, 2019. pic.bb8.jpg",
-    "source": "commons-supplement:Harvard University"
-   },
-   {
-    "local": "波士顿/哈佛_4.jpg",
-    "license": "Public domain",
-    "artist": "Erwin Raisz",
-    "commons_file": "Harvard University map (older, date unknown).jpg",
-    "source": "commons-supplement:Harvard University"
+    "license": "Pexels",
+    "artist": "Matthis Volquardsen",
+    "commons_file": "pexels:2350925",
+    "source": "pexels:Harvard University campus"
    }
   ]
  },
  {
   "city": "波士顿",
   "attraction": "MIT",
-  "status": "miss"
+  "status": "ok",
+  "local": "波士顿/MIT_1.jpg",
+  "license": "Pexels",
+  "artist": "Yuanda \"Darian\" Shen",
+  "commons_file": "pexels:16361673",
+  "source": "pexels:MIT campus Cambridge",
+  "extras": [
+   {
+    "local": "波士顿/MIT_2.jpg",
+    "license": "Pexels",
+    "artist": "Phil Evenden",
+    "commons_file": "pexels:27772402",
+    "source": "pexels:MIT campus Cambridge"
+   },
+   {
+    "local": "波士顿/MIT_3.jpg",
+    "license": "Pexels",
+    "artist": "Sandro Prates",
+    "commons_file": "pexels:21581285",
+    "source": "pexels:MIT campus Cambridge"
+   }
+  ]
  },
  {
   "city": "华盛顿",
   "attraction": "白宫",
   "status": "ok",
   "local": "华盛顿/白宫_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "(top)Cezary p(bottom)MattWade",
-  "commons_file": "White_House_north_and_south_sides.jpg",
-  "source": "zhwiki:白宮",
+  "license": "Pexels",
+  "artist": "Aaron Kittredge",
+  "commons_file": "pexels:129112",
+  "source": "pexels:White House Washington DC",
   "extras": [
    {
     "local": "华盛顿/白宫_2.jpg",
-    "license": "Public domain",
-    "artist": "Benjamin Henry Latrobe",
-    "commons_file": "Latrobe White House cropa2.jpg",
-    "source": "commons-supplement:White House"
+    "license": "Pexels",
+    "artist": "Gu Bra",
+    "commons_file": "pexels:6477549",
+    "source": "pexels:White House Washington DC"
    },
    {
     "local": "华盛顿/白宫_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Acabashi",
-    "commons_file": "Red and white tulip at Myddelton House, Enfield, London.jpg",
-    "source": "commons-supplement:White House"
-   },
-   {
-    "local": "华盛顿/白宫_4.jpg",
-    "license": "Public domain",
-    "artist": "White House",
-    "commons_file": "White House rainbow for SCOTUS ruling on same-sex marriage.jpg",
-    "source": "commons-supplement:White House"
+    "license": "Pexels",
+    "artist": "Pixabay",
+    "commons_file": "pexels:208686",
+    "source": "pexels:White House Washington DC"
    }
   ]
  },
@@ -553,32 +679,25 @@
   "city": "华盛顿",
   "attraction": "林肯纪念堂",
   "status": "ok",
-  "local": "华盛顿/林肯纪念堂_1.jpeg",
-  "license": "Public domain",
-  "artist": "Aerial_view_of_Lincoln_Memorial_-_east_side.jpg: Carol M. Highsmith\nderivative w",
-  "commons_file": "Aerial_view_of_Lincoln_Memorial_-_east_side_EDIT.jpeg",
-  "source": "zhwiki:林肯纪念堂",
+  "local": "华盛顿/林肯纪念堂_1.jpg",
+  "license": "Pexels",
+  "artist": "Tom Fisk",
+  "commons_file": "pexels:11732274",
+  "source": "pexels:Lincoln Memorial Washington DC",
   "extras": [
    {
     "local": "华盛顿/林肯纪念堂_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Martin Falbisoner",
-    "commons_file": "Lincoln Memorial east side.JPG",
-    "source": "commons-supplement:Lincoln Memorial"
+    "license": "Pexels",
+    "artist": "Brett Aukburg",
+    "commons_file": "pexels:37215688",
+    "source": "pexels:Lincoln Memorial Washington DC"
    },
    {
     "local": "华盛顿/林肯纪念堂_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Frank Schulenburg",
-    "commons_file": "Statue of Abraham Lincoln, Lincoln Memorial (2024)-L1005507.jpg",
-    "source": "commons-supplement:Lincoln Memorial"
-   },
-   {
-    "local": "华盛顿/林肯纪念堂_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Cathy Rowe",
-    "commons_file": "Abraham Lincoln v2.jpg",
-    "source": "commons-supplement:Lincoln Memorial"
+    "license": "Pexels",
+    "artist": "Chris",
+    "commons_file": "pexels:32105027",
+    "source": "pexels:Lincoln Memorial Washington DC"
    }
   ]
  },
@@ -586,32 +705,25 @@
   "city": "华盛顿",
   "attraction": "国会山",
   "status": "ok",
-  "local": "华盛顿/国会山_1.tif",
-  "license": "Public domain",
-  "artist": "Carol M. Highsmith",
-  "commons_file": "Aerial_view_of_Washington,_D.C.14549a.tif",
-  "source": "zhwiki:国会山",
+  "local": "华盛顿/国会山_1.jpg",
+  "license": "Pexels",
+  "artist": "Ivan Dražić",
+  "commons_file": "pexels:20417783",
+  "source": "pexels:United States Capitol Washington DC",
   "extras": [
    {
     "local": "华盛顿/国会山_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Dllu",
-    "commons_file": "High rise view of Capitol Hill at night, looking east from Pine and 9th.jpg",
-    "source": "commons-supplement:Capitol Hill"
+    "license": "Pexels",
+    "artist": "terry bazemore iii",
+    "commons_file": "pexels:19574309",
+    "source": "pexels:United States Capitol Washington DC"
    },
    {
     "local": "华盛顿/国会山_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Another Believer",
-    "commons_file": "Bober Tea and Mochi Dough, Capitol Hill, Seattle, 2024.jpg",
-    "source": "commons-supplement:Capitol Hill"
-   },
-   {
-    "local": "华盛顿/国会山_4.jpg",
-    "license": "Public domain",
-    "artist": "Susan Weil",
-    "commons_file": "Capitol Hill Historic District 04.jpg",
-    "source": "commons-supplement:Capitol Hill"
+    "license": "Pexels",
+    "artist": "ale.studio_17 .",
+    "commons_file": "pexels:31305641",
+    "source": "pexels:United States Capitol Washington DC"
    }
   ]
  },
@@ -620,69 +732,76 @@
   "attraction": "史密森尼",
   "status": "ok",
   "local": "华盛顿/史密森尼_1.jpg",
-  "license": "Public domain",
-  "artist": "User:Noclip",
-  "commons_file": "Smithsonian_Building_NR.jpg",
-  "source": "zhwiki:史密森尼学会",
+  "license": "Pexels",
+  "artist": "Lisa Marie Gonzalez",
+  "commons_file": "pexels:14608572",
+  "source": "pexels:Smithsonian Castle Washington DC",
   "extras": [
    {
     "local": "华盛顿/史密森尼_2.jpg",
-    "license": "Public domain",
-    "artist": "User:Noclip",
-    "commons_file": "Smithsonian Building NR.jpg",
-    "source": "commons-supplement:史密森尼 华盛顿"
+    "license": "Pexels",
+    "artist": "david hou",
+    "commons_file": "pexels:29704416",
+    "source": "pexels:Smithsonian Castle Washington DC"
    },
    {
     "local": "华盛顿/史密森尼_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "O01326",
-    "commons_file": "Mei Xiang at Smithsonian's National Zoo.jpg",
-    "source": "commons-supplement:史密森尼 华盛顿"
-   },
-   {
-    "local": "华盛顿/史密森尼_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "O01326",
-    "commons_file": "Tian Tian at Smithsonian's National Zoo.jpg",
-    "source": "commons-supplement:史密森尼 华盛顿"
+    "license": "Pexels",
+    "artist": "Ramaz Bluashvili",
+    "commons_file": "pexels:7017010",
+    "source": "pexels:Smithsonian Castle Washington DC"
    }
   ]
  },
  {
   "city": "费城",
   "attraction": "独立宫",
-  "status": "miss"
+  "status": "ok",
+  "local": "费城/独立宫_1.jpg",
+  "license": "Pexels",
+  "artist": "Lavdrim Mustafi",
+  "commons_file": "pexels:14088588",
+  "source": "pexels:Independence Hall Philadelphia",
+  "extras": [
+   {
+    "local": "费城/独立宫_2.jpg",
+    "license": "Pexels",
+    "artist": "Lavdrim Mustafi",
+    "commons_file": "pexels:14088457",
+    "source": "pexels:Independence Hall Philadelphia"
+   },
+   {
+    "local": "费城/独立宫_3.jpg",
+    "license": "Pexels",
+    "artist": "Dan Parlante",
+    "commons_file": "pexels:5719238",
+    "source": "pexels:Independence Hall Philadelphia"
+   }
+  ]
  },
  {
   "city": "费城",
   "attraction": "自由钟",
   "status": "ok",
   "local": "费城/自由钟_1.jpg",
-  "license": "CC BY 2.0",
-  "artist": "William Zhang",
-  "commons_file": "Liberty_Bell_2017a.jpg",
-  "source": "zhwiki:自由钟",
+  "license": "Pexels",
+  "artist": "Brett Sayles",
+  "commons_file": "pexels:5437555",
+  "source": "pexels:Liberty Bell Philadelphia",
   "extras": [
    {
-    "local": "费城/自由钟_2.png",
-    "license": "CC BY-SA 4.0",
-    "artist": "Anush",
-    "commons_file": "Liberty Bell Zoomed Out.png",
-    "source": "commons-supplement:Liberty Bell"
+    "local": "费城/自由钟_2.jpg",
+    "license": "Pexels",
+    "artist": "Lavdrim Mustafi",
+    "commons_file": "pexels:14088457",
+    "source": "pexels:Liberty Bell Philadelphia"
    },
    {
     "local": "费城/自由钟_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "颐园居",
-    "commons_file": "Liberty Bell, Philadelphia 20240528.jpg",
-    "source": "commons-supplement:Liberty Bell"
-   },
-   {
-    "local": "费城/自由钟_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Mys 721tx",
-    "commons_file": "Liberty Bell, Aug 2019.jpg",
-    "source": "commons-supplement:Liberty Bell"
+    "license": "Pexels",
+    "artist": "Hande Yavuz",
+    "commons_file": "pexels:33312211",
+    "source": "pexels:Liberty Bell Philadelphia"
    }
   ]
  },
@@ -691,31 +810,24 @@
   "attraction": "马蹄瀑布",
   "status": "ok",
   "local": "尼亚加拉瀑布/马蹄瀑布_1.jpg",
-  "license": "CC BY 2.0",
-  "artist": "Photo (c)2007 Helen Filatova",
-  "commons_file": "Niagara-Falls-Horseshoe-Falls-view.jpg",
-  "source": "zhwiki:马蹄瀑布",
+  "license": "Pexels",
+  "artist": "Özgül Bendes",
+  "commons_file": "pexels:18713053",
+  "source": "pexels:Horseshoe Falls Niagara",
   "extras": [
    {
     "local": "尼亚加拉瀑布/马蹄瀑布_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "DXR",
-    "commons_file": "Maid of the Mist VII approaching the Horseshoe Falls, West view 20170418 1.jpg",
-    "source": "commons-supplement:Horseshoe Falls"
+    "license": "Pexels",
+    "artist": "Flickr",
+    "commons_file": "pexels:149471",
+    "source": "pexels:Horseshoe Falls Niagara"
    },
    {
     "local": "尼亚加拉瀑布/马蹄瀑布_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Flying Freddy",
-    "commons_file": "Horseshoe falls fw.jpg",
-    "source": "commons-supplement:Horseshoe Falls"
-   },
-   {
-    "local": "尼亚加拉瀑布/马蹄瀑布_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
-    "commons_file": "Horseshoe Falls 2 Mt Field National Park.jpg",
-    "source": "commons-supplement:Horseshoe Falls"
+    "license": "Pexels",
+    "artist": "Jere Carbon",
+    "commons_file": "pexels:5114756",
+    "source": "pexels:Horseshoe Falls Niagara"
    }
   ]
  },
@@ -724,69 +836,76 @@
   "attraction": "雾中少女号",
   "status": "ok",
   "local": "尼亚加拉瀑布/雾中少女号_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Saffron Blaze",
-  "commons_file": "Maid_of_the_Mist_-_pot-o-gold.jpg",
-  "source": "zhwiki:雾中少女",
+  "license": "Pexels",
+  "artist": "Thuan Vo",
+  "commons_file": "pexels:17243024",
+  "source": "pexels:Maid of the Mist Niagara Falls",
   "extras": [
    {
     "local": "尼亚加拉瀑布/雾中少女号_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Saffron Blaze",
-    "commons_file": "Maid of the Mist - pot-o-gold.jpg",
-    "source": "commons-supplement:Maid of the Mist"
+    "license": "Pexels",
+    "artist": "Chait Goli",
+    "commons_file": "pexels:2666643",
+    "source": "pexels:Maid of the Mist Niagara Falls"
    },
    {
     "local": "尼亚加拉瀑布/雾中少女号_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "DXR",
-    "commons_file": "Maid of the Mist VII approaching the Horseshoe Falls, West view 20170418 1.jpg",
-    "source": "commons-supplement:Maid of the Mist"
-   },
-   {
-    "local": "尼亚加拉瀑布/雾中少女号_4.jpg",
-    "license": "CC BY-SA 2.0",
-    "artist": "Peter Rood",
-    "commons_file": "Maid of the Mist (7921370754).jpg",
-    "source": "commons-supplement:Maid of the Mist"
+    "license": "Pexels",
+    "artist": "William Oris",
+    "commons_file": "pexels:1814472",
+    "source": "pexels:Maid of the Mist Niagara Falls"
    }
   ]
  },
  {
   "city": "尼亚加拉瀑布",
   "attraction": "观瀑布视角",
-  "status": "miss"
+  "status": "ok",
+  "local": "尼亚加拉瀑布/观瀑布视角_1.jpg",
+  "license": "Pexels",
+  "artist": "Ali   Soheil",
+  "commons_file": "pexels:35119417",
+  "source": "pexels:Niagara Falls",
+  "extras": [
+   {
+    "local": "尼亚加拉瀑布/观瀑布视角_2.jpg",
+    "license": "Pexels",
+    "artist": "Ali   Soheil",
+    "commons_file": "pexels:34911227",
+    "source": "pexels:Niagara Falls"
+   },
+   {
+    "local": "尼亚加拉瀑布/观瀑布视角_3.jpg",
+    "license": "Pexels",
+    "artist": "Naman Dutta",
+    "commons_file": "pexels:11281305",
+    "source": "pexels:Niagara Falls"
+   }
+  ]
  },
  {
   "city": "奥兰多",
   "attraction": "奥兰多迪士尼",
   "status": "ok",
   "local": "奥兰多/奥兰多迪士尼_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Gregory Varnum",
-  "commons_file": "Universal_Studios_Orlando_-_June_2018_(0211).jpg",
-  "source": "zhwiki:奥兰多 (佛罗里达州)",
+  "license": "Pexels",
+  "artist": "David Guerrero",
+  "commons_file": "pexels:8183994",
+  "source": "pexels:Walt Disney World Cinderella Castle Orlando",
   "extras": [
    {
     "local": "奥兰多/奥兰多迪士尼_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Louiemantia",
-    "commons_file": "Magic Kingdom Main Street.jpg",
-    "source": "commons-supplement:Magic Kingdom"
+    "license": "Pexels",
+    "artist": "juan mendez",
+    "commons_file": "pexels:12569769",
+    "source": "pexels:Walt Disney World Cinderella Castle Orlando"
    },
    {
     "local": "奥兰多/奥兰多迪士尼_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "",
-    "commons_file": "Magic Kingdom castle.jpg",
-    "source": "commons-supplement:Magic Kingdom"
-   },
-   {
-    "local": "奥兰多/奥兰多迪士尼_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "BellaisabellaS2",
-    "commons_file": "Magic Kingdom Halloween Oct 2019.jpg",
-    "source": "commons-supplement:Magic Kingdom"
+    "license": "Pexels",
+    "artist": "Madison Santangelo",
+    "commons_file": "pexels:11991584",
+    "source": "pexels:Walt Disney World Cinderella Castle Orlando"
    }
   ]
  },
@@ -795,31 +914,24 @@
   "attraction": "奥兰多环球影城",
   "status": "ok",
   "local": "奥兰多/奥兰多环球影城_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Gregory Varnum",
-  "commons_file": "Universal_Studios_Orlando_-_June_2018_(0211).jpg",
-  "source": "zhwiki:奥兰多 (佛罗里达州)",
+  "license": "Pexels",
+  "artist": "Dominik Gryzbon",
+  "commons_file": "pexels:31361467",
+  "source": "pexels:Universal Studios Orlando",
   "extras": [
    {
     "local": "奥兰多/奥兰多环球影城_2.jpg",
-    "license": "Public domain",
-    "artist": "Priwo",
-    "commons_file": "Universal01.jpg",
-    "source": "commons-supplement:Universal Orlando"
+    "license": "Pexels",
+    "artist": "Dave Harwood",
+    "commons_file": "pexels:1369466",
+    "source": "pexels:Universal Studios Orlando"
    },
    {
     "local": "奥兰多/奥兰多环球影城_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Milksteak27",
-    "commons_file": "Dragon at Universal Studios Orlando, FL.jpg",
-    "source": "commons-supplement:Universal Orlando"
-   },
-   {
-    "local": "奥兰多/奥兰多环球影城_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Thomas Kirchel",
-    "commons_file": "Universal Studios South Street.jpg",
-    "source": "commons-supplement:Universal Orlando"
+    "license": "Pexels",
+    "artist": "Dominik Gryzbon",
+    "commons_file": "pexels:31361466",
+    "source": "pexels:Universal Studios Orlando"
    }
   ]
  },
@@ -828,145 +940,180 @@
   "attraction": "肯尼迪航天中心",
   "status": "ok",
   "local": "奥兰多/肯尼迪航天中心_1.jpg",
-  "license": "Public domain",
-  "artist": "NASA",
-  "commons_file": "Merritt_Island.jpg",
-  "source": "zhwiki:肯尼迪航天中心",
+  "license": "Pexels",
+  "artist": "john mckenna",
+  "commons_file": "pexels:13226679",
+  "source": "pexels:Kennedy Space Center Florida",
   "extras": [
    {
     "local": "奥兰多/肯尼迪航天中心_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Gzzz",
-    "commons_file": "Atlantis Kennedy Space Center Visitor Complex 4.jpg",
-    "source": "commons-supplement:Kennedy Space Center"
+    "license": "Pexels",
+    "artist": "john mckenna",
+    "commons_file": "pexels:13228960",
+    "source": "pexels:Kennedy Space Center Florida"
    },
    {
     "local": "奥兰多/肯尼迪航天中心_3.jpg",
-    "license": "Public domain",
-    "artist": "NASA",
-    "commons_file": "Space Shuttle Columbia launching.jpg",
-    "source": "commons-supplement:Kennedy Space Center"
-   },
-   {
-    "local": "奥兰多/肯尼迪航天中心_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Gzzz",
-    "commons_file": "Atlantis Kennedy Space Center Visitor Complex 2.jpg",
-    "source": "commons-supplement:Kennedy Space Center"
+    "license": "Pexels",
+    "artist": "Hugo Magalhaes",
+    "commons_file": "pexels:9697595",
+    "source": "pexels:Kennedy Space Center Florida"
    }
   ]
  },
  {
   "city": "奥兰多",
   "attraction": "海洋世界",
-  "status": "miss"
+  "status": "ok",
+  "local": "奥兰多/海洋世界_1.jpg",
+  "license": "Pexels",
+  "artist": "Soly Moses",
+  "commons_file": "pexels:10529703",
+  "source": "pexels:SeaWorld Orlando",
+  "extras": [
+   {
+    "local": "奥兰多/海洋世界_2.jpg",
+    "license": "Pexels",
+    "artist": "Jeffry Surianto",
+    "commons_file": "pexels:18152898",
+    "source": "pexels:SeaWorld Orlando"
+   },
+   {
+    "local": "奥兰多/海洋世界_3.jpg",
+    "license": "Pexels",
+    "artist": "Magda Ehlers",
+    "commons_file": "pexels:30125311",
+    "source": "pexels:SeaWorld Orlando"
+   }
+  ]
  },
  {
   "city": "迈阿密",
   "attraction": "南海滩",
   "status": "ok",
   "local": "迈阿密/南海滩_1.jpg",
-  "license": "Public domain",
-  "artist": "Miamiboyz (talk)",
-  "commons_file": "Miamimetroarea.jpg",
-  "source": "zhwiki:南海滩",
+  "license": "Pexels",
+  "artist": "Mylo Kaye",
+  "commons_file": "pexels:11094897",
+  "source": "pexels:South Beach Miami",
   "extras": [
    {
     "local": "迈阿密/南海滩_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Radomianin",
-    "commons_file": "Lifeguard stand, Miami Beach.jpg",
-    "source": "commons-supplement:South Beach"
+    "license": "Pexels",
+    "artist": "On  Shot",
+    "commons_file": "pexels:5903958",
+    "source": "pexels:South Beach Miami"
    },
    {
     "local": "迈阿密/南海滩_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Michal Klajban",
-    "commons_file": "The sun and the moon in South New Brighton's beach, New Zealand.jpg",
-    "source": "commons-supplement:South Beach"
-   },
-   {
-    "local": "迈阿密/南海滩_4.jpg",
-    "license": "Public domain",
-    "artist": "J. N. Chamberlain",
-    "commons_file": "Miami Beach - Every day scene at South Beach.jpg",
-    "source": "commons-supplement:South Beach"
+    "license": "Pexels",
+    "artist": "Brendon Spring",
+    "commons_file": "pexels:8574669",
+    "source": "pexels:South Beach Miami"
    }
   ]
  },
  {
   "city": "迈阿密",
   "attraction": "装饰艺术区",
-  "status": "miss"
+  "status": "ok",
+  "local": "迈阿密/装饰艺术区_1.jpg",
+  "license": "Pexels",
+  "artist": "Luis  Erives",
+  "commons_file": "pexels:11457818",
+  "source": "pexels:Art Deco District Miami Beach",
+  "extras": [
+   {
+    "local": "迈阿密/装饰艺术区_2.jpg",
+    "license": "Pexels",
+    "artist": "Luis  Erives",
+    "commons_file": "pexels:11457824",
+    "source": "pexels:Art Deco District Miami Beach"
+   },
+   {
+    "local": "迈阿密/装饰艺术区_3.jpg",
+    "license": "Pexels",
+    "artist": "Osmany Mederos",
+    "commons_file": "pexels:14357627",
+    "source": "pexels:Art Deco District Miami Beach"
+   }
+  ]
  },
  {
   "city": "迈阿密",
   "attraction": "大沼泽地",
   "status": "ok",
   "local": "迈阿密/大沼泽地_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Daniel Kraft",
-  "commons_file": "Everglades_Pa-Hay-Oke_Swamp.jpg",
-  "source": "zhwiki:大沼澤地國家公園",
+  "license": "Pexels",
+  "artist": "Peter Lopez",
+  "commons_file": "pexels:7169054",
+  "source": "pexels:Everglades National Park Florida",
   "extras": [
    {
     "local": "迈阿密/大沼泽地_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Daniel Kraft",
-    "commons_file": "Everglades Pa-Hay-Oke Swamp.jpg",
-    "source": "commons-supplement:Everglades National Park"
+    "license": "Pexels",
+    "artist": "Phyllis Lilienthal",
+    "commons_file": "pexels:34596000",
+    "source": "pexels:Everglades National Park Florida"
    },
    {
     "local": "迈阿密/大沼泽地_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Daniel Kraft",
-    "commons_file": "Everglades Anhinga Trail Pond.jpg",
-    "source": "commons-supplement:Everglades National Park"
-   },
-   {
-    "local": "迈阿密/大沼泽地_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Daniel Schwen",
-    "commons_file": "Everglades National Park east entrance.jpg",
-    "source": "commons-supplement:Everglades National Park"
+    "license": "Pexels",
+    "artist": "Julius Hildebrandt",
+    "commons_file": "pexels:20470017",
+    "source": "pexels:Everglades National Park Florida"
    }
   ]
  },
  {
   "city": "迈阿密",
   "attraction": "钥匙群岛",
-  "status": "miss"
+  "status": "ok",
+  "local": "迈阿密/钥匙群岛_1.jpg",
+  "license": "Pexels",
+  "artist": "Mikhail Nilov",
+  "commons_file": "pexels:9400885",
+  "source": "pexels:Florida Keys Overseas Highway",
+  "extras": [
+   {
+    "local": "迈阿密/钥匙群岛_2.jpg",
+    "license": "Pexels",
+    "artist": "Dominik Gryzbon",
+    "commons_file": "pexels:31546925",
+    "source": "pexels:Florida Keys Overseas Highway"
+   },
+   {
+    "local": "迈阿密/钥匙群岛_3.jpg",
+    "license": "Pexels",
+    "artist": "Mikhail Nilov",
+    "commons_file": "pexels:9400874",
+    "source": "pexels:Florida Keys Overseas Highway"
+   }
+  ]
  },
  {
   "city": "芝加哥",
   "attraction": "千禧公园",
   "status": "ok",
   "local": "芝加哥/千禧公园_1.jpg",
-  "license": "Attribution",
-  "artist": "J. Crocker",
-  "commons_file": "2005-10-13_2880x1920_chicago_above_millennium_park.jpg",
-  "source": "zhwiki:千禧公園",
+  "license": "Pexels",
+  "artist": "Enrique Cortes",
+  "commons_file": "pexels:17010678",
+  "source": "pexels:Cloud Gate Millennium Park Chicago",
   "extras": [
    {
     "local": "芝加哥/千禧公园_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Alhill42",
-    "commons_file": "Crown Fountain, Millennium Park.jpg",
-    "source": "commons-supplement:Millennium Park"
+    "license": "Pexels",
+    "artist": "Luis Quintero",
+    "commons_file": "pexels:1753257",
+    "source": "pexels:Cloud Gate Millennium Park Chicago"
    },
    {
     "local": "芝加哥/千禧公园_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Kingabizzy",
-    "commons_file": "Millennium Park Abuja1.jpg",
-    "source": "commons-supplement:Millennium Park"
-   },
-   {
-    "local": "芝加哥/千禧公园_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Panek",
-    "commons_file": "Biurowiec millennium park.jpg",
-    "source": "commons-supplement:Millennium Park"
+    "license": "Pexels",
+    "artist": "Alec Adriano",
+    "commons_file": "pexels:33715953",
+    "source": "pexels:Cloud Gate Millennium Park Chicago"
    }
   ]
  },
@@ -975,69 +1122,76 @@
   "attraction": "海军码头",
   "status": "ok",
   "local": "芝加哥/海军码头_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Banpei at English Wikipedia",
-  "commons_file": "Navy_pier.jpg",
-  "source": "zhwiki:海军码头",
+  "license": "Pexels",
+  "artist": "Jenssen R",
+  "commons_file": "pexels:1365180",
+  "source": "pexels:Navy Pier Chicago",
   "extras": [
    {
     "local": "芝加哥/海军码头_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Moses8910",
-    "commons_file": "Navy Pier Summer.jpg",
-    "source": "commons-supplement:Navy Pier"
+    "license": "Pexels",
+    "artist": "Willian Justen de Vasconcellos",
+    "commons_file": "pexels:29560897",
+    "source": "pexels:Navy Pier Chicago"
    },
    {
     "local": "芝加哥/海军码头_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Banpei at English Wikipedia",
-    "commons_file": "Navy pier.jpg",
-    "source": "commons-supplement:Navy Pier"
-   },
-   {
-    "local": "芝加哥/海军码头_4.jpg",
-    "license": "CC BY 2.0",
-    "artist": "IIP Photo Archive",
-    "commons_file": "Navy Pier & Skyline, Chicago, Illinois, U.S.A.jpg",
-    "source": "commons-supplement:Navy Pier"
+    "license": "Pexels",
+    "artist": "Brian Miller",
+    "commons_file": "pexels:17722704",
+    "source": "pexels:Navy Pier Chicago"
    }
   ]
  },
  {
   "city": "芝加哥",
   "attraction": "博物馆区",
-  "status": "miss"
+  "status": "ok",
+  "local": "芝加哥/博物馆区_1.jpg",
+  "license": "Pexels",
+  "artist": "Quang Vuong",
+  "commons_file": "pexels:20627399",
+  "source": "pexels:Field Museum Chicago",
+  "extras": [
+   {
+    "local": "芝加哥/博物馆区_2.jpg",
+    "license": "Pexels",
+    "artist": "Rahul Reghu",
+    "commons_file": "pexels:33715440",
+    "source": "pexels:Field Museum Chicago"
+   },
+   {
+    "local": "芝加哥/博物馆区_3.jpg",
+    "license": "Pexels",
+    "artist": "Willian Justen de Vasconcellos",
+    "commons_file": "pexels:28948289",
+    "source": "pexels:Field Museum Chicago"
+   }
+  ]
  },
  {
   "city": "芝加哥",
   "attraction": "密歇根大道",
   "status": "ok",
   "local": "芝加哥/密歇根大道_1.jpg",
-  "license": "CC BY 2.0",
-  "artist": "Howard Lifshitz",
-  "commons_file": "Apple_Store_at_Pioneer_Court_201808.jpg",
-  "source": "zhwiki:Apple 密歇根大道",
+  "license": "Pexels",
+  "artist": "Diego Alberto Martínez Mendoza",
+  "commons_file": "pexels:31657681",
+  "source": "pexels:Michigan Avenue Chicago",
   "extras": [
    {
     "local": "芝加哥/密歇根大道_2.jpg",
-    "license": "CC BY 2.0",
-    "artist": "Mike Boehmer from Chicago, IL, USA",
-    "commons_file": "Green Chicago River on Saint Patricks Day 2009.jpg",
-    "source": "commons-supplement:密歇根大道 芝加哥"
+    "license": "Pexels",
+    "artist": "oscar velazquez",
+    "commons_file": "pexels:33684445",
+    "source": "pexels:Michigan Avenue Chicago"
    },
    {
     "local": "芝加哥/密歇根大道_3.jpg",
-    "license": "CC BY 2.0",
-    "artist": "Howard Lifshitz",
-    "commons_file": "Apple Store at Pioneer Court 201808.jpg",
-    "source": "commons-supplement:密歇根大道 芝加哥"
-   },
-   {
-    "local": "芝加哥/密歇根大道_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Michael Barera",
-    "commons_file": "Detroit August 2025 28 (Woodward Avenue).jpg",
-    "source": "commons-supplement:密歇根大道"
+    "license": "Pexels",
+    "artist": "Alexander Abero",
+    "commons_file": "pexels:5577878",
+    "source": "pexels:Michigan Avenue Chicago"
    }
   ]
  },
@@ -1046,31 +1200,24 @@
   "attraction": "法国区",
   "status": "ok",
   "local": "新奥尔良/法国区_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "",
-  "commons_file": "Altaner_-_Royal_Street,_French_Quarter,_New_Orleans_2002.jpg",
-  "source": "zhwiki:法国区",
+  "license": "Pexels",
+  "artist": "KEN COOPER",
+  "commons_file": "pexels:6379409",
+  "source": "pexels:French Quarter New Orleans",
   "extras": [
    {
     "local": "新奥尔良/法国区_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Chris Litherland",
-    "commons_file": "French Quarter, looking north with Mississippi River to the right 2011.jpg",
-    "source": "commons-supplement:French Quarter"
+    "license": "Pexels",
+    "artist": "Lindsey Flynn",
+    "commons_file": "pexels:18462327",
+    "source": "pexels:French Quarter New Orleans"
    },
    {
     "local": "新奥尔良/法国区_3.jpg",
-    "license": "CC BY-SA 2.0",
-    "artist": "David Brossard",
-    "commons_file": "View of New Orleans from Our Hotel Room - French Quarter Rooftops February 2021.jpg",
-    "source": "commons-supplement:French Quarter"
-   },
-   {
-    "local": "新奥尔良/法国区_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Elisa.rolle",
-    "commons_file": "French Quarter-900.jpg",
-    "source": "commons-supplement:French Quarter"
+    "license": "Pexels",
+    "artist": "Anthony Franklin",
+    "commons_file": "pexels:10595356",
+    "source": "pexels:French Quarter New Orleans"
    }
   ]
  },
@@ -1079,215 +1226,544 @@
   "attraction": "杰克逊广场",
   "status": "ok",
   "local": "新奥尔良/杰克逊广场_1.jpg",
-  "license": "CC BY 3.0",
-  "artist": "Bobak Ha'Eri",
-  "commons_file": "060107-049-StLouisCathedral-JacksonSquare.jpg",
-  "source": "zhwiki:杰克逊广场 (新奥尔良)",
+  "license": "Pexels",
+  "artist": "Anthony Franklin",
+  "commons_file": "pexels:10595356",
+  "source": "pexels:Jackson Square New Orleans",
   "extras": [
    {
     "local": "新奥尔良/杰克逊广场_2.jpg",
-    "license": "Public domain",
-    "artist": "Clark Mills",
-    "commons_file": "Jackson Square.jpg",
-    "source": "commons-supplement:杰克逊广场 新奥尔良"
+    "license": "Pexels",
+    "artist": "K",
+    "commons_file": "pexels:22430898",
+    "source": "pexels:Jackson Square New Orleans"
    },
    {
     "local": "新奥尔良/杰克逊广场_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Jordon Dopp",
-    "commons_file": "Jackson Square Aerial Photo.jpg",
-    "source": "commons-supplement:杰克逊广场 新奥尔良"
-   },
-   {
-    "local": "新奥尔良/杰克逊广场_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Andrew rodden",
-    "commons_file": "Jackson Square, French Quarter.jpg",
-    "source": "commons-supplement:杰克逊广场 新奥尔良"
+    "license": "Pexels",
+    "artist": "Dominik Gryzbon",
+    "commons_file": "pexels:31096859",
+    "source": "pexels:Jackson Square New Orleans"
    }
   ]
  },
  {
   "city": "新奥尔良",
   "attraction": "沼泽 tour",
-  "status": "miss"
+  "status": "ok",
+  "local": "新奥尔良/沼泽 tour_1.jpg",
+  "license": "Pexels",
+  "artist": "Alfo Medeiros",
+  "commons_file": "pexels:11573495",
+  "source": "pexels:Louisiana swamp bayou New Orleans",
+  "extras": [
+   {
+    "local": "新奥尔良/沼泽 tour_2.jpg",
+    "license": "Pexels",
+    "artist": "Tom Fournier",
+    "commons_file": "pexels:19503881",
+    "source": "pexels:Louisiana swamp bayou New Orleans"
+   },
+   {
+    "local": "新奥尔良/沼泽 tour_3.jpg",
+    "license": "Pexels",
+    "artist": "Tom Fournier",
+    "commons_file": "pexels:14594066",
+    "source": "pexels:Louisiana swamp bayou New Orleans"
+   }
+  ]
  },
  {
   "city": "新奥尔良",
   "attraction": "Bourbon街",
-  "status": "miss"
+  "status": "ok",
+  "local": "新奥尔良/Bourbon街_1.jpg",
+  "license": "Pexels",
+  "artist": "Ayoub Benamor",
+  "commons_file": "pexels:37037268",
+  "source": "pexels:Bourbon Street New Orleans",
+  "extras": [
+   {
+    "local": "新奥尔良/Bourbon街_2.jpg",
+    "license": "Pexels",
+    "artist": "Kendall Hoopes",
+    "commons_file": "pexels:2432110",
+    "source": "pexels:Bourbon Street New Orleans"
+   },
+   {
+    "local": "新奥尔良/Bourbon街_3.jpg",
+    "license": "Pexels",
+    "artist": "K",
+    "commons_file": "pexels:21771310",
+    "source": "pexels:Bourbon Street New Orleans"
+   }
+  ]
  },
  {
   "city": "坦帕",
   "attraction": "Clearwater Beach 白沙滩",
-  "status": "miss"
+  "status": "ok",
+  "local": "坦帕/Clearwater Beach 白沙滩_1.jpg",
+  "license": "Pexels",
+  "artist": "Lalada .",
+  "commons_file": "pexels:11953064",
+  "source": "pexels:Clearwater Beach Florida",
+  "extras": [
+   {
+    "local": "坦帕/Clearwater Beach 白沙滩_2.jpg",
+    "license": "Pexels",
+    "artist": "Maheshwar Reddy",
+    "commons_file": "pexels:16949765",
+    "source": "pexels:Clearwater Beach Florida"
+   },
+   {
+    "local": "坦帕/Clearwater Beach 白沙滩_3.jpg",
+    "license": "Pexels",
+    "artist": "Gabi Corvi",
+    "commons_file": "pexels:34575566",
+    "source": "pexels:Clearwater Beach Florida"
+   }
+  ]
  },
  {
   "city": "坦帕",
   "attraction": "Ringling博物馆",
-  "status": "miss"
+  "status": "ok",
+  "local": "坦帕/Ringling博物馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Josh Sorenson",
+  "commons_file": "pexels:1546893",
+  "source": "pexels:Ringling Museum Sarasota",
+  "extras": [
+   {
+    "local": "坦帕/Ringling博物馆_2.jpg",
+    "license": "Pexels",
+    "artist": "Jeffrey Eisen",
+    "commons_file": "pexels:31732611",
+    "source": "pexels:Ringling Museum Sarasota"
+   },
+   {
+    "local": "坦帕/Ringling博物馆_3.jpg",
+    "license": "Pexels",
+    "artist": "Jeffrey Eisen",
+    "commons_file": "pexels:31732615",
+    "source": "pexels:Ringling Museum Sarasota"
+   }
+  ]
  },
  {
   "city": "坦帕",
   "attraction": "Siesta Beach",
-  "status": "miss"
+  "status": "ok",
+  "local": "坦帕/Siesta Beach_1.jpg",
+  "license": "Pexels",
+  "artist": "Jeffrey Eisen",
+  "commons_file": "pexels:17376726",
+  "source": "pexels:Siesta Beach Sarasota Florida",
+  "extras": [
+   {
+    "local": "坦帕/Siesta Beach_2.jpg",
+    "license": "Pexels",
+    "artist": "Following NYC",
+    "commons_file": "pexels:19959933",
+    "source": "pexels:Siesta Beach Sarasota Florida"
+   },
+   {
+    "local": "坦帕/Siesta Beach_3.jpg",
+    "license": "Pexels",
+    "artist": "Amit Shubinsky",
+    "commons_file": "pexels:16403226",
+    "source": "pexels:Siesta Beach Sarasota Florida"
+   }
+  ]
  },
  {
   "city": "坦帕",
   "attraction": "看海牛",
-  "status": "miss"
+  "status": "ok",
+  "local": "坦帕/看海牛_1.jpg",
+  "license": "Pexels",
+  "artist": "Jean Paul  Montanaro",
+  "commons_file": "pexels:19999355",
+  "source": "pexels:Florida manatee",
+  "extras": [
+   {
+    "local": "坦帕/看海牛_2.jpg",
+    "license": "Pexels",
+    "artist": "Jakub Pabis",
+    "commons_file": "pexels:13277593",
+    "source": "pexels:Florida manatee"
+   },
+   {
+    "local": "坦帕/看海牛_3.jpg",
+    "license": "Pexels",
+    "artist": "Connor Scott McManus",
+    "commons_file": "pexels:13745247",
+    "source": "pexels:Florida manatee"
+   }
+  ]
  },
  {
   "city": "阿卡迪亚国家公园",
   "attraction": "阿卡迪亚",
   "status": "ok",
   "local": "阿卡迪亚国家公园/阿卡迪亚_1.jpg",
-  "license": "CC BY 2.5",
-  "artist": "Esun",
-  "commons_file": "Arcadia_Peahen_1.jpg",
-  "source": "zhwiki:阿卡迪亞 (加利福尼亞州)",
+  "license": "Pexels",
+  "artist": "Blue Arauz",
+  "commons_file": "pexels:10053126",
+  "source": "pexels:Acadia National Park Maine",
   "extras": [
    {
     "local": "阿卡迪亚国家公园/阿卡迪亚_2.jpg",
-    "license": "CC BY 2.5",
-    "artist": "Esun",
-    "commons_file": "Arcadia Peahen 1.jpg",
-    "source": "commons-supplement:Arcadia"
+    "license": "Pexels",
+    "artist": "Daniel Miller",
+    "commons_file": "pexels:34993330",
+    "source": "pexels:Acadia National Park Maine"
    },
    {
     "local": "阿卡迪亚国家公园/阿卡迪亚_3.jpg",
-    "license": "Public domain",
-    "artist": "City of Arcadia, California",
-    "commons_file": "Flag of Arcadia, California.jpg",
-    "source": "commons-supplement:Arcadia"
-   },
-   {
-    "local": "阿卡迪亚国家公园/阿卡迪亚_4.jpg",
-    "license": "Public domain",
-    "artist": "Thomas Eakins",
-    "commons_file": "Thomas Eakins - Arcadia.jpg",
-    "source": "commons-supplement:Arcadia"
+    "license": "Pexels",
+    "artist": "Owen Casey",
+    "commons_file": "pexels:8947308",
+    "source": "pexels:Acadia National Park Maine"
    }
   ]
  },
  {
   "city": "阿卡迪亚国家公园",
   "attraction": "Cadillac Mountain",
-  "status": "miss"
+  "status": "ok",
+  "local": "阿卡迪亚国家公园/Cadillac Mountain_1.jpg",
+  "license": "Pexels",
+  "artist": "Robert Schrader",
+  "commons_file": "pexels:11777386",
+  "source": "pexels:Cadillac Mountain Acadia",
+  "extras": [
+   {
+    "local": "阿卡迪亚国家公园/Cadillac Mountain_2.jpg",
+    "license": "Pexels",
+    "artist": "Skyler Ewing",
+    "commons_file": "pexels:7554682",
+    "source": "pexels:Cadillac Mountain Acadia"
+   },
+   {
+    "local": "阿卡迪亚国家公园/Cadillac Mountain_3.jpg",
+    "license": "Pexels",
+    "artist": "Daniel Miller",
+    "commons_file": "pexels:34993338",
+    "source": "pexels:Cadillac Mountain Acadia"
+   }
+  ]
  },
  {
   "city": "阿卡迪亚国家公园",
   "attraction": "环岛自驾",
-  "status": "miss"
+  "status": "ok",
+  "local": "阿卡迪亚国家公园/环岛自驾_1.jpg",
+  "license": "Pexels",
+  "artist": "Mohan Nannapaneni",
+  "commons_file": "pexels:10852837",
+  "source": "pexels:Park Loop Road Acadia",
+  "extras": [
+   {
+    "local": "阿卡迪亚国家公园/环岛自驾_2.jpg",
+    "license": "Pexels",
+    "artist": "Daniel Miller",
+    "commons_file": "pexels:34993330",
+    "source": "pexels:Park Loop Road Acadia"
+   },
+   {
+    "local": "阿卡迪亚国家公园/环岛自驾_3.jpg",
+    "license": "Pexels",
+    "artist": "Blue Arauz",
+    "commons_file": "pexels:10053126",
+    "source": "pexels:Park Loop Road Acadia"
+   }
+  ]
  },
  {
   "city": "阿卡迪亚国家公园",
   "attraction": "Sand Beach",
-  "status": "miss"
+  "status": "ok",
+  "local": "阿卡迪亚国家公园/Sand Beach_1.jpg",
+  "license": "Pexels",
+  "artist": "Nicole Seidl",
+  "commons_file": "pexels:35046941",
+  "source": "pexels:Sand Beach Acadia Maine",
+  "extras": [
+   {
+    "local": "阿卡迪亚国家公园/Sand Beach_2.jpg",
+    "license": "Pexels",
+    "artist": "Nicole Seidl",
+    "commons_file": "pexels:35046940",
+    "source": "pexels:Sand Beach Acadia Maine"
+   },
+   {
+    "local": "阿卡迪亚国家公园/Sand Beach_3.jpg",
+    "license": "Pexels",
+    "artist": "Free Nature Stock",
+    "commons_file": "pexels:97071",
+    "source": "pexels:Sand Beach Acadia Maine"
+   }
+  ]
  },
  {
   "city": "阿卡迪亚国家公园",
   "attraction": "野生动物观察",
-  "status": "miss"
+  "status": "ok",
+  "local": "阿卡迪亚国家公园/野生动物观察_1.jpg",
+  "license": "Pexels",
+  "artist": "Blue Arauz",
+  "commons_file": "pexels:10053126",
+  "source": "pexels:Acadia National Park Maine",
+  "extras": [
+   {
+    "local": "阿卡迪亚国家公园/野生动物观察_2.jpg",
+    "license": "Pexels",
+    "artist": "Daniel Miller",
+    "commons_file": "pexels:34993330",
+    "source": "pexels:Acadia National Park Maine"
+   },
+   {
+    "local": "阿卡迪亚国家公园/野生动物观察_3.jpg",
+    "license": "Pexels",
+    "artist": "Owen Casey",
+    "commons_file": "pexels:8947308",
+    "source": "pexels:Acadia National Park Maine"
+   }
+  ]
  },
  {
   "city": "大雾山国家公园",
   "attraction": "Cades Cove环线",
-  "status": "miss"
+  "status": "ok",
+  "local": "大雾山国家公园/Cades Cove环线_1.jpg",
+  "license": "Pexels",
+  "artist": "Jessa Leigh",
+  "commons_file": "pexels:21907690",
+  "source": "pexels:Cades Cove Great Smoky Mountains",
+  "extras": [
+   {
+    "local": "大雾山国家公园/Cades Cove环线_2.jpg",
+    "license": "Pexels",
+    "artist": "Phil Evenden",
+    "commons_file": "pexels:31475710",
+    "source": "pexels:Cades Cove Great Smoky Mountains"
+   },
+   {
+    "local": "大雾山国家公园/Cades Cove环线_3.jpg",
+    "license": "Pexels",
+    "artist": "Beth Fitzpatrick",
+    "commons_file": "pexels:36613597",
+    "source": "pexels:Cades Cove Great Smoky Mountains"
+   }
+  ]
  },
  {
   "city": "大雾山国家公园",
   "attraction": "看野生动物（黑熊",
-  "status": "miss"
+  "status": "ok",
+  "local": "大雾山国家公园/看野生动物_黑熊_1.jpg",
+  "license": "Pexels",
+  "artist": "Jessa Leigh",
+  "commons_file": "pexels:21907690",
+  "source": "pexels:Great Smoky Mountains black bear",
+  "extras": [
+   {
+    "local": "大雾山国家公园/看野生动物_黑熊_2.jpg",
+    "license": "Pexels",
+    "artist": "Joshua Woroniecki",
+    "commons_file": "pexels:5971383",
+    "source": "pexels:Great Smoky Mountains black bear"
+   },
+   {
+    "local": "大雾山国家公园/看野生动物_黑熊_3.jpg",
+    "license": "Pexels",
+    "artist": "Brayden Gale",
+    "commons_file": "pexels:27599305",
+    "source": "pexels:Great Smoky Mountains black bear"
+   }
+  ]
  },
  {
   "city": "大雾山国家公园",
   "attraction": "鹿）",
-  "status": "miss"
+  "status": "ok",
+  "local": "大雾山国家公园/鹿__1.jpg",
+  "license": "Pexels",
+  "artist": "Joshua Woroniecki",
+  "commons_file": "pexels:5971383",
+  "source": "pexels:Great Smoky Mountains National Park",
+  "extras": [
+   {
+    "local": "大雾山国家公园/鹿__2.jpg",
+    "license": "Pexels",
+    "artist": "Esteban Carriazo",
+    "commons_file": "pexels:36397149",
+    "source": "pexels:Great Smoky Mountains National Park"
+   },
+   {
+    "local": "大雾山国家公园/鹿__3.jpg",
+    "license": "Pexels",
+    "artist": "Connor Scott McManus",
+    "commons_file": "pexels:11599563",
+    "source": "pexels:Great Smoky Mountains National Park"
+   }
+  ]
  },
  {
   "city": "大雾山国家公园",
   "attraction": "Clingmans Dome看云海",
-  "status": "miss"
+  "status": "ok",
+  "local": "大雾山国家公园/Clingmans Dome看云海_1.jpg",
+  "license": "Pexels",
+  "artist": "Anatolii Grytsenko",
+  "commons_file": "pexels:30894940",
+  "source": "pexels:Clingmans Dome Smoky Mountains",
+  "extras": [
+   {
+    "local": "大雾山国家公园/Clingmans Dome看云海_2.jpg",
+    "license": "Pexels",
+    "artist": "Esteban Carriazo",
+    "commons_file": "pexels:33008768",
+    "source": "pexels:Clingmans Dome Smoky Mountains"
+   },
+   {
+    "local": "大雾山国家公园/Clingmans Dome看云海_3.jpg",
+    "license": "Pexels",
+    "artist": "Connor Scott McManus",
+    "commons_file": "pexels:29146327",
+    "source": "pexels:Clingmans Dome Smoky Mountains"
+   }
+  ]
  },
  {
   "city": "大雾山国家公园",
   "attraction": "Newfound Gap",
-  "status": "miss"
+  "status": "ok",
+  "local": "大雾山国家公园/Newfound Gap_1.jpg",
+  "license": "Pexels",
+  "artist": "Joshua Woroniecki",
+  "commons_file": "pexels:5971383",
+  "source": "pexels:Newfound Gap Smoky Mountains",
+  "extras": [
+   {
+    "local": "大雾山国家公园/Newfound Gap_2.jpg",
+    "license": "Pexels",
+    "artist": "Dmytro Koplyk",
+    "commons_file": "pexels:35717143",
+    "source": "pexels:Newfound Gap Smoky Mountains"
+   },
+   {
+    "local": "大雾山国家公园/Newfound Gap_3.jpg",
+    "license": "Pexels",
+    "artist": "Esteban Carriazo",
+    "commons_file": "pexels:36397149",
+    "source": "pexels:Newfound Gap Smoky Mountains"
+   }
+  ]
  },
  {
   "city": "仙纳度国家公园",
   "attraction": "仙纳度",
   "status": "ok",
   "local": "仙纳度国家公园/仙纳度_1.jpg",
-  "license": "Public domain",
-  "artist": "Shenandoah  National Park from Virginia",
-  "commons_file": "Late_Fall_in_Shenandoah_(30095169803).jpg",
-  "source": "zhwiki:仙納度國家公園",
+  "license": "Pexels",
+  "artist": "Gary Cassel",
+  "commons_file": "pexels:18815135",
+  "source": "pexels:Shenandoah National Park Virginia",
   "extras": [
    {
     "local": "仙纳度国家公园/仙纳度_2.jpg",
-    "license": "Public domain",
-    "artist": "Nicolas Sanson",
-    "commons_file": "Xanadu on Map of Asia.JPG",
-    "source": "commons-supplement:Xanadu"
+    "license": "Pexels",
+    "artist": "Jordan Brown",
+    "commons_file": "pexels:10731367",
+    "source": "pexels:Shenandoah National Park Virginia"
    },
    {
     "local": "仙纳度国家公园/仙纳度_3.jpg",
-    "license": "CC BY 2.0",
-    "artist": "xiquinhosilva",
-    "commons_file": "Xanadu (54565368321).jpg",
-    "source": "commons-supplement:Xanadu"
-   },
-   {
-    "local": "仙纳度国家公园/仙纳度_4.jpg",
-    "license": "CC BY 2.0",
-    "artist": "xiquinhosilva",
-    "commons_file": "Xanadu (54565544974).jpg",
-    "source": "commons-supplement:Xanadu"
+    "license": "Pexels",
+    "artist": "K T",
+    "commons_file": "pexels:37411051",
+    "source": "pexels:Shenandoah National Park Virginia"
    }
   ]
  },
  {
   "city": "仙纳度国家公园",
   "attraction": "Skyline Drive",
-  "status": "miss"
+  "status": "ok",
+  "local": "仙纳度国家公园/Skyline Drive_1.jpg",
+  "license": "Pexels",
+  "artist": "Janet Escarcha",
+  "commons_file": "pexels:19189064",
+  "source": "pexels:Skyline Drive Shenandoah",
+  "extras": [
+   {
+    "local": "仙纳度国家公园/Skyline Drive_2.jpg",
+    "license": "Pexels",
+    "artist": "K T",
+    "commons_file": "pexels:37411051",
+    "source": "pexels:Skyline Drive Shenandoah"
+   },
+   {
+    "local": "仙纳度国家公园/Skyline Drive_3.jpg",
+    "license": "Pexels",
+    "artist": "Jordan Brown",
+    "commons_file": "pexels:10731367",
+    "source": "pexels:Skyline Drive Shenandoah"
+   }
+  ]
  },
  {
   "city": "仙纳度国家公园",
   "attraction": "Marys Falls Trail",
-  "status": "miss"
+  "status": "ok",
+  "local": "仙纳度国家公园/Marys Falls Trail_1.jpg",
+  "license": "Pexels",
+  "artist": "M-DESIGNZ LLC",
+  "commons_file": "pexels:7535931",
+  "source": "pexels:Shenandoah waterfall trail",
+  "extras": [
+   {
+    "local": "仙纳度国家公园/Marys Falls Trail_2.jpg",
+    "license": "Pexels",
+    "artist": "M-DESIGNZ LLC",
+    "commons_file": "pexels:7535930",
+    "source": "pexels:Shenandoah waterfall trail"
+   },
+   {
+    "local": "仙纳度国家公园/Marys Falls Trail_3.jpg",
+    "license": "Pexels",
+    "artist": "Connor Scott McManus",
+    "commons_file": "pexels:13257889",
+    "source": "pexels:Shenandoah waterfall trail"
+   }
+  ]
  },
  {
   "city": "仙纳度国家公园",
   "attraction": "蓝岭公路",
   "status": "ok",
   "local": "仙纳度国家公园/蓝岭公路_1.jpg",
-  "license": "Public domain",
-  "artist": "Ken Thomas",
-  "commons_file": "Blue_Ridge_Parkway-27527.jpg",
-  "source": "zhwiki:藍嶺山行車通道",
+  "license": "Pexels",
+  "artist": "Beth Fitzpatrick",
+  "commons_file": "pexels:36613608",
+  "source": "pexels:Blue Ridge Parkway",
   "extras": [
    {
     "local": "仙纳度国家公园/蓝岭公路_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Acroterion",
-    "commons_file": "Blue Ridge Parkway clouds VA1.jpg",
-    "source": "commons-supplement:Blue Ridge Parkway"
+    "license": "Pexels",
+    "artist": "Esteban Carriazo",
+    "commons_file": "pexels:36397105",
+    "source": "pexels:Blue Ridge Parkway"
    },
    {
     "local": "仙纳度国家公园/蓝岭公路_3.jpg",
-    "license": "CC BY 4.0",
-    "artist": "JustSomeGuy4361",
-    "commons_file": "Skyline drive blue ridge parkway sign.jpg",
-    "source": "commons-supplement:Blue Ridge Parkway"
-   },
-   {
-    "local": "仙纳度国家公园/蓝岭公路_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Maria newengland",
-    "commons_file": "Blue Ridge Parkway by maria newengland.jpg",
-    "source": "commons-supplement:Blue Ridge Parkway"
+    "license": "Pexels",
+    "artist": "Hugo Magalhaes",
+    "commons_file": "pexels:10143095",
+    "source": "pexels:Blue Ridge Parkway"
    }
   ]
  },
@@ -1296,159 +1772,544 @@
   "attraction": "大沼泽地",
   "status": "ok",
   "local": "大沼泽地国家公园/大沼泽地_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Daniel Kraft",
-  "commons_file": "Everglades_Pa-Hay-Oke_Swamp.jpg",
-  "source": "zhwiki:大沼澤地國家公園",
+  "license": "Pexels",
+  "artist": "Peter Lopez",
+  "commons_file": "pexels:7169054",
+  "source": "pexels:Everglades National Park Florida",
   "extras": [
    {
     "local": "大沼泽地国家公园/大沼泽地_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Daniel Kraft",
-    "commons_file": "Everglades Pa-Hay-Oke Swamp.jpg",
-    "source": "commons-supplement:Everglades National Park"
+    "license": "Pexels",
+    "artist": "Phyllis Lilienthal",
+    "commons_file": "pexels:34596000",
+    "source": "pexels:Everglades National Park Florida"
    },
    {
     "local": "大沼泽地国家公园/大沼泽地_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Daniel Kraft",
-    "commons_file": "Everglades Anhinga Trail Pond.jpg",
-    "source": "commons-supplement:Everglades National Park"
-   },
-   {
-    "local": "大沼泽地国家公园/大沼泽地_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Daniel Schwen",
-    "commons_file": "Everglades National Park east entrance.jpg",
-    "source": "commons-supplement:Everglades National Park"
+    "license": "Pexels",
+    "artist": "Julius Hildebrandt",
+    "commons_file": "pexels:20470017",
+    "source": "pexels:Everglades National Park Florida"
    }
   ]
  },
  {
   "city": "大沼泽地国家公园",
   "attraction": "Airboat",
-  "status": "miss"
+  "status": "ok",
+  "local": "大沼泽地国家公园/Airboat_1.jpg",
+  "license": "Pexels",
+  "artist": "Robert Schrader",
+  "commons_file": "pexels:9801920",
+  "source": "pexels:Everglades airboat Florida",
+  "extras": [
+   {
+    "local": "大沼泽地国家公园/Airboat_2.jpg",
+    "license": "Pexels",
+    "artist": "S. A. Jackson",
+    "commons_file": "pexels:21562125",
+    "source": "pexels:Everglades airboat Florida"
+   },
+   {
+    "local": "大沼泽地国家公园/Airboat_3.jpg",
+    "license": "Pexels",
+    "artist": "Paul Harrison",
+    "commons_file": "pexels:9873905",
+    "source": "pexels:Everglades airboat Florida"
+   }
+  ]
  },
  {
   "city": "大沼泽地国家公园",
   "attraction": "Shark Valley",
-  "status": "miss"
+  "status": "ok",
+  "local": "大沼泽地国家公园/Shark Valley_1.jpg",
+  "license": "Pexels",
+  "artist": "Phyllis Lilienthal",
+  "commons_file": "pexels:34596000",
+  "source": "pexels:Shark Valley Everglades tower",
+  "extras": [
+   {
+    "local": "大沼泽地国家公园/Shark Valley_2.jpg",
+    "license": "Pexels",
+    "artist": "Robert Schrader",
+    "commons_file": "pexels:9801923",
+    "source": "pexels:Shark Valley Everglades tower"
+   },
+   {
+    "local": "大沼泽地国家公园/Shark Valley_3.jpg",
+    "license": "Pexels",
+    "artist": "Dirk Schuneman",
+    "commons_file": "pexels:14515211",
+    "source": "pexels:Shark Valley Everglades tower"
+   }
+  ]
  },
  {
   "city": "美东“蓝岭公路与双园”大环线",
   "attraction": "行驶天际线公路",
-  "status": "miss"
+  "status": "ok",
+  "local": "美东“蓝岭公路与双园”大环线/行驶天际线公路_1.jpg",
+  "license": "Pexels",
+  "artist": "Janet Escarcha",
+  "commons_file": "pexels:19189064",
+  "source": "pexels:Skyline Drive Shenandoah",
+  "extras": [
+   {
+    "local": "美东“蓝岭公路与双园”大环线/行驶天际线公路_2.jpg",
+    "license": "Pexels",
+    "artist": "K T",
+    "commons_file": "pexels:37411051",
+    "source": "pexels:Skyline Drive Shenandoah"
+   },
+   {
+    "local": "美东“蓝岭公路与双园”大环线/行驶天际线公路_3.jpg",
+    "license": "Pexels",
+    "artist": "Jordan Brown",
+    "commons_file": "pexels:10731367",
+    "source": "pexels:Skyline Drive Shenandoah"
+   }
+  ]
  },
  {
   "city": "美东“蓝岭公路与双园”大环线",
   "attraction": "全美最美景观道",
-  "status": "miss"
+  "status": "ok",
+  "local": "美东“蓝岭公路与双园”大环线/全美最美景观道_1.jpg",
+  "license": "Pexels",
+  "artist": "Beth Fitzpatrick",
+  "commons_file": "pexels:36613608",
+  "source": "pexels:Blue Ridge Parkway",
+  "extras": [
+   {
+    "local": "美东“蓝岭公路与双园”大环线/全美最美景观道_2.jpg",
+    "license": "Pexels",
+    "artist": "Esteban Carriazo",
+    "commons_file": "pexels:36397105",
+    "source": "pexels:Blue Ridge Parkway"
+   },
+   {
+    "local": "美东“蓝岭公路与双园”大环线/全美最美景观道_3.jpg",
+    "license": "Pexels",
+    "artist": "Hugo Magalhaes",
+    "commons_file": "pexels:10143095",
+    "source": "pexels:Blue Ridge Parkway"
+   }
+  ]
  },
  {
   "city": "美东“蓝岭公路与双园”大环线",
   "attraction": "沿途多处观景台看群山起伏",
-  "status": "miss"
+  "status": "ok",
+  "local": "美东“蓝岭公路与双园”大环线/沿途多处观景台看群山起伏_1.jpg",
+  "license": "Pexels",
+  "artist": "Beth Fitzpatrick",
+  "commons_file": "pexels:36613617",
+  "source": "pexels:Blue Ridge Parkway overlook mountains",
+  "extras": [
+   {
+    "local": "美东“蓝岭公路与双园”大环线/沿途多处观景台看群山起伏_2.jpg",
+    "license": "Pexels",
+    "artist": "Esteban Carriazo",
+    "commons_file": "pexels:36397144",
+    "source": "pexels:Blue Ridge Parkway overlook mountains"
+   },
+   {
+    "local": "美东“蓝岭公路与双园”大环线/沿途多处观景台看群山起伏_3.jpg",
+    "license": "Pexels",
+    "artist": "Beth Fitzpatrick",
+    "commons_file": "pexels:36613608",
+    "source": "pexels:Blue Ridge Parkway overlook mountains"
+   }
+  ]
  },
  {
   "city": "美东“蓝岭公路与双园”大环线",
   "attraction": "马布里磨坊",
-  "status": "miss"
+  "status": "ok",
+  "local": "美东“蓝岭公路与双园”大环线/马布里磨坊_1.jpg",
+  "license": "Pexels",
+  "artist": "Hugo Magalhaes",
+  "commons_file": "pexels:10143096",
+  "source": "pexels:Mabry Mill Blue Ridge Parkway",
+  "extras": [
+   {
+    "local": "美东“蓝岭公路与双园”大环线/马布里磨坊_2.jpg",
+    "license": "Pexels",
+    "artist": "Daniel  Shapiro",
+    "commons_file": "pexels:17946182",
+    "source": "pexels:Mabry Mill Blue Ridge Parkway"
+   },
+   {
+    "local": "美东“蓝岭公路与双园”大环线/马布里磨坊_3.jpg",
+    "license": "Pexels",
+    "artist": "Hugo Magalhaes",
+    "commons_file": "pexels:16156549",
+    "source": "pexels:Mabry Mill Blue Ridge Parkway"
+   }
+  ]
  },
  {
   "city": "美东“蓝岭公路与双园”大环线",
   "attraction": "林维尔瀑布",
-  "status": "miss"
+  "status": "ok",
+  "local": "美东“蓝岭公路与双园”大环线/林维尔瀑布_1.jpg",
+  "license": "Pexels",
+  "artist": "Carson Riutta",
+  "commons_file": "pexels:5040405",
+  "source": "pexels:Linville Falls North Carolina",
+  "extras": [
+   {
+    "local": "美东“蓝岭公路与双园”大环线/林维尔瀑布_2.jpg",
+    "license": "Pexels",
+    "artist": "Vasilis Karkalas",
+    "commons_file": "pexels:30192787",
+    "source": "pexels:Linville Falls North Carolina"
+   },
+   {
+    "local": "美东“蓝岭公路与双园”大环线/林维尔瀑布_3.jpg",
+    "license": "Pexels",
+    "artist": "Tammi Nowack",
+    "commons_file": "pexels:1559708",
+    "source": "pexels:Linville Falls North Carolina"
+   }
+  ]
  },
  {
   "city": "美东“蓝岭公路与双园”大环线",
   "attraction": "纽芬崖",
-  "status": "miss"
+  "status": "ok",
+  "local": "美东“蓝岭公路与双园”大环线/纽芬崖_1.jpg",
+  "license": "Pexels",
+  "artist": "Joshua Woroniecki",
+  "commons_file": "pexels:5971383",
+  "source": "pexels:Newfound Gap Smoky Mountains",
+  "extras": [
+   {
+    "local": "美东“蓝岭公路与双园”大环线/纽芬崖_2.jpg",
+    "license": "Pexels",
+    "artist": "Dmytro Koplyk",
+    "commons_file": "pexels:35717143",
+    "source": "pexels:Newfound Gap Smoky Mountains"
+   },
+   {
+    "local": "美东“蓝岭公路与双园”大环线/纽芬崖_3.jpg",
+    "license": "Pexels",
+    "artist": "Esteban Carriazo",
+    "commons_file": "pexels:36397149",
+    "source": "pexels:Newfound Gap Smoky Mountains"
+   }
+  ]
  },
  {
   "city": "美东“蓝岭公路与双园”大环线",
   "attraction": "克林曼圆顶看云海",
-  "status": "miss"
+  "status": "ok",
+  "local": "美东“蓝岭公路与双园”大环线/克林曼圆顶看云海_1.jpg",
+  "license": "Pexels",
+  "artist": "Anatolii Grytsenko",
+  "commons_file": "pexels:30894940",
+  "source": "pexels:Clingmans Dome Smoky Mountains",
+  "extras": [
+   {
+    "local": "美东“蓝岭公路与双园”大环线/克林曼圆顶看云海_2.jpg",
+    "license": "Pexels",
+    "artist": "Esteban Carriazo",
+    "commons_file": "pexels:33008768",
+    "source": "pexels:Clingmans Dome Smoky Mountains"
+   },
+   {
+    "local": "美东“蓝岭公路与双园”大环线/克林曼圆顶看云海_3.jpg",
+    "license": "Pexels",
+    "artist": "Connor Scott McManus",
+    "commons_file": "pexels:29146327",
+    "source": "pexels:Clingmans Dome Smoky Mountains"
+   }
+  ]
  },
  {
   "city": "美东“蓝岭公路与双园”大环线",
   "attraction": "凯兹谷  环线看野生动物 (黑熊",
-  "status": "miss"
+  "status": "ok",
+  "local": "美东“蓝岭公路与双园”大环线/凯兹谷  环线看野生动物 _黑熊_1.jpg",
+  "license": "Pexels",
+  "artist": "Jessa Leigh",
+  "commons_file": "pexels:21907690",
+  "source": "pexels:Cades Cove Great Smoky Mountains",
+  "extras": [
+   {
+    "local": "美东“蓝岭公路与双园”大环线/凯兹谷  环线看野生动物 _黑熊_2.jpg",
+    "license": "Pexels",
+    "artist": "Phil Evenden",
+    "commons_file": "pexels:31475710",
+    "source": "pexels:Cades Cove Great Smoky Mountains"
+   },
+   {
+    "local": "美东“蓝岭公路与双园”大环线/凯兹谷  环线看野生动物 _黑熊_3.jpg",
+    "license": "Pexels",
+    "artist": "Beth Fitzpatrick",
+    "commons_file": "pexels:36613597",
+    "source": "pexels:Cades Cove Great Smoky Mountains"
+   }
+  ]
  },
  {
   "city": "美东“蓝岭公路与双园”大环线",
   "attraction": "鹿)",
-  "status": "miss"
+  "status": "ok",
+  "local": "美东“蓝岭公路与双园”大环线/鹿__1.jpg",
+  "license": "Pexels",
+  "artist": "Joshua Woroniecki",
+  "commons_file": "pexels:5971383",
+  "source": "pexels:Great Smoky Mountains National Park",
+  "extras": [
+   {
+    "local": "美东“蓝岭公路与双园”大环线/鹿__2.jpg",
+    "license": "Pexels",
+    "artist": "Esteban Carriazo",
+    "commons_file": "pexels:36397149",
+    "source": "pexels:Great Smoky Mountains National Park"
+   },
+   {
+    "local": "美东“蓝岭公路与双园”大环线/鹿__3.jpg",
+    "license": "Pexels",
+    "artist": "Connor Scott McManus",
+    "commons_file": "pexels:11599563",
+    "source": "pexels:Great Smoky Mountains National Park"
+   }
+  ]
  },
  {
   "city": "密歇根湖“巨型沙丘与五彩悬崖”大环线",
   "attraction": "看沙丘与湖滩",
-  "status": "miss"
+  "status": "ok",
+  "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/看沙丘与湖滩_1.jpg",
+  "license": "Pexels",
+  "artist": "Snapwire",
+  "commons_file": "pexels:6963",
+  "source": "pexels:Sleeping Bear Dunes Lake Michigan",
+  "extras": [
+   {
+    "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/看沙丘与湖滩_2.jpg",
+    "license": "Pexels",
+    "artist": "Trent Staats",
+    "commons_file": "pexels:19219015",
+    "source": "pexels:Sleeping Bear Dunes Lake Michigan"
+   },
+   {
+    "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/看沙丘与湖滩_3.jpg",
+    "license": "Pexels",
+    "artist": "John Wright",
+    "commons_file": "pexels:15705547",
+    "source": "pexels:Sleeping Bear Dunes Lake Michigan"
+   }
+  ]
  },
  {
   "city": "密歇根湖“巨型沙丘与五彩悬崖”大环线",
   "attraction": "攀登巨型沙丘",
-  "status": "miss"
+  "status": "ok",
+  "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/攀登巨型沙丘_1.jpg",
+  "license": "Pexels",
+  "artist": "Howard Cameron",
+  "commons_file": "pexels:10136491",
+  "source": "pexels:Sleeping Bear Dunes climb",
+  "extras": [
+   {
+    "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/攀登巨型沙丘_2.jpg",
+    "license": "Pexels",
+    "artist": "Andreas Ebner",
+    "commons_file": "pexels:13722036",
+    "source": "pexels:Sleeping Bear Dunes climb"
+   },
+   {
+    "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/攀登巨型沙丘_3.jpg",
+    "license": "Pexels",
+    "artist": "Văn Long Bùi",
+    "commons_file": "pexels:12435860",
+    "source": "pexels:Sleeping Bear Dunes climb"
+   }
+  ]
  },
  {
   "city": "密歇根湖“巨型沙丘与五彩悬崖”大环线",
   "attraction": "看湖景日落",
-  "status": "miss"
+  "status": "ok",
+  "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/看湖景日落_1.jpg",
+  "license": "Pexels",
+  "artist": "Collin Nederhood",
+  "commons_file": "pexels:15308274",
+  "source": "pexels:Lake Michigan sunset",
+  "extras": [
+   {
+    "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/看湖景日落_2.jpg",
+    "license": "Pexels",
+    "artist": "Daniel",
+    "commons_file": "pexels:6157705",
+    "source": "pexels:Lake Michigan sunset"
+   },
+   {
+    "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/看湖景日落_3.jpg",
+    "license": "Pexels",
+    "artist": "Karl Solano",
+    "commons_file": "pexels:16963552",
+    "source": "pexels:Lake Michigan sunset"
+   }
+  ]
  },
  {
   "city": "密歇根湖“巨型沙丘与五彩悬崖”大环线",
   "attraction": "苏必利尔湖南岸",
-  "status": "miss"
+  "status": "ok",
+  "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/苏必利尔湖南岸_1.jpg",
+  "license": "Pexels",
+  "artist": "Ken Jacobsen",
+  "commons_file": "pexels:36284651",
+  "source": "pexels:Lake Superior shoreline Michigan",
+  "extras": [
+   {
+    "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/苏必利尔湖南岸_2.jpg",
+    "license": "Pexels",
+    "artist": "Maria Larsen",
+    "commons_file": "pexels:30488141",
+    "source": "pexels:Lake Superior shoreline Michigan"
+   },
+   {
+    "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/苏必利尔湖南岸_3.jpg",
+    "license": "Pexels",
+    "artist": "Jan Tang",
+    "commons_file": "pexels:29089318",
+    "source": "pexels:Lake Superior shoreline Michigan"
+   }
+  ]
  },
  {
   "city": "密歇根湖“巨型沙丘与五彩悬崖”大环线",
   "attraction": "五彩悬崖",
-  "status": "miss"
+  "status": "ok",
+  "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/五彩悬崖_1.jpg",
+  "license": "Pexels",
+  "artist": "Sinful",
+  "commons_file": "pexels:32707201",
+  "source": "pexels:Pictured Rocks National Lakeshore",
+  "extras": [
+   {
+    "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/五彩悬崖_2.jpg",
+    "license": "Pexels",
+    "artist": "Ninette Soares",
+    "commons_file": "pexels:8795212",
+    "source": "pexels:Pictured Rocks National Lakeshore"
+   },
+   {
+    "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/五彩悬崖_3.jpg",
+    "license": "Pexels",
+    "artist": "Jan Tang",
+    "commons_file": "pexels:29089318",
+    "source": "pexels:Pictured Rocks National Lakeshore"
+   }
+  ]
  },
  {
   "city": "密歇根湖“巨型沙丘与五彩悬崖”大环线",
   "attraction": "体验划皮划艇穿梭岩洞",
-  "status": "miss"
+  "status": "ok",
+  "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/体验划皮划艇穿梭岩洞_1.jpg",
+  "license": "Pexels",
+  "artist": "I Bautista",
+  "commons_file": "pexels:36663045",
+  "source": "pexels:Pictured Rocks kayak cave",
+  "extras": [
+   {
+    "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/体验划皮划艇穿梭岩洞_2.jpg",
+    "license": "Pexels",
+    "artist": "Max Kladitin",
+    "commons_file": "pexels:28260227",
+    "source": "pexels:Pictured Rocks kayak cave"
+   },
+   {
+    "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/体验划皮划艇穿梭岩洞_3.jpg",
+    "license": "Pexels",
+    "artist": "Sinful",
+    "commons_file": "pexels:32707201",
+    "source": "pexels:Pictured Rocks kayak cave"
+   }
+  ]
  },
  {
   "city": "密歇根湖“巨型沙丘与五彩悬崖”大环线",
   "attraction": "瀑布徒步",
-  "status": "miss"
+  "status": "ok",
+  "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/瀑布徒步_1.jpg",
+  "license": "Pexels",
+  "artist": "Jan Tang",
+  "commons_file": "pexels:29089336",
+  "source": "pexels:Upper Peninsula Michigan waterfall",
+  "extras": [
+   {
+    "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/瀑布徒步_2.jpg",
+    "license": "Pexels",
+    "artist": "Jan Tang",
+    "commons_file": "pexels:29089359",
+    "source": "pexels:Upper Peninsula Michigan waterfall"
+   },
+   {
+    "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/瀑布徒步_3.jpg",
+    "license": "Pexels",
+    "artist": "Ken Jacobsen",
+    "commons_file": "pexels:36284662",
+    "source": "pexels:Upper Peninsula Michigan waterfall"
+   }
+  ]
  },
  {
   "city": "密歇根湖“巨型沙丘与五彩悬崖”大环线",
   "attraction": "穿越威斯康星州森林",
-  "status": "miss"
+  "status": "ok",
+  "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/穿越威斯康星州森林_1.jpg",
+  "license": "Pexels",
+  "artist": "Tom Fisk",
+  "commons_file": "pexels:14690390",
+  "source": "pexels:Wisconsin forest",
+  "extras": [
+   {
+    "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/穿越威斯康星州森林_2.jpg",
+    "license": "Pexels",
+    "artist": "Tom Fisk",
+    "commons_file": "pexels:13460037",
+    "source": "pexels:Wisconsin forest"
+   },
+   {
+    "local": "密歇根湖“巨型沙丘与五彩悬崖”大环线/穿越威斯康星州森林_3.jpg",
+    "license": "Pexels",
+    "artist": "Brian",
+    "commons_file": "pexels:1000625",
+    "source": "pexels:Wisconsin forest"
+   }
+  ]
  },
  {
   "city": "亚特兰大",
   "attraction": "可口可乐世界",
   "status": "ok",
   "local": "亚特兰大/可口可乐世界_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Marco Correa",
-  "commons_file": "World_of_Coca_Cola_2015-04-09.jpg",
-  "source": "zhwiki:可口可樂世界",
+  "license": "Pexels",
+  "artist": "Vietnam Photographer",
+  "commons_file": "pexels:9973155",
+  "source": "pexels:World of Coca-Cola Atlanta",
   "extras": [
    {
     "local": "亚特兰大/可口可乐世界_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "TheDoctorWho",
-    "commons_file": "Everything Coca Cola Store; Las Vegas, Nevada.jpg",
-    "source": "commons-supplement:World of Coca-Cola"
+    "license": "Pexels",
+    "artist": "Oleksandr Plakhota",
+    "commons_file": "pexels:35243840",
+    "source": "pexels:World of Coca-Cola Atlanta"
    },
    {
     "local": "亚特兰大/可口可乐世界_3.jpg",
-    "license": "CC0",
-    "artist": "Chuck Grimmett from Yonkers, NY, United States of America",
-    "commons_file": "World of Coca-Cola, May 18, 2009.jpg",
-    "source": "commons-supplement:World of Coca-Cola"
-   },
-   {
-    "local": "亚特兰大/可口可乐世界_4.jpg",
-    "license": "Public domain",
-    "artist": "Rundvald",
-    "commons_file": "World-of-Coca-Cola-Atlanta.jpg",
-    "source": "commons-supplement:World of Coca-Cola"
+    "license": "Pexels",
+    "artist": "Luis Negron",
+    "commons_file": "pexels:16117834",
+    "source": "pexels:World of Coca-Cola Atlanta"
    }
   ]
  },
@@ -1457,69 +2318,76 @@
   "attraction": "乔治亚水族馆",
   "status": "ok",
   "local": "亚特兰大/乔治亚水族馆_1.jpg",
-  "license": "CC BY 2.5",
-  "artist": "Diliff",
-  "commons_file": "Georgia_Aquarium_Jan_2006.jpg",
-  "source": "zhwiki:喬治亞水族館",
+  "license": "Pexels",
+  "artist": "Thuan Vo",
+  "commons_file": "pexels:8637569",
+  "source": "pexels:Georgia Aquarium Atlanta",
   "extras": [
    {
     "local": "亚特兰大/乔治亚水族馆_2.jpg",
-    "license": "CC BY 2.5",
-    "artist": "Diliff",
-    "commons_file": "Georgia Aquarium - Giant Grouper.jpg",
-    "source": "commons-supplement:Georgia Aquarium"
+    "license": "Pexels",
+    "artist": "Esteban Carriazo",
+    "commons_file": "pexels:32691521",
+    "source": "pexels:Georgia Aquarium Atlanta"
    },
    {
     "local": "亚特兰大/乔治亚水族馆_3.jpg",
-    "license": "CC BY-SA 2.5",
-    "artist": "Zac Wolf",
-    "commons_file": "Male whale shark at Georgia Aquarium.jpg",
-    "source": "commons-supplement:Georgia Aquarium"
-   },
-   {
-    "local": "亚特兰大/乔治亚水族馆_4.jpg",
-    "license": "CC BY 2.5",
-    "artist": "Diliff",
-    "commons_file": "Pristis pristis - Georgia Aquarium Jan 2006.jpg",
-    "source": "commons-supplement:Georgia Aquarium"
+    "license": "Pexels",
+    "artist": "Thuan Vo",
+    "commons_file": "pexels:8637567",
+    "source": "pexels:Georgia Aquarium Atlanta"
    }
   ]
  },
  {
   "city": "亚特兰大",
   "attraction": "CNN总部",
-  "status": "miss"
+  "status": "ok",
+  "local": "亚特兰大/CNN总部_1.jpg",
+  "license": "Pexels",
+  "artist": "Nate Hovee",
+  "commons_file": "pexels:5063779",
+  "source": "pexels:CNN Center Atlanta",
+  "extras": [
+   {
+    "local": "亚特兰大/CNN总部_2.jpg",
+    "license": "Pexels",
+    "artist": "Dominik Gryzbon",
+    "commons_file": "pexels:31127396",
+    "source": "pexels:CNN Center Atlanta"
+   },
+   {
+    "local": "亚特兰大/CNN总部_3.jpg",
+    "license": "Pexels",
+    "artist": "K",
+    "commons_file": "pexels:33133744",
+    "source": "pexels:CNN Center Atlanta"
+   }
+  ]
  },
  {
   "city": "亚特兰大",
   "attraction": "马丁·路德·金纪念馆",
   "status": "ok",
   "local": "亚特兰大/马丁·路德·金纪念馆_1.jpg",
-  "license": "Public domain",
-  "artist": "Creator:Bernie Faingold",
-  "commons_file": "Martin_Luther_King,_Jr..jpg",
-  "source": "zhwiki:马丁·路德·金",
+  "license": "Pexels",
+  "artist": "Robert Carnes",
+  "commons_file": "pexels:36900242",
+  "source": "pexels:Martin Luther King National Historic Site Atlanta",
   "extras": [
    {
     "local": "亚特兰大/马丁·路德·金纪念馆_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Gunnar Klack",
-    "commons_file": "2014-04-05-Martin-Luther-King-Jr-Memorial-Library-Washington-DC.jpg",
-    "source": "commons-supplement:马丁·路德·金纪念馆"
+    "license": "Pexels",
+    "artist": "Gotta Be Worth It",
+    "commons_file": "pexels:5214881",
+    "source": "pexels:Martin Luther King National Historic Site Atlanta"
    },
    {
     "local": "亚特兰大/马丁·路德·金纪念馆_3.jpg",
-    "license": "CC BY-SA 2.5",
-    "artist": "Fourandsixty",
-    "commons_file": "Martin Luther King Jr. Memorial Library (4).JPG",
-    "source": "commons-supplement:马丁·路德·金纪念馆"
-   },
-   {
-    "local": "亚特兰大/马丁·路德·金纪念馆_4.jpg",
-    "license": "CC BY-SA 2.5",
-    "artist": "Fourandsixty",
-    "commons_file": "Martin Luther King Jr. Memorial Library (5).JPG",
-    "source": "commons-supplement:马丁·路德·金纪念馆"
+    "license": "Pexels",
+    "artist": "Chris",
+    "commons_file": "pexels:13700158",
+    "source": "pexels:Martin Luther King National Historic Site Atlanta"
    }
   ]
  },
@@ -1528,31 +2396,24 @@
   "attraction": "奥林匹克公园",
   "status": "ok",
   "local": "亚特兰大/奥林匹克公园_1.jpg",
-  "license": "CC BY 3.0",
-  "artist": "Paolo Costa Baldi",
-  "commons_file": "Montreal - Olympic Park panorama - Cropped version.jpg",
-  "source": "commons-search:Olympic Park (disambiguation)",
+  "license": "Pexels",
+  "artist": "K",
+  "commons_file": "pexels:33133743",
+  "source": "pexels:Centennial Olympic Park Atlanta",
   "extras": [
    {
     "local": "亚特兰大/奥林匹克公园_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "JJ Harrison",
-    "commons_file": "Sacred Kingfisher- Sydney Olympic Park.jpg",
-    "source": "commons-supplement:Olympic Park (disambiguation)"
+    "license": "Pexels",
+    "artist": "Alan han",
+    "commons_file": "pexels:31163200",
+    "source": "pexels:Centennial Olympic Park Atlanta"
    },
    {
     "local": "亚特兰大/奥林匹克公园_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "JJ Harrison (https://www.jjharrison.com.au/)",
-    "commons_file": "Coturnix ypsilophora - Sydney Olympic Park.jpg",
-    "source": "commons-supplement:Olympic Park (disambiguation)"
-   },
-   {
-    "local": "亚特兰大/奥林匹克公园_4.jpg",
-    "license": "CC BY 2.0",
-    "artist": "M McBey",
-    "commons_file": "London's Olympic Park (2012).jpg",
-    "source": "commons-supplement:Olympic Park (disambiguation)"
+    "license": "Pexels",
+    "artist": "Luis Negron",
+    "commons_file": "pexels:16117834",
+    "source": "pexels:Centennial Olympic Park Atlanta"
    }
   ]
  },
@@ -1561,181 +2422,363 @@
   "attraction": "休斯顿太空中心",
   "status": "ok",
   "local": "休斯顿/休斯顿太空中心_1.jpg",
-  "license": "Public domain",
-  "artist": "NASA",
-  "commons_file": "Aerial_View_of_the_Johnson_Space_Center_-_GPN-2000-001112.jpg",
-  "source": "zhwiki:林登·约翰逊太空中心",
+  "license": "Pexels",
+  "artist": "Javier  Mendoza",
+  "commons_file": "pexels:7197580",
+  "source": "pexels:Space Center Houston",
   "extras": [
    {
     "local": "休斯顿/休斯顿太空中心_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Jim Evans",
-    "commons_file": "Saturn V Rocket -- Johnson Space Center.jpg",
-    "source": "commons-supplement:Johnson Space Center"
+    "license": "Pexels",
+    "artist": "Eddie O.",
+    "commons_file": "pexels:28294707",
+    "source": "pexels:Space Center Houston"
    },
    {
     "local": "休斯顿/休斯顿太空中心_3.jpg",
-    "license": "Public domain",
-    "artist": "NASA",
-    "commons_file": "Aerial View of the Johnson Space Center - GPN-2000-001112.jpg",
-    "source": "commons-supplement:Johnson Space Center"
-   },
-   {
-    "local": "休斯顿/休斯顿太空中心_4.jpg",
-    "license": "Public domain",
-    "artist": "NASA",
-    "commons_file": "Manned Spacecraft Center in Houston in 1964.jpg",
-    "source": "commons-supplement:Johnson Space Center"
+    "license": "Pexels",
+    "artist": "Erik Mclean",
+    "commons_file": "pexels:18462185",
+    "source": "pexels:Space Center Houston"
    }
   ]
  },
  {
   "city": "休斯顿",
   "attraction": "全天",
-  "status": "miss"
+  "status": "ok",
+  "local": "休斯顿/全天_1.jpg",
+  "license": "Pexels",
+  "artist": "Erik Mclean",
+  "commons_file": "pexels:18441165",
+  "source": "pexels:Houston Texas skyline",
+  "extras": [
+   {
+    "local": "休斯顿/全天_2.jpg",
+    "license": "Pexels",
+    "artist": "Jeswin  Thomas",
+    "commons_file": "pexels:17995530",
+    "source": "pexels:Houston Texas skyline"
+   },
+   {
+    "local": "休斯顿/全天_3.jpg",
+    "license": "Pexels",
+    "artist": "juan mendez",
+    "commons_file": "pexels:15353653",
+    "source": "pexels:Houston Texas skyline"
+   }
+  ]
  },
  {
   "city": "休斯顿",
   "attraction": "休斯顿自然科学博物馆",
   "status": "ok",
-  "local": "休斯顿/休斯顿自然科学博物馆_1.jpeg",
-  "license": "Public domain",
-  "artist": "休斯顿自然科学博物馆",
-  "commons_file": "Houston_Museum_NS_Logo.jpeg",
-  "source": "zhwiki:休斯顿自然科学博物馆",
+  "local": "休斯顿/休斯顿自然科学博物馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Javier  Mendoza",
+  "commons_file": "pexels:7197580",
+  "source": "pexels:Houston Museum of Natural Science",
   "extras": [
    {
     "local": "休斯顿/休斯顿自然科学博物馆_2.jpg",
-    "license": "CC0",
-    "artist": "Daderot",
-    "commons_file": "Macginitiea wyomingensis Houston Museum of Natural Science - DSC01946.jpg",
-    "source": "commons-supplement:Houston Museum of Natural Science"
+    "license": "Pexels",
+    "artist": "Tamula Aura",
+    "commons_file": "pexels:6055067",
+    "source": "pexels:Houston Museum of Natural Science"
    },
    {
     "local": "休斯顿/休斯顿自然科学博物馆_3.jpg",
-    "license": "CC0",
-    "artist": "Daderot",
-    "commons_file": "Stromatolite, Greysonia sp., Vendian, Bolivia - Houston Museum of Natural Science - DSC01368.JPG",
-    "source": "commons-supplement:Houston Museum of Natural Science"
-   },
-   {
-    "local": "休斯顿/休斯顿自然科学博物馆_4.jpg",
-    "license": "CC0",
-    "artist": "Daderot",
-    "commons_file": "Phacops sp., Middle Devonian, Morocco - Houston Museum of Natural Science - DSC01515.JPG",
-    "source": "commons-supplement:Houston Museum of Natural Science"
+    "license": "Pexels",
+    "artist": "Magda Ehlers",
+    "commons_file": "pexels:10106414",
+    "source": "pexels:Houston Museum of Natural Science"
    }
   ]
  },
  {
   "city": "休斯顿",
   "attraction": "赫曼公园",
-  "status": "miss"
+  "status": "ok",
+  "local": "休斯顿/赫曼公园_1.jpg",
+  "license": "Pexels",
+  "artist": "Michael Brennan",
+  "commons_file": "pexels:11280564",
+  "source": "pexels:Hermann Park Houston",
+  "extras": [
+   {
+    "local": "休斯顿/赫曼公园_2.jpg",
+    "license": "Pexels",
+    "artist": "Eddie O.",
+    "commons_file": "pexels:35691247",
+    "source": "pexels:Hermann Park Houston"
+   },
+   {
+    "local": "休斯顿/赫曼公园_3.jpg",
+    "license": "Pexels",
+    "artist": "Drones Flown",
+    "commons_file": "pexels:16981447",
+    "source": "pexels:Hermann Park Houston"
+   }
+  ]
  },
  {
   "city": "丹佛",
   "attraction": "16街步行街",
-  "status": "miss"
+  "status": "ok",
+  "local": "丹佛/16街步行街_1.jpg",
+  "license": "Pexels",
+  "artist": "MINEIA  MARTINS",
+  "commons_file": "pexels:32522115",
+  "source": "pexels:16th Street Mall Denver",
+  "extras": [
+   {
+    "local": "丹佛/16街步行街_2.jpg",
+    "license": "Pexels",
+    "artist": "Brett Sayles",
+    "commons_file": "pexels:4224420",
+    "source": "pexels:16th Street Mall Denver"
+   },
+   {
+    "local": "丹佛/16街步行街_3.jpg",
+    "license": "Pexels",
+    "artist": "MINEIA  MARTINS",
+    "commons_file": "pexels:37383851",
+    "source": "pexels:16th Street Mall Denver"
+   }
+  ]
  },
  {
   "city": "丹佛",
   "attraction": "联合车站",
   "status": "ok",
   "local": "丹佛/联合车站_1.jpg",
-  "license": "Public domain",
-  "artist": "Jack Delano",
-  "commons_file": "Chicago Union Station 1943.jpg",
-  "source": "commons-search:Union Station",
+  "license": "Pexels",
+  "artist": "Quang Vuong",
+  "commons_file": "pexels:30035744",
+  "source": "pexels:Denver Union Station",
   "extras": [
    {
     "local": "丹佛/联合车站_2.jpg",
-    "license": "CC BY-SA 2.5",
-    "artist": "Cacophony",
-    "commons_file": "UnionStationPortland.jpg",
-    "source": "commons-supplement:Union Station"
+    "license": "Pexels",
+    "artist": "Quang Vuong",
+    "commons_file": "pexels:30035743",
+    "source": "pexels:Denver Union Station"
    },
    {
     "local": "丹佛/联合车站_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Frank Schulenburg",
-    "commons_file": "Great Hall, Washington Union Station (2024)-L1005585.jpg",
-    "source": "commons-supplement:Union Station"
-   },
-   {
-    "local": "丹佛/联合车站_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Velvet",
-    "commons_file": "Chicago union station hall.jpg",
-    "source": "commons-supplement:Union Station"
+    "license": "Pexels",
+    "artist": "MINEIA  MARTINS",
+    "commons_file": "pexels:37370296",
+    "source": "pexels:Denver Union Station"
    }
   ]
  },
  {
   "city": "丹佛",
   "attraction": "州议会大厦",
-  "status": "miss"
+  "status": "ok",
+  "local": "丹佛/州议会大厦_1.jpg",
+  "license": "Pexels",
+  "artist": "Andrew Patrick Photo",
+  "commons_file": "pexels:18413199",
+  "source": "pexels:Colorado State Capitol Denver",
+  "extras": [
+   {
+    "local": "丹佛/州议会大厦_2.jpg",
+    "license": "Pexels",
+    "artist": "Andrew Patrick Photo",
+    "commons_file": "pexels:14924996",
+    "source": "pexels:Colorado State Capitol Denver"
+   },
+   {
+    "local": "丹佛/州议会大厦_3.jpg",
+    "license": "Pexels",
+    "artist": "Justin Brinkhoff",
+    "commons_file": "pexels:5853477",
+    "source": "pexels:Colorado State Capitol Denver"
+   }
+  ]
  },
  {
   "city": "丹佛",
   "attraction": "红石公园",
   "status": "ok",
   "local": "丹佛/红石公园_1.jpg",
-  "license": "CC0",
-  "artist": "Charlie Qi",
-  "commons_file": "The_gate_of_Hongshi_Park_in_Laicheng,Laiwu,Shandong.jpg",
-  "source": "zhwiki:红石公园",
+  "license": "Pexels",
+  "artist": "Noel Aph",
+  "commons_file": "pexels:30572265",
+  "source": "pexels:Red Rocks Amphitheatre Denver",
   "extras": [
    {
-    "local": "丹佛/红石公园_2.jpeg",
-    "license": "CC BY-SA 4.0",
-    "artist": "来斤小仓鼠吧",
-    "commons_file": "Chengdu Metro Hongshi Park Station 18 57 01 112000.jpeg",
-    "source": "commons-supplement:红石公园"
+    "local": "丹佛/红石公园_2.jpg",
+    "license": "Pexels",
+    "artist": "Dionel Rodriguez",
+    "commons_file": "pexels:6721829",
+    "source": "pexels:Red Rocks Amphitheatre Denver"
    },
    {
-    "local": "丹佛/红石公园_3.jpeg",
-    "license": "CC BY-SA 4.0",
-    "artist": "来斤小仓鼠吧",
-    "commons_file": "Chengdu Metro Hongshi Park Station 18 56 13 720000.jpeg",
-    "source": "commons-supplement:红石公园"
-   },
-   {
-    "local": "丹佛/红石公园_4.jpeg",
-    "license": "CC BY-SA 4.0",
-    "artist": "来斤小仓鼠吧",
-    "commons_file": "Chengdu Metro Hongshi Park Station 18 55 39 683000.jpeg",
-    "source": "commons-supplement:红石公园"
+    "local": "丹佛/红石公园_3.jpg",
+    "license": "Pexels",
+    "artist": "Smail Dahmani",
+    "commons_file": "pexels:35261207",
+    "source": "pexels:Red Rocks Amphitheatre Denver"
    }
   ]
  },
  {
   "city": "丹佛",
   "attraction": "丹佛艺术博物馆",
-  "status": "miss"
+  "status": "ok",
+  "local": "丹佛/丹佛艺术博物馆_1.jpg",
+  "license": "Pexels",
+  "artist": "MINEIA  MARTINS",
+  "commons_file": "pexels:37366559",
+  "source": "pexels:Denver Art Museum",
+  "extras": [
+   {
+    "local": "丹佛/丹佛艺术博物馆_2.jpg",
+    "license": "Pexels",
+    "artist": "MINEIA  MARTINS",
+    "commons_file": "pexels:37389515",
+    "source": "pexels:Denver Art Museum"
+   },
+   {
+    "local": "丹佛/丹佛艺术博物馆_3.jpg",
+    "license": "Pexels",
+    "artist": "MINEIA  MARTINS",
+    "commons_file": "pexels:32522112",
+    "source": "pexels:Denver Art Museum"
+   }
+  ]
  },
  {
   "city": "洛基山国家公园",
   "attraction": "Bear Lake徒步",
-  "status": "miss"
+  "status": "ok",
+  "local": "洛基山国家公园/Bear Lake徒步_1.jpg",
+  "license": "Pexels",
+  "artist": "James Lee",
+  "commons_file": "pexels:5020091",
+  "source": "pexels:Bear Lake Rocky Mountain National Park",
+  "extras": [
+   {
+    "local": "洛基山国家公园/Bear Lake徒步_2.jpg",
+    "license": "Pexels",
+    "artist": "James Lee",
+    "commons_file": "pexels:4959725",
+    "source": "pexels:Bear Lake Rocky Mountain National Park"
+   },
+   {
+    "local": "洛基山国家公园/Bear Lake徒步_3.jpg",
+    "license": "Pexels",
+    "artist": "James Lee",
+    "commons_file": "pexels:4959724",
+    "source": "pexels:Bear Lake Rocky Mountain National Park"
+   }
+  ]
  },
  {
   "city": "洛基山国家公园",
   "attraction": "Emerald Lake",
-  "status": "miss"
+  "status": "ok",
+  "local": "洛基山国家公园/Emerald Lake_1.jpg",
+  "license": "Pexels",
+  "artist": "James Lee",
+  "commons_file": "pexels:4959724",
+  "source": "pexels:Emerald Lake Rocky Mountain National Park",
+  "extras": [
+   {
+    "local": "洛基山国家公园/Emerald Lake_2.jpg",
+    "license": "Pexels",
+    "artist": "JP",
+    "commons_file": "pexels:12699494",
+    "source": "pexels:Emerald Lake Rocky Mountain National Park"
+   },
+   {
+    "local": "洛基山国家公园/Emerald Lake_3.jpg",
+    "license": "Pexels",
+    "artist": "Max Vyolsen",
+    "commons_file": "pexels:24244130",
+    "source": "pexels:Emerald Lake Rocky Mountain National Park"
+   }
+  ]
  },
  {
   "city": "洛基山国家公园",
   "attraction": "Trail Ridge Road",
-  "status": "miss"
+  "status": "ok",
+  "local": "洛基山国家公园/Trail Ridge Road_1.jpg",
+  "license": "Pexels",
+  "artist": "Frank Schrader",
+  "commons_file": "pexels:12407402",
+  "source": "pexels:Trail Ridge Road Colorado",
+  "extras": [
+   {
+    "local": "洛基山国家公园/Trail Ridge Road_2.jpg",
+    "license": "Pexels",
+    "artist": "fish socks",
+    "commons_file": "pexels:34358628",
+    "source": "pexels:Trail Ridge Road Colorado"
+   },
+   {
+    "local": "洛基山国家公园/Trail Ridge Road_3.jpg",
+    "license": "Pexels",
+    "artist": "fish socks",
+    "commons_file": "pexels:34358915",
+    "source": "pexels:Trail Ridge Road Colorado"
+   }
+  ]
  },
  {
   "city": "洛基山国家公园",
   "attraction": "Alpine Visitor Center",
-  "status": "miss"
+  "status": "ok",
+  "local": "洛基山国家公园/Alpine Visitor Center_1.jpg",
+  "license": "Pexels",
+  "artist": "Luke Miller",
+  "commons_file": "pexels:28811856",
+  "source": "pexels:Alpine Visitor Center Rocky Mountain",
+  "extras": [
+   {
+    "local": "洛基山国家公园/Alpine Visitor Center_2.jpg",
+    "license": "Pexels",
+    "artist": "Rachel Claire",
+    "commons_file": "pexels:7263371",
+    "source": "pexels:Alpine Visitor Center Rocky Mountain"
+   },
+   {
+    "local": "洛基山国家公园/Alpine Visitor Center_3.jpg",
+    "license": "Pexels",
+    "artist": "RAMISH ANAN KAFI",
+    "commons_file": "pexels:33664723",
+    "source": "pexels:Alpine Visitor Center Rocky Mountain"
+   }
+  ]
  },
  {
   "city": "洛基山国家公园",
   "attraction": "Sky Pond徒步",
-  "status": "miss"
+  "status": "ok",
+  "local": "洛基山国家公园/Sky Pond徒步_1.jpg",
+  "license": "Pexels",
+  "artist": "Yanwar Cakrasenjaya",
+  "commons_file": "pexels:30508097",
+  "source": "pexels:Sky Pond Rocky Mountain National Park",
+  "extras": [
+   {
+    "local": "洛基山国家公园/Sky Pond徒步_2.jpg",
+    "license": "Pexels",
+    "artist": "Miroslav Glasa",
+    "commons_file": "pexels:29681272",
+    "source": "pexels:Sky Pond Rocky Mountain National Park"
+   },
+   {
+    "local": "洛基山国家公园/Sky Pond徒步_3.jpg",
+    "license": "Pexels",
+    "artist": "Harrison Fitts",
+    "commons_file": "pexels:9502959",
+    "source": "pexels:Sky Pond Rocky Mountain National Park"
+   }
+  ]
  }
 ]

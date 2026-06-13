@@ -4,31 +4,24 @@
   "attraction": "金门大桥",
   "status": "ok",
   "local": "旧金山/金门大桥_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Frank Schulenburg",
-  "commons_file": "Golden_Gate_Bridge_as_seen_from_Battery_East.jpg",
-  "source": "zhwiki:金门大桥",
+  "license": "Pexels",
+  "artist": "Chait Goli",
+  "commons_file": "pexels:8821401",
+  "source": "pexels:Golden Gate Bridge San Francisco",
   "extras": [
    {
     "local": "旧金山/金门大桥_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Frank Schulenburg",
-    "commons_file": "Golden Gate Bridge as seen from Marshall’s Beach, March 2018.jpg",
-    "source": "commons-supplement:Golden Gate Bridge"
+    "license": "Pexels",
+    "artist": "James Donovan",
+    "commons_file": "pexels:201072",
+    "source": "pexels:Golden Gate Bridge San Francisco"
    },
    {
     "local": "旧金山/金门大桥_3.jpg",
-    "license": "CC BY-SA 2.5",
-    "artist": "Daniel Schwen",
-    "commons_file": "SF Golden Gate Bridge splash CA.jpg",
-    "source": "commons-supplement:Golden Gate Bridge"
-   },
-   {
-    "local": "旧金山/金门大桥_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Dietmar Rabich",
-    "commons_file": "San Francisco (CA, USA), Golden Gate Bridge -- 2022 -- 3023 (bw).jpg",
-    "source": "commons-supplement:Golden Gate Bridge"
+    "license": "Pexels",
+    "artist": "Belli Kins",
+    "commons_file": "pexels:5521750",
+    "source": "pexels:Golden Gate Bridge San Francisco"
    }
   ]
  },
@@ -37,31 +30,24 @@
   "attraction": "渔人码头",
   "status": "ok",
   "local": "旧金山/渔人码头_1.jpg",
-  "license": "Public domain",
-  "artist": "U.S. Army Corps of Engineers, photographer not specified or unknown",
-  "commons_file": "Fishermans_Wharf_aerial_view.jpg",
-  "source": "zhwiki:舊金山漁人碼頭",
+  "license": "Pexels",
+  "artist": "Dominik Gryzbon",
+  "commons_file": "pexels:31248570",
+  "source": "pexels:Fisherman's Wharf San Francisco",
   "extras": [
    {
     "local": "旧金山/渔人码头_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "King of Hearts",
-    "commons_file": "Fisherman's Wharf San Francisco January 2013 002.jpg",
-    "source": "commons-supplement:Fisherman's Wharf"
+    "license": "Pexels",
+    "artist": "Malcolm Hill",
+    "commons_file": "pexels:12685376",
+    "source": "pexels:Fisherman's Wharf San Francisco"
    },
    {
     "local": "旧金山/渔人码头_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Dietmar Rabich",
-    "commons_file": "San Francisco (CA, USA), Fisherman's Wharf, Liebesschlösser -- 2022 -- 2873.jpg",
-    "source": "commons-supplement:Fisherman's Wharf"
-   },
-   {
-    "local": "旧金山/渔人码头_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Dietmar Rabich",
-    "commons_file": "San Francisco (CA, USA), Pioneer Park, Blick auf Fisherman's Wharf -- 2022 -- 3083.jpg",
-    "source": "commons-supplement:Fisherman's Wharf"
+    "license": "Pexels",
+    "artist": "David McElwee",
+    "commons_file": "pexels:15737616",
+    "source": "pexels:Fisherman's Wharf San Francisco"
    }
   ]
  },
@@ -70,112 +56,154 @@
   "attraction": "九曲花街",
   "status": "ok",
   "local": "旧金山/九曲花街_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Christopher Michel",
-  "commons_file": "Lombard_Street_2020.jpg",
-  "source": "zhwiki:倫巴底街 (三藩市)",
+  "license": "Pexels",
+  "artist": "Mikhail Nilov",
+  "commons_file": "pexels:8319805",
+  "source": "pexels:Lombard Street San Francisco",
   "extras": [
    {
     "local": "旧金山/九曲花街_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Dietmar Rabich",
-    "commons_file": "San Francisco (CA, USA), Lombard Street, Blick auf Alcatraz -- 2022 -- 3080.jpg",
-    "source": "commons-supplement:Lombard Street (San Francisco)"
+    "license": "Pexels",
+    "artist": "Igor Passchier",
+    "commons_file": "pexels:27523333",
+    "source": "pexels:Lombard Street San Francisco"
    },
    {
     "local": "旧金山/九曲花街_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Dietmar Rabich",
-    "commons_file": "San Francisco (CA, USA), Lombard Street -- 2022 -- 3079.jpg",
-    "source": "commons-supplement:Lombard Street (San Francisco)"
-   },
-   {
-    "local": "旧金山/九曲花街_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Dietmar Rabich",
-    "commons_file": "San Francisco (CA, USA), Lombard Street -- 2022 -- 3077.jpg",
-    "source": "commons-supplement:Lombard Street (San Francisco)"
+    "license": "Pexels",
+    "artist": "Stephen Leonardi",
+    "commons_file": "pexels:36003606",
+    "source": "pexels:Lombard Street San Francisco"
    }
   ]
  },
  {
   "city": "洛杉矶",
   "attraction": "洛杉矶环球影城",
-  "status": "miss"
+  "status": "ok",
+  "local": "洛杉矶/洛杉矶环球影城_1.jpg",
+  "license": "Pexels",
+  "artist": "masbet christianto",
+  "commons_file": "pexels:5246036",
+  "source": "pexels:Universal Studios Hollywood",
+  "extras": [
+   {
+    "local": "洛杉矶/洛杉矶环球影城_2.jpg",
+    "license": "Pexels",
+    "artist": "Dave Harwood",
+    "commons_file": "pexels:1369466",
+    "source": "pexels:Universal Studios Hollywood"
+   },
+   {
+    "local": "洛杉矶/洛杉矶环球影城_3.jpg",
+    "license": "Pexels",
+    "artist": "Giona Mason",
+    "commons_file": "pexels:19045759",
+    "source": "pexels:Universal Studios Hollywood"
+   }
+  ]
  },
  {
   "city": "洛杉矶",
   "attraction": "华纳兄弟工作室",
   "status": "ok",
   "local": "洛杉矶/华纳兄弟工作室_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "AussieTechBlits",
-  "commons_file": "Warner Bros. Pictures (2020, Tenet Variant).jpg",
-  "source": "commons-search:Warner Bros. Entertainment",
+  "license": "Pexels",
+  "artist": "Brian Haddock",
+  "commons_file": "pexels:9876242",
+  "source": "pexels:Warner Bros Studio Burbank",
   "extras": [
    {
     "local": "洛杉矶/华纳兄弟工作室_2.jpg",
-    "license": "CC BY 2.0",
-    "artist": "Kārlis Dambrāns from Latvia",
-    "commons_file": "Warner Bros. Studio VIP Tour (15608791758).jpg",
-    "source": "commons-supplement:华纳兄弟工作室"
+    "license": "Pexels",
+    "artist": "Chuck Johnson",
+    "commons_file": "pexels:6369344",
+    "source": "pexels:Warner Bros Studio Burbank"
    },
    {
     "local": "洛杉矶/华纳兄弟工作室_3.jpg",
-    "license": "CC BY 2.0",
-    "artist": "Kārlis Dambrāns from Latvia",
-    "commons_file": "Warner Bros. Studio VIP Tour (15608371739).jpg",
-    "source": "commons-supplement:华纳兄弟工作室"
-   },
-   {
-    "local": "洛杉矶/华纳兄弟工作室_4.jpg",
-    "license": "CC BY 2.0",
-    "artist": "Kārlis Dambrāns from Latvia",
-    "commons_file": "Warner Bros. Studio VIP Tour (15609358530).jpg",
-    "source": "commons-supplement:华纳兄弟工作室"
+    "license": "Pexels",
+    "artist": "Pixabay",
+    "commons_file": "pexels:163077",
+    "source": "pexels:Warner Bros Studio Burbank"
    }
   ]
  },
  {
   "city": "洛杉矶",
   "attraction": "Getty美术馆",
-  "status": "miss"
+  "status": "ok",
+  "local": "洛杉矶/Getty美术馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Jerome Dominici",
+  "commons_file": "pexels:288183",
+  "source": "pexels:Getty Center Los Angeles",
+  "extras": [
+   {
+    "local": "洛杉矶/Getty美术馆_2.jpg",
+    "license": "Pexels",
+    "artist": "Igor Passchier",
+    "commons_file": "pexels:27507141",
+    "source": "pexels:Getty Center Los Angeles"
+   },
+   {
+    "local": "洛杉矶/Getty美术馆_3.jpg",
+    "license": "Pexels",
+    "artist": "Rachael  Porter",
+    "commons_file": "pexels:10074229",
+    "source": "pexels:Getty Center Los Angeles"
+   }
+  ]
  },
  {
   "city": "洛杉矶",
   "attraction": "好莱坞标志牌",
-  "status": "miss"
+  "status": "ok",
+  "local": "洛杉矶/好莱坞标志牌_1.jpg",
+  "license": "Pexels",
+  "artist": "dumitru B",
+  "commons_file": "pexels:29148031",
+  "source": "pexels:Hollywood Sign Los Angeles",
+  "extras": [
+   {
+    "local": "洛杉矶/好莱坞标志牌_2.jpg",
+    "license": "Pexels",
+    "artist": "Martii Tolentino",
+    "commons_file": "pexels:18064159",
+    "source": "pexels:Hollywood Sign Los Angeles"
+   },
+   {
+    "local": "洛杉矶/好莱坞标志牌_3.jpg",
+    "license": "Pexels",
+    "artist": "dumitru B",
+    "commons_file": "pexels:30264516",
+    "source": "pexels:Hollywood Sign Los Angeles"
+   }
+  ]
  },
  {
   "city": "洛杉矶",
   "attraction": "圣莫尼卡海滩",
   "status": "ok",
   "local": "洛杉矶/圣莫尼卡海滩_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Alexander Migl",
-  "commons_file": "Santa_Monica_State_Beach_P4060277.jpg",
-  "source": "zhwiki:圣莫尼卡海滩",
+  "license": "Pexels",
+  "artist": "Zeca Souza",
+  "commons_file": "pexels:17230040",
+  "source": "pexels:Santa Monica Pier beach",
   "extras": [
    {
     "local": "洛杉矶/圣莫尼卡海滩_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Dietmar Rabich",
-    "commons_file": "Los Angeles (California, USA), Santa Monica Beach -- 2012 -- 5308.jpg",
-    "source": "commons-supplement:Santa Monica State Beach"
+    "license": "Pexels",
+    "artist": "JINGQIN LIN",
+    "commons_file": "pexels:37121318",
+    "source": "pexels:Santa Monica Pier beach"
    },
    {
     "local": "洛杉矶/圣莫尼卡海滩_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Dietmar Rabich",
-    "commons_file": "Los Angeles (California, USA), Santa Monica Beach -- 2012 -- 5301.jpg",
-    "source": "commons-supplement:Santa Monica State Beach"
-   },
-   {
-    "local": "洛杉矶/圣莫尼卡海滩_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Dietmar Rabich",
-    "commons_file": "Los Angeles (California, USA), Santa Monica Beach, Will Rogers Monument -- 2012 -- 5306.jpg",
-    "source": "commons-supplement:Santa Monica State Beach"
+    "license": "Pexels",
+    "artist": "Thomas Karagiannis",
+    "commons_file": "pexels:19162345",
+    "source": "pexels:Santa Monica Pier beach"
    }
   ]
  },
@@ -184,89 +212,180 @@
   "attraction": "格里菲斯天文台",
   "status": "ok",
   "local": "洛杉矶/格里菲斯天文台_1.jpg",
-  "license": "CC BY 2.5",
-  "artist": "Matthew Field",
-  "commons_file": "Griffith_observatory_2006.jpg",
-  "source": "zhwiki:格里菲斯天文台",
+  "license": "Pexels",
+  "artist": "RITESH SINGH",
+  "commons_file": "pexels:16433634",
+  "source": "pexels:Griffith Observatory Los Angeles",
   "extras": [
    {
     "local": "洛杉矶/格里菲斯天文台_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Photograph by Mike Peel (www.mikepeel.net).",
-    "commons_file": "Griffith Observatory 2012 01.jpg",
-    "source": "commons-supplement:Griffith Observatory"
+    "license": "Pexels",
+    "artist": "RITESH SINGH",
+    "commons_file": "pexels:33367971",
+    "source": "pexels:Griffith Observatory Los Angeles"
    },
    {
     "local": "洛杉矶/格里菲斯天文台_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Photograph by Mike Peel (www.mikepeel.net).",
-    "commons_file": "Griffith Observatory 2012 18.jpg",
-    "source": "commons-supplement:Griffith Observatory"
-   },
-   {
-    "local": "洛杉矶/格里菲斯天文台_4.jpg",
-    "license": "CC BY 2.5",
-    "artist": "Matthew Field",
-    "commons_file": "Griffith observatory 2006.jpg",
-    "source": "commons-supplement:Griffith Observatory"
+    "license": "Pexels",
+    "artist": "Ira Bowman",
+    "commons_file": "pexels:9472595",
+    "source": "pexels:Griffith Observatory Los Angeles"
    }
   ]
  },
  {
   "city": "拉斯维加斯",
   "attraction": "拉斯大道",
-  "status": "miss"
+  "status": "ok",
+  "local": "拉斯维加斯/拉斯大道_1.jpg",
+  "license": "Pexels",
+  "artist": "David Vives",
+  "commons_file": "pexels:36015098",
+  "source": "pexels:Las Vegas Strip night",
+  "extras": [
+   {
+    "local": "拉斯维加斯/拉斯大道_2.jpg",
+    "license": "Pexels",
+    "artist": "Max Fomin",
+    "commons_file": "pexels:18003829",
+    "source": "pexels:Las Vegas Strip night"
+   },
+   {
+    "local": "拉斯维加斯/拉斯大道_3.jpg",
+    "license": "Pexels",
+    "artist": "Pixabay",
+    "commons_file": "pexels:161772",
+    "source": "pexels:Las Vegas Strip night"
+   }
+  ]
  },
  {
   "city": "拉斯维加斯",
   "attraction": "看表演",
-  "status": "miss"
+  "status": "ok",
+  "local": "拉斯维加斯/看表演_1.jpg",
+  "license": "Pexels",
+  "artist": "David Vives",
+  "commons_file": "pexels:36015098",
+  "source": "pexels:Las Vegas Strip night",
+  "extras": [
+   {
+    "local": "拉斯维加斯/看表演_2.jpg",
+    "license": "Pexels",
+    "artist": "Max Fomin",
+    "commons_file": "pexels:18003829",
+    "source": "pexels:Las Vegas Strip night"
+   },
+   {
+    "local": "拉斯维加斯/看表演_3.jpg",
+    "license": "Pexels",
+    "artist": "Pixabay",
+    "commons_file": "pexels:161772",
+    "source": "pexels:Las Vegas Strip night"
+   }
+  ]
  },
  {
   "city": "圣地亚哥",
   "attraction": "中途岛航母",
-  "status": "miss"
+  "status": "ok",
+  "local": "圣地亚哥/中途岛航母_1.jpg",
+  "license": "Pexels",
+  "artist": "DC Productions",
+  "commons_file": "pexels:37366247",
+  "source": "pexels:USS Midway Museum San Diego",
+  "extras": [
+   {
+    "local": "圣地亚哥/中途岛航母_2.jpg",
+    "license": "Pexels",
+    "artist": "Thiago Oliveira",
+    "commons_file": "pexels:16170871",
+    "source": "pexels:USS Midway Museum San Diego"
+   },
+   {
+    "local": "圣地亚哥/中途岛航母_3.jpg",
+    "license": "Pexels",
+    "artist": "Michael Concepcion",
+    "commons_file": "pexels:11784606",
+    "source": "pexels:USS Midway Museum San Diego"
+   }
+  ]
  },
  {
   "city": "圣地亚哥",
   "attraction": "拉霍亚海滩",
-  "status": "miss"
+  "status": "ok",
+  "local": "圣地亚哥/拉霍亚海滩_1.jpg",
+  "license": "Pexels",
+  "artist": "SUKHEE LEE",
+  "commons_file": "pexels:37640890",
+  "source": "pexels:La Jolla Cove San Diego",
+  "extras": [
+   {
+    "local": "圣地亚哥/拉霍亚海滩_2.jpg",
+    "license": "Pexels",
+    "artist": "SUKHEE LEE",
+    "commons_file": "pexels:37623834",
+    "source": "pexels:La Jolla Cove San Diego"
+   },
+   {
+    "local": "圣地亚哥/拉霍亚海滩_3.jpg",
+    "license": "Pexels",
+    "artist": "Co Hai",
+    "commons_file": "pexels:33046797",
+    "source": "pexels:La Jolla Cove San Diego"
+   }
+  ]
  },
  {
   "city": "圣地亚哥",
   "attraction": "巴尔博亚公园",
-  "status": "miss"
+  "status": "ok",
+  "local": "圣地亚哥/巴尔博亚公园_1.jpg",
+  "license": "Pexels",
+  "artist": "Zachary Sawchuk",
+  "commons_file": "pexels:2440337",
+  "source": "pexels:Balboa Park San Diego",
+  "extras": [
+   {
+    "local": "圣地亚哥/巴尔博亚公园_2.jpg",
+    "license": "Pexels",
+    "artist": "Amanda Alvarado",
+    "commons_file": "pexels:17719871",
+    "source": "pexels:Balboa Park San Diego"
+   },
+   {
+    "local": "圣地亚哥/巴尔博亚公园_3.jpg",
+    "license": "Pexels",
+    "artist": "Michael Concepcion",
+    "commons_file": "pexels:11628290",
+    "source": "pexels:Balboa Park San Diego"
+   }
+  ]
  },
  {
   "city": "圣地亚哥",
   "attraction": "动物园",
   "status": "ok",
   "local": "圣地亚哥/动物园_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Kevin1086",
-  "commons_file": "Giants_of_the_Savanna.jpg",
-  "source": "zhwiki:動物園",
+  "license": "Pexels",
+  "artist": "Brennan",
+  "commons_file": "pexels:30365490",
+  "source": "pexels:San Diego Zoo",
   "extras": [
    {
     "local": "圣地亚哥/动物园_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Hans Hillewaert",
-    "commons_file": "Meerkat (Suricata suricatta).jpg",
-    "source": "commons-supplement:Zoo"
+    "license": "Pexels",
+    "artist": "Amanda",
+    "commons_file": "pexels:36792313",
+    "source": "pexels:San Diego Zoo"
    },
    {
     "local": "圣地亚哥/动物园_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Basile Morin",
-    "commons_file": "Close-up photograph of an Iguana iguana.jpg",
-    "source": "commons-supplement:Zoo"
-   },
-   {
-    "local": "圣地亚哥/动物园_4.jpg",
-    "license": "Public domain",
-    "artist": "Dave Pape",
-    "commons_file": "Panthera tigris altaica 13 - Buffalo Zoo.jpg",
-    "source": "commons-supplement:Zoo"
+    "license": "Pexels",
+    "artist": "Soly Moses",
+    "commons_file": "pexels:10461452",
+    "source": "pexels:San Diego Zoo"
    }
   ]
  },
@@ -275,31 +394,24 @@
   "attraction": "太空针塔",
   "status": "ok",
   "local": "西雅图/太空针塔_1.jpg",
-  "license": "Public domain",
-  "artist": "Jordon Kalilich",
-  "commons_file": "Space_Needle_2011-07-04.jpg",
-  "source": "zhwiki:太空針塔",
+  "license": "Pexels",
+  "artist": "Stephen Leonardi",
+  "commons_file": "pexels:30274225",
+  "source": "pexels:Space Needle Seattle",
   "extras": [
    {
     "local": "西雅图/太空针塔_2.jpg",
-    "license": "Public domain",
-    "artist": "MyName (Cacophony)",
-    "commons_file": "SpaceNeedleTopClose.jpg",
-    "source": "commons-supplement:Space Needle"
+    "license": "Pexels",
+    "artist": "Georgie  Devlin",
+    "commons_file": "pexels:8615712",
+    "source": "pexels:Space Needle Seattle"
    },
    {
     "local": "西雅图/太空针塔_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "King of Hearts",
-    "commons_file": "Seattle from Space Needle June 2018 003.jpg",
-    "source": "commons-supplement:Space Needle"
-   },
-   {
-    "local": "西雅图/太空针塔_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "King of Hearts",
-    "commons_file": "Seattle from Space Needle June 2018 010.jpg",
-    "source": "commons-supplement:Space Needle"
+    "license": "Pexels",
+    "artist": "Willian Justen de Vasconcellos",
+    "commons_file": "pexels:18702992",
+    "source": "pexels:Space Needle Seattle"
    }
   ]
  },
@@ -308,31 +420,24 @@
   "attraction": "派克市场",
   "status": "ok",
   "local": "西雅图/派克市场_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Daniel Schwen",
-  "commons_file": "Pike_Place_Market_Seattle.jpg",
-  "source": "zhwiki:派克市场",
+  "license": "Pexels",
+  "artist": "Josh Hild",
+  "commons_file": "pexels:28614063",
+  "source": "pexels:Pike Place Market Seattle",
   "extras": [
    {
     "local": "西雅图/派克市场_2.jpg",
-    "license": "CC0",
-    "artist": "Julian Lupyan",
-    "commons_file": "Maximilien Restaurant Sign in Pike Place Market, Seattle, Washington, 2025.jpg",
-    "source": "commons-supplement:Pike Place Market"
+    "license": "Pexels",
+    "artist": "Line Knipst",
+    "commons_file": "pexels:19687415",
+    "source": "pexels:Pike Place Market Seattle"
    },
    {
     "local": "西雅图/派克市场_3.jpg",
-    "license": "CC0",
-    "artist": "Julian Lupyan",
-    "commons_file": "Waterfront Viewpoint Sign at Pike Place Market, Seattle, Washington, 2025.jpg",
-    "source": "commons-supplement:Pike Place Market"
-   },
-   {
-    "local": "西雅图/派克市场_4.jpg",
-    "license": "CC0",
-    "artist": "Julian Lupyan",
-    "commons_file": "Blown Glass for sale in Pike Place Market, Seattle, Washington, 2025.jpg",
-    "source": "commons-supplement:Pike Place Market"
+    "license": "Pexels",
+    "artist": "Alice Gu",
+    "commons_file": "pexels:6376517",
+    "source": "pexels:Pike Place Market Seattle"
    }
   ]
  },
@@ -340,332 +445,831 @@
   "city": "西雅图",
   "attraction": "奇胡利玻璃博物馆",
   "status": "ok",
-  "local": "西雅图/奇胡利玻璃博物馆_1.png",
-  "license": "CC BY-SA 4.0",
-  "artist": "Jkan997",
-  "commons_file": "World_museums.png",
-  "source": "zhwiki:博物馆"
+  "local": "西雅图/奇胡利玻璃博物馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Kristy Wells",
+  "commons_file": "pexels:32969776",
+  "source": "pexels:Chihuly Garden and Glass Seattle",
+  "extras": [
+   {
+    "local": "西雅图/奇胡利玻璃博物馆_2.jpg",
+    "license": "Pexels",
+    "artist": "frank minjarez",
+    "commons_file": "pexels:29898228",
+    "source": "pexels:Chihuly Garden and Glass Seattle"
+   },
+   {
+    "local": "西雅图/奇胡利玻璃博物馆_3.jpg",
+    "license": "Pexels",
+    "artist": "Aubergine Shoes",
+    "commons_file": "pexels:27673868",
+    "source": "pexels:Chihuly Garden and Glass Seattle"
+   }
+  ]
  },
  {
   "city": "1号公路",
   "attraction": "蒙特雷",
   "status": "ok",
   "local": "1号公路/蒙特雷_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Daniel Escobedo",
-  "commons_file": "Skyline_de_Monterrey.jpg",
-  "source": "zhwiki:蒙特雷",
+  "license": "Pexels",
+  "artist": "James Collington",
+  "commons_file": "pexels:33682099",
+  "source": "pexels:Monterey Bay California",
   "extras": [
    {
     "local": "1号公路/蒙特雷_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Malva730",
-    "commons_file": "Monterrey Sierra madre paisaje.jpg",
-    "source": "commons-supplement:Monterrey"
+    "license": "Pexels",
+    "artist": "Sonia Mesa",
+    "commons_file": "pexels:28452401",
+    "source": "pexels:Monterey Bay California"
    },
    {
     "local": "1号公路/蒙特雷_3.jpg",
-    "license": "Public domain",
-    "artist": "Diario de Monterrey",
-    "commons_file": "Rayados de Monterrey vs Lanus 1956.jpg",
-    "source": "commons-supplement:Monterrey"
-   },
-   {
-    "local": "1号公路/蒙特雷_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "AlfredoMoraPavon",
-    "commons_file": "Monterrey en gris.jpg",
-    "source": "commons-supplement:Monterrey"
+    "license": "Pexels",
+    "artist": "Logan Rhoads",
+    "commons_file": "pexels:8292103",
+    "source": "pexels:Monterey Bay California"
    }
   ]
  },
  {
   "city": "1号公路",
   "attraction": "17英里",
-  "status": "miss"
+  "status": "ok",
+  "local": "1号公路/17英里_1.jpg",
+  "license": "Pexels",
+  "artist": "frank minjarez",
+  "commons_file": "pexels:34425588",
+  "source": "pexels:17 Mile Drive Pebble Beach",
+  "extras": [
+   {
+    "local": "1号公路/17英里_2.jpg",
+    "license": "Pexels",
+    "artist": "Mr. Location Scout",
+    "commons_file": "pexels:6698231",
+    "source": "pexels:17 Mile Drive Pebble Beach"
+   },
+   {
+    "local": "1号公路/17英里_3.jpg",
+    "license": "Pexels",
+    "artist": "Mick Haupt",
+    "commons_file": "pexels:5353965",
+    "source": "pexels:17 Mile Drive Pebble Beach"
+   }
+  ]
  },
  {
   "city": "1号公路",
   "attraction": "卡梅尔小镇",
-  "status": "miss"
+  "status": "ok",
+  "local": "1号公路/卡梅尔小镇_1.jpg",
+  "license": "Pexels",
+  "artist": "Burst",
+  "commons_file": "pexels:374127",
+  "source": "pexels:Carmel by the Sea California",
+  "extras": [
+   {
+    "local": "1号公路/卡梅尔小镇_2.jpg",
+    "license": "Pexels",
+    "artist": "dh tang",
+    "commons_file": "pexels:32832324",
+    "source": "pexels:Carmel by the Sea California"
+   },
+   {
+    "local": "1号公路/卡梅尔小镇_3.jpg",
+    "license": "Pexels",
+    "artist": "Kinley Lindsey",
+    "commons_file": "pexels:20184804",
+    "source": "pexels:Carmel by the Sea California"
+   }
+  ]
  },
  {
   "city": "1号公路",
   "attraction": "大苏尔",
   "status": "ok",
   "local": "1号公路/大苏尔_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Diliff",
-  "commons_file": "Central_Californian_Coastline,_Big_Sur_-_May_2013.jpg",
-  "source": "zhwiki:大瑟尔",
+  "license": "Pexels",
+  "artist": "Skyler Sion",
+  "commons_file": "pexels:9808165",
+  "source": "pexels:Big Sur California coast",
   "extras": [
    {
     "local": "1号公路/大苏尔_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "King of Hearts",
-    "commons_file": "McWay Falls Big Sur May 2011 001.jpg",
-    "source": "commons-supplement:Big Sur"
+    "license": "Pexels",
+    "artist": "Ioana A",
+    "commons_file": "pexels:28792055",
+    "source": "pexels:Big Sur California coast"
    },
    {
     "local": "1号公路/大苏尔_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Diliff",
-    "commons_file": "Central Californian Coastline, Big Sur - May 2013.jpg",
-    "source": "commons-supplement:Big Sur"
-   },
-   {
-    "local": "1号公路/大苏尔_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "King of Hearts",
-    "commons_file": "Big Sur May 2011 panorama.jpg",
-    "source": "commons-supplement:Big Sur"
+    "license": "Pexels",
+    "artist": "Wallace Henry",
+    "commons_file": "pexels:28924195",
+    "source": "pexels:Big Sur California coast"
    }
   ]
  },
  {
   "city": "1号公路",
   "attraction": "Bixby Bridge",
-  "status": "miss"
+  "status": "ok",
+  "local": "1号公路/Bixby Bridge_1.jpg",
+  "license": "Pexels",
+  "artist": "Bobby Mc Gee Lee",
+  "commons_file": "pexels:12506779",
+  "source": "pexels:Bixby Bridge Big Sur",
+  "extras": [
+   {
+    "local": "1号公路/Bixby Bridge_2.jpg",
+    "license": "Pexels",
+    "artist": "Wallace Henry",
+    "commons_file": "pexels:28924195",
+    "source": "pexels:Bixby Bridge Big Sur"
+   },
+   {
+    "local": "1号公路/Bixby Bridge_3.jpg",
+    "license": "Pexels",
+    "artist": "Nathan Moore",
+    "commons_file": "pexels:2479616",
+    "source": "pexels:Bixby Bridge Big Sur"
+   }
+  ]
  },
  {
   "city": "1号公路",
   "attraction": "McWay Falls",
-  "status": "miss"
+  "status": "ok",
+  "local": "1号公路/McWay Falls_1.jpg",
+  "license": "Pexels",
+  "artist": "KEHN HERMANO",
+  "commons_file": "pexels:4189339",
+  "source": "pexels:McWay Falls Big Sur",
+  "extras": [
+   {
+    "local": "1号公路/McWay Falls_2.jpg",
+    "license": "Pexels",
+    "artist": "Griffin Wooldridge",
+    "commons_file": "pexels:5117932",
+    "source": "pexels:McWay Falls Big Sur"
+   },
+   {
+    "local": "1号公路/McWay Falls_3.jpg",
+    "license": "Pexels",
+    "artist": "Stephen Leonardi",
+    "commons_file": "pexels:37184764",
+    "source": "pexels:McWay Falls Big Sur"
+   }
+  ]
  },
  {
   "city": "1号公路",
   "attraction": "SLO小镇",
-  "status": "miss"
+  "status": "ok",
+  "local": "1号公路/SLO小镇_1.jpg",
+  "license": "Pexels",
+  "artist": "Harry Tucker",
+  "commons_file": "pexels:28561873",
+  "source": "pexels:San Luis Obispo California downtown",
+  "extras": [
+   {
+    "local": "1号公路/SLO小镇_2.jpg",
+    "license": "Pexels",
+    "artist": "Harry Tucker",
+    "commons_file": "pexels:28561857",
+    "source": "pexels:San Luis Obispo California downtown"
+   },
+   {
+    "local": "1号公路/SLO小镇_3.jpg",
+    "license": "Pexels",
+    "artist": "Harry Tucker",
+    "commons_file": "pexels:28561867",
+    "source": "pexels:San Luis Obispo California downtown"
+   }
+  ]
  },
  {
   "city": "1号公路",
   "attraction": "Pismo Beach日落",
-  "status": "miss"
+  "status": "ok",
+  "local": "1号公路/Pismo Beach日落_1.jpg",
+  "license": "Pexels",
+  "artist": "Tim Mossholder",
+  "commons_file": "pexels:15753072",
+  "source": "pexels:Pismo Beach California sunset",
+  "extras": [
+   {
+    "local": "1号公路/Pismo Beach日落_2.jpg",
+    "license": "Pexels",
+    "artist": "Tim Mossholder",
+    "commons_file": "pexels:15753071",
+    "source": "pexels:Pismo Beach California sunset"
+   },
+   {
+    "local": "1号公路/Pismo Beach日落_3.jpg",
+    "license": "Pexels",
+    "artist": "Michael Martin",
+    "commons_file": "pexels:13530035",
+    "source": "pexels:Pismo Beach California sunset"
+   }
+  ]
  },
  {
   "city": "1号公路",
   "attraction": "挖蛤蜊",
-  "status": "miss"
+  "status": "ok",
+  "local": "1号公路/挖蛤蜊_1.jpg",
+  "license": "Pexels",
+  "artist": "Tim Mossholder",
+  "commons_file": "pexels:27381025",
+  "source": "pexels:Pismo Beach California coast",
+  "extras": [
+   {
+    "local": "1号公路/挖蛤蜊_2.jpg",
+    "license": "Pexels",
+    "artist": "Tim Mossholder",
+    "commons_file": "pexels:27381026",
+    "source": "pexels:Pismo Beach California coast"
+   },
+   {
+    "local": "1号公路/挖蛤蜊_3.jpg",
+    "license": "Pexels",
+    "artist": "Tim Mossholder",
+    "commons_file": "pexels:15753072",
+    "source": "pexels:Pismo Beach California coast"
+   }
+  ]
  },
  {
   "city": "1号公路",
   "attraction": "洛杉矶",
   "status": "ok",
   "local": "1号公路/洛杉矶_1.jpg",
-  "license": "CC BY-SA 2.0",
-  "artist": "Gnaphron",
-  "commons_file": "Hollywood_sign_(8485145044).jpg",
-  "source": "zhwiki:洛杉矶",
+  "license": "Pexels",
+  "artist": "Stephen Leonardi",
+  "commons_file": "pexels:35291216",
+  "source": "pexels:Los Angeles skyline California",
   "extras": [
    {
     "local": "1号公路/洛杉矶_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Dietmar Rabich",
-    "commons_file": "Los Angeles (California, USA), South Olive Street -- 2012 -- 4847.jpg",
-    "source": "commons-supplement:Los Angeles"
+    "license": "Pexels",
+    "artist": "Alexander Isreb",
+    "commons_file": "pexels:1797399",
+    "source": "pexels:Los Angeles skyline California"
    },
    {
     "local": "1号公路/洛杉矶_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Tuxyso",
-    "commons_file": "Skyscraper Los Angeles Downtown 2013.jpg",
-    "source": "commons-supplement:Los Angeles"
-   },
-   {
-    "local": "1号公路/洛杉矶_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Tuxyso",
-    "commons_file": "Los Angeles Aerial view 2013.jpg",
-    "source": "commons-supplement:Los Angeles"
+    "license": "Pexels",
+    "artist": "Anastasiya Badun",
+    "commons_file": "pexels:17445604",
+    "source": "pexels:Los Angeles skyline California"
    }
   ]
  },
  {
   "city": "🔄 精华版美西环线",
   "attraction": "锡安",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 精华版美西环线/锡安_1.jpg",
+  "license": "Pexels",
+  "artist": "dumitru B",
+  "commons_file": "pexels:29191189",
+  "source": "pexels:Zion National Park canyon",
+  "extras": [
+   {
+    "local": "🔄 精华版美西环线/锡安_2.jpg",
+    "license": "Pexels",
+    "artist": "Grace Wojciechowski",
+    "commons_file": "pexels:13132442",
+    "source": "pexels:Zion National Park canyon"
+   },
+   {
+    "local": "🔄 精华版美西环线/锡安_3.jpg",
+    "license": "Pexels",
+    "artist": "PHILIPPE SERRAND",
+    "commons_file": "pexels:14213392",
+    "source": "pexels:Zion National Park canyon"
+   }
+  ]
  },
  {
   "city": "🔄 精华版美西环线",
   "attraction": "The Narrows",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 精华版美西环线/The Narrows_1.jpg",
+  "license": "Pexels",
+  "artist": "Martin Jun",
+  "commons_file": "pexels:5261811",
+  "source": "pexels:The Narrows Zion National Park",
+  "extras": [
+   {
+    "local": "🔄 精华版美西环线/The Narrows_2.jpg",
+    "license": "Pexels",
+    "artist": "Robert Schrader",
+    "commons_file": "pexels:7603263",
+    "source": "pexels:The Narrows Zion National Park"
+   },
+   {
+    "local": "🔄 精华版美西环线/The Narrows_3.jpg",
+    "license": "Pexels",
+    "artist": "Robert Schrader",
+    "commons_file": "pexels:7603266",
+    "source": "pexels:The Narrows Zion National Park"
+   }
+  ]
  },
  {
   "city": "🔄 精华版美西环线",
   "attraction": "布莱斯峡谷",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 精华版美西环线/布莱斯峡谷_1.jpg",
+  "license": "Pexels",
+  "artist": "PHILIPPE SERRAND",
+  "commons_file": "pexels:14212203",
+  "source": "pexels:Bryce Canyon National Park hoodoos",
+  "extras": [
+   {
+    "local": "🔄 精华版美西环线/布莱斯峡谷_2.jpg",
+    "license": "Pexels",
+    "artist": "PHILIPPE SERRAND",
+    "commons_file": "pexels:14212257",
+    "source": "pexels:Bryce Canyon National Park hoodoos"
+   },
+   {
+    "local": "🔄 精华版美西环线/布莱斯峡谷_3.jpg",
+    "license": "Pexels",
+    "artist": "Dirk Schuneman",
+    "commons_file": "pexels:9875398",
+    "source": "pexels:Bryce Canyon National Park hoodoos"
+   }
+  ]
  },
  {
   "city": "🔄 精华版美西环线",
   "attraction": "Navajo Loop",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 精华版美西环线/Navajo Loop_1.jpg",
+  "license": "Pexels",
+  "artist": "Alex Moliski",
+  "commons_file": "pexels:26077590",
+  "source": "pexels:Navajo Loop Trail Bryce Canyon",
+  "extras": [
+   {
+    "local": "🔄 精华版美西环线/Navajo Loop_2.jpg",
+    "license": "Pexels",
+    "artist": "Grace Wojciechowski",
+    "commons_file": "pexels:13058579",
+    "source": "pexels:Navajo Loop Trail Bryce Canyon"
+   },
+   {
+    "local": "🔄 精华版美西环线/Navajo Loop_3.jpg",
+    "license": "Pexels",
+    "artist": "Ken Cheung",
+    "commons_file": "pexels:8597840",
+    "source": "pexels:Navajo Loop Trail Bryce Canyon"
+   }
+  ]
  },
  {
   "city": "🔄 精华版美西环线",
   "attraction": "拱门",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 精华版美西环线/拱门_1.jpg",
+  "license": "Pexels",
+  "artist": "Ken Cheung",
+  "commons_file": "pexels:6983543",
+  "source": "pexels:Arches National Park Utah",
+  "extras": [
+   {
+    "local": "🔄 精华版美西环线/拱门_2.jpg",
+    "license": "Pexels",
+    "artist": "Temple",
+    "commons_file": "pexels:36915926",
+    "source": "pexels:Arches National Park Utah"
+   },
+   {
+    "local": "🔄 精华版美西环线/拱门_3.jpg",
+    "license": "Pexels",
+    "artist": "James Lee",
+    "commons_file": "pexels:4987767",
+    "source": "pexels:Arches National Park Utah"
+   }
+  ]
  },
  {
   "city": "🔄 精华版美西环线",
   "attraction": "Delicate Arch日落",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 精华版美西环线/Delicate Arch日落_1.jpg",
+  "license": "Pexels",
+  "artist": "Ken Cheung",
+  "commons_file": "pexels:6983543",
+  "source": "pexels:Delicate Arch sunset Arches National Park",
+  "extras": [
+   {
+    "local": "🔄 精华版美西环线/Delicate Arch日落_2.jpg",
+    "license": "Pexels",
+    "artist": "G Cicconeto",
+    "commons_file": "pexels:33688225",
+    "source": "pexels:Delicate Arch sunset Arches National Park"
+   },
+   {
+    "local": "🔄 精华版美西环线/Delicate Arch日落_3.jpg",
+    "license": "Pexels",
+    "artist": "Elizabeth Iris",
+    "commons_file": "pexels:7763028",
+    "source": "pexels:Delicate Arch sunset Arches National Park"
+   }
+  ]
  },
  {
   "city": "🔄 精华版美西环线",
   "attraction": "Landscape Arch",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 精华版美西环线/Landscape Arch_1.jpg",
+  "license": "Pexels",
+  "artist": "James Lee",
+  "commons_file": "pexels:4987768",
+  "source": "pexels:Landscape Arch Arches National Park",
+  "extras": [
+   {
+    "local": "🔄 精华版美西环线/Landscape Arch_2.jpg",
+    "license": "Pexels",
+    "artist": "Elizabeth Iris",
+    "commons_file": "pexels:5547678",
+    "source": "pexels:Landscape Arch Arches National Park"
+   },
+   {
+    "local": "🔄 精华版美西环线/Landscape Arch_3.jpg",
+    "license": "Pexels",
+    "artist": "James Lee",
+    "commons_file": "pexels:5184749",
+    "source": "pexels:Landscape Arch Arches National Park"
+   }
+  ]
  },
  {
   "city": "🔄 羚羊谷+大峡谷2日环线",
   "attraction": "拉斯维加斯",
   "status": "ok",
   "local": "🔄 羚羊谷+大峡谷2日环线/拉斯维加斯_1.jpg",
-  "license": "Public domain",
-  "artist": "Carol M. Highsmith",
-  "commons_file": "Night_aerial_view,_Las_Vegas,_Nevada,_04649u.jpg",
-  "source": "zhwiki:拉斯维加斯",
+  "license": "Pexels",
+  "artist": "David Vives",
+  "commons_file": "pexels:36015098",
+  "source": "pexels:Las Vegas Strip night",
   "extras": [
    {
     "local": "🔄 羚羊谷+大峡谷2日环线/拉斯维加斯_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Dietmar Rabich",
-    "commons_file": "Las Vegas (Nevada, USA), The Strip -- 2012 -- 6232.jpg",
-    "source": "commons-supplement:Las Vegas"
+    "license": "Pexels",
+    "artist": "Max Fomin",
+    "commons_file": "pexels:18003829",
+    "source": "pexels:Las Vegas Strip night"
    },
    {
     "local": "🔄 羚羊谷+大峡谷2日环线/拉斯维加斯_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Frank Schulenburg",
-    "commons_file": "Las Vegas-5603 (The Venetian).jpg",
-    "source": "commons-supplement:Las Vegas"
-   },
-   {
-    "local": "🔄 羚羊谷+大峡谷2日环线/拉斯维加斯_4.jpg",
-    "license": "Public domain",
-    "artist": "Master Sgt. Benjamin Bloker",
-    "commons_file": "A USAF F-16 pilot breaking right on final approach over northern Las Vegas.jpg",
-    "source": "commons-supplement:Las Vegas"
+    "license": "Pexels",
+    "artist": "Pixabay",
+    "commons_file": "pexels:161772",
+    "source": "pexels:Las Vegas Strip night"
    }
   ]
  },
  {
   "city": "🔄 羚羊谷+大峡谷2日环线",
   "attraction": "佩吉",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 羚羊谷+大峡谷2日环线/佩吉_1.jpg",
+  "license": "Pexels",
+  "artist": "kelly chen",
+  "commons_file": "pexels:17279526",
+  "source": "pexels:Page Arizona Lake Powell",
+  "extras": [
+   {
+    "local": "🔄 羚羊谷+大峡谷2日环线/佩吉_2.jpg",
+    "license": "Pexels",
+    "artist": "Clément Proust",
+    "commons_file": "pexels:29481798",
+    "source": "pexels:Page Arizona Lake Powell"
+   },
+   {
+    "local": "🔄 羚羊谷+大峡谷2日环线/佩吉_3.jpg",
+    "license": "Pexels",
+    "artist": "Ambient Vista",
+    "commons_file": "pexels:19147005",
+    "source": "pexels:Page Arizona Lake Powell"
+   }
+  ]
  },
  {
   "city": "🔄 羚羊谷+大峡谷2日环线",
   "attraction": "下午羚羊谷",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 羚羊谷+大峡谷2日环线/下午羚羊谷_1.jpg",
+  "license": "Pexels",
+  "artist": "Angelica Reyn",
+  "commons_file": "pexels:11183944",
+  "source": "pexels:Antelope Canyon Arizona",
+  "extras": [
+   {
+    "local": "🔄 羚羊谷+大峡谷2日环线/下午羚羊谷_2.jpg",
+    "license": "Pexels",
+    "artist": "Rockwell branding agency",
+    "commons_file": "pexels:8909531",
+    "source": "pexels:Antelope Canyon Arizona"
+   },
+   {
+    "local": "🔄 羚羊谷+大峡谷2日环线/下午羚羊谷_3.jpg",
+    "license": "Pexels",
+    "artist": "Belle Co",
+    "commons_file": "pexels:342001",
+    "source": "pexels:Antelope Canyon Arizona"
+   }
+  ]
  },
  {
   "city": "🔄 羚羊谷+大峡谷2日环线",
   "attraction": "马蹄湾日落",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 羚羊谷+大峡谷2日环线/马蹄湾日落_1.jpg",
+  "license": "Pexels",
+  "artist": "Rockwell branding agency",
+  "commons_file": "pexels:8909540",
+  "source": "pexels:Horseshoe Bend Page Arizona sunset",
+  "extras": [
+   {
+    "local": "🔄 羚羊谷+大峡谷2日环线/马蹄湾日落_2.jpg",
+    "license": "Pexels",
+    "artist": "Matthew DeVries",
+    "commons_file": "pexels:6150552",
+    "source": "pexels:Horseshoe Bend Page Arizona sunset"
+   },
+   {
+    "local": "🔄 羚羊谷+大峡谷2日环线/马蹄湾日落_3.jpg",
+    "license": "Pexels",
+    "artist": "Roberto Lee Cortes",
+    "commons_file": "pexels:20879885",
+    "source": "pexels:Horseshoe Bend Page Arizona sunset"
+   }
+  ]
  },
  {
   "city": "🔄 羚羊谷+大峡谷2日环线",
   "attraction": "大峡谷",
   "status": "ok",
-  "local": "🔄 羚羊谷+大峡谷2日环线/大峡谷_1.jpeg",
-  "license": "CC BY 3.0",
-  "artist": "Lennart Sikkema",
-  "commons_file": "Canyon_River_Tree_(165872763).jpeg",
-  "source": "zhwiki:大峽谷",
+  "local": "🔄 羚羊谷+大峡谷2日环线/大峡谷_1.jpg",
+  "license": "Pexels",
+  "artist": "Produtora Midtrack",
+  "commons_file": "pexels:1882015",
+  "source": "pexels:Grand Canyon Arizona",
   "extras": [
    {
     "local": "🔄 羚羊谷+大峡谷2日环线/大峡谷_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Tuxyso",
-    "commons_file": "Grand Canyon Hopi Point with rainbow 2013.jpg",
-    "source": "commons-supplement:Grand Canyon"
+    "license": "Pexels",
+    "artist": "Ambient Vista",
+    "commons_file": "pexels:19330659",
+    "source": "pexels:Grand Canyon Arizona"
    },
    {
     "local": "🔄 羚羊谷+大峡谷2日环线/大峡谷_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Krigore",
-    "commons_file": "Grand Canyon West – panoramic view from Guano Point.jpg",
-    "source": "commons-supplement:Grand Canyon"
-   },
-   {
-    "local": "🔄 羚羊谷+大峡谷2日环线/大峡谷_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Tomascastelazo",
-    "commons_file": "Grand canyon march 2013.jpg",
-    "source": "commons-supplement:Grand Canyon"
+    "license": "Pexels",
+    "artist": "Ambient Vista",
+    "commons_file": "pexels:19330661",
+    "source": "pexels:Grand Canyon Arizona"
    }
   ]
  },
  {
   "city": "🔄 黄石大提顿环线",
   "attraction": "大提顿",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 黄石大提顿环线/大提顿_1.jpg",
+  "license": "Pexels",
+  "artist": "Daniel Erlandson",
+  "commons_file": "pexels:31317377",
+  "source": "pexels:Grand Teton National Park",
+  "extras": [
+   {
+    "local": "🔄 黄石大提顿环线/大提顿_2.jpg",
+    "license": "Pexels",
+    "artist": "Daniel Erlandson",
+    "commons_file": "pexels:31317374",
+    "source": "pexels:Grand Teton National Park"
+   },
+   {
+    "local": "🔄 黄石大提顿环线/大提顿_3.jpg",
+    "license": "Pexels",
+    "artist": "Mark Direen",
+    "commons_file": "pexels:32929231",
+    "source": "pexels:Grand Teton National Park"
+   }
+  ]
  },
  {
   "city": "🔄 黄石大提顿环线",
   "attraction": "Jenny Lake",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 黄石大提顿环线/Jenny Lake_1.jpg",
+  "license": "Pexels",
+  "artist": "Brett Buskirk",
+  "commons_file": "pexels:37919749",
+  "source": "pexels:Jenny Lake Grand Teton",
+  "extras": [
+   {
+    "local": "🔄 黄石大提顿环线/Jenny Lake_2.jpg",
+    "license": "Pexels",
+    "artist": "Andrew Jensen",
+    "commons_file": "pexels:833779",
+    "source": "pexels:Jenny Lake Grand Teton"
+   },
+   {
+    "local": "🔄 黄石大提顿环线/Jenny Lake_3.jpg",
+    "license": "Pexels",
+    "artist": "Kinley Lindsey",
+    "commons_file": "pexels:27898565",
+    "source": "pexels:Jenny Lake Grand Teton"
+   }
+  ]
  },
  {
   "city": "🔄 黄石大提顿环线",
   "attraction": "Jackson小镇",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 黄石大提顿环线/Jackson小镇_1.jpg",
+  "license": "Pexels",
+  "artist": "Amaury Michaux",
+  "commons_file": "pexels:14896238",
+  "source": "pexels:Jackson Hole Wyoming town",
+  "extras": [
+   {
+    "local": "🔄 黄石大提顿环线/Jackson小镇_2.jpg",
+    "license": "Pexels",
+    "artist": "Sarah O'Shea",
+    "commons_file": "pexels:20847315",
+    "source": "pexels:Jackson Hole Wyoming town"
+   },
+   {
+    "local": "🔄 黄石大提顿环线/Jackson小镇_3.jpg",
+    "license": "Pexels",
+    "artist": "Sarah O'Shea",
+    "commons_file": "pexels:20847311",
+    "source": "pexels:Jackson Hole Wyoming town"
+   }
+  ]
  },
  {
   "city": "🔄 黄石大提顿环线",
   "attraction": "Schwabacher Landing日出",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 黄石大提顿环线/Schwabacher Landing日出_1.jpg",
+  "license": "Pexels",
+  "artist": "Mark Direen",
+  "commons_file": "pexels:32929231",
+  "source": "pexels:Schwabacher Landing Grand Teton sunrise",
+  "extras": [
+   {
+    "local": "🔄 黄石大提顿环线/Schwabacher Landing日出_2.jpg",
+    "license": "Pexels",
+    "artist": "Anand Dandekar",
+    "commons_file": "pexels:2528875",
+    "source": "pexels:Schwabacher Landing Grand Teton sunrise"
+   },
+   {
+    "local": "🔄 黄石大提顿环线/Schwabacher Landing日出_3.jpg",
+    "license": "Pexels",
+    "artist": "Kinley Lindsey",
+    "commons_file": "pexels:27898565",
+    "source": "pexels:Schwabacher Landing Grand Teton sunrise"
+   }
+  ]
  },
  {
   "city": "🔄 黄石大提顿环线",
   "attraction": "西黄石",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 黄石大提顿环线/西黄石_1.jpg",
+  "license": "Pexels",
+  "artist": "Ben Jackson",
+  "commons_file": "pexels:11059524",
+  "source": "pexels:West Yellowstone entrance",
+  "extras": [
+   {
+    "local": "🔄 黄石大提顿环线/西黄石_2.jpg",
+    "license": "Pexels",
+    "artist": "Marije Kouyzer",
+    "commons_file": "pexels:34686765",
+    "source": "pexels:West Yellowstone entrance"
+   },
+   {
+    "local": "🔄 黄石大提顿环线/西黄石_3.jpg",
+    "license": "Pexels",
+    "artist": "SUKHEE LEE",
+    "commons_file": "pexels:29344885",
+    "source": "pexels:West Yellowstone entrance"
+   }
+  ]
  },
  {
   "city": "🔄 黄石大提顿环线",
   "attraction": "Old Faithful",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 黄石大提顿环线/Old Faithful_1.jpg",
+  "license": "Pexels",
+  "artist": "Siegfried Poepperl",
+  "commons_file": "pexels:9950427",
+  "source": "pexels:Old Faithful geyser Yellowstone",
+  "extras": [
+   {
+    "local": "🔄 黄石大提顿环线/Old Faithful_2.jpg",
+    "license": "Pexels",
+    "artist": "Wal Saravia",
+    "commons_file": "pexels:13316534",
+    "source": "pexels:Old Faithful geyser Yellowstone"
+   },
+   {
+    "local": "🔄 黄石大提顿环线/Old Faithful_3.jpg",
+    "license": "Pexels",
+    "artist": "Siegfried Poepperl",
+    "commons_file": "pexels:9814846",
+    "source": "pexels:Old Faithful geyser Yellowstone"
+   }
+  ]
  },
  {
   "city": "🔄 黄石大提顿环线",
   "attraction": "Grand Prismatic大棱镜",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 黄石大提顿环线/Grand Prismatic大棱镜_1.jpg",
+  "license": "Pexels",
+  "artist": "Pixabay",
+  "commons_file": "pexels:220032",
+  "source": "pexels:Grand Prismatic Spring Yellowstone",
+  "extras": [
+   {
+    "local": "🔄 黄石大提顿环线/Grand Prismatic大棱镜_2.jpg",
+    "license": "Pexels",
+    "artist": "Joey Kyber",
+    "commons_file": "pexels:119563",
+    "source": "pexels:Grand Prismatic Spring Yellowstone"
+   },
+   {
+    "local": "🔄 黄石大提顿环线/Grand Prismatic大棱镜_3.jpg",
+    "license": "Pexels",
+    "artist": "Gary Cassel",
+    "commons_file": "pexels:18814003",
+    "source": "pexels:Grand Prismatic Spring Yellowstone"
+   }
+  ]
  },
  {
   "city": "🔄 黄石大提顿环线",
   "attraction": "Grand Canyon大峡谷",
-  "status": "miss"
+  "status": "ok",
+  "local": "🔄 黄石大提顿环线/Grand Canyon大峡谷_1.jpg",
+  "license": "Pexels",
+  "artist": "Brett Buskirk",
+  "commons_file": "pexels:37919686",
+  "source": "pexels:Grand Canyon of the Yellowstone waterfall",
+  "extras": [
+   {
+    "local": "🔄 黄石大提顿环线/Grand Canyon大峡谷_2.jpg",
+    "license": "Pexels",
+    "artist": "Brett Buskirk",
+    "commons_file": "pexels:37919691",
+    "source": "pexels:Grand Canyon of the Yellowstone waterfall"
+   },
+   {
+    "local": "🔄 黄石大提顿环线/Grand Canyon大峡谷_3.jpg",
+    "license": "Pexels",
+    "artist": "Taryn Elliott",
+    "commons_file": "pexels:4183313",
+    "source": "pexels:Grand Canyon of the Yellowstone waterfall"
+   }
+  ]
  },
  {
   "city": "华盛顿州“海山冰川”大环线",
   "attraction": "派克市场",
   "status": "ok",
   "local": "华盛顿州“海山冰川”大环线/派克市场_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Daniel Schwen",
-  "commons_file": "Pike_Place_Market_Seattle.jpg",
-  "source": "zhwiki:派克市场",
+  "license": "Pexels",
+  "artist": "Josh Hild",
+  "commons_file": "pexels:28614063",
+  "source": "pexels:Pike Place Market Seattle",
   "extras": [
    {
     "local": "华盛顿州“海山冰川”大环线/派克市场_2.jpg",
-    "license": "CC0",
-    "artist": "Julian Lupyan",
-    "commons_file": "Maximilien Restaurant Sign in Pike Place Market, Seattle, Washington, 2025.jpg",
-    "source": "commons-supplement:Pike Place Market"
+    "license": "Pexels",
+    "artist": "Line Knipst",
+    "commons_file": "pexels:19687415",
+    "source": "pexels:Pike Place Market Seattle"
    },
    {
     "local": "华盛顿州“海山冰川”大环线/派克市场_3.jpg",
-    "license": "CC0",
-    "artist": "Julian Lupyan",
-    "commons_file": "Waterfront Viewpoint Sign at Pike Place Market, Seattle, Washington, 2025.jpg",
-    "source": "commons-supplement:Pike Place Market"
-   },
-   {
-    "local": "华盛顿州“海山冰川”大环线/派克市场_4.jpg",
-    "license": "CC0",
-    "artist": "Julian Lupyan",
-    "commons_file": "Blown Glass for sale in Pike Place Market, Seattle, Washington, 2025.jpg",
-    "source": "commons-supplement:Pike Place Market"
+    "license": "Pexels",
+    "artist": "Alice Gu",
+    "commons_file": "pexels:6376517",
+    "source": "pexels:Pike Place Market Seattle"
    }
   ]
  },
@@ -674,389 +1278,1299 @@
   "attraction": "太空针塔",
   "status": "ok",
   "local": "华盛顿州“海山冰川”大环线/太空针塔_1.jpg",
-  "license": "Public domain",
-  "artist": "Jordon Kalilich",
-  "commons_file": "Space_Needle_2011-07-04.jpg",
-  "source": "zhwiki:太空針塔",
+  "license": "Pexels",
+  "artist": "Stephen Leonardi",
+  "commons_file": "pexels:30274225",
+  "source": "pexels:Space Needle Seattle",
   "extras": [
    {
     "local": "华盛顿州“海山冰川”大环线/太空针塔_2.jpg",
-    "license": "Public domain",
-    "artist": "MyName (Cacophony)",
-    "commons_file": "SpaceNeedleTopClose.jpg",
-    "source": "commons-supplement:Space Needle"
+    "license": "Pexels",
+    "artist": "Georgie  Devlin",
+    "commons_file": "pexels:8615712",
+    "source": "pexels:Space Needle Seattle"
    },
    {
     "local": "华盛顿州“海山冰川”大环线/太空针塔_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "King of Hearts",
-    "commons_file": "Seattle from Space Needle June 2018 003.jpg",
-    "source": "commons-supplement:Space Needle"
-   },
-   {
-    "local": "华盛顿州“海山冰川”大环线/太空针塔_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "King of Hearts",
-    "commons_file": "Seattle from Space Needle June 2018 010.jpg",
-    "source": "commons-supplement:Space Needle"
+    "license": "Pexels",
+    "artist": "Willian Justen de Vasconcellos",
+    "commons_file": "pexels:18702992",
+    "source": "pexels:Space Needle Seattle"
    }
   ]
  },
  {
   "city": "华盛顿州“海山冰川”大环线",
   "attraction": "奇胡利玻璃艺术馆",
-  "status": "miss"
+  "status": "ok",
+  "local": "华盛顿州“海山冰川”大环线/奇胡利玻璃艺术馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Kristy Wells",
+  "commons_file": "pexels:32969776",
+  "source": "pexels:Chihuly Garden and Glass Seattle",
+  "extras": [
+   {
+    "local": "华盛顿州“海山冰川”大环线/奇胡利玻璃艺术馆_2.jpg",
+    "license": "Pexels",
+    "artist": "frank minjarez",
+    "commons_file": "pexels:29898228",
+    "source": "pexels:Chihuly Garden and Glass Seattle"
+   },
+   {
+    "local": "华盛顿州“海山冰川”大环线/奇胡利玻璃艺术馆_3.jpg",
+    "license": "Pexels",
+    "artist": "Aubergine Shoes",
+    "commons_file": "pexels:27673868",
+    "source": "pexels:Chihuly Garden and Glass Seattle"
+   }
+  ]
  },
  {
   "city": "华盛顿州“海山冰川”大环线",
   "attraction": "飓风岭",
-  "status": "miss"
+  "status": "ok",
+  "local": "华盛顿州“海山冰川”大环线/飓风岭_1.jpg",
+  "license": "Pexels",
+  "artist": "Robert Schrader",
+  "commons_file": "pexels:7042875",
+  "source": "pexels:Hurricane Ridge Olympic National Park",
+  "extras": [
+   {
+    "local": "华盛顿州“海山冰川”大环线/飓风岭_2.jpg",
+    "license": "Pexels",
+    "artist": "Ambient Vista",
+    "commons_file": "pexels:30151532",
+    "source": "pexels:Hurricane Ridge Olympic National Park"
+   },
+   {
+    "local": "华盛顿州“海山冰川”大环线/飓风岭_3.jpg",
+    "license": "Pexels",
+    "artist": "Ambient Vista",
+    "commons_file": "pexels:30180097",
+    "source": "pexels:Hurricane Ridge Olympic National Park"
+   }
+  ]
  },
  {
   "city": "华盛顿州“海山冰川”大环线",
   "attraction": "飓风山",
-  "status": "miss"
+  "status": "ok",
+  "local": "华盛顿州“海山冰川”大环线/飓风山_1.jpg",
+  "license": "Pexels",
+  "artist": "Robert Schrader",
+  "commons_file": "pexels:7042875",
+  "source": "pexels:Hurricane Ridge Olympic National Park",
+  "extras": [
+   {
+    "local": "华盛顿州“海山冰川”大环线/飓风山_2.jpg",
+    "license": "Pexels",
+    "artist": "Ambient Vista",
+    "commons_file": "pexels:30151532",
+    "source": "pexels:Hurricane Ridge Olympic National Park"
+   },
+   {
+    "local": "华盛顿州“海山冰川”大环线/飓风山_3.jpg",
+    "license": "Pexels",
+    "artist": "Ambient Vista",
+    "commons_file": "pexels:30180097",
+    "source": "pexels:Hurricane Ridge Olympic National Park"
+   }
+  ]
  },
  {
   "city": "华盛顿州“海山冰川”大环线",
   "attraction": "克雷森特湖",
-  "status": "miss"
+  "status": "ok",
+  "local": "华盛顿州“海山冰川”大环线/克雷森特湖_1.jpg",
+  "license": "Pexels",
+  "artist": "Jon Eliya",
+  "commons_file": "pexels:27301107",
+  "source": "pexels:Lake Crescent Olympic National Park",
+  "extras": [
+   {
+    "local": "华盛顿州“海山冰川”大环线/克雷森特湖_2.jpg",
+    "license": "Pexels",
+    "artist": "Mikhael Mayim",
+    "commons_file": "pexels:8455662",
+    "source": "pexels:Lake Crescent Olympic National Park"
+   },
+   {
+    "local": "华盛顿州“海山冰川”大环线/克雷森特湖_3.jpg",
+    "license": "Pexels",
+    "artist": "JOHN CALLERY",
+    "commons_file": "pexels:5620479",
+    "source": "pexels:Lake Crescent Olympic National Park"
+   }
+  ]
  },
  {
   "city": "华盛顿州“海山冰川”大环线",
   "attraction": "Rialto 海滩",
-  "status": "miss"
+  "status": "ok",
+  "local": "华盛顿州“海山冰川”大环线/Rialto 海滩_1.jpg",
+  "license": "Pexels",
+  "artist": "Daniel Erlandson",
+  "commons_file": "pexels:31350255",
+  "source": "pexels:Rialto Beach Olympic National Park",
+  "extras": [
+   {
+    "local": "华盛顿州“海山冰川”大环线/Rialto 海滩_2.jpg",
+    "license": "Pexels",
+    "artist": "Daniel Erlandson",
+    "commons_file": "pexels:31350265",
+    "source": "pexels:Rialto Beach Olympic National Park"
+   },
+   {
+    "local": "华盛顿州“海山冰川”大环线/Rialto 海滩_3.jpg",
+    "license": "Pexels",
+    "artist": "Robert Schrader",
+    "commons_file": "pexels:7042972",
+    "source": "pexels:Rialto Beach Olympic National Park"
+   }
+  ]
  },
  {
   "city": "华盛顿州“海山冰川”大环线",
   "attraction": "Hoh 温带雨林",
-  "status": "miss"
+  "status": "ok",
+  "local": "华盛顿州“海山冰川”大环线/Hoh 温带雨林_1.jpg",
+  "license": "Pexels",
+  "artist": "Daniel Erlandson",
+  "commons_file": "pexels:31350268",
+  "source": "pexels:Hoh Rainforest Olympic National Park",
+  "extras": [
+   {
+    "local": "华盛顿州“海山冰川”大环线/Hoh 温带雨林_2.jpg",
+    "license": "Pexels",
+    "artist": "Ryan Beirne",
+    "commons_file": "pexels:17728925",
+    "source": "pexels:Hoh Rainforest Olympic National Park"
+   },
+   {
+    "local": "华盛顿州“海山冰川”大环线/Hoh 温带雨林_3.jpg",
+    "license": "Pexels",
+    "artist": "Tom Hermans",
+    "commons_file": "pexels:30133335",
+    "source": "pexels:Hoh Rainforest Olympic National Park"
+   }
+  ]
  },
  {
   "city": "华盛顿州“海山冰川”大环线",
   "attraction": "Ruby 海滩",
-  "status": "miss"
+  "status": "ok",
+  "local": "华盛顿州“海山冰川”大环线/Ruby 海滩_1.jpg",
+  "license": "Pexels",
+  "artist": "Taylen Lundequam",
+  "commons_file": "pexels:15137353",
+  "source": "pexels:Ruby Beach Olympic National Park",
+  "extras": [
+   {
+    "local": "华盛顿州“海山冰川”大环线/Ruby 海滩_2.jpg",
+    "license": "Pexels",
+    "artist": "JOHN CALLERY",
+    "commons_file": "pexels:5679252",
+    "source": "pexels:Ruby Beach Olympic National Park"
+   },
+   {
+    "local": "华盛顿州“海山冰川”大环线/Ruby 海滩_3.jpg",
+    "license": "Pexels",
+    "artist": "JOHN CALLERY",
+    "commons_file": "pexels:6526953",
+    "source": "pexels:Ruby Beach Olympic National Park"
+   }
+  ]
  },
  {
   "city": "华盛顿州“海山冰川”大环线",
   "attraction": "天堂景区",
-  "status": "miss"
+  "status": "ok",
+  "local": "华盛顿州“海山冰川”大环线/天堂景区_1.jpg",
+  "license": "Pexels",
+  "artist": "dumitru B",
+  "commons_file": "pexels:28884166",
+  "source": "pexels:Paradise Mount Rainier National Park",
+  "extras": [
+   {
+    "local": "华盛顿州“海山冰川”大环线/天堂景区_2.jpg",
+    "license": "Pexels",
+    "artist": "William Jacobs",
+    "commons_file": "pexels:33901219",
+    "source": "pexels:Paradise Mount Rainier National Park"
+   },
+   {
+    "local": "华盛顿州“海山冰川”大环线/天堂景区_3.jpg",
+    "license": "Pexels",
+    "artist": "K",
+    "commons_file": "pexels:13766378",
+    "source": "pexels:Paradise Mount Rainier National Park"
+   }
+  ]
  },
  {
   "city": "华盛顿州“海山冰川”大环线",
   "attraction": "日出景区",
-  "status": "miss"
+  "status": "ok",
+  "local": "华盛顿州“海山冰川”大环线/日出景区_1.jpg",
+  "license": "Pexels",
+  "artist": "Ambient Vista",
+  "commons_file": "pexels:30120140",
+  "source": "pexels:Sunrise Mount Rainier National Park",
+  "extras": [
+   {
+    "local": "华盛顿州“海山冰川”大环线/日出景区_2.jpg",
+    "license": "Pexels",
+    "artist": "JOHN CALLERY",
+    "commons_file": "pexels:5645470",
+    "source": "pexels:Sunrise Mount Rainier National Park"
+   },
+   {
+    "local": "华盛顿州“海山冰川”大环线/日出景区_3.jpg",
+    "license": "Pexels",
+    "artist": "JOHN CALLERY",
+    "commons_file": "pexels:5645464",
+    "source": "pexels:Sunrise Mount Rainier National Park"
+   }
+  ]
  },
  {
   "city": "华盛顿州“海山冰川”大环线",
   "attraction": "斯凯莱特步道",
-  "status": "miss"
+  "status": "ok",
+  "local": "华盛顿州“海山冰川”大环线/斯凯莱特步道_1.jpg",
+  "license": "Pexels",
+  "artist": "William Jacobs",
+  "commons_file": "pexels:33901218",
+  "source": "pexels:Skyline Trail Mount Rainier",
+  "extras": [
+   {
+    "local": "华盛顿州“海山冰川”大环线/斯凯莱特步道_2.jpg",
+    "license": "Pexels",
+    "artist": "Alex Moliski",
+    "commons_file": "pexels:28954732",
+    "source": "pexels:Skyline Trail Mount Rainier"
+   },
+   {
+    "local": "华盛顿州“海山冰川”大环线/斯凯莱特步道_3.jpg",
+    "license": "Pexels",
+    "artist": "William Jacobs",
+    "commons_file": "pexels:27618311",
+    "source": "pexels:Skyline Trail Mount Rainier"
+   }
+  ]
  },
  {
   "city": "华盛顿州“海山冰川”大环线",
   "attraction": "Diablo 湖",
-  "status": "miss"
+  "status": "ok",
+  "local": "华盛顿州“海山冰川”大环线/Diablo 湖_1.jpg",
+  "license": "Pexels",
+  "artist": "Margo White",
+  "commons_file": "pexels:2569169",
+  "source": "pexels:Diablo Lake North Cascades",
+  "extras": [
+   {
+    "local": "华盛顿州“海山冰川”大环线/Diablo 湖_2.jpg",
+    "license": "Pexels",
+    "artist": "Alannah Cavanaugh",
+    "commons_file": "pexels:32837476",
+    "source": "pexels:Diablo Lake North Cascades"
+   },
+   {
+    "local": "华盛顿州“海山冰川”大环线/Diablo 湖_3.jpg",
+    "license": "Pexels",
+    "artist": "Blue Ox Studio",
+    "commons_file": "pexels:1003817",
+    "source": "pexels:Diablo Lake North Cascades"
+   }
+  ]
  },
  {
   "city": "波特兰",
   "attraction": "日本花园",
   "status": "ok",
   "local": "波特兰/日本花园_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Laurascudder",
-  "commons_file": "Portland_Japanese_garden_creek.jpg",
-  "source": "zhwiki:波特兰日本花园",
+  "license": "Pexels",
+  "artist": "Sean Valentine",
+  "commons_file": "pexels:3592627",
+  "source": "pexels:Portland Japanese Garden",
   "extras": [
    {
     "local": "波特兰/日本花园_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Laitche",
-    "commons_file": "Japanese garden at Daisen Park in Sakai, October 2018 - 662.jpg",
-    "source": "commons-supplement:Japanese garden"
+    "license": "Pexels",
+    "artist": "Alexis Molina",
+    "commons_file": "pexels:13572878",
+    "source": "pexels:Portland Japanese Garden"
    },
    {
     "local": "波特兰/日本花园_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Laitche",
-    "commons_file": "Japanese garden scenery at Expo’70 Commemorative Park in Osaka, November 2017 - 146.jpg",
-    "source": "commons-supplement:Japanese garden"
-   },
-   {
-    "local": "波特兰/日本花园_4.jpg",
-    "license": "CC BY-SA 2.0",
-    "artist": "Jeremy Reding from Seattle, USA",
-    "commons_file": "Portland Japanese Garden maple.jpg",
-    "source": "commons-supplement:Japanese garden"
+    "license": "Pexels",
+    "artist": "Sean Valentine",
+    "commons_file": "pexels:3632931",
+    "source": "pexels:Portland Japanese Garden"
    }
   ]
  },
  {
   "city": "波特兰",
   "attraction": "Powell's书店",
-  "status": "miss"
+  "status": "ok",
+  "local": "波特兰/Powell's书店_1.jpg",
+  "license": "Pexels",
+  "artist": "Brett Sayles",
+  "commons_file": "pexels:16336133",
+  "source": "pexels:Powell's City of Books Portland",
+  "extras": [
+   {
+    "local": "波特兰/Powell's书店_2.jpg",
+    "license": "Pexels",
+    "artist": "Beniam",
+    "commons_file": "pexels:18340214",
+    "source": "pexels:Powell's City of Books Portland"
+   },
+   {
+    "local": "波特兰/Powell's书店_3.jpg",
+    "license": "Pexels",
+    "artist": "Brett Sayles",
+    "commons_file": "pexels:20646811",
+    "source": "pexels:Powell's City of Books Portland"
+   }
+  ]
  },
  {
   "city": "波特兰",
   "attraction": "中国园林",
   "status": "ok",
   "local": "波特兰/中国园林_1.jpg",
-  "license": "CC BY 2.0",
-  "artist": "xiquinhosilva",
-  "commons_file": "Humble_Administrator_Garden_48396-Suzhou_(49171766422).jpg",
-  "source": "zhwiki:中國園林",
+  "license": "Pexels",
+  "artist": "Garrison Gao",
+  "commons_file": "pexels:36466083",
+  "source": "pexels:Lan Su Chinese Garden Portland",
   "extras": [
    {
     "local": "波特兰/中国园林_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Agnes Monkelbaan",
-    "commons_file": "Chinese tuin Het Verborgen Rijk van Ming in Hortus Haren 03.jpg",
-    "source": "commons-supplement:Chinese garden"
+    "license": "Pexels",
+    "artist": "Vladislovas Sketerskis",
+    "commons_file": "pexels:37154382",
+    "source": "pexels:Lan Su Chinese Garden Portland"
    },
    {
     "local": "波特兰/中国园林_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "AgainErick",
-    "commons_file": "Chinese garden - Diergaarde Blijdorp - Rotterdam - spring 2021.jpg",
-    "source": "commons-supplement:Chinese garden"
-   },
-   {
-    "local": "波特兰/中国园林_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Velella",
-    "commons_file": "The Chinese garden at Treborth Botanic Garden.jpg",
-    "source": "commons-supplement:Chinese garden"
+    "license": "Pexels",
+    "artist": "Olli",
+    "commons_file": "pexels:33363370",
+    "source": "pexels:Lan Su Chinese Garden Portland"
    }
   ]
  },
  {
   "city": "波特兰",
   "attraction": "Pittock Mansion",
-  "status": "miss"
+  "status": "ok",
+  "local": "波特兰/Pittock Mansion_1.jpg",
+  "license": "Pexels",
+  "artist": "James Wilson",
+  "commons_file": "pexels:21326302",
+  "source": "pexels:Pittock Mansion Portland",
+  "extras": [
+   {
+    "local": "波特兰/Pittock Mansion_2.jpg",
+    "license": "Pexels",
+    "artist": "JP",
+    "commons_file": "pexels:16919759",
+    "source": "pexels:Pittock Mansion Portland"
+   },
+   {
+    "local": "波特兰/Pittock Mansion_3.jpg",
+    "license": "Pexels",
+    "artist": "Aleksey Kuprikov",
+    "commons_file": "pexels:3493761",
+    "source": "pexels:Pittock Mansion Portland"
+   }
+  ]
  },
  {
   "city": "波特兰",
   "attraction": "Multnomah Falls",
-  "status": "miss"
+  "status": "ok",
+  "local": "波特兰/Multnomah Falls_1.jpg",
+  "license": "Pexels",
+  "artist": "Soly Moses",
+  "commons_file": "pexels:19244730",
+  "source": "pexels:Multnomah Falls Oregon",
+  "extras": [
+   {
+    "local": "波特兰/Multnomah Falls_2.jpg",
+    "license": "Pexels",
+    "artist": "Brett Sayles",
+    "commons_file": "pexels:6528922",
+    "source": "pexels:Multnomah Falls Oregon"
+   },
+   {
+    "local": "波特兰/Multnomah Falls_3.jpg",
+    "license": "Pexels",
+    "artist": "Stephen Leonardi",
+    "commons_file": "pexels:30274210",
+    "source": "pexels:Multnomah Falls Oregon"
+   }
+  ]
  },
  {
   "city": "波特兰",
   "attraction": "Vista House",
-  "status": "miss"
+  "status": "ok",
+  "local": "波特兰/Vista House_1.jpg",
+  "license": "Pexels",
+  "artist": "Jeffry Surianto",
+  "commons_file": "pexels:35113155",
+  "source": "pexels:Vista House Columbia River Gorge",
+  "extras": [
+   {
+    "local": "波特兰/Vista House_2.jpg",
+    "license": "Pexels",
+    "artist": "Lacza",
+    "commons_file": "pexels:37753990",
+    "source": "pexels:Vista House Columbia River Gorge"
+   },
+   {
+    "local": "波特兰/Vista House_3.jpg",
+    "license": "Pexels",
+    "artist": "MICHAEL MCGARRY",
+    "commons_file": "pexels:15283542",
+    "source": "pexels:Vista House Columbia River Gorge"
+   }
+  ]
  },
  {
   "city": "波特兰",
   "attraction": "Latourell Falls",
-  "status": "miss"
+  "status": "ok",
+  "local": "波特兰/Latourell Falls_1.jpg",
+  "license": "Pexels",
+  "artist": "MICHAEL MCGARRY",
+  "commons_file": "pexels:15335202",
+  "source": "pexels:Latourell Falls Oregon",
+  "extras": [
+   {
+    "local": "波特兰/Latourell Falls_2.jpg",
+    "license": "Pexels",
+    "artist": "Nicole Seidl",
+    "commons_file": "pexels:28557628",
+    "source": "pexels:Latourell Falls Oregon"
+   },
+   {
+    "local": "波特兰/Latourell Falls_3.jpg",
+    "license": "Pexels",
+    "artist": "Liz Lauren",
+    "commons_file": "pexels:11505167",
+    "source": "pexels:Latourell Falls Oregon"
+   }
+  ]
  },
  {
   "city": "波特兰",
   "attraction": "Haystack Rock",
-  "status": "miss"
+  "status": "ok",
+  "local": "波特兰/Haystack Rock_1.jpg",
+  "license": "Pexels",
+  "artist": "Tim Mossholder",
+  "commons_file": "pexels:3308741",
+  "source": "pexels:Haystack Rock Cannon Beach Oregon",
+  "extras": [
+   {
+    "local": "波特兰/Haystack Rock_2.jpg",
+    "license": "Pexels",
+    "artist": "Rick Rio",
+    "commons_file": "pexels:36778964",
+    "source": "pexels:Haystack Rock Cannon Beach Oregon"
+   },
+   {
+    "local": "波特兰/Haystack Rock_3.jpg",
+    "license": "Pexels",
+    "artist": "Townsend Walton",
+    "commons_file": "pexels:32771726",
+    "source": "pexels:Haystack Rock Cannon Beach Oregon"
+   }
+  ]
  },
  {
   "city": "优胜美地国家公园",
   "attraction": "隧道观景点",
-  "status": "miss"
+  "status": "ok",
+  "local": "优胜美地国家公园/隧道观景点_1.jpg",
+  "license": "Pexels",
+  "artist": "Ludwig",
+  "commons_file": "pexels:5164440",
+  "source": "pexels:Tunnel View Yosemite",
+  "extras": [
+   {
+    "local": "优胜美地国家公园/隧道观景点_2.jpg",
+    "license": "Pexels",
+    "artist": "Roberto",
+    "commons_file": "pexels:14028272",
+    "source": "pexels:Tunnel View Yosemite"
+   },
+   {
+    "local": "优胜美地国家公园/隧道观景点_3.jpg",
+    "license": "Pexels",
+    "artist": "André Cook",
+    "commons_file": "pexels:131720",
+    "source": "pexels:Tunnel View Yosemite"
+   }
+  ]
  },
  {
   "city": "优胜美地国家公园",
   "attraction": "远眺Half Dome和山谷全景",
-  "status": "miss"
+  "status": "ok",
+  "local": "优胜美地国家公园/远眺Half Dome和山谷全景_1.jpg",
+  "license": "Pexels",
+  "artist": "Elizabeth Iris",
+  "commons_file": "pexels:7763998",
+  "source": "pexels:Glacier Point Yosemite Valley view",
+  "extras": [
+   {
+    "local": "优胜美地国家公园/远眺Half Dome和山谷全景_2.jpg",
+    "license": "Pexels",
+    "artist": "Jeffrey Eisen",
+    "commons_file": "pexels:9969773",
+    "source": "pexels:Glacier Point Yosemite Valley view"
+   },
+   {
+    "local": "优胜美地国家公园/远眺Half Dome和山谷全景_3.jpg",
+    "license": "Pexels",
+    "artist": "Mo Eid",
+    "commons_file": "pexels:5095821",
+    "source": "pexels:Glacier Point Yosemite Valley view"
+   }
+  ]
  },
  {
   "city": "优胜美地国家公园",
   "attraction": "El Capitan",
   "status": "ok",
   "local": "优胜美地国家公园/El Capitan_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Clementp.fr",
-  "commons_file": "El_Capitan_en_Californie.jpg",
-  "source": "zhwiki:酋长岩",
+  "license": "Pexels",
+  "artist": "Pixabay",
+  "commons_file": "pexels:219962",
+  "source": "pexels:El Capitan Yosemite",
   "extras": [
    {
     "local": "优胜美地国家公园/El Capitan_2.jpg",
-    "license": "CC BY-SA 2.0",
-    "artist": "Dave Riggs",
-    "commons_file": "El Capitan 4.jpg",
-    "source": "commons-supplement:El Capitan"
+    "license": "Pexels",
+    "artist": "Yuanpang  Wa",
+    "commons_file": "pexels:15092160",
+    "source": "pexels:El Capitan Yosemite"
    },
    {
     "local": "优胜美地国家公园/El Capitan_3.jpg",
-    "license": "CC BY 2.0",
-    "artist": "Roy Luck",
-    "commons_file": "The Nose El Capitan Yosemite.jpg",
-    "source": "commons-supplement:El Capitan"
-   },
-   {
-    "local": "优胜美地国家公园/El Capitan_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Melgna",
-    "commons_file": "El Capitan and Valley View.jpg",
-    "source": "commons-supplement:El Capitan"
+    "license": "Pexels",
+    "artist": "aditya bhatia",
+    "commons_file": "pexels:13785516",
+    "source": "pexels:El Capitan Yosemite"
    }
   ]
  },
  {
   "city": "优胜美地国家公园",
   "attraction": "Bridalveil Fall",
-  "status": "miss"
+  "status": "ok",
+  "local": "优胜美地国家公园/Bridalveil Fall_1.jpg",
+  "license": "Pexels",
+  "artist": "Suraj Mali",
+  "commons_file": "pexels:12076615",
+  "source": "pexels:Bridalveil Fall Yosemite",
+  "extras": [
+   {
+    "local": "优胜美地国家公园/Bridalveil Fall_2.jpg",
+    "license": "Pexels",
+    "artist": "Igor Passchier",
+    "commons_file": "pexels:27523324",
+    "source": "pexels:Bridalveil Fall Yosemite"
+   },
+   {
+    "local": "优胜美地国家公园/Bridalveil Fall_3.jpg",
+    "license": "Pexels",
+    "artist": "Ludwig",
+    "commons_file": "pexels:5164440",
+    "source": "pexels:Bridalveil Fall Yosemite"
+   }
+  ]
  },
  {
   "city": "优胜美地国家公园",
   "attraction": "Yosemite Falls",
-  "status": "miss"
+  "status": "ok",
+  "local": "优胜美地国家公园/Yosemite Falls_1.jpg",
+  "license": "Pexels",
+  "artist": "Thomas K",
+  "commons_file": "pexels:24460927",
+  "source": "pexels:Yosemite Falls",
+  "extras": [
+   {
+    "local": "优胜美地国家公园/Yosemite Falls_2.jpg",
+    "license": "Pexels",
+    "artist": "Chris Lehnes",
+    "commons_file": "pexels:14213371",
+    "source": "pexels:Yosemite Falls"
+   },
+   {
+    "local": "优胜美地国家公园/Yosemite Falls_3.jpg",
+    "license": "Pexels",
+    "artist": "alex ohan",
+    "commons_file": "pexels:16754851",
+    "source": "pexels:Yosemite Falls"
+   }
+  ]
  },
  {
   "city": "优胜美地国家公园",
   "attraction": "Vernal Fall",
-  "status": "miss"
+  "status": "ok",
+  "local": "优胜美地国家公园/Vernal Fall_1.jpg",
+  "license": "Pexels",
+  "artist": "Robert Schrader",
+  "commons_file": "pexels:7878685",
+  "source": "pexels:Vernal Fall Yosemite",
+  "extras": [
+   {
+    "local": "优胜美地国家公园/Vernal Fall_2.jpg",
+    "license": "Pexels",
+    "artist": "Mo Eid",
+    "commons_file": "pexels:5095827",
+    "source": "pexels:Vernal Fall Yosemite"
+   },
+   {
+    "local": "优胜美地国家公园/Vernal Fall_3.jpg",
+    "license": "Pexels",
+    "artist": "Mo Eid",
+    "commons_file": "pexels:5095829",
+    "source": "pexels:Vernal Fall Yosemite"
+   }
+  ]
  },
  {
   "city": "优胜美地国家公园",
   "attraction": "Nevada Fall",
-  "status": "miss"
+  "status": "ok",
+  "local": "优胜美地国家公园/Nevada Fall_1.jpg",
+  "license": "Pexels",
+  "artist": "Marija Piliskic",
+  "commons_file": "pexels:33782561",
+  "source": "pexels:Nevada Fall Yosemite",
+  "extras": [
+   {
+    "local": "优胜美地国家公园/Nevada Fall_2.jpg",
+    "license": "Pexels",
+    "artist": "Jason Sherrod",
+    "commons_file": "pexels:33853724",
+    "source": "pexels:Nevada Fall Yosemite"
+   },
+   {
+    "local": "优胜美地国家公园/Nevada Fall_3.jpg",
+    "license": "Pexels",
+    "artist": "jesus esteban",
+    "commons_file": "pexels:35744617",
+    "source": "pexels:Nevada Fall Yosemite"
+   }
+  ]
  },
  {
   "city": "优胜美地国家公园",
   "attraction": "Half Dome登山或蒙诺湖",
-  "status": "miss"
+  "status": "ok",
+  "local": "优胜美地国家公园/Half Dome登山或蒙诺湖_1.jpg",
+  "license": "Pexels",
+  "artist": "Elijah Cobb",
+  "commons_file": "pexels:37762037",
+  "source": "pexels:Half Dome Yosemite",
+  "extras": [
+   {
+    "local": "优胜美地国家公园/Half Dome登山或蒙诺湖_2.jpg",
+    "license": "Pexels",
+    "artist": "Mo Eid",
+    "commons_file": "pexels:5095826",
+    "source": "pexels:Half Dome Yosemite"
+   },
+   {
+    "local": "优胜美地国家公园/Half Dome登山或蒙诺湖_3.jpg",
+    "license": "Pexels",
+    "artist": "Loraine Ilia",
+    "commons_file": "pexels:10278721",
+    "source": "pexels:Half Dome Yosemite"
+   }
+  ]
  },
  {
   "city": "优胜美地国家公园",
   "attraction": "红杉林",
-  "status": "miss"
+  "status": "ok",
+  "local": "优胜美地国家公园/红杉林_1.jpg",
+  "license": "Pexels",
+  "artist": "Xiaoyi",
+  "commons_file": "pexels:5370227",
+  "source": "pexels:Mariposa Grove giant sequoia Yosemite",
+  "extras": [
+   {
+    "local": "优胜美地国家公园/红杉林_2.jpg",
+    "license": "Pexels",
+    "artist": "Umay Isik",
+    "commons_file": "pexels:20733034",
+    "source": "pexels:Mariposa Grove giant sequoia Yosemite"
+   },
+   {
+    "local": "优胜美地国家公园/红杉林_3.jpg",
+    "license": "Pexels",
+    "artist": "Line Knipst",
+    "commons_file": "pexels:19277644",
+    "source": "pexels:Mariposa Grove giant sequoia Yosemite"
+   }
+  ]
  },
  {
   "city": "冰川国家公园",
   "attraction": "公园",
   "status": "ok",
   "local": "冰川国家公园/公园_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Robert M. Russell",
-  "commons_file": "Mountain_Goat_at_Hidden_Lake.jpg",
-  "source": "zhwiki:冰河國家公園 (美國)",
+  "license": "Pexels",
+  "artist": "Insights from the Journey",
+  "commons_file": "pexels:17187982",
+  "source": "pexels:Glacier National Park Montana",
   "extras": [
    {
     "local": "冰川国家公园/公园_2.jpg",
-    "license": "CC BY 3.0",
-    "artist": "Marc Ryckaert",
-    "commons_file": "Brussels Cinquantenaire R04.jpg",
-    "source": "commons-supplement:Park"
+    "license": "Pexels",
+    "artist": "Sergei A",
+    "commons_file": "pexels:2589456",
+    "source": "pexels:Glacier National Park Montana"
    },
    {
     "local": "冰川国家公园/公园_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "King of Hearts",
-    "commons_file": "Prospect Park New York October 2015 003.jpg",
-    "source": "commons-supplement:Park"
-   },
-   {
-    "local": "冰川国家公园/公园_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Laitche",
-    "commons_file": "Spot-billed duck, Tennōji Park, Osaka, October 2015.jpg",
-    "source": "commons-supplement:Park"
+    "license": "Pexels",
+    "artist": "John De Leon",
+    "commons_file": "pexels:10776071",
+    "source": "pexels:Glacier National Park Montana"
    }
   ]
  },
  {
   "city": "冰川国家公园",
   "attraction": "Lake McDonald",
-  "status": "miss"
+  "status": "ok",
+  "local": "冰川国家公园/Lake McDonald_1.jpg",
+  "license": "Pexels",
+  "artist": "Joshua Woroniecki",
+  "commons_file": "pexels:13578358",
+  "source": "pexels:Lake McDonald Glacier National Park",
+  "extras": [
+   {
+    "local": "冰川国家公园/Lake McDonald_2.jpg",
+    "license": "Pexels",
+    "artist": "Brady Knoll",
+    "commons_file": "pexels:6108446",
+    "source": "pexels:Lake McDonald Glacier National Park"
+   },
+   {
+    "local": "冰川国家公园/Lake McDonald_3.jpg",
+    "license": "Pexels",
+    "artist": "Manda Walker",
+    "commons_file": "pexels:22610271",
+    "source": "pexels:Lake McDonald Glacier National Park"
+   }
+  ]
  },
  {
   "city": "冰川国家公园",
   "attraction": "Logan Pass",
-  "status": "miss"
+  "status": "ok",
+  "local": "冰川国家公园/Logan Pass_1.jpg",
+  "license": "Pexels",
+  "artist": "Piccinng",
+  "commons_file": "pexels:5339033",
+  "source": "pexels:Logan Pass Glacier National Park",
+  "extras": [
+   {
+    "local": "冰川国家公园/Logan Pass_2.jpg",
+    "license": "Pexels",
+    "artist": "Dinesh kumar Ramasamy",
+    "commons_file": "pexels:22718142",
+    "source": "pexels:Logan Pass Glacier National Park"
+   },
+   {
+    "local": "冰川国家公园/Logan Pass_3.jpg",
+    "license": "Pexels",
+    "artist": "John De Leon",
+    "commons_file": "pexels:10776071",
+    "source": "pexels:Logan Pass Glacier National Park"
+   }
+  ]
  },
  {
   "city": "冰川国家公园",
   "attraction": "Hidden Lake",
-  "status": "miss"
+  "status": "ok",
+  "local": "冰川国家公园/Hidden Lake_1.jpg",
+  "license": "Pexels",
+  "artist": "Landon B",
+  "commons_file": "pexels:35757667",
+  "source": "pexels:Hidden Lake Glacier National Park",
+  "extras": [
+   {
+    "local": "冰川国家公园/Hidden Lake_2.jpg",
+    "license": "Pexels",
+    "artist": "Brady Knoll",
+    "commons_file": "pexels:6108440",
+    "source": "pexels:Hidden Lake Glacier National Park"
+   },
+   {
+    "local": "冰川国家公园/Hidden Lake_3.jpg",
+    "license": "Pexels",
+    "artist": "Landon B",
+    "commons_file": "pexels:35757685",
+    "source": "pexels:Hidden Lake Glacier National Park"
+   }
+  ]
  },
  {
   "city": "冰川国家公园",
   "attraction": "Highline Trail或Avalanche Lake徒步",
-  "status": "miss"
+  "status": "ok",
+  "local": "冰川国家公园/Highline Trail或Avalanche Lake徒步_1.jpg",
+  "license": "Pexels",
+  "artist": "Brady Knoll",
+  "commons_file": "pexels:6108455",
+  "source": "pexels:Highline Trail Glacier National Park",
+  "extras": [
+   {
+    "local": "冰川国家公园/Highline Trail或Avalanche Lake徒步_2.jpg",
+    "license": "Pexels",
+    "artist": "Landon B",
+    "commons_file": "pexels:35757692",
+    "source": "pexels:Highline Trail Glacier National Park"
+   },
+   {
+    "local": "冰川国家公园/Highline Trail或Avalanche Lake徒步_3.jpg",
+    "license": "Pexels",
+    "artist": "Landon B",
+    "commons_file": "pexels:35757677",
+    "source": "pexels:Highline Trail Glacier National Park"
+   }
+  ]
  },
  {
   "city": "冰川国家公园",
   "attraction": "Grinnell Glacier",
-  "status": "miss"
+  "status": "ok",
+  "local": "冰川国家公园/Grinnell Glacier_1.jpg",
+  "license": "Pexels",
+  "artist": "Jordan Bergendahl",
+  "commons_file": "pexels:9183628",
+  "source": "pexels:Grinnell Glacier Glacier National Park",
+  "extras": [
+   {
+    "local": "冰川国家公园/Grinnell Glacier_2.jpg",
+    "license": "Pexels",
+    "artist": "Landon B",
+    "commons_file": "pexels:35757700",
+    "source": "pexels:Grinnell Glacier Glacier National Park"
+   },
+   {
+    "local": "冰川国家公园/Grinnell Glacier_3.jpg",
+    "license": "Pexels",
+    "artist": "Colon Freld",
+    "commons_file": "pexels:9017829",
+    "source": "pexels:Grinnell Glacier Glacier National Park"
+   }
+  ]
  },
  {
   "city": "冰川国家公园",
   "attraction": "Iceberg Lake Trail徒步",
-  "status": "miss"
+  "status": "ok",
+  "local": "冰川国家公园/Iceberg Lake Trail徒步_1.jpg",
+  "license": "Pexels",
+  "artist": "Pixabay",
+  "commons_file": "pexels:258144",
+  "source": "pexels:Iceberg Lake Glacier National Park",
+  "extras": [
+   {
+    "local": "冰川国家公园/Iceberg Lake Trail徒步_2.jpg",
+    "license": "Pexels",
+    "artist": "Insights from the Journey",
+    "commons_file": "pexels:17187982",
+    "source": "pexels:Iceberg Lake Glacier National Park"
+   },
+   {
+    "local": "冰川国家公园/Iceberg Lake Trail徒步_3.jpg",
+    "license": "Pexels",
+    "artist": "omar Basly",
+    "commons_file": "pexels:15418265",
+    "source": "pexels:Iceberg Lake Glacier National Park"
+   }
+  ]
  },
  {
   "city": "红杉国家公园",
   "attraction": "General Sherman Tree",
-  "status": "miss"
+  "status": "ok",
+  "local": "红杉国家公园/General Sherman Tree_1.jpg",
+  "license": "Pexels",
+  "artist": "RDNE Stock project",
+  "commons_file": "pexels:8553105",
+  "source": "pexels:General Sherman Tree Sequoia National Park",
+  "extras": [
+   {
+    "local": "红杉国家公园/General Sherman Tree_2.jpg",
+    "license": "Pexels",
+    "artist": "Peter B",
+    "commons_file": "pexels:26225674",
+    "source": "pexels:General Sherman Tree Sequoia National Park"
+   },
+   {
+    "local": "红杉国家公园/General Sherman Tree_3.jpg",
+    "license": "Pexels",
+    "artist": "Jan Jüttner",
+    "commons_file": "pexels:5097539",
+    "source": "pexels:General Sherman Tree Sequoia National Park"
+   }
+  ]
  },
  {
   "city": "红杉国家公园",
   "attraction": "Moro Rock",
-  "status": "miss"
+  "status": "ok",
+  "local": "红杉国家公园/Moro Rock_1.jpg",
+  "license": "Pexels",
+  "artist": "Mazin Omron",
+  "commons_file": "pexels:29414180",
+  "source": "pexels:Moro Rock Sequoia National Park",
+  "extras": [
+   {
+    "local": "红杉国家公园/Moro Rock_2.jpg",
+    "license": "Pexels",
+    "artist": "Marcelo Borelli",
+    "commons_file": "pexels:36102032",
+    "source": "pexels:Moro Rock Sequoia National Park"
+   },
+   {
+    "local": "红杉国家公园/Moro Rock_3.jpg",
+    "license": "Pexels",
+    "artist": "RDNE Stock project",
+    "commons_file": "pexels:8553107",
+    "source": "pexels:Moro Rock Sequoia National Park"
+   }
+  ]
  },
  {
   "city": "红杉国家公园",
   "attraction": "Tunnel Log",
-  "status": "miss"
+  "status": "ok",
+  "local": "红杉国家公园/Tunnel Log_1.jpg",
+  "license": "Pexels",
+  "artist": "James Wilson",
+  "commons_file": "pexels:36101161",
+  "source": "pexels:Tunnel Log Sequoia National Park",
+  "extras": [
+   {
+    "local": "红杉国家公园/Tunnel Log_2.jpg",
+    "license": "Pexels",
+    "artist": "RDNE Stock project",
+    "commons_file": "pexels:8551851",
+    "source": "pexels:Tunnel Log Sequoia National Park"
+   },
+   {
+    "local": "红杉国家公园/Tunnel Log_3.jpg",
+    "license": "Pexels",
+    "artist": "James Lee",
+    "commons_file": "pexels:4231536",
+    "source": "pexels:Tunnel Log Sequoia National Park"
+   }
+  ]
  },
  {
   "city": "红杉国家公园",
   "attraction": "General Grant Tree",
-  "status": "miss"
+  "status": "ok",
+  "local": "红杉国家公园/General Grant Tree_1.jpg",
+  "license": "Pexels",
+  "artist": "Matthew Turner",
+  "commons_file": "pexels:298703",
+  "source": "pexels:General Grant Tree Kings Canyon",
+  "extras": [
+   {
+    "local": "红杉国家公园/General Grant Tree_2.jpg",
+    "license": "Pexels",
+    "artist": "RDNE Stock project",
+    "commons_file": "pexels:8551840",
+    "source": "pexels:General Grant Tree Kings Canyon"
+   },
+   {
+    "local": "红杉国家公园/General Grant Tree_3.jpg",
+    "license": "Pexels",
+    "artist": "Xiaoyi",
+    "commons_file": "pexels:5370087",
+    "source": "pexels:General Grant Tree Kings Canyon"
+   }
+  ]
  },
  {
   "city": "红杉国家公园",
   "attraction": "Zumwalt Meadow",
-  "status": "miss"
+  "status": "ok",
+  "local": "红杉国家公园/Zumwalt Meadow_1.jpg",
+  "license": "Pexels",
+  "artist": "Robby McCullough",
+  "commons_file": "pexels:1867601",
+  "source": "pexels:Zumwalt Meadow Kings Canyon",
+  "extras": [
+   {
+    "local": "红杉国家公园/Zumwalt Meadow_2.jpg",
+    "license": "Pexels",
+    "artist": "Alex Moliski",
+    "commons_file": "pexels:32623910",
+    "source": "pexels:Zumwalt Meadow Kings Canyon"
+   },
+   {
+    "local": "红杉国家公园/Zumwalt Meadow_3.jpg",
+    "license": "Pexels",
+    "artist": "Elijah Cobb",
+    "commons_file": "pexels:37777296",
+    "source": "pexels:Zumwalt Meadow Kings Canyon"
+   }
+  ]
  },
  {
   "city": "红杉国家公园",
   "attraction": "Boyden Cavern",
-  "status": "miss"
+  "status": "ok",
+  "local": "红杉国家公园/Boyden Cavern_1.jpg",
+  "license": "Pexels",
+  "artist": "Roberto Lee Cortes",
+  "commons_file": "pexels:17652139",
+  "source": "pexels:Boyden Cavern Kings Canyon",
+  "extras": [
+   {
+    "local": "红杉国家公园/Boyden Cavern_2.jpg",
+    "license": "Pexels",
+    "artist": "Roberto Lee Cortes",
+    "commons_file": "pexels:17652143",
+    "source": "pexels:Boyden Cavern Kings Canyon"
+   },
+   {
+    "local": "红杉国家公园/Boyden Cavern_3.jpg",
+    "license": "Pexels",
+    "artist": "Maria Tsegelnik",
+    "commons_file": "pexels:10845574",
+    "source": "pexels:Boyden Cavern Kings Canyon"
+   }
+  ]
  },
  {
   "city": "死亡谷国家公园",
   "attraction": "Dante's View",
-  "status": "miss"
+  "status": "ok",
+  "local": "死亡谷国家公园/Dante's View_1.jpg",
+  "license": "Pexels",
+  "artist": "Daniel Erlandson",
+  "commons_file": "pexels:31317384",
+  "source": "pexels:Dante's View Death Valley",
+  "extras": [
+   {
+    "local": "死亡谷国家公园/Dante's View_2.jpg",
+    "license": "Pexels",
+    "artist": "Maria",
+    "commons_file": "pexels:28544527",
+    "source": "pexels:Dante's View Death Valley"
+   },
+   {
+    "local": "死亡谷国家公园/Dante's View_3.jpg",
+    "license": "Pexels",
+    "artist": "Maria",
+    "commons_file": "pexels:28544529",
+    "source": "pexels:Dante's View Death Valley"
+   }
+  ]
  },
  {
   "city": "死亡谷国家公园",
   "attraction": "Zabriskie Point日落",
-  "status": "miss"
+  "status": "ok",
+  "local": "死亡谷国家公园/Zabriskie Point日落_1.jpg",
+  "license": "Pexels",
+  "artist": "Igor Passchier",
+  "commons_file": "pexels:27523305",
+  "source": "pexels:Zabriskie Point Death Valley sunset",
+  "extras": [
+   {
+    "local": "死亡谷国家公园/Zabriskie Point日落_2.jpg",
+    "license": "Pexels",
+    "artist": "Igor Passchier",
+    "commons_file": "pexels:27523319",
+    "source": "pexels:Zabriskie Point Death Valley sunset"
+   },
+   {
+    "local": "死亡谷国家公园/Zabriskie Point日落_3.jpg",
+    "license": "Pexels",
+    "artist": "Igor Passchier",
+    "commons_file": "pexels:27523307",
+    "source": "pexels:Zabriskie Point Death Valley sunset"
+   }
+  ]
  },
  {
   "city": "死亡谷国家公园",
   "attraction": "Badwater Basin",
-  "status": "miss"
+  "status": "ok",
+  "local": "死亡谷国家公园/Badwater Basin_1.jpg",
+  "license": "Pexels",
+  "artist": "Stephen Leonardi",
+  "commons_file": "pexels:34431864",
+  "source": "pexels:Badwater Basin Death Valley",
+  "extras": [
+   {
+    "local": "死亡谷国家公园/Badwater Basin_2.jpg",
+    "license": "Pexels",
+    "artist": "Angelica Reyn",
+    "commons_file": "pexels:11183594",
+    "source": "pexels:Badwater Basin Death Valley"
+   },
+   {
+    "local": "死亡谷国家公园/Badwater Basin_3.jpg",
+    "license": "Pexels",
+    "artist": "Phil Evenden",
+    "commons_file": "pexels:31969757",
+    "source": "pexels:Badwater Basin Death Valley"
+   }
+  ]
  },
  {
   "city": "死亡谷国家公园",
   "attraction": "Mesquite Sand Dunes",
-  "status": "miss"
+  "status": "ok",
+  "local": "死亡谷国家公园/Mesquite Sand Dunes_1.jpg",
+  "license": "Pexels",
+  "artist": "DeAndre Stallworth Davies",
+  "commons_file": "pexels:36678856",
+  "source": "pexels:Mesquite Flat Sand Dunes Death Valley",
+  "extras": [
+   {
+    "local": "死亡谷国家公园/Mesquite Sand Dunes_2.jpg",
+    "license": "Pexels",
+    "artist": "Stephen Leonardi",
+    "commons_file": "pexels:28639382",
+    "source": "pexels:Mesquite Flat Sand Dunes Death Valley"
+   },
+   {
+    "local": "死亡谷国家公园/Mesquite Sand Dunes_3.jpg",
+    "license": "Pexels",
+    "artist": "Phil Evenden",
+    "commons_file": "pexels:32112970",
+    "source": "pexels:Mesquite Flat Sand Dunes Death Valley"
+   }
+  ]
  },
  {
   "city": "死亡谷国家公园",
   "attraction": "Artist's Palette",
-  "status": "miss"
+  "status": "ok",
+  "local": "死亡谷国家公园/Artist's Palette_1.jpg",
+  "license": "Pexels",
+  "artist": "Elizabeth Iris",
+  "commons_file": "pexels:11436276",
+  "source": "pexels:Artists Palette Death Valley",
+  "extras": [
+   {
+    "local": "死亡谷国家公园/Artist's Palette_2.jpg",
+    "license": "Pexels",
+    "artist": "Tom Fournier",
+    "commons_file": "pexels:12205377",
+    "source": "pexels:Artists Palette Death Valley"
+   },
+   {
+    "local": "死亡谷国家公园/Artist's Palette_3.jpg",
+    "license": "Pexels",
+    "artist": "Stephen Taylor",
+    "commons_file": "pexels:6848483",
+    "source": "pexels:Artists Palette Death Valley"
+   }
+  ]
  },
  {
   "city": "火山口湖国家公园",
   "attraction": "Rim Drive环湖",
-  "status": "miss"
+  "status": "ok",
+  "local": "火山口湖国家公园/Rim Drive环湖_1.jpg",
+  "license": "Pexels",
+  "artist": "Brett Sayles",
+  "commons_file": "pexels:2794123",
+  "source": "pexels:Crater Lake National Park Oregon",
+  "extras": [
+   {
+    "local": "火山口湖国家公园/Rim Drive环湖_2.jpg",
+    "license": "Pexels",
+    "artist": "Ambient Vista",
+    "commons_file": "pexels:27254711",
+    "source": "pexels:Crater Lake National Park Oregon"
+   },
+   {
+    "local": "火山口湖国家公园/Rim Drive环湖_3.jpg",
+    "license": "Pexels",
+    "artist": "Brett Sayles",
+    "commons_file": "pexels:2896888",
+    "source": "pexels:Crater Lake National Park Oregon"
+   }
+  ]
  },
  {
   "city": "火山口湖国家公园",
   "attraction": "Watchman Overlook",
-  "status": "miss"
+  "status": "ok",
+  "local": "火山口湖国家公园/Watchman Overlook_1.jpg",
+  "license": "Pexels",
+  "artist": "Rino Adamo",
+  "commons_file": "pexels:34553038",
+  "source": "pexels:Watchman Overlook Crater Lake",
+  "extras": [
+   {
+    "local": "火山口湖国家公园/Watchman Overlook_2.jpg",
+    "license": "Pexels",
+    "artist": "Daniel Erlandson",
+    "commons_file": "pexels:31350292",
+    "source": "pexels:Watchman Overlook Crater Lake"
+   },
+   {
+    "local": "火山口湖国家公园/Watchman Overlook_3.jpg",
+    "license": "Pexels",
+    "artist": "Daniel Erlandson",
+    "commons_file": "pexels:31350293",
+    "source": "pexels:Watchman Overlook Crater Lake"
+   }
+  ]
  },
  {
   "city": "火山口湖国家公园",
   "attraction": "Cleetwood Cove Trail",
-  "status": "miss"
+  "status": "ok",
+  "local": "火山口湖国家公园/Cleetwood Cove Trail_1.jpg",
+  "license": "Pexels",
+  "artist": "Galina MyFoxyWorld",
+  "commons_file": "pexels:15525096",
+  "source": "pexels:Cleetwood Cove Trail Crater Lake",
+  "extras": [
+   {
+    "local": "火山口湖国家公园/Cleetwood Cove Trail_2.jpg",
+    "license": "Pexels",
+    "artist": "James Wilson",
+    "commons_file": "pexels:19108255",
+    "source": "pexels:Cleetwood Cove Trail Crater Lake"
+   },
+   {
+    "local": "火山口湖国家公园/Cleetwood Cove Trail_3.jpg",
+    "license": "Pexels",
+    "artist": "Brett Sayles",
+    "commons_file": "pexels:2794123",
+    "source": "pexels:Cleetwood Cove Trail Crater Lake"
+   }
+  ]
  }
 ]

@@ -4,150 +4,206 @@
   "attraction": "苏黎世湖",
   "status": "ok",
   "local": "苏黎世/苏黎世湖_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Thomas Woodtli",
-  "commons_file": "Zürichsee_Uto_Kulm.jpg",
-  "source": "zhwiki:苏黎世湖",
+  "license": "Pexels",
+  "artist": "Branka Krnjaja",
+  "commons_file": "pexels:32138888",
+  "source": "pexels:Lake Zurich Switzerland",
   "extras": [
    {
     "local": "苏黎世/苏黎世湖_2.jpg",
-    "license": "CC BY 4.0",
-    "artist": "Jakub Hałun",
-    "commons_file": "Lake Zurich at Rapperswil, 20250330 0825 7820.jpg",
-    "source": "commons-supplement:Lake Zurich"
+    "license": "Pexels",
+    "artist": "Borys Trusevych",
+    "commons_file": "pexels:21352949",
+    "source": "pexels:Lake Zurich Switzerland"
    },
    {
     "local": "苏黎世/苏黎世湖_3.jpg",
-    "license": "CC BY 4.0",
-    "artist": "Jakub Hałun",
-    "commons_file": "Lake Zurich at Rapperswil, 20250330 0825 7818.jpg",
-    "source": "commons-supplement:Lake Zurich"
-   },
-   {
-    "local": "苏黎世/苏黎世湖_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Daniel Kraft",
-    "commons_file": "Zurich from Felsenegg blue hour 20210126.jpg",
-    "source": "commons-supplement:Lake Zurich"
+    "license": "Pexels",
+    "artist": "Natalia Sevruk",
+    "commons_file": "pexels:35872266",
+    "source": "pexels:Lake Zurich Switzerland"
    }
   ]
  },
  {
   "city": "卢塞恩",
   "attraction": "狮子纪念碑",
-  "status": "miss"
+  "status": "ok",
+  "local": "卢塞恩/狮子纪念碑_1.jpg",
+  "license": "Pexels",
+  "artist": "Ilia Bronskiy",
+  "commons_file": "pexels:30441535",
+  "source": "pexels:Lion Monument Lucerne Switzerland",
+  "extras": [
+   {
+    "local": "卢塞恩/狮子纪念碑_2.jpg",
+    "license": "Pexels",
+    "artist": "ILOVESwitzerland",
+    "commons_file": "pexels:7929061",
+    "source": "pexels:Lion Monument Lucerne Switzerland"
+   },
+   {
+    "local": "卢塞恩/狮子纪念碑_3.jpg",
+    "license": "Pexels",
+    "artist": "Regan Dsouza",
+    "commons_file": "pexels:33711967",
+    "source": "pexels:Lion Monument Lucerne Switzerland"
+   }
+  ]
  },
  {
   "city": "卢塞恩",
   "attraction": "卡佩尔廊桥",
-  "status": "miss"
+  "status": "ok",
+  "local": "卢塞恩/卡佩尔廊桥_1.jpg",
+  "license": "Pexels",
+  "artist": "Adrien Olichon",
+  "commons_file": "pexels:18429608",
+  "source": "pexels:Chapel Bridge Lucerne Switzerland",
+  "extras": [
+   {
+    "local": "卢塞恩/卡佩尔廊桥_2.jpg",
+    "license": "Pexels",
+    "artist": "ILOVESwitzerland",
+    "commons_file": "pexels:7929056",
+    "source": "pexels:Chapel Bridge Lucerne Switzerland"
+   },
+   {
+    "local": "卢塞恩/卡佩尔廊桥_3.jpg",
+    "license": "Pexels",
+    "artist": "Adrien Olichon",
+    "commons_file": "pexels:18429620",
+    "source": "pexels:Chapel Bridge Lucerne Switzerland"
+   }
+  ]
  },
  {
   "city": "卢塞恩",
   "attraction": "瑞吉山",
   "status": "ok",
   "local": "卢塞恩/瑞吉山_1.jpg",
-  "license": "GFDL",
-  "artist": "Audrius Meskauskas",
-  "commons_file": "Fog_Rigi.jpg",
-  "source": "zhwiki:里吉山",
+  "license": "Pexels",
+  "artist": "Jean-Paul Wettstein",
+  "commons_file": "pexels:34345854",
+  "source": "pexels:Mount Rigi Switzerland",
   "extras": [
    {
     "local": "卢塞恩/瑞吉山_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Roy Egloff",
-    "commons_file": "CH.ZG.Zug 2005-03-17 Rigi.jpg",
-    "source": "commons-supplement:Rigi"
+    "license": "Pexels",
+    "artist": "Jean-Paul Wettstein",
+    "commons_file": "pexels:34345862",
+    "source": "pexels:Mount Rigi Switzerland"
    },
    {
     "local": "卢塞恩/瑞吉山_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Kabelleger / David Gubler",
-    "commons_file": "RB BDhe 2-4 II Rigi Staffel - Rigi Kulm.jpg",
-    "source": "commons-supplement:Rigi"
-   },
-   {
-    "local": "卢塞恩/瑞吉山_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Gianluca Miscione",
-    "commons_file": "Rigi - hotel room with a view.jpg",
-    "source": "commons-supplement:Rigi"
+    "license": "Pexels",
+    "artist": "Jean-Paul Wettstein",
+    "commons_file": "pexels:34345858",
+    "source": "pexels:Mount Rigi Switzerland"
    }
   ]
  },
  {
   "city": "卢塞恩",
   "attraction": "皮拉图斯山",
-  "status": "miss"
+  "status": "ok",
+  "local": "卢塞恩/皮拉图斯山_1.jpg",
+  "license": "Pexels",
+  "artist": "Sevi Schiegg",
+  "commons_file": "pexels:17628959",
+  "source": "pexels:Mount Pilatus Lucerne Switzerland",
+  "extras": [
+   {
+    "local": "卢塞恩/皮拉图斯山_2.jpg",
+    "license": "Pexels",
+    "artist": "Adrien Olichon",
+    "commons_file": "pexels:18429611",
+    "source": "pexels:Mount Pilatus Lucerne Switzerland"
+   },
+   {
+    "local": "卢塞恩/皮拉图斯山_3.jpg",
+    "license": "Pexels",
+    "artist": "Chait Goli",
+    "commons_file": "pexels:1796738",
+    "source": "pexels:Mount Pilatus Lucerne Switzerland"
+   }
+  ]
  },
  {
   "city": "因特拉肯",
   "attraction": "滑翔伞",
   "status": "ok",
   "local": "因特拉肯/滑翔伞_1.jpg",
-  "license": "CC BY-SA 2.0 fr",
-  "artist": "",
-  "commons_file": "Parapentiste_dome_1.jpg",
-  "source": "zhwiki:滑翔伞",
+  "license": "Pexels",
+  "artist": "Louis",
+  "commons_file": "pexels:34119861",
+  "source": "pexels:paragliding Interlaken Switzerland",
   "extras": [
    {
     "local": "因特拉肯/滑翔伞_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Another one of my pictures:\n\n\n\nThis photograph was taken by Medium69 (William Cr",
-    "commons_file": "Parapente - 166.jpg",
-    "source": "commons-supplement:Paragliding"
+    "license": "Pexels",
+    "artist": "Rodrigo Curi",
+    "commons_file": "pexels:5742880",
+    "source": "pexels:paragliding Interlaken Switzerland"
    },
    {
     "local": "因特拉肯/滑翔伞_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Basile Morin",
-    "commons_file": "Two-seater paramotor - Powered paragliding in flight - 3 quarter view a sunny afternoon in Don Det Laos.jpg",
-    "source": "commons-supplement:Paragliding"
-   },
-   {
-    "local": "因特拉肯/滑翔伞_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Another one of my pictures:\n\n\n\nThis photograph was taken by Medium69 (William Cr",
-    "commons_file": "Parapente - 184.jpg",
-    "source": "commons-supplement:Paragliding"
+    "license": "Pexels",
+    "artist": "Louis",
+    "commons_file": "pexels:34119859",
+    "source": "pexels:paragliding Interlaken Switzerland"
    }
   ]
  },
  {
   "city": "因特拉肯",
   "attraction": "逛吃",
-  "status": "miss"
+  "status": "ok",
+  "local": "因特拉肯/逛吃_1.jpg",
+  "license": "Pexels",
+  "artist": "Shamba Datta",
+  "commons_file": "pexels:27333998",
+  "source": "pexels:Interlaken town street Switzerland",
+  "extras": [
+   {
+    "local": "因特拉肯/逛吃_2.jpg",
+    "license": "Pexels",
+    "artist": "Gotta Be Worth It",
+    "commons_file": "pexels:5210129",
+    "source": "pexels:Interlaken town street Switzerland"
+   },
+   {
+    "local": "因特拉肯/逛吃_3.jpg",
+    "license": "Pexels",
+    "artist": "Abhishek  Navlakha",
+    "commons_file": "pexels:30951478",
+    "source": "pexels:Interlaken town street Switzerland"
+   }
+  ]
  },
  {
   "city": "因特拉肯",
   "attraction": "格林德尔瓦尔德",
   "status": "ok",
   "local": "因特拉肯/格林德尔瓦尔德_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Cristo Vlahos",
-  "commons_file": "Grindelwald_View_02.jpg",
-  "source": "zhwiki:格林德尔瓦尔德",
+  "license": "Pexels",
+  "artist": "Gotta Be Worth It",
+  "commons_file": "pexels:5210280",
+  "source": "pexels:Grindelwald village Eiger Switzerland",
   "extras": [
    {
     "local": "因特拉肯/格林德尔瓦尔德_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "W. Bulach",
-    "commons_file": "00 0020 Grindelwald - Wetterhorn.jpg",
-    "source": "commons-supplement:Grindelwald"
+    "license": "Pexels",
+    "artist": "라스 해",
+    "commons_file": "pexels:19336121",
+    "source": "pexels:Grindelwald village Eiger Switzerland"
    },
    {
     "local": "因特拉肯/格林德尔瓦尔德_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "W. Bulach",
-    "commons_file": "00 3442 Grindelwald - Eiger (Schweiz).jpg",
-    "source": "commons-supplement:Grindelwald"
-   },
-   {
-    "local": "因特拉肯/格林德尔瓦尔德_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "W. Bulach",
-    "commons_file": "05 Grindelwald (CH) - Blick auf das Wetterhorn.jpg",
-    "source": "commons-supplement:Grindelwald"
+    "license": "Pexels",
+    "artist": "A R",
+    "commons_file": "pexels:37374618",
+    "source": "pexels:Grindelwald village Eiger Switzerland"
    }
   ]
  },
@@ -156,84 +212,154 @@
   "attraction": "少女峰",
   "status": "ok",
   "local": "因特拉肯/少女峰_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Roland Zumbühl, Arlesheim",
-  "commons_file": "Jungfrau.jpg",
-  "source": "zhwiki:少女峰",
+  "license": "Pexels",
+  "artist": "Gotta Be Worth It",
+  "commons_file": "pexels:5210434",
+  "source": "pexels:Jungfraujoch Top of Europe Switzerland",
   "extras": [
    {
     "local": "因特拉肯/少女峰_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Axel Tschentscher",
-    "commons_file": "Bern Church of the Holy Ghost Spire with Eiger Mönch Jungfrau 2019-10-16 18-50.jpg",
-    "source": "commons-supplement:Jungfrau"
+    "license": "Pexels",
+    "artist": "INDU BIKASH SARKER",
+    "commons_file": "pexels:32261843",
+    "source": "pexels:Jungfraujoch Top of Europe Switzerland"
    },
    {
     "local": "因特拉肯/少女峰_3.jpg",
-    "license": "CC BY 4.0",
-    "artist": "Gerd Fahrenhorst",
-    "commons_file": "Jungfrau (Michael Komorowski) 1.jpg",
-    "source": "commons-supplement:Jungfrau"
-   },
-   {
-    "local": "因特拉肯/少女峰_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Earth explorer",
-    "commons_file": "2008 Jungfrau-2.jpg",
-    "source": "commons-supplement:Jungfrau"
+    "license": "Pexels",
+    "artist": "allPhoto Bangkok",
+    "commons_file": "pexels:13608274",
+    "source": "pexels:Jungfraujoch Top of Europe Switzerland"
    }
   ]
  },
  {
   "city": "因特拉肯",
   "attraction": "梦幻山坡",
-  "status": "miss"
+  "status": "ok",
+  "local": "因特拉肯/梦幻山坡_1.jpg",
+  "license": "Pexels",
+  "artist": "Som Thapa Magar",
+  "commons_file": "pexels:3496753",
+  "source": "pexels:Grindelwald First Bachalpsee Switzerland",
+  "extras": [
+   {
+    "local": "因特拉肯/梦幻山坡_2.jpg",
+    "license": "Pexels",
+    "artist": "Michael Wernet",
+    "commons_file": "pexels:4762810",
+    "source": "pexels:Grindelwald First Bachalpsee Switzerland"
+   },
+   {
+    "local": "因特拉肯/梦幻山坡_3.jpg",
+    "license": "Pexels",
+    "artist": "Willian Justen de Vasconcellos",
+    "commons_file": "pexels:24604748",
+    "source": "pexels:Grindelwald First Bachalpsee Switzerland"
+   }
+  ]
  },
  {
   "city": "因特拉肯",
   "attraction": "劳特布龙嫩",
-  "status": "miss"
+  "status": "ok",
+  "local": "因特拉肯/劳特布龙嫩_1.jpg",
+  "license": "Pexels",
+  "artist": "Gotta Be Worth It",
+  "commons_file": "pexels:5210151",
+  "source": "pexels:Lauterbrunnen valley waterfall Switzerland",
+  "extras": [
+   {
+    "local": "因特拉肯/劳特布龙嫩_2.jpg",
+    "license": "Pexels",
+    "artist": "Gotta Be Worth It",
+    "commons_file": "pexels:5210591",
+    "source": "pexels:Lauterbrunnen valley waterfall Switzerland"
+   },
+   {
+    "local": "因特拉肯/劳特布龙嫩_3.jpg",
+    "license": "Pexels",
+    "artist": "Adrian Limani",
+    "commons_file": "pexels:34242011",
+    "source": "pexels:Lauterbrunnen valley waterfall Switzerland"
+   }
+  ]
  },
  {
   "city": "因特拉肯",
   "attraction": "翁根",
-  "status": "miss"
+  "status": "ok",
+  "local": "因特拉肯/翁根_1.jpg",
+  "license": "Pexels",
+  "artist": "Gotta Be Worth It",
+  "commons_file": "pexels:5210495",
+  "source": "pexels:Wengen village Switzerland",
+  "extras": [
+   {
+    "local": "因特拉肯/翁根_2.jpg",
+    "license": "Pexels",
+    "artist": "Gotta Be Worth It",
+    "commons_file": "pexels:5210132",
+    "source": "pexels:Wengen village Switzerland"
+   },
+   {
+    "local": "因特拉肯/翁根_3.jpg",
+    "license": "Pexels",
+    "artist": "Gotta Be Worth It",
+    "commons_file": "pexels:5210580",
+    "source": "pexels:Wengen village Switzerland"
+   }
+  ]
  },
  {
   "city": "因特拉肯",
   "attraction": "瀑布",
-  "status": "miss"
+  "status": "ok",
+  "local": "因特拉肯/瀑布_1.jpg",
+  "license": "Pexels",
+  "artist": "Gotta Be Worth It",
+  "commons_file": "pexels:5210591",
+  "source": "pexels:Staubbach Falls Lauterbrunnen Switzerland",
+  "extras": [
+   {
+    "local": "因特拉肯/瀑布_2.jpg",
+    "license": "Pexels",
+    "artist": "Gotta Be Worth It",
+    "commons_file": "pexels:5210145",
+    "source": "pexels:Staubbach Falls Lauterbrunnen Switzerland"
+   },
+   {
+    "local": "因特拉肯/瀑布_3.jpg",
+    "license": "Pexels",
+    "artist": "Gotta Be Worth It",
+    "commons_file": "pexels:5210238",
+    "source": "pexels:Staubbach Falls Lauterbrunnen Switzerland"
+   }
+  ]
  },
  {
   "city": "因特拉肯",
   "attraction": "施皮茨",
   "status": "ok",
   "local": "因特拉肯/施皮茨_1.jpg",
-  "license": "CC BY-SA 2.5",
-  "artist": "Yesuitus2001 at de.wikipedia",
-  "commons_file": "Spiez.JPG",
-  "source": "zhwiki:施皮茨",
+  "license": "Pexels",
+  "artist": "Jean-Paul Wettstein",
+  "commons_file": "pexels:32529815",
+  "source": "pexels:Spiez castle Lake Thun Switzerland",
   "extras": [
    {
     "local": "因特拉肯/施皮茨_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Christian David",
-    "commons_file": "Schloss Spiez und Hafen Spiez.jpg",
-    "source": "commons-supplement:Spiez"
+    "license": "Pexels",
+    "artist": "BLACK IBEX",
+    "commons_file": "pexels:37535611",
+    "source": "pexels:Spiez castle Lake Thun Switzerland"
    },
    {
     "local": "因特拉肯/施皮茨_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "JoachimKohler-HB",
-    "commons_file": "Blick auf Schloss Spiez und Thunersee.jpg",
-    "source": "commons-supplement:Spiez"
-   },
-   {
-    "local": "因特拉肯/施皮茨_4.jpg",
-    "license": "Public domain",
-    "artist": "Gebrüder Sulzer",
-    "commons_file": "Schraubendampfer Spiez.jpg",
-    "source": "commons-supplement:Spiez"
+    "license": "Pexels",
+    "artist": "Jean-Paul Wettstein",
+    "commons_file": "pexels:32529820",
+    "source": "pexels:Spiez castle Lake Thun Switzerland"
    }
   ]
  },
@@ -242,31 +368,24 @@
   "attraction": "图恩湖",
   "status": "ok",
   "local": "因特拉肯/图恩湖_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Carsten Steger",
-  "commons_file": "Aerial_image_of_Lake_Thun_(view_from_the_east).jpg",
-  "source": "zhwiki:图恩湖",
+  "license": "Pexels",
+  "artist": "Jean-Paul Wettstein",
+  "commons_file": "pexels:32584183",
+  "source": "pexels:Lake Thun Switzerland",
   "extras": [
    {
     "local": "因特拉肯/图恩湖_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Giles Laurent",
-    "commons_file": "14 Harder Kulm Lac Thoune Photo by Giles Laurent.jpg",
-    "source": "commons-supplement:Lake Thun"
+    "license": "Pexels",
+    "artist": "Jean-Paul Wettstein",
+    "commons_file": "pexels:35705488",
+    "source": "pexels:Lake Thun Switzerland"
    },
    {
     "local": "因特拉肯/图恩湖_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Carsten Steger",
-    "commons_file": "Aerial image of Lake Thun (view from the east).jpg",
-    "source": "commons-supplement:Lake Thun"
-   },
-   {
-    "local": "因特拉肯/图恩湖_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "MartySwissCH",
-    "commons_file": "Lake Thun Panorama 2022 (view from Niesen).jpg",
-    "source": "commons-supplement:Lake Thun"
+    "license": "Pexels",
+    "artist": "Jean-Paul Wettstein",
+    "commons_file": "pexels:32379757",
+    "source": "pexels:Lake Thun Switzerland"
    }
   ]
  },
@@ -275,31 +394,24 @@
   "attraction": "布里恩茨湖",
   "status": "ok",
   "local": "因特拉肯/布里恩茨湖_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Carsten Steger",
-  "commons_file": "Aerial_image_of_Lake_Brienz_(view_from_the_southwest).jpg",
-  "source": "zhwiki:布里恩茨湖",
+  "license": "Pexels",
+  "artist": "Jean-Paul Wettstein",
+  "commons_file": "pexels:19521862",
+  "source": "pexels:Lake Brienz turquoise Switzerland",
   "extras": [
    {
     "local": "因特拉肯/布里恩茨湖_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Kabelleger / David Gubler (http://www.bahnbilder.ch)",
-    "commons_file": "ZB Interregio mit HGe 101 bei Niederried.jpg",
-    "source": "commons-supplement:Lake Brienz"
+    "license": "Pexels",
+    "artist": "Jean-Paul Wettstein",
+    "commons_file": "pexels:30779921",
+    "source": "pexels:Lake Brienz turquoise Switzerland"
    },
    {
     "local": "因特拉肯/布里恩茨湖_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "JoachimKohler-HB",
-    "commons_file": "BLS-Schiff \"Jungfrau\" an der Schifflände Brienz (2014).jpg",
-    "source": "commons-supplement:Lake Brienz"
-   },
-   {
-    "local": "因特拉肯/布里恩茨湖_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Carsten Steger",
-    "commons_file": "Aerial image of Lake Brienz (view from the southwest).jpg",
-    "source": "commons-supplement:Lake Brienz"
+    "license": "Pexels",
+    "artist": "Kok Horng Cheam",
+    "commons_file": "pexels:34281812",
+    "source": "pexels:Lake Brienz turquoise Switzerland"
    }
   ]
  },
@@ -308,31 +420,24 @@
   "attraction": "西庸城堡",
   "status": "ok",
   "local": "蒙特勒/西庸城堡_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Giles Laurent",
-  "commons_file": "001_Chateau_de_Chillon_and_Dents_du_Midi_Photo_by_Giles_Laurent.jpg",
-  "source": "zhwiki:希永城堡",
+  "license": "Pexels",
+  "artist": "Jean-Paul Wettstein",
+  "commons_file": "pexels:37138951",
+  "source": "pexels:Chillon Castle Lake Geneva Montreux",
   "extras": [
    {
     "local": "蒙特勒/西庸城堡_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Giles Laurent",
-    "commons_file": "001 Chateau de Chillon and Dents du Midi Photo by Giles Laurent.jpg",
-    "source": "commons-supplement:Chillon Castle"
+    "license": "Pexels",
+    "artist": "Philippe Forestier",
+    "commons_file": "pexels:33754225",
+    "source": "pexels:Chillon Castle Lake Geneva Montreux"
    },
    {
     "local": "蒙特勒/西庸城堡_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Benjamin Gimmel BenHur",
-    "commons_file": "Schweiz Schloss Chillon Gesamtansicht.jpg",
-    "source": "commons-supplement:Chillon Castle"
-   },
-   {
-    "local": "蒙特勒/西庸城堡_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Llez",
-    "commons_file": "Château de Chillon - Veytaux 11.jpg",
-    "source": "commons-supplement:Chillon Castle"
+    "license": "Pexels",
+    "artist": "Sanat Anghan",
+    "commons_file": "pexels:32545864",
+    "source": "pexels:Chillon Castle Lake Geneva Montreux"
    }
   ]
  },
@@ -341,31 +446,24 @@
   "attraction": "日内瓦湖",
   "status": "ok",
   "local": "蒙特勒/日内瓦湖_1.jpg",
-  "license": "CC BY-SA 3.0 igo",
-  "artist": "Copernicus Sentinel-2, ESA",
-  "commons_file": "Lake_Geneva_by_Sentinel-2.jpg",
-  "source": "zhwiki:萊芒湖",
+  "license": "Pexels",
+  "artist": "Manish Jain",
+  "commons_file": "pexels:33417944",
+  "source": "pexels:Lake Geneva Montreux Switzerland",
   "extras": [
    {
     "local": "蒙特勒/日内瓦湖_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Giles Laurent",
-    "commons_file": "093 Wild Mute swan at Lake Geneva during sunset Photo by Giles Laurent.jpg",
-    "source": "commons-supplement:Lake Geneva"
+    "license": "Pexels",
+    "artist": "Jean-Paul Wettstein",
+    "commons_file": "pexels:31579403",
+    "source": "pexels:Lake Geneva Montreux Switzerland"
    },
    {
     "local": "蒙特勒/日内瓦湖_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Giles Laurent",
-    "commons_file": "092 Wild Mute swan in flight at Lake Geneva during golden hour of sunset Photo by Giles Laurent.jpg",
-    "source": "commons-supplement:Lake Geneva"
-   },
-   {
-    "local": "蒙特勒/日内瓦湖_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Dmitry A. Mottl",
-    "commons_file": "Lake Geneva from Chillon Castle.jpg",
-    "source": "commons-supplement:Lake Geneva"
+    "license": "Pexels",
+    "artist": "ILOVESwitzerland",
+    "commons_file": "pexels:7932567",
+    "source": "pexels:Lake Geneva Montreux Switzerland"
    }
   ]
  },
@@ -374,31 +472,24 @@
   "attraction": "马特洪峰",
   "status": "ok",
   "local": "采尔马特/马特洪峰_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Photo: chil, on Camptocamp.org\nDerivative work:Zacharie Grossen",
-  "commons_file": "Matterhorn_from_Domhütte_-_2.jpg",
-  "source": "zhwiki:马特峰",
+  "license": "Pexels",
+  "artist": "Jean-Paul Wettstein",
+  "commons_file": "pexels:32496419",
+  "source": "pexels:Matterhorn Zermatt Switzerland",
   "extras": [
    {
     "local": "采尔马特/马特洪峰_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Dirk Beyer",
-    "commons_file": "Matterhorn Riffelsee 2005-06-11.jpg",
-    "source": "commons-supplement:Matterhorn"
+    "license": "Pexels",
+    "artist": "Christian Marohn",
+    "commons_file": "pexels:18861255",
+    "source": "pexels:Matterhorn Zermatt Switzerland"
    },
    {
     "local": "采尔马特/马特洪峰_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Liridon",
-    "commons_file": "Matterhorn, March 2019 (01).jpg",
-    "source": "commons-supplement:Matterhorn"
-   },
-   {
-    "local": "采尔马特/马特洪峰_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Giles Laurent",
-    "commons_file": "008 Milky way aligned with the Matterhorn reflecting in Stellisee Photo by Giles Laurent.jpg",
-    "source": "commons-supplement:Matterhorn"
+    "license": "Pexels",
+    "artist": "Phil Evenden",
+    "commons_file": "pexels:20552389",
+    "source": "pexels:Matterhorn Zermatt Switzerland"
    }
   ]
  },
@@ -407,74 +498,102 @@
   "attraction": "戈尔内格拉特",
   "status": "ok",
   "local": "采尔马特/戈尔内格拉特_1.jpg",
-  "license": "Public domain",
-  "artist": "Johnw",
-  "commons_file": "Gornergrat.jpg",
-  "source": "zhwiki:戈爾內格拉特",
+  "license": "Pexels",
+  "artist": "Jean-Paul Wettstein",
+  "commons_file": "pexels:35093470",
+  "source": "pexels:Gornergrat Matterhorn railway Zermatt",
   "extras": [
    {
     "local": "采尔马特/戈尔内格拉特_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Tobi 87",
-    "commons_file": "Panorama vom Gornergrat-Zermatt.jpg",
-    "source": "commons-supplement:Gornergrat"
+    "license": "Pexels",
+    "artist": "Oskar Gross",
+    "commons_file": "pexels:34192234",
+    "source": "pexels:Gornergrat Matterhorn railway Zermatt"
    },
    {
     "local": "采尔马特/戈尔内格拉特_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Ka23 13",
-    "commons_file": "Gornergrat 20190717 1619.jpg",
-    "source": "commons-supplement:Gornergrat"
-   },
-   {
-    "local": "采尔马特/戈尔内格拉特_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Bob Tan",
-    "commons_file": "Aerial panorama of the Gornergrat 170622.jpg",
-    "source": "commons-supplement:Gornergrat"
+    "license": "Pexels",
+    "artist": "Susanne Jutzeler, suju-foto",
+    "commons_file": "pexels:15910158",
+    "source": "pexels:Gornergrat Matterhorn railway Zermatt"
    }
   ]
  },
  {
   "city": "采尔马特",
   "attraction": "五湖徒步",
-  "status": "miss"
+  "status": "ok",
+  "local": "采尔马特/五湖徒步_1.jpg",
+  "license": "Pexels",
+  "artist": "Jean-Paul Wettstein",
+  "commons_file": "pexels:19244955",
+  "source": "pexels:Five Lakes Walk Stellisee Matterhorn Zermatt",
+  "extras": [
+   {
+    "local": "采尔马特/五湖徒步_2.jpg",
+    "license": "Pexels",
+    "artist": "Jean-Paul Wettstein",
+    "commons_file": "pexels:32496419",
+    "source": "pexels:Five Lakes Walk Stellisee Matterhorn Zermatt"
+   },
+   {
+    "local": "采尔马特/五湖徒步_3.jpg",
+    "license": "Pexels",
+    "artist": "Jean-Paul Wettstein",
+    "commons_file": "pexels:32496425",
+    "source": "pexels:Five Lakes Walk Stellisee Matterhorn Zermatt"
+   }
+  ]
  },
  {
   "city": "采尔马特",
   "attraction": "利菲尔湖",
-  "status": "miss"
+  "status": "ok",
+  "local": "采尔马特/利菲尔湖_1.jpg",
+  "license": "Pexels",
+  "artist": "Jean-Paul Wettstein",
+  "commons_file": "pexels:32496417",
+  "source": "pexels:Riffelsee Matterhorn reflection Zermatt",
+  "extras": [
+   {
+    "local": "采尔马特/利菲尔湖_2.jpg",
+    "license": "Pexels",
+    "artist": "z yan",
+    "commons_file": "pexels:11745762",
+    "source": "pexels:Riffelsee Matterhorn reflection Zermatt"
+   },
+   {
+    "local": "采尔马特/利菲尔湖_3.jpg",
+    "license": "Pexels",
+    "artist": "Ilia Bronskiy",
+    "commons_file": "pexels:29734975",
+    "source": "pexels:Riffelsee Matterhorn reflection Zermatt"
+   }
+  ]
  },
  {
   "city": "日内瓦",
   "attraction": "大喷泉",
   "status": "ok",
   "local": "日内瓦/大喷泉_1.jpg",
-  "license": "CC BY 2.5",
-  "artist": "Sylenius",
-  "commons_file": "Lake_Geneva.jpg",
-  "source": "zhwiki:大噴泉",
+  "license": "Pexels",
+  "artist": "Nadia haida",
+  "commons_file": "pexels:14856873",
+  "source": "pexels:Jet d'Eau Geneva Switzerland",
   "extras": [
    {
     "local": "日内瓦/大喷泉_2.jpg",
-    "license": "Public domain",
-    "artist": "Original uploaded by Jmcboi (Transfered by Tomer T)",
-    "commons_file": "Jet d'eau Aug 06.JPG",
-    "source": "commons-supplement:Jet d'Eau"
+    "license": "Pexels",
+    "artist": "Milada Vigerova",
+    "commons_file": "pexels:5984855",
+    "source": "pexels:Jet d'Eau Geneva Switzerland"
    },
    {
     "local": "日内瓦/大喷泉_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Wikibusters",
-    "commons_file": "Jet d'eau de Genève (swiss).jpg",
-    "source": "commons-supplement:Jet d'Eau"
-   },
-   {
-    "local": "日内瓦/大喷泉_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "John Samuel",
-    "commons_file": "Jet d'eau, Geneva.jpg",
-    "source": "commons-supplement:Jet d'Eau"
+    "license": "Pexels",
+    "artist": "Toba Oduwaiye",
+    "commons_file": "pexels:36700766",
+    "source": "pexels:Jet d'Eau Geneva Switzerland"
    }
   ]
  },
@@ -483,47 +602,103 @@
   "attraction": "圣莫里茨湖",
   "status": "ok",
   "local": "圣莫里茨/圣莫里茨湖_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Tiia Monto",
-  "commons_file": "Lake_St._Moritz.jpg",
-  "source": "zhwiki:聖莫里茲湖",
+  "license": "Pexels",
+  "artist": "Jean-Paul Wettstein",
+  "commons_file": "pexels:37650621",
+  "source": "pexels:Lake St Moritz Switzerland",
   "extras": [
    {
     "local": "圣莫里茨/圣莫里茨湖_2.jpg",
-    "license": "CC BY 3.0",
-    "artist": "Murdockcrc",
-    "commons_file": "St Moritz Muottas.jpg",
-    "source": "commons-supplement:Lake St. Moritz"
+    "license": "Pexels",
+    "artist": "Jean-Paul Wettstein",
+    "commons_file": "pexels:37650618",
+    "source": "pexels:Lake St Moritz Switzerland"
    },
    {
     "local": "圣莫里茨/圣莫里茨湖_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Isiwal",
-    "commons_file": "Sankt Moritz Lake Piz Muragl.jpg",
-    "source": "commons-supplement:Lake St. Moritz"
-   },
-   {
-    "local": "圣莫里茨/圣莫里茨湖_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "JoachimKohler-HB",
-    "commons_file": "Blick über den Sankt Moritzersee auf Sankt Moritz.jpg",
-    "source": "commons-supplement:Lake St. Moritz"
+    "license": "Pexels",
+    "artist": "Jean-Paul Wettstein",
+    "commons_file": "pexels:37650641",
+    "source": "pexels:Lake St Moritz Switzerland"
    }
   ]
  },
  {
   "city": "圣莫里茨",
   "attraction": "滑雪",
-  "status": "miss"
+  "status": "ok",
+  "local": "圣莫里茨/滑雪_1.jpg",
+  "license": "Pexels",
+  "artist": "Alexandru MnM",
+  "commons_file": "pexels:30100951",
+  "source": "pexels:St Moritz ski resort Alps Switzerland",
+  "extras": [
+   {
+    "local": "圣莫里茨/滑雪_2.jpg",
+    "license": "Pexels",
+    "artist": "Alexandru MnM",
+    "commons_file": "pexels:30774342",
+    "source": "pexels:St Moritz ski resort Alps Switzerland"
+   },
+   {
+    "local": "圣莫里茨/滑雪_3.jpg",
+    "license": "Pexels",
+    "artist": "Alexandru MnM",
+    "commons_file": "pexels:30151209",
+    "source": "pexels:St Moritz ski resort Alps Switzerland"
+   }
+  ]
  },
  {
   "city": "伯尔尼",
   "attraction": "钟楼",
-  "status": "miss"
+  "status": "ok",
+  "local": "伯尔尼/钟楼_1.jpg",
+  "license": "Pexels",
+  "artist": "Adrien Olichon",
+  "commons_file": "pexels:18510639",
+  "source": "pexels:Zytglogge clock tower Bern Switzerland",
+  "extras": [
+   {
+    "local": "伯尔尼/钟楼_2.jpg",
+    "license": "Pexels",
+    "artist": "Shootcase Chronicles",
+    "commons_file": "pexels:8010673",
+    "source": "pexels:Zytglogge clock tower Bern Switzerland"
+   },
+   {
+    "local": "伯尔尼/钟楼_3.jpg",
+    "license": "Pexels",
+    "artist": "Louis",
+    "commons_file": "pexels:22180922",
+    "source": "pexels:Zytglogge clock tower Bern Switzerland"
+   }
+  ]
  },
  {
   "city": "伯尔尼",
   "attraction": "熊苑",
-  "status": "miss"
+  "status": "ok",
+  "local": "伯尔尼/熊苑_1.jpg",
+  "license": "Pexels",
+  "artist": "Louis",
+  "commons_file": "pexels:16458278",
+  "source": "pexels:Bear Park Bern Switzerland",
+  "extras": [
+   {
+    "local": "伯尔尼/熊苑_2.jpg",
+    "license": "Pexels",
+    "artist": "Diego Madrigal",
+    "commons_file": "pexels:539689",
+    "source": "pexels:Bear Park Bern Switzerland"
+   },
+   {
+    "local": "伯尔尼/熊苑_3.jpg",
+    "license": "Pexels",
+    "artist": "Adrien Olichon",
+    "commons_file": "pexels:28233037",
+    "source": "pexels:Bear Park Bern Switzerland"
+   }
+  ]
  }
 ]

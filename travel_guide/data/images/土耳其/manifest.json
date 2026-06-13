@@ -2,81 +2,130 @@
  {
   "city": "伊斯坦布尔",
   "attraction": "蓝色清真寺",
-  "status": "miss"
+  "status": "ok",
+  "local": "伊斯坦布尔/蓝色清真寺_1.jpg",
+  "license": "Pexels",
+  "artist": "Fatih Al Haq",
+  "commons_file": "pexels:5246073",
+  "source": "pexels:Blue Mosque Istanbul",
+  "extras": [
+   {
+    "local": "伊斯坦布尔/蓝色清真寺_2.jpg",
+    "license": "Pexels",
+    "artist": "Ncang Jack",
+    "commons_file": "pexels:32570928",
+    "source": "pexels:Blue Mosque Istanbul"
+   },
+   {
+    "local": "伊斯坦布尔/蓝色清真寺_3.jpg",
+    "license": "Pexels",
+    "artist": "S4met Kocaman",
+    "commons_file": "pexels:28000155",
+    "source": "pexels:Blue Mosque Istanbul"
+   }
+  ]
  },
  {
   "city": "伊斯坦布尔",
   "attraction": "圣索菲亚大教堂",
-  "status": "miss"
+  "status": "ok",
+  "local": "伊斯坦布尔/圣索菲亚大教堂_1.jpg",
+  "license": "Pexels",
+  "artist": "Mehmet Turgut  Kirkgoz",
+  "commons_file": "pexels:17985022",
+  "source": "pexels:Hagia Sophia Istanbul",
+  "extras": [
+   {
+    "local": "伊斯坦布尔/圣索菲亚大教堂_2.jpg",
+    "license": "Pexels",
+    "artist": "Mehmet Turgut  Kirkgoz",
+    "commons_file": "pexels:17977261",
+    "source": "pexels:Hagia Sophia Istanbul"
+   },
+   {
+    "local": "伊斯坦布尔/圣索菲亚大教堂_3.jpg",
+    "license": "Pexels",
+    "artist": "Mehmet Turgut  Kirkgoz",
+    "commons_file": "pexels:18804021",
+    "source": "pexels:Hagia Sophia Istanbul"
+   }
+  ]
  },
  {
   "city": "伊斯坦布尔",
   "attraction": "大巴扎",
   "status": "ok",
   "local": "伊斯坦布尔/大巴扎_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "No machine-readable author provided. OsvaldoGago assumed (based on copyright cla",
-  "commons_file": "Grand_Bazaar_01.JPG",
-  "source": "zhwiki:大巴扎 (伊斯坦布尔)",
+  "license": "Pexels",
+  "artist": "Tolga deniz Aran",
+  "commons_file": "pexels:33349433",
+  "source": "pexels:Grand Bazaar Istanbul",
   "extras": [
    {
     "local": "伊斯坦布尔/大巴扎_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Amir Pashaei",
-    "commons_file": "Roof of the qom grand bazaar, qom, iran.jpg",
-    "source": "commons-supplement:Grand Bazaar"
+    "license": "Pexels",
+    "artist": "Muhammed Zahid Bulut",
+    "commons_file": "pexels:15872345",
+    "source": "pexels:Grand Bazaar Istanbul"
    },
    {
     "local": "伊斯坦布尔/大巴扎_3.jpg",
-    "license": "CC BY 2.0",
-    "artist": "Babak Farrokhi",
-    "commons_file": "Tehran Old Bazaar.jpg",
-    "source": "commons-supplement:Grand Bazaar"
-   },
-   {
-    "local": "伊斯坦布尔/大巴扎_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Amir Pashaei",
-    "commons_file": "Roof of the qom grand bazaar.jpg",
-    "source": "commons-supplement:Grand Bazaar"
+    "license": "Pexels",
+    "artist": "Muhammed Zahid Bulut",
+    "commons_file": "pexels:16399374",
+    "source": "pexels:Grand Bazaar Istanbul"
    }
   ]
  },
  {
   "city": "伊斯坦布尔",
   "attraction": "香料市场",
-  "status": "miss"
+  "status": "ok",
+  "local": "伊斯坦布尔/香料市场_1.jpg",
+  "license": "Pexels",
+  "artist": "Meruyert Gonullu",
+  "commons_file": "pexels:7317603",
+  "source": "pexels:Spice Bazaar Istanbul",
+  "extras": [
+   {
+    "local": "伊斯坦布尔/香料市场_2.jpg",
+    "license": "Pexels",
+    "artist": "Meruyert Gonullu",
+    "commons_file": "pexels:7317592",
+    "source": "pexels:Spice Bazaar Istanbul"
+   },
+   {
+    "local": "伊斯坦布尔/香料市场_3.jpg",
+    "license": "Pexels",
+    "artist": "Enes Bayraktar",
+    "commons_file": "pexels:8859643",
+    "source": "pexels:Spice Bazaar Istanbul"
+   }
+  ]
  },
  {
   "city": "伊斯坦布尔",
   "attraction": "博斯普鲁斯海峡",
   "status": "ok",
   "local": "伊斯坦布尔/博斯普鲁斯海峡_1.jpg",
-  "license": "Public domain",
-  "artist": "Astronaut photograph ISS008-E-21752",
-  "commons_file": "Istanbul_and_Bosporus_big.jpg",
-  "source": "zhwiki:博斯普鲁斯海峡",
+  "license": "Pexels",
+  "artist": "Yeşim Çolak",
+  "commons_file": "pexels:31585397",
+  "source": "pexels:Bosphorus strait Istanbul",
   "extras": [
    {
     "local": "伊斯坦布尔/博斯普鲁斯海峡_2.jpg",
-    "license": "Public domain",
-    "artist": "Astronaut photograph ISS008-E-21752",
-    "commons_file": "Istanbul and Bosporus big.jpg",
-    "source": "commons-supplement:Bosporus"
+    "license": "Pexels",
+    "artist": "Arthur Shuraev",
+    "commons_file": "pexels:16558701",
+    "source": "pexels:Bosphorus strait Istanbul"
    },
    {
     "local": "伊斯坦布尔/博斯普鲁斯海峡_3.jpg",
-    "license": "FAL",
-    "artist": "A.Savin",
-    "commons_file": "Istanbul asv2020-02 img55 View of Beşiktaş.jpg",
-    "source": "commons-supplement:Bosporus"
-   },
-   {
-    "local": "伊斯坦布尔/博斯普鲁斯海峡_4.jpg",
-    "license": "CC0",
-    "artist": "Julian Lupyan",
-    "commons_file": "Pond and Fence along the Bosporus Strait, Dolmabahçe Palace, Istanbul.jpg",
-    "source": "commons-supplement:Bosporus"
+    "license": "Pexels",
+    "artist": "OG Photography",
+    "commons_file": "pexels:34621168",
+    "source": "pexels:Bosphorus strait Istanbul"
    }
   ]
  },
@@ -85,89 +134,180 @@
   "attraction": "热气球",
   "status": "ok",
   "local": "卡帕多奇亚/热气球_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Kropsoq",
-  "commons_file": "2006_Ojiya_balloon_festival_011.jpg",
-  "source": "zhwiki:热气球",
+  "license": "Pexels",
+  "artist": "Hatice",
+  "commons_file": "pexels:27260270",
+  "source": "pexels:Cappadocia hot air balloon Turkey",
   "extras": [
    {
     "local": "卡帕多奇亚/热气球_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Tomas Castelazo",
-    "commons_file": "Leon hot air balloon festival 2010.jpg",
-    "source": "commons-supplement:Hot air balloon"
+    "license": "Pexels",
+    "artist": "İbrahim Can  Dayıoğlu",
+    "commons_file": "pexels:27869635",
+    "source": "pexels:Cappadocia hot air balloon Turkey"
    },
    {
     "local": "卡帕多奇亚/热气球_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Tomas Castelazo",
-    "commons_file": "Darth vader hot air balloon.jpg",
-    "source": "commons-supplement:Hot air balloon"
-   },
-   {
-    "local": "卡帕多奇亚/热气球_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Benh LIEU SONG (Flickr)",
-    "commons_file": "Cappadocia Balloon Inflating Wikimedia Commons.JPG",
-    "source": "commons-supplement:Hot air balloon"
+    "license": "Pexels",
+    "artist": "Ravindra Nadkarni",
+    "commons_file": "pexels:29511479",
+    "source": "pexels:Cappadocia hot air balloon Turkey"
    }
   ]
  },
  {
   "city": "卡帕多奇亚",
   "attraction": "格雷梅露天博物馆",
-  "status": "miss"
+  "status": "ok",
+  "local": "卡帕多奇亚/格雷梅露天博物馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Cihan Çimen",
+  "commons_file": "pexels:34718305",
+  "source": "pexels:Goreme Open Air Museum Cappadocia",
+  "extras": [
+   {
+    "local": "卡帕多奇亚/格雷梅露天博物馆_2.jpg",
+    "license": "Pexels",
+    "artist": "Vitaly Gariev",
+    "commons_file": "pexels:23227987",
+    "source": "pexels:Goreme Open Air Museum Cappadocia"
+   },
+   {
+    "local": "卡帕多奇亚/格雷梅露天博物馆_3.jpg",
+    "license": "Pexels",
+    "artist": "Duygu Yıldırım",
+    "commons_file": "pexels:33986889",
+    "source": "pexels:Goreme Open Air Museum Cappadocia"
+   }
+  ]
  },
  {
   "city": "卡帕多奇亚",
   "attraction": "洞穴酒店",
-  "status": "miss"
+  "status": "ok",
+  "local": "卡帕多奇亚/洞穴酒店_1.jpg",
+  "license": "Pexels",
+  "artist": "Onur Burak Akın",
+  "commons_file": "pexels:18648378",
+  "source": "pexels:Cappadocia cave hotel terrace",
+  "extras": [
+   {
+    "local": "卡帕多奇亚/洞穴酒店_2.jpg",
+    "license": "Pexels",
+    "artist": "Devilishly Good",
+    "commons_file": "pexels:5345594",
+    "source": "pexels:Cappadocia cave hotel terrace"
+   },
+   {
+    "local": "卡帕多奇亚/洞穴酒店_3.jpg",
+    "license": "Pexels",
+    "artist": "Maksim Romashkin",
+    "commons_file": "pexels:10024025",
+    "source": "pexels:Cappadocia cave hotel terrace"
+   }
+  ]
  },
  {
   "city": "卡帕多奇亚",
   "attraction": "精灵烟囱",
-  "status": "miss"
+  "status": "ok",
+  "local": "卡帕多奇亚/精灵烟囱_1.jpg",
+  "license": "Pexels",
+  "artist": "Kemal Taş",
+  "commons_file": "pexels:12807824",
+  "source": "pexels:Cappadocia fairy chimneys",
+  "extras": [
+   {
+    "local": "卡帕多奇亚/精灵烟囱_2.jpg",
+    "license": "Pexels",
+    "artist": "Mehmet Turgut  Kirkgoz",
+    "commons_file": "pexels:11960245",
+    "source": "pexels:Cappadocia fairy chimneys"
+   },
+   {
+    "local": "卡帕多奇亚/精灵烟囱_3.jpg",
+    "license": "Pexels",
+    "artist": "Sami TÜRK",
+    "commons_file": "pexels:14816456",
+    "source": "pexels:Cappadocia fairy chimneys"
+   }
+  ]
  },
  {
   "city": "安塔利亚",
   "attraction": "哈德良门",
-  "status": "miss"
+  "status": "ok",
+  "local": "安塔利亚/哈德良门_1.jpg",
+  "license": "Pexels",
+  "artist": "Aysegul Aytoren",
+  "commons_file": "pexels:14556858",
+  "source": "pexels:Hadrian's Gate Antalya",
+  "extras": [
+   {
+    "local": "安塔利亚/哈德良门_2.jpg",
+    "license": "Pexels",
+    "artist": "Nihat Küçük",
+    "commons_file": "pexels:33630404",
+    "source": "pexels:Hadrian's Gate Antalya"
+   },
+   {
+    "local": "安塔利亚/哈德良门_3.jpg",
+    "license": "Pexels",
+    "artist": "Valeria Drozdova",
+    "commons_file": "pexels:34727247",
+    "source": "pexels:Hadrian's Gate Antalya"
+   }
+  ]
  },
  {
   "city": "安塔利亚",
   "attraction": "阿斯班多斯",
-  "status": "miss"
+  "status": "ok",
+  "local": "安塔利亚/阿斯班多斯_1.jpg",
+  "license": "Pexels",
+  "artist": "Kadircan Aktaş",
+  "commons_file": "pexels:29734951",
+  "source": "pexels:Aspendos theatre Antalya",
+  "extras": [
+   {
+    "local": "安塔利亚/阿斯班多斯_2.jpg",
+    "license": "Pexels",
+    "artist": "Emrah AYVALI",
+    "commons_file": "pexels:19004824",
+    "source": "pexels:Aspendos theatre Antalya"
+   },
+   {
+    "local": "安塔利亚/阿斯班多斯_3.jpg",
+    "license": "Pexels",
+    "artist": "Ayman Mahmoud",
+    "commons_file": "pexels:34787710",
+    "source": "pexels:Aspendos theatre Antalya"
+   }
+  ]
  },
  {
   "city": "费特希耶",
   "attraction": "滑翔伞",
   "status": "ok",
   "local": "费特希耶/滑翔伞_1.jpg",
-  "license": "CC BY-SA 2.0 fr",
-  "artist": "",
-  "commons_file": "Parapentiste_dome_1.jpg",
-  "source": "zhwiki:滑翔伞",
+  "license": "Pexels",
+  "artist": "Mahmut Yılmaz",
+  "commons_file": "pexels:35256137",
+  "source": "pexels:Oludeniz paragliding Fethiye",
   "extras": [
    {
     "local": "费特希耶/滑翔伞_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Another one of my pictures:\n\n\n\nThis photograph was taken by Medium69 (William Cr",
-    "commons_file": "Parapente - 166.jpg",
-    "source": "commons-supplement:Paragliding"
+    "license": "Pexels",
+    "artist": "Bilal Furkan KOŞAR",
+    "commons_file": "pexels:19725511",
+    "source": "pexels:Oludeniz paragliding Fethiye"
    },
    {
     "local": "费特希耶/滑翔伞_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Basile Morin",
-    "commons_file": "Two-seater paramotor - Powered paragliding in flight - 3 quarter view a sunny afternoon in Don Det Laos.jpg",
-    "source": "commons-supplement:Paragliding"
-   },
-   {
-    "local": "费特希耶/滑翔伞_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Another one of my pictures:\n\n\n\nThis photograph was taken by Medium69 (William Cr",
-    "commons_file": "Parapente - 184.jpg",
-    "source": "commons-supplement:Paragliding"
+    "license": "Pexels",
+    "artist": "Hasan Gunher",
+    "commons_file": "pexels:6372747",
+    "source": "pexels:Oludeniz paragliding Fethiye"
    }
   ]
  },
@@ -176,69 +316,76 @@
   "attraction": "蝴蝶谷",
   "status": "ok",
   "local": "费特希耶/蝴蝶谷_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "ONewYork",
-  "commons_file": "HK_Butterfly_Valley_Road_Flyover_n_Bus_6D_n_36B.JPG",
-  "source": "zhwiki:蝴蝶谷",
+  "license": "Pexels",
+  "artist": "Erhan Dayı",
+  "commons_file": "pexels:34004908",
+  "source": "pexels:Butterfly Valley Fethiye Turkey",
   "extras": [
    {
     "local": "费特希耶/蝴蝶谷_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Ezzeldin.Elbaksawy",
-    "commons_file": "Butterfly Valley, Fethiye.jpg",
-    "source": "commons-supplement:Butterfly Valley"
+    "license": "Pexels",
+    "artist": "Rockwell branding agency",
+    "commons_file": "pexels:12116614",
+    "source": "pexels:Butterfly Valley Fethiye Turkey"
    },
    {
     "local": "费特希耶/蝴蝶谷_3.jpg",
-    "license": "CC0",
-    "artist": "Maurice07",
-    "commons_file": "Valley of Butterflies.JPG",
-    "source": "commons-supplement:Butterfly Valley"
-   },
-   {
-    "local": "费特希耶/蝴蝶谷_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Subhendukhan",
-    "commons_file": "Close wing position of Delias belladonna Fabricius, 1793 – Hill Jezebel Butterflies of Talle valley - 5.jpg",
-    "source": "commons-supplement:Butterfly Valley"
+    "license": "Pexels",
+    "artist": "ROMAN ODINTSOV",
+    "commons_file": "pexels:6534207",
+    "source": "pexels:Butterfly Valley Fethiye Turkey"
    }
   ]
  },
  {
   "city": "费特希耶",
   "attraction": "厄吕代尼兹海滩",
-  "status": "miss"
+  "status": "ok",
+  "local": "费特希耶/厄吕代尼兹海滩_1.jpg",
+  "license": "Pexels",
+  "artist": "Elvin Muradzade",
+  "commons_file": "pexels:36852425",
+  "source": "pexels:Oludeniz Blue Lagoon beach",
+  "extras": [
+   {
+    "local": "费特希耶/厄吕代尼兹海滩_2.jpg",
+    "license": "Pexels",
+    "artist": "Mavi Yeşil",
+    "commons_file": "pexels:19140470",
+    "source": "pexels:Oludeniz Blue Lagoon beach"
+   },
+   {
+    "local": "费特希耶/厄吕代尼兹海滩_3.jpg",
+    "license": "Pexels",
+    "artist": "Mikhail Nilov",
+    "commons_file": "pexels:8322905",
+    "source": "pexels:Oludeniz Blue Lagoon beach"
+   }
+  ]
  },
  {
   "city": "伊兹密尔",
   "attraction": "以弗所古城",
   "status": "ok",
-  "local": "伊兹密尔/以弗所古城_1.png",
-  "license": "CC BY-SA 2.0",
-  "artist": "Bshong0520",
-  "commons_file": "Ephesus11.png",
-  "source": "zhwiki:以弗所",
+  "local": "伊兹密尔/以弗所古城_1.jpg",
+  "license": "Pexels",
+  "artist": "Mehmet Turgut  Kirkgoz",
+  "commons_file": "pexels:15123091",
+  "source": "pexels:Ephesus ancient city Library of Celsus",
   "extras": [
    {
     "local": "伊兹密尔/以弗所古城_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Benh LIEU SONG",
-    "commons_file": "Ephesus Celsus Library Façade.jpg",
-    "source": "commons-supplement:以弗所古城"
+    "license": "Pexels",
+    "artist": "Fatih Doğrul",
+    "commons_file": "pexels:15271623",
+    "source": "pexels:Ephesus ancient city Library of Celsus"
    },
    {
     "local": "伊兹密尔/以弗所古城_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Bernard Gagnon",
-    "commons_file": "Ephesus - Prytaneion.jpg",
-    "source": "commons-supplement:以弗所古城"
-   },
-   {
-    "local": "伊兹密尔/以弗所古城_4.jpg",
-    "license": "CC BY 3.0",
-    "artist": "lienyuan lee",
-    "commons_file": "Public Toilets at Ephesus 以弗所古城公共便座 - panoramio.jpg",
-    "source": "commons-supplement:以弗所古城"
+    "license": "Pexels",
+    "artist": "Selman Arif Golbasi",
+    "commons_file": "pexels:14474360",
+    "source": "pexels:Ephesus ancient city Library of Celsus"
    }
   ]
  },
@@ -247,42 +394,77 @@
   "attraction": "塞尔丘克",
   "status": "ok",
   "local": "伊兹密尔/塞尔丘克_1.jpg",
-  "license": "Public domain",
-  "artist": "user \"Henry VIII\" on English Wikipedia",
-  "commons_file": "Selcuk.jpg",
-  "source": "zhwiki:塞尔丘克",
+  "license": "Pexels",
+  "artist": "Melike Sayar  Melikesayar",
+  "commons_file": "pexels:8000391",
+  "source": "pexels:Selcuk town Turkey",
   "extras": [
    {
     "local": "伊兹密尔/塞尔丘克_2.jpg",
-    "license": "CC BY 2.0",
-    "artist": "Francisco Anzola",
-    "commons_file": "Selçuk fortress.jpg",
-    "source": "commons-supplement:Selçuk"
+    "license": "Pexels",
+    "artist": "Emrehan  Çolak",
+    "commons_file": "pexels:27798381",
+    "source": "pexels:Selcuk town Turkey"
    },
    {
     "local": "伊兹密尔/塞尔丘克_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Ekrem.Ozcan",
-    "commons_file": "Meryem Ana Heykeli, Selçuk.jpg",
-    "source": "commons-supplement:Selçuk"
-   },
-   {
-    "local": "伊兹密尔/塞尔丘克_4.jpg",
-    "license": "CC0",
-    "artist": "Bernard Gagnon",
-    "commons_file": "Selçuk Sultan Türbe.jpg",
-    "source": "commons-supplement:Selçuk"
+    "license": "Pexels",
+    "artist": "Rumeysa Akbaş",
+    "commons_file": "pexels:13163728",
+    "source": "pexels:Selcuk town Turkey"
    }
   ]
  },
  {
   "city": "伊兹密尔",
   "attraction": "科纳克广场",
-  "status": "miss"
+  "status": "ok",
+  "local": "伊兹密尔/科纳克广场_1.jpg",
+  "license": "Pexels",
+  "artist": "Doğan Alpaslan  Demir",
+  "commons_file": "pexels:26831634",
+  "source": "pexels:Konak Square clock tower Izmir",
+  "extras": [
+   {
+    "local": "伊兹密尔/科纳克广场_2.jpg",
+    "license": "Pexels",
+    "artist": "Ahmet  Yılmaz",
+    "commons_file": "pexels:36520566",
+    "source": "pexels:Konak Square clock tower Izmir"
+   },
+   {
+    "local": "伊兹密尔/科纳克广场_3.jpg",
+    "license": "Pexels",
+    "artist": "Hülya Ermiş Belek",
+    "commons_file": "pexels:37976674",
+    "source": "pexels:Konak Square clock tower Izmir"
+   }
+  ]
  },
  {
   "city": "伊兹密尔",
   "attraction": "海滨长廊",
-  "status": "miss"
+  "status": "ok",
+  "local": "伊兹密尔/海滨长廊_1.jpg",
+  "license": "Pexels",
+  "artist": "Mediha Ekici",
+  "commons_file": "pexels:36366925",
+  "source": "pexels:Izmir Kordon waterfront promenade",
+  "extras": [
+   {
+    "local": "伊兹密尔/海滨长廊_2.jpg",
+    "license": "Pexels",
+    "artist": "Meral YALÇIN",
+    "commons_file": "pexels:35397503",
+    "source": "pexels:Izmir Kordon waterfront promenade"
+   },
+   {
+    "local": "伊兹密尔/海滨长廊_3.jpg",
+    "license": "Pexels",
+    "artist": "Doğan Alpaslan  Demir",
+    "commons_file": "pexels:20458849",
+    "source": "pexels:Izmir Kordon waterfront promenade"
+   }
+  ]
  }
 ]

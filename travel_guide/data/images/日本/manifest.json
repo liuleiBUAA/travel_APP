@@ -4,31 +4,24 @@
   "attraction": "浅草寺",
   "status": "ok",
   "local": "东京/浅草寺_1.jpg",
-  "license": "CC BY 4.0",
-  "artist": "くろふね",
-  "commons_file": "浅草寺宝蔵門20250719-P1070566.jpg",
-  "source": "zhwiki:淺草寺",
+  "license": "Pexels",
+  "artist": "Markus Winkler",
+  "commons_file": "pexels:19867354",
+  "source": "pexels:Senso-ji Temple Tokyo",
   "extras": [
    {
     "local": "东京/浅草寺_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Marco Almbauer",
-    "commons_file": "Omikuji, Sensō-ji, Tokyo.jpg",
-    "source": "commons-supplement:Sensō-ji"
+    "license": "Pexels",
+    "artist": "Maheshwaran Shanmugam",
+    "commons_file": "pexels:18996952",
+    "source": "pexels:Senso-ji Temple Tokyo"
    },
    {
     "local": "东京/浅草寺_3.jpg",
-    "license": "CC BY 4.0",
-    "artist": "Jakub Hałun",
-    "commons_file": "Main Hall, Sensō-ji Temple, Tokyo, 20240824 1104 5619.jpg",
-    "source": "commons-supplement:Sensō-ji"
-   },
-   {
-    "local": "东京/浅草寺_4.jpg",
-    "license": "CC0",
-    "artist": "Redd Angelo reddangelo16",
-    "commons_file": "Senso-Ji Temple (Unsplash).jpg",
-    "source": "commons-supplement:Sensō-ji"
+    "license": "Pexels",
+    "artist": "Sabine Meier",
+    "commons_file": "pexels:31270171",
+    "source": "pexels:Senso-ji Temple Tokyo"
    }
   ]
  },
@@ -37,69 +30,76 @@
   "attraction": "秋叶原",
   "status": "ok",
   "local": "东京/秋叶原_1.jpg",
-  "license": "CC BY-SA 2.0",
-  "artist": "Original photo: IQRemix from Canada, some additional editing by User:W.carter (C",
-  "commons_file": "Illuminated_buildings_in_Akihabara,_west_side_of_Sotokanda_1_(2015-04-13_03.22.59_by_IQRemix)-edited_(cropped).jpg",
-  "source": "zhwiki:秋葉原",
+  "license": "Pexels",
+  "artist": "Eky Rima Nurya Ganda",
+  "commons_file": "pexels:20423016",
+  "source": "pexels:Akihabara Tokyo street",
   "extras": [
    {
     "local": "东京/秋叶原_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Basile Morin",
-    "commons_file": "Claw cranes with kawaii stuffed mascots and a woman playing, Akihabara, Chiyoda, Tokyo, Japan.jpg",
-    "source": "commons-supplement:Akihabara"
+    "license": "Pexels",
+    "artist": "Guohua Song",
+    "commons_file": "pexels:30590872",
+    "source": "pexels:Akihabara Tokyo street"
    },
    {
     "local": "东京/秋叶原_3.jpg",
-    "license": "Public domain",
-    "artist": "Nickdrj",
-    "commons_file": "Akihabara picture.jpg",
-    "source": "commons-supplement:Akihabara"
-   },
-   {
-    "local": "东京/秋叶原_4.jpg",
-    "license": "CC0",
-    "artist": "DLKR",
-    "commons_file": "Pedestrians Crossing, Akihabara, Tokyo, Japan.jpg",
-    "source": "commons-supplement:Akihabara"
+    "license": "Pexels",
+    "artist": "Shernon Hague",
+    "commons_file": "pexels:20150836",
+    "source": "pexels:Akihabara Tokyo street"
    }
   ]
  },
  {
   "city": "东京",
   "attraction": "涩谷SKY夜景",
-  "status": "miss"
+  "status": "ok",
+  "local": "东京/涩谷SKY夜景_1.jpg",
+  "license": "Pexels",
+  "artist": "Sarmat Batagov",
+  "commons_file": "pexels:35072451",
+  "source": "pexels:Shibuya Sky night view Tokyo",
+  "extras": [
+   {
+    "local": "东京/涩谷SKY夜景_2.jpg",
+    "license": "Pexels",
+    "artist": "Sarmat Batagov",
+    "commons_file": "pexels:35072452",
+    "source": "pexels:Shibuya Sky night view Tokyo"
+   },
+   {
+    "local": "东京/涩谷SKY夜景_3.jpg",
+    "license": "Pexels",
+    "artist": "Sarmat Batagov",
+    "commons_file": "pexels:35072448",
+    "source": "pexels:Shibuya Sky night view Tokyo"
+   }
+  ]
  },
  {
   "city": "东京",
   "attraction": "东京迪士尼乐园",
   "status": "ok",
   "local": "东京/东京迪士尼乐园_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "User:ARICAD",
-  "commons_file": "TDL_Cinderella_Castle_New_Color.jpg",
-  "source": "zhwiki:東京迪士尼樂園",
+  "license": "Pexels",
+  "artist": "Onai Leonardo",
+  "commons_file": "pexels:35644024",
+  "source": "pexels:Tokyo Disneyland castle",
   "extras": [
    {
     "local": "东京/东京迪士尼乐园_2.jpg",
-    "license": "CC BY 2.0",
-    "artist": "Emran Kassim",
-    "commons_file": "Tokyo Disneyland 004.jpg",
-    "source": "commons-supplement:Tokyo Disneyland"
+    "license": "Pexels",
+    "artist": "Ver vaeck",
+    "commons_file": "pexels:19636898",
+    "source": "pexels:Tokyo Disneyland castle"
    },
    {
     "local": "东京/东京迪士尼乐园_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Dquai, cropped by Tmv",
-    "commons_file": "Tokyo Disneyland banner.jpg",
-    "source": "commons-supplement:Tokyo Disneyland"
-   },
-   {
-    "local": "东京/东京迪士尼乐园_4.jpg",
-    "license": "CC BY 2.0",
-    "artist": "Emran Kassim",
-    "commons_file": "Tokyo Disneyland 006.jpg",
-    "source": "commons-supplement:Tokyo Disneyland"
+    "license": "Pexels",
+    "artist": "Bingqian Li",
+    "commons_file": "pexels:36064240",
+    "source": "pexels:Tokyo Disneyland castle"
    }
   ]
  },
@@ -108,74 +108,102 @@
   "attraction": "迪士尼海洋",
   "status": "ok",
   "local": "东京/迪士尼海洋_1.jpg",
-  "license": "CC BY-SA 2.0",
-  "artist": "Chuck from San Francisco, CA",
-  "commons_file": "Tokyo_DisneySea_200610.jpg",
-  "source": "zhwiki:東京迪士尼海洋",
+  "license": "Pexels",
+  "artist": "Jon Discipulo",
+  "commons_file": "pexels:32487639",
+  "source": "pexels:Tokyo DisneySea",
   "extras": [
    {
     "local": "东京/迪士尼海洋_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "CasinoKat",
-    "commons_file": "Tokyo Disney Sea Mountain.jpg",
-    "source": "commons-supplement:Tokyo DisneySea"
+    "license": "Pexels",
+    "artist": "Tatsuo Nakamura",
+    "commons_file": "pexels:35817690",
+    "source": "pexels:Tokyo DisneySea"
    },
    {
     "local": "东京/迪士尼海洋_3.jpg",
-    "license": "CC BY-SA 2.5",
-    "artist": "Okwhatev at en.wikipedia",
-    "commons_file": "Tokyo DisneySea-Volcania.jpg",
-    "source": "commons-supplement:Tokyo DisneySea"
-   },
-   {
-    "local": "东京/迪士尼海洋_4.jpg",
-    "license": "CC BY-SA 2.0",
-    "artist": "Laika ac from USA",
-    "commons_file": "Laika ac Tokyo DisneySea (7861651212).jpg",
-    "source": "commons-supplement:Tokyo DisneySea"
+    "license": "Pexels",
+    "artist": "Karanjeetsingh Thakur",
+    "commons_file": "pexels:35607280",
+    "source": "pexels:Tokyo DisneySea"
    }
   ]
  },
  {
   "city": "东京",
   "attraction": "镰仓一日游",
-  "status": "miss"
+  "status": "ok",
+  "local": "东京/镰仓一日游_1.jpg",
+  "license": "Pexels",
+  "artist": "Apisatjapong",
+  "commons_file": "pexels:17183874",
+  "source": "pexels:Kamakura Great Buddha",
+  "extras": [
+   {
+    "local": "东京/镰仓一日游_2.jpg",
+    "license": "Pexels",
+    "artist": "ofek",
+    "commons_file": "pexels:31799059",
+    "source": "pexels:Kamakura Great Buddha"
+   },
+   {
+    "local": "东京/镰仓一日游_3.jpg",
+    "license": "Pexels",
+    "artist": "Danielle R Costa",
+    "commons_file": "pexels:31186813",
+    "source": "pexels:Kamakura Great Buddha"
+   }
+  ]
  },
  {
   "city": "东京",
   "attraction": "河口湖一日游",
-  "status": "miss"
+  "status": "ok",
+  "local": "东京/河口湖一日游_1.jpg",
+  "license": "Pexels",
+  "artist": "艾倫 莊",
+  "commons_file": "pexels:16539669",
+  "source": "pexels:Lake Kawaguchiko Mount Fuji",
+  "extras": [
+   {
+    "local": "东京/河口湖一日游_2.jpg",
+    "license": "Pexels",
+    "artist": "Javey Du",
+    "commons_file": "pexels:30227319",
+    "source": "pexels:Lake Kawaguchiko Mount Fuji"
+   },
+   {
+    "local": "东京/河口湖一日游_3.jpg",
+    "license": "Pexels",
+    "artist": "Jeffry Surianto",
+    "commons_file": "pexels:34801814",
+    "source": "pexels:Lake Kawaguchiko Mount Fuji"
+   }
+  ]
  },
  {
   "city": "大阪",
   "attraction": "大阪环球影城",
   "status": "ok",
   "local": "大阪/大阪环球影城_1.jpg",
-  "license": "CC0",
-  "artist": "Rebirth10",
-  "commons_file": "Universal_Studios_Japan_2019,08.jpg",
-  "source": "zhwiki:日本環球影城",
+  "license": "Pexels",
+  "artist": "Ralp",
+  "commons_file": "pexels:5432843",
+  "source": "pexels:Universal Studios Japan Osaka",
   "extras": [
    {
     "local": "大阪/大阪环球影城_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Csiiiyu",
-    "commons_file": "Universal Studios Japan entrance.jpg",
-    "source": "commons-supplement:Universal Studios Japan"
+    "license": "Pexels",
+    "artist": "Chucky Chiang",
+    "commons_file": "pexels:8050502",
+    "source": "pexels:Universal Studios Japan Osaka"
    },
    {
     "local": "大阪/大阪环球影城_3.jpg",
-    "license": "CC0",
-    "artist": "高砂の浦",
-    "commons_file": "Peach'sCastle at Universal Studios Japan 20220814.jpg",
-    "source": "commons-supplement:Universal Studios Japan"
-   },
-   {
-    "local": "大阪/大阪环球影城_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Leeyj0401",
-    "commons_file": "Universal Studios in Japan.jpg",
-    "source": "commons-supplement:Universal Studios Japan"
+    "license": "Pexels",
+    "artist": "Hugo Sykes",
+    "commons_file": "pexels:27666793",
+    "source": "pexels:Universal Studios Japan Osaka"
    }
   ]
  },
@@ -184,31 +212,24 @@
   "attraction": "大阪城公园",
   "status": "ok",
   "local": "大阪/大阪城公园_1.jpg",
-  "license": "CC BY 2.5",
-  "artist": "663highland",
-  "commons_file": "Osaka_Castle_01bs3200.jpg",
-  "source": "zhwiki:大阪城公園",
+  "license": "Pexels",
+  "artist": "Dmitry Romanoff",
+  "commons_file": "pexels:21821256",
+  "source": "pexels:Osaka Castle Japan",
   "extras": [
    {
     "local": "大阪/大阪城公园_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Martin Falbisoner",
-    "commons_file": "Osaka Castle Outer Moat and Osaka Business Park, November 2016.jpg",
-    "source": "commons-supplement:Osaka Castle Park"
+    "license": "Pexels",
+    "artist": "Vinny Anugraha",
+    "commons_file": "pexels:32658950",
+    "source": "pexels:Osaka Castle Japan"
    },
    {
     "local": "大阪/大阪城公园_3.jpg",
-    "license": "CC BY 2.5",
-    "artist": "663highland",
-    "commons_file": "Osaka Castle 02bs3200.jpg",
-    "source": "commons-supplement:Osaka Castle Park"
-   },
-   {
-    "local": "大阪/大阪城公园_4.jpg",
-    "license": "CC0",
-    "artist": "Mr.ちゅらさん",
-    "commons_file": "Osaka-jo Castle Evening 2024-07.jpg",
-    "source": "commons-supplement:Osaka Castle Park"
+    "license": "Pexels",
+    "artist": "Salvador Chinchilla",
+    "commons_file": "pexels:30957218",
+    "source": "pexels:Osaka Castle Japan"
    }
   ]
  },
@@ -217,31 +238,24 @@
   "attraction": "道顿掘",
   "status": "ok",
   "local": "大阪/道顿掘_1.jpg",
-  "license": "CC BY 4.0",
-  "artist": "Don Ramey Logan",
-  "commons_file": "Dotonburi_River_Namba_Japan_by_Don_Ramey_Logan.jpg",
-  "source": "zhwiki:道頓堀",
+  "license": "Pexels",
+  "artist": "Tamjeed A",
+  "commons_file": "pexels:31184555",
+  "source": "pexels:Dotonbori Osaka night",
   "extras": [
    {
     "local": "大阪/道顿掘_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Martin Falbisoner",
-    "commons_file": "Dotonbori, Osaka, at night, November 2016.jpg",
-    "source": "commons-supplement:Dōtonbori"
+    "license": "Pexels",
+    "artist": "Royce Ho",
+    "commons_file": "pexels:28608380",
+    "source": "pexels:Dotonbori Osaka night"
    },
    {
     "local": "大阪/道顿掘_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Zest",
-    "commons_file": "Dōtonbori Canal 1.jpg",
-    "source": "commons-supplement:Dōtonbori"
-   },
-   {
-    "local": "大阪/道顿掘_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Tokumeigakarinoaoshima",
-    "commons_file": "Dōtonbori ZERO GATE.jpg",
-    "source": "commons-supplement:Dōtonbori"
+    "license": "Pexels",
+    "artist": "sʏ.₰ Lin",
+    "commons_file": "pexels:35903715",
+    "source": "pexels:Dotonbori Osaka night"
    }
   ]
  },
@@ -250,31 +264,24 @@
   "attraction": "姬路城",
   "status": "ok",
   "local": "大阪/姬路城_1.jpg",
-  "license": "CC BY-SA 2.0",
-  "artist": "_steffen",
-  "commons_file": "Himeji_Castle,_Hyōgo_Prefecture;_August_2018_(04).jpg",
-  "source": "zhwiki:姬路城",
+  "license": "Pexels",
+  "artist": "Bruna Santos",
+  "commons_file": "pexels:30326075",
+  "source": "pexels:Himeji Castle Japan",
   "extras": [
    {
     "local": "大阪/姬路城_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Bernard Gagnon",
-    "commons_file": "Château de Himeji02.jpg",
-    "source": "commons-supplement:Himeji Castle"
+    "license": "Pexels",
+    "artist": "Lorenzo Castellino",
+    "commons_file": "pexels:33145853",
+    "source": "pexels:Himeji Castle Japan"
    },
    {
     "local": "大阪/姬路城_3.jpg",
-    "license": "Public domain",
-    "artist": "Gorgo",
-    "commons_file": "Himeji Castle 0804 1.jpg",
-    "source": "commons-supplement:Himeji Castle"
-   },
-   {
-    "local": "大阪/姬路城_4.jpg",
-    "license": "Public domain",
-    "artist": "by ja:User:Reggaeman",
-    "commons_file": "Himeji Castle The Keep Towers.jpg",
-    "source": "commons-supplement:Himeji Castle"
+    "license": "Pexels",
+    "artist": "Andrea Orfino",
+    "commons_file": "pexels:31295174",
+    "source": "pexels:Himeji Castle Japan"
    }
   ]
  },
@@ -283,31 +290,24 @@
   "attraction": "神户",
   "status": "ok",
   "local": "大阪/神户_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "MaedaAkihiko",
-  "commons_file": "JR-Kobe-Line-223-J9.jpg",
-  "source": "zhwiki:JR神戶線",
+  "license": "Pexels",
+  "artist": "Dmitry Romanoff",
+  "commons_file": "pexels:35317275",
+  "source": "pexels:Kobe harbor Japan",
   "extras": [
    {
     "local": "大阪/神户_2.jpg",
-    "license": "Public domain",
-    "artist": "Sgt. Joseph A. Lee",
-    "commons_file": "Kobe Bryant 7144 adjusted.jpg",
-    "source": "commons-supplement:Kobe"
+    "license": "Pexels",
+    "artist": "Dmitry Romanoff",
+    "commons_file": "pexels:35317749",
+    "source": "pexels:Kobe harbor Japan"
    },
    {
     "local": "大阪/神户_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Benlisquare",
-    "commons_file": "Drone panorama of Kobe and Osaka Bay Area.jpg",
-    "source": "commons-supplement:Kobe"
-   },
-   {
-    "local": "大阪/神户_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Laitr Keiows",
-    "commons_file": "Night view of Rokkō Island and Higashinada-ku, Kobe, Japan.jpg",
-    "source": "commons-supplement:Kobe"
+    "license": "Pexels",
+    "artist": "Tuấn Vũ",
+    "commons_file": "pexels:36847510",
+    "source": "pexels:Kobe harbor Japan"
    }
   ]
  },
@@ -316,31 +316,24 @@
   "attraction": "广岛",
   "status": "ok",
   "local": "大阪/广岛_1.jpg",
-  "license": "Public domain",
-  "artist": "George R. Caron",
-  "commons_file": "Atomic_cloud_over_Hiroshima_-_NARA_542192_-_Edit.jpg",
-  "source": "zhwiki:广岛市原子弹爆炸",
+  "license": "Pexels",
+  "artist": "Zonghao Feng",
+  "commons_file": "pexels:38034374",
+  "source": "pexels:Hiroshima Peace Memorial Dome",
   "extras": [
    {
     "local": "大阪/广岛_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Taisyo",
-    "commons_file": "Hiroshima Municipal Baseball Stadium 2009.JPG",
-    "source": "commons-supplement:Hiroshima (disambiguation)"
+    "license": "Pexels",
+    "artist": "Stephan Leuzinger",
+    "commons_file": "pexels:37784879",
+    "source": "pexels:Hiroshima Peace Memorial Dome"
    },
    {
     "local": "大阪/广岛_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Jakub Hałun",
-    "commons_file": "20100722 Hiroshima Shukkeien 4387.jpg",
-    "source": "commons-supplement:Hiroshima (disambiguation)"
-   },
-   {
-    "local": "大阪/广岛_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "DXR",
-    "commons_file": "Ninomaru, Hiroshima Castle, West view 20190417 1.jpg",
-    "source": "commons-supplement:Hiroshima (disambiguation)"
+    "license": "Pexels",
+    "artist": "Hoi Wai",
+    "commons_file": "pexels:30801941",
+    "source": "pexels:Hiroshima Peace Memorial Dome"
    }
   ]
  },
@@ -349,31 +342,24 @@
   "attraction": "奈良公园",
   "status": "ok",
   "local": "大阪/奈良公园_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Martin Falbisoner",
-  "commons_file": "Nara_Park,_November_2016.jpg",
-  "source": "zhwiki:奈良公園",
+  "license": "Pexels",
+  "artist": "Daniel Trotta",
+  "commons_file": "pexels:31047839",
+  "source": "pexels:Nara Park deer Japan",
   "extras": [
    {
     "local": "大阪/奈良公园_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Martin Falbisoner",
-    "commons_file": "Nara Park, November 2016.jpg",
-    "source": "commons-supplement:Nara Park"
+    "license": "Pexels",
+    "artist": "Giuseppe Macri",
+    "commons_file": "pexels:29565522",
+    "source": "pexels:Nara Park deer Japan"
    },
    {
     "local": "大阪/奈良公园_3.jpg",
-    "license": "CC BY 3.0",
-    "artist": "Feri88",
-    "commons_file": "Nara Park - panoramio (2).jpg",
-    "source": "commons-supplement:Nara Park"
-   },
-   {
-    "local": "大阪/奈良公园_4.jpg",
-    "license": "CC0",
-    "artist": "DimiTalen",
-    "commons_file": "Deer (Cervus nippon centralis) drinking from a ditch, Nara Park, Nara, 2016.jpg",
-    "source": "commons-supplement:Nara Park"
+    "license": "Pexels",
+    "artist": "K ZHAO",
+    "commons_file": "pexels:35586892",
+    "source": "pexels:Nara Park deer Japan"
    }
   ]
  },
@@ -382,31 +368,24 @@
   "attraction": "东大寺",
   "status": "ok",
   "local": "大阪/东大寺_1.jpg",
-  "license": "CC0",
-  "artist": "Marco Almbauer",
-  "commons_file": "Golden_Hall,_Todaiji.jpg",
-  "source": "zhwiki:东大寺",
+  "license": "Pexels",
+  "artist": "Gül Işık",
+  "commons_file": "pexels:34080252",
+  "source": "pexels:Todai-ji Temple Nara",
   "extras": [
    {
     "local": "大阪/东大寺_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Hyppolyte de Saint-Rambert",
-    "commons_file": "Tōdai-ji hdsr IMG 3869.jpg",
-    "source": "commons-supplement:Tōdai-ji"
+    "license": "Pexels",
+    "artist": "Shernon Hague",
+    "commons_file": "pexels:20150835",
+    "source": "pexels:Todai-ji Temple Nara"
    },
    {
     "local": "大阪/东大寺_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Hyppolyte de Saint-Rambert",
-    "commons_file": "Tōdai-ji hdsr IMG 3880.jpg",
-    "source": "commons-supplement:Tōdai-ji"
-   },
-   {
-    "local": "大阪/东大寺_4.jpg",
-    "license": "CC0",
-    "artist": "Balon Greyjoy",
-    "commons_file": "20190121 Tōdai-ji sōrin-1.jpg",
-    "source": "commons-supplement:Tōdai-ji"
+    "license": "Pexels",
+    "artist": "Huu Huynh",
+    "commons_file": "pexels:16832290",
+    "source": "pexels:Todai-ji Temple Nara"
    }
   ]
  },
@@ -415,31 +394,24 @@
   "attraction": "金阁寺",
   "status": "ok",
   "local": "京都/金阁寺_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "ja:Kyoto-u",
-  "commons_file": "Rokuonjikinkaku-winter_commons.jpg",
-  "source": "zhwiki:金閣寺 (小說)",
+  "license": "Pexels",
+  "artist": "Pixabay",
+  "commons_file": "pexels:356629",
+  "source": "pexels:Kinkaku-ji Kyoto",
   "extras": [
    {
     "local": "京都/金阁寺_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Basile Morin",
-    "commons_file": "Water reflection of Kinkaku-ji Temple a sunny day, Kyoto, Japan.jpg",
-    "source": "commons-supplement:金阁寺 京都"
+    "license": "Pexels",
+    "artist": "LUNA LUNA",
+    "commons_file": "pexels:3625115",
+    "source": "pexels:Kinkaku-ji Kyoto"
    },
    {
     "local": "京都/金阁寺_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Martin Falbisoner",
-    "commons_file": "Kinkaku-ji in November 2016 -02.jpg",
-    "source": "commons-supplement:金阁寺 京都"
-   },
-   {
-    "local": "京都/金阁寺_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Nacaru",
-    "commons_file": "Golden Pavilion Kinkaku-ji 2024.jpg",
-    "source": "commons-supplement:金阁寺 京都"
+    "license": "Pexels",
+    "artist": "Irina Senti",
+    "commons_file": "pexels:36664006",
+    "source": "pexels:Kinkaku-ji Kyoto"
    }
   ]
  },
@@ -448,31 +420,24 @@
   "attraction": "二条城",
   "status": "ok",
   "local": "京都/二条城_1.jpg",
-  "license": "CC BY 2.0",
-  "artist": "Jean-Pierre Dalbéra from Paris, France",
-  "commons_file": "L'entrée_du_palais_Ninomaru_(Château_de_Nijo,_Kyoto)_(41286152260).jpg",
-  "source": "zhwiki:二條城",
+  "license": "Pexels",
+  "artist": "Heather Mallon",
+  "commons_file": "pexels:31040541",
+  "source": "pexels:Nijo Castle Kyoto",
   "extras": [
    {
     "local": "京都/二条城_2.jpg",
-    "license": "CC BY 4.0",
-    "artist": "Jakub Hałun",
-    "commons_file": "Southeast Watchtower of the Nijō Castle in Kyoto, 20240820 1617 5145.jpg",
-    "source": "commons-supplement:Nijō Castle"
+    "license": "Pexels",
+    "artist": "Boris Dahm",
+    "commons_file": "pexels:31417180",
+    "source": "pexels:Nijo Castle Kyoto"
    },
    {
     "local": "京都/二条城_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Lin Xiangru",
-    "commons_file": "Nijō Castle azisai.jpg",
-    "source": "commons-supplement:Nijō Castle"
-   },
-   {
-    "local": "京都/二条城_4.jpg",
-    "license": "CC BY 4.0",
-    "artist": "Hyppolyte de Saint-Rambert",
-    "commons_file": "Nijō Castle (Kyoto) Outer moat hdsr S5 01.jpg",
-    "source": "commons-supplement:Nijō Castle"
+    "license": "Pexels",
+    "artist": "Brendan Chen",
+    "commons_file": "pexels:33870367",
+    "source": "pexels:Nijo Castle Kyoto"
    }
   ]
  },
@@ -481,31 +446,24 @@
   "attraction": "清水寺",
   "status": "ok",
   "local": "京都/清水寺_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Martin Falbisoner",
-  "commons_file": "Kiyomizu-dera,_Kyoto,_November_2016_-02.jpg",
-  "source": "zhwiki:清水寺",
+  "license": "Pexels",
+  "artist": "Irina Senti",
+  "commons_file": "pexels:36717832",
+  "source": "pexels:Kiyomizu-dera Temple Kyoto",
   "extras": [
    {
     "local": "京都/清水寺_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Basile Morin",
-    "commons_file": "Four ladies wearing a yukata in front of the North Gate of Kiyomizu-dera temple Kyoto Japan.jpg",
-    "source": "commons-supplement:Kiyomizu-dera"
+    "license": "Pexels",
+    "artist": "Ivo Stirling",
+    "commons_file": "pexels:33198749",
+    "source": "pexels:Kiyomizu-dera Temple Kyoto"
    },
    {
     "local": "京都/清水寺_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Martin Falbisoner",
-    "commons_file": "Kiyomizu-dera, Kyoto, November 2016 -07.jpg",
-    "source": "commons-supplement:Kiyomizu-dera"
-   },
-   {
-    "local": "京都/清水寺_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Martin Falbisoner",
-    "commons_file": "Kiyomizu-dera, Kyoto, November 2016 -01.jpg",
-    "source": "commons-supplement:Kiyomizu-dera"
+    "license": "Pexels",
+    "artist": "Pixabay",
+    "commons_file": "pexels:161150",
+    "source": "pexels:Kiyomizu-dera Temple Kyoto"
    }
   ]
  },
@@ -514,69 +472,76 @@
   "attraction": "锦市场",
   "status": "ok",
   "local": "京都/锦市场_1.jpg",
-  "license": "CC BY-SA 2.0",
-  "artist": "matsuyuki",
-  "commons_file": "Nishiki_Ichiba_by_matsuyuki.jpg",
-  "source": "zhwiki:錦市場",
+  "license": "Pexels",
+  "artist": "David  Peterson",
+  "commons_file": "pexels:4358936",
+  "source": "pexels:Nishiki Market Kyoto",
   "extras": [
    {
     "local": "京都/锦市场_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Pitan",
-    "commons_file": "Nishiki ichiba kyoto.jpg",
-    "source": "commons-supplement:Nishiki Market"
+    "license": "Pexels",
+    "artist": "M Adriyawan",
+    "commons_file": "pexels:20092262",
+    "source": "pexels:Nishiki Market Kyoto"
    },
    {
     "local": "京都/锦市场_3.jpg",
-    "license": "CC BY 2.0",
-    "artist": "collinox",
-    "commons_file": "Tsukemono shop by collinox in Nishiki Ichiba, Kyoto.jpg",
-    "source": "commons-supplement:Nishiki Market"
-   },
-   {
-    "local": "京都/锦市场_4.jpg",
-    "license": "CC BY-SA 2.0",
-    "artist": "matsuyuki",
-    "commons_file": "Nishiki Ichiba by matsuyuki.jpg",
-    "source": "commons-supplement:Nishiki Market"
+    "license": "Pexels",
+    "artist": "Julien",
+    "commons_file": "pexels:34988438",
+    "source": "pexels:Nishiki Market Kyoto"
    }
   ]
  },
  {
   "city": "京都",
   "attraction": "岚山一日游",
-  "status": "miss"
+  "status": "ok",
+  "local": "京都/岚山一日游_1.jpg",
+  "license": "Pexels",
+  "artist": "Faruk Tokluoğlu",
+  "commons_file": "pexels:33116224",
+  "source": "pexels:Arashiyama Bamboo Grove Kyoto",
+  "extras": [
+   {
+    "local": "京都/岚山一日游_2.jpg",
+    "license": "Pexels",
+    "artist": "Huu Huynh",
+    "commons_file": "pexels:16761540",
+    "source": "pexels:Arashiyama Bamboo Grove Kyoto"
+   },
+   {
+    "local": "京都/岚山一日游_3.jpg",
+    "license": "Pexels",
+    "artist": "Jess  Ho",
+    "commons_file": "pexels:7924749",
+    "source": "pexels:Arashiyama Bamboo Grove Kyoto"
+   }
+  ]
  },
  {
   "city": "京都",
   "attraction": "伏见稻荷大社",
   "status": "ok",
   "local": "京都/伏见稻荷大社_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Basile Morin",
-  "commons_file": "Torii_path_with_lantern_at_Fushimi_Inari_Taisha_Shrine,_Kyoto,_Japan.jpg",
-  "source": "zhwiki:伏見稻荷大社",
+  "license": "Pexels",
+  "artist": "G N",
+  "commons_file": "pexels:29537651",
+  "source": "pexels:Fushimi Inari Shrine Kyoto",
   "extras": [
    {
     "local": "京都/伏见稻荷大社_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Basile Morin",
-    "commons_file": "Torii path with lantern at Fushimi Inari Taisha Shrine, Kyoto, Japan.jpg",
-    "source": "commons-supplement:Fushimi Inari-taisha"
+    "license": "Pexels",
+    "artist": "Imani Williams",
+    "commons_file": "pexels:5887285",
+    "source": "pexels:Fushimi Inari Shrine Kyoto"
    },
    {
     "local": "京都/伏见稻荷大社_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Paul Vlaar",
-    "commons_file": "KyotoFushimiInariLarge.jpg",
-    "source": "commons-supplement:Fushimi Inari-taisha"
-   },
-   {
-    "local": "京都/伏见稻荷大社_4.jpg",
-    "license": "CC BY-SA 2.5",
-    "artist": "MichaelMaggs",
-    "commons_file": "Inscriptions on torii, Fushimi Inari shrine, Kyoto.jpg",
-    "source": "commons-supplement:Fushimi Inari-taisha"
+    "license": "Pexels",
+    "artist": "AXP Photography",
+    "commons_file": "pexels:18848721",
+    "source": "pexels:Fushimi Inari Shrine Kyoto"
    }
   ]
  },
@@ -585,62 +550,76 @@
   "attraction": "宇治",
   "status": "ok",
   "local": "京都/宇治_1.jpg",
-  "license": "CC BY 2.5",
-  "artist": "663highland",
-  "commons_file": "Byodo-in_in_Uji.jpg",
-  "source": "zhwiki:宇治市",
+  "license": "Pexels",
+  "artist": "Dmitry Romanoff",
+  "commons_file": "pexels:35405673",
+  "source": "pexels:Byodo-in Temple Uji",
   "extras": [
    {
     "local": "京都/宇治_2.jpg",
-    "license": "CC BY 2.5",
-    "artist": "663highland",
-    "commons_file": "Byodoin Phoenix Hall Uji 2009.jpg",
-    "source": "commons-supplement:Uji"
+    "license": "Pexels",
+    "artist": "Dmitry Romanoff",
+    "commons_file": "pexels:35405684",
+    "source": "pexels:Byodo-in Temple Uji"
    },
    {
     "local": "京都/宇治_3.jpg",
-    "license": "Public domain",
-    "artist": "Abasaa",
-    "commons_file": "Uji-Utoro district3.JPG",
-    "source": "commons-supplement:Uji"
-   },
-   {
-    "local": "京都/宇治_4.jpg",
-    "license": "CC BY 4.0",
-    "artist": "Hyppolyte de Saint-Rambert",
-    "commons_file": "Uji Jinja (Uji, Kyoto) Bridge hdsr S5 02.jpg",
-    "source": "commons-supplement:Uji"
+    "license": "Pexels",
+    "artist": "KJ Brix",
+    "commons_file": "pexels:17501086",
+    "source": "pexels:Byodo-in Temple Uji"
    }
   ]
  },
  {
   "city": "京都",
   "attraction": "查漏补缺",
-  "status": "miss"
+  "status": "ok",
+  "local": "京都/查漏补缺_1.jpg",
+  "license": "Pexels",
+  "artist": "Satoshi Hirayama",
+  "commons_file": "pexels:1715547",
+  "source": "pexels:Kyoto Gion old street",
+  "extras": [
+   {
+    "local": "京都/查漏补缺_2.jpg",
+    "license": "Pexels",
+    "artist": "Marek Piwnicki",
+    "commons_file": "pexels:7764185",
+    "source": "pexels:Kyoto Gion old street"
+   },
+   {
+    "local": "京都/查漏补缺_3.jpg",
+    "license": "Pexels",
+    "artist": "MacroLingo LLC",
+    "commons_file": "pexels:35195397",
+    "source": "pexels:Kyoto Gion old street"
+   }
+  ]
  },
  {
   "city": "北海道",
   "attraction": "札幌市区",
   "status": "ok",
   "local": "北海道/札幌市区_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Foxy1219 (Montage), 663highland, K. Takeda, Jun Ohwada, Peter Wemmert, redlegsfa",
-  "commons_file": "Sapporo_montage.jpg",
-  "source": "zhwiki:札幌市",
+  "license": "Pexels",
+  "artist": "jason hu",
+  "commons_file": "pexels:32970318",
+  "source": "pexels:Sapporo city Hokkaido",
   "extras": [
    {
-    "local": "北海道/札幌市区_2.png",
-    "license": "CC BY-SA 4.0",
-    "artist": "Vlcongaku",
-    "commons_file": "Districtes de Sapporo.png",
-    "source": "commons-supplement:札幌市区 北海道"
+    "local": "北海道/札幌市区_2.jpg",
+    "license": "Pexels",
+    "artist": "Dương Nhân",
+    "commons_file": "pexels:20187343",
+    "source": "pexels:Sapporo city Hokkaido"
    },
    {
-    "local": "北海道/札幌市区_3.png",
-    "license": "CC BY-SA 4.0",
-    "artist": "Vlcongaku",
-    "commons_file": "Wards of Sapporo 1972.png",
-    "source": "commons-supplement:札幌市区"
+    "local": "北海道/札幌市区_3.jpg",
+    "license": "Pexels",
+    "artist": "SHIMADA MASAKI",
+    "commons_file": "pexels:12884931",
+    "source": "pexels:Sapporo city Hokkaido"
    }
   ]
  },
@@ -649,31 +628,24 @@
   "attraction": "大通公园",
   "status": "ok",
   "local": "北海道/大通公园_1.jpg",
-  "license": "CC BY-SA 2.0",
-  "artist": "redlegsfan21",
-  "commons_file": "Odori_Park_(15982613668).jpg",
-  "source": "zhwiki:大通公園",
+  "license": "Pexels",
+  "artist": "貴彦 佐藤",
+  "commons_file": "pexels:36699544",
+  "source": "pexels:Odori Park Sapporo",
   "extras": [
    {
     "local": "北海道/大通公园_2.jpg",
-    "license": "Public domain",
-    "artist": "Unknown authorUnknown author",
-    "commons_file": "Odori Park in Sapporo 1936.jpg",
-    "source": "commons-supplement:Odori Park"
+    "license": "Pexels",
+    "artist": "貴彦 佐藤",
+    "commons_file": "pexels:36699545",
+    "source": "pexels:Odori Park Sapporo"
    },
    {
     "local": "北海道/大通公园_3.jpg",
-    "license": "CC BY-SA 2.0",
-    "artist": "redlegsfan21",
-    "commons_file": "Odori Park (15982613668).jpg",
-    "source": "commons-supplement:Odori Park"
-   },
-   {
-    "local": "北海道/大通公园_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "contri",
-    "commons_file": "Odori Park in Sapporo - Hokkaido Prefecture at night in March 2026.jpg",
-    "source": "commons-supplement:Odori Park"
+    "license": "Pexels",
+    "artist": "SHIMADA MASAKI",
+    "commons_file": "pexels:12884931",
+    "source": "pexels:Odori Park Sapporo"
    }
   ]
  },
@@ -682,143 +654,206 @@
   "attraction": "小樽运河",
   "status": "ok",
   "local": "北海道/小樽运河_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Choi2451",
-  "commons_file": "Otaru_Canal_on_July_19th,_2018.jpg",
-  "source": "zhwiki:小樽運河",
+  "license": "Pexels",
+  "artist": "Michael M",
+  "commons_file": "pexels:4862622",
+  "source": "pexels:Otaru Canal Hokkaido",
   "extras": [
    {
     "local": "北海道/小樽运河_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Sh1019",
-    "commons_file": "Otaru-Unga.jpg",
-    "source": "commons-supplement:小樽运河"
+    "license": "Pexels",
+    "artist": "Jeffry Surianto",
+    "commons_file": "pexels:35505746",
+    "source": "pexels:Otaru Canal Hokkaido"
    },
    {
     "local": "北海道/小樽运河_3.jpg",
-    "license": "Public domain",
-    "artist": "Komatta",
-    "commons_file": "Otaru Canal 2009.jpg",
-    "source": "commons-supplement:小樽运河"
+    "license": "Pexels",
+    "artist": "tslui",
+    "commons_file": "pexels:20214362",
+    "source": "pexels:Otaru Canal Hokkaido"
    }
   ]
  },
  {
   "city": "北海道",
   "attraction": "哨子馆",
-  "status": "miss"
+  "status": "ok",
+  "local": "北海道/哨子馆_1.jpg",
+  "license": "Pexels",
+  "artist": "",
+  "commons_file": "pexels:9740486",
+  "source": "pexels:Otaru glass music box museum",
+  "extras": [
+   {
+    "local": "北海道/哨子馆_2.jpg",
+    "license": "Pexels",
+    "artist": "David Henry",
+    "commons_file": "pexels:8289477",
+    "source": "pexels:Otaru glass music box museum"
+   },
+   {
+    "local": "北海道/哨子馆_3.jpg",
+    "license": "Pexels",
+    "artist": "Ivan Chumak",
+    "commons_file": "pexels:34673904",
+    "source": "pexels:Otaru glass music box museum"
+   }
+  ]
  },
  {
   "city": "北海道",
   "attraction": "美瑛",
   "status": "ok",
   "local": "北海道/美瑛_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "LR0725",
-  "commons_file": "Biei_station_building_20230712_02.jpg",
-  "source": "zhwiki:美瑛車站",
+  "license": "Pexels",
+  "artist": "Natsuko Aoyama",
+  "commons_file": "pexels:8797285",
+  "source": "pexels:Biei Hokkaido fields",
   "extras": [
    {
     "local": "北海道/美瑛_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "OKJaguar",
-    "commons_file": "Shirahige Falls, Biei River, Hokkaido, Japan.jpg",
-    "source": "commons-supplement:Biei, Hokkaido"
+    "license": "Pexels",
+    "artist": "tslui",
+    "commons_file": "pexels:35803280",
+    "source": "pexels:Biei Hokkaido fields"
    },
    {
     "local": "北海道/美瑛_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Calistemon",
-    "commons_file": "Maruyama Street, Biei, Hokkaido, April 2023 01.jpg",
-    "source": "commons-supplement:Biei, Hokkaido"
-   },
-   {
-    "local": "北海道/美瑛_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Calistemon",
-    "commons_file": "Maruyama Street, Biei, Hokkaido, April 2023 04.jpg",
-    "source": "commons-supplement:Biei, Hokkaido"
+    "license": "Pexels",
+    "artist": "tslui",
+    "commons_file": "pexels:35695306",
+    "source": "pexels:Biei Hokkaido fields"
    }
   ]
  },
  {
   "city": "北海道",
   "attraction": "富良野花田",
-  "status": "miss"
+  "status": "ok",
+  "local": "北海道/富良野花田_1.jpg",
+  "license": "Pexels",
+  "artist": "Natsuko Aoyama",
+  "commons_file": "pexels:8797283",
+  "source": "pexels:Furano lavender field Hokkaido",
+  "extras": [
+   {
+    "local": "北海道/富良野花田_2.jpg",
+    "license": "Pexels",
+    "artist": "hung chou",
+    "commons_file": "pexels:36404588",
+    "source": "pexels:Furano lavender field Hokkaido"
+   },
+   {
+    "local": "北海道/富良野花田_3.jpg",
+    "license": "Pexels",
+    "artist": "Natsuko Aoyama",
+    "commons_file": "pexels:8797285",
+    "source": "pexels:Furano lavender field Hokkaido"
+   }
+  ]
  },
  {
   "city": "北海道",
   "attraction": "旭川动物园",
-  "status": "miss"
+  "status": "ok",
+  "local": "北海道/旭川动物园_1.jpg",
+  "license": "Pexels",
+  "artist": "Yu Lin Chen",
+  "commons_file": "pexels:3668003",
+  "source": "pexels:Asahiyama Zoo Hokkaido",
+  "extras": [
+   {
+    "local": "北海道/旭川动物园_2.jpg",
+    "license": "Pexels",
+    "artist": "Samuel Park",
+    "commons_file": "pexels:31192001",
+    "source": "pexels:Asahiyama Zoo Hokkaido"
+   },
+   {
+    "local": "北海道/旭川动物园_3.jpg",
+    "license": "Pexels",
+    "artist": "SHANWEI HSU",
+    "commons_file": "pexels:11058413",
+    "source": "pexels:Asahiyama Zoo Hokkaido"
+   }
+  ]
  },
  {
   "city": "北海道",
   "attraction": "百货公司",
   "status": "ok",
   "local": "北海道/百货公司_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Minseong Kim",
-  "commons_file": "Shinsegae_Department_Store_in_Seoul.jpg",
-  "source": "zhwiki:百貨公司",
+  "license": "Pexels",
+  "artist": "Matt Hardy",
+  "commons_file": "pexels:1928086",
+  "source": "pexels:Sapporo Tanukikoji shopping street",
   "extras": [
    {
     "local": "北海道/百货公司_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Benh LIEU SONG (Flickr)",
-    "commons_file": "Galerie Lafayette Haussmann Dome.jpg",
-    "source": "commons-supplement:Department store"
+    "license": "Pexels",
+    "artist": "nana liu",
+    "commons_file": "pexels:36464854",
+    "source": "pexels:Sapporo Tanukikoji shopping street"
    },
    {
     "local": "北海道/百货公司_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Ermell",
-    "commons_file": "Beijing Department Store-20071019-RM-213355.jpg",
-    "source": "commons-supplement:Department store"
-   },
-   {
-    "local": "北海道/百货公司_4.jpg",
-    "license": "CC0",
-    "artist": "EffectiveWiki",
-    "commons_file": "Atkinsons Department Store Sheffield.jpg",
-    "source": "commons-supplement:Department store"
+    "license": "Pexels",
+    "artist": "Ran Hua",
+    "commons_file": "pexels:34014668",
+    "source": "pexels:Sapporo Tanukikoji shopping street"
    }
   ]
  },
  {
   "city": "北海道",
   "attraction": "函馆山夜景",
-  "status": "miss"
+  "status": "ok",
+  "local": "北海道/函馆山夜景_1.jpg",
+  "license": "Pexels",
+  "artist": "Maxine Xin",
+  "commons_file": "pexels:36053252",
+  "source": "pexels:Hakodate Mount night view",
+  "extras": [
+   {
+    "local": "北海道/函馆山夜景_2.jpg",
+    "license": "Pexels",
+    "artist": "Guohua Song",
+    "commons_file": "pexels:30590878",
+    "source": "pexels:Hakodate Mount night view"
+   },
+   {
+    "local": "北海道/函馆山夜景_3.jpg",
+    "license": "Pexels",
+    "artist": "Han Sen",
+    "commons_file": "pexels:17178483",
+    "source": "pexels:Hakodate Mount night view"
+   }
+  ]
  },
  {
   "city": "奈良",
   "attraction": "东大寺",
   "status": "ok",
   "local": "奈良/东大寺_1.jpg",
-  "license": "CC0",
-  "artist": "Marco Almbauer",
-  "commons_file": "Golden_Hall,_Todaiji.jpg",
-  "source": "zhwiki:东大寺",
+  "license": "Pexels",
+  "artist": "Gül Işık",
+  "commons_file": "pexels:34080252",
+  "source": "pexels:Todai-ji Temple Nara",
   "extras": [
    {
     "local": "奈良/东大寺_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Hyppolyte de Saint-Rambert",
-    "commons_file": "Tōdai-ji hdsr IMG 3869.jpg",
-    "source": "commons-supplement:Tōdai-ji"
+    "license": "Pexels",
+    "artist": "Shernon Hague",
+    "commons_file": "pexels:20150835",
+    "source": "pexels:Todai-ji Temple Nara"
    },
    {
     "local": "奈良/东大寺_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Hyppolyte de Saint-Rambert",
-    "commons_file": "Tōdai-ji hdsr IMG 3880.jpg",
-    "source": "commons-supplement:Tōdai-ji"
-   },
-   {
-    "local": "奈良/东大寺_4.jpg",
-    "license": "CC0",
-    "artist": "Balon Greyjoy",
-    "commons_file": "20190121 Tōdai-ji sōrin-1.jpg",
-    "source": "commons-supplement:Tōdai-ji"
+    "license": "Pexels",
+    "artist": "Huu Huynh",
+    "commons_file": "pexels:16832290",
+    "source": "pexels:Todai-ji Temple Nara"
    }
   ]
  },
@@ -827,112 +862,154 @@
   "attraction": "奈良公园",
   "status": "ok",
   "local": "奈良/奈良公园_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Martin Falbisoner",
-  "commons_file": "Nara_Park,_November_2016.jpg",
-  "source": "zhwiki:奈良公園",
+  "license": "Pexels",
+  "artist": "Daniel Trotta",
+  "commons_file": "pexels:31047839",
+  "source": "pexels:Nara Park deer Japan",
   "extras": [
    {
     "local": "奈良/奈良公园_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Martin Falbisoner",
-    "commons_file": "Nara Park, November 2016.jpg",
-    "source": "commons-supplement:Nara Park"
+    "license": "Pexels",
+    "artist": "Giuseppe Macri",
+    "commons_file": "pexels:29565522",
+    "source": "pexels:Nara Park deer Japan"
    },
    {
     "local": "奈良/奈良公园_3.jpg",
-    "license": "CC BY 3.0",
-    "artist": "Feri88",
-    "commons_file": "Nara Park - panoramio (2).jpg",
-    "source": "commons-supplement:Nara Park"
-   },
-   {
-    "local": "奈良/奈良公园_4.jpg",
-    "license": "CC0",
-    "artist": "DimiTalen",
-    "commons_file": "Deer (Cervus nippon centralis) drinking from a ditch, Nara Park, Nara, 2016.jpg",
-    "source": "commons-supplement:Nara Park"
+    "license": "Pexels",
+    "artist": "K ZHAO",
+    "commons_file": "pexels:35586892",
+    "source": "pexels:Nara Park deer Japan"
    }
   ]
  },
  {
   "city": "奈良",
   "attraction": "小鹿",
-  "status": "miss"
+  "status": "ok",
+  "local": "奈良/小鹿_1.jpg",
+  "license": "Pexels",
+  "artist": "Daniel Trotta",
+  "commons_file": "pexels:31047839",
+  "source": "pexels:Nara Park deer Japan",
+  "extras": [
+   {
+    "local": "奈良/小鹿_2.jpg",
+    "license": "Pexels",
+    "artist": "Giuseppe Macri",
+    "commons_file": "pexels:29565522",
+    "source": "pexels:Nara Park deer Japan"
+   },
+   {
+    "local": "奈良/小鹿_3.jpg",
+    "license": "Pexels",
+    "artist": "K ZHAO",
+    "commons_file": "pexels:35586892",
+    "source": "pexels:Nara Park deer Japan"
+   }
+  ]
  },
  {
   "city": "冲绳",
   "attraction": "到达",
-  "status": "miss"
+  "status": "ok",
+  "local": "冲绳/到达_1.jpg",
+  "license": "Pexels",
+  "artist": "Daisuke Fujita",
+  "commons_file": "pexels:7501178",
+  "source": "pexels:Okinawa beach Japan",
+  "extras": [
+   {
+    "local": "冲绳/到达_2.jpg",
+    "license": "Pexels",
+    "artist": "Davina",
+    "commons_file": "pexels:29188996",
+    "source": "pexels:Okinawa beach Japan"
+   },
+   {
+    "local": "冲绳/到达_3.jpg",
+    "license": "Pexels",
+    "artist": "Ryutaro Tsukata",
+    "commons_file": "pexels:5219982",
+    "source": "pexels:Okinawa beach Japan"
+   }
+  ]
  },
  {
   "city": "冲绳",
   "attraction": "国际通",
   "status": "ok",
   "local": "冲绳/国际通_1.jpg",
-  "license": "CC BY 2.5",
-  "artist": "663highland",
-  "commons_file": "Kokusai-dori08s3s4440.jpg",
-  "source": "zhwiki:國際通",
+  "license": "Pexels",
+  "artist": "Aiwa Hu 艾蛙媽 VS. 達樂哥",
+  "commons_file": "pexels:20605370",
+  "source": "pexels:Kokusai Dori Naha Okinawa",
   "extras": [
    {
     "local": "冲绳/国际通_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "廣九直通車",
-    "commons_file": "OnPPD StW 冲绳800-26-78@2.jpg",
-    "source": "commons-supplement:国际通 冲绳"
+    "license": "Pexels",
+    "artist": "Davina",
+    "commons_file": "pexels:29188996",
+    "source": "pexels:Kokusai Dori Naha Okinawa"
    },
    {
     "local": "冲绳/国际通_3.jpg",
-    "license": "Public domain",
-    "artist": "ORNL",
-    "commons_file": "Fluxnet UMBS.jpg",
-    "source": "commons-supplement:国际通"
-   },
-   {
-    "local": "冲绳/国际通_4.jpg",
-    "license": "Public domain",
-    "artist": "ORNL",
-    "commons_file": "Fluxnet Daintree.jpg",
-    "source": "commons-supplement:国际通"
+    "license": "Pexels",
+    "artist": "Guohua Song",
+    "commons_file": "pexels:35696223",
+    "source": "pexels:Kokusai Dori Naha Okinawa"
    }
   ]
  },
  {
   "city": "冲绳",
   "attraction": "出海浮潜",
-  "status": "miss"
+  "status": "ok",
+  "local": "冲绳/出海浮潜_1.jpg",
+  "license": "Pexels",
+  "artist": "Francesco Ungaro",
+  "commons_file": "pexels:17598833",
+  "source": "pexels:Okinawa snorkeling coral reef",
+  "extras": [
+   {
+    "local": "冲绳/出海浮潜_2.jpg",
+    "license": "Pexels",
+    "artist": "William Chen",
+    "commons_file": "pexels:27047884",
+    "source": "pexels:Okinawa snorkeling coral reef"
+   },
+   {
+    "local": "冲绳/出海浮潜_3.jpg",
+    "license": "Pexels",
+    "artist": "Zir YU",
+    "commons_file": "pexels:8395909",
+    "source": "pexels:Okinawa snorkeling coral reef"
+   }
+  ]
  },
  {
   "city": "冲绳",
   "attraction": "万座毛",
   "status": "ok",
   "local": "冲绳/万座毛_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Yuniko",
-  "commons_file": "万座毛.jpg",
-  "source": "zhwiki:萬座毛",
+  "license": "Pexels",
+  "artist": "Robert Yang",
+  "commons_file": "pexels:10964091",
+  "source": "pexels:Manzamo Cliff Okinawa",
   "extras": [
    {
     "local": "冲绳/万座毛_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "CEphoto, Uwe Aranas",
-    "commons_file": "Onna Okinawa Japan Cape-Manzamo-01.jpg",
-    "source": "commons-supplement:Cape Manzamo"
+    "license": "Pexels",
+    "artist": "Boo Normi",
+    "commons_file": "pexels:29133312",
+    "source": "pexels:Manzamo Cliff Okinawa"
    },
    {
     "local": "冲绳/万座毛_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "CEphoto, Uwe Aranas",
-    "commons_file": "Onna Okinawa Japan Cape-Manzamo-02.jpg",
-    "source": "commons-supplement:Cape Manzamo"
-   },
-   {
-    "local": "冲绳/万座毛_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "そらみみ",
-    "commons_file": "Cape Manzamo 3.JPG",
-    "source": "commons-supplement:Cape Manzamo"
+    "license": "Pexels",
+    "artist": "Skyler Sion",
+    "commons_file": "pexels:9808156",
+    "source": "pexels:Manzamo Cliff Okinawa"
    }
   ]
  },
@@ -941,31 +1018,24 @@
   "attraction": "恩纳村",
   "status": "ok",
   "local": "冲绳/恩纳村_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "CEphoto, Uwe Aranas",
-  "commons_file": "Onna_Okinawa_Japan_Cape-Manzamo-01.jpg",
-  "source": "zhwiki:恩納村",
+  "license": "Pexels",
+  "artist": "Robert Yang",
+  "commons_file": "pexels:10964091",
+  "source": "pexels:Onna Village Okinawa coast",
   "extras": [
    {
     "local": "冲绳/恩纳村_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "CEphoto, Uwe Aranas",
-    "commons_file": "Onna Okinawa Japan Burial-site-at-Onna-Village-01.jpg",
-    "source": "commons-supplement:Onna, Okinawa"
+    "license": "Pexels",
+    "artist": "Ryutaro Tsukata",
+    "commons_file": "pexels:5219982",
+    "source": "pexels:Onna Village Okinawa coast"
    },
    {
     "local": "冲绳/恩纳村_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "CEphoto, Uwe Aranas",
-    "commons_file": "Onna Okinawa ANA-InterContinental-Manza-Beach-Resort-01.jpg",
-    "source": "commons-supplement:Onna, Okinawa"
-   },
-   {
-    "local": "冲绳/恩纳村_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "CEphoto, Uwe Aranas",
-    "commons_file": "Onna Okinawa Japan Cape-Manzamo-01.jpg",
-    "source": "commons-supplement:Onna, Okinawa"
+    "license": "Pexels",
+    "artist": "William Chen",
+    "commons_file": "pexels:27041999",
+    "source": "pexels:Onna Village Okinawa coast"
    }
   ]
  },
@@ -974,93 +1044,128 @@
   "attraction": "美丽海水族馆",
   "status": "ok",
   "local": "冲绳/美丽海水族馆_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "sinnosuke uchida",
-  "commons_file": "沖縄美ら海水族館＿大.jpg",
-  "source": "zhwiki:沖繩美麗海水族館",
+  "license": "Pexels",
+  "artist": "William Warby",
+  "commons_file": "pexels:19613766",
+  "source": "pexels:Churaumi Aquarium Okinawa",
   "extras": [
    {
     "local": "冲绳/美丽海水族馆_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "xuejc1988",
-    "commons_file": "冲绳美丽海水族馆的海豚正在进行表演.jpg",
-    "source": "commons-supplement:美丽海水族馆 冲绳"
+    "license": "Pexels",
+    "artist": "Boo Normi",
+    "commons_file": "pexels:29099000",
+    "source": "pexels:Churaumi Aquarium Okinawa"
+   },
+   {
+    "local": "冲绳/美丽海水族馆_3.jpg",
+    "license": "Pexels",
+    "artist": "Boo Normi",
+    "commons_file": "pexels:29099015",
+    "source": "pexels:Churaumi Aquarium Okinawa"
    }
   ]
  },
  {
   "city": "冲绳",
   "attraction": "回家",
-  "status": "miss"
+  "status": "ok",
+  "local": "冲绳/回家_1.jpg",
+  "license": "Pexels",
+  "artist": "Boo Normi",
+  "commons_file": "pexels:29133312",
+  "source": "pexels:Okinawa ocean coastline",
+  "extras": [
+   {
+    "local": "冲绳/回家_2.jpg",
+    "license": "Pexels",
+    "artist": "Ryutaro Tsukata",
+    "commons_file": "pexels:5219982",
+    "source": "pexels:Okinawa ocean coastline"
+   },
+   {
+    "local": "冲绳/回家_3.jpg",
+    "license": "Pexels",
+    "artist": "William Chen",
+    "commons_file": "pexels:27041999",
+    "source": "pexels:Okinawa ocean coastline"
+   }
+  ]
  },
  {
   "city": "石垣岛",
   "attraction": "川平湾",
   "status": "ok",
   "local": "石垣岛/川平湾_1.jpg",
-  "license": "Public domain",
-  "artist": "Metatron",
-  "commons_file": "Kabirawan.jpg",
-  "source": "zhwiki:川平灣",
+  "license": "Pexels",
+  "artist": "Daisuke Fujita",
+  "commons_file": "pexels:7501178",
+  "source": "pexels:Kabira Bay Ishigaki",
   "extras": [
    {
     "local": "石垣岛/川平湾_2.jpg",
-    "license": "CC BY 2.5",
-    "artist": "663highland",
-    "commons_file": "Kabira Bay Ishigaki Island40bs3s4592.jpg",
-    "source": "commons-supplement:Kabira Bay"
+    "license": "Pexels",
+    "artist": "Fuka jaz",
+    "commons_file": "pexels:12318786",
+    "source": "pexels:Kabira Bay Ishigaki"
    },
    {
     "local": "石垣岛/川平湾_3.jpg",
-    "license": "CC BY 2.5",
-    "artist": "663highland",
-    "commons_file": "Kabira Bay Ishigaki Island21bs5s4410.jpg",
-    "source": "commons-supplement:Kabira Bay"
-   },
-   {
-    "local": "石垣岛/川平湾_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "RitikaPahwa4444",
-    "commons_file": "Kabira Bay 33.jpg",
-    "source": "commons-supplement:Kabira Bay"
+    "license": "Pexels",
+    "artist": "Mikhail Nilov",
+    "commons_file": "pexels:7017502",
+    "source": "pexels:Kabira Bay Ishigaki"
    }
   ]
  },
  {
   "city": "石垣岛",
   "attraction": "石垣岛市区",
-  "status": "miss"
+  "status": "ok",
+  "local": "石垣岛/石垣岛市区_1.jpg",
+  "license": "Pexels",
+  "artist": "Daisuke Fujita",
+  "commons_file": "pexels:7501178",
+  "source": "pexels:Ishigaki Island town Okinawa",
+  "extras": [
+   {
+    "local": "石垣岛/石垣岛市区_2.jpg",
+    "license": "Pexels",
+    "artist": "Davina",
+    "commons_file": "pexels:29188996",
+    "source": "pexels:Ishigaki Island town Okinawa"
+   },
+   {
+    "local": "石垣岛/石垣岛市区_3.jpg",
+    "license": "Pexels",
+    "artist": "Ryutaro Tsukata",
+    "commons_file": "pexels:5219982",
+    "source": "pexels:Ishigaki Island town Okinawa"
+   }
+  ]
  },
  {
   "city": "石垣岛",
   "attraction": "竹富岛",
   "status": "ok",
   "local": "石垣岛/竹富岛_1.jpg",
-  "license": "CC BY 2.0",
-  "artist": "ippei &amp; janine naoi",
-  "commons_file": "Village_in_Taketomi_Island_-_located_at_southwest_Japan.jpg",
-  "source": "zhwiki:竹富島",
+  "license": "Pexels",
+  "artist": "Ryutaro Tsukata",
+  "commons_file": "pexels:5219982",
+  "source": "pexels:Taketomi Island Okinawa",
   "extras": [
    {
     "local": "石垣岛/竹富岛_2.jpg",
-    "license": "CC0",
-    "artist": "Syced",
-    "commons_file": "Walk in Taketomi Island 10.jpg",
-    "source": "commons-supplement:Taketomi Island"
+    "license": "Pexels",
+    "artist": "Davina",
+    "commons_file": "pexels:29188996",
+    "source": "pexels:Taketomi Island Okinawa"
    },
    {
     "local": "石垣岛/竹富岛_3.jpg",
-    "license": "CC0",
-    "artist": "Syced",
-    "commons_file": "Walk in Taketomi Island 12.jpg",
-    "source": "commons-supplement:Taketomi Island"
-   },
-   {
-    "local": "石垣岛/竹富岛_4.jpg",
-    "license": "CC0",
-    "artist": "Syced",
-    "commons_file": "Walk in Taketomi Island 15.jpg",
-    "source": "commons-supplement:Taketomi Island"
+    "license": "Pexels",
+    "artist": "William Chen",
+    "commons_file": "pexels:27041999",
+    "source": "pexels:Taketomi Island Okinawa"
    }
   ]
  },
@@ -1069,31 +1174,24 @@
   "attraction": "小滨岛",
   "status": "ok",
   "local": "石垣岛/小滨岛_1.jpg",
-  "license": "Attribution",
-  "artist": "国土地理院",
-  "commons_file": "Kohamajima_Island,_Taketomi_Okinawa_Aerial_photograph.2019.jpg",
-  "source": "zhwiki:小濱島",
+  "license": "Pexels",
+  "artist": "Davina",
+  "commons_file": "pexels:29188996",
+  "source": "pexels:Kohama Island Okinawa",
   "extras": [
    {
     "local": "石垣岛/小滨岛_2.jpg",
-    "license": "Attribution",
-    "artist": "国土地理院",
-    "commons_file": "Haimurubushi Aerial photo of Kohama Island Resort.jpg",
-    "source": "commons-supplement:Kohama Island"
+    "license": "Pexels",
+    "artist": "Daisuke Fujita",
+    "commons_file": "pexels:7501178",
+    "source": "pexels:Kohama Island Okinawa"
    },
    {
     "local": "石垣岛/小滨岛_3.jpg",
-    "license": "CC BY 2.0",
-    "artist": "Junpei Abe",
-    "commons_file": "Aerial view of Ishigaki island Taketomi and Kohama 2014.jpg",
-    "source": "commons-supplement:Kohama Island"
-   },
-   {
-    "local": "石垣岛/小滨岛_4.jpg",
-    "license": "Public domain",
-    "artist": "Image Science and Analysis Laboratory, NASA-Johnson Space Center. \"The Gateway t",
-    "commons_file": "Kohama Island ISS039.jpg",
-    "source": "commons-supplement:Kohama Island"
+    "license": "Pexels",
+    "artist": "Ryutaro Tsukata",
+    "commons_file": "pexels:5219982",
+    "source": "pexels:Kohama Island Okinawa"
    }
   ]
  }

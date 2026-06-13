@@ -4,31 +4,24 @@
   "attraction": "大英博物馆",
   "status": "ok",
   "local": "伦敦/大英博物馆_1.jpg",
-  "license": "CC BY 2.0",
-  "artist": "Luke Massey &amp; the Greater London National Park City Initiative",
-  "commons_file": "British_Museum_(aerial).jpg",
-  "source": "zhwiki:大英博物馆",
+  "license": "Pexels",
+  "artist": "Rodrigo Santos",
+  "commons_file": "pexels:2269593",
+  "source": "pexels:British Museum London",
   "extras": [
    {
     "local": "伦敦/大英博物馆_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Diliff",
-    "commons_file": "British Museum Great Court, London, UK - Diliff.jpg",
-    "source": "commons-supplement:British Museum"
+    "license": "Pexels",
+    "artist": "oldtypwriter",
+    "commons_file": "pexels:37097886",
+    "source": "pexels:British Museum London"
    },
    {
     "local": "伦敦/大英博物馆_3.jpg",
-    "license": "CC BY 2.0",
-    "artist": "Luke Massey &amp; the Greater London National Park City Initiative",
-    "commons_file": "British Museum (aerial).jpg",
-    "source": "commons-supplement:British Museum"
-   },
-   {
-    "local": "伦敦/大英博物馆_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Ham",
-    "commons_file": "British Museum from NE 2 (cropped).JPG",
-    "source": "commons-supplement:British Museum"
+    "license": "Pexels",
+    "artist": "Brett Jordan",
+    "commons_file": "pexels:35160868",
+    "source": "pexels:British Museum London"
    }
   ]
  },
@@ -37,31 +30,24 @@
   "attraction": "特拉法加广场",
   "status": "ok",
   "local": "伦敦/特拉法加广场_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Diliff",
-  "commons_file": "Trafalgar_Square,_London_2_-_Jun_2009.jpg",
-  "source": "zhwiki:特拉法加廣場",
+  "license": "Pexels",
+  "artist": "Mathew Browne",
+  "commons_file": "pexels:11130687",
+  "source": "pexels:Trafalgar Square London",
   "extras": [
    {
     "local": "伦敦/特拉法加广场_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Diliff",
-    "commons_file": "Trafalgar Square, London 2 - Jun 2009.jpg",
-    "source": "commons-supplement:Trafalgar Square"
+    "license": "Pexels",
+    "artist": "Rodrigo Santos",
+    "commons_file": "pexels:2269593",
+    "source": "pexels:Trafalgar Square London"
    },
    {
     "local": "伦敦/特拉法加广场_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Dietmar Rabich",
-    "commons_file": "London, Trafalgar Square -- 2016 -- 4856.jpg",
-    "source": "commons-supplement:Trafalgar Square"
-   },
-   {
-    "local": "伦敦/特拉法加广场_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Diliff",
-    "commons_file": "Trafalgar Square LED Fountains - June 2009.jpg",
-    "source": "commons-supplement:Trafalgar Square"
+    "license": "Pexels",
+    "artist": "Malcolm Hill",
+    "commons_file": "pexels:12900444",
+    "source": "pexels:Trafalgar Square London"
    }
   ]
  },
@@ -70,31 +56,24 @@
   "attraction": "白金汉宫",
   "status": "ok",
   "local": "伦敦/白金汉宫_1.jpg",
-  "license": "CC BY 4.0",
-  "artist": "Julian Herzog (Website)",
-  "commons_file": "Buckingham_Palace_London_Morning_2020_01.jpg",
-  "source": "zhwiki:白金汉宫",
+  "license": "Pexels",
+  "artist": "Funky MojoJojo",
+  "commons_file": "pexels:29191806",
+  "source": "pexels:Buckingham Palace London",
   "extras": [
    {
     "local": "伦敦/白金汉宫_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Diliff",
-    "commons_file": "Buckingham Palace, London - April 2009.jpg",
-    "source": "commons-supplement:Buckingham Palace"
+    "license": "Pexels",
+    "artist": "JR Bradbury",
+    "commons_file": "pexels:16387002",
+    "source": "pexels:Buckingham Palace London"
    },
    {
     "local": "伦敦/白金汉宫_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Diego Delso",
-    "commons_file": "Palacio de Buckingham, Londres, Inglaterra, 2014-08-11, DD 192.JPG",
-    "source": "commons-supplement:Buckingham Palace"
-   },
-   {
-    "local": "伦敦/白金汉宫_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Carlos Delgado",
-    "commons_file": "Guard of Buckingham Palace - 01.jpg",
-    "source": "commons-supplement:Buckingham Palace"
+    "license": "Pexels",
+    "artist": "Ed Duvico",
+    "commons_file": "pexels:6408658",
+    "source": "pexels:Buckingham Palace London"
    }
   ]
  },
@@ -103,31 +82,24 @@
   "attraction": "西敏寺",
   "status": "ok",
   "local": "伦敦/西敏寺_1.jpg",
-  "license": "CC BY 4.0",
-  "artist": "Antiquary",
-  "commons_file": "Westminster_Abbey,_Westminster.jpg",
-  "source": "zhwiki:西敏寺",
+  "license": "Pexels",
+  "artist": "Kris Schulze",
+  "commons_file": "pexels:162001",
+  "source": "pexels:Westminster Abbey London",
   "extras": [
    {
     "local": "伦敦/西敏寺_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Carlos Delgado",
-    "commons_file": "Westminster Abbey - 02.jpg",
-    "source": "commons-supplement:Westminster Abbey"
+    "license": "Pexels",
+    "artist": "William ZALI",
+    "commons_file": "pexels:33334264",
+    "source": "pexels:Westminster Abbey London"
    },
    {
     "local": "伦敦/西敏寺_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Dietmar Rabich",
-    "commons_file": "London, Westminster Abbey -- 2016 -- 4811.jpg",
-    "source": "commons-supplement:Westminster Abbey"
-   },
-   {
-    "local": "伦敦/西敏寺_4.jpg",
-    "license": "CC BY-SA 2.5",
-    "artist": "Diliff",
-    "commons_file": "Palace of Westminster, London - Feb 2007.jpg",
-    "source": "commons-supplement:Westminster Abbey"
+    "license": "Pexels",
+    "artist": "Piotrek Wilk",
+    "commons_file": "pexels:28700912",
+    "source": "pexels:Westminster Abbey London"
    }
   ]
  },
@@ -136,31 +108,24 @@
   "attraction": "大本钟",
   "status": "ok",
   "local": "伦敦/大本钟_1.jpg",
-  "license": "CC BY-SA 2.0",
-  "artist": "Dave Bezaire",
-  "commons_file": "Elizabeth_Tower,_June_2022.jpg",
-  "source": "zhwiki:大本钟",
+  "license": "Pexels",
+  "artist": "Jabez Cutamora",
+  "commons_file": "pexels:30029654",
+  "source": "pexels:Big Ben London",
   "extras": [
    {
     "local": "伦敦/大本钟_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Colin",
-    "commons_file": "Big Ben at sunset - 2014-10-27 17-30.jpg",
-    "source": "commons-supplement:Big Ben"
+    "license": "Pexels",
+    "artist": "Gianluca Pugliese",
+    "commons_file": "pexels:16771428",
+    "source": "pexels:Big Ben London"
    },
    {
     "local": "伦敦/大本钟_3.jpg",
-    "license": "CC BY 4.0",
-    "artist": "Julian Herzog (Website)",
-    "commons_file": "Big Ben Elizabeth Tower London 2023 01.jpg",
-    "source": "commons-supplement:Big Ben"
-   },
-   {
-    "local": "伦敦/大本钟_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Ermell",
-    "commons_file": "London Big Ben Inner Clock Face 1070925-PSD.jpg",
-    "source": "commons-supplement:Big Ben"
+    "license": "Pexels",
+    "artist": "Kao Jimmy",
+    "commons_file": "pexels:17379169",
+    "source": "pexels:Big Ben London"
    }
   ]
  },
@@ -169,107 +134,128 @@
   "attraction": "伦敦塔",
   "status": "ok",
   "local": "伦敦/伦敦塔_1.jpg",
-  "license": "CC BY 2.0",
-  "artist": "[Duncan] from Nottingham, UK",
-  "commons_file": "Tower_of_London_from_the_Shard_(8515883950).jpg",
-  "source": "zhwiki:伦敦塔",
+  "license": "Pexels",
+  "artist": "Heinz Klier",
+  "commons_file": "pexels:1055234",
+  "source": "pexels:Tower of London",
   "extras": [
    {
     "local": "伦敦/伦敦塔_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Colin",
-    "commons_file": "Jubilee and Munin, Ravens, Tower of London 2016-04-30.jpg",
-    "source": "commons-supplement:Tower of London"
+    "license": "Pexels",
+    "artist": "Abdus Samad Mahkri",
+    "commons_file": "pexels:33737665",
+    "source": "pexels:Tower of London"
    },
    {
     "local": "伦敦/伦敦塔_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Bob Collowan",
-    "commons_file": "Tower of London viewed from the River Thames.jpg",
-    "source": "commons-supplement:Tower of London"
-   },
-   {
-    "local": "伦敦/伦敦塔_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Diego Delso",
-    "commons_file": "Puente de la Torre, Londres, Inglaterra, 2014-08-11, DD 092.JPG",
-    "source": "commons-supplement:Tower of London"
+    "license": "Pexels",
+    "artist": "Benni Fish",
+    "commons_file": "pexels:24739973",
+    "source": "pexels:Tower of London"
    }
   ]
  },
  {
   "city": "伦敦",
   "attraction": "塔桥",
-  "status": "miss"
+  "status": "ok",
+  "local": "伦敦/塔桥_1.jpg",
+  "license": "Pexels",
+  "artist": "Michal Libertowski",
+  "commons_file": "pexels:37544947",
+  "source": "pexels:Tower Bridge London",
+  "extras": [
+   {
+    "local": "伦敦/塔桥_2.jpg",
+    "license": "Pexels",
+    "artist": "Public Domain Pictures",
+    "commons_file": "pexels:42061",
+    "source": "pexels:Tower Bridge London"
+   },
+   {
+    "local": "伦敦/塔桥_3.jpg",
+    "license": "Pexels",
+    "artist": "Enrique",
+    "commons_file": "pexels:26624348",
+    "source": "pexels:Tower Bridge London"
+   }
+  ]
  },
  {
   "city": "伦敦",
   "attraction": "泰晤士河",
   "status": "ok",
-  "local": "伦敦/泰晤士河_1.png",
-  "license": "CC BY-SA 3.0",
-  "artist": "",
-  "commons_file": "Thames_map.png",
-  "source": "zhwiki:泰晤士河",
+  "local": "伦敦/泰晤士河_1.jpg",
+  "license": "Pexels",
+  "artist": "Gianluca Pugliese",
+  "commons_file": "pexels:16771428",
+  "source": "pexels:River Thames London",
   "extras": [
    {
     "local": "伦敦/泰晤士河_2.jpg",
-    "license": "CC BY 3.0",
-    "artist": "Diliff",
-    "commons_file": "London Thames Sunset panorama - Feb 2008.jpg",
-    "source": "commons-supplement:River Thames"
+    "license": "Pexels",
+    "artist": "Adrien Olichon",
+    "commons_file": "pexels:36126189",
+    "source": "pexels:River Thames London"
    },
    {
     "local": "伦敦/泰晤士河_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Diego Delso",
-    "commons_file": "Puente de la Torre, Londres, Inglaterra, 2014-08-11, DD 092.JPG",
-    "source": "commons-supplement:River Thames"
-   },
-   {
-    "local": "伦敦/泰晤士河_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "mattbuck (category)",
-    "commons_file": "London MMB »0A1 River Thames.jpg",
-    "source": "commons-supplement:River Thames"
+    "license": "Pexels",
+    "artist": "Lina Kivaka",
+    "commons_file": "pexels:1529616",
+    "source": "pexels:River Thames London"
    }
   ]
  },
  {
   "city": "伦敦",
   "attraction": "剑桥或牛津一日游",
-  "status": "miss"
+  "status": "ok",
+  "local": "伦敦/剑桥或牛津一日游_1.jpg",
+  "license": "Pexels",
+  "artist": "Cara Denison",
+  "commons_file": "pexels:36145595",
+  "source": "pexels:Cambridge University England",
+  "extras": [
+   {
+    "local": "伦敦/剑桥或牛津一日游_2.jpg",
+    "license": "Pexels",
+    "artist": "Mingyang LIU",
+    "commons_file": "pexels:33806760",
+    "source": "pexels:Cambridge University England"
+   },
+   {
+    "local": "伦敦/剑桥或牛津一日游_3.jpg",
+    "license": "Pexels",
+    "artist": "Cara Denison",
+    "commons_file": "pexels:36155657",
+    "source": "pexels:Cambridge University England"
+   }
+  ]
  },
  {
   "city": "爱丁堡",
   "attraction": "爱丁堡城堡",
   "status": "ok",
   "local": "爱丁堡/爱丁堡城堡_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Klaus Hermsen",
-  "commons_file": "EdinburghCastle.jpg",
-  "source": "zhwiki:爱丁堡城堡",
+  "license": "Pexels",
+  "artist": "Sonny Vermeer",
+  "commons_file": "pexels:19963803",
+  "source": "pexels:Edinburgh Castle Scotland",
   "extras": [
    {
     "local": "爱丁堡/爱丁堡城堡_2.jpg",
-    "license": "Public domain",
-    "artist": "George Washington Wilson / Adam Cuerden",
-    "commons_file": "Edinburgh Castle from Grass Market.jpg",
-    "source": "commons-supplement:Edinburgh Castle"
+    "license": "Pexels",
+    "artist": "Rosa Stone",
+    "commons_file": "pexels:21235066",
+    "source": "pexels:Edinburgh Castle Scotland"
    },
    {
     "local": "爱丁堡/爱丁堡城堡_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Daniel Kraft",
-    "commons_file": "Edinburgh Castle from Esplanade 20211019.jpg",
-    "source": "commons-supplement:Edinburgh Castle"
-   },
-   {
-    "local": "爱丁堡/爱丁堡城堡_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Daniel Kraft",
-    "commons_file": "Edinburgh Castle gate 20211019.jpg",
-    "source": "commons-supplement:Edinburgh Castle"
+    "license": "Pexels",
+    "artist": "Igor Passchier",
+    "commons_file": "pexels:35769512",
+    "source": "pexels:Edinburgh Castle Scotland"
    }
   ]
  },
@@ -278,31 +264,24 @@
   "attraction": "皇家一英里",
   "status": "ok",
   "local": "爱丁堡/皇家一英里_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Taras at English Wikipedia",
-  "commons_file": "Royal_mile_edinburgh.jpg",
-  "source": "zhwiki:皇家一英里",
+  "license": "Pexels",
+  "artist": "Oleksiy Yeshtokyn,🌻🇺🇦🌻",
+  "commons_file": "pexels:37058090",
+  "source": "pexels:Royal Mile Edinburgh",
   "extras": [
    {
     "local": "爱丁堡/皇家一英里_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Daniel Kraft",
-    "commons_file": "Edinburgh Royal Mile from Salisbury Crags 20211019.jpg",
-    "source": "commons-supplement:Royal Mile"
+    "license": "Pexels",
+    "artist": "Duna Jbara",
+    "commons_file": "pexels:28120765",
+    "source": "pexels:Royal Mile Edinburgh"
    },
    {
     "local": "爱丁堡/皇家一英里_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Lirazelf",
-    "commons_file": "Ceilidh advertising, Royal Mile, Edinburgh.jpg",
-    "source": "commons-supplement:Royal Mile"
-   },
-   {
-    "local": "爱丁堡/皇家一英里_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Lirazelf",
-    "commons_file": "Street performer, Royal Mile, Edinburgh.jpg",
-    "source": "commons-supplement:Royal Mile"
+    "license": "Pexels",
+    "artist": "Oriel Frankie Ashcroft",
+    "commons_file": "pexels:5999515",
+    "source": "pexels:Royal Mile Edinburgh"
    }
   ]
  },
@@ -311,31 +290,24 @@
   "attraction": "卡尔顿山",
   "status": "ok",
   "local": "爱丁堡/卡尔顿山_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Carlos Delgado",
-  "commons_file": "Nelson's_Monument_and_National_Monument_-_01.jpg",
-  "source": "zhwiki:卡尔顿山",
+  "license": "Pexels",
+  "artist": "Emiliano LG",
+  "commons_file": "pexels:34523601",
+  "source": "pexels:Calton Hill Edinburgh",
   "extras": [
    {
     "local": "爱丁堡/卡尔顿山_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Daniel Kraft",
-    "commons_file": "Edinburgh Calton Hill from Salisbury Crags 20211019.jpg",
-    "source": "commons-supplement:Calton Hill"
+    "license": "Pexels",
+    "artist": "Hoàng Vũ",
+    "commons_file": "pexels:15770583",
+    "source": "pexels:Calton Hill Edinburgh"
    },
    {
     "local": "爱丁堡/卡尔顿山_3.jpg",
-    "license": "CC BY 3.0",
-    "artist": "Saffron Blaze",
-    "commons_file": "Edinburgh Calton Hill.jpg",
-    "source": "commons-supplement:Calton Hill"
-   },
-   {
-    "local": "爱丁堡/卡尔顿山_4.jpg",
-    "license": "No restrictions",
-    "artist": "British Library",
-    "commons_file": "Calton Hill, view in 1824.jpg",
-    "source": "commons-supplement:Calton Hill"
+    "license": "Pexels",
+    "artist": "Clément Proust",
+    "commons_file": "pexels:29080624",
+    "source": "pexels:Calton Hill Edinburgh"
    }
   ]
  },
@@ -344,31 +316,24 @@
   "attraction": "亚瑟王座",
   "status": "ok",
   "local": "爱丁堡/亚瑟王座_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Kim Traynor",
-  "commons_file": "Arthur's_Seat,_Edinburgh.JPG",
-  "source": "zhwiki:亞瑟王座",
+  "license": "Pexels",
+  "artist": "Sonny Vermeer",
+  "commons_file": "pexels:19971310",
+  "source": "pexels:Arthur's Seat Edinburgh",
   "extras": [
    {
     "local": "爱丁堡/亚瑟王座_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Ermell",
-    "commons_file": "Edinburgh Arthur's Seat-20110904-RM-124927.jpg",
-    "source": "commons-supplement:Arthur's Seat"
+    "license": "Pexels",
+    "artist": "Agnieszka Palmowska",
+    "commons_file": "pexels:631901",
+    "source": "pexels:Arthur's Seat Edinburgh"
    },
    {
     "local": "爱丁堡/亚瑟王座_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "David Monniaux",
-    "commons_file": "Edinburgh Arthur Seat dsc06165.jpg",
-    "source": "commons-supplement:Arthur's Seat"
-   },
-   {
-    "local": "爱丁堡/亚瑟王座_4.jpg",
-    "license": "CC0",
-    "artist": "Kitjank",
-    "commons_file": "Arthur's Seat 2023.jpg",
-    "source": "commons-supplement:Arthur's Seat"
+    "license": "Pexels",
+    "artist": "Zekai Zhu",
+    "commons_file": "pexels:11827705",
+    "source": "pexels:Arthur's Seat Edinburgh"
    }
   ]
  },
@@ -377,31 +342,24 @@
   "attraction": "荷里路德宫",
   "status": "ok",
   "local": "爱丁堡/荷里路德宫_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "XtoF",
-  "commons_file": "Holyroodhouse,_front_view.jpg",
-  "source": "zhwiki:荷里路德宮",
+  "license": "Pexels",
+  "artist": "Muhammed Zahid Bulut",
+  "commons_file": "pexels:14905419",
+  "source": "pexels:Palace of Holyroodhouse Edinburgh",
   "extras": [
    {
     "local": "爱丁堡/荷里路德宫_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Daniel Lu (User:dllu) (with special thanks to Bastian Kratzke for help with clon",
-    "commons_file": "Palace of Holyroodhouse quadrangle Edinburgh 2025 dllu.jpg",
-    "source": "commons-supplement:Holyrood Palace"
+    "license": "Pexels",
+    "artist": "Emre Acar",
+    "commons_file": "pexels:11012395",
+    "source": "pexels:Palace of Holyroodhouse Edinburgh"
    },
    {
     "local": "爱丁堡/荷里路德宫_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Ermell",
-    "commons_file": "Edinburgh Holyrood Palace-20110904-RM-130303.jpg",
-    "source": "commons-supplement:Holyrood Palace"
-   },
-   {
-    "local": "爱丁堡/荷里路德宫_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Daniel Kraft",
-    "commons_file": "Holyrood Palace and Abbey 20211021.jpg",
-    "source": "commons-supplement:Holyrood Palace"
+    "license": "Pexels",
+    "artist": "Muhammed Zahid Bulut",
+    "commons_file": "pexels:15392533",
+    "source": "pexels:Palace of Holyroodhouse Edinburgh"
    }
   ]
  },
@@ -410,31 +368,24 @@
   "attraction": "尼斯湖",
   "status": "ok",
   "local": "苏格兰高地/尼斯湖_1.jpg",
-  "license": "CC BY 2.5",
-  "artist": "No machine-readable author provided. Lukacs~commonswiki assumed (based on copyri",
-  "commons_file": "LochNess2.jpg",
-  "source": "zhwiki:尼斯湖",
+  "license": "Pexels",
+  "artist": "Marvin  Sacdalan",
+  "commons_file": "pexels:13064527",
+  "source": "pexels:Loch Ness Scotland",
   "extras": [
    {
     "local": "苏格兰高地/尼斯湖_2.jpg",
-    "license": "CC BY 3.0",
-    "artist": "Eusebius",
-    "commons_file": "The Loch Ness and Urquhart castle.jpg",
-    "source": "commons-supplement:Loch Ness"
+    "license": "Pexels",
+    "artist": "Michał Robak",
+    "commons_file": "pexels:29405319",
+    "source": "pexels:Loch Ness Scotland"
    },
    {
     "local": "苏格兰高地/尼斯湖_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Daniel Kraft",
-    "commons_file": "Urquhart Castle 2 20211024.jpg",
-    "source": "commons-supplement:Loch Ness"
-   },
-   {
-    "local": "苏格兰高地/尼斯湖_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Daniel Kraft",
-    "commons_file": "Urquhart Castle 1 20211024.jpg",
-    "source": "commons-supplement:Loch Ness"
+    "license": "Pexels",
+    "artist": "Michał Robak",
+    "commons_file": "pexels:34627346",
+    "source": "pexels:Loch Ness Scotland"
    }
   ]
  },
@@ -443,79 +394,128 @@
   "attraction": "厄克特城堡",
   "status": "ok",
   "local": "苏格兰高地/厄克特城堡_1.jpg",
-  "license": "CC BY 4.0",
-  "artist": "August Schwerdfeger",
-  "commons_file": "Urquhart_Castle_2017-05-22.jpg",
-  "source": "zhwiki:厄克特城堡",
+  "license": "Pexels",
+  "artist": "Lucas Carlini",
+  "commons_file": "pexels:20035657",
+  "source": "pexels:Urquhart Castle Loch Ness",
   "extras": [
    {
     "local": "苏格兰高地/厄克特城堡_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Wknight94",
-    "commons_file": "Urquhart Castle distance 2.jpg",
-    "source": "commons-supplement:Urquhart Castle"
+    "license": "Pexels",
+    "artist": "Giada Venturino",
+    "commons_file": "pexels:6810421",
+    "source": "pexels:Urquhart Castle Loch Ness"
    },
    {
     "local": "苏格兰高地/厄克特城堡_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Daniel Kraft",
-    "commons_file": "Urquhart Castle 2 20211024.jpg",
-    "source": "commons-supplement:Urquhart Castle"
-   },
-   {
-    "local": "苏格兰高地/厄克特城堡_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Daniel Kraft",
-    "commons_file": "Urquhart Castle 1 20211024.jpg",
-    "source": "commons-supplement:Urquhart Castle"
+    "license": "Pexels",
+    "artist": "Michał Robak",
+    "commons_file": "pexels:29405317",
+    "source": "pexels:Urquhart Castle Loch Ness"
    }
   ]
  },
  {
   "city": "苏格兰高地",
   "attraction": "仙女池",
-  "status": "miss"
+  "status": "ok",
+  "local": "苏格兰高地/仙女池_1.jpg",
+  "license": "Pexels",
+  "artist": "Rafael Da Silva",
+  "commons_file": "pexels:28225047",
+  "source": "pexels:Fairy Pools Isle of Skye",
+  "extras": [
+   {
+    "local": "苏格兰高地/仙女池_2.jpg",
+    "license": "Pexels",
+    "artist": "Rino Adamo",
+    "commons_file": "pexels:34975303",
+    "source": "pexels:Fairy Pools Isle of Skye"
+   },
+   {
+    "local": "苏格兰高地/仙女池_3.jpg",
+    "license": "Pexels",
+    "artist": "Carsten Ruthemann",
+    "commons_file": "pexels:6331977",
+    "source": "pexels:Fairy Pools Isle of Skye"
+   }
+  ]
  },
  {
   "city": "苏格兰高地",
   "attraction": "老人峰",
-  "status": "miss"
+  "status": "ok",
+  "local": "苏格兰高地/老人峰_1.jpg",
+  "license": "Pexels",
+  "artist": "Vincent Delsuc",
+  "commons_file": "pexels:24554193",
+  "source": "pexels:Old Man of Storr Skye",
+  "extras": [
+   {
+    "local": "苏格兰高地/老人峰_2.jpg",
+    "license": "Pexels",
+    "artist": "Gabriela Palai",
+    "commons_file": "pexels:590029",
+    "source": "pexels:Old Man of Storr Skye"
+   },
+   {
+    "local": "苏格兰高地/老人峰_3.jpg",
+    "license": "Pexels",
+    "artist": "Ffion Scott",
+    "commons_file": "pexels:28199959",
+    "source": "pexels:Old Man of Storr Skye"
+   }
+  ]
  },
  {
   "city": "苏格兰高地",
   "attraction": "格伦科峡谷",
-  "status": "miss"
+  "status": "ok",
+  "local": "苏格兰高地/格伦科峡谷_1.jpg",
+  "license": "Pexels",
+  "artist": "Robert Hacker",
+  "commons_file": "pexels:13608111",
+  "source": "pexels:Glencoe Scottish Highlands",
+  "extras": [
+   {
+    "local": "苏格兰高地/格伦科峡谷_2.jpg",
+    "license": "Pexels",
+    "artist": "Marek Piwnicki",
+    "commons_file": "pexels:11516639",
+    "source": "pexels:Glencoe Scottish Highlands"
+   },
+   {
+    "local": "苏格兰高地/格伦科峡谷_3.jpg",
+    "license": "Pexels",
+    "artist": "LUCAS VEIGA REIS",
+    "commons_file": "pexels:28544177",
+    "source": "pexels:Glencoe Scottish Highlands"
+   }
+  ]
  },
  {
   "city": "格拉斯哥",
   "attraction": "格拉斯哥大教堂",
   "status": "ok",
   "local": "格拉斯哥/格拉斯哥大教堂_1.jpg",
-  "license": "CC BY 3.0",
-  "artist": "No machine-readable author provided. Julesn84 assumed (based on copyright claims",
-  "commons_file": "Glasgow-cathedral-may-2007.jpg",
-  "source": "zhwiki:格拉斯哥大教堂",
+  "license": "Pexels",
+  "artist": "Miwa",
+  "commons_file": "pexels:32314227",
+  "source": "pexels:Glasgow Cathedral Scotland",
   "extras": [
    {
     "local": "格拉斯哥/格拉斯哥大教堂_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Colin",
-    "commons_file": "Glasgow Cathedral - Nave Rear.jpg",
-    "source": "commons-supplement:Glasgow Cathedral"
+    "license": "Pexels",
+    "artist": "Muhammed Zahid Bulut",
+    "commons_file": "pexels:13657233",
+    "source": "pexels:Glasgow Cathedral Scotland"
    },
    {
     "local": "格拉斯哥/格拉斯哥大教堂_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Colin",
-    "commons_file": "War Memorial, Glasgow Cathedral.jpg",
-    "source": "commons-supplement:Glasgow Cathedral"
-   },
-   {
-    "local": "格拉斯哥/格拉斯哥大教堂_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Ymblanter",
-    "commons_file": "Glasgow Cathedral main portal.jpg",
-    "source": "commons-supplement:Glasgow Cathedral"
+    "license": "Pexels",
+    "artist": "Wilson Crawford",
+    "commons_file": "pexels:34861381",
+    "source": "pexels:Glasgow Cathedral Scotland"
    }
   ]
  },
@@ -524,31 +524,24 @@
   "attraction": "乔治广场",
   "status": "ok",
   "local": "格拉斯哥/乔治广场_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "User Finlay McWalter on en.wikipedia",
-  "commons_file": "Wfm_glasgow_cityhall.jpg",
-  "source": "zhwiki:乔治广场",
+  "license": "Pexels",
+  "artist": "Altaf Shah",
+  "commons_file": "pexels:34856930",
+  "source": "pexels:George Square Glasgow",
   "extras": [
    {
     "local": "格拉斯哥/乔治广场_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Arcaist",
-    "commons_file": "George Square Edinburgh buildings.jpg",
-    "source": "commons-supplement:George Square"
+    "license": "Pexels",
+    "artist": "Elena Golovchenko",
+    "commons_file": "pexels:12319481",
+    "source": "pexels:George Square Glasgow"
    },
    {
     "local": "格拉斯哥/乔治广场_3.jpg",
-    "license": "CC BY 3.0",
-    "artist": "Archibald99",
-    "commons_file": "George Square, Glasgow, Christmas.JPG",
-    "source": "commons-supplement:George Square"
-   },
-   {
-    "local": "格拉斯哥/乔治广场_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "FriendlyHMM",
-    "commons_file": "Candlelit Vigil for Brianna Ghey in George Square, Glasgow.jpg",
-    "source": "commons-supplement:George Square"
+    "license": "Pexels",
+    "artist": "Mike Bird",
+    "commons_file": "pexels:13435883",
+    "source": "pexels:George Square Glasgow"
    }
   ]
  },
@@ -557,31 +550,24 @@
   "attraction": "老特拉福德球场",
   "status": "ok",
   "local": "曼彻斯特/老特拉福德球场_1.jpg",
-  "license": "CC BY 2.0",
-  "artist": "Steve Collis from Melbourne, Australia",
-  "commons_file": "Manchester_United_Panorama_(8051523746).jpg",
-  "source": "zhwiki:老特拉福德球场",
+  "license": "Pexels",
+  "artist": "Mylo Kaye",
+  "commons_file": "pexels:16902034",
+  "source": "pexels:Old Trafford Stadium Manchester",
   "extras": [
    {
     "local": "曼彻斯特/老特拉福德球场_2.jpg",
-    "license": "CC BY-SA 3.0 de",
-    "artist": "Arne Müseler",
-    "commons_file": "Manchester United Old Trafford.jpg",
-    "source": "commons-supplement:Old Trafford"
+    "license": "Pexels",
+    "artist": "Miguel  Saddi Vitorino",
+    "commons_file": "pexels:11014210",
+    "source": "pexels:Old Trafford Stadium Manchester"
    },
    {
     "local": "曼彻斯特/老特拉福德球场_3.jpg",
-    "license": "Public domain",
-    "artist": "Unknown authorUnknown author",
-    "commons_file": "Old trafford stadium 1920s.jpg",
-    "source": "commons-supplement:Old Trafford"
-   },
-   {
-    "local": "曼彻斯特/老特拉福德球场_4.jpg",
-    "license": "CC BY-SA 2.0",
-    "artist": "Lewis Clarke",
-    "commons_file": "Manchester , Trafford - Old Trafford Stadium - geograph.org.uk - 3724146.jpg",
-    "source": "commons-supplement:Old Trafford"
+    "license": "Pexels",
+    "artist": "Gawon Lee",
+    "commons_file": "pexels:32668284",
+    "source": "pexels:Old Trafford Stadium Manchester"
    }
   ]
  },
@@ -590,117 +576,154 @@
   "attraction": "曼彻斯特博物馆",
   "status": "ok",
   "local": "曼彻斯特/曼彻斯特博物馆_1.jpg",
-  "license": "CC BY-SA 2.5",
-  "artist": "Pit-yacker",
-  "commons_file": "Manchester_Museum.jpg",
-  "source": "zhwiki:曼徹斯特博物館",
+  "license": "Pexels",
+  "artist": "Andrea De Santis",
+  "commons_file": "pexels:13130038",
+  "source": "pexels:Manchester Museum England",
   "extras": [
    {
     "local": "曼彻斯特/曼彻斯特博物馆_2.jpg",
-    "license": "CC0",
-    "artist": "DanielMichaelPerry",
-    "commons_file": "Manchester Museum interior 2019.jpg",
-    "source": "commons-supplement:Manchester Museum"
+    "license": "Pexels",
+    "artist": "Szymon Shields",
+    "commons_file": "pexels:7507821",
+    "source": "pexels:Manchester Museum England"
    },
    {
     "local": "曼彻斯特/曼彻斯特博物馆_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "DrPhoenix",
-    "commons_file": "The Manchester Museum.jpg",
-    "source": "commons-supplement:Manchester Museum"
-   },
-   {
-    "local": "曼彻斯特/曼彻斯特博物馆_4.jpg",
-    "license": "CC BY 2.5",
-    "artist": "The original uploader was Billlion at English Wikipedia.",
-    "commons_file": "Manchester Museum by Nick Higham.jpg",
-    "source": "commons-supplement:Manchester Museum"
+    "license": "Pexels",
+    "artist": "Leonid Danilov",
+    "commons_file": "pexels:26970649",
+    "source": "pexels:Manchester Museum England"
    }
   ]
  },
  {
   "city": "利物浦",
   "attraction": "披头士博物馆",
-  "status": "miss"
+  "status": "ok",
+  "local": "利物浦/披头士博物馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Michał Robak",
+  "commons_file": "pexels:29380844",
+  "source": "pexels:Beatles Story Museum Liverpool",
+  "extras": [
+   {
+    "local": "利物浦/披头士博物馆_2.jpg",
+    "license": "Pexels",
+    "artist": "JustPhotof Photo & Video",
+    "commons_file": "pexels:21578295",
+    "source": "pexels:Beatles Story Museum Liverpool"
+   },
+   {
+    "local": "利物浦/披头士博物馆_3.jpg",
+    "license": "Pexels",
+    "artist": "Balázs Gábor",
+    "commons_file": "pexels:24553796",
+    "source": "pexels:Beatles Story Museum Liverpool"
+   }
+  ]
  },
  {
   "city": "利物浦",
   "attraction": "阿尔伯特码头",
   "status": "ok",
   "local": "利物浦/阿尔伯特码头_1.jpg",
-  "license": "Public domain",
-  "artist": "Man vyi",
-  "commons_file": "Albert_Dock_Liverpool_7.jpg",
-  "source": "zhwiki:皇家阿爾伯特碼頭 (利物浦)"
+  "license": "Pexels",
+  "artist": "Balo graphy",
+  "commons_file": "pexels:32408845",
+  "source": "pexels:Albert Dock Liverpool",
+  "extras": [
+   {
+    "local": "利物浦/阿尔伯特码头_2.jpg",
+    "license": "Pexels",
+    "artist": "Balázs Gábor",
+    "commons_file": "pexels:24553148",
+    "source": "pexels:Albert Dock Liverpool"
+   },
+   {
+    "local": "利物浦/阿尔伯特码头_3.jpg",
+    "license": "Pexels",
+    "artist": "Dominik Gryzbon",
+    "commons_file": "pexels:30841290",
+    "source": "pexels:Albert Dock Liverpool"
+   }
+  ]
  },
  {
   "city": "牛津",
   "attraction": "牛津大学",
   "status": "ok",
   "local": "牛津/牛津大学_1.jpg",
-  "license": "CC0",
-  "artist": "Michael D Beckwith",
-  "commons_file": "University Of Oxford The Bridge Of Sighs.jpg",
-  "source": "commons-search:University of Oxford",
+  "license": "Pexels",
+  "artist": "Chait Goli",
+  "commons_file": "pexels:1796720",
+  "source": "pexels:University of Oxford England",
   "extras": [
    {
     "local": "牛津/牛津大学_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Diliff",
-    "commons_file": "Oxford University Museum of Natural History, Oxford, UK - Diliff.jpg",
-    "source": "commons-supplement:University of Oxford"
+    "license": "Pexels",
+    "artist": "TNP",
+    "commons_file": "pexels:30342626",
+    "source": "pexels:University of Oxford England"
    },
    {
     "local": "牛津/牛津大学_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "DeFacto",
-    "commons_file": "Brasenose College Chapel, University of Oxford, ceiling.jpg",
-    "source": "commons-supplement:University of Oxford"
-   },
-   {
-    "local": "牛津/牛津大学_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Godot13",
-    "commons_file": "UK-2014-Oxford-All Souls College 03.jpg",
-    "source": "commons-supplement:University of Oxford"
+    "license": "Pexels",
+    "artist": "David Allen",
+    "commons_file": "pexels:29889925",
+    "source": "pexels:University of Oxford England"
    }
   ]
  },
  {
   "city": "牛津",
   "attraction": "基督教堂学院",
-  "status": "miss"
+  "status": "ok",
+  "local": "牛津/基督教堂学院_1.jpg",
+  "license": "Pexels",
+  "artist": "Yohantha Gunawarna",
+  "commons_file": "pexels:23697257",
+  "source": "pexels:Christ Church College Oxford",
+  "extras": [
+   {
+    "local": "牛津/基督教堂学院_2.jpg",
+    "license": "Pexels",
+    "artist": "Clément Proust",
+    "commons_file": "pexels:30660071",
+    "source": "pexels:Christ Church College Oxford"
+   },
+   {
+    "local": "牛津/基督教堂学院_3.jpg",
+    "license": "Pexels",
+    "artist": "Mark Stebnicki",
+    "commons_file": "pexels:31125296",
+    "source": "pexels:Christ Church College Oxford"
+   }
+  ]
  },
  {
   "city": "牛津",
   "attraction": "博德利图书馆",
   "status": "ok",
   "local": "牛津/博德利图书馆_1.jpg",
-  "license": "CC0",
-  "artist": "Honcques Laus",
-  "commons_file": "Bibliotheca_Bodleiana.jpg",
-  "source": "zhwiki:博德利圖書館",
+  "license": "Pexels",
+  "artist": "David Allen",
+  "commons_file": "pexels:29889925",
+  "source": "pexels:Bodleian Library Oxford",
   "extras": [
    {
     "local": "牛津/博德利图书馆_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Ввласенко",
-    "commons_file": "Entrance to the Bodleian Library. Statue of the third Earl of Pembroke. Oxford, UK.jpg",
-    "source": "commons-supplement:Bodleian Library"
+    "license": "Pexels",
+    "artist": "Shaun  Iwasawa",
+    "commons_file": "pexels:16009515",
+    "source": "pexels:Bodleian Library Oxford"
    },
    {
     "local": "牛津/博德利图书馆_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Txllxt TxllxT",
-    "commons_file": "Oxford - Bodleian Library 1602 - Bodleian Bookshop 04.jpg",
-    "source": "commons-supplement:Bodleian Library"
-   },
-   {
-    "local": "牛津/博德利图书馆_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Remi Mathis",
-    "commons_file": "Oxford - Bodleian Library - facade.JPG",
-    "source": "commons-supplement:Bodleian Library"
+    "license": "Pexels",
+    "artist": "Özgül Bendes",
+    "commons_file": "pexels:18283322",
+    "source": "pexels:Bodleian Library Oxford"
    }
   ]
  },
@@ -708,32 +731,25 @@
   "city": "剑桥",
   "attraction": "剑桥大学",
   "status": "ok",
-  "local": "剑桥/剑桥大学_1.png",
-  "license": "CC BY-SA 4.0",
-  "artist": "EmyRussell",
-  "commons_file": "Cambridge 2013-23.png",
-  "source": "commons-search:University of Cambridge",
+  "local": "剑桥/剑桥大学_1.jpg",
+  "license": "Pexels",
+  "artist": "Cara Denison",
+  "commons_file": "pexels:36145595",
+  "source": "pexels:University of Cambridge England",
   "extras": [
    {
-    "local": "剑桥/剑桥大学_2.png",
-    "license": "CC BY-SA 4.0",
-    "artist": "EmyRussell",
-    "commons_file": "Cambridge 10 Years.png",
-    "source": "commons-supplement:University of Cambridge"
+    "local": "剑桥/剑桥大学_2.jpg",
+    "license": "Pexels",
+    "artist": "James Wong",
+    "commons_file": "pexels:32783000",
+    "source": "pexels:University of Cambridge England"
    },
    {
     "local": "剑桥/剑桥大学_3.jpg",
-    "license": "Public domain",
-    "artist": "Ordnance Survey",
-    "commons_file": "Cambridge University Rifle Ground 1886.jpg",
-    "source": "commons-supplement:University of Cambridge"
-   },
-   {
-    "local": "剑桥/剑桥大学_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Acabashi",
-    "commons_file": "Cambridge University CC v MCC at Cambridge, England 004.jpg",
-    "source": "commons-supplement:University of Cambridge"
+    "license": "Pexels",
+    "artist": "Mingyang LIU",
+    "commons_file": "pexels:33806760",
+    "source": "pexels:University of Cambridge England"
    }
   ]
  },
@@ -742,69 +758,76 @@
   "attraction": "国王学院",
   "status": "ok",
   "local": "剑桥/国王学院_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Diliff",
-  "commons_file": "King's College London Chapel 2, London - Diliff.jpg",
-  "source": "commons-search:King's College",
+  "license": "Pexels",
+  "artist": "James Wong",
+  "commons_file": "pexels:32783000",
+  "source": "pexels:King's College Cambridge",
   "extras": [
    {
     "local": "剑桥/国王学院_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "DeFacto",
-    "commons_file": "King's College Chapel, Cambridge - The Great East Window.jpg",
-    "source": "commons-supplement:King's College"
+    "license": "Pexels",
+    "artist": "Cara Denison",
+    "commons_file": "pexels:36145595",
+    "source": "pexels:King's College Cambridge"
    },
    {
     "local": "剑桥/国王学院_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Diliff",
-    "commons_file": "King's College London Chapel, London, UK - Diliff.jpg",
-    "source": "commons-supplement:King's College"
-   },
-   {
-    "local": "剑桥/国王学院_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Diliff",
-    "commons_file": "King's College London Chapel 3, London - Diliff.jpg",
-    "source": "commons-supplement:King's College"
+    "license": "Pexels",
+    "artist": "Mingyang LIU",
+    "commons_file": "pexels:33806760",
+    "source": "pexels:King's College Cambridge"
    }
   ]
  },
  {
   "city": "剑桥",
   "attraction": "康河撑篙",
-  "status": "miss"
+  "status": "ok",
+  "local": "剑桥/康河撑篙_1.jpg",
+  "license": "Pexels",
+  "artist": "Cara Denison",
+  "commons_file": "pexels:36149240",
+  "source": "pexels:Punting River Cam Cambridge",
+  "extras": [
+   {
+    "local": "剑桥/康河撑篙_2.jpg",
+    "license": "Pexels",
+    "artist": "Ian Mirones",
+    "commons_file": "pexels:8278390",
+    "source": "pexels:Punting River Cam Cambridge"
+   },
+   {
+    "local": "剑桥/康河撑篙_3.jpg",
+    "license": "Pexels",
+    "artist": "Betül Nisa Çetin",
+    "commons_file": "pexels:17033360",
+    "source": "pexels:Punting River Cam Cambridge"
+   }
+  ]
  },
  {
   "city": "巴斯",
   "attraction": "罗马浴场",
   "status": "ok",
   "local": "巴斯/罗马浴场_1.jpg",
-  "license": "Public domain",
-  "artist": "Lawrence Alma-Tadema",
-  "commons_file": "Alma-Tadema_A_Favourite_Custom_1909_Tate_Britain.jpg",
-  "source": "zhwiki:古罗马浴场",
+  "license": "Pexels",
+  "artist": "Rachel Claire",
+  "commons_file": "pexels:4577640",
+  "source": "pexels:Roman Baths Bath England",
   "extras": [
    {
     "local": "巴斯/罗马浴场_2.jpg",
-    "license": "CC BY 2.5",
-    "artist": "Diliff",
-    "commons_file": "Roman Baths in Bath Spa, England - July 2006.jpg",
-    "source": "commons-supplement:Thermae"
+    "license": "Pexels",
+    "artist": "Rachel Claire",
+    "commons_file": "pexels:4577642",
+    "source": "pexels:Roman Baths Bath England"
    },
    {
     "local": "巴斯/罗马浴场_3.jpg",
-    "license": "CC BY 2.0",
-    "artist": "SuperCar-RoadTrip.fr from Bordeaux, France",
-    "commons_file": "Arabs Baths of Alhama de Granada in Andalusia, Spain.jpg",
-    "source": "commons-supplement:Thermae"
-   },
-   {
-    "local": "巴斯/罗马浴场_4.png",
-    "license": "Public domain",
-    "artist": "John Williamson",
-    "commons_file": "Roman baths.png",
-    "source": "commons-supplement:Thermae"
+    "license": "Pexels",
+    "artist": "Liam Hoban Thrush",
+    "commons_file": "pexels:32963833",
+    "source": "pexels:Roman Baths Bath England"
    }
   ]
  },
@@ -813,69 +836,76 @@
   "attraction": "巴斯修道院",
   "status": "ok",
   "local": "巴斯/巴斯修道院_1.jpg",
-  "license": "Public domain",
-  "artist": "Adrian Pingstone (Arpingstone)",
-  "commons_file": "Bath_abbey_and_roman_baths_arp.jpg",
-  "source": "zhwiki:巴斯修道院",
+  "license": "Pexels",
+  "artist": "Marvin  Sacdalan",
+  "commons_file": "pexels:13020674",
+  "source": "pexels:Bath Abbey England",
   "extras": [
    {
     "local": "巴斯/巴斯修道院_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Diliff",
-    "commons_file": "Bath Abbey Nave Fan Vaulting, Somerset, UK - Diliff.jpg",
-    "source": "commons-supplement:Bath Abbey"
+    "license": "Pexels",
+    "artist": "Stephen  Girling",
+    "commons_file": "pexels:12662203",
+    "source": "pexels:Bath Abbey England"
    },
    {
     "local": "巴斯/巴斯修道院_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Diliff",
-    "commons_file": "Bath Abbey Eastern Stained Glass, Somerset, UK - Diliff.jpg",
-    "source": "commons-supplement:Bath Abbey"
-   },
-   {
-    "local": "巴斯/巴斯修道院_4.jpg",
-    "license": "CC BY 4.0",
-    "artist": "Julian Herzog (Website)",
-    "commons_file": "Bath Abbey 2024 02.jpg",
-    "source": "commons-supplement:Bath Abbey"
+    "license": "Pexels",
+    "artist": "Osviel Rodriguez Valdés",
+    "commons_file": "pexels:37046488",
+    "source": "pexels:Bath Abbey England"
    }
   ]
  },
  {
   "city": "巴斯",
   "attraction": "皇家新月楼",
-  "status": "miss"
+  "status": "ok",
+  "local": "巴斯/皇家新月楼_1.jpg",
+  "license": "Pexels",
+  "artist": "Shann",
+  "commons_file": "pexels:3921067",
+  "source": "pexels:Royal Crescent Bath England",
+  "extras": [
+   {
+    "local": "巴斯/皇家新月楼_2.jpg",
+    "license": "Pexels",
+    "artist": "Inti Tupac Liberman",
+    "commons_file": "pexels:5275166",
+    "source": "pexels:Royal Crescent Bath England"
+   },
+   {
+    "local": "巴斯/皇家新月楼_3.jpg",
+    "license": "Pexels",
+    "artist": "Amine kübranur Çakıroğlu",
+    "commons_file": "pexels:37919926",
+    "source": "pexels:Royal Crescent Bath England"
+   }
+  ]
  },
  {
   "city": "约克",
   "attraction": "约克大教堂",
   "status": "ok",
   "local": "约克/约克大教堂_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "The original uploader was Steve nova at English Wikipedia.",
-  "commons_file": "York_Minster_close.jpg",
-  "source": "zhwiki:約克座堂",
+  "license": "Pexels",
+  "artist": "Michael D Beckwith",
+  "commons_file": "pexels:37885386",
+  "source": "pexels:York Minster England",
   "extras": [
    {
     "local": "约克/约克大教堂_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Diliff",
-    "commons_file": "York Minster Nave 2, Nth Yorkshire, UK - Diliff.jpg",
-    "source": "commons-supplement:York Minster"
+    "license": "Pexels",
+    "artist": "John Nail",
+    "commons_file": "pexels:5162377",
+    "source": "pexels:York Minster England"
    },
    {
     "local": "约克/约克大教堂_3.jpg",
-    "license": "CC0",
-    "artist": "Michael D Beckwith",
-    "commons_file": "York Minster Chapter House Ceiling.jpg",
-    "source": "commons-supplement:York Minster"
-   },
-   {
-    "local": "约克/约克大教堂_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Diliff",
-    "commons_file": "York Minster Nave 1, Nth Yorkshire, UK - Diliff.jpg",
-    "source": "commons-supplement:York Minster"
+    "license": "Pexels",
+    "artist": "Robert Carnes",
+    "commons_file": "pexels:13290662",
+    "source": "pexels:York Minster England"
    }
   ]
  },
@@ -884,107 +914,128 @@
   "attraction": "肉铺街",
   "status": "ok",
   "local": "约克/肉铺街_1.jpg",
-  "license": "Public domain",
-  "artist": "Vincej at en.wikipedia",
-  "commons_file": "Shambles_York.jpg",
-  "source": "zhwiki:肉铺街",
+  "license": "Pexels",
+  "artist": "Oliver Schröder",
+  "commons_file": "pexels:33622985",
+  "source": "pexels:The Shambles York",
   "extras": [
    {
     "local": "约克/肉铺街_2.jpg",
-    "license": "CC BY 3.0",
-    "artist": "Henry Tucker",
-    "commons_file": "The Shambles 1852 Map.jpg",
-    "source": "commons-supplement:The Shambles"
+    "license": "Pexels",
+    "artist": "Michael D Beckwith",
+    "commons_file": "pexels:37883970",
+    "source": "pexels:The Shambles York"
    },
    {
     "local": "约克/肉铺街_3.jpg",
-    "license": "CC BY-SA 2.0",
-    "artist": "Derek Voller",
-    "commons_file": "The Shambles ^ Little Shambles, York - geograph.org.uk - 3481373.jpg",
-    "source": "commons-supplement:The Shambles"
-   },
-   {
-    "local": "约克/肉铺街_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Sebastian Mrozek",
-    "commons_file": "The Shambles, York.jpg",
-    "source": "commons-supplement:The Shambles"
+    "license": "Pexels",
+    "artist": "Pixabay",
+    "commons_file": "pexels:434446",
+    "source": "pexels:The Shambles York"
    }
   ]
  },
  {
   "city": "约克",
   "attraction": "古城墙",
-  "status": "miss"
+  "status": "ok",
+  "local": "约克/古城墙_1.jpg",
+  "license": "Pexels",
+  "artist": "Miwa",
+  "commons_file": "pexels:32757620",
+  "source": "pexels:York City Walls England",
+  "extras": [
+   {
+    "local": "约克/古城墙_2.jpg",
+    "license": "Pexels",
+    "artist": "Mateusz",
+    "commons_file": "pexels:6029235",
+    "source": "pexels:York City Walls England"
+   },
+   {
+    "local": "约克/古城墙_3.jpg",
+    "license": "Pexels",
+    "artist": "Darren Glynn",
+    "commons_file": "pexels:34652820",
+    "source": "pexels:York City Walls England"
+   }
+  ]
  },
  {
   "city": "英国湖区",
   "attraction": "温德米尔湖",
   "status": "ok",
   "local": "英国湖区/温德米尔湖_1.jpg",
-  "license": "CC BY 3.0",
-  "artist": "Abbasi1111",
-  "commons_file": "Windermere_Lake_District_from_hill.JPG",
-  "source": "zhwiki:溫德米爾湖",
+  "license": "Pexels",
+  "artist": "Patrick Bate",
+  "commons_file": "pexels:33595557",
+  "source": "pexels:Lake Windermere Lake District",
   "extras": [
    {
     "local": "英国湖区/温德米尔湖_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Michal Klajban",
-    "commons_file": "Mute swan (Cygnus olor) in Bowness-on-Windermere, England.jpg",
-    "source": "commons-supplement:Windermere"
+    "license": "Pexels",
+    "artist": "Altaf Shah",
+    "commons_file": "pexels:36501450",
+    "source": "pexels:Lake Windermere Lake District"
    },
    {
     "local": "英国湖区/温德米尔湖_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Michal Klajban",
-    "commons_file": "Mute swan (Cygnus olor) looking for food in waves, Windermere, England.jpg",
-    "source": "commons-supplement:Windermere"
-   },
-   {
-    "local": "英国湖区/温德米尔湖_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "mattbuck (category)",
-    "commons_file": "Lake Windermere MMB 54.jpg",
-    "source": "commons-supplement:Windermere"
+    "license": "Pexels",
+    "artist": "Michał Robak",
+    "commons_file": "pexels:29380856",
+    "source": "pexels:Lake Windermere Lake District"
    }
   ]
  },
  {
   "city": "英国湖区",
   "attraction": "波尼斯小镇",
-  "status": "miss"
+  "status": "ok",
+  "local": "英国湖区/波尼斯小镇_1.jpg",
+  "license": "Pexels",
+  "artist": "Altaf Shah",
+  "commons_file": "pexels:36501450",
+  "source": "pexels:Bowness-on-Windermere Lake District",
+  "extras": [
+   {
+    "local": "英国湖区/波尼斯小镇_2.jpg",
+    "license": "Pexels",
+    "artist": "Patrick Bate",
+    "commons_file": "pexels:33595557",
+    "source": "pexels:Bowness-on-Windermere Lake District"
+   },
+   {
+    "local": "英国湖区/波尼斯小镇_3.jpg",
+    "license": "Pexels",
+    "artist": "Michał Robak",
+    "commons_file": "pexels:29380856",
+    "source": "pexels:Bowness-on-Windermere Lake District"
+   }
+  ]
  },
  {
   "city": "英国湖区",
   "attraction": "凯西克",
   "status": "ok",
   "local": "英国湖区/凯西克_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "The original uploader was Mick Knapton at English Wikipedia.",
-  "commons_file": "Moot_Hall,_Keswick.jpg",
-  "source": "zhwiki:凯西克",
+  "license": "Pexels",
+  "artist": "Rodion Kutsaiev",
+  "commons_file": "pexels:16697176",
+  "source": "pexels:Keswick Lake District England",
   "extras": [
    {
     "local": "英国湖区/凯西克_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Diliff",
-    "commons_file": "Keswick, Cumbria Panorama 1 - June 2009.jpg",
-    "source": "commons-supplement:Keswick, Cumbria"
+    "license": "Pexels",
+    "artist": "Rodion Kutsaiev",
+    "commons_file": "pexels:16709941",
+    "source": "pexels:Keswick Lake District England"
    },
    {
     "local": "英国湖区/凯西克_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Diliff",
-    "commons_file": "Keswick Panorama - Oct 2009.jpg",
-    "source": "commons-supplement:Keswick, Cumbria"
-   },
-   {
-    "local": "英国湖区/凯西克_4.jpg",
-    "license": "CC BY-SA 2.0",
-    "artist": "James Denham",
-    "commons_file": "The B5289 heading in to Keswick in Cumbria - geograph.org.uk - 1946621.jpg",
-    "source": "commons-supplement:Keswick, Cumbria"
+    "license": "Pexels",
+    "artist": "John Smith",
+    "commons_file": "pexels:731705",
+    "source": "pexels:Keswick Lake District England"
    }
   ]
  },
@@ -993,69 +1044,76 @@
   "attraction": "德文特湖",
   "status": "ok",
   "local": "英国湖区/德文特湖_1.jpg",
-  "license": "Public domain",
-  "artist": "",
-  "commons_file": "Derwent-water.jpg",
-  "source": "zhwiki:德文特湖",
+  "license": "Pexels",
+  "artist": "Rodion Kutsaiev",
+  "commons_file": "pexels:16697176",
+  "source": "pexels:Derwentwater Lake District",
   "extras": [
    {
     "local": "英国湖区/德文特湖_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Diliff",
-    "commons_file": "Keswick Panorama - Oct 2009.jpg",
-    "source": "commons-supplement:Derwentwater"
+    "license": "Pexels",
+    "artist": "Karam Alani",
+    "commons_file": "pexels:28311327",
+    "source": "pexels:Derwentwater Lake District"
    },
    {
     "local": "英国湖区/德文特湖_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Diliff",
-    "commons_file": "Derwent Water, Keswick - June 2009.jpg",
-    "source": "commons-supplement:Derwentwater"
-   },
-   {
-    "local": "英国湖区/德文特湖_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Diliff",
-    "commons_file": "Keswick, Cumbria Panorama 1 - June 2009.jpg",
-    "source": "commons-supplement:Derwentwater"
+    "license": "Pexels",
+    "artist": "Yohantha Gunawarna",
+    "commons_file": "pexels:23881778",
+    "source": "pexels:Derwentwater Lake District"
    }
   ]
  },
  {
   "city": "伯明翰",
   "attraction": "伯明翰博物馆",
-  "status": "miss"
+  "status": "ok",
+  "local": "伯明翰/伯明翰博物馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Michael D Beckwith",
+  "commons_file": "pexels:31267774",
+  "source": "pexels:Birmingham Museum Art Gallery",
+  "extras": [
+   {
+    "local": "伯明翰/伯明翰博物馆_2.jpg",
+    "license": "Pexels",
+    "artist": "Michael D Beckwith",
+    "commons_file": "pexels:31267761",
+    "source": "pexels:Birmingham Museum Art Gallery"
+   },
+   {
+    "local": "伯明翰/伯明翰博物馆_3.jpg",
+    "license": "Pexels",
+    "artist": "Suzy Hazelwood",
+    "commons_file": "pexels:3004909",
+    "source": "pexels:Birmingham Museum Art Gallery"
+   }
+  ]
  },
  {
   "city": "伯明翰",
   "attraction": "运河区",
   "status": "ok",
   "local": "伯明翰/运河区_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "edmh0715",
-  "commons_file": "沧州体育馆.jpg",
-  "source": "zhwiki:运河区",
+  "license": "Pexels",
+  "artist": "Olga Lioncat",
+  "commons_file": "pexels:7244469",
+  "source": "pexels:Birmingham Canals Brindleyplace",
   "extras": [
    {
     "local": "伯明翰/运河区_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "edmh0715",
-    "commons_file": "Yunhe, Cangzhou, Hebei, China - panoramio.jpg",
-    "source": "commons-supplement:Yunhe, Cangzhou"
+    "license": "Pexels",
+    "artist": "Richard Hunter-Rice",
+    "commons_file": "pexels:9450533",
+    "source": "pexels:Birmingham Canals Brindleyplace"
    },
    {
     "local": "伯明翰/运河区_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Bjoertvedt",
-    "commons_file": "Hebei Cangzhou Yunhe - Xiaowangzhuangzhen (commune) IMG 9560 Cangzhou Power Station.jpg",
-    "source": "commons-supplement:Yunhe, Cangzhou"
-   },
-   {
-    "local": "伯明翰/运河区_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Bjoertvedt",
-    "commons_file": "Hebei Cangzhou Yunhe - Xiaowangzhuangzhen (commune) IMG 9554 Cangzhou Power Station.jpg",
-    "source": "commons-supplement:Yunhe, Cangzhou"
+    "license": "Pexels",
+    "artist": "Olga Lioncat",
+    "commons_file": "pexels:7244472",
+    "source": "pexels:Birmingham Canals Brindleyplace"
    }
   ]
  },
@@ -1064,31 +1122,24 @@
   "attraction": "克利夫顿吊桥",
   "status": "ok",
   "local": "布里斯托/克利夫顿吊桥_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Gothick",
-  "commons_file": "Clifton_Suspension_Bridge-9350.jpg",
-  "source": "zhwiki:克利夫頓吊橋",
+  "license": "Pexels",
+  "artist": "Boys in Bristol Photography",
+  "commons_file": "pexels:24880409",
+  "source": "pexels:Clifton Suspension Bridge Bristol",
   "extras": [
    {
     "local": "布里斯托/克利夫顿吊桥_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "mattbuck (category)",
-    "commons_file": "Bristol MMB «C0 Clifton Suspension Bridge.jpg",
-    "source": "commons-supplement:Clifton Suspension Bridge"
+    "license": "Pexels",
+    "artist": "Boys in Bristol Photography",
+    "commons_file": "pexels:14345966",
+    "source": "pexels:Clifton Suspension Bridge Bristol"
    },
    {
     "local": "布里斯托/克利夫顿吊桥_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "mattbuck (category)",
-    "commons_file": "Bristol MMB «C1 Clifton Suspension Bridge.jpg",
-    "source": "commons-supplement:Clifton Suspension Bridge"
-   },
-   {
-    "local": "布里斯托/克利夫顿吊桥_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "mattbuck (category)",
-    "commons_file": "Bristol MMB «C3 Clifton Suspension Bridge.jpg",
-    "source": "commons-supplement:Clifton Suspension Bridge"
+    "license": "Pexels",
+    "artist": "Boys in Bristol Photography",
+    "commons_file": "pexels:6047070",
+    "source": "pexels:Clifton Suspension Bridge Bristol"
    }
   ]
  },
@@ -1097,31 +1148,24 @@
   "attraction": "港口区",
   "status": "ok",
   "local": "布里斯托/港口区_1.jpg",
-  "license": "CC BY 3.0",
-  "artist": "锟哥",
-  "commons_file": "港口区_-_panoramio.jpg",
-  "source": "zhwiki:港口区",
+  "license": "Pexels",
+  "artist": "Boys in Bristol Photography",
+  "commons_file": "pexels:10255514",
+  "source": "pexels:Bristol Harbourside England",
   "extras": [
    {
     "local": "布里斯托/港口区_2.jpg",
-    "license": "CC BY 3.0",
-    "artist": "锟哥",
-    "commons_file": "港口区一角 - panoramio.jpg",
-    "source": "commons-supplement:Gangkou District"
+    "license": "Pexels",
+    "artist": "guo fengrui",
+    "commons_file": "pexels:9524988",
+    "source": "pexels:Bristol Harbourside England"
    },
    {
     "local": "布里斯托/港口区_3.jpg",
-    "license": "CC BY 3.0",
-    "artist": "liyuhanrenll",
-    "commons_file": "Gangkou, Fangchenggang, Guangxi, China - panoramio.jpg",
-    "source": "commons-supplement:Gangkou District"
-   },
-   {
-    "local": "布里斯托/港口区_4.jpg",
-    "license": "CC BY 3.0",
-    "artist": "liyuhanrenll",
-    "commons_file": "Gangkou, Fangchenggang, Guangxi, China - panoramio (3).jpg",
-    "source": "commons-supplement:Gangkou District"
+    "license": "Pexels",
+    "artist": "Barbara Bober",
+    "commons_file": "pexels:6053628",
+    "source": "pexels:Bristol Harbourside England"
    }
   ]
  }

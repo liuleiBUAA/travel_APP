@@ -4,31 +4,24 @@
   "attraction": "卫城",
   "status": "ok",
   "local": "雅典/卫城_1.jpg",
-  "license": "CC BY-SA 4.0",
-  "artist": "Spirosparas",
-  "commons_file": "Acropolis_Of_Athens_Greece_04.jpg",
-  "source": "zhwiki:雅典衛城",
+  "license": "Pexels",
+  "artist": "Audrey B",
+  "commons_file": "pexels:36825391",
+  "source": "pexels:Acropolis Athens Greece",
   "extras": [
    {
     "local": "雅典/卫城_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "A.Savin",
-    "commons_file": "Attica 06-13 Athens 50 View from Philopappos - Acropolis Hill.jpg",
-    "source": "commons-supplement:Acropolis"
+    "license": "Pexels",
+    "artist": "Kevin Lee",
+    "commons_file": "pexels:5961718",
+    "source": "pexels:Acropolis Athens Greece"
    },
    {
     "local": "雅典/卫城_3.jpg",
-    "license": "CC0",
-    "artist": "Jebulon",
-    "commons_file": "Erechtheum Acropolis Athens.jpg",
-    "source": "commons-supplement:Acropolis"
-   },
-   {
-    "local": "雅典/卫城_4.jpg",
-    "license": "CC BY-SA 3.0 de",
-    "artist": "Thomas Wolf, www.foto-tw.de",
-    "commons_file": "Akropolis mit Umgebung.jpg",
-    "source": "commons-supplement:Acropolis"
+    "license": "Pexels",
+    "artist": "Matheus Bertelli",
+    "commons_file": "pexels:14383924",
+    "source": "pexels:Acropolis Athens Greece"
    }
   ]
  },
@@ -37,31 +30,24 @@
   "attraction": "帕特农神庙",
   "status": "ok",
   "local": "雅典/帕特农神庙_1.jpg",
-  "license": "CC BY 2.0",
-  "artist": "Steve Swayne",
-  "commons_file": "The_Parthenon_in_Athens.jpg",
-  "source": "zhwiki:帕德嫩神廟",
+  "license": "Pexels",
+  "artist": "Kevin Lee",
+  "commons_file": "pexels:5961718",
+  "source": "pexels:Parthenon Acropolis Athens",
   "extras": [
    {
     "local": "雅典/帕特农神庙_2.jpg",
-    "license": "Public domain",
-    "artist": "User:Mountain",
-    "commons_file": "Parthenon from west.jpg",
-    "source": "commons-supplement:Parthenon"
+    "license": "Pexels",
+    "artist": "Diego F. Parra",
+    "commons_file": "pexels:15238795",
+    "source": "pexels:Parthenon Acropolis Athens"
    },
    {
     "local": "雅典/帕特农神庙_3.jpg",
-    "license": "CC BY-SA 2.5",
-    "artist": "Thermos",
-    "commons_file": "Parthenon from south.jpg",
-    "source": "commons-supplement:Parthenon"
-   },
-   {
-    "local": "雅典/帕特农神庙_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "A.Savin",
-    "commons_file": "Attica 06-13 Athens 35 Parthenon.jpg",
-    "source": "commons-supplement:Parthenon"
+    "license": "Pexels",
+    "artist": "Miguel Cuenca",
+    "commons_file": "pexels:14500447",
+    "source": "pexels:Parthenon Acropolis Athens"
    }
   ]
  },
@@ -70,31 +56,24 @@
   "attraction": "宪法广场",
   "status": "ok",
   "local": "雅典/宪法广场_1.jpg",
-  "license": "Public domain",
-  "artist": "User Argos'Dad on en.wikipedia",
-  "commons_file": "Evzone.jpg",
-  "source": "zhwiki:宪法广场 (雅典)",
+  "license": "Pexels",
+  "artist": "Léana Desole",
+  "commons_file": "pexels:32946339",
+  "source": "pexels:Syntagma Square Athens guards",
   "extras": [
    {
     "local": "雅典/宪法广场_2.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "C messier",
-    "commons_file": "Πλατεία Συντάγματος 6386.jpg",
-    "source": "commons-supplement:宪法广场 雅典"
+    "license": "Pexels",
+    "artist": "Daciana  Cristina  Visan",
+    "commons_file": "pexels:32054769",
+    "source": "pexels:Syntagma Square Athens guards"
    },
    {
     "local": "雅典/宪法广场_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Texniths",
-    "commons_file": "Syntagma Square (January 2022).jpg",
-    "source": "commons-supplement:宪法广场 雅典"
-   },
-   {
-    "local": "雅典/宪法广场_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Ozanp689",
-    "commons_file": "Syntagma Square Christmas tree 2023.jpg",
-    "source": "commons-supplement:宪法广场 雅典"
+    "license": "Pexels",
+    "artist": "Matheus Bertelli",
+    "commons_file": "pexels:15141211",
+    "source": "pexels:Syntagma Square Athens guards"
    }
   ]
  },
@@ -103,143 +82,311 @@
   "attraction": "普拉卡",
   "status": "ok",
   "local": "雅典/普拉卡_1.jpg",
-  "license": "Public domain",
-  "artist": "JFKennedy at English Wikipedia",
-  "commons_file": "Athens_Plaka07.jpg",
-  "source": "zhwiki:普拉卡",
+  "license": "Pexels",
+  "artist": "Markus Winkler",
+  "commons_file": "pexels:5721489",
+  "source": "pexels:Plaka neighborhood Athens",
   "extras": [
    {
     "local": "雅典/普拉卡_2.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Joanbanjo",
-    "commons_file": "Carrer del barri de Plaka, Atenes.JPG",
-    "source": "commons-supplement:Plaka"
+    "license": "Pexels",
+    "artist": "Shir  Danieli",
+    "commons_file": "pexels:35465152",
+    "source": "pexels:Plaka neighborhood Athens"
    },
    {
     "local": "雅典/普拉卡_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "George E. Koronaios",
-    "commons_file": "Nameless street in Plaka on July 15, 2024.jpg",
-    "source": "commons-supplement:Plaka"
-   },
-   {
-    "local": "雅典/普拉卡_4.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "George E. Koronaios",
-    "commons_file": "Old metal door in Plaka on June 8, 2024.jpg",
-    "source": "commons-supplement:Plaka"
+    "license": "Pexels",
+    "artist": "Shir  Danieli",
+    "commons_file": "pexels:35465174",
+    "source": "pexels:Plaka neighborhood Athens"
    }
   ]
  },
  {
   "city": "圣托里尼",
   "attraction": "红沙滩",
-  "status": "miss"
+  "status": "ok",
+  "local": "圣托里尼/红沙滩_1.jpg",
+  "license": "Pexels",
+  "artist": "jimmy teoh",
+  "commons_file": "pexels:1010649",
+  "source": "pexels:Red Beach Santorini Greece",
+  "extras": [
+   {
+    "local": "圣托里尼/红沙滩_2.jpg",
+    "license": "Pexels",
+    "artist": "Brigitte Ledermann",
+    "commons_file": "pexels:930696",
+    "source": "pexels:Red Beach Santorini Greece"
+   },
+   {
+    "local": "圣托里尼/红沙滩_3.jpg",
+    "license": "Pexels",
+    "artist": "Nthn Vervoort",
+    "commons_file": "pexels:32858689",
+    "source": "pexels:Red Beach Santorini Greece"
+   }
+  ]
  },
  {
   "city": "圣托里尼",
   "attraction": "伊亚日落",
-  "status": "miss"
+  "status": "ok",
+  "local": "圣托里尼/伊亚日落_1.jpg",
+  "license": "Pexels",
+  "artist": "jimmy teoh",
+  "commons_file": "pexels:1010659",
+  "source": "pexels:Santorini Oia sunset Greece",
+  "extras": [
+   {
+    "local": "圣托里尼/伊亚日落_2.jpg",
+    "license": "Pexels",
+    "artist": "jimmy teoh",
+    "commons_file": "pexels:1010655",
+    "source": "pexels:Santorini Oia sunset Greece"
+   },
+   {
+    "local": "圣托里尼/伊亚日落_3.jpg",
+    "license": "Pexels",
+    "artist": "AXP Photography",
+    "commons_file": "pexels:18774905",
+    "source": "pexels:Santorini Oia sunset Greece"
+   }
+  ]
  },
  {
   "city": "圣托里尼",
   "attraction": "酒庄",
   "status": "ok",
   "local": "圣托里尼/酒庄_1.jpg",
-  "license": "Public domain",
-  "artist": "Ken Case",
-  "commons_file": "Chateau_Lafite.jpg",
-  "source": "zhwiki:拉菲酒庄",
+  "license": "Pexels",
+  "artist": "Ivan Georgiev",
+  "commons_file": "pexels:33532976",
+  "source": "pexels:Santorini winery vineyard Greece",
   "extras": [
    {
     "local": "圣托里尼/酒庄_2.jpg",
-    "license": "Public domain",
-    "artist": "Unspecified",
-    "commons_file": "Tashkent Winery Enterprise of the Heirs of N. I. Ivanov.jpg",
-    "source": "commons-supplement:Winery"
+    "license": "Pexels",
+    "artist": "Magda Ehlers",
+    "commons_file": "pexels:5350326",
+    "source": "pexels:Santorini winery vineyard Greece"
    },
    {
     "local": "圣托里尼/酒庄_3.jpg",
-    "license": "CC BY-SA 4.0",
-    "artist": "Elgaard",
-    "commons_file": "Les Avinturiers winery rv site.jpg",
-    "source": "commons-supplement:Winery"
-   },
-   {
-    "local": "圣托里尼/酒庄_4.jpg",
-    "license": "CC BY 4.0",
-    "artist": "Kerry Raymond",
-    "commons_file": "Winery, Sirromet Winery, Mount Cotton, 2014.jpg",
-    "source": "commons-supplement:Winery"
+    "license": "Pexels",
+    "artist": "Ivanna Di Lorenzo",
+    "commons_file": "pexels:34554119",
+    "source": "pexels:Santorini winery vineyard Greece"
    }
   ]
  },
  {
   "city": "圣托里尼",
   "attraction": "费罗斯特法尼",
-  "status": "miss"
+  "status": "ok",
+  "local": "圣托里尼/费罗斯特法尼_1.jpg",
+  "license": "Pexels",
+  "artist": "Maria Marselle",
+  "commons_file": "pexels:11646212",
+  "source": "pexels:Firostefani Santorini caldera view",
+  "extras": [
+   {
+    "local": "圣托里尼/费罗斯特法尼_2.jpg",
+    "license": "Pexels",
+    "artist": "Pixabay",
+    "commons_file": "pexels:161342",
+    "source": "pexels:Firostefani Santorini caldera view"
+   },
+   {
+    "local": "圣托里尼/费罗斯特法尼_3.jpg",
+    "license": "Pexels",
+    "artist": "George Stathis",
+    "commons_file": "pexels:13916679",
+    "source": "pexels:Firostefani Santorini caldera view"
+   }
+  ]
  },
  {
   "city": "克里特岛",
   "attraction": "克诺索斯宫",
   "status": "ok",
   "local": "克里特岛/克诺索斯宫_1.jpg",
-  "license": "CC BY-SA 3.0",
-  "artist": "Bernard Gagnon",
-  "commons_file": "Knossos_-_North_Portico_02.jpg",
-  "source": "zhwiki:克诺索斯",
+  "license": "Pexels",
+  "artist": "Gu Bra",
+  "commons_file": "pexels:18192908",
+  "source": "pexels:Knossos Palace Crete Greece",
   "extras": [
    {
     "local": "克里特岛/克诺索斯宫_2.jpg",
-    "license": "CC0",
-    "artist": "Jebulon",
-    "commons_file": "The \"cup bearer\" fresco Knossos Heraklion museum Crete Greece.jpg",
-    "source": "commons-supplement:Knossos"
+    "license": "Pexels",
+    "artist": "Alain Martin",
+    "commons_file": "pexels:19930011",
+    "source": "pexels:Knossos Palace Crete Greece"
    },
    {
     "local": "克里特岛/克诺索斯宫_3.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but ple",
-    "commons_file": "Knossos in Crete west court.jpg",
-    "source": "commons-supplement:Knossos"
-   },
-   {
-    "local": "克里特岛/克诺索斯宫_4.jpg",
-    "license": "CC BY-SA 3.0",
-    "artist": "Bernard Gagnon",
-    "commons_file": "Knossos - North Portico 02.jpg",
-    "source": "commons-supplement:Knossos"
+    "license": "Pexels",
+    "artist": "Celine l",
+    "commons_file": "pexels:10910828",
+    "source": "pexels:Knossos Palace Crete Greece"
    }
   ]
  },
  {
   "city": "克里特岛",
   "attraction": "威尼斯港口",
-  "status": "miss"
+  "status": "ok",
+  "local": "克里特岛/威尼斯港口_1.jpg",
+  "license": "Pexels",
+  "artist": "Kimmo Vainio",
+  "commons_file": "pexels:37308502",
+  "source": "pexels:Chania Venetian Harbour Crete",
+  "extras": [
+   {
+    "local": "克里特岛/威尼斯港口_2.jpg",
+    "license": "Pexels",
+    "artist": "James Owen",
+    "commons_file": "pexels:4219401",
+    "source": "pexels:Chania Venetian Harbour Crete"
+   },
+   {
+    "local": "克里特岛/威尼斯港口_3.jpg",
+    "license": "Pexels",
+    "artist": "Tatianaa Co",
+    "commons_file": "pexels:34882066",
+    "source": "pexels:Chania Venetian Harbour Crete"
+   }
+  ]
  },
  {
   "city": "米克诺斯",
   "attraction": "小威尼斯",
-  "status": "miss"
+  "status": "ok",
+  "local": "米克诺斯/小威尼斯_1.jpg",
+  "license": "Pexels",
+  "artist": "Xavier Messina",
+  "commons_file": "pexels:24244358",
+  "source": "pexels:Little Venice Mykonos Greece",
+  "extras": [
+   {
+    "local": "米克诺斯/小威尼斯_2.jpg",
+    "license": "Pexels",
+    "artist": "Xavier Messina",
+    "commons_file": "pexels:24449028",
+    "source": "pexels:Little Venice Mykonos Greece"
+   },
+   {
+    "local": "米克诺斯/小威尼斯_3.jpg",
+    "license": "Pexels",
+    "artist": "Diego F. Parra",
+    "commons_file": "pexels:15241946",
+    "source": "pexels:Little Venice Mykonos Greece"
+   }
+  ]
  },
  {
   "city": "米克诺斯",
   "attraction": "风车阵",
-  "status": "miss"
+  "status": "ok",
+  "local": "米克诺斯/风车阵_1.jpg",
+  "license": "Pexels",
+  "artist": "Jo Kassis",
+  "commons_file": "pexels:12848017",
+  "source": "pexels:Mykonos windmills Greece",
+  "extras": [
+   {
+    "local": "米克诺斯/风车阵_2.jpg",
+    "license": "Pexels",
+    "artist": "Xavier Messina",
+    "commons_file": "pexels:24449042",
+    "source": "pexels:Mykonos windmills Greece"
+   },
+   {
+    "local": "米克诺斯/风车阵_3.jpg",
+    "license": "Pexels",
+    "artist": "K",
+    "commons_file": "pexels:37844806",
+    "source": "pexels:Mykonos windmills Greece"
+   }
+  ]
  },
  {
   "city": "米克诺斯",
   "attraction": "天堂海滩",
-  "status": "miss"
+  "status": "ok",
+  "local": "米克诺斯/天堂海滩_1.jpg",
+  "license": "Pexels",
+  "artist": "Stelios Katakalos",
+  "commons_file": "pexels:6040558",
+  "source": "pexels:Paradise Beach Mykonos Greece",
+  "extras": [
+   {
+    "local": "米克诺斯/天堂海滩_2.jpg",
+    "license": "Pexels",
+    "artist": "Diego F. Parra",
+    "commons_file": "pexels:15238285",
+    "source": "pexels:Paradise Beach Mykonos Greece"
+   },
+   {
+    "local": "米克诺斯/天堂海滩_3.jpg",
+    "license": "Pexels",
+    "artist": "Michal Vaško",
+    "commons_file": "pexels:32276208",
+    "source": "pexels:Paradise Beach Mykonos Greece"
+   }
+  ]
  },
  {
   "city": "罗德岛",
   "attraction": "骑士城堡",
-  "status": "miss"
+  "status": "ok",
+  "local": "罗德岛/骑士城堡_1.jpg",
+  "license": "Pexels",
+  "artist": "George Alex",
+  "commons_file": "pexels:30969417",
+  "source": "pexels:Palace of the Grand Master Rhodes",
+  "extras": [
+   {
+    "local": "罗德岛/骑士城堡_2.jpg",
+    "license": "Pexels",
+    "artist": "Sz Katarzyna",
+    "commons_file": "pexels:17444912",
+    "source": "pexels:Palace of the Grand Master Rhodes"
+   },
+   {
+    "local": "罗德岛/骑士城堡_3.jpg",
+    "license": "Pexels",
+    "artist": "Mark Thomas",
+    "commons_file": "pexels:33151490",
+    "source": "pexels:Palace of the Grand Master Rhodes"
+   }
+  ]
  },
  {
   "city": "罗德岛",
   "attraction": "林多斯卫城",
-  "status": "miss"
+  "status": "ok",
+  "local": "罗德岛/林多斯卫城_1.jpg",
+  "license": "Pexels",
+  "artist": "Raduz",
+  "commons_file": "pexels:140227",
+  "source": "pexels:Lindos Acropolis Rhodes Greece",
+  "extras": [
+   {
+    "local": "罗德岛/林多斯卫城_2.jpg",
+    "license": "Pexels",
+    "artist": "Anderson",
+    "commons_file": "pexels:13445624",
+    "source": "pexels:Lindos Acropolis Rhodes Greece"
+   },
+   {
+    "local": "罗德岛/林多斯卫城_3.jpg",
+    "license": "Pexels",
+    "artist": "Sašo Vukadinović",
+    "commons_file": "pexels:19416039",
+    "source": "pexels:Lindos Acropolis Rhodes Greece"
+   }
+  ]
  }
 ]
