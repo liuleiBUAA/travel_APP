@@ -1168,5 +1168,25 @@
     "source": "pexels:Bristol Harbourside England"
    }
   ]
+ },
+ {
+  "city": "因弗内斯",
+  "attraction": "苏格兰高地",
+  "status": "ok",
+  "local": "因弗内斯/苏格兰高地_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Daniel Kraft",
+  "commons_file": "Glencoe Lochan reflections 3 20211022.jpg",
+  "source": "commons-search:Scottish Highlands Glencoe"
+ },
+ {
+  "city": "波特里",
+  "attraction": "天空岛",
+  "status": "ok",
+  "local": "波特里/天空岛_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "JoachimKohlerBremen",
+  "commons_file": "Old Man of Storr, Trottenish Peninsula, Isle of Skye.jpg",
+  "source": "commons-search:Isle of Skye Old Man of Storr"
  }
 ]

@@ -1,0 +1,95 @@
+{
+  "name": "蒙特勒",
+  "type": "city",
+  "aliases": [
+    "Montreux"
+  ],
+  "city": "蒙特勒",
+  "country": "瑞士",
+  "summary": "日内瓦湖畔小镇，因优美的风景被称为'瑞士的里维埃拉'，是金色山口列车（黄金快线）的终点站。交通位置便利，适合住宿1-2晚，景点在小镇周边可乘公交/渡船/列车抵达。",
+  "transport_map": "瑞士/瑞士城市间_交通图.png",
+  "transport": {
+    "fly_train": "乘飞机抵达日内瓦机场，乘火车前往蒙特勒最方便：日内瓦机场[Genève-Aéroport]→蒙特勒[Montreux]，车程70-80分钟，票价约CHF37。",
+    "drive": "因特拉肯→蒙特勒可乘黄金列车（金色山口列车），车程3h15'，大玻璃窗景观列车持瑞士通票免费。",
+    "local": "蒙特勒很小，镇内步行逛吃。景点间除公交车还可乘CGN船（既是交通工具又可游船观景，持瑞士通票免费/交通卡8折）：蒙特勒—西庸城堡单程15分钟，蒙特勒—沃韦单程20分钟。"
+  },
+  "hotels": [
+    {
+      "name": "Hotel Mona",
+      "area": "湖畔",
+      "star": 4,
+      "score": "8.7",
+      "reviews": "5300+",
+      "note": "距火车站和码头仅300米，免费提供自行车和浆板",
+      "link": "https://www.booking.com/hotel/ch/best-western-eurotel-montreux.zh-cn.html"
+    },
+    {
+      "name": "Villa Toscane",
+      "area": "火车站附近",
+      "star": 3,
+      "score": "8.1",
+      "reviews": "1700+",
+      "note": "火车站往下坡走10分钟，门口有公交201",
+      "link": "https://www.booking.com/hotel/ch/villatoscane.zh-cn.html"
+    },
+    {
+      "name": "Tralala Hotel Montreux",
+      "area": "火车站附近",
+      "star": 3,
+      "score": "8.4",
+      "reviews": "2300+",
+      "note": "距火车站500米上坡方向，大部分客房享湖景",
+      "link": "https://www.booking.com/hotel/ch/tralala-montreux.zh-cn.html"
+    }
+  ],
+  "hotel_intro": "蒙特勒很小，住在镇内步行逛吃、乘车/船去周边都很方便。11月24日-12月24日有冬季圣诞市场。",
+  "attractions": [
+    {
+      "name": "西庸城堡",
+      "order": 1,
+      "tagline": "中世纪水上城堡，'世界最美的监狱'，持通票免费 [1-2小时]",
+      "has_detail": true
+    },
+    {
+      "name": "沃韦小镇",
+      "order": 2,
+      "tagline": "瑞士里维埃拉的明珠，卓别林故居，免费 [1小时]",
+      "has_detail": false
+    },
+    {
+      "name": "拉沃葡萄园",
+      "order": 3,
+      "tagline": "世界遗产，800公顷梯田葡萄园，车船赏景或徒步 [1-3小时]",
+      "has_detail": false
+    },
+    {
+      "name": "蒙特勒市区",
+      "tagline": "沿湖鲜花/雕塑/长椅，眺望雪山，休闲漫步打卡",
+      "has_detail": false
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": "因特拉肯→蒙特勒",
+      "detail": "乘黄金列车车程3h15'，入住领免费交通卡，船游拉沃葡萄园（傍晚夕阳照在葡萄园上景色特别好看）"
+    },
+    {
+      "day": "2",
+      "title": "蒙特勒→采尔马特",
+      "detail": "清晨沿湖步道漫步，上午西庸城堡+沃韦小镇，下午火车前往采尔马特[马特洪峰]车程2h40'"
+    }
+  ],
+  "sections": [
+    {
+      "title": "景点详情",
+      "content": "西庸城堡 Château de Chillon：中世纪水上城堡历史久远，四周环日内瓦湖水游客通过廊桥步入，享'建筑史上奇异的珍珠''欧洲10大古堡'之一，19世纪因英国诗人拜伦《西庸的囚徒》闻名于世。沃韦小镇 Vevey：瑞士里维埃拉的明珠，湖滨景色心旷神怡，查理-卓别林在此安度生命最后25年湖畔有其雕像，从蒙特勒乘201路或CGN游船20分钟。拉沃葡萄园 Lavaux Vineyard Terraces：占地800公顷梯田式葡萄园世界遗产，沿园有32公里长小径含7条环形路线。"
+    },
+    {
+      "title": "实用贴士",
+      "content": "蒙特勒市区没有特别景点，适合休闲漫步、打卡拍照，沿湖有鲜花、雕塑、长椅还可眺望雪山。景点间乘CGN船既省钱又能观景，持瑞士通票免费、交通卡8折。"
+    }
+  ],
+  "duration": "1-2天",
+  "best_time": "全年皆宜，夏季湖畔最佳"
+}

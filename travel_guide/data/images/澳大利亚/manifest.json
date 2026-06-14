@@ -1863,5 +1863,85 @@
     "source": "pexels:Field of Light Uluru"
    }
   ]
+ },
+ {
+  "city": "悉尼",
+  "attraction": "悉尼皇家植物园",
+  "status": "ok",
+  "local": "悉尼/悉尼皇家植物园_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Dietmar Rabich",
+  "commons_file": "Sydney (AU), Royal Botanic Gardens -- 2019 -- 3082.jpg",
+  "source": "commons-search:Royal Botanic Garden Sydney"
+ },
+ {
+  "city": "悉尼",
+  "attraction": "达令港",
+  "status": "ok",
+  "local": "悉尼/达令港_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Dietmar Rabich",
+  "commons_file": "Sydney (AU), Darling Harbour -- 2019 -- 3193-5.jpg",
+  "source": "commons-search:Darling Harbour Sydney"
+ },
+ {
+  "city": "悉尼",
+  "attraction": "悉尼鱼市场",
+  "status": "ok",
+  "local": "悉尼/悉尼鱼市场_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "JohnsonL623",
+  "commons_file": "Sydney Fish Market view from Glebe.JPG",
+  "source": "commons-search:Sydney Fish Market"
+ },
+ {
+  "city": "悉尼",
+  "attraction": "QVB",
+  "status": "ok",
+  "local": "悉尼/QVB_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "DXR",
+  "commons_file": "Queen Victoria Building, Sydney, interior view 20230206 1.jpg",
+  "source": "commons-search:Queen Victoria Building Sydney interior"
+ },
+ {
+  "city": "悉尼",
+  "attraction": "悉尼塔",
+  "status": "ok",
+  "local": "悉尼/悉尼塔_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Dietmar Rabich",
+  "commons_file": "Sydney (AU), Skyline -- 2019 -- 2287.jpg",
+  "source": "commons-search:Sydney Tower"
+ },
+ {
+  "city": "悉尼",
+  "attraction": "新南威尔士美术馆",
+  "status": "ok",
+  "local": "悉尼/新南威尔士美术馆_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Dietmar Rabich",
+  "commons_file": "Sydney (AU), Art Gallery of New South Wales -- 2019 -- 3103.jpg",
+  "source": "commons-search:Art Gallery of New South Wales"
+ },
+ {
+  "city": "悉尼",
+  "attraction": "悉尼大学",
+  "status": "ok",
+  "local": "悉尼/悉尼大学_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Toby Hudson",
+  "commons_file": "SydneyUniversity MainQuadrangle panorama 270.jpg",
+  "source": "commons-search:University of Sydney quadrangle"
+ },
+ {
+  "city": "悉尼",
+  "attraction": "曼利海滩",
+  "status": "ok",
+  "local": "悉尼/曼利海滩_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Maksym Kozlenko",
+  "commons_file": "2020-10-24 Manly Beach 3.jpg",
+  "source": "commons-search:Manly Beach Australia"
  }
 ]

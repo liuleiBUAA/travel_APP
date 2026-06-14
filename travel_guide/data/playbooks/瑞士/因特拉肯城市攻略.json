@@ -1,55 +1,161 @@
 {
   "name": "因特拉肯",
   "type": "city",
-  "aliases": [],
+  "aliases": [
+    "Interlaken"
+  ],
   "city": "因特拉肯",
   "country": "瑞士",
-  "summary": "少女峰地区大本营，夹在图恩湖和布里恩茨湖之间。镇本身半天逛完，价值在于辐射上山下湖的枢纽位置。",
+  "summary": "著名小镇，瑞士旅游必到之地，夹在图恩湖和布里恩茨湖之间。风景美、可玩性高、动静皆宜，是前往少女峰、First峰的门户。镇本身交通便利逛吃方便，往半山有格林德尔瓦尔德和劳特布龙嫩两个小镇。",
   "transport_map": "瑞士/因特拉肯_交通图.png",
   "transport": {
-    "fly_train": "苏黎世 ZRH 机场 → SBB 火车（可先玩卢塞恩）→ 因特拉肯；日内瓦 GVA 机场 → 蒙特勒 → 金色山口列车（大玻璃窗景观列车，持瑞士通票免费、无需预订）→ 因特拉肯。",
-    "drive": "卢塞恩→1h｜法兰克福→约5h｜巴黎→约6.5h。停车缴费可用 Sepp app。",
-    "local": "镇内东站 Ost ↔ 西站 West 约 1.6km，步行 20 分钟即可，游客通常步行游玩。"
+    "fly_train": "飞抵苏黎世ZRH（乘SBB可先玩卢塞恩再到因特拉肯）；飞抵日内瓦GVA（乘SBB可先玩蒙特勒再到因特拉肯，蒙特勒→因特拉肯可乘著名金色山口列车，大玻璃窗景观列车，持瑞士火车通票免费乘坐无需预订）。",
+    "drive": "瑞士比较小，从周边城市前往都方便：卢塞恩→1小时，巴黎→约6.5小时，法兰克福→约5小时。停车缴费用 Sepp app。",
+    "local": "镇内有公交但通常步行即可。火车东站Ost到西站West约1.6km，步行20分钟。"
   },
   "hotels": [
-    {"name": "Hotel Alphorn", "area": "因特拉肯镇", "star": 2, "score": "9.0", "reviews": "1200+", "note": "近火车西站，免费停车", "link": "https://www.booking.com/hotel/ch/alphorn-interlaken.zh-cn.html"},
-    {"name": "Hotel Artos Interlaken", "area": "因特拉肯镇", "star": 3, "score": "8.6", "reviews": "1400+", "note": "距火车东站步行10分钟，享少女峰全景，露台/游乐场/免费Spa", "link": "https://www.booking.com/hotel/ch/artos-interlaken.zh-cn.html"},
-    {"name": "Derby Swiss Quality Hotel", "area": "格林德尔瓦尔德", "star": 3, "score": "8.9", "reviews": "1300+", "note": "火车站旁，对带大行李游客很便利", "link": "https://www.booking.com/hotel/ch/derby-grindelwald-superior.zh-cn.html"},
-    {"name": "Jungfrau Lodge", "area": "格林德尔瓦尔德", "star": 3, "score": "8.4", "reviews": "1500+", "note": "窗外就是梦幻山坡（网红拍照地）", "link": "https://www.booking.com/hotel/ch/jungfrau-lodge.zh-cn.html"}
+    {
+      "name": "Hotel Alphorn",
+      "area": "因特拉肯镇",
+      "star": 2,
+      "score": "9.0",
+      "reviews": "1200+",
+      "note": "近火车西站，免费停车",
+      "link": "https://www.booking.com/hotel/ch/alphorn-interlaken.zh-cn.html"
+    },
+    {
+      "name": "Hotel Chalet Swiss",
+      "area": "因特拉肯镇",
+      "star": 3,
+      "score": "8.3",
+      "reviews": "2500+",
+      "note": "毗邻火车西站，免费停车",
+      "link": "https://www.booking.com/hotel/ch/chalet-swiss.zh-cn.html"
+    },
+    {
+      "name": "Hotel Artos Interlaken",
+      "area": "因特拉肯镇",
+      "star": 3,
+      "score": "8.6",
+      "reviews": "1400+",
+      "note": "距火车东站步行10分钟，享少女峰全景，露台/游乐场/免费Spa",
+      "link": "https://www.booking.com/hotel/ch/artos-interlaken.zh-cn.html"
+    },
+    {
+      "name": "Derby Swiss Quality Hotel",
+      "area": "格林德尔瓦尔德",
+      "star": 3,
+      "score": "8.9",
+      "reviews": "1300+",
+      "note": "火车站旁，对带大行李游客便利",
+      "link": "https://www.booking.com/hotel/ch/derby-grindelwald-superior.zh-cn.html"
+    },
+    {
+      "name": "Jungfrau Lodge",
+      "area": "格林德尔瓦尔德",
+      "star": 3,
+      "score": "8.4",
+      "reviews": "1500+",
+      "note": "窗外就是梦幻山坡（网红拍照地）",
+      "link": "https://www.booking.com/hotel/ch/jungfrau-lodge.zh-cn.html"
+    },
+    {
+      "name": "Hotel Gletscherblick Grindelwald",
+      "area": "格林德尔瓦尔德",
+      "star": 3,
+      "score": "8.5",
+      "reviews": "1700+",
+      "note": "有露台，早餐好",
+      "link": "https://www.booking.com/hotel/ch/gletscherblick-grindelwald123.zh-cn.html"
+    }
   ],
-  "hotel_intro": "多数游客选「因特拉肯镇」或「格林德尔瓦尔德」落脚。镇上交通最便利、逛吃丰富；格林德尔瓦尔德在半山，风景更美、去 First 峰和少女峰更近。",
+  "hotel_intro": "多数游客选「因特拉肯镇」或「格林德尔瓦尔德」落脚。镇上交通最便利、逛吃丰富；格林德尔瓦尔德在半山，风景非常美、去First峰和少女峰更方便。",
   "attractions": [
-    {"name": "少女峰", "order": 1, "tagline": "欧洲之巅 4158m，齿轨登顶，云端冰宫", "has_detail": true},
-    {"name": "格林德尔瓦尔德", "order": 2, "tagline": "半山枢纽镇，通往 First 与少女峰", "has_detail": true},
-    {"name": "梦幻山坡", "tagline": "经典瑞士明信片，木屋奶牛绿坡", "has_detail": false},
-    {"name": "翁根", "display_name": "First 峰", "tagline": "悬崖步道/飞索/卡丁车，晴天率高", "has_detail": true},
-    {"name": "劳特布龙嫩", "order": 3, "tagline": "瀑布小镇，《魔戒》精灵谷原型", "has_detail": true},
-    {"name": "施皮茨", "order": 4, "tagline": "图恩湖最美小镇，城堡+葡萄园", "has_detail": false},
-    {"name": "布里恩茨湖", "tagline": "蓝绿湖水，《爱的迫降》取景地", "has_detail": false},
-    {"name": "图恩湖", "tagline": "湖畔城堡，渡船游湖", "has_detail": false}
+    {
+      "name": "少女峰",
+      "order": 1,
+      "tagline": "欧洲之巅 4158m，山坳站3454m，齿轨登顶冰宫",
+      "has_detail": true
+    },
+    {
+      "name": "哈德库尔姆观景台",
+      "order": 2,
+      "tagline": "镇正上方1322m，轨道车10分钟，俯瞰双湖看日落",
+      "has_detail": false
+    },
+    {
+      "name": "因特拉肯滑翔伞",
+      "order": 3,
+      "tagline": "滑翔伞天堂，跟随教练无需经验，一生至少玩1次",
+      "has_detail": false
+    },
+    {
+      "name": "格林德尔瓦尔德",
+      "order": 4,
+      "tagline": "半山枢纽镇，含梦幻山坡/First峰/网红滑梯",
+      "has_detail": true
+    },
+    {
+      "name": "翁根",
+      "display_name": "First 峰",
+      "tagline": "悬崖步道/飞索/卡丁车，晴天比少女峰多",
+      "has_detail": true
+    },
+    {
+      "name": "劳特布龙嫩",
+      "order": 5,
+      "tagline": "瀑布小镇，巨大岩壁与山峰间，可上米伦-雪朗峰",
+      "has_detail": true
+    },
+    {
+      "name": "施皮茨",
+      "tagline": "图恩湖最美小镇，城堡+葡萄园，适合闲逛拍照",
+      "has_detail": true
+    },
+    {
+      "name": "蓝湖自然公园",
+      "tagline": "清澈蓝湖+鳟鱼养殖场，夏季玻璃底船+儿童乐园",
+      "has_detail": true
+    }
   ],
   "itinerary": [
-    {"day": "1", "title": "抵达因特拉肯", "detail": "滑翔伞 + 因特拉肯镇逛吃"},
-    {"day": "2", "title": "格林德尔瓦尔德", "detail": "First 峰 + 梦幻山坡，全天游玩"},
-    {"day": "3", "title": "网红滑梯", "detail": "上午玩滑梯，下午转场蒙特勒"},
-    {"day": "+", "title": "可选加日", "detail": "少女峰登顶 + 劳特布龙嫩 ／ 施皮茨 + 蓝湖自然保护区"}
+    {
+      "day": "1",
+      "title": "抵达因特拉肯",
+      "detail": "滑翔伞 + 因特拉肯镇逛吃（Coop超市烤鸡 / Hüsi Bierhuaus 肋排）"
+    },
+    {
+      "day": "2",
+      "title": "格林德尔瓦尔德",
+      "detail": "First峰悬崖步道+梦幻山坡，全天游玩"
+    },
+    {
+      "day": "3",
+      "title": "网红滑梯/转场",
+      "detail": "上午玩 Pfingstegg 网红滑梯，下午乘金色山口列车转场蒙特勒"
+    },
+    {
+      "day": "+",
+      "title": "可选加日",
+      "detail": "少女峰登顶 + 劳特布龙嫩 ／ 周边网红：施皮茨 + 蓝湖自然公园"
+    }
   ],
   "sections": [
     {
-      "title": "定位与交通",
-      "content": "苏黎世/伯尔尼火车直达东站（Ost）。上山方向：格林德尔瓦尔德（艾格峰北壁）和劳特布龙嫩（瀑布谷）两条谷各有风味。住因特拉肯方便辐射，住格林德尔瓦尔德更贴雪山——预算和动线自己权衡。"
+      "title": "片区1 · 因特拉肯镇",
+      "content": "生活/旅游小镇，交通便利逛吃丰富。餐饮：Coop超市（烤鸡性价比高）/ Bun Brothers & Co.（亚洲快餐，米粉包子）/ Hüsi Bierhuaus（欧式肋排猪肘牛肉汉堡，热门建议提前预订）。哈德库尔姆观景台 Harder Kulm：镇正上方1322米，乘轨道车10分钟到，俯瞰小镇全景及两湖美景看日落，游玩30-60分钟。滑翔伞 Paragliding：滑翔伞运动天堂，比跳伞危险性刺激性小，无需经验跟随教练即可。"
     },
     {
-      "title": "玩法建议",
-      "content": "少女峰（详见玩法页）看天上的预算和天气。性价比备选：First缆车+悬崖步道+巴赫阿尔普湖（倒影机位）；Männlichen到Kleine Scheidegg的全景徒步（缓降2小时人人能走）；Harder Kulm观景台（镇旁缆车10分钟）看双湖一日落。"
+      "title": "片区2 · 格林德尔瓦尔德",
+      "content": "半山小镇，前往少女峰的枢纽地。梦幻山坡：经典瑞士风景，火车站外即可看到，铺满绿草的起伏山坡、木制童话小房子、系彩色铃铛的奶牛。First山峰：景色一流徒步经典活动多，海拔相对低晴天比少女峰多，夏季徒步户外冬季滑雪（详见玩法页）。网红滑梯 Rodelbahn Pfingstegg：半山处滑道长725米，大人小孩都爱玩，游玩中不可停留、禁用手机相机、与前人保持25米。"
     },
     {
-      "title": "两湖",
-      "content": "布里恩茨湖（蓝绿色）坐船去Giessbach瀑布或伊瑟尔特瓦尔德（《爱的迫降》取景）；图恩湖看湖畔城堡。Swiss Travel Pass坐船免费。"
+      "title": "片区3 · 劳特布龙嫩",
+      "content": "半山瀑布小镇，在巨大的岩壁和山峰之间，适合从少女峰下山途中顺路游玩拍照。米伦 Mürren：更高处半山的无车小镇，前往雪朗峰、鲜花小径的必经地，从劳特布龙嫩出发。"
     },
     {
-      "title": "实用贴士",
-      "content": "山区天气变脸快，行程留弹性，每天早上看webcam再定上哪座山。镇上Coop超市解决吃饭能省一半预算（瑞士外食贵）。"
+      "title": "片区4 · 周边网红景点",
+      "content": "可安排一个全天，自驾更方便。施皮茨 Spiez：图恩湖湖畔最美小镇，背靠群山面对葡萄园，湖畔有高耸城堡，适合闲逛拍照。蓝湖自然公园 Blausee：占地约20公顷天然氧吧，清澈蓝湖+鳟鱼养殖场，夏季玻璃底船+儿童乐园，有酒店温泉餐厅。备选滑梯 Rodelbahn Oeschinensee：滑道长750米落差100米，自驾一日游可安排。"
     }
   ],
   "duration": "2-4天",

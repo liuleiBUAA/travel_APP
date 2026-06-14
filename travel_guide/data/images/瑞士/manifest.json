@@ -641,5 +641,217 @@
     "source": "pexels:Bern Aare river old town panorama Switzerland"
    }
   ]
+ },
+ {
+  "city": "因特拉肯",
+  "attraction": "蓝湖自然公园",
+  "status": "ok",
+  "local": "因特拉肯/蓝湖自然公园_1.jpg",
+  "license": "Pexels",
+  "artist": "R. Fera",
+  "commons_file": "pexels:2286895",
+  "source": "pexels:Blausee lake Kandersteg Switzerland turquoise",
+  "extras": [
+   {
+    "local": "因特拉肯/蓝湖自然公园_2.jpg",
+    "license": "Pexels",
+    "artist": "H. Emre",
+    "commons_file": "pexels:2776479",
+    "source": "pexels:Blausee lake Kandersteg Switzerland turquoise"
+   },
+   {
+    "local": "因特拉肯/蓝湖自然公园_3.jpg",
+    "license": "Pexels",
+    "artist": "R. Fera",
+    "commons_file": "pexels:2619006",
+    "source": "pexels:Blausee lake Kandersteg Switzerland turquoise"
+   }
+  ]
+ },
+ {
+  "city": "因特拉肯",
+  "attraction": "哈德库尔姆观景台",
+  "status": "ok",
+  "local": "因特拉肯/哈德库尔姆观景台_1.jpg",
+  "license": "Pexels",
+  "artist": "Paintalia",
+  "commons_file": "pexels:13818274",
+  "source": "pexels:Harder Kulm Interlaken viewpoint two lakes panorama",
+  "extras": [
+   {
+    "local": "因特拉肯/哈德库尔姆观景台_2.jpg",
+    "license": "Pexels",
+    "artist": "Ollie Craig",
+    "commons_file": "pexels:12301006",
+    "source": "pexels:Harder Kulm Interlaken viewpoint two lakes panorama"
+   },
+   {
+    "local": "因特拉肯/哈德库尔姆观景台_3.jpg",
+    "license": "Pexels",
+    "artist": "Ollie Craig",
+    "commons_file": "pexels:12301005",
+    "source": "pexels:Harder Kulm Interlaken viewpoint two lakes panorama"
+   }
+  ]
+ },
+ {
+  "city": "日内瓦",
+  "attraction": "花钟",
+  "status": "ok",
+  "local": "日内瓦/花钟_1.jpg",
+  "license": "Public domain",
+  "artist": "Jose Manuel at Portuguese Wikipedia",
+  "commons_file": "Horloge Fleurie Geneve.jpg",
+  "source": "commons-search:Horloge fleurie Geneva"
+ },
+ {
+  "city": "日内瓦",
+  "attraction": "万国宫",
+  "status": "ok",
+  "local": "日内瓦/万国宫_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Yann Forget",
+  "commons_file": "ONU Geneva mainroom.jpg",
+  "source": "commons-search:Palace of Nations Geneva"
+ },
+ {
+  "city": "日内瓦",
+  "attraction": "断腿椅子",
+  "status": "ok",
+  "local": "日内瓦/断腿椅子_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+  "commons_file": "At Geneva 2024 064 - Broken Chair.jpg",
+  "source": "commons-search:Broken Chair Geneva"
+ },
+ {
+  "city": "采尔马特",
+  "attraction": "冰川天堂线",
+  "status": "ok",
+  "local": "采尔马特/冰川天堂线_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Roy Egloff",
+  "commons_file": "CH.VS.Zermatt 2019-12-27 Klein-Matterhorn 6918 16x9-R 5K.jpg",
+  "source": "commons-search:Matterhorn Glacier Paradise"
+ },
+ {
+  "city": "采尔马特",
+  "attraction": "苏内加线",
+  "status": "ok",
+  "local": "采尔马特/苏内加线_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "NOTE: This image is a panorama  consisting of multiple frames that were merged o",
+  "commons_file": "CH.VS.Zermatt Sunnegga Grindjisee Matterhorn 9034 16x9-R 16K.jpg",
+  "source": "commons-search:Sunnegga Zermatt Matterhorn"
+ },
+ {
+  "city": "苏黎世",
+  "attraction": "ETH观景台",
+  "status": "ok",
+  "local": "苏黎世/ETH观景台_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Ank Kumar",
+  "commons_file": "View of Central Zurich from Polyterrasse, ETH Zürich (Ank Kumar) 01.jpg",
+  "source": "commons-search:ETH Zurich Polyterrasse view"
+ },
+ {
+  "city": "苏黎世",
+  "attraction": "苏黎世美术馆",
+  "status": "ok",
+  "local": "苏黎世/苏黎世美术馆_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Gre regiment",
+  "commons_file": "Kunsthaus Zurich interior 1.jpg",
+  "source": "commons-search:Kunsthaus Zurich"
+ },
+ {
+  "city": "苏黎世",
+  "attraction": "瑞士国家博物馆",
+  "status": "ok",
+  "local": "苏黎世/瑞士国家博物馆_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Gre regiment",
+  "commons_file": "Gryllos - Landesmuseum (Zurich).jpg",
+  "source": "commons-search:Landesmuseum Zurich"
+ },
+ {
+  "city": "苏黎世",
+  "attraction": "班霍夫大街",
+  "status": "ok",
+  "local": "苏黎世/班霍夫大街_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Dietmar Rabich",
+  "commons_file": "Zürich (Schweiz), Auto in der Bahnhofstrasse -- 2011 -- 1425.jpg",
+  "source": "commons-search:Bahnhofstrasse Zurich"
+ },
+ {
+  "city": "苏黎世",
+  "attraction": "玉特利山",
+  "status": "ok",
+  "local": "苏黎世/玉特利山_1.jpg",
+  "license": "CC BY 3.0",
+  "artist": "Murdockcrc",
+  "commons_file": "Uetliberg LCD.jpg",
+  "source": "commons-search:Uetliberg Zurich view"
+ },
+ {
+  "city": "卢塞恩",
+  "attraction": "瑞士交通博物馆",
+  "status": "ok",
+  "local": "卢塞恩/瑞士交通博物馆_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Ank Kumar",
+  "commons_file": "Swiss Museum of Transportation(Verkehrshaus der Schweiz) Lucerne, Switzerland (Ank Kumar, Infosys Limited) 05.jpg",
+  "source": "commons-search:Swiss Museum of Transport Lucerne"
+ },
+ {
+  "city": "卢塞恩",
+  "attraction": "铁力士山",
+  "status": "ok",
+  "local": "卢塞恩/铁力士山_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "W. Bulach",
+  "commons_file": "00 0481 Titlis - Westseite.jpg",
+  "source": "commons-search:Mount Titlis"
+ },
+ {
+  "city": "蒙特勒",
+  "attraction": "沃韦小镇",
+  "status": "ok",
+  "local": "蒙特勒/沃韦小镇_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "JoachimKohler-HB",
+  "commons_file": "Vevey am Genfersee (2014).jpg",
+  "source": "commons-search:Vevey Lake Geneva"
+ },
+ {
+  "city": "蒙特勒",
+  "attraction": "拉沃葡萄园",
+  "status": "ok",
+  "local": "蒙特勒/拉沃葡萄园_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Lorenz Poffet",
+  "commons_file": "Lavaux Switzerland.jpg",
+  "source": "commons-search:Lavaux vineyard terraces"
+ },
+ {
+  "city": "蒙特勒",
+  "attraction": "蒙特勒市区",
+  "status": "ok",
+  "local": "蒙特勒/蒙特勒市区_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Christian David",
+  "commons_file": "Montreux waterfront with the Tour d'Ivoire, Montreux, Vaud.jpg",
+  "source": "commons-search:Montreux waterfront Lake Geneva"
+ },
+ {
+  "city": "卢塞恩",
+  "attraction": "石丹峰",
+  "status": "ok",
+  "local": "卢塞恩/石丹峰_1.jpg",
+  "license": "CC0",
+  "artist": "Gary Todd from Xinzheng, China",
+  "commons_file": "File:Mt. Stanserhorn View (10574091455).jpg",
+  "source": "commons-category:Stanserhorn"
  }
 ]

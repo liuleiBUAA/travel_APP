@@ -206,5 +206,15 @@
     "source": "pexels:Fisherman's Bastion Buda Castle Hill Budapest"
    }
   ]
+ },
+ {
+  "city": "布达佩斯",
+  "attraction": "塞切尼温泉",
+  "status": "ok",
+  "local": "布达佩斯/塞切尼温泉_1.jpg",
+  "license": "CC BY 3.0",
+  "artist": "Marc Ryckaert (MJJR)",
+  "commons_file": "Budapest Széchenyi Baths R04.jpg",
+  "source": "commons-search:Szechenyi Thermal Bath Budapest"
  }
 ]

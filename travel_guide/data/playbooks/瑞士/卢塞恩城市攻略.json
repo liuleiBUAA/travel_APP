@@ -2,74 +2,137 @@
   "name": "卢塞恩",
   "type": "city",
   "aliases": [
-    "琉森"
+    "琉森",
+    "Luzern",
+    "Lucerne"
   ],
   "city": "卢塞恩",
   "country": "瑞士",
-  "summary": "卡佩尔廊桥+湖光山色，瑞士最上镜的城市；皮拉图斯山、瑞吉山、铁力士山三座名山环伺，选一座上。",
-  "sections": [
-    {
-      "title": "定位与交通",
-      "content": "苏黎世火车45分钟直达，常作瑞士行程第一站。老城步行半天：卡佩尔廊桥（欧洲最老木桥）、狮子纪念碑、穆塞格城墙。"
-    },
-    {
-      "title": "三山怎么选",
-      "content": "瑞吉山：「山峦皇后」，缓坡草甸+齐天云海，Swiss Pass全免费，性价比首选；皮拉图斯山：金色环游（船+全球最陡齿轨+缆车）体验最丰富；铁力士山：海拔最高有冰川和悬索桥，雪景最稳。晴天哪座都好，按手里通票和预算定。"
-    },
-    {
-      "title": "玩法建议",
-      "content": "卢塞恩湖游船本身就是项目，Swiss Pass免费随便坐，配一段山是完美一天。交通博物馆是亲子王牌。"
-    },
-    {
-      "title": "实用贴士",
-      "content": "天气是山区行程唯一变量，出发早上看各山官网webcam再买票。湖边天鹅多，喂食被罚。老城餐厅游客价，往火车站方向走两条街实在不少。"
-    }
-  ],
-  "duration": "1-2天",
-  "best_time": "5-10月",
+  "summary": "也称琉森。经典的瑞士湖光山色风景，安逸舒适。市区步行即可游览，周边有瑞吉/皮拉图斯/石丹峰/铁力士四座名山，可在体验各种交通的同时欣赏山水之美。",
   "transport_map": "瑞士/瑞士城市间_交通图.png",
   "transport": {
-    "fly_train": "苏黎世→卢塞恩火车约45分钟；琉森是中部铁路枢纽，去因特拉肯走金色山口列车约2小时。",
-    "drive": "自驾去因特拉肯约1小时；周边三山(皮拉图斯/瑞吉/铁力士)均有齿轨或缆车。",
-    "local": "老城+廊桥+狮子纪念碑步行可达；上山坐齿轨火车或缆车+游船环线。"
+    "fly_train": "乘飞机抵达苏黎世机场，从机场乘火车前往卢塞恩最方便：苏黎世机场[Zürich Flughafen]→卢塞恩[Luzern]，车程70分钟，票价约CHF31。",
+    "drive": "乘火车 Luzern–Interlaken Express：因特拉肯东站—卢塞恩，黄金快线的一部分，沿途景色非常美，车程1小时50分，车票CHF34。持瑞士通票免费乘此段景观列车不强制订位（订位费夏季CHF16/冬季CHF12）。",
+    "local": "市内景点步行游览即可，周边景点可乘公交或游船。Zone10区内短途CHF3、单次CHF4.8（1小时有效）、日票CHF9.6。"
   },
+  "hotels": [
+    {
+      "name": "Barabas Luzern",
+      "area": "市中心",
+      "star": 2,
+      "score": "8.0",
+      "reviews": "3600+",
+      "note": "步行游览方便",
+      "link": "https://www.booking.com/hotel/ch/liberte-luzern.zh-cn.html"
+    },
+    {
+      "name": "Capsule Hotel - Lucerne Old Town",
+      "area": "老城区",
+      "star": 0,
+      "score": "8.8",
+      "reviews": "2800+",
+      "note": "胶囊旅店，性价比高",
+      "link": "https://www.booking.com/hotel/ch/capsule-chapter-lucerne.zh-cn.html"
+    },
+    {
+      "name": "Boutique Hotel KARL",
+      "area": "市中心",
+      "star": 3,
+      "score": "8.7",
+      "reviews": "2400+",
+      "note": "精品酒店",
+      "link": "https://www.booking.com/hotel/ch/boutique-hotel-karl.zh-cn.html"
+    },
+    {
+      "name": "Waldstätterhof Swiss Quality Hotel",
+      "area": "市中心",
+      "star": 3,
+      "score": "8.6",
+      "reviews": "2800+",
+      "note": "瑞士品质酒店",
+      "link": "https://www.booking.com/hotel/ch/swissqwaldstaetterhof.zh-cn.html"
+    },
+    {
+      "name": "AMERON Luzern Hotel Flora",
+      "area": "市中心",
+      "star": 4,
+      "score": "8.3",
+      "reviews": "1900+",
+      "note": "行程推荐入住",
+      "link": "https://www.booking.com/hotel/ch/hotelflora.zh-cn.html"
+    }
+  ],
+  "hotel_intro": "卢塞恩比较小，步行即可游览，游客住在市中心即可。",
   "attractions": [
     {
       "name": "卡佩尔廊桥",
       "order": 1,
-      "tagline": "瑞士最上镜地标，14世纪木廊桥",
+      "tagline": "水塔花桥，卢塞恩的标志，免费 [10分钟]",
+      "has_detail": false
+    },
+    {
+      "name": "穆塞格城墙",
+      "order": 2,
+      "tagline": "中世纪城墙，可上塔楼俯瞰，免费 [20-30分钟]",
       "has_detail": false
     },
     {
       "name": "狮子纪念碑",
-      "order": 2,
-      "tagline": "马克吐温赞「最哀伤的石雕」",
+      "order": 3,
+      "tagline": "'垂死的狮子'，世界最著名纪念碑之一，免费 [5分钟]",
+      "has_detail": false
+    },
+    {
+      "name": "瑞士交通博物馆",
+      "order": 4,
+      "tagline": "互动性极强像主题乐园，带娃可玩一整天，CHF35起",
       "has_detail": false
     },
     {
       "name": "瑞吉山",
-      "order": 3,
-      "display_name": "瑞吉山（山峦皇后）",
-      "tagline": "齿轨+游船环线，通票全免",
+      "order": 5,
+      "tagline": "山峦皇后 1798m，瑞吉环游约5小时4种交通",
       "has_detail": true
     },
     {
       "name": "皮拉图斯山",
-      "order": 4,
-      "tagline": "世界最陡齿轨，金色环线",
+      "order": 6,
+      "tagline": "2120m，金色环游约4小时5种交通，最陡齿轨列车",
+      "has_detail": false
+    },
+    {
+      "name": "石丹峰",
+      "tagline": "1898m，CabriO双层敞篷缆车，360°旋转餐厅",
+      "has_detail": false
+    },
+    {
+      "name": "铁力士山",
+      "tagline": "3238m，世界首个360°旋转缆车，欧洲最高悬索桥",
       "has_detail": false
     }
   ],
   "itinerary": [
     {
       "day": "1",
-      "title": "老城半日",
-      "detail": "卡佩尔廊桥→狮子纪念碑→老城逛吃"
+      "title": "苏黎世—卢塞恩",
+      "detail": "抵达苏黎世机场乘火车到卢塞恩，入住酒店。市内步行：廊桥—城墙—纪念碑—码头看天鹅"
     },
     {
       "day": "2",
-      "title": "上山",
-      "detail": "瑞吉山齿轨+游船环线 或 皮拉图斯金色环线，选一座"
+      "title": "卢塞恩—因特拉肯",
+      "detail": "周边山 瑞吉环游 or 皮拉图斯环游 2选1（阴天/带娃可选瑞士交通博物馆），下午乘火车前往因特拉肯"
     }
-  ]
+  ],
+  "sections": [
+    {
+      "title": "市区景点详情",
+      "content": "卡佩尔廊桥 Kapellbrücke：建于14世纪，欧洲非常古老的廊桥，一头琉森剧院一头圣彼得教堂，桥内中世纪彩绘装饰，桥身装点鲜花，廊桥下湖中天鹅成群。穆塞格城墙 Museggmauer：中世纪建筑誉为瑞士国家纪念碑，1386年建成保留9座塔楼可登，Zyt塔楼有琉森最古老时钟。开放4月1日-11月1日 8am-9pm冬季不开，免费。狮子纪念碑 Löwendenkmal：天然岩石雕刻，纪念1792年保卫杜伊勒里宫牺牲的瑞士雇佣兵，马克·吐温称'世界上最悲切动人的石头'。瑞士交通博物馆：瑞士最受欢迎博物馆，欧洲最综合性交通类博物馆，10am-5pm。"
+    },
+    {
+      "title": "周边四座山",
+      "content": "瑞吉山 Rigi 1798米：山峦皇后，山顶俯瞰360度美景（13个湖泊、远眺阿尔卑斯山及德国黑森林），全年泡温泉冬季雪上运动。皮拉图斯山 Pilatus 2120米：卢塞恩地标，可乘世界最陡峭齿轨登山列车。石丹峰 Stanserhorn 1898米：观景台+360度旋转餐厅，徒步可遇土拨鼠。铁力士山 Titlis 3238米：欧洲海拔最高悬索桥、冰川乐园、冰洞、徒步鲜花小径。"
+    }
+  ],
+  "duration": "1-2天",
+  "best_time": "全年皆宜，夏季登山最佳"
 }

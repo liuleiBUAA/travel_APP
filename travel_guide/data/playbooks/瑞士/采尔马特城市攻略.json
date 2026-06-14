@@ -1,79 +1,128 @@
 {
   "name": "采尔马特",
   "type": "city",
-  "aliases": [],
+  "aliases": [
+    "Zermatt",
+    "采尔玛特"
+  ],
   "city": "采尔马特",
   "country": "瑞士",
-  "summary": "马特洪峰脚下的无车小镇，三条上山线路看同一座神山的不同侧脸；日出「金色马特洪」在镇里就能等到。",
-  "sections": [
-    {
-      "title": "到达",
-      "content": "汽油车进不了镇：自驾停Täsch换摆渡火车5分钟进镇；火车从菲斯普（Visp）换乘上山约1小时10分。冰川快车（Glacier Express）以采尔马特为起点/终点，全景车厢提前订座。"
-    },
-    {
-      "title": "三条上山线",
-      "content": "①戈尔内格拉特（Gornergrat）齿轨火车：性价比和经典度首选，Riffelsee湖看马特洪倒影（下行在Rotenboden站下走10分钟）；②马特洪冰川天堂缆车：海拔3883米欧洲最高缆车站，冰宫+全年滑雪；③苏内加（Sunnegga）：缆索车5分钟，Leisee湖亲子和倒影机位。时间只够一条选①。"
-    },
-    {
-      "title": "玩法建议",
-      "content": "日出金顶（Alpenglow）不用上山：镇内河边桥（Kirchbrücke）就是经典机位，提前查日出时间。夏季五湖徒步（5-Seenweg）串起5个倒影湖，缓降路线3小时。"
-    },
-    {
-      "title": "实用贴士",
-      "content": "马特洪峰下午常被云包住，拍照行程排上午。镇上物价瑞士顶级，Coop超市是朋友。淡季（5月、11月）部分缆车检修停运，行前查官网。"
-    }
-  ],
-  "duration": "2天",
-  "best_time": "7-9月徒步；12-4月滑雪；任何时候都看天气",
+  "summary": "前往'阿尔卑斯最美山峰'马特洪峰（4478m 三角锥造型）的必到之地，是位于瑞士南部、与意大利交界处的无车小镇。游览主要是在附近山峰远观马特洪峰，有戈尔内格拉特线/冰川天堂线/苏内加线三条路线。",
   "transport_map": "瑞士/瑞士城市间_交通图.png",
   "transport": {
-    "fly_train": "采尔马特是无车小镇，需在 Täsch 换齿轨小火车进镇(约12分钟)；日内瓦/苏黎世均可火车直达Täsch。",
-    "drive": "自驾只能停到 Täsch 停车场，再换火车——镇内全程禁燃油车。",
-    "local": "镇内步行或电瓶车；上山三条线：戈尔内格拉特齿轨、马特洪峰冰川天堂缆车、苏内加-罗特峰。"
+    "fly_train": "飞抵日内瓦GVA或苏黎世ZRH机场，乘火车前往采尔马特（在Visp换乘），全程约3.5-4小时。",
+    "drive": "采尔马特为无车小镇，自驾停在泰施Täsch[可住宿]，换乘穿梭火车（每20分钟一趟）抵达，票价CHF8.6车程16分钟。",
+    "local": "采尔马特可步行游览，有少量电车和马车。出镇上山三条路线：戈尔内格拉特线3089m（景色丰富）/冰川天堂线3883m（最高峰360°全景）/苏内加线2288m（轻松带娃）。"
   },
+  "hotels": [
+    {
+      "name": "Le Petit CHARME-INN",
+      "area": "采尔马特镇",
+      "star": 0,
+      "score": "8.3",
+      "reviews": "2800+",
+      "note": "旅社，距火车站步行10分钟，有全景屋顶露台",
+      "link": "https://www.booking.com/hotel/ch/le-petit.zh-cn.html"
+    },
+    {
+      "name": "Hotel Alphubel",
+      "area": "采尔马特镇",
+      "star": 2,
+      "score": "7.9",
+      "reviews": "1900+",
+      "note": "距火车站200米，单人-4人间都有",
+      "link": "https://www.booking.com/hotel/ch/alphubel-zermatt.zh-cn.html"
+    },
+    {
+      "name": "Hotel Alpina",
+      "area": "采尔马特镇",
+      "star": 2,
+      "score": "8.3",
+      "reviews": "1300+",
+      "note": "距火车站500米，步行2分钟到主街",
+      "link": "https://www.booking.com/hotel/ch/alpina-zermatt.zh-cn.html"
+    },
+    {
+      "name": "Hotel Cheminee",
+      "area": "采尔马特镇",
+      "star": 3,
+      "score": "8.7",
+      "reviews": "680+",
+      "note": "距火车站步行5分钟，在苏内加线缆车对面",
+      "link": "https://www.booking.com/hotel/ch/cheminee.zh-cn.html"
+    },
+    {
+      "name": "3100 Kulmhotel Gornergrat",
+      "area": "戈尔内格拉特山顶",
+      "star": 0,
+      "score": "9.1",
+      "reviews": "500+",
+      "note": "欧洲最高酒店，戈尔内格拉特线山顶，风景无敌可体验一次",
+      "link": "https://www.booking.com/hotel/ch/3100-kulmhotel.zh-cn.html"
+    }
+  ],
+  "hotel_intro": "多数游客住在采尔马特镇（必经生活小镇逛吃方便）。少数选择住Täsch（不用拖行李换乘）或住山上3100 Kulmhotel（风景无敌）。",
   "attractions": [
     {
       "name": "马特洪峰",
       "order": 1,
-      "tagline": "瑞士神山，三角金字塔侧脸",
+      "tagline": "4478m 三角锥，阿尔卑斯最美山峰，三条线远观",
       "has_detail": false
     },
     {
-      "name": "戈尔内格拉特",
+      "name": "戈尔内格拉特线",
       "order": 2,
-      "display_name": "戈尔内格拉特 Gornergrat",
-      "tagline": "齿轨登3089m，正对马特洪峰",
+      "tagline": "3089m，欧洲最高露天齿轨铁路，29座4000m雪山 [3-4h]",
       "has_detail": false
     },
     {
-      "name": "五湖徒步",
+      "name": "冰川天堂线",
       "order": 3,
-      "display_name": "五湖徒步 5-Seenweg",
-      "tagline": "湖中倒影马特洪经典机位",
+      "tagline": "3883m，水晶缆车+最高观景台+冰宫+滑雪场 [3.5h]",
       "has_detail": false
     },
     {
-      "name": "利菲尔湖",
-      "display_name": "利菲尔湖 Riffelsee",
-      "tagline": "最强倒影机位，无风时双峰",
+      "name": "苏内加线",
+      "order": 4,
+      "tagline": "2288m，轻松带娃，Leisee拍马特洪峰倒影",
       "has_detail": false
     }
   ],
   "itinerary": [
     {
       "day": "1",
-      "title": "戈尔内格拉特",
-      "detail": "齿轨上山正面看马特洪+冰川全景"
+      "title": "抵达采尔马特",
+      "detail": "火车在Visp换乘到采尔马特，入住，镇内观景点 viewpoint / Kirchbrücke 拍马特洪峰"
     },
     {
       "day": "2",
-      "title": "五湖徒步",
-      "detail": "苏内加上山，徒步五湖找倒影机位"
+      "title": "戈尔内格拉特线",
+      "detail": "齿轨登顶3089m全景观景台，下到Rotenboden步行15分钟到Riffelsee拍雪山倒影"
     },
     {
       "day": "+",
-      "title": "金色日出",
-      "detail": "清晨在镇里等「金色马特洪」"
+      "title": "可选加日",
+      "detail": "冰川天堂线3883m（水晶缆车+冰宫）／ 苏内加线带娃轻松游"
     }
-  ]
+  ],
+  "sections": [
+    {
+      "title": "戈尔内格拉特线详情",
+      "content": "山顶车站3089米，单程33分钟，往返CHF96-132持瑞士通票半价，游玩约3-4小时山上有多家餐厅。世界第一条完全电气化齿轮铁路也是欧洲最高露天齿轮铁路，全长9.4公里垂直爬升1469米。顶峰：全景观景台欣赏29座4000米以上山脉、欧洲最高酒店3100 Kulmhotel、360°徒步路线1.1km、ZOOOM the Matterhorn互动体验展。下到Rotenboden(2815m)步行15分钟到Riffelsee拍经典雪山倒影（清晨傍晚最好）。6月末-9月初放牧100多只瓦莱州黑鼻羊。"
+    },
+    {
+      "title": "冰川天堂线详情",
+      "content": "山顶车站3883米，单程45分钟，往返CHF99-132持瑞士通票半价，游玩约3.5小时。从采尔马特缆车站乘小缆车到Trockener Steg再换3S大缆车到山顶（4个施华洛世奇水晶座舱，黑色地板变透明看脚下170米冰川，额外费用）。山顶：欧洲最高电影院Cinema Lounge、阿尔卑斯山第一高观景台（360°观赏38座4千米雪山及14座冰川，看马特洪峰另一面）、地下15米马特洪峰冰宫（世界海拔最高冰宫）、365天国际滑雪场。下到Furi(1867m)，6-10月可去Hängebrücke吊桥（戈尔纳峡谷，步道2.9km约2小时15分）。"
+    },
+    {
+      "title": "采尔马特镇 & 苏内加线",
+      "content": "镇内观景点推荐 viewpoint 和 Kirchbrücke 拍照点。苏内加线 Sunnegga：距离近性价比高适合时间短/带娃。乘轨道车上山5分钟（隧道内无风景）→Sunnegga观景台拍马特洪峰→缆车到Wolli Park儿童户外乐园→步行到Leisee拍马特洪峰倒影。"
+    },
+    {
+      "title": "最佳季节",
+      "content": "山峰海拔高经常云雾缭绕，需耐心等待或多停留才能看到最美山峰，任何季节带防寒保暖衣物。7-8月旺季活动多价格最贵；5-6月和9-10月过度季性价比最佳；11月-次年4月滑雪季。"
+    }
+  ],
+  "duration": "2-3天",
+  "best_time": "5-6月、9-10月性价比最佳；夏季登山"
 }

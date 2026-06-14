@@ -1083,5 +1083,25 @@
     "source": "pexels:Palermo Sicily"
    }
   ]
+ },
+ {
+  "city": "米兰",
+  "attraction": "最后的晚餐",
+  "status": "ok",
+  "local": "米兰/最后的晚餐_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Marcin Białek",
+  "commons_file": "Santa Maria delle Grazie Milan 2013.jpg",
+  "source": "commons-search:Santa Maria delle Grazie Milan"
+ },
+ {
+  "city": "五渔村",
+  "attraction": "五渔村",
+  "status": "ok",
+  "local": "五渔村/五渔村_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "This Photo was taken by Timothy A. Gonsalves.  Feel free to use my photos, but p",
+  "commons_file": "Manarola NW Cemetery Corniglia Monterosso Cinque Terre Sep23 A7C 06872.jpg",
+  "source": "commons-search:Vernazza Cinque Terre"
  }
 ]

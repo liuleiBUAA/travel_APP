@@ -1,0 +1,107 @@
+{
+  "name": "日内瓦",
+  "type": "city",
+  "aliases": [
+    "Geneva",
+    "Genève"
+  ],
+  "city": "日内瓦",
+  "country": "瑞士",
+  "summary": "法语Genève，众多国际组织总部集中于此，钟表和银行业为其支柱。景点简单适合闲逛打卡，每处5-10分钟，适合转机过度游玩，半天即可。是日内瓦入境瑞士游的起点。",
+  "transport_map": "瑞士/瑞士城市间_交通图.png",
+  "transport": {
+    "fly_train": "乘飞机抵达日内瓦机场（GVA）Genève Aéroport，位于城市西北4km。乘火车 Genève-Aéroport↔Genève-Cornavin 车程12分钟车票CHF3；或乘公交5路/10路到火车站及主要景点车程20分钟CHF3。",
+    "drive": "前往采尔马特：火车4小时在Visp换乘1次。前往因特拉肯：推荐途径蒙特勒乘金色山口列车，沿途风景非常美。",
+    "local": "入住日内瓦酒店可免费获取交通卡，持卡免费乘公交/火车/交通船。无卡：短途票3站CHF2、单程票1小时CHF3、日票CHF10（9am后CHF8）。所有景点和机场都在Zone10区内。"
+  },
+  "hotels": [
+    {
+      "name": "Hotel Bernina Geneva",
+      "area": "火车站附近",
+      "star": 3,
+      "score": "8.7",
+      "reviews": "2000+",
+      "note": "毗邻大型购物中心",
+      "link": "https://www.booking.com/hotel/ch/swissqbernina.zh-cn.html"
+    },
+    {
+      "name": "ibis Genève Centre Lac",
+      "area": "市中心",
+      "star": 3,
+      "score": "8.1",
+      "reviews": "5400+",
+      "note": "步行游览方便",
+      "link": "https://www.booking.com/hotel/ch/ibis-geneve-centre-lac.zh-cn.html"
+    },
+    {
+      "name": "Hotel Les Arcades",
+      "area": "市中心",
+      "star": 2,
+      "score": "8.0",
+      "reviews": "3500+",
+      "note": "楼下是地下商城",
+      "link": "https://www.booking.com/hotel/ch/les-arcades.zh-cn.html"
+    }
+  ],
+  "hotel_intro": "日内瓦景点不多，适合过渡游玩，游客通常住在火车站附近。",
+  "attractions": [
+    {
+      "name": "大喷泉",
+      "order": 1,
+      "tagline": "日内瓦地标，水柱高达140米，全天喷水 [5-10分钟]",
+      "has_detail": false
+    },
+    {
+      "name": "花钟",
+      "order": 2,
+      "tagline": "约1.2万株花卉，世界最长秒针2.5米，对面是购物街",
+      "has_detail": false
+    },
+    {
+      "name": "圣彼得大教堂",
+      "order": 3,
+      "tagline": "融汇多种建筑风格，参观免费，登塔CHF7",
+      "has_detail": false
+    },
+    {
+      "name": "万国宫",
+      "order": 4,
+      "tagline": "联合国欧洲总部，门口拍万国旗，公交5路Nations站",
+      "has_detail": false
+    },
+    {
+      "name": "断腿椅子",
+      "order": 5,
+      "tagline": "国际反地雷组织标志，12米高，万国宫门前",
+      "has_detail": false
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "半天",
+      "title": "日内瓦路过游玩",
+      "detail": "抵达机场乘5路公交先万国宫后市中心景点；抵达火车站市中心景点和万国宫顺序任选"
+    },
+    {
+      "day": "1",
+      "title": "日内瓦入境",
+      "detail": "日内瓦入境—日内瓦湖畔—蒙特勒（瑞士6天行程第1天）"
+    }
+  ],
+  "sections": [
+    {
+      "title": "景点详情",
+      "content": "大喷泉 Jet d'Eau：日内瓦地标，水柱高达140米每秒500升水以200千米/小时喷出全天喷水沿湖岸都可看到，1886年因液压装置夜间泄压而诞生。花钟 L'Horloge Fleurie：城市地标，位于英国花园一角，约12000株花卉植物根据季节变换，秒针2.5米长是世界最长秒针，马路对面就是购物街。圣彼得大教堂 Cathédrale Saint-Pierre：通常只参观打卡，有时间可登塔眺望日内瓦，教堂免费登塔CHF7。万国宫 Palais des Nations：联合国欧洲总部仅次于纽约，建于1929-1936年，游客门口拍万国旗，爱好者可导游带领参观内部。断腿椅子 Broken Chair：国际反地雷组织标志，12米高。"
+    },
+    {
+      "title": "购物美食",
+      "content": "Rue de Rhône购物街（长1km近花钟）各大品牌集中购物环境轻松；想尝瑞士特色奶酪火锅可去 Les Brasseurs（近火车站）CHF27.5/锅。"
+    },
+    {
+      "title": "官方6天瑞士行程",
+      "content": "日内瓦入境推荐：Day1 日内瓦—日内瓦湖畔—蒙特勒；Day2 蒙特勒—马特洪峰；Day3 马特洪峰—因特拉肯；Day4 因特拉肯；Day5 因特拉肯—卢塞恩；Day6 卢塞恩—苏黎世（离境）。"
+    }
+  ],
+  "duration": "半天",
+  "best_time": "全年皆宜"
+}

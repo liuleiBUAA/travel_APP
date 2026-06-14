@@ -1,32 +1,106 @@
 {
   "name": "悉尼",
   "type": "city",
-  "aliases": [],
+  "aliases": ["Sydney"],
   "city": "悉尼",
   "country": "澳大利亚",
-  "summary": "歌剧院、海港大桥加邦迪海滩构成核心动线，Opal卡通刷渡轮火车，留一天去蓝山，3-4天最顺。",
+  "summary": "悉尼 Sydney 是澳洲最大、最繁华的城市，也是一座美丽的海港城市。歌剧院、海港大桥、邦迪海滩构成核心动线，CBD景点集中可步行，玩 3-4 天最顺，可再留 1-2 天去蓝山/猎人谷/史蒂芬港。",
+  "transport_map": "澳大利亚/悉尼_交通图.png",
+  "transport": {
+    "fly_train": "悉尼位于澳洲东南海岸，很多城市可直飞。墨尔本→悉尼飞行1.5小时。悉尼机场 SYD 共3个航站楼：国际 T1、国内 T2&T3，相距约3.5公里，免费摆渡车 T-Bus 约10分钟。机场在市区以南约8公里，车程20-30分钟：Uber 打车35-65澳元；机场线 Airport Link 成人单次票23.5澳元、刷 Opal 卡20.95澳元(非高峰)，到中央车站 Central 13分钟、市中心 Town Hall 26分钟。",
+    "drive": "市区景点集中，步行 + Uber 最方便；也可乘公共交通：火车/轻轨/公交车/渡轮，刷 Visa/万事达感应卡或 Opal 卡通用。还可骑自行车游悉尼，或乘随上随下观光车 Big Bus。",
+    "local": "环形码头 Circular Quay 是渡轮枢纽，F1 线到 Manly 海滩的渡轮本身就是观光线路，看歌剧院和大桥角度最佳。"
+  },
+  "hotels": [
+    {
+      "name": "Shangri-La Sydney 香格里拉",
+      "area": "环形码头",
+      "star": 5,
+      "score": "",
+      "reviews": "",
+      "note": "看歌剧院 & 海港大桥，房间比四季大，价格较高",
+      "link": "https://www.booking.com/hotel/au/shangrila-sydney.zh-cn.html"
+    },
+    {
+      "name": "Four Seasons Hotel Sydney 四季",
+      "area": "环形码头",
+      "star": 5,
+      "score": "",
+      "reviews": "",
+      "note": "看歌剧院 & 海港大桥，设施比香格里拉新",
+      "link": "https://www.booking.com/hotel/au/four-seasons-sydney.zh-cn.html"
+    },
+    {
+      "name": "Sheraton Grand Sydney Hyde Park 喜来登",
+      "area": "市中心 Town Hall",
+      "star": 5,
+      "score": "",
+      "reviews": "",
+      "note": "出行最方便、景点多可步行，窗外就是海德公园",
+      "link": "https://www.booking.com/hotel/au/sheraton-on-the-park-sydney.html"
+    },
+    {
+      "name": "The Grace Hotel",
+      "area": "市中心 Town Hall",
+      "star": 4,
+      "score": "",
+      "reviews": "",
+      "note": "历史建筑复古风情",
+      "link": "https://www.booking.com/hotel/au/the-grace.zh-cn.html"
+    },
+    {
+      "name": "Meriton Suites Kent Street",
+      "area": "市中心 Town Hall",
+      "star": 5,
+      "score": "",
+      "reviews": "",
+      "note": "高性价比1-3卧室公寓",
+      "link": "https://www.booking.com/hotel/au/meriton-suites-sussex-street.zh-cn.html"
+    },
+    {
+      "name": "Rydges World Square",
+      "area": "唐人街附近",
+      "star": 4,
+      "score": "",
+      "reviews": "",
+      "note": "价格便宜，适合亲子，双床间&家庭间价格好",
+      "link": "https://www.booking.com/hotel/au/avillion-sydney.zh-cn.html"
+    }
+  ],
+  "hotel_intro": "首访建议住「环形码头」到「市中心 Town Hall」一带，步行可达歌剧院、岩石区和达令港；唐人街附近价格便宜、近中央车站。跨年烟花期（12月底）海港景观房提前半年订满、价格翻几倍。",
+  "attractions": [
+    {"name": "悉尼歌剧院", "order": 1, "tagline": "澳洲最著名地标，风帆造型，公共区域免费进", "has_detail": false},
+    {"name": "悉尼皇家植物园", "order": 2, "tagline": "海港畔宁静绿洲，麦考利夫人椅子拍歌剧院最佳机位", "has_detail": false},
+    {"name": "海港大桥", "order": 3, "tagline": "世界最高钢铁拱桥+最古老岩石区，可攀桥俯瞰", "has_detail": false},
+    {"name": "达令港", "order": 4, "tagline": "情人港，购物美食游船，夜景与周末烟花", "has_detail": false},
+    {"name": "悉尼鱼市场", "order": 5, "tagline": "2026新开业海港新地标，现选海鲜现做", "has_detail": false},
+    {"name": "QVB", "display_name": "维多利亚女王大厦 QVB", "order": 6, "tagline": "百年购物地标，彩色玻璃穹顶，'世界最美商场'", "has_detail": false},
+    {"name": "悉尼塔", "order": 7, "tagline": "309米最高建筑，250米观景台360度全景", "has_detail": false},
+    {"name": "圣玛丽大教堂", "order": 8, "tagline": "南半球最美教堂，金黄砂岩双塔，免费", "has_detail": false},
+    {"name": "新南威尔士美术馆", "order": 9, "tagline": "梵高莫奈毕加索馆藏，免费，南北两馆", "has_detail": false},
+    {"name": "唐人街", "order": 10, "tagline": "南半球最大唐人街，德信街中华门，周五夜市", "has_detail": false},
+    {"name": "悉尼大学", "order": 11, "tagline": "'南半球牛津'，哈利波特楼方庭，蓝花楹季", "has_detail": false},
+    {"name": "邦迪海滩", "order": 12, "tagline": "最著名海滩，邦迪-库吉海岸徒步+网红泳池", "has_detail": false},
+    {"name": "塔龙加动物园", "order": 13, "tagline": "澳洲最大动物园，看考拉袋鼠+歌剧院海港景", "has_detail": false},
+    {"name": "曼利海滩", "order": 14, "tagline": "北岸冲浪海滩，渡轮30分钟，虫洞打卡", "has_detail": false}
+  ],
+  "itinerary": [
+    {"day": "1", "title": "CBD海港", "detail": "上午悉尼歌剧院，下午皇家植物园+海港大桥&岩石区，傍晚步行天文台山看日落"},
+    {"day": "2", "title": "CBD逛吃", "detail": "悉尼鱼市场逛吃海鲜，下午 QVB>悉尼塔>圣玛丽大教堂>州美术馆，晚上唐人街吃饭、达令港散步看夜景"},
+    {"day": "3", "title": "近郊海滩", "detail": "上午悉尼大学，下午邦迪海滩；延伸选去钻石湾>Watsons Bay，坐渡轮回环形码头"},
+    {"day": "4", "title": "动物园", "detail": "塔龙加动物园半天-1天，结束早可选去曼利海滩"},
+    {"day": "+", "title": "周边加日", "detail": "蓝山(三姐妹峰+缆车) / 猎人谷(酒庄+热气球) / 史蒂芬港(看海豚+滑沙)，各1天起"}
+  ],
   "sections": [
     {
-      "title": "到达与市内交通",
-      "content": "机场坐T8线15分钟进城，但机场站附加费约17澳元，两人以上打车反而划算。市内交通直接刷Visa/万事达感应卡或买Opal卡，火车、轻轨、公交、渡轮通用，周日有全天封顶价。环形码头（Circular Quay）是渡轮枢纽，F1线到Manly海滩的渡轮本身就是观光线路，看歌剧院和大桥角度最佳。市中心景点集中在环形码头到中央车站之间，步行加轻轨L2/L3足够。"
-    },
-    {
-      "title": "住宿建议",
-      "content": "首访住环形码头到Town Hall一带最省时，步行可达歌剧院、岩石区和达令港，缺点是房价全城最高。达令港适合带娃，海事博物馆和水族馆就在楼下。预算有限选中央车站周边或North Sydney，火车两三站进城。想住海边选邦迪，但进城单程40分钟以上，适合行程后半段躺平。跨年和新年烟花期（12月底）海港景观房提前半年就订满，价格翻几倍。"
-    },
-    {
-      "title": "必看与通票",
-      "content": "歌剧院外观免费随便拍，内部要参加官方导览团，有中文团（约1小时），官网提前订比现场便宜且不用排队；想省钱可直接买场演出票入场。邦迪到库吉（Bondi-Coogee）海岸步道约6公里走2-3小时，景观在前半段，走到Bronte折返也值。海港大桥步行道免费，攀桥（BridgeClimb）要提前订且不能带相机。蓝山一日：火车到Katoomba约2小时，三姐妹峰免费，Scenic World缆车套票现场买即可。"
-    },
-    {
-      "title": "美食",
-      "content": "悉尼鱼市场（Sydney Fish Market）适合中午去，现选海鲜现做，户外座位防海鸥抢食。环形码头和歌剧院旁餐厅看景为主、溢价明显，正餐去Barangaroo或Surry Hills性价比更高。唐人街（Haymarket）夜宵到晚上很晚，烧腊和火锅解中餐胃。澳洲咖啡水准高，早午餐（brunch）人均25-35澳元是本地文化，Flat White必试。餐厅普遍要订位，周五周六晚热门店不订基本没位。"
+      "title": "悉尼周边（1-2天）",
+      "content": "蓝山 Blue Mountains：距悉尼车程约1.5小时(火车2小时)，回音角观景台看三姐妹峰+景观世界缆车&小火车，蓝山徒步泡日式温泉，文艺小镇 Leura。1日往返或2天1晚。\n猎人谷 Hunter Valley：距悉尼车程约2小时，澳洲最古老葡萄酒产区，150多家酒庄，品酒+坐热气球看日出+羊驼农场。自驾2天1晚或参团一日游。\n史蒂芬港 Port Stephens：距悉尼车程约2.5小时，比悉尼港大两倍的天然海港，出海看宽吻海豚、海边沙漠滑沙骑骆驼。自驾2天1晚或参团一日游。"
     },
     {
       "title": "实用贴士",
-      "content": "澳洲紫外线极强，夏天上午10点后必须涂SPF50防晒，海滩只在红黄旗之间游泳，离岸流（rip）每年都出事。商店普遍下午5-6点关门，只有周四晚营业到9点。小费不强制。退税（TRS）在机场办，单店满300澳元、出发前60天内的发票有效，热门时段排队预留1小时。电源是八字斜脚插座，和国标兼容。冬季（6-8月）日落约5点，行程要排早。"
+      "content": "澳洲紫外线极强，夏天上午10点后必涂SPF50防晒，海滩只在红黄旗之间游泳（离岸流 rip 每年都出事）。商店普遍下午5-6点关门，只有周四晚营业到9点。小费不强制。退税(TRS)在机场办，单店满300澳元、出发前60天内发票有效，热门时段排队预留1小时。电源八字斜脚插座，与国标兼容。冬季(6-8月)日落约5点，行程要排早。最佳季节为南半球暖季（10月-次年3月），冬季凉爽适合观鲸（5月下旬-11月上旬）。"
     }
   ],
   "duration": "3-4天",
-  "best_time": "10月-次年3月南半球暖季，海滩和户外活动体验最好；12月底跨年烟花全球闻名但房价飙升。"
+  "best_time": "夏季（12-2月）最佳也是旺季，春秋季气候宜人性价比高，冬季凉爽适合观鲸。10月-次年3月暖季海滩户外体验最好；12月底跨年烟花全球闻名但房价飙升。"
 }
