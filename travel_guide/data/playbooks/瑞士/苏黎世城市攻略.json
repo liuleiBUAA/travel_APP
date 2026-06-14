@@ -28,5 +28,52 @@
     }
   ],
   "duration": "1-2天",
-  "best_time": "6-9月湖畔与进山天气最稳；12月圣诞灯饰下的班霍夫大街也值得一晚"
+  "best_time": "6-9月湖畔与进山天气最稳；12月圣诞灯饰下的班霍夫大街也值得一晚",
+  "transport_map": "瑞士/瑞士城市间_交通图.png",
+  "transport": {
+    "fly_train": "苏黎世机场坐火车10-13分钟直达中央火车站(Zürich HB)，约7瑞郎，持瑞士通票免费。",
+    "drive": "全瑞士铁路枢纽：去卢塞恩45分钟、伯尔尼1小时、因特拉肯2小时，几乎都是整点发车。",
+    "local": "市内电车密集，但老城+班霍夫大街+湖畔全程步行可达，基本用不上单独买票。"
+  },
+  "attractions": [
+    {
+      "name": "苏黎世湖",
+      "order": 1,
+      "tagline": "湖畔游船，Bürkliplatz 登船",
+      "has_detail": false
+    },
+    {
+      "name": "班霍夫大街",
+      "tagline": "奢侈品橱窗大街，走到湖边20分钟",
+      "has_detail": false
+    },
+    {
+      "name": "圣母教堂",
+      "display_name": "圣母教堂 Fraumünster",
+      "tagline": "夏加尔彩窗，门票5瑞郎",
+      "has_detail": false
+    },
+    {
+      "name": "格罗斯大教堂",
+      "tagline": "双塔登顶俯瞰湖景",
+      "has_detail": false
+    },
+    {
+      "name": "林登霍夫",
+      "tagline": "老城高地，免费俯瞰利马特河经典机位",
+      "has_detail": false
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": "老城核心线",
+      "detail": "班霍夫大街→圣母教堂→格罗斯大教堂→林登霍夫→湖畔游船"
+    },
+    {
+      "day": "+",
+      "title": "转场",
+      "detail": "当天可直接坐火车去卢塞恩/因特拉肯住，房价低两成"
+    }
+  ]
 }

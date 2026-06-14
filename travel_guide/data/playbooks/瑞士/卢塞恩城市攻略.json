@@ -26,5 +26,50 @@
     }
   ],
   "duration": "1-2天",
-  "best_time": "5-10月"
+  "best_time": "5-10月",
+  "transport_map": "瑞士/瑞士城市间_交通图.png",
+  "transport": {
+    "fly_train": "苏黎世→卢塞恩火车约45分钟；琉森是中部铁路枢纽，去因特拉肯走金色山口列车约2小时。",
+    "drive": "自驾去因特拉肯约1小时；周边三山(皮拉图斯/瑞吉/铁力士)均有齿轨或缆车。",
+    "local": "老城+廊桥+狮子纪念碑步行可达；上山坐齿轨火车或缆车+游船环线。"
+  },
+  "attractions": [
+    {
+      "name": "卡佩尔廊桥",
+      "order": 1,
+      "tagline": "瑞士最上镜地标，14世纪木廊桥",
+      "has_detail": false
+    },
+    {
+      "name": "狮子纪念碑",
+      "order": 2,
+      "tagline": "马克吐温赞「最哀伤的石雕」",
+      "has_detail": false
+    },
+    {
+      "name": "瑞吉山",
+      "order": 3,
+      "display_name": "瑞吉山（山峦皇后）",
+      "tagline": "齿轨+游船环线，通票全免",
+      "has_detail": true
+    },
+    {
+      "name": "皮拉图斯山",
+      "order": 4,
+      "tagline": "世界最陡齿轨，金色环线",
+      "has_detail": false
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": "老城半日",
+      "detail": "卡佩尔廊桥→狮子纪念碑→老城逛吃"
+    },
+    {
+      "day": "2",
+      "title": "上山",
+      "detail": "瑞吉山齿轨+游船环线 或 皮拉图斯金色环线，选一座"
+    }
+  ]
 }

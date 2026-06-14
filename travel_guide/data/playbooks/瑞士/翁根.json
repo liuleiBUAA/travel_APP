@@ -1,0 +1,92 @@
+{
+  "name": "翁根",
+  "type": "attraction",
+  "aliases": [
+    "First",
+    "First峰",
+    "菲斯特"
+  ],
+  "city": "因特拉肯",
+  "country": "瑞士",
+  "summary": "格林德尔瓦尔德上方的 First 山峰，景色一流、徒步经典、活动多。海拔相对低，晴天比少女峰多很多，是性价比极高的玩法集合地。",
+  "facts": [
+    {
+      "k": "缆车票价",
+      "v": "往返CHF76",
+      "sub": "单程CHF38，通票半价"
+    },
+    {
+      "k": "到达",
+      "v": "步行10min",
+      "sub": "格林德尔瓦尔德火车站→缆车站"
+    },
+    {
+      "k": "上山",
+      "v": "约25min",
+      "sub": "缆车分3段"
+    },
+    {
+      "k": "打包票",
+      "v": "CHF86起",
+      "sub": "缆车无限次+1活动"
+    }
+  ],
+  "route": [
+    "格林德尔瓦尔德Terminal",
+    "Bort",
+    "Schreckfeld",
+    "First站"
+  ],
+  "route_note": "缆车全程分3段，上山约25分钟；下山可原路返回，或选飞索/卡丁车/站立骑行三种活动玩着下山。",
+  "price": {
+    "main": "CHF 76",
+    "unit": "缆车往返",
+    "note": "持瑞士通票半价",
+    "detail": "打包票更划算：First峰缆车无限次 + 1个活动 = CHF86；+2个活动 = CHF101。活动开放期2025年5月10日-10月26日。"
+  },
+  "activities": [
+    {
+      "name": "悬崖步道 Cliff Walk",
+      "price": "免费(含缆车)",
+      "detail": "2166m 环形步道，沿岩壁走到悬空观景台（吊桥过），看4000米雪峰，步行约20分钟，恐高慎选。"
+    },
+    {
+      "name": "观景台 View Platform",
+      "price": "免费(含缆车)",
+      "detail": "悬崖步道上方2194m，造型如莲花绽放，9个不同角度全方位看 First 峰。"
+    },
+    {
+      "name": "Bachalpsee 湖",
+      "price": "徒步免费",
+      "detail": "阿尔卑斯「蓝色珍宝」，2265m，往返5.88km约2小时，6月初到秋天可去，明信片级倒影机位。"
+    },
+    {
+      "name": "飞索 Flyer / 滑翔 Glider",
+      "price": "CHF31",
+      "detail": "800米，时速72-84km/h，First站→Schreckfeld站，10-15分钟。"
+    },
+    {
+      "name": "卡丁车 Cart",
+      "price": "CHF21",
+      "detail": "3公里，自己控速沿途可停，Schreckfeld站→Bort站，约30分钟（路面较颠）。"
+    },
+    {
+      "name": "站立骑行 Trottibike",
+      "price": "CHF21",
+      "detail": "4.5km，Bort站→格林德尔瓦尔德，自己控速，约30分钟。"
+    }
+  ],
+  "tips": [
+    "海拔比少女峰低，晴天概率高、花费低，预算有限的首选",
+    "三种下山活动按 First→Schreckfeld→Bort→镇 的高度顺序分段，可串着玩",
+    "Bachalpsee 湖徒步6月初才开，早春去可能还封路"
+  ],
+  "sections": [
+    {
+      "title": "玩法详情",
+      "content": "First 山峰夏季有徒步和户外运动，冬季可滑雪。从格林德尔瓦尔德火车站步行10分钟到 Terminal 缆车站，缆车分3段上山约25分钟，路线：缆车站—Bort—Schreckfeld—First站。山上必玩悬崖步道+观景台+Bachalpsee湖，下山可选飞索/卡丁车/站立骑行三种活动。"
+    }
+  ],
+  "duration": "半天-1天",
+  "best_time": "6-10月，晴天最佳"
+}

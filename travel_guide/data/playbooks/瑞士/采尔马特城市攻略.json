@@ -24,5 +24,56 @@
     }
   ],
   "duration": "2天",
-  "best_time": "7-9月徒步；12-4月滑雪；任何时候都看天气"
+  "best_time": "7-9月徒步；12-4月滑雪；任何时候都看天气",
+  "transport_map": "瑞士/瑞士城市间_交通图.png",
+  "transport": {
+    "fly_train": "采尔马特是无车小镇，需在 Täsch 换齿轨小火车进镇(约12分钟)；日内瓦/苏黎世均可火车直达Täsch。",
+    "drive": "自驾只能停到 Täsch 停车场，再换火车——镇内全程禁燃油车。",
+    "local": "镇内步行或电瓶车；上山三条线：戈尔内格拉特齿轨、马特洪峰冰川天堂缆车、苏内加-罗特峰。"
+  },
+  "attractions": [
+    {
+      "name": "马特洪峰",
+      "order": 1,
+      "tagline": "瑞士神山，三角金字塔侧脸",
+      "has_detail": false
+    },
+    {
+      "name": "戈尔内格拉特",
+      "order": 2,
+      "display_name": "戈尔内格拉特 Gornergrat",
+      "tagline": "齿轨登3089m，正对马特洪峰",
+      "has_detail": false
+    },
+    {
+      "name": "五湖徒步",
+      "order": 3,
+      "display_name": "五湖徒步 5-Seenweg",
+      "tagline": "湖中倒影马特洪经典机位",
+      "has_detail": false
+    },
+    {
+      "name": "利菲尔湖",
+      "display_name": "利菲尔湖 Riffelsee",
+      "tagline": "最强倒影机位，无风时双峰",
+      "has_detail": false
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": "戈尔内格拉特",
+      "detail": "齿轨上山正面看马特洪+冰川全景"
+    },
+    {
+      "day": "2",
+      "title": "五湖徒步",
+      "detail": "苏内加上山，徒步五湖找倒影机位"
+    },
+    {
+      "day": "+",
+      "title": "金色日出",
+      "detail": "清晨在镇里等「金色马特洪」"
+    }
+  ]
 }
