@@ -1,0 +1,134 @@
+{
+ "苏黎世湖": {
+  "lat": 47.279096,
+  "lon": 8.597868,
+  "query": "Lake Zurich Switzerland",
+  "city": "苏黎世"
+ },
+ "狮子纪念碑": {
+  "lat": 47.058444,
+  "lon": 8.310868,
+  "query": "Lion Monument Lucerne Switzerland",
+  "city": "卢塞恩"
+ },
+ "卡佩尔廊桥": {
+  "lat": 47.051833,
+  "lon": 8.307713,
+  "query": "Chapel Bridge Lucerne Switzerland",
+  "city": "卢塞恩"
+ },
+ "瑞吉山": {
+  "lat": 29.993825,
+  "lon": -98.890311,
+  "query": "Mount Rigi Switzerland",
+  "city": "卢塞恩"
+ },
+ "皮拉图斯山": {
+  "lat": 47.030551,
+  "lon": 8.277322,
+  "query": "Mount Pilatus Lucerne Switzerland",
+  "city": "卢塞恩"
+ },
+ "滑翔伞": {
+  "lat": 46.688358,
+  "lon": 7.861907,
+  "query": "paragliding Interlaken Switzerland",
+  "city": "因特拉肯"
+ },
+ "逛吃": {
+  "lat": 42.613857,
+  "lon": -76.724245,
+  "query": "Interlaken town street Switzerland",
+  "city": "因特拉肯"
+ },
+ "格林德尔瓦尔德": {
+  "lat": 46.577632,
+  "lon": 8.005469,
+  "query": "Grindelwald village Eiger Switzerland",
+  "city": "因特拉肯"
+ },
+ "少女峰": {
+  "lat": 46.547559,
+  "lon": 7.985392,
+  "query": "Jungfraujoch Top of Europe Switzerland",
+  "city": "因特拉肯"
+ },
+ "梦幻山坡": {
+  "lat": 46.669581,
+  "lon": 8.020953,
+  "query": "Grindelwald First Bachalpsee Switzerland",
+  "city": "因特拉肯"
+ },
+ "劳特布龙嫩": {
+  "lat": 46.596089,
+  "lon": 7.907566,
+  "query": "Lauterbrunnen valley waterfall Switzerland",
+  "city": "因特拉肯"
+ },
+ "翁根": {
+  "lat": 46.605441,
+  "lon": 7.921724,
+  "query": "Wengen village Switzerland",
+  "city": "因特拉肯"
+ },
+ "瀑布": {
+  "lat": 46.589045,
+  "lon": 7.903534,
+  "query": "Staubbach Falls Lauterbrunnen Switzerland",
+  "city": "因特拉肯"
+ },
+ "图恩湖": {
+  "lat": 46.70029,
+  "lon": 7.698639,
+  "query": "Lake Thun Switzerland",
+  "city": "因特拉肯"
+ },
+ "布里恩茨湖": {
+  "lat": 46.722966,
+  "lon": 7.964981,
+  "query": "Lake Brienz turquoise Switzerland",
+  "city": "因特拉肯"
+ },
+ "日内瓦湖": {
+  "lat": 38.856302,
+  "lon": -85.035184,
+  "query": "Lake Geneva Montreux Switzerland",
+  "city": "蒙特勒"
+ },
+ "马特洪峰": {
+  "lat": 45.93836,
+  "lon": 7.729889,
+  "query": "Matterhorn Zermatt Switzerland",
+  "city": "采尔马特"
+ },
+ "戈尔内格拉特": {
+  "lat": 45.983629,
+  "lon": 7.783012,
+  "query": "Gornergrat Matterhorn railway Zermatt",
+  "city": "采尔马特"
+ },
+ "大喷泉": {
+  "lat": 46.207381,
+  "lon": 6.155889,
+  "query": "Jet d'Eau Geneva Switzerland",
+  "city": "日内瓦"
+ },
+ "圣莫里茨湖": {
+  "lat": 46.493324,
+  "lon": 9.846363,
+  "query": "Lake St Moritz Switzerland",
+  "city": "圣莫里茨"
+ },
+ "钟楼": {
+  "lat": 46.947947,
+  "lon": 7.447795,
+  "query": "Zytglogge clock tower Bern Switzerland",
+  "city": "伯尔尼"
+ },
+ "熊苑": {
+  "lat": 46.947682,
+  "lon": 7.459185,
+  "query": "Bear Park Bern Switzerland",
+  "city": "伯尔尼"
+ }
+}
