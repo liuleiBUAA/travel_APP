@@ -40,6 +40,24 @@ class ImageIndex:
         self._entries.sort(key=lambda e: -len(e[0]))
         print(f"✅ [ImageIndex] 已加载 {len(self._entries)} 张景点图片")
 
+    def images_for(self, name: str, limit: int = 6) -> List[Dict]:
+        """按景点本名精确取该景点的全部图片（玩法/城市详情页用，非 activity 文本匹配）。"""
+        if not name:
+            return []
+        result, seen = [], set()
+        for attraction, pic in self._entries:
+            if attraction == name and pic["_src"] not in seen:
+                seen.add(pic["_src"])
+                result.append({k: v for k, v in pic.items() if k not in ("_src", "_city")})
+                if len(result) >= limit:
+                    break
+        return result
+
+    def first_image(self, name: str):
+        """取该景点的首图（城市页景点目录缩略图用），无则返回 None。"""
+        pics = self.images_for(name, limit=1)
+        return pics[0] if pics else None
+
     def match(self, activity: str, limit: int = 3, seen: set = None, cities: set = None) -> List[Dict]:
         """返回 activity 文本中出现的景点的图片，最多 limit 张。
 

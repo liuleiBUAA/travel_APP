@@ -64,6 +64,16 @@ def draw_intracity(city, hub, fname, title, zoom=11):
     draw.text((16,10),title,font=f1,fill='white')
     out=f'/home/ubuntu/.hermes-bot2/media_cache/{fname}'
     img.save(out); print("OK:",out,img.size,"pts:",len(pts))
+    _save_repo(img, fname)
+
+def _save_repo(img, fname):
+    """同时存进仓库静态目录 maps/瑞士/，文件名映射成 JSON 里引用的中文名。"""
+    repo_map={'swiss_il_realmap.png':'瑞士/因特拉肯_交通图.png',
+              'swiss_intercity_realmap.png':'瑞士/瑞士城市间_交通图.png'}
+    if fname in repo_map:
+        dst=f'{base}/maps/{repo_map[fname]}'
+        os.makedirs(os.path.dirname(dst),exist_ok=True)
+        img.save(dst); print("  -> repo:",dst)
 
 # 城市间真地图
 def draw_intercity(fname,title,zoom=8):
@@ -108,6 +118,7 @@ def draw_intercity(fname,title,zoom=8):
     draw.text((16,10),title,font=f1,fill='white')
     out=f'/home/ubuntu/.hermes-bot2/media_cache/{fname}'
     img.save(out); print("OK:",out,img.size,"segs:",len(seg))
+    _save_repo(img, fname)
 
 draw_intracity('因特拉肯',(7.8632,46.6863),'swiss_il_realmap.png','因特拉肯 · 市内交通图')
 draw_intercity('swiss_intercity_realmap.png','瑞士 · 城市间交通图')

@@ -69,6 +69,11 @@ _attractions_dir = Path(__file__).parent.parent / "travel_guide" / "data" / "ima
 if _attractions_dir.exists():
     app.mount("/api/static/attractions", StaticFiles(directory=str(_attractions_dir)), name="attractions")
 
+# 交通图（市内/城市间地形图）静态托管
+_maps_dir = Path(__file__).parent.parent / "travel_guide" / "data" / "maps"
+if _maps_dir.exists():
+    app.mount("/api/static/maps", StaticFiles(directory=str(_maps_dir)), name="maps")
+
 # CORS配置 - 修复：使用白名单替代 *
 ALLOWED_ORIGINS = [
     "https://ht.awesometravelpartner.cn",
@@ -1424,12 +1429,51 @@ async def search_destinations(q: str = ""):
 
 @app.get("/api/attractions/playbook")
 async def get_attraction_playbook(name: str):
-    """景点玩法详情（玩法页用）"""
+    """景点玩法 / 城市攻略详情（玩法页用）。
+
+    富渲染所需的图片在这里挂：
+    - 景点页（type=attraction）：hero 大图 + gallery 图集（按景点本名精确取图）
+    - 城市页（type=city）：交通图 URL + 给 attractions 目录每项挂缩略图 + hero
+    旧字段 sections/summary 原样保留，前端按 type 决定富渲染或回退。
+    """
     from services.playbook_service import get_playbook_index
+    from services.image_service import get_image_index
     playbook = get_playbook_index().get(name)
     if not playbook:
         raise HTTPException(404, "暂无该景点的玩法攻略")
-    return {"success": True, "playbook": playbook}
+
+    pb = dict(playbook)  # 浅拷贝，不改内存里的原始数据
+    img = get_image_index()
+    ptype = pb.get("type")
+
+    if ptype == "city":
+        # 城市页：交通图 + 景点目录缩略图 + hero（取第一个有图的景点作封面）
+        tm = pb.get("transport_map")
+        if tm:
+            pb["transport_map_url"] = f"/api/static/maps/{tm}"
+        hero = None
+        attractions = []
+        for a in pb.get("attractions", []):
+            a = dict(a)
+            first = img.first_image(a["name"])
+            if first:
+                a["thumb"] = first["url"]
+                if hero is None:
+                    hero = first["url"]
+            attractions.append(a)
+        if attractions:
+            pb["attractions"] = attractions
+        # hero 优先用城市同名首图，否则用第一个有图景点
+        city_hero = img.first_image(pb.get("city", "")) or img.first_image(name)
+        pb["hero"] = (city_hero["url"] if city_hero else hero)
+    else:
+        # 景点页：hero + gallery
+        pics = img.images_for(name, limit=6)
+        if pics:
+            pb["hero"] = pics[0]["url"]
+            pb["gallery"] = pics
+
+    return {"success": True, "playbook": pb}
 
 
 @app.get("/api/destinations/structure")

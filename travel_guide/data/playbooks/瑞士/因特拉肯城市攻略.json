@@ -5,6 +5,35 @@
   "city": "因特拉肯",
   "country": "瑞士",
   "summary": "少女峰地区大本营，夹在图恩湖和布里恩茨湖之间。镇本身半天逛完，价值在于辐射上山下湖的枢纽位置。",
+  "transport_map": "瑞士/因特拉肯_交通图.png",
+  "transport": {
+    "fly_train": "苏黎世 ZRH 机场 → SBB 火车（可先玩卢塞恩）→ 因特拉肯；日内瓦 GVA 机场 → 蒙特勒 → 金色山口列车（大玻璃窗景观列车，持瑞士通票免费、无需预订）→ 因特拉肯。",
+    "drive": "卢塞恩→1h｜法兰克福→约5h｜巴黎→约6.5h。停车缴费可用 Sepp app。",
+    "local": "镇内东站 Ost ↔ 西站 West 约 1.6km，步行 20 分钟即可，游客通常步行游玩。"
+  },
+  "hotels": [
+    {"name": "Hotel Alphorn", "area": "因特拉肯镇", "star": 2, "score": "9.0", "reviews": "1200+", "note": "近火车西站，免费停车", "link": "https://www.booking.com/hotel/ch/alphorn-interlaken.zh-cn.html"},
+    {"name": "Hotel Artos Interlaken", "area": "因特拉肯镇", "star": 3, "score": "8.6", "reviews": "1400+", "note": "距火车东站步行10分钟，享少女峰全景，露台/游乐场/免费Spa", "link": "https://www.booking.com/hotel/ch/artos-interlaken.zh-cn.html"},
+    {"name": "Derby Swiss Quality Hotel", "area": "格林德尔瓦尔德", "star": 3, "score": "8.9", "reviews": "1300+", "note": "火车站旁，对带大行李游客很便利", "link": "https://www.booking.com/hotel/ch/derby-grindelwald-superior.zh-cn.html"},
+    {"name": "Jungfrau Lodge", "area": "格林德尔瓦尔德", "star": 3, "score": "8.4", "reviews": "1500+", "note": "窗外就是梦幻山坡（网红拍照地）", "link": "https://www.booking.com/hotel/ch/jungfrau-lodge.zh-cn.html"}
+  ],
+  "hotel_intro": "多数游客选「因特拉肯镇」或「格林德尔瓦尔德」落脚。镇上交通最便利、逛吃丰富；格林德尔瓦尔德在半山，风景更美、去 First 峰和少女峰更近。",
+  "attractions": [
+    {"name": "少女峰", "order": 1, "tagline": "欧洲之巅 4158m，齿轨登顶，云端冰宫", "has_detail": true},
+    {"name": "格林德尔瓦尔德", "order": 2, "tagline": "半山枢纽镇，通往 First 与少女峰", "has_detail": true},
+    {"name": "梦幻山坡", "tagline": "经典瑞士明信片，木屋奶牛绿坡", "has_detail": false},
+    {"name": "翁根", "display_name": "First 峰", "tagline": "悬崖步道/飞索/卡丁车，晴天率高", "has_detail": true},
+    {"name": "劳特布龙嫩", "order": 3, "tagline": "瀑布小镇，《魔戒》精灵谷原型", "has_detail": true},
+    {"name": "施皮茨", "order": 4, "tagline": "图恩湖最美小镇，城堡+葡萄园", "has_detail": false},
+    {"name": "布里恩茨湖", "tagline": "蓝绿湖水，《爱的迫降》取景地", "has_detail": false},
+    {"name": "图恩湖", "tagline": "湖畔城堡，渡船游湖", "has_detail": false}
+  ],
+  "itinerary": [
+    {"day": "1", "title": "抵达因特拉肯", "detail": "滑翔伞 + 因特拉肯镇逛吃"},
+    {"day": "2", "title": "格林德尔瓦尔德", "detail": "First 峰 + 梦幻山坡，全天游玩"},
+    {"day": "3", "title": "网红滑梯", "detail": "上午玩滑梯，下午转场蒙特勒"},
+    {"day": "+", "title": "可选加日", "detail": "少女峰登顶 + 劳特布龙嫩 ／ 施皮茨 + 蓝湖自然保护区"}
+  ],
   "sections": [
     {
       "title": "定位与交通",
