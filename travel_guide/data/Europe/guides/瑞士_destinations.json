@@ -42,24 +42,18 @@
     "itinerary": [
       {
         "day": "Day 1",
-        "activity": "因特拉肯：滑翔伞、逛吃",
-        "transport": "🚶 步行",
-        "stay": "因特拉肯"
-      },
-      {
-        "day": "Day 2",
         "activity": "格林德尔瓦尔德、少女峰、梦幻山坡",
         "transport": "🚗 火车",
         "stay": "因特拉肯"
       },
       {
-        "day": "Day 3",
+        "day": "Day 2",
         "activity": "劳特布龙嫩、翁根、瀑布",
         "transport": "🚗 火车",
         "stay": "因特拉肯"
       },
       {
-        "day": "Day 4",
+        "day": "Day 3",
         "activity": "施皮茨、图恩湖、布里恩茨湖",
         "transport": "🚗 自驾",
         "stay": "因特拉肯"
