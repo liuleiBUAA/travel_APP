@@ -1194,5 +1194,16 @@
     "source": "pexels:Kohama Island Okinawa"
    }
   ]
+ },
+ {
+  "city": "冲绳",
+  "attraction": "海中公园",
+  "status": "ok",
+  "local": "冲绳/海中公园_1.jpg",
+  "license": "Pexels License",
+  "artist": "William Chen",
+  "commons_file": null,
+  "source": "Pexels",
+  "_pexels_id": 27047884
  }
 ]

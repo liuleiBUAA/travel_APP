@@ -440,5 +440,69 @@
     "source": "pexels:Garden of the Sleeping Giant Nadi Fiji"
    }
   ]
+ },
+ {
+  "city": "主岛维提岛",
+  "attraction": "喷射快艇",
+  "status": "ok",
+  "local": "主岛维提岛/喷射快艇_1.jpg",
+  "license": "Pexels License",
+  "artist": "Pexels",
+  "commons_file": null,
+  "source": "Pexels"
+ },
+ {
+  "city": "主岛维提岛",
+  "attraction": "轮胎漂流",
+  "status": "ok",
+  "local": "主岛维提岛/轮胎漂流_1.jpg",
+  "license": "Pexels License",
+  "artist": "Pexels",
+  "commons_file": null,
+  "source": "Pexels"
+ },
+ {
+  "city": "玛玛努卡群岛",
+  "attraction": "Cloud9海上酒吧",
+  "status": "ok",
+  "local": "玛玛努卡群岛/水上运动_1.jpg",
+  "license": "Pexels",
+  "artist": "Martin Škeřík",
+  "commons_file": "pexels:25068627",
+  "source": "pexels:Mamanuca Islands water sports Fiji",
+  "_alias_of": "水上运动"
+ },
+ {
+  "city": "亚萨瓦群岛",
+  "attraction": "外岛跳岛游",
+  "status": "ok",
+  "local": "亚萨瓦群岛/海滩探索_1.jpg",
+  "license": "Pexels",
+  "artist": "Mark Direen",
+  "commons_file": "pexels:33732083",
+  "source": "pexels:Yasawa Islands beach Fiji",
+  "_alias_of": "海滩探索"
+ },
+ {
+  "city": "亚萨瓦群岛",
+  "attraction": "鲨鱼潜水",
+  "status": "ok",
+  "local": "亚萨瓦群岛/与蝠鲼游泳_1.jpg",
+  "license": "Pexels",
+  "artist": "Emma Li",
+  "commons_file": "pexels:5503788",
+  "source": "pexels:swimming with manta rays Fiji",
+  "_alias_of": "与蝠鲼游泳"
+ },
+ {
+  "city": "亚萨瓦群岛",
+  "attraction": "丛林滑索",
+  "status": "ok",
+  "local": "亚萨瓦群岛/蓝洞_1.jpg",
+  "license": "Pexels",
+  "artist": "Mark Direen",
+  "commons_file": "pexels:33732083",
+  "source": "pexels:Sawa-i-Lau Blue Lagoon Yasawa Fiji",
+  "_alias_of": "蓝洞"
  }
 ]
