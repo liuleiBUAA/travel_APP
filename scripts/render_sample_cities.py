@@ -91,15 +91,22 @@ def render_city(d):
     return "".join(h)
 
 targets = {
-    "EU1_因特拉肯.html": "瑞士/因特拉肯城市攻略.json",
-    "EU2_罗马.html": "意大利/罗马城市攻略.json",
-    "NA1_旧金山.html": "美国/旧金山城市攻略.json",
-    "NA2_纽约.html": "美国/纽约城市攻略.json",
-    "OC1_黄金海岸.html": "澳大利亚/黄金海岸城市攻略.json",
-    "OC2_悉尼.html": "澳大利亚/悉尼城市攻略.json",
-    "JP1_东京.html": "日本/东京城市攻略.json",
-    "JP2_恩纳村.html": "日本/恩纳村城市攻略.json",
-    "ME1_迪拜.html": "阿联酋/迪拜城市攻略.json",
+    "01_巴黎.html": "法国/巴黎城市攻略.json",
+    "02_威尼斯.html": "意大利/威尼斯城市攻略.json",
+    "03_佛罗伦萨.html": "意大利/佛罗伦萨城市攻略.json",
+    "04_伊斯坦布尔.html": "土耳其/伊斯坦布尔城市攻略.json",
+    "05_雅典.html": "希腊/雅典城市攻略.json",
+    "06_布拉格.html": "捷克/布拉格城市攻略.json",
+    "07_维也纳.html": "奥地利/维也纳城市攻略.json",
+    "08_德累斯顿.html": "德国/德累斯顿城市攻略.json",
+    "09_伦敦.html": "英国/伦敦城市攻略.json",
+    "10_爱丁堡.html": "英国/爱丁堡城市攻略.json",
+    "11_波尔图.html": "葡萄牙/波尔图城市攻略.json",
+    "12_京都.html": "日本/京都城市攻略.json",
+    "13_札幌.html": "日本/札幌城市攻略.json",
+    "14_皇后镇.html": "新西兰/皇后镇城市攻略.json",
+    "15_迪拜.html": "阿联酋/迪拜城市攻略.json",
+    "16_温哥华.html": "加拿大/温哥华城市攻略.json",
 }
 for out, rel in targets.items():
     d = json.load(open(f"{PBROOT}/{rel}", encoding="utf-8"))
