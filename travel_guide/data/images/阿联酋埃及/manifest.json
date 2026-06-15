@@ -544,5 +544,155 @@
     "source": "pexels:snorkeling coral reef Red Sea Hurghada"
    }
   ]
+ },
+ {
+  "city": "开罗",
+  "attraction": "萨拉丁城堡",
+  "status": "ok",
+  "local": "开罗/萨拉丁城堡_1.jpg",
+  "license": "Pexels",
+  "artist": "Captivating view of the Mosque of Muhammad Ali in Cairo against a vibrant blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "开罗",
+  "attraction": "吉萨金字塔",
+  "status": "ok",
+  "local": "开罗/吉萨金字塔_1.jpg",
+  "license": "Pexels",
+  "artist": "Iconic pyramids of Giza standing under a clear blue sky, showcasing ancient Egyptian architecture.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "开罗",
+  "attraction": "洞穴教堂",
+  "status": "ok",
+  "local": "开罗/洞穴教堂_1.jpg",
+  "license": "Pexels",
+  "artist": "Exterior view of the historic St. George's Church in Cairo, showcasing its iconic tower and grand entrance stairs.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "开罗",
+  "attraction": "阶梯金字塔",
+  "status": "ok",
+  "local": "开罗/阶梯金字塔_1.jpg",
+  "license": "Pexels",
+  "artist": "Step Pyramid of Djoser in Saqqara under restoration with clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "卢克索",
+  "attraction": "哈布城",
+  "status": "ok",
+  "local": "卢克索/哈布城_1.jpg",
+  "license": "Pexels",
+  "artist": "Majestic view of an ancient sandstone temple in Luxor under a clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "卢克索",
+  "attraction": "卡纳克神庙",
+  "status": "ok",
+  "local": "卢克索/卡纳克神庙_1.jpg",
+  "license": "Pexels",
+  "artist": "Sunlit ancient columns in the historic Karnak Temple Complex in Luxor, Egypt.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "卢克索",
+  "attraction": "门农巨像",
+  "status": "ok",
+  "local": "卢克索/门农巨像_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore the ancient architecture of the Mortuary Temple of Hatshepsut, a historical marvel in Egypt.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "卢克索",
+  "attraction": "哈特谢普苏特庙",
+  "status": "ok",
+  "local": "卢克索/哈特谢普苏特庙_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore the ancient Temple of Hatshepsut nestled in the cliffs of Luxor, Egypt.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "卢克索",
+  "attraction": "尼罗河帆船日落",
+  "status": "ok",
+  "local": "卢克索/尼罗河帆船日落_1.jpg",
+  "license": "Pexels",
+  "artist": "Vibrant Aswan riverfront with traditional feluccas sailing on the Nile.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "迪拜",
+  "attraction": "迪拜喷泉",
+  "status": "ok",
+  "local": "迪拜/迪拜喷泉_1.jpg",
+  "license": "Pexels",
+  "artist": "Captivating night view of Dubai's cosmopolitan skyline reflecting in a serene pond.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "迪拜",
+  "attraction": "失落空间水族馆",
+  "status": "ok",
+  "local": "迪拜/失落空间水族馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Experience vivid marine life with a vibrant fish in Dubai's iconic aquarium.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "迪拜",
+  "attraction": "水上乐园",
+  "status": "ok",
+  "local": "迪拜/水上乐园_1.jpg",
+  "license": "Pexels",
+  "artist": "Colorful and lively waterpark featuring slides and artistic structures under a clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "迪拜",
+  "attraction": "朱美拉古城",
+  "status": "ok",
+  "local": "迪拜/朱美拉古城_1.jpg",
+  "license": "Pexels",
+  "artist": "Scenic view of Burj Al Arab surrounded by lush palm trees and clear blue sky in Dubai.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "迪拜",
+  "attraction": "迪拜金相框",
+  "status": "ok",
+  "local": "迪拜/迪拜金相框_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning view of the Dubai Frame, a modern architectural landmark, set against a vibrant blue sky in Dubai, UAE.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "迪拜",
+  "attraction": "奇迹花园",
+  "status": "ok",
+  "local": "迪拜/奇迹花园_1.jpg",
+  "license": "Pexels",
+  "artist": "Vibrant floral sculptures and topiaries in Dubai Miracle Garden on a sunny day.",
+  "source": "pexels",
+  "extras": []
  }
 ]

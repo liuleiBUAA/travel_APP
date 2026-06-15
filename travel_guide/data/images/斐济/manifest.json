@@ -504,5 +504,35 @@
   "commons_file": "pexels:33732083",
   "source": "pexels:Sawa-i-Lau Blue Lagoon Yasawa Fiji",
   "_alias_of": "蓝洞"
+ },
+ {
+  "city": "楠迪",
+  "attraction": "Cloud 9 海上酒吧",
+  "status": "ok",
+  "local": "楠迪/Cloud 9 海上酒吧_1.jpg",
+  "license": "Pexels",
+  "artist": "Tropical pier extending into ocean with palm trees and white sandy beach in the background.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "楠迪",
+  "attraction": "马马努卡群岛多岛游",
+  "status": "ok",
+  "local": "楠迪/马马努卡群岛多岛游_1.jpg",
+  "license": "Pexels",
+  "artist": "A stunning aerial shot of a tropical island with a motorboat on the vibrant blue sea in Fiji.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "楠迪",
+  "attraction": "Port Denarau码头",
+  "status": "ok",
+  "local": "楠迪/Port Denarau码头_1.jpg",
+  "license": "Pexels",
+  "artist": "Tranquil harbor scene with boats and buildings in La Réunion, France.",
+  "source": "pexels",
+  "extras": []
  }
 ]

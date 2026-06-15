@@ -216,5 +216,105 @@
   "artist": "Marc Ryckaert (MJJR)",
   "commons_file": "Budapest Széchenyi Baths R04.jpg",
   "source": "commons-search:Szechenyi Thermal Bath Budapest"
+ },
+ {
+  "city": "布拉格",
+  "attraction": "泰恩教堂&老城广场",
+  "status": "ok",
+  "local": "布拉格/泰恩教堂&老城广场_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore the iconic Gothic architecture of the Church of Our Lady Before Tyn against a clear Prague sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "布拉格",
+  "attraction": "市政厅和天文钟",
+  "status": "ok",
+  "local": "布拉格/市政厅和天文钟_1.jpg",
+  "license": "Pexels",
+  "artist": "Gothic architecture of Prague's Church of Our Lady before Týn with the Astronomical Clock.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "布拉格",
+  "attraction": "图书馆",
+  "status": "ok",
+  "local": "布拉格/图书馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Ornate ceiling with frescoes in a classic library filled with antique books.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "布拉格",
+  "attraction": "城堡区",
+  "status": "ok",
+  "local": "布拉格/城堡区_1.jpg",
+  "license": "Pexels",
+  "artist": "Prague Castle with historic buildings reflected in the Vltava River on a foggy day.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "布拉格",
+  "attraction": "列侬墙",
+  "status": "ok",
+  "local": "布拉格/列侬墙_1.jpg",
+  "license": "Pexels",
+  "artist": "Street musician plays guitar in front of a colorful graffiti wall. Artistic urban scene.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "布达佩斯",
+  "attraction": "渔人堡",
+  "status": "ok",
+  "local": "布达佩斯/渔人堡_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore the iconic Fisherman's Bastion in Budapest with its unique architecture under a clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "布达佩斯",
+  "attraction": "马加什教堂",
+  "status": "ok",
+  "local": "布达佩斯/马加什教堂_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning view of Matthias Church architectural details with colorful roof under a clear blue sky in Budapest.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "布达佩斯",
+  "attraction": "布达王宫",
+  "status": "ok",
+  "local": "布达佩斯/布达王宫_1.jpg",
+  "license": "Pexels",
+  "artist": "Illuminated Buda Castle dome and facade at night in Budapest, Hungary, showcasing Baroque architecture.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "布达佩斯",
+  "attraction": "圣伊什特万教堂",
+  "status": "ok",
+  "local": "布达佩斯/圣伊什特万教堂_1.jpg",
+  "license": "Pexels",
+  "artist": "St. Stephen's Basilica beautifully lit up at night in the heart of Budapest.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "布达佩斯",
+  "attraction": "多瑙河夜游船",
+  "status": "ok",
+  "local": "布达佩斯/多瑙河夜游船_1.jpg",
+  "license": "Pexels",
+  "artist": "Illuminated Hungarian Parliament Building reflecting on the Danube River at night.",
+  "source": "pexels",
+  "extras": []
  }
 ]

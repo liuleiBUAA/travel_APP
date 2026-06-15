@@ -1205,5 +1205,175 @@
   "commons_file": null,
   "source": "Pexels",
   "_pexels_id": 27047884
+ },
+ {
+  "city": "京都",
+  "attraction": "金阁寺（鹿苑寺）",
+  "status": "ok",
+  "local": "京都/金阁寺（鹿苑寺）_1.jpg",
+  "license": "Pexels",
+  "artist": "Beautiful view of Kinkaku-ji Temple surrounded by lush greenery in Kyoto, Japan.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "京都",
+  "attraction": "二条城（元離宮二条城）",
+  "status": "ok",
+  "local": "京都/二条城（元離宮二条城）_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore the classic beauty of Nijo Castle in Kyoto, surrounded by lush gardens and historical architecture.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "京都",
+  "attraction": "锦市场/河原町",
+  "status": "ok",
+  "local": "京都/锦市场_河原町_1.jpg",
+  "license": "Pexels",
+  "artist": "Rows of intricately decorated Japanese paper lanterns at Nishiki Tenmangu Shrine, capturing cultural heritage.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "京都",
+  "attraction": "京都铁道博物馆",
+  "status": "ok",
+  "local": "京都/京都铁道博物馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Exhibit of classic red and orange trains in Ebina City, Kanagawa, Japan.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "京都",
+  "attraction": "岚山",
+  "status": "ok",
+  "local": "京都/岚山_1.jpg",
+  "license": "Pexels",
+  "artist": "Discover the enchanting Arashiyama Bamboo Grove in Kyoto, Japan, with strolling visitors enhancing its natural beauty.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "奈良",
+  "attraction": "奈良的鹿群",
+  "status": "ok",
+  "local": "奈良/奈良的鹿群_1.jpg",
+  "license": "Pexels",
+  "artist": "Japanese deer grazing in grassy meadow under tree with bright foliage in park",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "奈良",
+  "attraction": "兴福寺",
+  "status": "ok",
+  "local": "奈良/兴福寺_1.jpg",
+  "license": "Pexels",
+  "artist": "Captivating view of Kofuku-Ji Temple, a historic landmark in Nara, Japan, showcasing traditional Japanese architecture.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "大阪",
+  "attraction": "大阪城公园/天守阁",
+  "status": "ok",
+  "local": "大阪/大阪城公园_天守阁_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning view of Osaka Castle in Japan against a clear blue sky, highlighting its historical architecture.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "大阪",
+  "attraction": "黑门市场",
+  "status": "ok",
+  "local": "大阪/黑门市场_1.jpg",
+  "license": "Pexels",
+  "artist": "Men working in a bustling fish market in Osaka, Japan displaying seafood in crates.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "大阪",
+  "attraction": "阿倍野大厦HARUKAS 300",
+  "status": "ok",
+  "local": "大阪/阿倍野大厦HARUKAS 300_1.jpg",
+  "license": "Pexels",
+  "artist": "Low-angle view of modern skyscrapers with reflective glass facades in Osaka, Japan under a blue cloudy sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "大阪",
+  "attraction": "心斋桥与道顿堀",
+  "status": "ok",
+  "local": "大阪/心斋桥与道顿堀_1.jpg",
+  "license": "Pexels",
+  "artist": "Bustling nightlife in Osaka's Dotonbori, Japan, featuring vibrant signage and a lively street atmosphere.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "札幌",
+  "attraction": "藻岩山",
+  "status": "ok",
+  "local": "札幌/藻岩山_1.jpg",
+  "license": "Pexels",
+  "artist": "Captivating aerial view of Sapporo, Japan in winter at dusk with snow-covered buildings and distant mountains.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "石垣岛",
+  "attraction": "米原海滩",
+  "status": "ok",
+  "local": "石垣岛/米原海滩_1.jpg",
+  "license": "Pexels",
+  "artist": "A serene beach with turquoise waters and rocky shores under a blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "石垣岛",
+  "attraction": "平久保崎灯台",
+  "status": "ok",
+  "local": "石垣岛/平久保崎灯台_1.jpg",
+  "license": "Pexels",
+  "artist": "Calm blue sea and sky with prominent white lighthouse on the horizon for peaceful maritime ambiance.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "石垣岛",
+  "attraction": "波照间岛",
+  "status": "ok",
+  "local": "石垣岛/波照间岛_1.jpg",
+  "license": "Pexels",
+  "artist": "Breathtaking view from an Okinawa cliff overlooking the serene, crystal-clear sea under a vibrant blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "那霸",
+  "attraction": "Nagannu岛（纳嘉努岛）",
+  "status": "ok",
+  "local": "那霸/Nagannu岛（纳嘉努岛）_1.jpg",
+  "license": "Pexels",
+  "artist": "Breathtaking view from an Okinawa cliff overlooking the serene, crystal-clear sea under a vibrant blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "东京",
+  "attraction": "ShibuyaSKY",
+  "status": "ok",
+  "local": "东京/ShibuyaSKY_1.jpg",
+  "license": "Pexels",
+  "artist": "Aerial view of Shibuya skyline with vibrant city lights under a clear evening sky in Tokyo, Japan.",
+  "source": "pexels",
+  "extras": []
  }
 ]

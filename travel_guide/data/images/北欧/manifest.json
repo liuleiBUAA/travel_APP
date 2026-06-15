@@ -1293,5 +1293,215 @@
   "artist": "",
   "commons_file": "pexels:9246660",
   "source": "pexels:弗洛伊恩山"
+ },
+ {
+  "city": "斯德哥尔摩",
+  "attraction": "老城Citywalk",
+  "status": "ok",
+  "local": "斯德哥尔摩/老城Citywalk_1.jpg",
+  "license": "Pexels",
+  "artist": "Skyline of Stockholm with historic architecture reflecting on water under a clear sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "斯德哥尔摩",
+  "attraction": "艺术地铁站",
+  "status": "ok",
+  "local": "斯德哥尔摩/艺术地铁站_1.jpg",
+  "license": "Pexels",
+  "artist": "Vibrant red cave-like interior of Stockholm's Solna Centrum metro station with a lone traveler.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "雷克雅未克",
+  "attraction": "哈尔格林姆教堂",
+  "status": "ok",
+  "local": "雷克雅未克/哈尔格林姆教堂_1.jpg",
+  "license": "Pexels",
+  "artist": "View of Hallgrímskirkja Church and Leif Erikson statue under a clear Icelandic sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "雷克雅未克",
+  "attraction": "太阳之舟雕塑",
+  "status": "ok",
+  "local": "雷克雅未克/太阳之舟雕塑_1.jpg",
+  "license": "Pexels",
+  "artist": "The striking Sólfar Viking ship sculpture in Reykjavík, Iceland against a clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "雷克雅未克",
+  "attraction": "冰岛南部景点（到维克镇沿途）",
+  "status": "ok",
+  "local": "雷克雅未克/冰岛南部景点（到维克镇沿途）_1.jpg",
+  "license": "Pexels",
+  "artist": "Discover the breathtaking beauty of Reynisfjara Beach with its iconic basalt sea stacks in Iceland.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "雷克雅未克",
+  "attraction": "杰古沙龙冰河和钻石海滩",
+  "status": "ok",
+  "local": "雷克雅未克/杰古沙龙冰河和钻石海滩_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning view of icebergs in Jökulsárlón Glacier Lagoon, Iceland's winter wonderland.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "雷克雅未克",
+  "attraction": "冰洞探索",
+  "status": "ok",
+  "local": "雷克雅未克/冰洞探索_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore the stunning blue hues of an ice cavern in Iceland, showcasing nature's icy artistry.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "雷克雅未克",
+  "attraction": "北极光之旅",
+  "status": "ok",
+  "local": "雷克雅未克/北极光之旅_1.jpg",
+  "license": "Pexels",
+  "artist": "Vibrant aurora borealis lights up the night sky over Iceland's rugged scenery in winter.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "雷克雅未克",
+  "attraction": "赏鲸和海洋生物",
+  "status": "ok",
+  "local": "雷克雅未克/赏鲸和海洋生物_1.jpg",
+  "license": "Pexels",
+  "artist": "Humpback whale flippers seen near Reykjavik's coast, showcasing marine wildlife.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "罗弗敦",
+  "attraction": "罗弗敦群岛风景线",
+  "status": "ok",
+  "local": "罗弗敦/罗弗敦群岛风景线_1.jpg",
+  "license": "Pexels",
+  "artist": "Serene turquoise waters and majestic mountains in Nordland, Norway under a clear summer sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "奥斯陆",
+  "attraction": "阿克尔码头",
+  "status": "ok",
+  "local": "奥斯陆/阿克尔码头_1.jpg",
+  "license": "Pexels",
+  "artist": "Scenic view of a marina in Oslo featuring yachts and a colorful cityscape under a clear day sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "腓特烈教堂",
+  "status": "ok",
+  "local": "哥本哈根/腓特烈教堂_1.jpg",
+  "license": "Pexels",
+  "artist": "Captivating image of the Marble Church's iconic green dome in Copenhagen.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "阿美琳堡王宫",
+  "status": "ok",
+  "local": "哥本哈根/阿美琳堡王宫_1.jpg",
+  "license": "Pexels",
+  "artist": "View of Amalienborg Palace courtyard and the iconic Marble Church in Copenhagen, Denmark.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "罗森堡城堡",
+  "status": "ok",
+  "local": "哥本哈根/罗森堡城堡_1.jpg",
+  "license": "Pexels",
+  "artist": "Rosenborg Castle in Copenhagen captured with historical statues and clear sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "丹麦皇家图书馆",
+  "status": "ok",
+  "local": "哥本哈根/丹麦皇家图书馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Contemporary building by water under an overcast sky, showcasing urban architecture.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "趣伏里游乐园",
+  "status": "ok",
+  "local": "哥本哈根/趣伏里游乐园_1.jpg",
+  "license": "Pexels",
+  "artist": "Experience the height and excitement of the iconic ride at Gröna Lund amusement park in Stockholm.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "新嘉士伯美术馆",
+  "status": "ok",
+  "local": "哥本哈根/新嘉士伯美术馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore ancient sculptures in the grand marble-pillared hall of Ny Carlsberg Glyptotek, Copenhagen.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "克里斯蒂安堡宫",
+  "status": "ok",
+  "local": "哥本哈根/克里斯蒂安堡宫_1.jpg",
+  "license": "Pexels",
+  "artist": "View of Christiansborg Palace under a clear blue sky in central Copenhagen.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "路易斯安娜现代艺术博物馆",
+  "status": "ok",
+  "local": "哥本哈根/路易斯安娜现代艺术博物馆_1.jpg",
+  "license": "Pexels",
+  "artist": "A woman admiring colorful paintings in a contemporary indoor art exhibition.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "特罗姆瑟",
+  "attraction": "缆车登观景台",
+  "status": "ok",
+  "local": "特罗姆瑟/缆车登观景台_1.jpg",
+  "license": "Pexels",
+  "artist": "A solitary orange cable car suspended in motion with a clear blue sky backdrop.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "特罗姆瑟",
+  "attraction": "北极大教堂",
+  "status": "ok",
+  "local": "特罗姆瑟/北极大教堂_1.jpg",
+  "license": "Pexels",
+  "artist": "Iconic Arctic Cathedral with striking modern design against a clear blue sky in Tromsø, Norway.",
+  "source": "pexels",
+  "extras": []
  }
 ]

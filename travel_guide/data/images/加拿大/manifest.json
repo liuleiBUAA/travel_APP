@@ -804,5 +804,245 @@
     "source": "pexels:Icefields Parkway scenic road Canada"
    }
   ]
+ },
+ {
+  "city": "瀑布城",
+  "attraction": "号角游船",
+  "status": "ok",
+  "local": "瀑布城/号角游船_1.jpg",
+  "license": "Pexels",
+  "artist": "Experience the thrill of a boat ride at Niagara Falls with breathtaking views and misty excitement.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "瀑布城",
+  "attraction": "云霄塔",
+  "status": "ok",
+  "local": "瀑布城/云霄塔_1.jpg",
+  "license": "Pexels",
+  "artist": "View of the Skylon Tower and casino against a clear blue sky in Niagara Falls, Ontario.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "班夫",
+  "attraction": "瀑布花园",
+  "status": "ok",
+  "local": "班夫/瀑布花园_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore the stunning Mount Rundle with lush gardens and clear blue skies in Banff National Park.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "班夫",
+  "attraction": "惊喜角",
+  "status": "ok",
+  "local": "班夫/惊喜角_1.jpg",
+  "license": "Pexels",
+  "artist": "Scenic view from a railing overlooking mountains and a valley under a blue sky with clouds.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "班夫",
+  "attraction": "露易丝湖",
+  "status": "ok",
+  "local": "班夫/露易丝湖_1.jpg",
+  "license": "Pexels",
+  "artist": "Canoes on the turquoise waters of Lake Louise surrounded by lush mountains in summer.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "班夫",
+  "attraction": "佩投湖",
+  "status": "ok",
+  "local": "班夫/佩投湖_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning aerial view of Peyto Lake surrounded by mountains in Banff National Park, Alberta, Canada.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "班夫",
+  "attraction": "哥伦比亚冰原探索中心",
+  "status": "ok",
+  "local": "班夫/哥伦比亚冰原探索中心_1.jpg",
+  "license": "Pexels",
+  "artist": "A breathtaking view of a glacier nestled between rocky mountains under a bright blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "温哥华",
+  "attraction": "加拿大广场/飞跃加拿大",
+  "status": "ok",
+  "local": "温哥华/加拿大广场_飞跃加拿大_1.jpg",
+  "license": "Pexels",
+  "artist": "A cruise ship is docked at Canada Place in Vancouver on a sunny day, showcasing the iconic sails.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "温哥华",
+  "attraction": "卡佩兰奴吊桥公园",
+  "status": "ok",
+  "local": "温哥华/卡佩兰奴吊桥公园_1.jpg",
+  "license": "Pexels",
+  "artist": "A photographer captures moments on a footbridge in North Vancouver's forested park.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "温哥华",
+  "attraction": "不列颠哥伦比亚大学",
+  "status": "ok",
+  "local": "温哥华/不列颠哥伦比亚大学_1.jpg",
+  "license": "Pexels",
+  "artist": "A tall clock tower stands against a clear blue sky on the UBC Vancouver campus.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "贾斯珀",
+  "attraction": "贾斯珀镇周边湖光山色",
+  "status": "ok",
+  "local": "贾斯珀/贾斯珀镇周边湖光山色_1.jpg",
+  "license": "Pexels",
+  "artist": "Beautiful emerald lake surrounded by lush forest in Jasper National Park, Alberta.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "贾斯珀",
+  "attraction": "玛琳湖和精灵岛",
+  "status": "ok",
+  "local": "贾斯珀/玛琳湖和精灵岛_1.jpg",
+  "license": "Pexels",
+  "artist": "Beautiful view of Maligne Lake surrounded by snowy mountains and a serene dock in Jasper National Park.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "贾斯珀",
+  "attraction": "冰原探险中心",
+  "status": "ok",
+  "local": "贾斯珀/冰原探险中心_1.jpg",
+  "license": "Pexels",
+  "artist": "Couple enjoys a panoramic view of Athabasca Glacier and Rocky Mountains from red chairs in Jasper, Canada.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "多伦多",
+  "attraction": "CN塔（国家电视塔）",
+  "status": "ok",
+  "local": "多伦多/CN塔（国家电视塔）_1.jpg",
+  "license": "Pexels",
+  "artist": "Vibrant Toronto skyline with CN Tower and Rogers Centre, viewed from a waterfront park on a sunny day.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "多伦多",
+  "attraction": "里普利水族馆",
+  "status": "ok",
+  "local": "多伦多/里普利水族馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Colorful jellyfish swimming gracefully against a vivid blue aquarium background.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "多伦多",
+  "attraction": "市政厅和多伦多字标",
+  "status": "ok",
+  "local": "多伦多/市政厅和多伦多字标_1.jpg",
+  "license": "Pexels",
+  "artist": "Toronto City Hall illuminated at twilight with colorful Toronto sign in the foreground.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "多伦多",
+  "attraction": "安大略美术馆",
+  "status": "ok",
+  "local": "多伦多/安大略美术馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Curved modern architectural interior in Toronto's museum displaying elegant lighting.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "多伦多",
+  "attraction": "多伦多大学",
+  "status": "ok",
+  "local": "多伦多/多伦多大学_1.jpg",
+  "license": "Pexels",
+  "artist": "A stunning view of a historic university building in Ireland with a prominent monument in front.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "多伦多",
+  "attraction": "圣劳伦斯市场",
+  "status": "ok",
+  "local": "多伦多/圣劳伦斯市场_1.jpg",
+  "license": "Pexels",
+  "artist": "Colorful produce display at a Toronto market featuring pumpkins, apples, and citrus fruits.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "多伦多",
+  "attraction": "伊顿中心",
+  "status": "ok",
+  "local": "多伦多/伊顿中心_1.jpg",
+  "license": "Pexels",
+  "artist": "Famous hotel and multistory skyscrapers with glass walls located on street of modern district of Toronto city in evening time",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "多伦多",
+  "attraction": "古酿酒厂区",
+  "status": "ok",
+  "local": "多伦多/古酿酒厂区_1.jpg",
+  "license": "Pexels",
+  "artist": "Heart-shaped love lock wall against a vintage red brick facade in Toronto's Distillery District.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "多伦多",
+  "attraction": "高地公园（High Park）",
+  "status": "ok",
+  "local": "多伦多/高地公园（High Park）_1.jpg",
+  "license": "Pexels",
+  "artist": "A frozen lake with a modern skyline in the background under a clear blue sky during winter.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "多伦多",
+  "attraction": "多伦多岛（Toronto Islands）",
+  "status": "ok",
+  "local": "多伦多/多伦多岛（Toronto Islands）_1.jpg",
+  "license": "Pexels",
+  "artist": "Scenic view of Toronto skyline across a reflective lake with lush greenery and clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "多伦多",
+  "attraction": "多伦多动物园",
+  "status": "ok",
+  "local": "多伦多/多伦多动物园_1.jpg",
+  "license": "Pexels",
+  "artist": "A solitary ostrich standing in a grassy field at a zoo in Toronto, Canada.",
+  "source": "pexels",
+  "extras": []
  }
 ]

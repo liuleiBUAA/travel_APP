@@ -1,0 +1,508 @@
+[
+ {
+  "city": "主岛维提岛",
+  "attraction": "丹娜努海滩",
+  "status": "ok",
+  "local": "主岛维提岛/丹娜努海滩_1.jpg",
+  "license": "Pexels",
+  "artist": "Mark Direen",
+  "commons_file": "pexels:33732029",
+  "source": "pexels:Denarau Island beach Fiji",
+  "extras": [
+   {
+    "local": "主岛维提岛/丹娜努海滩_2.jpg",
+    "license": "Pexels",
+    "artist": "Josh Withers",
+    "commons_file": "pexels:26087992",
+    "source": "pexels:Denarau Island beach Fiji"
+   },
+   {
+    "local": "主岛维提岛/丹娜努海滩_3.jpg",
+    "license": "Pexels",
+    "artist": "Josh Withers",
+    "commons_file": "pexels:26088002",
+    "source": "pexels:Denarau Island beach Fiji"
+   }
+  ]
+ },
+ {
+  "city": "主岛维提岛",
+  "attraction": "沉睡巨人花园",
+  "status": "ok",
+  "local": "主岛维提岛/沉睡巨人花园_1.jpg",
+  "license": "Pexels",
+  "artist": "Nelli Neufeld",
+  "commons_file": "pexels:18653764",
+  "source": "pexels:Garden of the Sleeping Giant Fiji",
+  "extras": [
+   {
+    "local": "主岛维提岛/沉睡巨人花园_2.jpg",
+    "license": "Pexels",
+    "artist": "Marius Mann",
+    "commons_file": "pexels:33021023",
+    "source": "pexels:Garden of the Sleeping Giant Fiji"
+   },
+   {
+    "local": "主岛维提岛/沉睡巨人花园_3.jpg",
+    "license": "Pexels",
+    "artist": "Susan Lamoureux",
+    "commons_file": "pexels:14621814",
+    "source": "pexels:Garden of the Sleeping Giant Fiji"
+   }
+  ]
+ },
+ {
+  "city": "主岛维提岛",
+  "attraction": "斐济博物馆",
+  "status": "ok",
+  "local": "主岛维提岛/斐济博物馆_1.jpg",
+  "license": "Pexels",
+  "artist": "YAWALO by Fonnzzzy",
+  "commons_file": "pexels:9464930",
+  "source": "pexels:Fiji Museum Suva",
+  "extras": [
+   {
+    "local": "主岛维提岛/斐济博物馆_2.jpg",
+    "license": "Pexels",
+    "artist": "Josh Withers",
+    "commons_file": "pexels:26088004",
+    "source": "pexels:Fiji Museum Suva"
+   },
+   {
+    "local": "主岛维提岛/斐济博物馆_3.jpg",
+    "license": "Pexels",
+    "artist": "Gabriel Cousins",
+    "commons_file": "pexels:32866900",
+    "source": "pexels:Fiji Museum Suva"
+   }
+  ]
+ },
+ {
+  "city": "主岛维提岛",
+  "attraction": "Suva森林公园",
+  "status": "ok",
+  "local": "主岛维提岛/Suva森林公园_1.jpg",
+  "license": "Pexels",
+  "artist": "Gabriel Cousins",
+  "commons_file": "pexels:32866900",
+  "source": "pexels:Colo-i-Suva Forest Park Fiji",
+  "extras": [
+   {
+    "local": "主岛维提岛/Suva森林公园_2.jpg",
+    "license": "Pexels",
+    "artist": "Greggalas official",
+    "commons_file": "pexels:5627388",
+    "source": "pexels:Colo-i-Suva Forest Park Fiji"
+   },
+   {
+    "local": "主岛维提岛/Suva森林公园_3.jpg",
+    "license": "Pexels",
+    "artist": "Marcus Dreketirua",
+    "commons_file": "pexels:1897503",
+    "source": "pexels:Colo-i-Suva Forest Park Fiji"
+   }
+  ]
+ },
+ {
+  "city": "玛玛努卡群岛",
+  "attraction": "浮潜",
+  "status": "ok",
+  "local": "玛玛努卡群岛/浮潜_1.jpg",
+  "license": "Pexels",
+  "artist": "Francesco Ungaro",
+  "commons_file": "pexels:13610643",
+  "source": "pexels:Mamanuca Islands snorkeling Fiji",
+  "extras": [
+   {
+    "local": "玛玛努卡群岛/浮潜_2.jpg",
+    "license": "Pexels",
+    "artist": "Philippe WEICKMANN",
+    "commons_file": "pexels:36280093",
+    "source": "pexels:Mamanuca Islands snorkeling Fiji"
+   },
+   {
+    "local": "玛玛努卡群岛/浮潜_3.jpg",
+    "license": "Pexels",
+    "artist": "Claudia a",
+    "commons_file": "pexels:11215016",
+    "source": "pexels:Mamanuca Islands snorkeling Fiji"
+   }
+  ]
+ },
+ {
+  "city": "玛玛努卡群岛",
+  "attraction": "水上运动",
+  "status": "ok",
+  "local": "玛玛努卡群岛/水上运动_1.jpg",
+  "license": "Pexels",
+  "artist": "Martin Škeřík",
+  "commons_file": "pexels:25068627",
+  "source": "pexels:Mamanuca Islands water sports Fiji",
+  "extras": [
+   {
+    "local": "玛玛努卡群岛/水上运动_2.jpg",
+    "license": "Pexels",
+    "artist": "Mark Direen",
+    "commons_file": "pexels:33715477",
+    "source": "pexels:Mamanuca Islands water sports Fiji"
+   },
+   {
+    "local": "玛玛努卡群岛/水上运动_3.jpg",
+    "license": "Pexels",
+    "artist": "Josh Withers",
+    "commons_file": "pexels:26087992",
+    "source": "pexels:Mamanuca Islands water sports Fiji"
+   }
+  ]
+ },
+ {
+  "city": "玛玛努卡群岛",
+  "attraction": "日光浴",
+  "status": "ok",
+  "local": "玛玛努卡群岛/日光浴_1.jpg",
+  "license": "Pexels",
+  "artist": "Mark Direen",
+  "commons_file": "pexels:33732083",
+  "source": "pexels:Mamanuca Islands beach Fiji",
+  "extras": [
+   {
+    "local": "玛玛努卡群岛/日光浴_2.jpg",
+    "license": "Pexels",
+    "artist": "Mark Direen",
+    "commons_file": "pexels:33732029",
+    "source": "pexels:Mamanuca Islands beach Fiji"
+   },
+   {
+    "local": "玛玛努卡群岛/日光浴_3.jpg",
+    "license": "Pexels",
+    "artist": "Josh Withers",
+    "commons_file": "pexels:26087992",
+    "source": "pexels:Mamanuca Islands beach Fiji"
+   }
+  ]
+ },
+ {
+  "city": "玛玛努卡群岛",
+  "attraction": "海上皮划艇",
+  "status": "ok",
+  "local": "玛玛努卡群岛/海上皮划艇_1.jpg",
+  "license": "Pexels",
+  "artist": "Mikhail Nilov",
+  "commons_file": "pexels:6942994",
+  "source": "pexels:Fiji sea kayaking lagoon",
+  "extras": [
+   {
+    "local": "玛玛努卡群岛/海上皮划艇_2.jpg",
+    "license": "Pexels",
+    "artist": "Nothing Ahead",
+    "commons_file": "pexels:35652145",
+    "source": "pexels:Fiji sea kayaking lagoon"
+   },
+   {
+    "local": "玛玛努卡群岛/海上皮划艇_3.jpg",
+    "license": "Pexels",
+    "artist": "Yücel Özel",
+    "commons_file": "pexels:7878257",
+    "source": "pexels:Fiji sea kayaking lagoon"
+   }
+  ]
+ },
+ {
+  "city": "亚萨瓦群岛",
+  "attraction": "海滩探索",
+  "status": "ok",
+  "local": "亚萨瓦群岛/海滩探索_1.jpg",
+  "license": "Pexels",
+  "artist": "Mark Direen",
+  "commons_file": "pexels:33732083",
+  "source": "pexels:Yasawa Islands beach Fiji",
+  "extras": [
+   {
+    "local": "亚萨瓦群岛/海滩探索_2.jpg",
+    "license": "Pexels",
+    "artist": "Mark Direen",
+    "commons_file": "pexels:33732082",
+    "source": "pexels:Yasawa Islands beach Fiji"
+   },
+   {
+    "local": "亚萨瓦群岛/海滩探索_3.jpg",
+    "license": "Pexels",
+    "artist": "Mark Direen",
+    "commons_file": "pexels:33732084",
+    "source": "pexels:Yasawa Islands beach Fiji"
+   }
+  ]
+ },
+ {
+  "city": "亚萨瓦群岛",
+  "attraction": "浮潜",
+  "status": "ok",
+  "local": "亚萨瓦群岛/浮潜_1.jpg",
+  "license": "Pexels",
+  "artist": "Zir YU",
+  "commons_file": "pexels:8395914",
+  "source": "pexels:Yasawa Islands snorkeling coral reef",
+  "extras": [
+   {
+    "local": "亚萨瓦群岛/浮潜_2.jpg",
+    "license": "Pexels",
+    "artist": "Francesco Ungaro",
+    "commons_file": "pexels:17598833",
+    "source": "pexels:Yasawa Islands snorkeling coral reef"
+   },
+   {
+    "local": "亚萨瓦群岛/浮潜_3.jpg",
+    "license": "Pexels",
+    "artist": "John Cahil Rom",
+    "commons_file": "pexels:2121302",
+    "source": "pexels:Yasawa Islands snorkeling coral reef"
+   }
+  ]
+ },
+ {
+  "city": "亚萨瓦群岛",
+  "attraction": "与蝠鲼游泳",
+  "status": "ok",
+  "local": "亚萨瓦群岛/与蝠鲼游泳_1.jpg",
+  "license": "Pexels",
+  "artist": "Emma Li",
+  "commons_file": "pexels:5503788",
+  "source": "pexels:swimming with manta rays Fiji",
+  "extras": [
+   {
+    "local": "亚萨瓦群岛/与蝠鲼游泳_2.jpg",
+    "license": "Pexels",
+    "artist": "Svetlana Obysova",
+    "commons_file": "pexels:7759191",
+    "source": "pexels:swimming with manta rays Fiji"
+   },
+   {
+    "local": "亚萨瓦群岛/与蝠鲼游泳_3.jpg",
+    "license": "Pexels",
+    "artist": "Peter Ravnholt",
+    "commons_file": "pexels:5351015",
+    "source": "pexels:swimming with manta rays Fiji"
+   }
+  ]
+ },
+ {
+  "city": "亚萨瓦群岛",
+  "attraction": "蓝洞",
+  "status": "ok",
+  "local": "亚萨瓦群岛/蓝洞_1.jpg",
+  "license": "Pexels",
+  "artist": "Mark Direen",
+  "commons_file": "pexels:33732083",
+  "source": "pexels:Sawa-i-Lau Blue Lagoon Yasawa Fiji",
+  "extras": [
+   {
+    "local": "亚萨瓦群岛/蓝洞_2.jpg",
+    "license": "Pexels",
+    "artist": "Mark Direen",
+    "commons_file": "pexels:33732082",
+    "source": "pexels:Sawa-i-Lau Blue Lagoon Yasawa Fiji"
+   },
+   {
+    "local": "亚萨瓦群岛/蓝洞_3.jpg",
+    "license": "Pexels",
+    "artist": "Mark Direen",
+    "commons_file": "pexels:33732084",
+    "source": "pexels:Sawa-i-Lau Blue Lagoon Yasawa Fiji"
+   }
+  ]
+ },
+ {
+  "city": "亚萨瓦群岛",
+  "attraction": "Lau洞穴",
+  "status": "ok",
+  "local": "亚萨瓦群岛/Lau洞穴_1.jpg",
+  "license": "Pexels",
+  "artist": "Mark Direen",
+  "commons_file": "pexels:33732083",
+  "source": "pexels:Sawa-i-Lau cave Yasawa Fiji",
+  "extras": [
+   {
+    "local": "亚萨瓦群岛/Lau洞穴_2.jpg",
+    "license": "Pexels",
+    "artist": "Mark Direen",
+    "commons_file": "pexels:33732084",
+    "source": "pexels:Sawa-i-Lau cave Yasawa Fiji"
+   },
+   {
+    "local": "亚萨瓦群岛/Lau洞穴_3.jpg",
+    "license": "Pexels",
+    "artist": "Mark Direen",
+    "commons_file": "pexels:33732082",
+    "source": "pexels:Sawa-i-Lau cave Yasawa Fiji"
+   }
+  ]
+ },
+ {
+  "city": "亚萨瓦群岛",
+  "attraction": "传统村落体验",
+  "status": "ok",
+  "local": "亚萨瓦群岛/传统村落体验_1.jpg",
+  "license": "Pexels",
+  "artist": "Mark Direen",
+  "commons_file": "pexels:33732083",
+  "source": "pexels:Fiji traditional village Yasawa",
+  "extras": [
+   {
+    "local": "亚萨瓦群岛/传统村落体验_2.jpg",
+    "license": "Pexels",
+    "artist": "Mark Direen",
+    "commons_file": "pexels:33732082",
+    "source": "pexels:Fiji traditional village Yasawa"
+   },
+   {
+    "local": "亚萨瓦群岛/传统村落体验_3.jpg",
+    "license": "Pexels",
+    "artist": "Mark Direen",
+    "commons_file": "pexels:33732067",
+    "source": "pexels:Fiji traditional village Yasawa"
+   }
+  ]
+ },
+ {
+  "city": "亚萨瓦群岛",
+  "attraction": "卡瓦仪式",
+  "status": "ok",
+  "local": "亚萨瓦群岛/卡瓦仪式_1.jpg",
+  "license": "Pexels",
+  "artist": "Josh Withers",
+  "commons_file": "pexels:26087996",
+  "source": "pexels:Fiji kava ceremony",
+  "extras": [
+   {
+    "local": "亚萨瓦群岛/卡瓦仪式_2.jpg",
+    "license": "Pexels",
+    "artist": "Josh Withers",
+    "commons_file": "pexels:26088005",
+    "source": "pexels:Fiji kava ceremony"
+   },
+   {
+    "local": "亚萨瓦群岛/卡瓦仪式_3.jpg",
+    "license": "Pexels",
+    "artist": "Josh Withers",
+    "commons_file": "pexels:26088002",
+    "source": "pexels:Fiji kava ceremony"
+   }
+  ]
+ },
+ {
+  "city": "楠迪",
+  "attraction": "丹娜努海滩",
+  "status": "ok",
+  "local": "楠迪/丹娜努海滩_1.jpg",
+  "license": "Pexels",
+  "artist": "Josh Withers",
+  "commons_file": "pexels:26087992",
+  "source": "pexels:Denarau Island beach Nadi Fiji",
+  "extras": [
+   {
+    "local": "楠迪/丹娜努海滩_2.jpg",
+    "license": "Pexels",
+    "artist": "Josh Withers",
+    "commons_file": "pexels:26087997",
+    "source": "pexels:Denarau Island beach Nadi Fiji"
+   },
+   {
+    "local": "楠迪/丹娜努海滩_3.jpg",
+    "license": "Pexels",
+    "artist": "Josh Withers",
+    "commons_file": "pexels:26088007",
+    "source": "pexels:Denarau Island beach Nadi Fiji"
+   }
+  ]
+ },
+ {
+  "city": "楠迪",
+  "attraction": "沉睡巨人花园",
+  "status": "ok",
+  "local": "楠迪/沉睡巨人花园_1.jpg",
+  "license": "Pexels",
+  "artist": "Tiểu Bảo Trương",
+  "commons_file": "pexels:7334157",
+  "source": "pexels:Garden of the Sleeping Giant Nadi Fiji",
+  "extras": [
+   {
+    "local": "楠迪/沉睡巨人花园_2.jpg",
+    "license": "Pexels",
+    "artist": "Jennifer",
+    "commons_file": "pexels:35726497",
+    "source": "pexels:Garden of the Sleeping Giant Nadi Fiji"
+   },
+   {
+    "local": "楠迪/沉睡巨人花园_3.jpg",
+    "license": "Pexels",
+    "artist": "Ramon Perucho",
+    "commons_file": "pexels:30650593",
+    "source": "pexels:Garden of the Sleeping Giant Nadi Fiji"
+   }
+  ]
+ },
+ {
+  "city": "主岛维提岛",
+  "attraction": "喷射快艇",
+  "status": "ok",
+  "local": "主岛维提岛/喷射快艇_1.jpg",
+  "license": "Pexels License",
+  "artist": "Pexels",
+  "commons_file": null,
+  "source": "Pexels"
+ },
+ {
+  "city": "主岛维提岛",
+  "attraction": "轮胎漂流",
+  "status": "ok",
+  "local": "主岛维提岛/轮胎漂流_1.jpg",
+  "license": "Pexels License",
+  "artist": "Pexels",
+  "commons_file": null,
+  "source": "Pexels"
+ },
+ {
+  "city": "玛玛努卡群岛",
+  "attraction": "Cloud9海上酒吧",
+  "status": "ok",
+  "local": "玛玛努卡群岛/水上运动_1.jpg",
+  "license": "Pexels",
+  "artist": "Martin Škeřík",
+  "commons_file": "pexels:25068627",
+  "source": "pexels:Mamanuca Islands water sports Fiji",
+  "_alias_of": "水上运动"
+ },
+ {
+  "city": "亚萨瓦群岛",
+  "attraction": "外岛跳岛游",
+  "status": "ok",
+  "local": "亚萨瓦群岛/海滩探索_1.jpg",
+  "license": "Pexels",
+  "artist": "Mark Direen",
+  "commons_file": "pexels:33732083",
+  "source": "pexels:Yasawa Islands beach Fiji",
+  "_alias_of": "海滩探索"
+ },
+ {
+  "city": "亚萨瓦群岛",
+  "attraction": "鲨鱼潜水",
+  "status": "ok",
+  "local": "亚萨瓦群岛/与蝠鲼游泳_1.jpg",
+  "license": "Pexels",
+  "artist": "Emma Li",
+  "commons_file": "pexels:5503788",
+  "source": "pexels:swimming with manta rays Fiji",
+  "_alias_of": "与蝠鲼游泳"
+ },
+ {
+  "city": "亚萨瓦群岛",
+  "attraction": "丛林滑索",
+  "status": "ok",
+  "local": "亚萨瓦群岛/蓝洞_1.jpg",
+  "license": "Pexels",
+  "artist": "Mark Direen",
+  "commons_file": "pexels:33732083",
+  "source": "pexels:Sawa-i-Lau Blue Lagoon Yasawa Fiji",
+  "_alias_of": "蓝洞"
+ }
+]

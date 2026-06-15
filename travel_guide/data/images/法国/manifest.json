@@ -1116,5 +1116,185 @@
     "source": "pexels:Chateau de Fontainebleau France"
    }
   ]
+ },
+ {
+  "city": "巴黎",
+  "attraction": "凯旋门",
+  "status": "ok",
+  "local": "巴黎/凯旋门_1.jpg",
+  "license": "Pexels",
+  "artist": "Capture of the magnificent Arc de Triomphe against a clear blue sky in Paris.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "巴黎",
+  "attraction": "巴黎圣母院",
+  "status": "ok",
+  "local": "巴黎/巴黎圣母院_1.jpg",
+  "license": "Pexels",
+  "artist": "Capture of a dramatic sunset over Notre-Dame Cathedral in Paris with an orange sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "巴黎",
+  "attraction": "圣礼拜堂",
+  "status": "ok",
+  "local": "巴黎/圣礼拜堂_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore the breathtaking stained glass windows of Sainte-Chapelle in Paris, showcasing exquisite craftsmanship.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "巴黎",
+  "attraction": "巴黎歌剧院",
+  "status": "ok",
+  "local": "巴黎/巴黎歌剧院_1.jpg",
+  "license": "Pexels",
+  "artist": "Majestic inside view of the opulent Palais Garnier with chandeliers and ornate ceiling.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "巴黎",
+  "attraction": "圣心大教堂",
+  "status": "ok",
+  "local": "巴黎/圣心大教堂_1.jpg",
+  "license": "Pexels",
+  "artist": "View of the Sacré-Cœur Basilica's architectural grandeur in Paris with a vibrant blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "巴黎",
+  "attraction": "荣军院",
+  "status": "ok",
+  "local": "巴黎/荣军院_1.jpg",
+  "license": "Pexels",
+  "artist": "The stunning golden dome of Les Invalides, Paris, against a clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "巴黎",
+  "attraction": "先贤祠",
+  "status": "ok",
+  "local": "巴黎/先贤祠_1.jpg",
+  "license": "Pexels",
+  "artist": "Front view of the Panthéon in Paris, featuring its iconic columns and French flag under a clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "巴黎",
+  "attraction": "巴黎古监狱",
+  "status": "ok",
+  "local": "巴黎/巴黎古监狱_1.jpg",
+  "license": "Pexels",
+  "artist": "View of the Seine River, Conciergerie, and bridge in Paris, France under a blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "巴黎",
+  "attraction": "蓬皮杜艺术中心",
+  "status": "ok",
+  "local": "巴黎/蓬皮杜艺术中心_1.jpg",
+  "license": "Pexels",
+  "artist": "Vibrant pipes and structures of the Centre Pompidou in Paris, France.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "尼斯",
+  "attraction": "英国人散步大道 & 尼斯海滩",
+  "status": "ok",
+  "local": "尼斯/英国人散步大道 & 尼斯海滩_1.jpg",
+  "license": "Pexels",
+  "artist": "A scenic aerial view of the Nice beach and promenade in France.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "尼斯",
+  "attraction": "尼斯老城",
+  "status": "ok",
+  "local": "尼斯/尼斯老城_1.jpg",
+  "license": "Pexels",
+  "artist": "Charming street with yellow buildings under clear sky, warm urban feel.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "尼斯",
+  "attraction": "马塞纳广场",
+  "status": "ok",
+  "local": "尼斯/马塞纳广场_1.jpg",
+  "license": "Pexels",
+  "artist": "Charming red buildings and lively atmosphere in Place Massena, Nice, France.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "尼斯",
+  "attraction": "芒通",
+  "status": "ok",
+  "local": "尼斯/芒通_1.jpg",
+  "license": "Pexels",
+  "artist": "Vibrant buildings in Menton, showcasing French Riviera charm and Mediterranean architecture.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "里昂",
+  "attraction": "富维耶圣母圣殿",
+  "status": "ok",
+  "local": "里昂/富维耶圣母圣殿_1.jpg",
+  "license": "Pexels",
+  "artist": "Photo of the Equestrian Statue of Louis XIV with Basilica of Notre-Dame de Fourvière in the background in Lyon, France.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "里昂",
+  "attraction": "里昂人壁画",
+  "status": "ok",
+  "local": "里昂/里昂人壁画_1.jpg",
+  "license": "Pexels",
+  "artist": "Street art mural on a building in Toluca de Lerdo, Mexico, against a bright sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "阿维尼翁",
+  "attraction": "阿维尼翁主教座堂",
+  "status": "ok",
+  "local": "阿维尼翁/阿维尼翁主教座堂_1.jpg",
+  "license": "Pexels",
+  "artist": "A captivating view of the Gothic spires in Avignon, France, under a clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "阿维尼翁",
+  "attraction": "阿维尼翁断桥",
+  "status": "ok",
+  "local": "阿维尼翁/阿维尼翁断桥_1.jpg",
+  "license": "Pexels",
+  "artist": "Historic Pont Saint-Bénézet bridge over the Rhône River in Avignon, France under a clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "波尔多",
+  "attraction": "波尔多葡萄酒庄园",
+  "status": "ok",
+  "local": "波尔多/波尔多葡萄酒庄园_1.jpg",
+  "license": "Pexels",
+  "artist": "A collection of vintage wine bottles from an old cellar in Pauillac, France.",
+  "source": "pexels",
+  "extras": []
  }
 ]

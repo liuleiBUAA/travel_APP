@@ -462,5 +462,95 @@
   "artist": "",
   "commons_file": "pexels:13900806",
   "source": "pexels:哈尼亚老城"
+ },
+ {
+  "city": "雅典",
+  "attraction": "帕纳西纳科体育场",
+  "status": "ok",
+  "local": "雅典/帕纳西纳科体育场_1.jpg",
+  "license": "Pexels",
+  "artist": "The iconic Panathenaic Stadium in Athens, Greece, photographed on a clear day with blue skies.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "雅典",
+  "attraction": "狼山",
+  "status": "ok",
+  "local": "雅典/狼山_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning aerial shot of Athens, showcasing Lycabettus Hill amid the city's vast skyline under a clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "雅典",
+  "attraction": "新古典主义三部曲",
+  "status": "ok",
+  "local": "雅典/新古典主义三部曲_1.jpg",
+  "license": "Pexels",
+  "artist": "Neoclassical architecture with Greek flag under clear blue sky in Athens, Greece.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "雅典",
+  "attraction": "苏尼翁角",
+  "status": "ok",
+  "local": "雅典/苏尼翁角_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore the ancient Temple of Poseidon on a sunny day with a stunning ocean view, perfect for travel enthusiasts.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "雅典",
+  "attraction": "卡兰巴卡",
+  "status": "ok",
+  "local": "雅典/卡兰巴卡_1.jpg",
+  "license": "Pexels",
+  "artist": "Majestic view of a monastery perched on the Meteora rock formations, Greece, under a clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "罗德岛",
+  "attraction": "罗德岛老城",
+  "status": "ok",
+  "local": "罗德岛/罗德岛老城_1.jpg",
+  "license": "Pexels",
+  "artist": "Gothic facade in Rhodes, Greece showcasing medieval architecture with arches and windows.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "罗德岛",
+  "attraction": "曼德拉基港",
+  "status": "ok",
+  "local": "罗德岛/曼德拉基港_1.jpg",
+  "license": "Pexels",
+  "artist": "View of Mandraki Harbor with medieval fort and deer statues in Rhodes, Greece.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "罗德岛",
+  "attraction": "林佐斯卫城",
+  "status": "ok",
+  "local": "罗德岛/林佐斯卫城_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore ancient architectural wonders of Lindos, Greece with stunning views.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "克里特岛",
+  "attraction": "海盗岛和Balos泻湖",
+  "status": "ok",
+  "local": "克里特岛/海盗岛和Balos泻湖_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning aerial view of Balos Lagoon with crystal-clear azure waters and serene coastal scenery.",
+  "source": "pexels",
+  "extras": []
  }
 ]

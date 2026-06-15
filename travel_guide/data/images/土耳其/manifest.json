@@ -523,5 +523,195 @@
   "artist": "",
   "commons_file": "pexels:8344103",
   "source": "pexels:卡拉阿里奥卢公园"
+ },
+ {
+  "city": "伊兹密尔",
+  "attraction": "伊兹密尔钟楼",
+  "status": "ok",
+  "local": "伊兹密尔/伊兹密尔钟楼_1.jpg",
+  "license": "Pexels",
+  "artist": "The illuminated İzmir Clock Tower surrounded by palm trees at sunset, providing a vibrant cityscape.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "伊兹密尔",
+  "attraction": "Kemeraltı Bazaar大巴扎",
+  "status": "ok",
+  "local": "伊兹密尔/Kemeraltı Bazaar大巴扎_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore a vibrant market street in İzmir, Türkiye, filled with colorful shops and lively atmosphere.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "安塔利亚",
+  "attraction": "杜登瀑布",
+  "status": "ok",
+  "local": "安塔利亚/杜登瀑布_1.jpg",
+  "license": "Pexels",
+  "artist": "Breathtaking view of Duden Waterfalls cascading into turquoise Mediterranean Sea in Antalya.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "安塔利亚",
+  "attraction": "阿斯班多斯古剧场",
+  "status": "ok",
+  "local": "安塔利亚/阿斯班多斯古剧场_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore the ancient Aspendos Theater in Antalya, Türkiye, surrounded by beautiful landscapes.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "安塔利亚",
+  "attraction": "佩尔盖古城",
+  "status": "ok",
+  "local": "安塔利亚/佩尔盖古城_1.jpg",
+  "license": "Pexels",
+  "artist": "Majestic ancient columns of Perge under a clear blue sky in Antalya, Turkey.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "安塔利亚",
+  "attraction": "法塞利斯古城",
+  "status": "ok",
+  "local": "安塔利亚/法塞利斯古城_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore the ancient ruins of Side in Antalya, showcasing historic columns and rocky landscapes.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "伊斯坦布尔",
+  "attraction": "托普卡珀皇宫(老皇宫)",
+  "status": "ok",
+  "local": "伊斯坦布尔/托普卡珀皇宫(老皇宫)_1.jpg",
+  "license": "Pexels",
+  "artist": "A vibrant scene of Topkapi Palace gardens with the ancient walls and lush greenery under a clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "伊斯坦布尔",
+  "attraction": "地下水宫",
+  "status": "ok",
+  "local": "伊斯坦布尔/地下水宫_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning view of the illuminated Basilica Cistern in İstanbul, Türkiye.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "伊斯坦布尔",
+  "attraction": "苏莱曼尼耶清真寺",
+  "status": "ok",
+  "local": "伊斯坦布尔/苏莱曼尼耶清真寺_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning sunset colors over Süleymaniye Mosque, İstanbul, Türkiye.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "伊斯坦布尔",
+  "attraction": "独立大街",
+  "status": "ok",
+  "local": "伊斯坦布尔/独立大街_1.jpg",
+  "license": "Pexels",
+  "artist": "Colorful tram passing through a vibrant city street, surrounded by cafes and modern buildings.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "伊斯坦布尔",
+  "attraction": "加拉达石塔",
+  "status": "ok",
+  "local": "伊斯坦布尔/加拉达石塔_1.jpg",
+  "license": "Pexels",
+  "artist": "Panoramic view of Istanbul city with Galata Tower against a clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "格雷梅",
+  "attraction": "热气球飞行",
+  "status": "ok",
+  "local": "格雷梅/热气球飞行_1.jpg",
+  "license": "Pexels",
+  "artist": "Vibrant hot air balloons soar over Cappadocia's unique rock formations under a clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "格雷梅",
+  "attraction": "格雷梅观景台",
+  "status": "ok",
+  "local": "格雷梅/格雷梅观景台_1.jpg",
+  "license": "Pexels",
+  "artist": "Illuminated landscape of Göreme in Cappadocia at sunset showcasing unique rock formations and architecture.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "格雷梅",
+  "attraction": "爱情谷",
+  "status": "ok",
+  "local": "格雷梅/爱情谷_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore the unique rock formations in Göreme, Nevşehir, Türkiye, a breathtaking scenic landscape.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "格雷梅",
+  "attraction": "帕夏贝谷/蘑菇谷",
+  "status": "ok",
+  "local": "格雷梅/帕夏贝谷_蘑菇谷_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore the iconic fairy chimneys of Cappadocia, a UNESCO World Heritage site in Turkey.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "格雷梅",
+  "attraction": "迪夫里特峡谷/骆驼岩",
+  "status": "ok",
+  "local": "格雷梅/迪夫里特峡谷_骆驼岩_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore the unique rock formations in Devrent Valley, Turkey, under a clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "格雷梅",
+  "attraction": "乌奇希萨尔城堡",
+  "status": "ok",
+  "local": "格雷梅/乌奇希萨尔城堡_1.jpg",
+  "license": "Pexels",
+  "artist": "A captivating view of Uchisar Castle in Cappadocia, Türkiye, bathed in warm sunset light.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "格雷梅",
+  "attraction": "厄赫拉热大峡谷",
+  "status": "ok",
+  "local": "格雷梅/厄赫拉热大峡谷_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning view of Cappadocia's unique landscapes during sunset in Nevşehir, Turkey.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "格雷梅",
+  "attraction": "格雷梅国家历史公园",
+  "status": "ok",
+  "local": "格雷梅/格雷梅国家历史公园_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore the illuminated rock-cut architecture of Göreme at dusk, capturing the essence of Cappadocia's enchanting landscape.",
+  "source": "pexels",
+  "extras": []
  }
 ]
