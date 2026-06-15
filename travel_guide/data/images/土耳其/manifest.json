@@ -466,5 +466,62 @@
     "source": "pexels:Izmir Kordon waterfront promenade"
    }
   ]
+ },
+ {
+  "city": "卡帕多奇亚",
+  "attraction": "卡帕多奇亚热气球",
+  "status": "ok",
+  "local": "卡帕多奇亚/热气球_1.jpg",
+  "license": "Pexels",
+  "artist": "Hatice",
+  "commons_file": "pexels:27260270",
+  "source": "pexels:Cappadocia hot air balloon Turkey",
+  "extras": [
+   {
+    "local": "卡帕多奇亚/热气球_2.jpg",
+    "license": "Pexels",
+    "artist": "İbrahim Can  Dayıoğlu",
+    "commons_file": "pexels:27869635",
+    "source": "pexels:Cappadocia hot air balloon Turkey"
+   },
+   {
+    "local": "卡帕多奇亚/热气球_3.jpg",
+    "license": "Pexels",
+    "artist": "Ravindra Nadkarni",
+    "commons_file": "pexels:29511479",
+    "source": "pexels:Cappadocia hot air balloon Turkey"
+   }
+  ],
+  "_alias_of": "热气球"
+ },
+ {
+  "city": "安塔利亚",
+  "attraction": "大电梯和观景台",
+  "status": "ok",
+  "local": "安塔利亚/大电梯和观景台_1.jpg",
+  "license": "Pexels",
+  "artist": "",
+  "commons_file": "pexels:34727219",
+  "source": "pexels:大电梯和观景台"
+ },
+ {
+  "city": "安塔利亚",
+  "attraction": "罗马海港",
+  "status": "ok",
+  "local": "安塔利亚/罗马海港_1.jpg",
+  "license": "Pexels",
+  "artist": "",
+  "commons_file": "pexels:2848703",
+  "source": "pexels:罗马海港"
+ },
+ {
+  "city": "安塔利亚",
+  "attraction": "卡拉阿里奥卢公园",
+  "status": "ok",
+  "local": "安塔利亚/卡拉阿里奥卢公园_1.jpg",
+  "license": "Pexels",
+  "artist": "",
+  "commons_file": "pexels:8344103",
+  "source": "pexels:卡拉阿里奥卢公园"
  }
 ]

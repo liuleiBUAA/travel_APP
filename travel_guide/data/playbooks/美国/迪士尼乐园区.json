@@ -1,0 +1,96 @@
+{
+  "name": "迪士尼乐园区（Magic Kingdom + Animal Kingdom + Hollywood Studios + Epcot）",
+  "type": "attraction",
+  "aliases": [
+    "奥兰多迪士尼",
+    "奥兰多迪士尼世界",
+    "Walt Disney World",
+    "佛州迪士尼"
+  ],
+  "city": "奥兰多",
+  "country": "美国",
+  "summary": "奥兰多的迪士尼包括四个主题乐园、两个水上乐园。亲子游必去魔法王国（经典）、动物王国（动物多）；成年人必去好莱坞影城（星战园区）、动物王国（阿凡达园区）；有时间一定要去未来世界 Epcot。对迪士尼不熟悉的同学应给每个乐园安排1整天。",
+  "facts": [
+    {
+      "k": "开园/闭园时间",
+      "v": "每日不同",
+      "sub": "请查官网 My Disney Experience APP"
+    },
+    {
+      "k": "门票",
+      "v": "单园区约 200 美金",
+      "sub": "跨园区票约 260 美金，官网或 Klook 价格相同"
+    },
+    {
+      "k": "玩几天",
+      "v": "建议每个乐园 1 整天",
+      "sub": "熟悉的同学可用跨园票只玩喜欢的项目"
+    },
+    {
+      "k": "停车费",
+      "v": "Standard $35 / Preferred $50-60",
+      "sub": "一天只交1次，4个园区随意停"
+    }
+  ],
+  "route": [
+    "奥兰多机场",
+    "奥兰多迪士尼"
+  ],
+  "route_note": "迪士尼乐园距 Orlando International Airport 约30分钟车程，出租车约70美金、Uber/Lyft约35美金。住在附近打 Uber 很方便，不租车完全没问题。每个乐园都有自己的停车场，停车费一天只需交1次，可在4个园区随意停。迪士尼乐园之间的交通是免费的：Magic Kingdom 与 Animal Kingdom/Hollywood Studios 之间乘巴士约15-25分钟；Magic Kingdom 到 Epcot 多乘单轨需换乘1次约40分钟；Epcot 与 Hollywood Studios 之间可乘缆车/船/步行（走路最快只要20分钟）。",
+  "price": "",
+  "activities": [
+    {
+      "name": "魔法王国 Magic Kingdom Park",
+      "price": "含门票",
+      "detail": "最早建立、最经典、最适合小朋友的迪士尼乐园。热门项目：创极速光轮 TRON（过山车）、小矮人矿山车（过山车）、蒂安娜河口冒险（激流勇进）、飞跃太空山。特色餐厅：Crystal Palace（维尼主题）、Cinderella's Royal Table（公主主题）。白天有花车巡游，晚上有招牌烟火秀。"
+    },
+    {
+      "name": "动物王国 Disney's Animal Kingdom",
+      "price": "含门票",
+      "detail": "以动物与阿凡达世界为主题的乐园。热门项目：阿凡达飞行 Avatar Flight of Passage、阿凡达小船 Na'vi River Journey、珠峰探险过山车 Expedition Everest。特色餐厅：Tusker House（米奇主题）。"
+    },
+    {
+      "name": "好莱坞影城 Disney's Hollywood Studios",
+      "price": "含门票",
+      "detail": "成年人最爱的乐园，特色是跳楼机和《星球大战》主题园区。热门项目：星战 Rise of the Resistance、千年隼 Millennium Falcon、摇滚过山车、弹簧狗过山车、跳楼机 Tower of Terror。特色餐厅：Sci-Fi Dine-In（汽车影院主题）、Hollywood & Vine（米妮主题）。晚上有水幕灯光秀和灯光投影秀。"
+    },
+    {
+      "name": "未来世界 Epcot",
+      "price": "含门票",
+      "detail": "世界上唯一不用排大队、好吃好逛的迪士尼乐园，以未来科技与各国文化为主题，项目少美食多节奏舒适。室内过山车天花板：银河护卫队 Guardians of the Galaxy: Cosmic Rewind。其他热门：料理鼠王无轨道车、飞跃地平线 Soarin'、Test Track、冰雪奇缘。特色餐厅：Space 220（太空站主题）、Coral Reef（水族馆主题）。晚上有不逊于魔法王国的烟火秀。"
+    },
+    {
+      "name": "两个水上乐园",
+      "price": "含门票",
+      "detail": "台风湖水上乐园 Typhoon Lagoon（有北美最大的造浪池、最长的滑梯）、暴风雪水上乐园 Blizzard Beach（滑雪场主题，有更高更大的滑道）。"
+    },
+    {
+      "name": "Lightning Lane 快速通道",
+      "price": "LLS 10-25美金/LLM 15-39美金",
+      "detail": "迪士尼项目入口分普通通道和快速通道，后者排队短但需买 Pass。Lightning Lane Single Pass(LLS)：仅针对5个超热门项目（小矮人矿山车、TRON、星战、阿凡达飞行、银河护卫队），值得购买。Lightning Lane Multi Pass(LLM)：针对普通项目，1次最多约3个。需下载 My Disney Experience APP。住迪士尼酒店从入住前7天7AM开始购买，其他人入园当天7AM开始。"
+    }
+  ],
+  "tips": [
+    "对迪士尼不熟悉的同学应给每个乐园安排1整天游玩时间，熟悉的可用跨园票只玩喜欢的项目",
+    "迪士尼 APP（My Disney Experience）非常有用：看排队时间、订餐、买 Lightning Lane",
+    "可带水和食物（酒精饮料/玻璃容器除外）；简餐餐厅支持 Mobile Order 手机点餐",
+    "适合所有年龄段小朋友，多数项目无身高要求，过山车要求102cm以上、极少数122cm以上；可现场租婴儿推车15美金/天",
+    "什么是 Rider Switch：孩子不满足身高时，成人A先玩，成人B和孩子等待，A玩完后B无需重新排队走快速通道"
+  ],
+  "sections": [
+    {
+      "title": "四大主题乐园",
+      "content": "奥兰多迪士尼包括四个主题乐园、两个水上乐园。亲子游必去魔法王国（经典）、动物王国（动物多）；成年人必去好莱坞影城（星战园区）、动物王国（阿凡达园区）；只要还有时间，一定要去未来世界 Epcot——世界上唯一不用排大队、好吃好逛的迪士尼乐园，有室内过山车界的天花板（银河护卫队），晚上有不逊于魔法王国的烟火秀。"
+    },
+    {
+      "title": "园区间交通",
+      "content": "迪士尼乐园之间的交通是免费的。Magic Kingdom 与 Animal Kingdom 之间乘巴士20-25分钟；与 Hollywood Studios 之间乘巴士15-20分钟；到 Epcot 多乘单轨 Monorail 需换乘1次整体约40分钟。Epcot 与 Hollywood Studios 之间可乘缆车（换乘1次约35-45分钟）或船（约30分钟），其实最快的方法是走路只要20分钟。"
+    },
+    {
+      "title": "Lightning Lane 快速通道",
+      "content": "迪士尼所有项目入口分普通通道和快速通道。LLS（Single Pass）仅针对5个超热门项目，10-25美金，值得买；LLM（Multi Pass）针对普通项目，15-39美金/天，1次最多约3个，玩完1个立即再约。两者不是二选一，钱多可都买。需用 My Disney Experience APP 操作。"
+    }
+  ],
+  "duration": "建议每个乐园 1 整天（共 3-4 天）",
+  "best_time": "开园当天7AM抢 Lightning Lane；Epcot 不用排大队节奏舒适"
+}

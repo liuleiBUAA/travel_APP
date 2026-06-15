@@ -118,16 +118,7 @@
         <view wx:if="{{playbook.route_note}}" class="route-note">{{playbook.route_note}}</view>
       </view>
 
-      <!-- 票价卡 -->
-      <view wx:if="{{playbook.price}}" class="sec">
-        <view class="sec-h"><view class="bar"></view>票价 & 通票</view>
-        <view class="price">
-          <text class="price-big">{{playbook.price.main}}</text>
-          <text class="price-u">{{playbook.price.unit}}</text>
-          <text class="price-note">{{playbook.price.note}}</text>
-        </view>
-        <view wx:if="{{playbook.price.detail}}" class="sec-body">{{playbook.price.detail}}</view>
-      </view>
+      <!-- 票价卡已移除：价格信息变动频繁，统一放入上方信息条(facts)作参考，以官网为准 -->
 
       <!-- 玩法分条 -->
       <view wx:if="{{playbook.activities.length}}" class="sec">

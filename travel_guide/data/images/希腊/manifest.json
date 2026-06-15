@@ -388,5 +388,79 @@
     "source": "pexels:Lindos Acropolis Rhodes Greece"
    }
   ]
+ },
+ {
+  "city": "雅典",
+  "attraction": "雅典卫城",
+  "status": "ok",
+  "local": "雅典/帕特农神庙_1.jpg",
+  "license": "Pexels",
+  "artist": "Kevin Lee",
+  "commons_file": "pexels:5961718",
+  "source": "pexels:Parthenon Acropolis Athens",
+  "extras": [
+   {
+    "local": "雅典/帕特农神庙_2.jpg",
+    "license": "Pexels",
+    "artist": "Diego F. Parra",
+    "commons_file": "pexels:15238795",
+    "source": "pexels:Parthenon Acropolis Athens"
+   },
+   {
+    "local": "雅典/帕特农神庙_3.jpg",
+    "license": "Pexels",
+    "artist": "Miguel Cuenca",
+    "commons_file": "pexels:14500447",
+    "source": "pexels:Parthenon Acropolis Athens"
+   }
+  ],
+  "_alias_of": "帕特农神庙"
+ },
+ {
+  "city": "克里特岛",
+  "attraction": "克诺索斯宫殿",
+  "status": "ok",
+  "local": "克里特岛/克诺索斯宫_1.jpg",
+  "license": "Pexels",
+  "artist": "Gu Bra",
+  "commons_file": "pexels:18192908",
+  "source": "pexels:Knossos Palace Crete Greece",
+  "extras": [
+   {
+    "local": "克里特岛/克诺索斯宫_2.jpg",
+    "license": "Pexels",
+    "artist": "Alain Martin",
+    "commons_file": "pexels:19930011",
+    "source": "pexels:Knossos Palace Crete Greece"
+   },
+   {
+    "local": "克里特岛/克诺索斯宫_3.jpg",
+    "license": "Pexels",
+    "artist": "Celine l",
+    "commons_file": "pexels:10910828",
+    "source": "pexels:Knossos Palace Crete Greece"
+   }
+  ],
+  "_alias_of": "克诺索斯宫"
+ },
+ {
+  "city": "克里特岛",
+  "attraction": "伊拉克利翁老城",
+  "status": "ok",
+  "local": "克里特岛/伊拉克利翁老城_1.jpg",
+  "license": "Pexels",
+  "artist": "",
+  "commons_file": "pexels:36789371",
+  "source": "pexels:伊拉克利翁老城"
+ },
+ {
+  "city": "克里特岛",
+  "attraction": "哈尼亚老城",
+  "status": "ok",
+  "local": "克里特岛/哈尼亚老城_1.jpg",
+  "license": "Pexels",
+  "artist": "",
+  "commons_file": "pexels:13900806",
+  "source": "pexels:哈尼亚老城"
  }
 ]

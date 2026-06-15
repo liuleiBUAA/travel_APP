@@ -1,0 +1,69 @@
+{
+  "name": "春溪国家公园",
+  "type": "attraction",
+  "aliases": [
+    "Springbrook National Park",
+    "春溪",
+    "Natural Bridge"
+  ],
+  "city": "黄金海岸",
+  "country": "澳大利亚",
+  "summary": "距黄金海岸约50分钟车程的古老热带雨林，有潺潺溪水、天然洞穴和壮观瀑布，设有步行道和露营地。很适合徒步，还可以在日落后来看蓝光萤火虫（自然桥Natural Bridge是观看点）。",
+  "facts": [
+    {
+      "k": "车程",
+      "v": "距黄金海岸约50分钟",
+      "sub": ""
+    },
+    {
+      "k": "徒步路线",
+      "v": "Purling Brook Falls 4km / Twin Falls Circuit 4.3km",
+      "sub": "各1.5-2小时"
+    },
+    {
+      "k": "萤火虫观看点",
+      "v": "自然桥 Natural Bridge",
+      "sub": "日落后发蓝光，只有澳洲和新西兰能看到"
+    },
+    {
+      "k": "参团价",
+      "v": "5小时119澳元起 / 萤火虫夜游3小时100澳元起",
+      "sub": ""
+    }
+  ],
+  "route": [
+    "黄金海岸",
+    "春溪国家公园"
+  ],
+  "route_note": "自驾约50分钟。徒步导航Purling Brook Falls或Twin Falls；萤火虫导航Natural Bridge（萤火虫洞就在桥洞下）。也可参团：Natural Bridge & Springbrook Waterfalls Tour（5小时119澳元起）。",
+  "price": "",
+  "activities": [
+    {
+      "name": "雨林徒步看瀑布",
+      "price": "自驾免费/参团119澳元起",
+      "detail": "Alltrails高人气徒步路线：Purling Brook Falls（长4km，1.5-2小时，难度适中）、Twin Falls Circuit（长4.3km，1.5-2小时，难度Easy）。参团Natural Bridge & Springbrook Waterfalls Tour（4.7星，5小时，119澳元起），含自然桥Natural Bridge天然洞穴、落差高达100米的Purling Brook Falls、Twin Falls等。"
+    },
+    {
+      "name": "日落后看蓝光萤火虫",
+      "price": "参团夜游100澳元起",
+      "detail": "蓝光萤火虫白天几乎看不见，日落后发出蓝色光芒，数以百万计星星点点密布洞穴中，恍若银河，相当震撼（手机基本拍不出来，要亲眼看）。它实际是一种不会飞的蠕虫，附在洞穴岩壁上发蓝光诱食小飞虫。观看点是公园内的自然桥Natural Bridge（流水冲蚀成的天然洞穴，形似桥梁）。"
+    }
+  ],
+  "tips": [
+    "拍萤火虫务必关闪光灯，强闪光会伤害萤火虫",
+    "自行夜间前往山里很黑，怕黑慎选，可带相机三脚架拍星空银河",
+    "蓝光萤火虫据说只有澳洲和新西兰才能看到"
+  ],
+  "sections": [
+    {
+      "title": "景点简介",
+      "content": "春溪国家公园 Springbrook National Park 距离黄金海岸约50分钟车程。古老的热带雨林里有潺潺溪水、天然洞穴和壮观的瀑布，设有步行道和露营地。很适合徒步，还可以日落后来看蓝光萤火虫。"
+    },
+    {
+      "title": "蓝光萤火虫",
+      "content": "日落后在自然桥Natural Bridge可看蓝光萤火虫，数以百万计星星点点密布洞穴中，恍若银河。蓝光萤火虫是一种不会飞的蠕虫，附在洞穴岩壁上发蓝光诱食小飞虫，据说只有澳洲和新西兰才能看到。"
+    }
+  ],
+  "duration": "半天-1天",
+  "best_time": "日落后看萤火虫"
+}

@@ -1152,5 +1152,146 @@
   "artist": "Timo Newton-Syms from Helsinki, Finland and Chalfont St Giles, Bucks, UK",
   "commons_file": "Santa Claus Village (5306867729).jpg",
   "source": "commons-search:Santa Claus Village Rovaniemi"
+ },
+ {
+  "city": "冰岛（8天环线）",
+  "attraction": "黄金圈",
+  "status": "ok",
+  "local": "冰岛_8天环线_/黄金瀑布__1.jpg",
+  "license": "Pexels",
+  "artist": "Lukas Lussi",
+  "commons_file": "pexels:27128374",
+  "source": "pexels:Gullfoss waterfall Iceland",
+  "extras": [
+   {
+    "local": "冰岛_8天环线_/黄金瀑布__2.jpg",
+    "license": "Pexels",
+    "artist": "Tomáš Malík",
+    "commons_file": "pexels:3591552",
+    "source": "pexels:Gullfoss waterfall Iceland"
+   },
+   {
+    "local": "冰岛_8天环线_/黄金瀑布__3.jpg",
+    "license": "Pexels",
+    "artist": "Katrīne Skrebele",
+    "commons_file": "pexels:11385290",
+    "source": "pexels:Gullfoss waterfall Iceland"
+   }
+  ],
+  "_alias_of": "黄金瀑布）"
+ },
+ {
+  "city": "挪威",
+  "attraction": "罗弗敦群岛",
+  "status": "ok",
+  "local": "挪威/罗弗敦群岛深度游_1.jpg",
+  "license": "Pexels",
+  "artist": "Sergey Guk",
+  "commons_file": "pexels:28539704",
+  "source": "pexels:Lofoten Islands Reine Norway",
+  "extras": [
+   {
+    "local": "挪威/罗弗敦群岛深度游_2.jpg",
+    "license": "Pexels",
+    "artist": "Miluše Weberová",
+    "commons_file": "pexels:36456925",
+    "source": "pexels:Lofoten Islands Reine Norway"
+   },
+   {
+    "local": "挪威/罗弗敦群岛深度游_3.jpg",
+    "license": "Pexels",
+    "artist": "stein egil liland",
+    "commons_file": "pexels:36025439",
+    "source": "pexels:Lofoten Islands Reine Norway"
+   }
+  ],
+  "_alias_of": "罗弗敦群岛深度游"
+ },
+ {
+  "city": "挪威",
+  "attraction": "布吕根",
+  "status": "ok",
+  "local": "挪威/布吕根码头_1.jpg",
+  "license": "Pexels",
+  "artist": "Jonathan Borba",
+  "commons_file": "pexels:33647419",
+  "source": "pexels:Bryggen wharf Bergen Norway",
+  "extras": [
+   {
+    "local": "挪威/布吕根码头_2.jpg",
+    "license": "Pexels",
+    "artist": "Rino Adamo",
+    "commons_file": "pexels:34617216",
+    "source": "pexels:Bryggen wharf Bergen Norway"
+   },
+   {
+    "local": "挪威/布吕根码头_3.jpg",
+    "license": "Pexels",
+    "artist": "Jonathan Borba",
+    "commons_file": "pexels:33647414",
+    "source": "pexels:Bryggen wharf Bergen Norway"
+   }
+  ],
+  "_alias_of": "布吕根码头"
+ },
+ {
+  "city": "奥斯陆",
+  "attraction": "蒙克美术馆",
+  "status": "ok",
+  "local": "挪威/蒙克美术馆_1.jpg",
+  "license": "Pexels",
+  "artist": "",
+  "commons_file": "pexels:24024574",
+  "source": "pexels:蒙克美术馆"
+ },
+ {
+  "city": "奥斯陆",
+  "attraction": "奥斯陆歌剧院",
+  "status": "ok",
+  "local": "挪威/奥斯陆歌剧院_1.jpg",
+  "license": "Pexels",
+  "artist": "",
+  "commons_file": "pexels:6649672",
+  "source": "pexels:奥斯陆歌剧院"
+ },
+ {
+  "city": "奥斯陆",
+  "attraction": "阿克斯胡斯城堡",
+  "status": "ok",
+  "local": "挪威/阿克斯胡斯城堡_1.jpg",
+  "license": "CC-Commons",
+  "artist": "",
+  "commons_file": "commons:Akershus Fortress, 2023.jpg",
+  "source": "commons:Akershus Fortress 2023"
+ },
+ {
+  "city": "奥斯陆",
+  "attraction": "国家博物馆",
+  "status": "ok",
+  "local": "挪威/国家博物馆_1.jpg",
+  "license": "CC-Commons",
+  "artist": "",
+  "commons_file": "commons:Nasjonalmuseet Oslo",
+  "source": "commons:Nasjonalmuseet Oslo"
+ },
+ {
+  "city": "卑尔根",
+  "attraction": "卑尔根鱼市",
+  "status": "ok",
+  "local": "挪威/卑尔根鱼市_1.jpg",
+  "license": "Pexels",
+  "artist": "",
+  "commons_file": "pexels:29860927",
+  "source": "pexels:卑尔根鱼市"
+ },
+ {
+  "city": "卑尔根",
+  "attraction": "弗洛伊恩山",
+  "status": "ok",
+  "local": "挪威/弗洛伊恩山_1.jpg",
+  "license": "Pexels",
+  "artist": "",
+  "commons_file": "pexels:9246660",
+  "source": "pexels:弗洛伊恩山"
  }
 ]

@@ -98,17 +98,23 @@ def render_attraction(d):
         h.append('<div class="facts" style="border:2px solid red;">')
         h.append('<div class="fact" style="color:red;">⚠️dict格式facts前端不渲染</div>')
         h.append('</div>')
-    if d.get("price"): h.append(f'<div class="price">💰 {esc(d["price"])}</div>')
+    if d.get("price"): pass  # 票价卡已移除(对齐前端)，价格信息在facts里
     # gallery
     gal = images_for(name, 6)
     if len(gal) > 1:
         h.append('<div class="gal">' + "".join(f'<img src="{g}">' for g in gal[1:]) + '</div>')
-    # activities
+    # activities (dict格式: name/price/detail, 对齐前端)
     acts = d.get("activities", [])
     if acts:
-        h.append('<div class="chips"><div class="chip-h">玩法</div><div class="acts">')
-        h.append("".join(f'<div class="act">{esc(a)}</div>' for a in acts))
-        h.append('</div></div>')
+        h.append('<div class="sec"><div class="sec-h"><span class="bar"></span>玩什么</div>')
+        for a in acts:
+            if isinstance(a, dict):
+                pr = f' <span class="act-pr" style="color:#d48806;font-size:12px;">{esc(a.get("price"))}</span>' if a.get("price") else ""
+                h.append(f'<div style="margin-bottom:9px;"><div style="font-size:14px;font-weight:600;color:#20457c;">{esc(a.get("name"))}{pr}</div>')
+                h.append(f'<div style="font-size:12.5px;color:#555;line-height:1.6;margin-top:3px;">{esc(a.get("detail"))}</div></div>')
+            else:
+                h.append(f'<div class="act">{esc(a)}</div>')
+        h.append('</div>')
     # sections
     for s in d.get("sections", []):
         h.append(f'<div class="sec"><div class="sec-h"><span class="bar"></span>{esc(s.get("title"))}</div>')
@@ -125,11 +131,11 @@ def render_attraction(d):
 def render_city(d):
     name = d.get("name", "")
     h = ['<div class="container">']
-    # hero: 城市同名图 -> 第一个有图景点
+    # hero: 城市同名图 -> 第一个有图景点(用image_alias兜底,对齐后端)
     hero = first_image(name)
     if not hero:
         for a in d.get("attractions", []):
-            hero = first_image(a["name"])
+            hero = first_image(a.get("image_alias") or a["name"])
             if hero: break
     h.append('<div class="hero">')
     if hero: h.append(f'<img class="hero-img" src="{hero}">')
@@ -139,10 +145,11 @@ def render_city(d):
     # 景点网格
     h.append('<div class="grid">')
     for a in d.get("attractions", []):
-        img = first_image(a["name"])
+        img = first_image(a.get("image_alias") or a["name"])
         imgtag = f'<img class="card-img" src="{img}">' if img else '<div class="card-img"></div>'
         go = '<div class="card-go">查看详情 ›</div>' if a.get("has_detail") else ""
-        h.append(f'<div class="card"><div class="card-in">{imgtag}<div class="card-b"><div class="card-n">{esc(a["name"])}</div><div class="card-d">{esc(a.get("desc",""))[:30]}</div>{go}</div></div></div>')
+        desc = a.get("desc") or a.get("tagline") or ""
+        h.append(f'<div class="card"><div class="card-in">{imgtag}<div class="card-b"><div class="card-n">{esc(a["name"])}</div><div class="card-d">{esc(desc)[:36]}</div>{go}</div></div></div>')
     h.append('</div>')
     # sections
     for s in d.get("sections", []):

@@ -119,7 +119,8 @@
       "name": "天际缆车Skyline",
       "order": 1,
       "tagline": "乘缆车到皇后镇制高点俯瞰美景，可玩Luge滑板车，缆车NZ$52",
-      "has_detail": false
+      "has_detail": false,
+      "image_alias": "天际缆车"
     },
     {
       "name": "木桶温泉Onsen Hot Pool",
@@ -131,7 +132,8 @@
       "name": "高山鹿园Deer Park Heights",
       "order": 3,
       "tagline": "看鹿群+喂食各种动物，NZ$55/车（车内最多8人），带硬币NZ$2可买大桶饲料",
-      "has_detail": false
+      "has_detail": false,
+      "image_alias": "高山鹿园"
     },
     {
       "name": "皇后镇公园",
@@ -149,55 +151,64 @@
       "name": "格林诺奇和天堂镇",
       "order": 6,
       "tagline": "魔戒取景地，沿途湖光山色穿越森林牧场，4小时，可自驾可参团",
-      "has_detail": false
+      "has_detail": false,
+      "image_alias": "格林诺奇"
     },
     {
       "name": "箭镇+瓦纳卡",
       "order": 7,
       "tagline": "途径皇冠山脉风景美，途径网红胸衣墙，6小时小团组，可自驾可参团",
-      "has_detail": false
+      "has_detail": false,
+      "image_alias": "箭镇"
     },
     {
       "name": "米尔福德峡湾",
       "order": 8,
       "tagline": "玻璃顶大巴12.5小时/小巴车小团组13小时，建议参团",
-      "has_detail": false
+      "has_detail": false,
+      "image_alias": "米尔福德峡湾一日游"
     },
     {
       "name": "库克山Mt Cook",
       "order": 9,
       "tagline": "途径普卡基湖可买三文鱼，春季有鲁冰花，12小时，建议参团",
-      "has_detail": false
+      "has_detail": false,
+      "image_alias": "好牧羊人教堂"
     },
     {
       "name": "滑翔伞Paragliding",
       "order": 10,
       "tagline": "自由飞行俯瞰湖光山色，没有失重感不难受不恐怖",
-      "has_detail": false
+      "has_detail": false,
+      "image_alias": "观光飞行"
     },
     {
       "name": "喷射快艇Shotover River",
       "order": 11,
       "tagline": "在两岸悬崖耸立的河道飞驰，体验360°船体旋转",
-      "has_detail": false
+      "has_detail": false,
+      "image_alias": "瓦卡蒂普湖"
     },
     {
       "name": "高原牧场TSS Earnslaw",
       "order": 12,
       "tagline": "乘TSS蒸汽船前往牧场，有剪羊毛表演和各种小动物，可享用BBQ自助餐",
-      "has_detail": false
+      "has_detail": false,
+      "image_alias": "游船"
     },
     {
       "name": "双人高空跳伞NZONE Skydive",
       "order": 13,
       "tagline": "1教练+1游客，由教练主导，游客固定在教练身前",
-      "has_detail": false
+      "has_detail": false,
+      "image_alias": "跳伞"
     },
     {
       "name": "卡瓦劳大桥蹦极Kawarau Bridge Bungy",
       "order": 14,
       "tagline": "蹦极的发源地，可选触水蹦极",
-      "has_detail": false
+      "has_detail": false,
+      "image_alias": "蹦极"
     },
     {
       "name": "内维斯峡谷秋千Nevis Swing",
@@ -210,17 +221,17 @@
     {
       "day": "1",
       "title": "抵达皇后镇",
-      "detail": "机场租车，机场附近采购，入住酒店，逛皇后镇+吃冰激凌，晚上网红肋排店"
+      "detail": "上午：机场租车，机场附近超市采购。\n下午：入住酒店，悠闲逛皇后镇市区、吃网红冰激凌。\n晚上：网红肋排店晚餐。"
     },
     {
       "day": "2",
       "title": "主要景点",
-      "detail": "上午高山鹿园，中午网红大汉堡，下午天际缆车+滑板车，傍晚海鲜自助餐"
+      "detail": "上午：高山鹿园。\n中午：网红大汉堡。\n下午：天际缆车 + 山顶滑板车。\n傍晚：海鲜自助餐。"
     },
     {
       "day": "3",
-      "title": "选择1日游或活动",
-      "detail": "扶老携幼推荐高原牧场，情侣闺蜜推荐木桶温泉，年轻朋友推荐极限运动，夏季推荐米尔福德峡湾1日游，秋季推荐箭镇+瓦纳卡1日游"
+      "title": "1日游 / 活动二选一",
+      "detail": "扶老携幼：高原牧场 TSS Earnslaw 游船。\n情侣闺蜜：木桶温泉。\n年轻朋友：极限运动（跳伞 / 蹦极 / 喷射快艇）。\n夏季首选：米尔福德峡湾 1 日游。\n秋季首选：箭镇 + 瓦纳卡 1 日游。"
     }
   ],
   "sections": [

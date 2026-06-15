@@ -1,0 +1,11 @@
+[
+ {"city":"悉尼","attraction":"悉尼歌剧院","query":"Sydney Opera House harbour"},
+ {"city":"佛罗伦萨","attraction":"老桥","query":"Ponte Vecchio Florence"},
+ {"city":"纽约","attraction":"自由女神","query":"Statue of Liberty New York"},
+ {"city":"波尔图","attraction":"莱罗书店","query":"Livraria Lello Porto bookstore interior"},
+ {"city":"卢瓦尔河谷","attraction":"舍农索城堡","query":"Chateau de Chenonceau France"},
+ {"city":"班夫国家公园","attraction":"惊奇角","query":"Surprise Corner Banff Bow River"},
+ {"city":"格拉斯哥","attraction":"乔治广场","query":"George Square Glasgow"},
+ {"city":"英国湖区","attraction":"波尼斯小镇","query":"Bowness-on-Windermere town Lake District"},
+ {"city":"红杉国家公园","attraction":"Boyden Cavern","query":"Boyden Cavern Sequoia cave"}
+]

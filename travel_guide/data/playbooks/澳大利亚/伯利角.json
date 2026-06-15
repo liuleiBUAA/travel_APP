@@ -1,0 +1,71 @@
+{
+  "name": "伯利角",
+  "type": "attraction",
+  "aliases": [
+    "Burleigh Heads",
+    "Burleigh Head National Park",
+    "伯利角国家公园"
+  ],
+  "city": "黄金海岸",
+  "country": "澳大利亚",
+  "summary": "黄金海岸最美海滩之一，是欣赏日落的绝佳地点。在海边坡地草坪上可远眺黄金海岸城市天际线，日落时分最美，空气都是「金色」的，氛围感满满。本地人爱去，能感受local的Chill氛围。",
+  "facts": [
+    {
+      "k": "玩多久",
+      "v": "1-2 小时",
+      "sub": ""
+    },
+    {
+      "k": "看天际线位置",
+      "v": "Burleigh Hill / John Laws Park",
+      "sub": ""
+    },
+    {
+      "k": "绝佳机位",
+      "v": "Mick Schamburg Park Lookout",
+      "sub": "Burleigh Beach北端，地势高需长焦，距国家公园7-10分钟车程"
+    },
+    {
+      "k": "交通",
+      "v": "市中心车程约20分钟",
+      "sub": "或轻轨到Broadbeach South转700路公交"
+    }
+  ],
+  "route": [
+    "黄金海岸市中心",
+    "伯利角"
+  ],
+  "route_note": "导航Burleigh Head National Park，市中心出发车程约20分钟；或轻轨坐到Broadbeach South再转700路公交。看天际线导航Burleigh Hill或John Laws Park。",
+  "price": "",
+  "activities": [
+    {
+      "name": "草坪看日落与天际线",
+      "price": "免费",
+      "detail": "伯利角有黄金海岸最美的海滩之一，是欣赏日落的绝佳地点。在海边坡地草坪上可远眺黄金海岸城市天际线，日落时分最美，空气都是「金色」的，氛围感满满。建议带野餐垫/毯子躺在草地上。"
+    },
+    {
+      "name": "海滩与沿海徒步",
+      "price": "免费",
+      "detail": "国家公园北边是Burleigh Beach（2.5km），沙滩干净宽阔，适合游泳/冲浪。国家公园里面有沿海徒步道，海景美、走起来也轻松。"
+    },
+    {
+      "name": "海边网红餐厅",
+      "price": "按餐厅",
+      "detail": "伯利角有各种餐厅，海边网红餐厅有 The Tropic、Burleigh Pavilion（看日落也很好）。"
+    }
+  ],
+  "tips": [
+    "看日落建议提前1-2小时到，傍晚海风冷记得带外套",
+    "绝佳出片机位Mick Schamburg Park Lookout地势高，需长焦拍",
+    "本地人爱去，能感受local的Chill氛围",
+    "带野餐垫躺草地很惬意"
+  ],
+  "sections": [
+    {
+      "title": "景点简介",
+      "content": "伯利角 Burleigh Heads 有黄金海岸最美的海滩之一，是欣赏日落的绝佳地点。在海边的坡地草坪上可以远眺黄金海岸城市天际线，日落时分最美，空气都是「金色」的，满满的氛围感。本地人爱去，可以更多感受local生活的「Chill」氛围。"
+    }
+  ],
+  "duration": "1-2 小时",
+  "best_time": "日落前1-2小时到"
+}

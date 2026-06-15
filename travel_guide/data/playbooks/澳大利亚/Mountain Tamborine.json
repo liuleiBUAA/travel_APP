@@ -1,0 +1,80 @@
+{
+  "name": "Mountain Tamborine",
+  "type": "attraction",
+  "aliases": [
+    "Tamborine Mountain",
+    "坦伯林山",
+    "Mount Tamborine"
+  ],
+  "city": "黄金海岸",
+  "country": "澳大利亚",
+  "summary": "距黄金海岸约50分钟车程的山区，有秀美山峦、古老雨林和瀑布，还有葡萄酒庄和复古风的德国小镇。可雨林徒步看瀑布、走空中步道、逛德国小镇、看日落、植物园散步。",
+  "facts": [
+    {
+      "k": "车程",
+      "v": "距黄金海岸约50分钟",
+      "sub": ""
+    },
+    {
+      "k": "空中步道",
+      "v": "Tamborine Rainforest Skywalk",
+      "sub": "门票21.5澳元，9:30am-5pm，游玩1小时"
+    },
+    {
+      "k": "雨林徒步",
+      "v": "Curtis Falls Track",
+      "sub": "1.5km往返约30分钟，遇见瀑布"
+    },
+    {
+      "k": "参团价",
+      "v": "含春溪+Tamborine 9.5小时189澳元起",
+      "sub": ""
+    }
+  ],
+  "route": [
+    "黄金海岸",
+    "Mountain Tamborine"
+  ],
+  "route_note": "自驾约50分钟。各玩法分别导航：雨林徒步Curtis Falls Track、空中步道Tamborine Rainforest Skywalk、德国小镇Gallery Walk、日落Robert Sowter Park Lookout、植物园Tamborine Mountain Botanic Gardens。",
+  "price": "",
+  "activities": [
+    {
+      "name": "雨林徒步 Curtis Falls",
+      "price": "免费",
+      "detail": "导航人气徒步路线Curtis Falls Track，1.5km往返约30分钟，穿过丛林和高耸的大树，遇见瀑布。"
+    },
+    {
+      "name": "空中步道 Rainforest Skywalk",
+      "price": "21.5澳元",
+      "detail": "导航Tamborine Rainforest Skywalk，门票21.5澳元，9:30am-5pm，游玩1小时，在雨林树冠层间漫步。"
+    },
+    {
+      "name": "逛德国小镇 Gallery Walk",
+      "price": "免费逛",
+      "detail": "导航Gallery Walk，有很多复古风小店售卖各种手工品，还有餐馆/咖啡馆，逛半小时-2小时。这里还有葡萄酒庄。"
+    },
+    {
+      "name": "看日落与植物园",
+      "price": "免费",
+      "detail": "看日落导航Robert Sowter Park Lookout，视野开阔的山坡上看落日西沉（半小时-1小时）；植物园散步拍照导航Tamborine Mountain Botanic Gardens，秋天枫叶季尤其美（游玩30分钟）。"
+    },
+    {
+      "name": "雨林萤火虫之旅（参团）",
+      "price": "119澳元起",
+      "detail": "Evening Rainforest & Glow Worm Experience小团（4.5星，3.5小时5:30pm开始）：四驱车穿越雨林、雨林徒步到被萤火虫照亮的瀑布、山顶简单晚餐（蛋糕和热巧克力）并俯瞰黄金海岸夜景。"
+    }
+  ],
+  "tips": [
+    "可与春溪国家公园拼成一日游（参团9.5小时189澳元起，含两个国家公园）",
+    "秋天枫叶季植物园尤其美",
+    "德国小镇Gallery Walk适合逛吃买手工品"
+  ],
+  "sections": [
+    {
+      "title": "景点简介",
+      "content": "Mountain Tamborine（坦伯林山）距离黄金海岸约50分钟车程。这里有秀美的山峦、古老的雨林和瀑布，还有葡萄酒庄和复古风的德国小镇。可雨林徒步、走空中步道、逛德国小镇、看日落、植物园散步。"
+    }
+  ],
+  "duration": "半天-1天",
+  "best_time": "秋天枫叶季 / 黄昏看日落"
+}

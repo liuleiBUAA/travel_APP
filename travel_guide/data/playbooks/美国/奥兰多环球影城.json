@@ -1,0 +1,90 @@
+{
+  "name": "奥兰多环球影城",
+  "type": "attraction",
+  "aliases": [
+    "环球影城园区（Universal Studios Florida + Islands of Adventure + Epic Universe）",
+    "Universal Orlando",
+    "奥兰多环球影城园区"
+  ],
+  "city": "奥兰多",
+  "country": "美国",
+  "summary": "奥兰多环球影城由4个独立园区构成：环球影城 Universal Studios Florida（哈利波特对角巷）、冒险岛 Islands of Adventure（霍格沃兹城堡）、史诗宇宙 Epic Universe（2025年新开，哈利波特魔法部）、火山湾水上 Volcano Bay。环球影城和冒险岛之间有哈利波特主题火车相连，只有购买双园票才能乘坐。",
+  "facts": [
+    {
+      "k": "开放时间",
+      "v": "8/9am - 5/7/8/10pm",
+      "sub": "取决于具体日期"
+    },
+    {
+      "k": "门票",
+      "v": "约 2700 人民币 / 400 美金",
+      "sub": "Klook 选'2个园区1日联票+1日史诗宇宙票'；官网选 2-Day Ticket 的 3 Parks 版本"
+    },
+    {
+      "k": "玩几天",
+      "v": "建议 2 天",
+      "sub": "1天跨园区票（主园区+霍格沃兹火车去冒险岛）+1天史诗宇宙票"
+    },
+    {
+      "k": "停车费",
+      "v": "Regular $32 / Prime $50-60",
+      "sub": "环球影城与冒险岛停车场：6000 Universal Blvd；史诗宇宙：1001 Epic Blvd"
+    }
+  ],
+  "route": [
+    "奥兰多机场",
+    "奥兰多环球影城"
+  ],
+  "route_note": "环球影城距奥兰多机场约15英里/20分钟车程，Uber需$30-$60。园区内酒店距离近适合早去晚归，提供免费班车并可最多提前1小时入园（最受欢迎：高性价比 Universal's Endless Summer Resort - Surfside、高端 Loews Royal Pacific Resort 送无限次快通票）。希望省钱可住园区外3星酒店（提供免费班车/早餐/停车/WIFI，如 Rosen Inn Closest to Universal 距6分钟车程、DoubleTree by Hilton 距5分钟车程）。",
+  "price": "",
+  "activities": [
+    {
+      "name": "环球影城 Universal Studios Florida",
+      "price": "含门票",
+      "detail": "最标准的环球影城，哈利波特的对角巷在这里。热门项目：小黄人、红色过山车、变形金刚、Jimmy Fallon、木乃伊复仇、霍格沃兹火车、逃离古灵阁、辛普森、谍影重重。"
+    },
+    {
+      "name": "冒险岛 Islands of Adventure",
+      "price": "含门票",
+      "detail": "项目相对刺激，哈利波特的霍格沃兹城堡在这里。热门项目：绿色过山车、蜘蛛侠、金刚/骷髅岛、侏罗纪、黑色过山车、哈利波特禁忌之旅、海格摩托、霍格沃兹火车。"
+    },
+    {
+      "name": "史诗宇宙 Epic Universe",
+      "price": "含门票",
+      "detail": "2025年5月新开园，哈利波特魔法部在这里。热门项目：驯龙高手过山车、星辰过山车、哈利波特魔法部之战、怪物失控、马里奥赛车、大金刚矿车。预计未来1年内游客很多，大家对新园区好评度一般（人多、设备不稳定），请降低心理预期。任天堂马里奥赛车/驯龙高手表演其他环球影城也有，人多可放弃。"
+    },
+    {
+      "name": "火山湾水上乐园 Volcano Bay",
+      "price": "含门票",
+      "detail": "水上乐园，去的同学不多。"
+    },
+    {
+      "name": "提高效率：免费模式",
+      "price": "免费",
+      "detail": "1)开园前到达，开园后大步冲向热门项目，早到1分钟能少排30分钟；2)使用 Single Rider Lines 单人通道入场（项目入口处有指示牌），速度有时快过 Express Pass，但不是全天开放，要碰运气。"
+    },
+    {
+      "name": "提高效率：快通票 Express Pass",
+      "price": "付费",
+      "detail": "快通入口独立于普通入口，大幅减少排队。买 Express Pass+只玩重点+暴走可一日双园。节假日强烈建议购买。注意1-Park Express Pass 购买时要看清园区（价格一样但不通用）。当天也可能售罄或涨价。"
+    }
+  ],
+  "tips": [
+    "环球影城和冒险岛之间有哈利波特主题火车相连，只有购买双园票才能乘坐",
+    "允许携带瓶装矿泉水/不需加热的小包装零食（薯片饼干水果）/软壳cooler（不超过21.5×15.2×15.2cm）/婴儿食品/婴儿推车",
+    "禁止携带酒精饮料/午餐（三明治汉堡肉类）/熟食/玻璃容器/硬壳cooler/折叠椅",
+    "史诗宇宙新园区设备不稳定、好评一般，请降低心理预期"
+  ],
+  "sections": [
+    {
+      "title": "四个园区",
+      "content": "奥兰多环球影城由4个独立园区构成：1)环球影城 Universal Studios Florida——最标准的环球影城，哈利波特的对角巷在这里；2)冒险岛 Universal's Islands of Adventure——项目相对刺激，哈利波特的霍格沃兹城堡在这里；3)史诗宇宙 Universal Epic Universe——2025年新开的乐园，哈利波特魔法部在这里；4)火山湾水上 Universal's Volcano Bay——去的同学不多。环球影城和冒险岛之间有哈利波特主题火车相连，只有购买双园票才能乘坐。"
+    },
+    {
+      "title": "玩几天与购票",
+      "content": "有趣的项目分散在三个乐园，很难割舍。预算和时间有限的话，建议1天跨园区票（主园区玩逃离古灵阁，坐霍格沃兹火车去冒险岛，玩海格摩托）+1天的史诗宇宙票。购票：Klook 选'2个园区1日联票+1日环球史诗宇宙乐园门票'约2700人民币；官网选 2-Day Ticket 的 3 Parks 版本约400美金。两个平台价格一致。"
+    }
+  ],
+  "duration": "建议 2 天",
+  "best_time": "开园前到达，节假日强烈建议购买 Express Pass"
+}

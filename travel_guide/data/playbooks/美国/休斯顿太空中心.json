@@ -1,0 +1,93 @@
+{
+  "name": "休斯顿太空中心",
+  "type": "attraction",
+  "aliases": [
+    "Space Center Houston",
+    "休斯顿航天中心",
+    "NASA约翰逊航天中心"
+  ],
+  "city": "休斯顿",
+  "country": "美国",
+  "summary": "NASA 约翰逊航天中心的官方游客中心，休斯顿最著名的旅游景点。约翰逊航天中心主要负责宇航员训练/载人航天任务控制（佛州肯尼迪航天中心负责火箭发射）。",
+  "facts": [
+    {
+      "k": "营业时间",
+      "v": "周一到周五 10am-6pm",
+      "sub": "周末 9am-6pm"
+    },
+    {
+      "k": "门票",
+      "v": "成人 29.95-39.95 美金",
+      "sub": "儿童 24.95-34.95 美金"
+    },
+    {
+      "k": "玩多久",
+      "v": "4-6 小时",
+      "sub": "建议早上 9am 到达，优先排队参加 Tram Tour"
+    },
+    {
+      "k": "地址",
+      "v": "1601 NASA Pkwy, Houston, Texas",
+      "sub": "距休斯顿市区 27 英里/43 公里，停车费 10 美金"
+    }
+  ],
+  "route": [
+    "休斯顿市区",
+    "休斯顿太空中心"
+  ],
+  "route_note": "距休斯顿市区27英里/43公里，建议早上9am到达。到达后马上去'0.入口'旁的 Guest Services Desk 取一张参加 Astronaut Training Facility Tour 的 Boarding Pass（如约10am的），再去'1.Tour乘车处'排队参加 George W.S. Abbey Rocket Park Tour（约45分钟），随后参加 Astronaut Training Facility Tour（约1小时），接着参观室外展区看航天飞机和猎鹰火箭（约30分钟），在馆内餐厅 Food Lab 用餐，最后游览室内展区，时间充裕可看免费4K科普影片。停车费10美金。",
+  "price": "",
+  "activities": [
+    {
+      "name": "George W.S. Abbey Rocket Park Tour（必去/免费）",
+      "price": "免费",
+      "detail": "Tram Tour 之一，无需预订现场排队参加，用时45分钟。参观火箭公园，可以看到人类建造的最大型火箭——土星5号 Saturn V，80米高、3100多吨重（与39个航天飞机等重），1967-1973年执行了6次登月任务。"
+    },
+    {
+      "name": "Astronaut Training Facility Tour（选去/免费）",
+      "price": "免费",
+      "detail": "Tram Tour 之一，用时60分钟。参观帮助宇航员熟悉空间站的训练设施，科学家也在这里开发下一代太空飞行器。无法提前预订，到达太空中心后马上去 Guest Services Desk 取一张 timed boarding pass。"
+    },
+    {
+      "name": "Historic Mission Control Tour（选去/付费）",
+      "price": "15 美金",
+      "detail": "Tram Tour 之一，用时60分钟。参观第一次登月时使用的控制中心，现场会通过录音/视频还原登月情景。适合'英语好+了解阿波罗计划+比较容易入戏'的同学，否则感觉就是在上课。需要在官网同门票一起预订。"
+    },
+    {
+      "name": "室外展区 Independence Plaza",
+      "price": "含门票",
+      "detail": "约需30分钟。运输机 NASA 905：1970年波音制造，最初是美国航空的747客机，1976年被NASA改为背航天飞机的运输机，上面是独立号航天飞机的全尺寸仿制品，可坐电梯进入参观。一级火箭 SpaceX Falcon 9 Booster：直径3.1米、高47.7米，是已退役的猎鹰9号一级火箭，历史上第一枚可重复使用一级助推器的火箭。"
+    },
+    {
+      "name": "室内展厅 Starship Gallery 星舰展区",
+      "price": "含门票",
+      "detail": "主展区，存放NASA著名飞行器并可触摸月球岩石。著名展品：阿波罗17号指令舱（人类第六次登月）、Mercury 9 'Faith 7'、双子座5号 Gemini V（绕地飞行120圈/7天22小时）、Skylab 1-G Trainer（美国第一架空间站）、世界最大的月球岩石展馆（全球仅8块月球岩石允许公众触摸）、登月舱 Lunar Module LTA-8、宇航服变迁展示。另有国际空间站展区、可触摸火星陨石的 Mission Mars 展区、介绍重返月球计划的 Artemis Exhibit。"
+    },
+    {
+      "name": "Space Center Theater 4K 影院",
+      "price": "免费",
+      "detail": "时间允许可看免费4K科普影片，如《Down to Earth: The Astronaut Perspective》，片长30分钟。"
+    }
+  ],
+  "tips": [
+    "因为需排队/有发车时间限制/上午较凉快，到达太空中心后应优先参加三个 Tram Tour",
+    "建议乘车前上厕所，Tram Tour 行程中禁止吃东西，但可以带水",
+    "约翰逊航天中心主要负责宇航员训练/载人航天任务控制，与佛州负责火箭发射的肯尼迪航天中心不同"
+  ],
+  "sections": [
+    {
+      "title": "景点简介",
+      "content": "休斯顿太空中心，英文名称 Space Center Houston，也被翻译为休斯顿航天中心，是 NASA 约翰逊航天中心的官方游客中心，也是休斯顿最著名的旅游景点。约翰逊航天中心主要负责宇航员训练/载人航天任务控制，佛州的肯尼迪航天中心主要负责火箭发射。"
+    },
+    {
+      "title": "三个 Tram Tour",
+      "content": "共有三个 Tram Tour。因为需排队/有发车时间限制/上午较凉快，到达太空中心后应优先参加。1)George W.S. Abbey Rocket Park Tour（必去/免费/45分钟），看人类最大火箭土星5号；2)Astronaut Training Facility Tour（选去/免费/60分钟），看宇航员训练设施，需现场取 timed boarding pass；3)Historic Mission Control Tour（选去/付费15美金/60分钟），看首次登月控制中心，需官网同门票预订。"
+    },
+    {
+      "title": "土星5号 Saturn V",
+      "content": "火箭公园的镇馆之宝，人类建造的最大型火箭，80米高、3100多吨重（与39个航天飞机等重），1967-1973年执行了6次登月任务。"
+    }
+  ],
+  "duration": "4-6 小时",
+  "best_time": "建议早上 9am 到达，优先排队参加 Tram Tour（上午较凉快）"
+}

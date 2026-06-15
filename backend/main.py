@@ -1455,7 +1455,8 @@ async def get_attraction_playbook(name: str):
         attractions = []
         for a in pb.get("attractions", []):
             a = dict(a)
-            first = img.first_image(a["name"])
+            # 优先用 image_alias（城市页景点名常带英文后缀/+号，与图库名对不上时显式映射）
+            first = img.first_image(a.get("image_alias") or a["name"])
             if first:
                 a["thumb"] = first["url"]
                 if hero is None:

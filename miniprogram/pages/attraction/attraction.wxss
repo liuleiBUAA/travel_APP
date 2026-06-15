@@ -70,7 +70,7 @@ page { background: #f2f4f7; }
   border-radius: 14rpx; display: flex; align-items: center; justify-content: center;
   font-size: 32rpx; font-weight: 700; }
 .day-c { flex: 1; background: #f7f9fb; border-radius: 14rpx; padding: 16rpx 20rpx;
-  font-size: 26rpx; color: #555; line-height: 1.5; }
+  font-size: 26rpx; color: #555; line-height: 1.5; white-space: pre-line; }
 .day-t { display: block; color: #20457c; font-weight: 600; margin-bottom: 4rpx; }
 
 /* ===== 信息条 ===== */
