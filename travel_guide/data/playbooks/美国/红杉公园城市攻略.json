@@ -1,32 +1,191 @@
 {
-  "name": "红杉公园",
+  "name": "红杉国家公园",
   "type": "city",
-  "aliases": [],
-  "city": "红杉公园",
+  "aliases": [
+    "Sequoia & Kings Canyon National Parks",
+    "美洲杉国家公园"
+  ],
+  "city": "红杉国家公园",
   "country": "美国",
-  "summary": "谢尔曼将军树等地表最大生物是核心看点，门户镇Three Rivers住宿方便，冬季进园法律要求随车带防滑链。",
+  "summary": "拥有世界上最大树木的国家公园，包含红杉和国王峡谷两大区域，可观赏巨型红杉、攀登Moro Rock观景、徒步峡谷步道，适合2天1晚深度游览。",
+  "transport": {
+    "fly_train": "",
+    "drive": "距离旧金山约260英里/418公里，距离洛杉矶约204英里/328公里，需4-5小时车程。注意南入口海拔约600米，1小时后升至2100米，山路多弯易晕车。冬季11月初至4月初需携带雪链，看到chains required指示牌时必须安装。",
+    "local": "公园门票35美金/车/7日，非美国居民需额外付100美金/人（16岁以上）。美国国家公园年票：美国居民80美金，非居民250美金，可4人使用。"
+  },
+  "hotels": [
+    {
+      "name": "Comfort Inn & Suites",
+      "area": "Three Rivers",
+      "star": 3,
+      "score": "7.4",
+      "reviews": "2500条评价+",
+      "note": "距离红杉1小时车程，附近餐厅少",
+      "link": ""
+    },
+    {
+      "name": "Sequoia Studio Suites",
+      "area": "Three Rivers",
+      "star": 0,
+      "score": "9.6",
+      "reviews": "300评价+",
+      "note": "距离红杉1小时车程",
+      "link": ""
+    },
+    {
+      "name": "Muniz Village",
+      "area": "Three Rivers",
+      "star": 0,
+      "score": "9.4",
+      "reviews": "150条评价+",
+      "note": "距离红杉1小时车程",
+      "link": ""
+    },
+    {
+      "name": "Wyndham Visalia",
+      "area": "Visalia",
+      "star": 3,
+      "score": "8.1",
+      "reviews": "1400条评价+",
+      "note": "距离红杉1.5小时车程，附近中日韩泰餐齐全",
+      "link": ""
+    },
+    {
+      "name": "Comfort Suites Visalia - Convention Center",
+      "area": "Visalia",
+      "star": 3,
+      "score": "8.4",
+      "reviews": "600条评价+",
+      "note": "距离红杉1.5小时车程",
+      "link": ""
+    },
+    {
+      "name": "Holiday Inn Express Visalia",
+      "area": "Visalia",
+      "star": 3,
+      "score": "8.2",
+      "reviews": "480条评价+",
+      "note": "距离红杉1.5小时车程",
+      "link": ""
+    },
+    {
+      "name": "Sonesta ES Suites Fresno",
+      "area": "Fresno",
+      "star": 3,
+      "score": "8.7",
+      "reviews": "1000条评价+",
+      "note": "从湾区方向来可选，附近餐饮丰富",
+      "link": ""
+    },
+    {
+      "name": "Hotel Piccadilly",
+      "area": "Fresno",
+      "star": 3,
+      "score": "8.3",
+      "reviews": "1900条评价+",
+      "note": "从湾区方向来可选",
+      "link": ""
+    }
+  ],
+  "hotel_intro": "住在小镇Three Rivers距离最近（1小时车程）但设施不完善，小城Visalia是平衡度更佳选择（1.5小时车程），餐饮选择更多。从湾区来也可住Fresno。",
+  "attractions": [
+    {
+      "name": "General Sherman Tree",
+      "order": 1,
+      "tagline": "世界上最大的树，可游览30分钟-2小时",
+      "has_detail": false
+    },
+    {
+      "name": "Big Tree Trail",
+      "order": 2,
+      "tagline": "巨树步道，可游览30分钟",
+      "has_detail": false
+    },
+    {
+      "name": "Tunnel Log",
+      "order": 3,
+      "tagline": "过车树洞，可游览15-30分钟",
+      "has_detail": false
+    },
+    {
+      "name": "Moro Rock",
+      "order": 4,
+      "tagline": "登山步道看日落，可游览1小时",
+      "has_detail": false
+    },
+    {
+      "name": "General Grant Tree",
+      "order": 5,
+      "tagline": "世界第二大红杉树，可游览30分钟",
+      "has_detail": false
+    },
+    {
+      "name": "Hume Lake",
+      "order": 6,
+      "tagline": "湖畔野餐点",
+      "has_detail": false
+    },
+    {
+      "name": "Junction View",
+      "order": 7,
+      "tagline": "公路旁观景点",
+      "has_detail": false
+    },
+    {
+      "name": "Boyden Cavern",
+      "order": 8,
+      "tagline": "标准溶洞，门票约20美金",
+      "has_detail": false
+    },
+    {
+      "name": "Grizzly Falls",
+      "order": 9,
+      "tagline": "公路旁小瀑布",
+      "has_detail": false
+    },
+    {
+      "name": "Roaring River Falls",
+      "order": 10,
+      "tagline": "公路旁小瀑布",
+      "has_detail": false
+    },
+    {
+      "name": "Zumwalt Meadow",
+      "order": 11,
+      "tagline": "山景步道，有『小优胜美地』美称，可游览1-2小时",
+      "has_detail": false
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": "红杉国家公园核心区",
+      "detail": "清晨从洛杉矶/湾区出发，中午到达红杉国家公园。先去General Sherman Tree看世界最大的树并徒步，随后游览Big Tree Trail和Tunnel Log过车树洞，最后前往Moro Rock登山步道看日落。"
+    },
+    {
+      "day": "2",
+      "title": "国王峡谷区域",
+      "detail": "清晨出发前往国王峡谷区域，游览General Grant Tree徒步观赏世界第二大红杉树，在Zumwalt Meadow野餐并徒步欣赏山景，下午返回洛杉矶/湾区。"
+    }
+  ],
   "sections": [
     {
-      "title": "到达与交通",
-      "content": "门户机场是弗雷斯诺FAT（1.5小时到北侧国王峡谷入口）；从洛杉矶自驾约4小时、旧金山约4.5小时到南侧Ash Mountain入口（198号公路，经门户镇Three Rivers）。进园后的Generals Highway盘山路急弯极多，从入口爬升到巨树林区约1小时，超过22英尺的房车禁行部分路段。夏季旺季Giant Forest区停车紧张，可把车停在博物馆停车场坐免费园内shuttle（一般5月底-9月初运行）。红杉与国王峡谷两园联营，一票通用。"
+      "title": "公园概况",
+      "content": "红杉和国王峡谷国家公园（Sequoia & Kings Canyon National Parks）也常被称为美洲杉国家公园，这里可以看到世界上最大的树。公园分为红杉国家公园和国王峡谷国家公园两个独立区域。红杉国家公园全年开放，而国王峡谷国家公园只有General Grant Tree区域全年开放，其他区域从11月中关闭到5月。连接两个公园的Generals Highway在冬季也会关闭。"
     },
     {
-      "title": "住宿与营地",
-      "content": "园内Wuksachi Lodge是唯一酒店（$220-350/晚，旺季提前4-6个月订）。多数人住门户镇Three Rivers（南门外20分钟，汽车旅馆和民宿$120-250/晚，选择最多）或更便宜的Visalia（1小时，$90-150/晚）。营地Lodgepole和Potwisha在recreation.gov预订（$28-32），夏季周末提前数月满。注意Three Rivers海拔仅250米而巨树林区2000米+，夏天山下40度山上25度，住山下要带外套上山。"
+      "title": "海拔与行前准备",
+      "content": "红杉国家公园南入口海拔约600米，但驾车1小时后，在必去景点General Sherman Tree位置海拔就会升到2100米。这个高度不会导致高反，但因海拔急升、山路多弯，很容易晕车，晕车体质的游客需提前服药。建议下载离线地图，带好食物和水。"
     },
     {
-      "title": "必看与门票",
-      "content": "门票$35/车（7天，含国王峡谷），无预约制，America the Beautiful年票（$80）适用。必看：谢尔曼将军树（General Sherman，按体积全球最大单体树，停车场步行下坡800米，回程是爬坡）、Congress Trail环线（3公里，穿行巨杉群，比将军树前人少得多）、Moro Rock（400级台阶凿在花岗岩上，登顶看内华达山脉全景，恐高慎行）、Tunnel Log倒树车洞（可开车穿过拍照）。时间充裕加国王峡谷的Grant Grove看格兰特将军树。"
+      "title": "游览建议",
+      "content": "至少安排2天1晚。建议Day1按顺序游览红杉区域：先去General Sherman Tree看大树/徒步，最后去Moro Rock看日落。Day2清晨前往国王峡谷区域，游览General Grant Tree徒步和Zumwalt Meadow野餐，下午返程。红杉区域推荐景点包括General Sherman Tree、Tunnel Log和Moro Rock。国王峡谷区域推荐General Grant Tree和Zumwalt Meadow，后者有『小优胜美地』的美称。"
     },
     {
-      "title": "餐饮补给",
-      "content": "园内仅Lodgepole游客中心旁有小超市和快餐（夏季营业，汉堡三明治$12-18），Wuksachi Lodge有正餐厅。最实际的做法：在Three Rivers的超市或Visalia大超市买好午餐食材和水进园，巨树林区野餐区很多。园内没有加油站，进园前在Three Rivers（贵）或Visalia（便宜）加满油，山路弯多耗油比平路高。海拔2000米+徒步消耗大，多备水和高热量零食。"
-    },
-    {
-      "title": "实用贴士",
-      "content": "冬季（约11月-次年4月遇雪时）进园法律要求随车携带防滑链（R2级别时四驱+雪胎也得带链备查），租车公司不提供，Three Rivers镇上可买（$50-80）或租，不带链被拦回是常事；Generals Highway两园之间路段冬季常临时封闭，行前查nps.gov/seki路况。黑熊密度高，食物绝不能留在车内，停车场都有熊箱。山路弯多易晕车，备晕车药。手机信号园内基本没有，离线地图先下好。夏季午后偶有雷暴，Moro Rock打雷时禁止攀登。"
+      "title": "冬季游览",
+      "content": "冬天也可以来玩，巨大的红杉在雪中看起来像圣诞树一样。冬季最适合游览红杉国家公园区域，国王峡谷内多数公路可能关闭。加州法律规定11月初至4月初，所有机动车都必须携带雪链（snow chains），并在看到chains required指示牌时安装。公园附近有出租（50美金/天）或可提前在Amazon/Walmart购买。"
     }
   ],
   "duration": "1-2天",
-  "best_time": "6-9月，山路无雪全线开放、shuttle运行，高海拔林区气温舒适适合徒步。"
+  "best_time": "6-9月，山路无雪全线开放、shuttle运行，高海拔林区气温舒适适合徒步"
 }

@@ -87,11 +87,13 @@ CITY_SCHEMA = '''{
 ATTR_SCHEMA = '''{
   "name":"景点名","type":"attraction","aliases":["别名/外文名"],"city":"所在城市","country":"国家",
   "summary":"1-2句景点定位",
-  "facts":{"海拔/规模等关键事实":"值"},
-  "price":"门票价格（仅写素材明确标注的）",
-  "activities":["可做的活动/看点"],
-  "tips":["实用贴士"],
-  "sections":[{"title":"","content":"详细散文"}],
+  "facts":[{"k":"事实名(如门票/开放时间/参观时长/容纳人数/建成年代/规模)","v":"核心值","sub":"补充说明"}],
+  "route":["交通节点1(如地铁Colosseo站)","节点2","景点"],
+  "route_note":"怎么到达的详细散文——把素材里的地铁/公交/电车/步行全部写进来，逐字保留线路号和站名",
+  "price":"门票价格（仅写素材明确标注的该景点价格）",
+  "activities":[{"name":"玩法/看点名","price":"价格或季节(可空)","detail":"具体怎么玩，逐字来自素材，含时长/路线/费用"}],
+  "tips":["实用贴士(安检/导览APP/最佳机位/餐厅人均等)"],
+  "sections":[{"title":"","content":"详细散文(历史/建筑/周边体验等长内容)"}],
   "duration":"","best_time":""
 }'''
 
@@ -105,16 +107,21 @@ schema（瑞士样板）：
 4. hotels只填素材真实推荐的（含星级评分评价数），没有给[]。star是数字（无星级填0）。
 5. attractions按素材顺序，tagline浓缩亮点/时长。
 6. transport三段从"如何到达/市内交通/地铁"提炼真实线路票价。
-7. 只输出JSON，无解释无markdown标记。务必输出完整闭合的JSON。'''
+7. 只输出JSON，无解释无markdown标记。务必输出完整闭合的JSON。
+8. 【引号铁律】JSON字符串值内部若要引用中文词语/称号，一律用中文引号「」或『』，绝对禁止使用英文半角双引号"，否则会破坏JSON。'''
 
 SYS_ATTR = f'''你是旅游攻略数据工程师。根据【源站原始攻略素材】把景点攻略改写成结构化JSON，严格对齐schema。
-schema（瑞士样板）：
+schema（瑞士样板，严格对齐字段类型）：
 {ATTR_SCHEMA}
 铁律（违反=数据作废）：
-1. 只用素材里真实信息。价格/海拔/规模/开放时间等必须逐字来自素材。
+1. 只用素材里真实信息。价格/海拔/规模/开放时间/交通线路等必须逐字来自素材。
 2. price只写素材明确标注的该景点价格，没有就留""，绝不编造或借用别处价格。
-3. facts/activities/tips只填素材里有的，没有就留空。
-4. 只输出JSON，无解释无markdown标记。务必输出完整闭合的JSON。'''
+3. 【facts必须是数组[{{"k","v","sub"}}]，每条都要有v(具体值)，不能只写k】。把素材里的门票/开放时间/参观时长/建成年代/规模/容纳人数等做成facts条目。
+4. 【activities必须是数组[{{"name","price","detail"}}]，detail要写清怎么玩】，不能只给动作名。
+5. 【交通信息必须进route+route_note】：素材里的地铁线路/站名/公交号/电车/步行距离全部搬进route_note，绝不能丢。
+6. facts/activities/tips/route只填素材里有的，没有就留空数组。
+7. 只输出JSON，无解释无markdown标记。务必输出完整闭合的JSON。
+8. 【引号铁律】JSON字符串值内部引用中文词语/称号一律用中文引号「」或『』，绝对禁止英文半角双引号"，否则破坏JSON。'''
 
 def _invoke(system, user, max_tokens=8192):
     body={"anthropic_version":"bedrock-2023-05-31","max_tokens":max_tokens,
@@ -129,6 +136,16 @@ def _clean(txt):
     txt=re.sub(r'```$','',txt).strip()
     return txt
 
+def _repair_json(txt):
+    """容错修复：把中文文本内未转义的半角双引号替换为中文引号。
+    策略：JSON结构性引号总是紧邻 : , { } [ ] 空白或行首/尾。
+    对出现在中文字符之间的半角"（前后都是非结构字符）替换为「」。"""
+    # 简单启发式：值内部出现 汉字"汉字 形式的引号，转成中文引号
+    txt2 = re.sub(r'(?<=[\u4e00-\u9fff])"(?=[\u4e00-\u9fff])', '」', txt)
+    # 上一步只处理闭引号，开引号也处理：汉字前的"若其后是汉字
+    # 更稳妥：成对替换 —— 先标记结构引号难，退而用 json5 风格不可行。
+    return txt2
+
 def parse_json_retry(system, user, label):
     """调用并解析JSON，截断/解析失败重试一次（更大token + 提示精简）。"""
     for attempt in range(2):
@@ -136,7 +153,11 @@ def parse_json_retry(system, user, label):
         try:
             raw_out=_invoke(system,user,mt)
             txt=_clean(raw_out)
-            return json.loads(txt)
+            try:
+                return json.loads(txt)
+            except json.JSONDecodeError:
+                # 容错修复未转义中文内半角引号后再试
+                return json.loads(_repair_json(txt))
         except json.JSONDecodeError as e:
             log(f"  [{label}] JSON解析失败(尝试{attempt+1}): {e}")
             if attempt==0:

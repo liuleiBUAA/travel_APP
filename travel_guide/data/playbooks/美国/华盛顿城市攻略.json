@@ -1,30 +1,170 @@
 {
   "name": "华盛顿",
   "type": "city",
-  "aliases": [],
+  "aliases": [
+    "华盛顿特区",
+    "Washington D.C.",
+    "Washington District of Columbia"
+  ],
   "city": "华盛顿",
   "country": "美国",
-  "summary": "Smithsonian免费博物馆群+国家广场纪念碑一条线，两天可走完核心；国会山和部分馆需提前预约，樱花季住宿要早订。",
+  "summary": "美国首都，景点免费且集中在National Mall区域，地铁整洁安全是全美最佳。春季樱花盛开、秋季天高气爽，暴走打卡博物馆群与地标建筑，2-3天轻松逛完。",
+  "transport": {
+    "fly_train": "里根国家机场DCA：地铁蓝线/黄线直达市区约25分钟/2.7美金，Uber约25美金/10分钟；杜勒斯国际机场IAD：地铁银线1小时直达市区/6.75美金，Uber约70美金/30-40分钟。从纽约可乘火车Northeast Regional约3.5小时/70-140美金（Amtrak，越早订越便宜），或巴士4-5小时/20-40美金。",
+    "drive": "距纽约225英里/362公里，自驾5-6小时，过路费约30美金。市区停车难，建议用SpotHero提前订车位。",
+    "local": "地铁票价2.25-6.75美金（按时间距离计费），可直接刷Visa/Mastercard信用卡或Apple Pay/Google Pay进站，是全美最干净安全的地铁系统。景点集中可暴走，打Uber也不贵，不建议共享单车。"
+  },
+  "hotels": [
+    {
+      "name": "Holiday Inn Washington Capitol-National Mall",
+      "area": "L'Enfant Plaza Station附近",
+      "star": 3,
+      "score": "8.1",
+      "reviews": "2500条评价+",
+      "note": "挨着地铁站，楼下是星巴克和麦当劳，步行10分钟到航空航天博物馆，15分钟到国家美术馆",
+      "link": ""
+    },
+    {
+      "name": "citizenM Washington DC Capitol",
+      "area": "L'Enfant Plaza Station附近",
+      "star": 4,
+      "score": "8.8",
+      "reviews": "4000条评价+",
+      "note": "走3分钟到地铁，房间新但较小",
+      "link": ""
+    },
+    {
+      "name": "State Plaza Hotel",
+      "area": "Foggy Bottom-GWU Station学区商务区",
+      "star": 4,
+      "score": "8.6",
+      "reviews": "4400条评价+",
+      "note": "步行10分钟到地铁，性价比高，多数房型带小厨房，步行10分钟有Whole Foods和Trader Joe's超市",
+      "link": ""
+    },
+    {
+      "name": "Washington Plaza Hotel",
+      "area": "",
+      "star": 4,
+      "score": "8.4",
+      "reviews": "4100条评价+",
+      "note": "步行10分钟内到地铁，房价比A区便宜",
+      "link": ""
+    }
+  ],
+  "hotel_intro": "推荐住National Mall景区附近，治安好交通便利。L'Enfant Plaza是5条地铁换乘枢纽，步行15分钟内可达多个博物馆；Foggy Bottom-GWU学区有超市生活便利；Dupont Circle可体验华盛顿日常生活氛围，距景区约10分钟车程。樱花季可住Tidal Basin湖旁方便清晨赏花。",
+  "attractions": [
+    {
+      "name": "林肯纪念堂",
+      "order": 1,
+      "tagline": "免费地标级景点，可安排15分钟",
+      "has_detail": false
+    },
+    {
+      "name": "华盛顿纪念碑",
+      "order": 2,
+      "tagline": "免费地标，登顶需预约，可安排30分钟",
+      "has_detail": false
+    },
+    {
+      "name": "国家自然历史博物馆",
+      "order": 3,
+      "tagline": "免费，可安排2-4小时",
+      "has_detail": false
+    },
+    {
+      "name": "国家美术馆",
+      "order": 4,
+      "tagline": "免费，可安排2-4小时",
+      "has_detail": false
+    },
+    {
+      "name": "国家航空航天博物馆",
+      "order": 5,
+      "tagline": "免费但需预约，可安排2小时",
+      "has_detail": false
+    },
+    {
+      "name": "国家植物园",
+      "order": 6,
+      "tagline": "免费，可安排30分钟-1小时",
+      "has_detail": false
+    },
+    {
+      "name": "国会大厦",
+      "order": 7,
+      "tagline": "免费需预约，可安排1.5小时",
+      "has_detail": false
+    },
+    {
+      "name": "国会图书馆",
+      "order": 8,
+      "tagline": "免费需预约，周一和周日不开放，可安排30分钟",
+      "has_detail": false
+    },
+    {
+      "name": "暗门博物馆",
+      "order": 9,
+      "tagline": "门票30美金，可安排1-2小时",
+      "has_detail": false
+    },
+    {
+      "name": "间谍博物馆",
+      "order": 10,
+      "tagline": "门票33美金，可安排2小时",
+      "has_detail": false
+    },
+    {
+      "name": "Tidal Basin湖樱花",
+      "order": 11,
+      "tagline": "3月底至4月初樱花季，环湖约3750棵樱花树，步行环湖1.5-2小时，建议7am到达避开人潮",
+      "has_detail": false
+    },
+    {
+      "name": "Georgetown",
+      "order": 12,
+      "tagline": "距National Mall 10分钟车程，欧洲风情城区，逛街吃喝集中在M Street",
+      "has_detail": false
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": "地标打卡日",
+      "detail": "中午到达，下午打卡林肯纪念堂、华盛顿纪念碑和白宫"
+    },
+    {
+      "day": "2",
+      "title": "博物馆与购物日",
+      "detail": "上午参观国家自然历史博物馆（可顺访旁边免费俯瞰市区的Clocktower & Museum），下午参观国家美术馆，然后去Georgetown逛街"
+    },
+    {
+      "day": "3",
+      "title": "国会与航空日",
+      "detail": "上午参观国会大厦和国会图书馆，下午参观国家航空航天博物馆（对航空真正感兴趣可改去距市区较远的Steven F. Udvar-Hazy Center）"
+    },
+    {
+      "day": "4",
+      "title": "查漏补缺日",
+      "detail": "上午查漏补缺或二刷喜欢的景点，下午返程"
+    }
+  ],
   "sections": [
     {
-      "title": "到达与市内交通",
-      "content": "里根国家机场（DCA）离市区最近，地铁黄/蓝线20分钟直达市中心；杜勒斯（IAD）坐地铁银线约1小时。市内地铁用SmarTrip卡或手机NFC直接刷，按里程计价2-6美元。国家广场（National Mall）东西绵延3公里多，博物馆之间步行为主，走累了用Capital Bikeshare共享单车（站点密集）。林肯纪念堂离最近地铁站也要走15分钟，安排行程留足步行量。"
+      "title": "城市概况",
+      "content": "华盛顿哥伦比亚特区是美国首都，直接隶属于联邦政府不属于任何州。Washington是美国第一任总统的名字，Columbia指发现美洲大陆的哥伦布。因美国还有华盛顿州（西雅图所在地），美国人更愿简称其为D.C。城市的主要景点门票免费，市容和地铁整洁度明显强于纽约，有大量政府机构和公务员。建筑多为欧洲式样，但欧洲游客会觉得山寨。"
     },
     {
-      "title": "住宿建议",
-      "content": "市中心Penn Quarter/Gallery Place到国家广场步行10分钟，位置最佳。Foggy Bottom靠近林肯纪念堂和乔治城，安静且地铁方便。预算有限住阿灵顿（弗吉尼亚一侧），蓝/橙线两三站过河，价格低三成。避免Anacostia河东南区域。樱花季（3月底-4月初）全城房价翻倍，需提前两三个月锁定。"
+      "title": "樱花季特别体验",
+      "content": "每年3月底至4月初是华盛顿最美时节，Tidal Basin湖边约3750棵樱花树盛开（多数是偏白色的吉野樱）。樱花满开Peak Bloom只能维持1-2天，整个『初开>满开>掉落』周期仅7天。最佳赏樱时间是早上7am左右到达，8am后人潮爆满。地铁蓝线/橙线的Smithsonian Station是最近地铁站，打车可将Jefferson Memorial作为目的地。樱花满开时附近会封路堵车，自驾需早起抢街趴或用SpotHero预订停车场。错过市区花期可去北边20-30分钟车程的Kenwood社区，那里是富人区樱花街道，游客少且花期晚几天。樱花节期间3月20日-4月12日会举办系列活动，最受欢迎的是4月11日的樱花节大游行，队伍沿Constitution Avenue由东向西前进，免费观赏区在9th到15th街之间。这些樱花是日本在1912年为表达友谊赠送的3020株，多个品种，但1941年日本偷袭珍珠港，1945年美国给日本扔了原子弹，友谊的小船说翻就翻。"
     },
     {
-      "title": "必看与通票",
-      "content": "Smithsonian旗下19个博物馆全部免费、无需门票，但非裔美国人历史博物馆（NMAAHC）需官网预约免费时段票，旺季提前30天放票即抢。航空航天博物馆同样要预约免费时段。国家美术馆、自然历史博物馆直接进。国会大厦内部参观在visitthecapitol.gov预约免费tour；白宫内部参观需通过本国使馆提前数月申请，多数游客在围栏外拍照即可。纪念碑群（林肯、二战、马丁路德金、杰斐逊）傍晚到夜间灯光最美且免费。"
+      "title": "餐饮与购物",
+      "content": "因餐厅众多且众口难调，建议用地理位置关键词在Yelp或小红书搜索。中餐聚集地不在市区中国城（脏乱差选择少），更建议去距市区20英里/25分钟车程的Rockville（戏称『石家庄』）。韩餐聚集地在距市区11英里/16分钟车程的韩国城Annandale。逛街可去距National Mall 10分钟车程的Georgetown，这是颇有欧洲风情的城区，可用Blue Bottle Coffee定位，多数店铺集中在它附近的M Street上。"
     },
     {
-      "title": "美食",
-      "content": "Ben's Chili Bowl的half-smoke热狗是本地招牌，奥巴马也去吃。乔治城（Georgetown）M街适合边逛边吃，Georgetown Cupcake常排队。联合市场（Union Market）和The Wharf海鲜市场适合午餐，后者的生蚝和蓝蟹是切萨皮克湾特产。博物馆内餐厅贵且一般，建议出来到Penn Quarter一带吃，人均15-30美元。"
-    },
-    {
-      "title": "实用贴士",
-      "content": "博物馆全部过安检，背大包会排长队，轻装出门。国家广场区域厕所少，进博物馆顺便解决。樱花最佳观赏点在潮汐湖（Tidal Basin）西岸，清晨6-7点人最少；花期只有一周左右，行前查NPS官方花期预报。夏天湿热如蒸笼，博物馆冷气足带件外套。市中心白天治安好，夜间避开偏僻街区。"
+      "title": "与纽约的连接",
+      "content": "纽约与华盛顿距离约225英里/362公里，有四种交通方式：巴士车程4-5小时/20-40美金，性价比最高，运营公司有Flixbus、PeterPan等，多在Washington Union Station发车；火车Amtrak的Northeast Regional约3.5小时/70-140美金，Acela约2.5小时/130-250美金，越早订越便宜，纽约从Moynihan Train Hall at Penn Station发车，舒适度最高最推荐；自驾5-6小时，过路费约30美金；飞机航程1小时15分钟但加上机场交通候机需3-4小时，单程机票约100美金起。2025年8月起新版Acela列车在部分班次投入运营，由法国Alstom生产在纽约州工厂组装，是美国首次在本土制造的高铁，运行更平稳座椅更宽但时速仅160英里。"
     }
   ],
   "duration": "2-3天",

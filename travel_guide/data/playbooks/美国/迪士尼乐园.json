@@ -1,0 +1,124 @@
+{
+  "name": "迪士尼乐园",
+  "type": "attraction",
+  "aliases": [
+    "加州迪士尼",
+    "Disneyland"
+  ],
+  "city": "洛杉矶",
+  "country": "美国",
+  "summary": "世界上第一家迪士尼乐园，1955年建立，由迪士尼乐园和迪士尼加州冒险乐园两个门对门的园区组成，拥有经典项目和独家星球大战园区。",
+  "facts": [
+    {
+      "k": "门票价格",
+      "v": "成人104-149美金",
+      "sub": "官网或Klook购票，价格相同，支持微信/支付宝"
+    },
+    {
+      "k": "建成年代",
+      "v": "1955年",
+      "sub": "迪士尼乐园Disneyland Park是世界上第一家迪士尼乐园；迪士尼加州冒险乐园Disney California Adventure于2001年建立"
+    },
+    {
+      "k": "参观时长",
+      "v": "1-2天",
+      "sub": "建议每个乐园各安排1天"
+    },
+    {
+      "k": "停车费",
+      "v": "35美金/天",
+      "sub": "停车场比乐园早开放30分钟，停车后记得拍照"
+    },
+    {
+      "k": "Lightning Lane Single Pass价格",
+      "v": "18-35美金",
+      "sub": "仅针对星战Rise of the Resistance和汽车总动员Radiator Springs Racers两个项目，只能当天用APP购买"
+    },
+    {
+      "k": "Lightning Lane Multi Pass价格",
+      "v": "34美金起/天",
+      "sub": "针对普通项目，可买门票时购买或当天用APP购买，1次只能约1个项目但当天可约多次"
+    }
+  ],
+  "route": [
+    "洛杉矶机场",
+    "洛杉矶市区",
+    "迪士尼乐园"
+  ],
+  "route_note": "从洛杉矶机场到迪士尼自驾约需35-50分钟，打Uber约需50-70美金。从洛杉矶市区到迪士尼自驾约需35-90分钟，经常堵车。自驾停车场地址搜索Mickey & Friends Parking Structure，停车后有免费Tram到乐园（已恢复运营）。",
+  "price": "成人104-149美金",
+  "activities": [
+    {
+      "name": "迪士尼乐园Disneyland Park游玩",
+      "price": "含在门票内",
+      "detail": "游客最多的经典园区，和上海迪士尼类似但有独家星球大战园区。包含Autopia、Big Thunder Mountain Railroad（巨雷山过山车）、Buzz Lightyear Astro Blasters、Haunted Mansion（幽灵公馆）、Indiana Jones Adventure（夺宝奇兵）、it's a small world、Matterhorn Bobsleds（雪山过山车）、Mickey & Minnie's Runaway Railway（米奇铁路）、Millennium Falcon: Smugglers Run、Pirates of the Caribbean、Space Mountain（飞跃太空山）、Star Tours、Tiana's Bayou Adventure（蒂安娜河口冒险）等项目。"
+    },
+    {
+      "name": "迪士尼加州冒险乐园Disney California Adventure游玩",
+      "price": "含在门票内",
+      "detail": "2001年建立，补充了一些主题，相对适合成年人和大孩子。包含Goofy's Sky School、Grizzly River Run（灰熊激流泛舟）、Guardians of the Galaxy（银河护卫队跳楼机）、Incredicoaster（过山车）、The Little Mermaid、Soarin' Around the World（飞跃地平线）、Toy Story Midway Mania!、WEB SLINGERS: A Spider-Man Adventure（蜘蛛侠）、Radiator Springs Racers（汽车总动员）等项目。飞跃地平线在夏季会改为飞跃加州。"
+    },
+    {
+      "name": "观看花车巡游",
+      "price": "免费",
+      "detail": "迪士尼乐园有花车巡游，路线从小小世界到公园入口。花车巡游不是每天都有，具体需查看官网每日活动时间表。"
+    },
+    {
+      "name": "观看烟花表演Wondrous Journeys",
+      "price": "免费",
+      "detail": "仅迪士尼乐园有烟花表演，夏季/节假日每天，淡季周五到周日，晚上9pm或9:30pm，持续10-15分钟，取决于具体日期。最佳观赏地点在Main Street, U.S.A.（睡美人城堡前的区域）。"
+    },
+    {
+      "name": "观看水幕灯光秀World of Color",
+      "price": "免费或付费套餐",
+      "detail": "加州冒险乐园的水幕灯光秀，晚上9pm/10:15pm，持续约23分钟，取决于具体日期。最佳位置在湖北面（小美人鱼项目前），需中午12点开始用APP抢免费Virtual Queue或付费购买World of Color Dining Package或World of Color Dessert Party。"
+    },
+    {
+      "name": "角色主题餐厅用餐",
+      "price": "35-149美金/人",
+      "detail": "Plaza Inn（35-60美金/人，常驻角色米妮，可能还有维尼、跳跳虎、奇奇&蒂蒂）、Goofy's Kitchen（35-60美金/人，常驻角色高飞，可能还有米妮、布鲁托、奇奇&蒂蒂）、Storytellers Cafe（35-60美金/人，常驻角色米奇，可能还有米妮、布鲁托、奇奇&蒂蒂）、Disney Princess Breakfast Adventures（149美金/人，常驻公主Jasmine、Belle、Cinderella、Rapunzel、Ariel、Aurora、Mulan）。建议在官方APP上预订，最早可提前60天。"
+    },
+    {
+      "name": "购买Lightning Lane快速通道",
+      "price": "18-35美金（LLS）或34美金起/天（LLM）",
+      "detail": "Lightning Lane Single Pass仅针对星战Rise of the Resistance和汽车总动员两个项目，18-35美金，只能当天用APP购买，1个Pass只能约1个项目用完作废。Lightning Lane Multi Pass针对普通项目34美金起/天，可买门票时或当天用APP购买，1次只能约1个项目但当玩完1个项目或约了1个项目2小时后可再约下一个，如此循环。购买LLM后可免费下载玩项目时拍的照片，园区内也可找摄影师免费拍照。"
+    }
+  ],
+  "tips": [
+    "避开节假日，工作日人少，游玩体验更好",
+    "营业时间和每日活动请查看官网，不同日期会有变化",
+    "停车费35美金/天，停车场比乐园早开放30分钟，停车后务必拍照记录位置",
+    "迪士尼允许自带无需加热的食品、零食和饮料（不能是玻璃容器或酒精饮品）",
+    "园区多处可免费接饮用水（请自带水壶），去餐厅还可免费要到杯子和冰块",
+    "入口处可租婴儿推车15美金/天，也可自带但尺寸要在31英寸x52英寸/79cmx132cm之内",
+    "部分项目支持Rider Switch机制，解决家庭成员因身高限制无法一起游玩的问题，全家一起排队，找工作人员分为A/B两组，A组玩后B组无需再次排队",
+    "2026年复仇者联盟园区上半年可能新增两个项目，年底可能开放新的阿凡达主题区",
+    "花车巡游和烟火表演不是每天都有，具体请查看官网每日活动时间表",
+    "角色餐厅建议在官方APP上预订，最早可提前60天下手",
+    "每个园区都有40家以上餐厅，可用官方APP预约点餐"
+  ],
+  "sections": [
+    {
+      "title": "乐园组成",
+      "content": "加州洛杉矶迪士尼乐园由门对门的两个乐园组成。迪士尼乐园Disneyland Park是游客最多、最经典的园区，和上海迪士尼乐园类似但有独家星球大战园区，1955年建立，是世界上第一家迪士尼乐园。迪士尼加州冒险乐园Disney California Adventure于2001年建立，补充了一些主题，相对适合成年人和大孩子玩。门票成人104-149美金，可在官网或Klook购票（支持微信/支付宝），价格相同。营业时间和每日活动请查看官网。建议每个乐园各安排1天游玩。"
+    },
+    {
+      "title": "住宿推荐",
+      "content": "迪士尼乐园一共有4个主题酒店，但价格贵。附近性价比高的酒店有Alpine Inn（步行10分钟到迪士尼，免费停车，★★评分9.1分2200条评价+）、Alamo Inn and Suites - Convention Center（步行15-20分钟到迪士尼，免费停车，★★评分8.9分2500条评价+）。距离近的酒店有Grand Legacy At The Park（步行5分钟到迪士尼，停车费22美金/天，评分8.2分2900条评价+）、Anaheim Desert Inn & Suites（步行5分钟到迪士尼，停车费22美金/天，评分8.3分2600条评价+）。"
+    },
+    {
+      "title": "快速通道系统",
+      "content": "迪士尼所有项目的入口都分为普通通道和快速通道Lightning Lane，后者排队时间短但需要花钱买Pass才能走。有两种Pass可选择且不是二选一关系，钱多可以都买。Lightning Lane Single Pass（LLS）仅针对迪士尼乐园星战园区的Star Wars: Rise of the Resistance和迪士尼加州冒险乐园的汽车总动员Radiator Springs Racers两个项目，价格18-35美金，只能当天用Disneyland APP购买，1个LLS Pass只能约1个项目用完作废且当天不能再次购买。Lightning Lane Multi Pass（LLM）针对普通项目，价格34美金起/天，可在买门票时购买或当天用Disneyland APP购买，1次只能约1个项目但当天可以约多次，当玩完1个项目或约了1个项目2小时后才可以再约下一个项目如此循环。购买LLM后可以免费下载玩项目时拍的照片，在园区内也可以找摄影师免费拍照。"
+    },
+    {
+      "title": "表演活动",
+      "content": "花车巡游和烟火表演不是每天都有，具体需查看官网。迪士尼乐园有花车巡游，路线是从小小世界到公园入口。迪士尼乐园也有烟花表演Wondrous Journeys，表演时间为夏季/节假日每天、淡季周五到周日，晚上9pm或9:30pm，持续10-15分钟取决于具体日期，观赏地点在Main Street, U.S.A.（睡美人城堡前的区域）。加州冒险乐园没有烟花但有水幕灯光秀World of Color，表演时间晚上9pm/10:15pm持续约23分钟取决于具体日期，最好的位置在湖北面（小美人鱼项目前），需要中午12点开始用APP抢免费的Virtual Queue或者付费购买World of Color Dining Package或者World of Color Dessert Party。"
+    },
+    {
+      "title": "餐饮指南",
+      "content": "迪士尼允许自带无需加热的食品、零食和饮料（不能是玻璃容器或酒精饮品）。迪士尼乐园有很多地方可免费接饮用水（请自带水壶），去餐厅还可以免费要到杯子和冰块。迪士尼每个园区都有40家以上的餐厅，可以用官方APP预约点餐。有些餐厅会有卡通角色出场，建议在官方APP上预订（最早可提前60天下手）。Plaza Inn（35-60美金/人，常驻角色是米妮，可能还有维尼、跳跳虎、奇奇&蒂蒂）、Goofy's Kitchen（35-60美金/人，常驻角色是高飞，可能还有米妮、布鲁托、奇奇&蒂蒂）、Storytellers Cafe（35-60美金/人，常驻角色是米奇，可能还有米妮、布鲁托、奇奇&蒂蒂）、Disney Princess Breakfast Adventures（149美金/人，常驻公主是Jasmine、Belle、Cinderella、Rapunzel、Ariel、Aurora、Mulan）。"
+    }
+  ],
+  "duration": "1-2天",
+  "best_time": "避开节假日，工作日人少"
+}

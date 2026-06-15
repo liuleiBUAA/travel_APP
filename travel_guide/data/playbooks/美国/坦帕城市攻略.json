@@ -1,30 +1,134 @@
 {
   "name": "坦帕",
   "type": "city",
-  "aliases": [],
+  "aliases": [
+    "Tampa"
+  ],
   "city": "坦帕",
   "country": "美国",
-  "summary": "布希花园过山车+全美顶级白沙清水滩+雪茄老城Ybor，适合奥兰多行程的延伸站；景点分散必须自驾。",
+  "summary": "佛州第三大城市，以比迈阿密更白更细的沙滩和绝美日落著称。周边分散海滩度假区、艺术博物馆与海牛栖息地，适合海滩休闲+自然探索。",
+  "transport": {
+    "fly_train": "Tampa International Airport距Clearwater Beach约32公里/40分钟车程，Uber约50美金",
+    "drive": "距奥兰多174公里/约2小时车程，可自驾或乘Flixbus大巴往返",
+    "local": "无公共交通覆盖主要景点，需自驾或Uber；Clearwater Beach街趴3.5美金/小时，停车场3美金/小时"
+  },
+  "hotels": [
+    {
+      "name": "Hyatt Regency Clearwater Beach Resort & Spa",
+      "area": "Clearwater Beach",
+      "star": 4,
+      "score": "8.5",
+      "reviews": "990条评价+",
+      "note": "海景房，步行至白沙滩",
+      "link": ""
+    },
+    {
+      "name": "La Quinta by Wyndham Clearwater Central",
+      "area": "Clearwater Central",
+      "star": 3,
+      "score": "8.4",
+      "reviews": "2434条评价+",
+      "note": "距海滩15分钟车程，经济实惠",
+      "link": ""
+    }
+  ],
+  "hotel_intro": "推荐住Clearwater Beach地标海滩区，步行范围内有白沙滩、人气餐厅和出海码头。预算高选海景房酒店，预算有限可住距海滩15分钟车程的区域。",
+  "attractions": [
+    {
+      "name": "Clearwater Beach",
+      "order": 1,
+      "tagline": "2.5英里长白沙滩，以「面粉沙」和无敌日落景观为特色，可出海看海豚追浪（Little Toot Dolphin Adventure 37美金/人/1.5小时），游玩2小时+",
+      "has_detail": false
+    },
+    {
+      "name": "Salvador Dalí Museum",
+      "order": 2,
+      "tagline": "西班牙外收藏达利作品最多的展馆，95张油画+100张水彩画+1300件艺术品，游玩30分钟-1小时。成人32美金",
+      "has_detail": false
+    },
+    {
+      "name": "The John and Mable Ringling Museum of Art",
+      "order": 3,
+      "tagline": "坦帕最美博物馆，马戏团大亨庄园，收藏大型欧洲绘画和世界最大马戏团模型，花园适合拍照，游玩2-3小时。成人30美金",
+      "has_detail": false
+    },
+    {
+      "name": "Siesta Beach",
+      "order": 4,
+      "tagline": "99%石英成分沙滩，比Clearwater Beach更白更细，曾被Tripadvisor评为全美No.1沙滩，游玩1-2小时",
+      "has_detail": false
+    },
+    {
+      "name": "Honeymoon Island State Park",
+      "order": 5,
+      "tagline": "原始海滩捡贝壳圣地，Low Tide前1小时到Low Tide之间最佳，游玩30分钟-1小时。8美金/车",
+      "has_detail": false
+    },
+    {
+      "name": "Weeki Wachee Springs",
+      "order": 6,
+      "tagline": "距离最近的看海牛地点（11月中-3月底），水质玄学，可跟团玻璃船（85美金/2小时）或公园内租船（35美金/1.5小时）",
+      "has_detail": false
+    },
+    {
+      "name": "Crystal River",
+      "order": 7,
+      "tagline": "海牛数量最多区域（11月中-3月底运营），可划船（89美金/2小时）或浮潜与海牛同游（65美金/3小时）",
+      "has_detail": false
+    },
+    {
+      "name": "Silver Springs State Park",
+      "order": 8,
+      "tagline": "环境最自然的看海牛地点，水清景美动物多，可跟团玻璃船（75美金/2小时）或公园内租船（40美金/2小时）",
+      "has_detail": false
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": "抵达Clearwater Beach",
+      "detail": "中午到达坦帕，下午在Clearwater Beach散步白沙滩，参加Little Toot Dolphin Adventure看海豚追浪（避开日落时段，海豚少不爱跳）"
+    },
+    {
+      "day": "2",
+      "title": "南下探索最美景点",
+      "detail": "前往The John and Mable Ringling Museum of Art欣赏名画和马戏团模型（2-3小时），继续南下到Siesta Beach体验全美No.1白沙滩（1-2小时）"
+    },
+    {
+      "day": "3",
+      "title": "北上看海牛",
+      "detail": "根据兴趣选择Weeki Wachee Springs、Crystal River或Silver Springs State Park看海牛（注意：只有11月中到3月底才有大概率看到海牛）"
+    },
+    {
+      "day": "4",
+      "title": "返程或继续佛州行程",
+      "detail": "回家或前往佛州其他区域"
+    }
+  ],
   "sections": [
     {
-      "title": "到达与市内交通",
-      "content": "坦帕机场（TPA）评价常年全美前列，提车出发是标准动作——布希花园在城北、清水滩在西边跨海30-45分钟、Ybor城在市区东侧，没有车几乎玩不了。从奥兰多自驾过来走I-4约1.5小时，很多人把坦帕安排成奥兰多之后的海滩段。市区内有免费电车TECO Line连接Downtown和Ybor城，是少数不用开车的路线。"
+      "title": "坦帕：佛州西岸的白沙天堂",
+      "content": "坦帕是佛罗里达州人口第三多的城市，但对游客而言，「坦帕」指的是分散在周边的海滩与景区集群。相比迈阿密，这里拥有更白、更细的沙滩和更美的日落景观。城市本身可以跳过，真正的精华在于那些散落在墨西哥湾沿岸的度假胜地。"
     },
     {
-      "title": "住宿建议",
-      "content": "玩法决定住处：以海滩为主直接住Clearwater Beach或St. Pete Beach的海滨酒店，日落就在阳台外，旺季250美元起；以布希花园为主住城北Busch Blvd沿线连锁酒店，100美元出头。市中心Water Street新开发区酒店新、餐厅多，适合一晚过渡。圣彼得堡（St. Petersburg）市区文艺安静，离达利博物馆近，也是不错的折中点。"
+      "title": "Clearwater Beach：面粉沙与海豚的盛宴",
+      "content": "Clearwater Beach是坦帕的地标级海滩，长达2.5英里的白沙滩以「面粉沙」质地和无敌日落景观闻名。这里不仅适合躺在沙滩上晒太阳（太阳伞和两把沙滩椅35-45美金），更不能错过的是出海看海豚的体验。海豚会追着船的尾浪跳跃，Little Toot Dolphin Adventure是必玩项目，全程约1.5小时，建议避开日落时段，因为那个时段海豚较少且不活跃。步行范围内就有Frenchy's Rockaway Grill等人气海鲜餐厅，以及Crabby's Dockside的特色鳄鱼肉。"
     },
     {
-      "title": "必看与通票",
-      "content": "布希花园（Busch Gardens Tampa）是佛州过山车密度最高的乐园，Iron Gwazi（混合木钢制，全球顶级）和SheiKra（垂直俯冲）是招牌，在线买票比门口便宜，旺季可加Quick Queue免排队；园内还有非洲动物区，一天玩满。清水滩（Clearwater Beach）白沙细如面粉，Pier 60每天日落前后有市集和街头表演；旁边的海洋水族馆住过电影《海豚的故事》主角Winter。圣彼得堡的达利博物馆（The Dalí）藏品全球第二，超现实主义爱好者必去。Ybor城是19世纪古巴移民雪茄工厂区，看手工卷雪茄、逛周六市集。"
+      "title": "艺术与马戏的双重盛宴",
+      "content": "Salvador Dalí Museum距离Clearwater Beach约35分钟车程，是西班牙之外收藏达利作品数量最多的展馆，约有95张油画、100张水彩画和1300件艺术品。最著名的作品《记忆的永恒》中软化的钟表，传说受到了爱因斯坦相对论的启发。而The John and Mable Ringling Museum of Art则是坦帕最美的博物馆，原属于马戏团大亨John Ringling夫妇。这里有多个室内展厅收藏大型欧洲绘画作品，展示着世界上最大的马戏团模型，室外的Bayfront Gardens花园则是拍照圣地。从Museum of Art欣赏名画，到Circus Museum看马戏团模型道具，再到花园散步，可以轻松消磨2-3小时。"
     },
     {
-      "title": "美食",
-      "content": "Cuban三明治的发源地之争里坦帕版（加萨拉米）是正统，老店Columbia Restaurant在Ybor城开了一百多年，西班牙古巴菜配弗拉明戈表演（表演场次需订位）。清水滩的Frenchy's Rockaway Grill吃石斑鱼三明治（grouper sandwich，本地特产）看日落。坦帕湾产石蟹，10-5月应季。Armature Works美食大厅在河边，适合解决选择困难。"
+      "title": "Siesta Beach：石英沙的纯白奇迹",
+      "content": "如果觉得Clearwater Beach过于商业化，可以向南驾车1.5小时到Siesta Beach。这个沙滩99%的成分是石英（普通沙滩是70%-90%），因此比Clearwater Beach更白、更细，曾被Tripadvisor评为全美No.1沙滩。这里没有网红餐厅和项目，连出租太阳伞的人都很难找到，保持着原始的宁静。每年11月还会举办国际沙雕节，是纯粹享受沙滩和夕阳的理想之地。"
     },
     {
-      "title": "实用贴士",
-      "content": "清水滩停车紧张，旺季上午10点后海滩停车场基本满，要么早到要么停远处坐Jolley Trolley沿滩电车。夏天午后雷暴准时报到，海滩活动排上午。6-11月飓风季关注预报。布希花园和奥兰多的SeaWorld同集团，有联票可省钱。海滩水母和离岸流偶发，留意警示旗颜色（紫旗=危险海洋生物，红旗=禁止下水）。"
+      "title": "海牛季节：与温柔巨兽的邂逅",
+      "content": "11月中到3月底是看海牛的最佳季节，其他月份需要运气，夏天则基本看不到。海牛是素食哺乳动物，性情温和，以水草为生，喜欢在20-30摄氏度的水中活动。因为个儿大皮厚，鳄鱼咬不动，所以没有天敌。\n\n距离最近的是Weeki Wachee Springs，从Clearwater Beach出发约1.5小时。可以参加玻璃船生态游（85美金/2小时），有导游带领找海牛效率高，或在公园内租船（35美金/1.5小时），价格便宜且全程顺流而下。但水质非常玄学，时而清澈如「小九寨沟」，时而浑浊如普通小河。\n\nCrystal River是海牛数量最多的区域，虽然划船区域是普通河道，但到达Three Sister浮潜区后水质会变得清澈。这里可以跟团划玻璃船（89美金/2小时）或参加浮潜团（65美金/3小时）与海牛同游。\n\nSilver Springs State Park环境最自然，水清景美动物多，除了海牛还能看到猴子、水獭、乌龟、水鸟等。可以跟团玻璃船（75美金/2小时）或公园内租船（40美金/2小时）。需要注意的是这里鳄鱼数量多且个头大，虽然近5年没有人受伤记录，但仍需保持警惕。"
+    },
+    {
+      "title": "实用信息与小贴士",
+      "content": "坦帕与美国主要城市之间都有直飞航班，Tampa International Airport距离Clearwater Beach约40分钟车程。从奥兰多到坦帕约2小时车程，除了自驾也可以乘坐Flixbus大巴。\n\n住宿建议选择Clearwater Beach区域，步行范围内就有白沙滩、餐厅和码头。预算充足可选择有海景房的Hyatt Regency Clearwater Beach Resort & Spa，预算有限则可住在距海滩15分钟车程的La Quinta by Wyndham。\n\n坦帕景点分散，不开车的同学可以通过Uber搞定全程，从北到Weeki Wachee、南到Siesta Beach都能打到车。捡贝壳可以去Honeymoon Island State Park，Low Tide前1小时到Low Tide之间是最佳时间，公园最北端贝壳最多，建议穿水鞋以防被割伤或蜇伤。"
     }
   ],
   "duration": "2-3天",

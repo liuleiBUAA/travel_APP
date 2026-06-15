@@ -1,30 +1,179 @@
 {
   "name": "波士顿",
   "type": "city",
-  "aliases": [],
+  "aliases": [
+    "Boston"
+  ],
   "city": "波士顿",
   "country": "美国",
-  "summary": "自由之路串起美国革命史迹，加哈佛MIT校园游，两天节奏刚好；城市紧凑步行友好，龙虾卷是必吃功课。",
+  "summary": "美东治安最好、学霸最多、最像欧洲的大城市，哈佛与MIT坐镇，秋季新英格兰枫叶绚烂。市区景点集中，步行+地铁即可玩遍神校、观鲸、龙虾市场与美术馆。",
+  "transport": {
+    "fly_train": "Logan机场距市区4英里/6.4公里约20分钟车程；Silver Line SL1机场巴士到South Station车程20分钟免费；Uber/Lyft 30-45美金。纽约到波士顿火车4-4.5小时70-150美金，巴士4.5-5小时25-40美金。",
+    "drive": "距纽约217英里/349公里，自驾4-5小时，过路费10-20美金。可顺道参观耶鲁大学或罗德岛。",
+    "local": "地铁单程2.4美金，一日票11美金，7日票22.5美金（地铁/巴士通用），支持刷卡/手机进站。市区景点集中，步行+地铁方便。"
+  },
+  "hotels": [
+    {
+      "name": "citizenM Boston North Station",
+      "area": "昆西市场附近",
+      "star": 4,
+      "score": "8.8",
+      "reviews": "4400",
+      "note": "楼下是地铁绿线North Station，步行8分钟到昆西市场",
+      "link": ""
+    },
+    {
+      "name": "citizenM Boston Back Bay",
+      "area": "商业街附近",
+      "star": 4,
+      "score": "9.0",
+      "reviews": "3700",
+      "note": "挨着Newbury购物街，楼下是地铁绿线Hynes Convention Center站",
+      "link": ""
+    },
+    {
+      "name": "Hotel 1868",
+      "area": "Cambridge哈佛附近",
+      "star": 0,
+      "score": "8.8",
+      "reviews": "1600",
+      "note": "挨着地铁红线Porter站，乘车到哈佛大学4分钟",
+      "link": ""
+    },
+    {
+      "name": "Residence Inn by Marriott Boston Cambridge",
+      "area": "Cambridge MIT附近",
+      "star": 3,
+      "score": "8.7",
+      "reviews": "500",
+      "note": "挨着地铁红线Kendall/MIT站，步行到MIT 15分钟",
+      "link": ""
+    },
+    {
+      "name": "The Revolution Hotel",
+      "area": "商业街附近",
+      "star": 3,
+      "score": "8.5",
+      "reviews": "4200",
+      "note": "步行10分钟到地铁橙线Back Bay站，附近有图书馆/教堂/商场",
+      "link": ""
+    },
+    {
+      "name": "Hilton Boston Logan Airport",
+      "area": "机场附近",
+      "star": 4,
+      "score": "8.0",
+      "reviews": "2700",
+      "note": "可步行到航站楼",
+      "link": ""
+    }
+  ],
+  "hotel_intro": "首选商业街附近（近Newbury购物街、图书馆教堂）或Cambridge区（吸收哈佛MIT天地精华）。次选昆西市场附近、中国城（每晚中餐）或机场附近（赶早晚航班）。",
+  "attractions": [
+    {
+      "name": "哈佛大学",
+      "order": 1,
+      "tagline": "世界顶级神校，可安排半天至1整天；地铁红线Harvard Square站",
+      "has_detail": false
+    },
+    {
+      "name": "麻省理工学院",
+      "order": 2,
+      "tagline": "理工科圣地，与哈佛合计可安排1整天；地铁红线Kendall/MIT站",
+      "has_detail": false
+    },
+    {
+      "name": "Revere Beach",
+      "order": 3,
+      "tagline": "日落粉色天空，可安排30分钟；地铁蓝线Wonderland站",
+      "has_detail": false
+    },
+    {
+      "name": "观鲸",
+      "order": 4,
+      "tagline": "5月中-11月观鲸季，需3-4小时，85美金/人需预订；地铁蓝线Aquarium站",
+      "has_detail": false
+    },
+    {
+      "name": "昆西市场",
+      "order": 5,
+      "tagline": "干饭好地方，市场内有Lobster Rolls，附近地道意大利餐厅；地铁绿线Haymarket站",
+      "has_detail": false
+    },
+    {
+      "name": "波士顿公园",
+      "order": 6,
+      "tagline": "美国第一个公园、自由之路起点，可安排30分钟；地铁绿线Park Street或Arlington站",
+      "has_detail": false
+    },
+    {
+      "name": "波士顿公共图书馆/教堂/Newbury商业街",
+      "order": 7,
+      "tagline": "整体可安排2小时+；地铁绿线Copley站",
+      "has_detail": false
+    },
+    {
+      "name": "波士顿美术馆",
+      "order": 8,
+      "tagline": "大型美术馆，可安排2-4小时，30美金，周二休馆；地铁绿线Museum of Fine Arts站",
+      "has_detail": false
+    },
+    {
+      "name": "Isabella花园博物馆",
+      "order": 9,
+      "tagline": "可安排1.5-2小时，22美金需预订，周二休馆；地铁绿线Museum of Fine Arts站",
+      "has_detail": false
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": "神校朝圣+海滩日落",
+      "detail": "上午游览哈佛大学，下午逛麻省理工学院，傍晚去Revere Beach看粉色日落天空。"
+    },
+    {
+      "day": "2",
+      "title": "观鲸+市区经典",
+      "detail": "上午出海观鲸（需预订），下午打卡昆西市场品尝龙虾卷，漫步波士顿公园，傍晚逛图书馆/教堂/Newbury商业街。"
+    },
+    {
+      "day": "3",
+      "title": "艺术熏陶",
+      "detail": "上午逛波士顿美术馆，下午参观Isabella花园博物馆（需预订）。"
+    }
+  ],
   "sections": [
     {
-      "title": "到达与市内交通",
-      "content": "洛根机场（BOS）离市区仅5公里，地铁蓝线或免费Silver Line快速公交SL1约20分钟进城，打车15分钟约25-35美元。市内地铁（本地叫T）用CharlieCard或手机NFC刷闸机，单程2.4美元。老城区街道是殖民时期格局，景点密集，核心区步行比坐车快。去哈佛/MIT坐红线，Harvard站和Kendall/MIT站直达。"
+      "title": "学霸之城与欧洲气质",
+      "content": "波士顿位于美国东北角，是美东治安最好的大城市，也是美国最像欧洲的城市。哈佛大学与麻省理工学院坐镇Cambridge区，让这座城市充满学术氛围与天地精华。市区景点集中，步行加地铁即可轻松游览。地铁虽比纽约安全干净，但速度慢、等车时间长且偶尔半路故障，距离不远时走路反而最快。"
     },
     {
-      "title": "住宿建议",
-      "content": "Back Bay位置最均衡：步行到公共花园、纽伯里街购物，地铁绿/橙线汇集。Downtown/北端（North End）靠近自由之路核心段，但夜间略吵。剑桥（Cambridge）哈佛广场一带学术氛围浓，红线进城3-4站，价格比市中心低。波士顿酒店整体偏贵，旺季3星250美元起，9月开学季和毕业季（5月）房价飙升要避开或早订。"
+      "title": "从机场到市区",
+      "content": "Logan国际机场距市区仅4英里/6.4公里，约20分钟车程。最经济的方式是乘坐Silver Line SL1机场巴士，5:30am-12:30am运营，车程20分钟，车票免费，且无缝连接地铁红线South Station站。打车Uber/Lyft约30-45美金。从纽约前往波士顿可选火车（4-4.5小时，70-150美金，越早订越便宜）、巴士（4.5-5小时，25-40美金）或自驾（4-5小时，过路费10-20美金），沿途可顺道参观耶鲁大学或罗德岛。"
     },
     {
-      "title": "必看与通票",
-      "content": "自由之路（Freedom Trail）全长4公里，地面红砖线从波士顿公园一路标到邦克山，跟着走就行，免费；重点站：老北教堂、保罗·里维尔故居（小额门票）、宪法号军舰（免费，带护照换证登舰）。哈佛校园免费随便逛，学生带队tour在官网约；MIT博物馆值得买票进。昆西市场（Quincy Market）和法尼尔厅是自由之路中段休息点。美术馆MFA藏品全美前三，留半天。观鲸船（4-10月）从长码头出发约3小时，提前网上订。"
+      "title": "住宿策略",
+      "content": "首选商业街附近，如citizenM Boston Back Bay，楼下即地铁绿线Hynes Convention Center站，走两步就是Newbury购物街，白天看景点晚上逛街两不误。想吸收天地精华可住Cambridge区，Hotel 1868或Residence Inn by Marriott靠近地铁红线，方便前往哈佛与MIT。次选昆西市场附近（逛景点最方便）、中国城附近（每晚中餐）或机场附近（赶早晚航班）。"
     },
     {
-      "title": "美食",
-      "content": "龙虾卷两派：Neptune Oyster（热黄油版，北端，不接受订位要早去排）和James Hook & Co（码头边平价）。蛤蜊浓汤（Clam Chowder）昆西市场里随处有，面包碗装最经典。北端是意大利区，Mike's Pastry和Modern Pastry的Cannoli之争自己投票。龙虾卷市价25-35美元一个，别嫌贵，离开新英格兰更贵。"
+      "title": "神校朝圣",
+      "content": "哈佛大学与麻省理工学院是波士顿最具标志性的景点，建议安排1整天时间。上午游览哈佛，感受世界顶级学府的学术氛围；下午转战MIT，参观理工科圣地的标志性建筑Great Dome。两校均可乘地铁红线到达，Harvard Square站下车到哈佛，Kendall/MIT站下车到MIT。"
     },
     {
-      "title": "实用贴士",
-      "content": "波士顿天气多变，海风大，春秋早晚温差10度以上，洋葱式穿衣。自由之路全程走完约3小时，穿好走的鞋，重点段是北端到查尔斯顿桥。红袜队主场芬威球场（Fenway Park）有比赛日时周边餐厅爆满，要么买票体验要么避开。整体治安在美国大城市里属于好的，老城区夜间步行无压力。"
+      "title": "观鲸与海滩",
+      "content": "5月中至11月是波士顿观鲸季，从Aquarium站出发，乘船出海需3-4小时，85美金/人需提前预订。傍晚可前往Revere Beach，地铁蓝线Wonderland站下车，在粉色日落天空下度过30分钟惬意时光。"
+    },
+    {
+      "title": "龙虾卷与市场美食",
+      "content": "昆西市场是波士顿干饭好地方，市场内可品尝著名的Lobster Rolls龙虾卷，附近还有地道的意大利餐厅。地铁绿线Haymarket站下车即达。市场周边是波士顿公园，美国第一个公园、自由之路起点，可安排30分钟漫步。"
+    },
+    {
+      "title": "文化艺术巡礼",
+      "content": "波士顿美术馆是大型综合美术馆，门票30美金，周二休馆，建议安排2-4小时。Isabella花园博物馆俗称『花园博物馆』，门票22美金需预订，周二休馆，可安排1.5-2小时。两馆均在地铁绿线Museum of Fine Arts站。此外，波士顿公共图书馆、教堂与Newbury商业街组成的文化街区，整体可安排2小时+，地铁绿线Copley站下车。"
+    },
+    {
+      "title": "周边滑雪胜地",
+      "content": "波士顿周边分布众多滑雪场，雪季为11月底至4月中，1月最佳、2月其次。Killington Mountain是美东最大滑雪场，距波士顿3小时车程，单日雪票120-150美金；Stowe Mountain Resort雪质最好，蓝道为主，距波士顿3.5小时；Mount Sunapee是距波士顿最近的大型滑雪场，仅2小时车程，单日雪票约100美金。初学者可现场租装备（鞋/板/杖/头盔50-80美金起）并参加入门课程（含雪票/装备/2小时课程100-200美金）。"
     }
   ],
   "duration": "2天",

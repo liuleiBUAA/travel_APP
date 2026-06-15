@@ -1,23 +1,130 @@
 {
   "name": "苏格兰高地",
+  "type": "attraction",
   "aliases": [
-    "格伦科"
+    "格伦科",
+    "Glencoe",
+    "格伦科峡谷"
   ],
   "city": "因弗内斯",
   "country": "英国",
-  "summary": "苍凉壮阔的荒原、峡谷与湖泊：格伦科峡谷、尼斯湖、天空岛。公共交通薄弱，自驾或跟团二选一，天气阴晴是体验的一半。",
+  "summary": "苏格兰西部高地最美峡谷地带，A82公路穿谷而过，以苍凉豪迈的景色和007电影取景地闻名，也是历史上格伦科屠杀事件发生地。",
+  "facts": [
+    {
+      "k": "参观时长",
+      "v": "2-3天",
+      "sub": "格伦科峡谷纯开车约15分钟，建议全程预留2小时观景"
+    },
+    {
+      "k": "最佳时间",
+      "v": "5-9月",
+      "sub": "10月可观赏秋色"
+    },
+    {
+      "k": "历史事件",
+      "v": "1692年格伦科屠杀",
+      "sub": "38名MacDonald家族成员被杀害，峡谷也被称作「垂泪的山谷」（Valley of Weeping）"
+    },
+    {
+      "k": "公路",
+      "v": "A82",
+      "sub": "穿过峡谷，是高地自驾必经之路"
+    }
+  ],
+  "route": [
+    "威廉堡（Fort William）",
+    "A82公路北上30分钟",
+    "格伦科峡谷"
+  ],
+  "route_note": "格伦科峡谷位于苏格兰西部高地，A82公路穿谷而过。如果从威廉堡（Fort William）出发，沿A82公路北上开车约30分钟即可抵达峡谷入口。峡谷本身不长，纯开车大约只需要15分钟，沿途设有多个免费停车场供游客停靠观景。主要玩法是在沿路停车场停靠，下车欣赏壮丽的峡谷风光。",
+  "price": "",
+  "activities": [
+    {
+      "name": "007取景地打卡",
+      "price": "",
+      "detail": "导航至Skyfall scene Ballachulish，这是007电影《Skyfall》中邦德和M停车眺望的镜头拍摄地，位于Buachaille Etive Beag山和Buachaille Etive Mor山之间的岔路上。从A82主路拐入岔路后需要开车大约10分钟，拍照后需原路返回A82。"
+    },
+    {
+      "name": "小房子观景点",
+      "price": "",
+      "detail": "导航至Buachaille Etive Mòr Car Park，Buachaille Etive Mor山下有一座小房子，非常上相，是经典拍照点。这里还可以观赏Buachaille Etive Mor与Buachaille Etive Beag之间的山谷风景。停车场免费，下车即可观景。"
+    },
+    {
+      "name": "小瀑布观景",
+      "price": "",
+      "detail": "导航至The Meeting of Three Waters，瀑布也叫Glencoe Waterfall，规模不大，有一个小型观景台。停车场免费，走几步就能到观景台。"
+    },
+    {
+      "name": "三姐妹观景点",
+      "price": "",
+      "detail": "导航至Three Sisters Viewpoint，这是观赏三姐妹山的最佳地点，拥有Glencoe最壮观的景色，最值得停留。三姐妹山由西至东分别是Aonach Dubh、Gearr Aonach、Beinn Fhada。停车场正对着三姐妹山，建议可以到公路下面走一走。向西看的角度景色也很经典。"
+    },
+    {
+      "name": "湖泊观景",
+      "price": "",
+      "detail": "导航至Loch Achtriochtan Car Park，可以近距离观赏湖泊Loch Achtriochtan，和Aonach Dubh山峰下的瀑布和小房子。可以走到湖边，距离停车场很近。湖泊不远处还有一座很漂亮的小房子，在停车场附近就可以拍到。停车场免费。"
+    },
+    {
+      "name": "游客中心参观",
+      "price": "停车4英镑",
+      "detail": "导航至Glencoe Visitor Centre，位于Glencoe山谷西端。可以了解Glencoe的科普知识，购买文创产品，享用简餐。这是峡谷沿线唯一收费的停车场。"
+    },
+    {
+      "name": "Lost Valley徒步",
+      "price": "",
+      "detail": "Lost Valley（也叫Hidden Valley）是Glencoe最有名的徒步路线，难度适中，适合自驾游客。起点是三姐妹停车场（Three Sisters Car Park），是一条原路折返路线，全长4km，耗时大约2-3小时，爬升高度335米。路线穿越三姐妹山中Gearr Aonach和Beinn Fhada之间的山谷Coire Gabhail，起点视野开阔，之后进入森林跨过River Coe小河，接着需要爬一些难度较大的山路（务必穿防滑登山鞋），最后到达比较平坦的Lost Valley内部，折返点是三姐妹南侧的Bidean Nam Bian山。"
+    },
+    {
+      "name": "The Two Lairigs徒步",
+      "price": "",
+      "detail": "一条环Buachaille Etive Beag山的徒步路线，起点为Buachaille Etive Beag car park，长度15km，爬升高度573米，走完全程约需5-6小时。适合时间较多、打算深度游的徒步爱好者。"
+    },
+    {
+      "name": "Buachaille Etive Beag登山",
+      "price": "",
+      "detail": "登上Buachaille Etive Beag山的徒步路线，起点为Buachaille Etive Beag car park，长度8km，爬升高度900米，走完全程约需5-6小时。"
+    },
+    {
+      "name": "Buachaille Etive Mor环线",
+      "price": "",
+      "detail": "囊括Buachaille Etive Beag和Buachaille Etive Mor之间山谷及Buachaille Etive Mor山脊的徒步环线，起点为Parking for Buachaille Etive Mor，长度13km，爬升高度1110米，走完全程约需7-9小时。这是难度最高的徒步路线。"
+    }
+  ],
+  "tips": [
+    "格伦科峡谷一般作为高地旅游的一部分，可选择跟团或自驾游览",
+    "A82公路沿途停车场很多，除游客中心外其他停车场均免费",
+    "推荐停靠的主要观景点：007取景地、小房子观景点、小瀑布观景点、三姐妹观景点（最重要）、湖泊观景点、游客中心",
+    "住宿可选择威廉堡（Fort William），这是高地最重要的小镇，酒店选择多，餐厅超市一应俱全，距峡谷北上30分钟车程",
+    "也可选择住在Glencoe小镇附近（位于峡谷西出口），景色更好，酒店更有特色，可看夕阳和海景",
+    "徒步务必穿防滑的登山鞋，Lost Valley路线中有难度较大的爬山部分",
+    "即使不打算完整徒步，也可以在三姐妹停车场下到公路下方的小路拍照，视野非常开阔",
+    "Glen在苏格兰盖尔语中是河谷、峡谷的意思，coe是河的名字",
+    "跟团推荐：从爱丁堡出发的当日往返团Edinburgh: Loch Ness, Glencoe the Scottish Highlands Tour，或3日游From Edinburgh: 3-Day Isle of Skye and The Highlands Tour（包含天空岛）"
+  ],
   "sections": [
     {
-      "title": "怎么玩",
-      "content": "两种打开方式：①爱丁堡/格拉斯哥出发跟团（1日格伦科+尼斯湖走马观花；2-3日含天空岛才算进了高地）；②自驾最自由，A82公路格伦科段是全英最美驾驶路线之一。火车迷加西高地线（哈利波特蒸汽火车Jacobite，格伦芬南高架桥），旺季提前订票。"
+      "title": "格伦科峡谷概况",
+      "content": "格伦科峡谷（Glencoe）位于苏格兰西部高地，A82公路穿谷而过。这一段可以算得上是A82公路途中最美的一段，景色十分苍凉、豪迈。Glen在苏格兰盖尔语中是河谷、峡谷的意思，coe是河的名字。Glencoe也是007影片《Skyfall》的取景地之一。峡谷并不长，纯开车大约只需要15分钟，主要玩法是在沿路停车场停靠观景，建议全程预留2小时。"
     },
     {
-      "title": "重点",
-      "content": "格伦科峡谷（Glencoe）：三姐妹峰观景点停车场就在路边，徒步可深可浅。尼斯湖：水怪是营销，乌夸特城堡湖景是真的。因弗内斯作高地枢纽住宿补给。威士忌迷顺路Speyside酒厂带导览品鉴（司机不能喝，自驾注意）。"
+      "title": "格伦科屠杀历史",
+      "content": "发生在Glencoe的重要历史事件是格伦科屠杀（Massacre of Glencoe）。1692年，苏格兰MacDonald家族为了反抗英格兰新教国王的统治，共38名氏族成员在Glencoe被杀害。所以Glencoe也被称作为垂泪的山谷（Valley of Weeping），这段悲剧历史为峡谷增添了几分悲壮色彩。"
     },
     {
-      "title": "实用贴士",
-      "content": "高地天气说变就变，防水外套四季必带；夏季傍晚midge小咬虫凶猛，备驱虫剂。单车道（single track road）会车用passing place，礼让是规矩。手机信号大片空白，离线地图先下好。10月石楠花把山染紫，是隐藏最佳季。"
+      "title": "如何游览格伦科峡谷",
+      "content": "格伦科峡谷一般作为高地旅游的一部分，可以选择跟团或自驾。跟团推荐从爱丁堡出发的当日往返团Edinburgh: Loch Ness, Glencoe the Scottish Highlands Tour，或者3日游From Edinburgh: 3-Day Isle of Skye and The Highlands Tour（包含天空岛）。如果是自驾游，穿过峡谷的公路为A82，也是高地自驾的必经之路（无需绕路），可以结合高地其他景点安排行程。"
+    },
+    {
+      "title": "住宿推荐",
+      "content": "威廉堡（Fort William）是高地最重要的小镇，酒店选择多，餐厅、超市一应俱全，住在威廉堡是最方便的，继续开车北上30分钟即可抵达峡谷。推荐酒店包括Cruachan Hotel（3星，评分8.2分，评价人数5300+）、The Garrison（4星，评分8.5分，评价人数4000+）、Moorings Hotel（4星，评分7.7分，评价人数2300+）、Nevis Bank Inn（4星，评分8.2分，评价人数1200+）。\n\n也可以选择住在Glencoe小镇附近，位于峡谷西出口，这里的酒店景色更好，比较有特色。推荐Holly Tree Hotel, Swimming Pool Hot Tub（3星，评分8.4分，评价人数1600+，位于海边，可以看夕阳）、RiverBeds - Luxury Wee Lodges with Hot Tubs（4星，评分8.9分，评价人数1100+，位于小溪旁边的小木屋，装修非常fancy）、The Isles of Glencoe Hotel（3星，评分7.9分，评价人数1200+）、The Ballachulish Hotel（3星，评分8.0分，评价人数1600+）、Loch Linnhe Waterfront Lodges with Hot Tubs（4星，评分8.5分，评价人数600+）、Onich Hotel Lochside Beach Pods（3星，评分7.7分，评价人数1900+）。"
+    },
+    {
+      "title": "沿途主要景点",
+      "content": "格伦科峡谷A82公路沿途停车场很多，除了游客中心之外，其他所有停车场均免费，每个停车场几乎下车就能观景，不需要走太多路。最推荐的观景点包括：\n\n007取景地（Skyfall scene Ballachulish）：位于岔路上，是007电影中邦德和M停车眺望的拍摄地，拍照后需原路返回A82，从主路拐入需开车约10分钟。\n\n小房子观景点（Buachaille Etive Mòr Car Park）：Buachaille Etive Mor山下有座非常上相的小房子，还可以观赏两山之间的山谷风景。\n\n小瀑布观景点（The Meeting of Three Waters）：有个小型观景台，可以观赏Glencoe Waterfall。\n\n三姐妹观景点（Three Sisters Viewpoint）：最重要的观景点，拥有Glencoe最壮观的景色。三姐妹山由三座山组成，由西至东分别是Aonach Dubh、Gearr Aonach、Beinn Fhada。停车场正对着三姐妹山，建议可以到公路下面走一走，向西看的角度景色也很经典。\n\n湖泊观景点（Loch Achtriochtan Car Park）：可以近距离观赏湖泊Loch Achtriochtan和Aonach Dubh山峰下的瀑布及小房子，可以走到湖边。\n\nGlencoe游客中心（Glencoe Visitor Centre）：位于峡谷西端，停车费4英镑，可了解科普知识、购买文创产品、享用简餐。"
+    },
+    {
+      "title": "徒步路线",
+      "content": "格伦科峡谷提供多条徒步路线，最推荐Lost Valley路线，相对更容易完成，适合时间有限的自驾游客。Lost Valley（也叫Hidden Valley）是三姐妹山中Gearr Aonach和Beinn Fhada之间的山谷Coire Gabhail，起点是三姐妹停车场，是一条原路折返路线，全长4km，耗时约2-3小时，爬升高度335米。起点处视野非常开阔，即使不打算徒步也可以下到小路上拍照。路线穿越森林跨过River Coe小河，接着需要爬一些难度较大的山路（务必穿防滑登山鞋），然后进入Lost Valley内部，折返点是Bidean Nam Bian山。\n\n其他适合深度游的路线包括：The Two Lairigs（环Buachaille Etive Beag山，15km，爬升573米，5-6小时）、Buachaille Etive Beag登山（8km，爬升900米，5-6小时）、Buachaille Etive Mor环线（囊括山谷和山脊，13km，爬升1110米，7-9小时，难度最高）。"
     }
   ],
   "duration": "2-3天",

@@ -1,32 +1,135 @@
 {
-  "name": "优胜美地",
+  "name": "优胜美地国家公园",
   "type": "city",
-  "aliases": [],
+  "aliases": [
+    "Yosemite National Park",
+    "优山美地",
+    "约塞米蒂"
+  ],
   "city": "优胜美地",
   "country": "美国",
-  "summary": "酋长岩、半圆顶和瀑布群是核心景观，旺季进园需预约、谷内住宿半年前订完，自驾进园后用免费shuttle游谷底。",
+  "summary": "旧金山附近最著名的国家公园，以瀑布和山景为主，春天瀑布最美、夏天游客最多、秋天最舒适、冬天雪景震撼。2-3天可游览主景区和经典徒步路线。",
+  "transport": {
+    "fly_train": "从旧金山可乘火车到Merced（约3.5小时），换乘YARTS大巴到园区（约3小时15分钟）",
+    "drive": "旧金山195英里4-5小时（120公路快但山路多，140公路可选）；洛杉矶313英里5.5-6.5小时；夏秋可走395赏秋公路。园区内多数区域无信号，需提前下载离线地图。加油站在Wawona/Crane Flat/El Portal，谷内无加油站但有充电站",
+    "local": "园区内可自驾，目的地设为Yosemite Valley Visitor Center。公交可参加旧金山一日游团Small Group Yosemite and Giant Sequoias Day Trip"
+  },
+  "hotels": [
+    {
+      "name": "Yosemite View Lodge",
+      "area": "El Portal",
+      "star": 3,
+      "score": "8.0",
+      "reviews": "7100+",
+      "note": "景观酒店，距园区25分钟车程，附近有餐厅/加油站/超市",
+      "link": ""
+    },
+    {
+      "name": "Cedar Lodge",
+      "area": "El Portal",
+      "star": 2,
+      "score": "8.0",
+      "reviews": "200+",
+      "note": "雪松小屋酒店，距园区25分钟车程，附近有餐厅/加油站/超市",
+      "link": ""
+    },
+    {
+      "name": "Tenaya Lodge at Yosemite",
+      "area": "Fish Camp",
+      "star": 4,
+      "score": "8.7",
+      "reviews": "4000+",
+      "note": "距园区50分钟车程，酒店内餐厅好评多，附近无商业设施",
+      "link": ""
+    },
+    {
+      "name": "Yosemite Bug Rustic Mountain Resort",
+      "area": "Mariposa",
+      "star": 0,
+      "score": "7.8",
+      "reviews": "2700+",
+      "note": "小木屋，距园区1小时车程，附近有餐厅/加油站/超市",
+      "link": ""
+    },
+    {
+      "name": "The Monarch Inn",
+      "area": "Mariposa",
+      "star": 3,
+      "score": "7.7",
+      "reviews": "2000+",
+      "note": "距园区1小时车程，附近有餐厅/加油站/超市",
+      "link": ""
+    },
+    {
+      "name": "Best Western Plus Yosemite Gateway Inn",
+      "area": "Oakhurst",
+      "star": 4,
+      "score": "8.6",
+      "reviews": "3300+",
+      "note": "距园区1小时10分钟车程，附近有餐厅/加油站/超市",
+      "link": ""
+    },
+    {
+      "name": "The Oakhurst Inn at Yosemite",
+      "area": "Oakhurst",
+      "star": 2,
+      "score": "7.8",
+      "reviews": "5600+",
+      "note": "距园区1小时10分钟车程，附近有餐厅/加油站/超市",
+      "link": ""
+    }
+  ],
+  "hotel_intro": "优胜美地住宿非常抢手必须早订。El Portal距园区最近25分钟，有餐厅加油超市；Fish Camp 50分钟无商业设施但酒店品质高；Mariposa和Oakhurst约1-1.5小时车程，配套齐全价格相对友好",
+  "attractions": [
+    {
+      "name": "Yosemite Valley",
+      "order": 1,
+      "tagline": "主景区，集中瀑布和山景精华",
+      "has_detail": false
+    },
+    {
+      "name": "Mist Trail",
+      "order": 2,
+      "tagline": "经典徒步路线，近距离观赏瀑布",
+      "has_detail": false
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": "到达/看日落",
+      "detail": "抵达优胜美地，前往Yosemite Valley Visitor Center，适应环境后找观景点欣赏日落"
+    },
+    {
+      "day": "2",
+      "title": "游览主景区",
+      "detail": "深度游览Yosemite Valley主景区，打卡标志性瀑布和山景"
+    },
+    {
+      "day": "3",
+      "title": "徒步Mist Trail",
+      "detail": "体验经典徒步路线Mist Trail，近距离感受瀑布水雾"
+    },
+    {
+      "day": "4",
+      "title": "选去 - 打卡小众景区",
+      "detail": "根据兴趣和体力探索小众景区，或前往红杉树林、湖泊等区域"
+    }
+  ],
   "sections": [
     {
-      "title": "到达与交通",
-      "content": "最近的门户机场是弗雷斯诺FAT（南门2.5小时）；多数人从旧金山（4小时）或洛杉矶（5-6小时）租车自驾。走140号公路坡度最缓、冬季最少封路；120号Big Oak Flat入口离旧金山最近。谷底（Yosemite Valley）停车位极紧张，上午9点前进园，把车停在Yosemite Village或Curry Village停车场后全天坐免费谷底shuttle（约10-20分钟一班，覆盖所有谷内景点），高峰期开车在谷里找车位是灾难。"
+      "title": "门票与预约",
+      "content": "优胜美地门票35美金/车/7日有效。非美国居民需额外支付100美金/人（16岁以上，留学生不算居民）。建议购买美国国家公园年票，美国居民80美金、非居民250美金，可4人使用覆盖以上费用。2026年不再需要预约，可直接入园游览。"
     },
     {
-      "title": "住宿与营地",
-      "content": "谷内住宿在travelyosemite.com预订，提前5-6个月基本订完：Curry Village帐篷小屋约$150-180/晚，Yosemite Valley Lodge $280+，Ahwahnee酒店$500+。营地在recreation.gov放票，旺季名额数分钟抢空（提前5个月、每月15日早7点太平洋时间放票）。订不到就住园外：El Portal（140号路，进谷30分钟）、Mariposa（1小时，$120-200/晚）或Groveland。住园外意味着每天往返2小时车程，要起更早。"
-    },
-    {
-      "title": "必看与门票",
-      "content": "门票$35/车（7天有效）；计划一年去3个以上公园直接买America the Beautiful年票（$80）。近年旺季（约5月下旬-9月初及2月萤火瀑布期间）高峰时段进园实行预约制（timed entry，recreation.gov，$2手续费），园内有住宿订单可免预约，出发前务必查官网当年政策。必看：Tunnel View一览谷底全景（进谷必经，日落最佳）、酋长岩、优胜美地瀑布（春季水量最大）、Glacier Point俯瞰半圆顶（冰川点公路一般6-10月开放）。徒步推荐Mist Trail到Vernal Fall（往返5公里，会被水雾打湿）。"
+      "title": "最佳旅游季节",
+      "content": "优胜美地四季各有特色：春天（5-6月）瀑布水量全年最大、Tioga Pass前后开通，早于7-8月人流顶峰，是最佳游览时间；夏天游客最多但万物生机勃勃；秋天气候最舒适但瀑布会干涸；冬天雪景极美但驾驶条件较差需谨慎。"
     },
     {
       "title": "餐饮补给",
-      "content": "谷内有Village Store超市（食品日用基本齐全，价格比园外贵30%），Curry Village有披萨和自助餐厅（人均$15-25），Yosemite Valley Lodge有food court。Ahwahnee酒店餐厅需着装预约，人均$60+。最经济的做法：在Oakhurst或Mariposa的大超市采购好水、面包、水果再进园，白天徒步全靠自带。油一定在园外加满——El Portal、Wawona有少量油站但价格极高，谷底没有加油站。"
-    },
-    {
-      "title": "实用贴士",
-      "content": "季节差异极大：4-6月瀑布最壮观；7-8月人最多、部分瀑布断流；Tioga Pass（120号东段）和Glacier Point Road约11月-次年5月底封闭，冬季自驾必须随车携带防滑链（法律要求，租车公司不提供，可在进山路上小店买$40-70）。黑熊活跃，食物和有气味物品绝不能留在车内过夜，必须放营地熊箱。谷内手机信号微弱，离线地图提前下好。2月中下旬的Horsetail Fall“萤火瀑布”需碰晴天且单独预约。"
+      "content": "园区内有多家餐厅，但周末和小长假时人特别多需提前规划。园区内的Village Store等超市食物和日用品较全，价格也不算贵，可以采购补给。建议自备零食饮水，尤其是徒步时必须携带充足补给。"
     }
   ],
   "duration": "2-3天",
-  "best_time": "5-6月，瀑布水量全年最大、Tioga Pass前后开通，且早于7-8月的人流顶峰。"
+  "best_time": "5-6月，瀑布水量全年最大、Tioga Pass前后开通，且早于7-8月的人流顶峰"
 }

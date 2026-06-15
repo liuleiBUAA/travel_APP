@@ -1,32 +1,155 @@
 {
-  "name": "死亡谷",
+  "name": "死亡谷国家公园",
   "type": "city",
-  "aliases": [],
+  "aliases": [
+    "Death Valley National Park"
+  ],
   "city": "死亡谷",
   "country": "美国",
-  "summary": "北美最低点Badwater盆地与Zabriskie日出是精华，夏季极端高温可达50度，自驾进园前必须加满油、备足水。",
+  "summary": "美国本土最大国家公园，拥有峡谷、盐地、沙丘等极端地貌，美国最热和最低的地点都在这里。冬季最佳，可在1-2天内打卡标志性日落观景点和恶水盆地。",
+  "transport": {
+    "fly_train": "",
+    "drive": "位于洛杉矶和拉斯维加斯之间，只能自驾前往。常见路线：洛杉矶→拉斯维加斯玩3-4晚→返程时玩死亡谷。拉斯维加斯出发约2.5小时到达。行前准备：带足水、加满油、下载离线地图",
+    "local": "门票30美金/车/7日。园区内游客中心旁有加油站，电动车仅有慢充，最近超充在1小时车程外的Beatty"
+  },
+  "hotels": [
+    {
+      "name": "The Ranch At Death Valley",
+      "area": "景区内，10分钟车程到游客中心及日出日落观景点Zabriskie Point",
+      "star": 4,
+      "score": "8.0",
+      "reviews": "7400条评价+",
+      "note": "最方便，适合看日落/星空",
+      "link": ""
+    },
+    {
+      "name": "Longstreet Inn & Casino",
+      "area": "Amargosa Valley，距离景区约40分钟车程",
+      "star": 3,
+      "score": "8.3",
+      "reviews": "2800条评价+",
+      "note": "",
+      "link": ""
+    },
+    {
+      "name": "Death Valley Inn",
+      "area": "Beatty小镇，距离景区约1小时车程",
+      "star": 3,
+      "score": "8.0",
+      "reviews": "3200条评价+",
+      "note": "",
+      "link": ""
+    },
+    {
+      "name": "Holiday Inn Express & Suites Pahrump",
+      "area": "Pahrump小镇，距离景区约1小时15分钟车程",
+      "star": 3,
+      "score": "8.8",
+      "reviews": "1200条评价+",
+      "note": "",
+      "link": ""
+    }
+  ],
+  "hotel_intro": "为了看日落/星空建议过夜。景区内住宿最方便，其次是Amargosa Valley→Beatty→Pahrump小镇。景区内酒店10分钟车程可到游客中心及日出日落观景点",
+  "attractions": [
+    {
+      "name": "Dante's View",
+      "order": 1,
+      "tagline": "俯瞰死亡谷全景，15-30分钟",
+      "has_detail": false
+    },
+    {
+      "name": "Zabriskie Point",
+      "order": 2,
+      "tagline": "死亡谷代表性景观，适合看日落，15-30分钟",
+      "has_detail": false
+    },
+    {
+      "name": "游客中心",
+      "order": 3,
+      "tagline": "拿地图/上厕所/买纪念品",
+      "has_detail": false
+    },
+    {
+      "name": "Badwater恶水盆地",
+      "order": 4,
+      "tagline": "死亡谷代表性景观，15-40分钟",
+      "has_detail": false
+    },
+    {
+      "name": "Devils Golf Course盐地",
+      "order": 5,
+      "tagline": "盐地景观，约15分钟",
+      "has_detail": false
+    },
+    {
+      "name": "Artists Palette五彩岩石",
+      "order": 6,
+      "tagline": "五彩岩石，适合顺路到访，约30分钟",
+      "has_detail": false
+    },
+    {
+      "name": "Golden Canyon峡谷步道",
+      "order": 7,
+      "tagline": "往返2.9英里长步道，1-2小时",
+      "has_detail": false
+    },
+    {
+      "name": "Harmony Borax Works废墟",
+      "order": 8,
+      "tagline": "适合拍摄夜空，约15分钟",
+      "has_detail": false
+    },
+    {
+      "name": "Mesquite Flat Sand Dunes沙丘",
+      "order": 9,
+      "tagline": "适合看日落/日出，30分钟-1小时",
+      "has_detail": false
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "半日游",
+      "title": "拉斯维加斯往返经典路线",
+      "detail": "清晨7:30am左右从拉斯维加斯出发，按顺序打卡Dante's View→Zabriskie Point→游客中心→Badwater恶水盆地，12:30pm左右返回拉斯维加斯"
+    },
+    {
+      "day": "1",
+      "title": "日落观景",
+      "detail": "在拉斯维加斯午餐后出发，驾车约2.5小时后在Dante's View观景，然后去Zabriskie Point看日落"
+    },
+    {
+      "day": "2",
+      "title": "深度游览",
+      "detail": "上午按照Badwater→Devils Golf Course→Artists Palette→Golden Canyon→Harmony Borax Works→Mesquite Flat Sand Dunes顺序游玩，下午返回洛杉矶"
+    }
+  ],
   "sections": [
     {
-      "title": "到达与交通",
-      "content": "门户机场是拉斯维加斯LAS，自驾2-2.5小时进园（走160号经Pahrump再转190号），是最主流路线；从洛杉矶走4-5小时。园区面积是美国本土最大国家公园，景点间动辄50-100公里，没有任何公共交通，必须自驾。手机信号在园内大部分区域为零，离线地图和纸质地图（入口或游客中心取）都要备。租车选状态好的车，夏季空调故障在这里是致命问题，离开主路的土路需高底盘车。"
+      "title": "死亡谷概况",
+      "content": "死亡谷国家公园是美国本土最大的国家公园（除阿拉斯加），拥有峡谷、盐地、沙丘等多样化的自然景观。这里是美国最热的地方，历史最高温达到57度，同时也是美国海拔最低的地点。冬季（11月-3月）是最佳旅游季节，白天气温在15-25度之间，适合徒步和拍摄。夏季（6月-8月）极其炎热，不建议前往。"
     },
     {
-      "title": "住宿与营地",
-      "content": "园内住宿集中在Furnace Creek绿洲：The Oasis旗下Ranch（$250-350/晚）和Inn（$450+），旺季（10-4月）提前3-4个月订；Stovepipe Wells村约$150-250/晚，性价比更高。营地中Furnace Creek campground可在recreation.gov预约（$22-36），其余多为先到先得，夏季部分营地因高温关闭。省钱方案：住园外Pahrump（1小时车程，$80-120/晚）或拉斯维加斯当日往返，但会牺牲日出日落的最佳时段。"
+      "title": "交通与准备",
+      "content": "死亡谷位于洛杉矶和拉斯维加斯之间，只能自驾前往。常见路线是从洛杉矶出发，先在拉斯维加斯游玩3-4晚，返程时顺道游览死亡谷。从拉斯维加斯出发约需2.5小时车程。由于园区内条件有限，行前务必带足水、加满油、下载好离线地图。电动车用户需注意园区内只有慢充设施，最近的超充站在1小时车程外的Beatty。"
     },
     {
-      "title": "必看与门票",
-      "content": "门票$30/车（7天），无人售票为主，在游客中心或自助机付费；America the Beautiful年票（$80）同样适用，无需预约进园。核心四件套一天可完成：Zabriskie Point看日出（金色土林，停车场到观景台5分钟）、Badwater盆地（海拔-86米北美最低点，走到盐滩中央往返30分钟）、Artist's Drive调色盘单行环路（14公里，下午光线最佳）、Mesquite Flat沙丘（日落）。时间多加Dante's View（俯瞰全谷，比谷底凉10度以上）。"
+      "title": "住宿选择",
+      "content": "为了欣赏日落和星空，建议在附近过夜。景区内的The Ranch At Death Valley是最方便的选择，距离游客中心及日出日落观景点Zabriskie Point仅10分钟车程。如果景区内酒店客满，可以选择周边小镇：Amargosa Valley距离景区约40分钟车程，Beatty小镇约1小时车程，Pahrump小镇约1小时15分钟车程。这些小镇都有条件不错的住宿设施。"
     },
     {
-      "title": "餐饮补给",
-      "content": "园内仅Furnace Creek和Stovepipe Wells有餐厅和小卖部，选择少且贵（汉堡$18-25），早晚营业时间有限。最稳妥做法是在拉斯维加斯或Pahrump超市备齐一天半的食物和水再进园。加油是硬规矩：进园前在Pahrump加满（园内Furnace Creek油价常年比外面贵$2+/加仑，但紧急时别犹豫，油表半箱以下就近补满）。每人每天至少备4升水，车上再放一箱备用，夏季翻倍。"
+      "title": "游览建议",
+      "content": "对于时间有限的游客，推荐清晨7:30左右从拉斯维加斯出发的半日游行程，依次打卡Dante's View、Zabriskie Point、游客中心和Badwater恶水盆地这四个必去景点，中午12:30左右返回拉斯维加斯。如果选择2天1夜的深度游，第一天下午到达后先去Dante's View观景，然后在Zabriskie Point欣赏日落，第二天上午游览其他景点后返回洛杉矶。需要注意的是，如果选择中午出发晚上返回，很可能要在夜路上独自驾驶1小时，由于游客少、前后无车，体验不太理想。"
     },
     {
-      "title": "实用贴士",
-      "content": "夏季（5月中-9月）白天常46-50度，是地球最热的地方之一：徒步只能在日出前后，上午10点后绝不离开有空调的车走远路，每年都有游客中暑死亡的案例。最佳游览季10-4月，冬季白天20度上下非常舒适。车辆故障时留在车内等待救援，不要徒步求援。低海拔+干燥让人低估失水，定时喝水别等口渴。雨后部分路段山洪冲毁常见，出发前查nps.gov路况。春季（2-3月）雨水好的年份有野花盛开。"
+      "title": "必游景点",
+      "content": "Dante's View是俯瞰死亡谷全景的最佳位置，可以将整个谷地尽收眼底。Zabriskie Point是死亡谷最具代表性的景观，层叠的金色山脊在日落时分格外壮观，是摄影爱好者的天堂。Badwater恶水盆地是北美海拔最低点，海平面以下86米，广袤的白色盐碱地延伸至天际，带来超现实的视觉体验。这三个景点是死亡谷的精华所在，无论行程长短都不应错过。"
+    },
+    {
+      "title": "选游景点",
+      "content": "如果时间充裕，Devils Golf Course盐地呈现出独特的盐晶地貌，Artists Palette五彩岩石因富含矿物质而呈现出红、粉、绿等多种颜色。Golden Canyon是一条往返2.9英里的峡谷步道，可以近距离感受峡谷地貌。Harmony Borax Works是19世纪硼砂开采的遗迹，适合拍摄夜空。Mesquite Flat Sand Dunes是死亡谷内最容易到达的沙丘区，日出日落时分光影变幻尤为迷人。"
     }
   ],
   "duration": "1-2天",
-  "best_time": "11月-次年3月，白天15-25度适合徒步和拍摄，彻底避开夏季致命高温。"
+  "best_time": "11月-次年3月，白天15-25度适合徒步和拍摄，彻底避开夏季致命高温"
 }

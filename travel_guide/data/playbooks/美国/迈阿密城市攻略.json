@@ -1,30 +1,280 @@
 {
   "name": "迈阿密",
   "type": "city",
-  "aliases": [],
+  "aliases": [
+    "Miami"
+  ],
   "city": "迈阿密",
   "country": "美国",
-  "summary": "南滩+装饰艺术建筑+古巴风情拉美味，海滩度假为主轴；只玩海滩可不租车，要去大沼泽或西礁岛则必须自驾。",
+  "summary": "佛罗里达州全年温暖的海滨城市，气候类似三亚、氛围像深圳。以南海滩、Art Deco建筑和古巴文化著称，可搭配大沼泽地国家公园和Key West环线自驾。",
+  "transport": {
+    "fly_train": "多数城市有直飞航班。机场距海滩区20-30分钟车程，打车30美金+，或机场租车自驾。",
+    "drive": "奥兰多到迈阿密约4小时车程（242英里），收费路段需22-26美金。可在West Palm Beach停留。南下Key West为经典自驾路线。",
+    "local": "市区景点集中，停车位少，打车比自驾更方便。Uber/Lyft市区到南海滩15-20美金，机场到南海滩20美金+。"
+  },
+  "hotels": [
+    {
+      "name": "Monte Carlo Miami Beach",
+      "area": "北海滩",
+      "star": 4,
+      "score": "9.0",
+      "reviews": "1400条评价+",
+      "note": "可在阳台独享海景，距主要景点约20分钟车程",
+      "link": ""
+    },
+    {
+      "name": "The Elser Hotel Miami",
+      "area": "市区",
+      "star": 4,
+      "score": "8.4",
+      "reviews": "6200条评价+",
+      "note": "靠近Bayside Marketplace和科学博物馆，吃饭游玩方便，距海滩15分钟车程",
+      "link": ""
+    },
+    {
+      "name": "The Goodtime Hotel",
+      "area": "南海滩",
+      "star": 4,
+      "score": "8.4",
+      "reviews": "",
+      "note": "拍照好看，走5分钟到海滩，房间17平米",
+      "link": ""
+    },
+    {
+      "name": "Blanc Kara",
+      "area": "南海滩",
+      "star": 3,
+      "score": "8.6",
+      "reviews": "1180条评价+",
+      "note": "走5分钟到海滩，走15分钟到South Pointe Park",
+      "link": ""
+    },
+    {
+      "name": "Shepley South Beach Hotel",
+      "area": "南海滩",
+      "star": 3,
+      "score": "8.6",
+      "reviews": "2098条评价+",
+      "note": "走5分钟到海滩，走15分钟到Lincoln Road",
+      "link": ""
+    },
+    {
+      "name": "ABAE Hotel by Eskape Collection",
+      "area": "南海滩",
+      "star": 4,
+      "score": "8.5",
+      "reviews": "1548条评价+",
+      "note": "走20分钟到海滩，走15分钟到Lincoln Road",
+      "link": ""
+    },
+    {
+      "name": "Palms Hotel & Spa",
+      "area": "Mid-Beach",
+      "star": 4,
+      "score": "8.6",
+      "reviews": "2000条评价+",
+      "note": "标准海景度假村，游客比南海滩少，10分钟内到奢侈品街和涂鸦墙",
+      "link": ""
+    },
+    {
+      "name": "Hotel Victor South Beach",
+      "area": "南海滩",
+      "star": 4,
+      "score": "8.2",
+      "reviews": "2200条评价+",
+      "note": "有海景房，热闹方便，小型酒店非度假村",
+      "link": ""
+    },
+    {
+      "name": "Avalon Hotel",
+      "area": "南海滩",
+      "star": 4,
+      "score": "8.5",
+      "reviews": "2200条评价+",
+      "note": "走3分钟到海边，位于Ocean Drive，Art Deco建筑风格",
+      "link": ""
+    },
+    {
+      "name": "Uma House by Yurbban",
+      "area": "南海滩",
+      "star": 4,
+      "score": "8.5",
+      "reviews": "1400条评价+",
+      "note": "走5分钟到海边，走7分钟到Lincoln Road步行街",
+      "link": ""
+    },
+    {
+      "name": "citizenM Miami Worldcenter",
+      "area": "市区",
+      "star": 4,
+      "score": "8.7",
+      "reviews": "9100条评价+",
+      "note": "步行5分钟到Bayside Marketplace，房间14平米，空调偏凉",
+      "link": ""
+    },
+    {
+      "name": "citizenM Miami Brickell",
+      "area": "市区",
+      "star": 4,
+      "score": "8.6",
+      "reviews": "4600条评价+",
+      "note": "步行6分钟到Brickell City Centre，房间14平米，空调偏凉",
+      "link": ""
+    },
+    {
+      "name": "1 Hotel South Beach",
+      "area": "南海滩",
+      "star": 5,
+      "score": "8.8",
+      "reviews": "1200条评价+",
+      "note": "私人海滩，房间大海景好设计有品味，价格昂贵",
+      "link": ""
+    },
+    {
+      "name": "Comfort Inn & Suites Miami International Airport",
+      "area": "机场",
+      "star": 3,
+      "score": "8.2",
+      "reviews": "5100条评价+",
+      "note": "距机场10分钟车程，有免费班车但不准时，性价比高适合早晚航班",
+      "link": ""
+    },
+    {
+      "name": "EB Hotel Miami",
+      "area": "机场",
+      "star": 4,
+      "score": "9.0",
+      "reviews": "1600条评价+",
+      "note": "距机场5-10分钟，24小时免费班车准时每30分钟一班",
+      "link": ""
+    }
+  ],
+  "hotel_intro": "海景酒店可享阳台海景但价格高；南海滩距海近热闹但房价贵；市区酒店吃饭游玩最方便性价比高，推荐Bayside Marketplace或Brickell City Centre附近；机场酒店适合早晚航班。迈阿密酒店普遍偏贵，便宜的多有硬伤需做好心理准备。",
+  "attractions": [
+    {
+      "name": "南海滩",
+      "order": 1,
+      "tagline": "最有名海滩，面积大最成熟，适合躺沙滩踩水看日落，半天-1天",
+      "has_detail": false
+    },
+    {
+      "name": "维兹卡亚博物馆",
+      "order": 2,
+      "tagline": "历史建筑博物馆，2-3小时",
+      "has_detail": false
+    },
+    {
+      "name": "涂鸦墙",
+      "order": 3,
+      "tagline": "街头艺术打卡地，1-2小时",
+      "has_detail": false
+    },
+    {
+      "name": "小哈瓦那",
+      "order": 4,
+      "tagline": "古巴文化区，品尝古巴菜，2-3小时",
+      "has_detail": false
+    },
+    {
+      "name": "迈阿密动物园",
+      "order": 5,
+      "tagline": "家庭亲子选择，半天",
+      "has_detail": false
+    },
+    {
+      "name": "奢侈品街",
+      "order": 6,
+      "tagline": "购物逛街，2-3小时",
+      "has_detail": false
+    },
+    {
+      "name": "水族馆",
+      "order": 7,
+      "tagline": "适合带小朋友，2-3小时",
+      "has_detail": false
+    },
+    {
+      "name": "迈阿密天际线游船",
+      "order": 8,
+      "tagline": "海上观光游船，1-2小时",
+      "has_detail": false
+    },
+    {
+      "name": "迈阿密植物园",
+      "order": 10,
+      "tagline": "绿植爱好者推荐，2-3小时",
+      "has_detail": false
+    },
+    {
+      "name": "大沼泽地国家公园",
+      "order": 11,
+      "tagline": "周边经典一日游，可体验Airboat，含酒店接送，全天",
+      "has_detail": false
+    },
+    {
+      "name": "Key West",
+      "order": 12,
+      "tagline": "自驾一路向南必看日落，建议过夜，往返2天",
+      "has_detail": false
+    },
+    {
+      "name": "South Pointe Park",
+      "order": 13,
+      "tagline": "南海滩南端，适合看日落，1小时",
+      "has_detail": false
+    },
+    {
+      "name": "Lincoln Road Mall",
+      "order": 14,
+      "tagline": "南海滩步行街，逛街吃饭，2-3小时",
+      "has_detail": false
+    },
+    {
+      "name": "Art Deco Historic District",
+      "order": 15,
+      "tagline": "南海滩彩色老房子历史街区，拍照打卡，1-2小时",
+      "has_detail": false
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": "抵达+南海滩",
+      "detail": "到达迈阿密，前往南海滩躺沙滩、踩水、看日落。"
+    },
+    {
+      "day": "2",
+      "title": "博物馆+古巴风情",
+      "detail": "上午游览维兹卡亚博物馆，中午在小哈瓦那品尝古巴菜，下午逛涂鸦墙或迈阿密动物园。"
+    },
+    {
+      "day": "3",
+      "title": "大沼泽地一日游",
+      "detail": "前往大沼泽地国家公园一日游，不开车可选择含酒店接送的Airboat项目。"
+    },
+    {
+      "day": "4",
+      "title": "Key West自驾",
+      "detail": "上午出发一路向南自驾前往Key West，绝对不要错过日落，在Key West过夜。不开车可跟团乘巴士前往。"
+    },
+    {
+      "day": "5",
+      "title": "返程",
+      "detail": "上午查漏补缺，中午从Key West返回迈阿密，下午或次日坐飞机离开。"
+    }
+  ],
   "sections": [
     {
-      "title": "到达与市内交通",
-      "content": "迈阿密机场（MIA）打车到南滩约25分钟、固定价35美元左右，Uber/Lyft略便宜。市区公共交通弱：Metromover市中心免费环线可用，但去海滩还得靠公交或打车。只在南滩活动可完全不租车，步行+免费电瓶车Freebee（App叫车）够用；要去大沼泽国家公园、西礁岛（Key West）或多个海滩就必须租车，机场租车中心选择多价格低，但南滩酒店停车一晚30-50美元要算进预算。"
+      "title": "迈阿密：阳光海滩与多元文化",
+      "content": "迈阿密位于佛罗里达州，全年温暖，气候类似三亚，城市氛围像深圳。这座海滨都市以其绵长的海岸线、Art Deco建筑和浓郁的古巴文化而闻名。南海滩是迈阿密的标志性区域，面积大、最成熟，游客络绎不绝。在这里，你可以躺在沙滩上享受阳光，踩着海浪看日落，感受「面朝大海，春暖花开」的美好。\n\n除了海滩，迈阿密的文化多样性也是其魅力所在。小哈瓦那汇聚了古巴移民的风情，街头的涂鸦墙展示着城市的艺术活力。维兹卡亚博物馆则带你回溯历史，欣赏精美的建筑与园林。对于家庭游客，迈阿密动物园和水族馆是不错的选择；对于购物爱好者，奢侈品街和各大购物中心能满足你的需求。\n\n迈阿密周边更有大沼泽地国家公园和Key West两大必去景点。大沼泽地以其独特的湿地生态和刺激的Airboat体验吸引着探险者；而Key West则是美国本土最南端的岛屿，自驾一路向南的旅程本身就是一场视觉盛宴，落日时分更是美得令人窒息。\n\n冬季（12月至4月）是迈阿密的旱季，阳光充足、湿度低，是最佳旅游季节，但1月平均气温只有20度左右，不太适合下水。务必避开8-9月的飓风高峰期。迈阿密的酒店普遍价格较高，便宜的往往有硬伤，需提前做好预算和心理准备。市区酒店在吃饭和游玩方面最为方便，性价比也相对较高；而海景酒店虽贵，但能带来无与伦比的度假体验。"
     },
     {
-      "title": "住宿建议",
-      "content": "南滩（South Beach）5-15街之间是精华：Ocean Drive沿街热闹吵闹，Collins Ave往里一两条街安静一点且便宜。中滩（Mid-Beach）酒店新、沙滩人少，适合纯度假。Brickell市中心高楼区适合不以海滩为主的行程，餐厅夜景好。12月-4月是旺季价格翻倍，南滩3星旺季300美元起；art deco老酒店房间普遍小，介意的选新酒店。"
+      "title": "交通与住宿建议",
+      "content": "多数城市都有直飞迈阿密的航班，抵达后从机场到海滩区约需20-30分钟车程，可选择打车（30美金以上）或租车自驾。市区景点相对集中，但停车位少，打车往往比自驾更便捷。Uber或Lyft从市区到南海滩约15-20美金，从机场到南海滩则需20美金以上。\n\n如果计划游览周边景区如大沼泽地或Key West，自驾是最方便的选择。奥兰多到迈阿密约4小时车程，途中可在West Palm Beach稍作停留，欣赏漂亮的海滩和奢侈品街。自驾需注意收费路段，总费用约22-26美金，可使用Visitor Toll Pass或购买SunPass Mini来支付过路费。此外，2023年通车的Brightline火车也是奥兰多与迈阿密之间的舒适选择，车程3.5小时，票价60美金起，车上有WiFi和充电口，座位舒适。\n\n住宿方面，迈阿密可分为海景酒店、近海滩酒店、市区酒店和机场酒店几类。海景酒店如Monte Carlo Miami Beach和Palms Hotel & Spa能让你在阳台上独享海景，但价格较高且部分位置稍远。南海滩附近的酒店如Avalon Hotel和Uma House by Yurbban，步行几分钟即可到海边，热闹且方便。市区酒店如The Elser Hotel Miami和citizenM系列，靠近Bayside Marketplace或Brickell City Centre，吃饭购物游玩最为便利，性价比也更高。对于早晚航班的游客，机场附近的Comfort Inn或EB Hotel Miami是经济实惠的选择。"
     },
     {
-      "title": "必看与通票",
-      "content": "装饰艺术历史区（Art Deco District）沿Ocean Drive 5-15街集中了上世纪30年代粉彩建筑，免费逛，Art Deco Welcome Center有付费导览讲历史。小哈瓦那（Little Havana）的Calle Ocho八街：看老人在Domino Park下棋、Ball & Chain酒吧听现场拉丁乐。Wynwood Walls涂鸦区文艺打卡半天。乘船游比斯坎湾看明星豪宅或日落航班约30美元起。大沼泽国家公园气垫船（airboat）看鳄鱼，半日团或自驾1小时到。"
-    },
-    {
-      "title": "美食",
-      "content": "古巴菜是主场：Versailles（小哈瓦那地标）的Cubano三明治和ropa vieja，配一杯1.5美元的窗口cafecito（古巴浓缩咖啡）。Stone crab石蟹（10-5月限定）老店Joe's Stone Crab不接受订位排队凶猛，旁边外卖窗口同款便宜一半。Ocean Drive沿街餐厅普遍宰客，菜单常默认加18%服务费，下单前看清，别再重复给小费。"
-    },
-    {
-      "title": "实用贴士",
-      "content": "6-11月是飓风季，8-9月风险最高，行前关注预报并买可退订房。防晒是头等大事，紫外线全年凶猛。南滩夜里酒吧街以外的暗巷少走，财物别留在沙滩上无人看管，租车内不可见处也别留包（砸窗盗窃常见）。西语在迈阿密比英语还常用，菜单价格普遍不含税和小费，预算上浮25%。"
+      "title": "南海滩：迈阿密的灵魂",
+      "content": "南海滩是迈阿密最著名的区域，也是游客的首选目的地。这里沙滩绵长，海水湛蓝，适合躺在沙滩椅上晒太阳，或踩着海浪嬉戏玩耍。傍晚时分，金色的阳光洒在海面上，是拍照和看日落的最佳时刻。South Pointe Park位于南海滩最南端，是观赏日落的绝佳地点，步行15分钟即可到达。\n\nLincoln Road Mall是南海滩的步行街，汇集了众多餐厅、咖啡馆和商店，是吃饭和逛街的好去处。Art Deco Historic District则展示了迈阿密独特的建筑风格，这些色彩缤纷的老房子仿佛将你带回上世纪二三十年代，是拍照打卡的热门地点。\n\n南海滩的住宿选择丰富，从经济型的Blanc Kara和Shepley South Beach Hotel，到设计感十足的The Goodtime Hotel，再到奢华的1 Hotel South Beach，各种预算都能找到合适的选项。需要注意的是，南海滩游客众多，尤其是周末和节假日，建议提前规划行程，避开人流高峰。如果追求更清静的海滩体验，可以选择Mid-Beach或North Beach，这些区域游客相对较少，景色同样优美。"
     }
   ],
   "duration": "3-4天",

@@ -4,27 +4,161 @@
   "aliases": [],
   "city": "亚特兰大",
   "country": "美国",
-  "summary": "可口可乐世界+全球顶级水族馆+民权运动史迹，核心景点扎堆在奥林匹克公园周边，一到两天即可；多为转机顺访。",
+  "summary": "美国东南部最大城市，以可口可乐诞生地与美国最大水族馆而闻名。市区景点集中可步行，周边有石头山、小城Chattanooga等值得一游。",
+  "transport": {
+    "fly_train": "亚特兰大机场距离市区12公里，车程20分钟，Uber/Lyft约需35美金",
+    "drive": "距离洛杉矶4小时航程，距离纽约2小时航程",
+    "local": "市区景点集中可步行，白天可坐地铁，更建议Uber"
+  },
+  "hotels": [
+    {
+      "name": "Embassy Suites by Hilton Atlanta",
+      "area": "Downtown",
+      "star": 3,
+      "score": "8.7",
+      "reviews": "1100条评价+",
+      "note": "挨着奥林匹克公园，可步行去水族馆/可口可乐世界，好评多",
+      "link": ""
+    },
+    {
+      "name": "Atlanta Hyatt Regency",
+      "area": "Downtown",
+      "star": 4,
+      "score": "8.5",
+      "reviews": "3600条评价+",
+      "note": "房价较低，距离可口可乐世界步行10分钟，但路上homeless多，最好打车",
+      "link": ""
+    },
+    {
+      "name": "Georgia Tech Hotel and Conference Center",
+      "area": "Midtown",
+      "star": 4,
+      "score": "9.2",
+      "reviews": "1200条评价+",
+      "note": "",
+      "link": ""
+    },
+    {
+      "name": "Hampton Inn & Suites",
+      "area": "Midtown",
+      "star": 3,
+      "score": "8.8",
+      "reviews": "828条评价+",
+      "note": "",
+      "link": ""
+    },
+    {
+      "name": "Drury Inn and Suites Atlanta",
+      "area": "机场附近",
+      "star": 0,
+      "score": "",
+      "reviews": "",
+      "note": "机场附近酒店",
+      "link": ""
+    }
+  ],
+  "hotel_intro": "Downtown可步行到景点，但homeless略多；Midtown的homeless少，安全感强，去吃饭/逛景点也不远",
+  "attractions": [
+    {
+      "name": "可口可乐世界",
+      "order": 1,
+      "tagline": "可以尝到近100种口味可乐的博物馆，票价25美金，可安排1.5小时",
+      "has_detail": false
+    },
+    {
+      "name": "水族馆",
+      "order": 2,
+      "tagline": "美国最大的水族馆，票价55美金起，可安排2-3小时",
+      "has_detail": false
+    },
+    {
+      "name": "奥林匹克百年公园",
+      "order": 3,
+      "tagline": "免费，可安排15分钟",
+      "has_detail": false
+    },
+    {
+      "name": "Ponce市场",
+      "order": 4,
+      "tagline": "吃喝逛街好地方，可安排1小时",
+      "has_detail": false
+    },
+    {
+      "name": "亚特兰大植物园",
+      "order": 5,
+      "tagline": "5月到9月有展时可以去，票价29.95美金，可安排2小时",
+      "has_detail": false
+    },
+    {
+      "name": "石头山州立公园",
+      "order": 6,
+      "tagline": "可以遥看亚特兰大的石山，停车费20美金，适合安排一个下午",
+      "has_detail": false
+    },
+    {
+      "name": "小城Chattanooga",
+      "order": 7,
+      "tagline": "有登山小火车/地下瀑布/观景台，适合一日游",
+      "has_detail": false
+    },
+    {
+      "name": "花园Gibbs Gardens",
+      "order": 8,
+      "tagline": "亚特兰大最美的花园，票价25美金，可安排2小时",
+      "has_detail": false
+    },
+    {
+      "name": "德国小镇Helen",
+      "order": 9,
+      "tagline": "吃猪肘/玩漂流，适合夏季一日游",
+      "has_detail": false
+    },
+    {
+      "name": "观景点Bell Mountain",
+      "order": 10,
+      "tagline": "天气好时可去看看的观景点，可安排30分钟",
+      "has_detail": false
+    },
+    {
+      "name": "教堂The Pretty Place",
+      "order": 11,
+      "tagline": "适合看日出的山脊教堂，可安排30分钟",
+      "has_detail": false
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": "市区核心景点",
+      "detail": "上午打卡『可口可乐世界』，下午游览『水族馆』，晚上去『Ponce市场』逛吃"
+    },
+    {
+      "day": "2",
+      "title": "周边自然风光",
+      "detail": "上午可以去『花园Gibbs Gardens』看花花草草，下午去『石头山州立公园』爬山看日落"
+    },
+    {
+      "day": "3",
+      "title": "周边小镇游",
+      "detail": "推荐去『小城Chattanooga』一日游，夏天也可以去『德国小镇Helen』玩漂流"
+    }
+  ],
   "sections": [
     {
-      "title": "到达与市内交通",
-      "content": "哈茨菲尔德-杰克逊机场是全球客流第一大机场，很多人在此转机顺访。机场地铁MARTA红/金线约20分钟直达市中心Five Points，2.5美元，比打车（35美元以上）划算得多。核心景点（可口可乐世界、水族馆、CNN中心旧址）全挤在百年奥林匹克公园周边步行5分钟内。去马丁路德金历史街区坐地铁蓝线到King Memorial站或打车10分钟。除此之外城市极度依赖汽车，景点以外的移动用Uber。"
+      "title": "亚特兰大概况",
+      "content": "亚特兰大在Georgia州，是美国东南部最大的城市，以可口可乐诞生地与美国最大的水族馆而闻名。这座城市拥有便利的交通，距离洛杉矶4小时航程，距离纽约仅2小时航程。市区景点集中，可步行游览，白天可以坐地铁，但更建议使用Uber出行。"
     },
     {
-      "title": "住宿建议",
-      "content": "Downtown奥林匹克公园周边步行覆盖主要景点，连锁酒店多，周末和会展期价格波动大；夜间街上行人少，回酒店打车。Midtown更有生活气息，餐厅多、邻近植物园和皮埃蒙特公园，地铁红/金线两三站到Downtown，是更舒服的选择。3星120-180美元属正常区间。Buckhead高档购物区适合商务客。避免夜间在Downtown南侧和西侧街区步行。"
+      "title": "住宿区域选择",
+      "content": "亚特兰大主要有两个住宿区域可供选择。Downtown区域可步行到景点，但homeless略多；Midtown区域的homeless少，安全感强，去吃饭逛景点也不远。Downtown的Embassy Suites by Hilton Atlanta挨着奥林匹克公园，可步行去水族馆和可口可乐世界，好评多。Atlanta Hyatt Regency房价较低，距离可口可乐世界步行10分钟，但路上homeless多，最好打车。Midtown的Georgia Tech Hotel and Conference Center和Hampton Inn & Suites都是不错的选择。"
     },
     {
-      "title": "必看与通票",
-      "content": "乔治亚水族馆是西半球最大水族馆，鲸鲨大洋池是镇馆招牌，必须官网提前订时段票，周末常售罄，开馆时段人最少。可口可乐世界（World of Coca-Cola）就在水族馆隔壁，亮点是结尾的全球口味试饮区（北美区的Beverly苦味是整蛊保留项目），约1.5-2小时。马丁·路德·金国家历史公园免费：包含他的出生故居（内部参观需当天在游客中心登记，名额有限早去）、埃比尼泽浸信会教堂和墓园。三个景点打包的CityPASS约90美元，玩满3项即回本。"
+      "title": "必游景点",
+      "content": "可口可乐世界是亚特兰大的标志性景点，在这个博物馆里可以尝到近100种口味的可乐。水族馆是美国最大的水族馆，值得花2-3小时深度游览。奥林匹克百年公园免费开放，可以顺路打卡。Ponce市场是吃喝逛街的好地方，晚上可以去那里感受当地氛围。如果在5月到9月有展览时，亚特兰大植物园也值得一游。"
     },
     {
-      "title": "美食",
-      "content": "南方菜（Southern food）主场：炸鸡配华夫饼、虾配玉米糊（shrimp & grits）。Mary Mac's Tea Room是体验老派南方菜的代表。Ponce City Market是老厂房改造的美食大厅，吃完上楼顶游乐场看城景。The Varsity是1928年开业的全球最大免下车快餐店，热狗洋葱圈是打卡项。BeltLine东段步道串起餐馆酒吧，傍晚散步顺路解决晚餐。"
-    },
-    {
-      "title": "实用贴士",
-      "content": "亚特兰大治安口碑一般，但游客区白天没问题，原则就两条：夜间不步行、贵重物品不留车内。地铁MARTA车上偶有闲杂人等，白天乘坐无碍，夜间改打车。夏天闷热多雷雨，室内景点多正好避暑。如果时间多，斯通山公园（Stone Mountain）约30分钟车程，可看激光秀；CNN演播室参观已停止，别被旧攻略误导。"
+      "title": "周边游览",
+      "content": "石头山州立公园可以遥看亚特兰大的石山，适合安排一个下午爬山看日落。小城Chattanooga有登山小火车、地下瀑布和观景台，适合一日游。花园Gibbs Gardens是亚特兰大最美的花园，适合上午游览。德国小镇Helen可以吃猪肘、玩漂流，是夏季一日游的好选择。天气好时还可以去Bell Mountain观景点或The Pretty Place山脊教堂看日出。"
     }
   ],
   "duration": "1-2天",

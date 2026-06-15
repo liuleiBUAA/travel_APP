@@ -1,32 +1,152 @@
 {
   "name": "旧金山",
   "type": "city",
-  "aliases": [],
+  "aliases": [
+    "三藩市",
+    "San Francisco",
+    "SF"
+  ],
   "city": "旧金山",
   "country": "美国",
-  "summary": "叮当车、金门大桥与恶魔岛构成核心体验，城市紧凑可不租车，恶魔岛需提前数周订票，注意按街区避开治安差区域。",
-  "sections": [
+  "summary": "San Francisco 三藩市，北加州最著名的旅游地。城市规模不大但有山有海有文化，金门大桥、恶魔岛、渔人码头是核心。市区不建议自驾（停车贵+砸车多），靠 Uber+步行+铛铛车。",
+  "duration": "3天",
+  "best_time": "四季皆可，旧金山湾早晚多雾，看景建议中午。",
+  "transport": {
+    "fly_train": "机场 SFO 距市区约15英里/24公里，车程25分钟+。BART 快轨在国际航站楼G区，到市区约30分钟、约12美金（白天基本安全）；Uber/Lyft 正常约40美金，高峰60-80美金；出租车45-65美金+小费，可能乱收费不建议。",
+    "drive": "距洛杉矶400英里/644公里，可自驾走一号公路。市区不建议自驾——停车位少且贵，被砸车概率高（绝不要留证件财物在车里）。",
+    "local": "市区靠 Uber+步行最方便，也可坐铛铛车 Cable Cars。可下载 Waymo APP 体验无人驾驶（叫车同 Uber，等车稍久价格略贵）。"
+  },
+  "hotel_intro": "联合广场（市中心）公交便利去景点最方便但 homeless 略多；初次来美求安心可住渔人码头（游客区，更安全）。",
+  "hotels": [
     {
-      "title": "到达与市内交通",
-      "content": "SFO机场有BART轻轨直达市区，约30分钟$10左右，比打车（$50-70）划算得多。市内紧凑，Muni公交+步行+打车即可，不必租车——坡道陡、停车贵（$40-60/天）且砸车窗盗窃高发。叮当车（Cable Car）单程$8，Powell-Hyde线风景最好，起点站排队长，可走两个街区到中途站上车。买Muni一日票（手机App MuniMobile）含叮当车更划算。"
+      "name": "Riu Plaza Fisherman's Wharf",
+      "area": "渔人码头",
+      "star": 4,
+      "score": "8.4",
+      "reviews": "12000+",
+      "note": "游客区，安全，评价多"
     },
     {
-      "title": "住宿建议",
-      "content": "推荐渔人码头（适合家庭、近景点，$200-300/晚）或联合广场北侧（交通枢纽，$150-250/晚）。务必避开Tenderloin区（联合广场西南侧，大致Geary街以南、Van Ness以东）和Civic Center周边，流浪汉和吸毒人员集中，订房前在地图上核对具体街区。SoMa区6街附近同样要避开。Nob Hill安静上档次但坡陡，拖行李辛苦。"
+      "name": "Chelsea Inn",
+      "area": "渔人码头",
+      "star": 3,
+      "score": "8.3",
+      "reviews": "2400+",
+      "note": "性价比之选"
     },
     {
-      "title": "必看与通票",
-      "content": "恶魔岛（Alcatraz）是最容易卖空的景点，只能在官方Alcatraz City Cruises订（$45左右含船票和语音导览），旺季需提前3-4周，临近只能买贵一倍的第三方套票。金门大桥推荐骑行：渔人码头租车（$40-60/天）骑过桥到Sausalito，再坐渡轮返回，半天行程。九曲花街、渔人码头海狮免费。CityPASS（$84起）含加州科学院、水族馆和Muni，适合带孩子玩3天以上。"
+      "name": "Hyatt Regency SF Downtown SOMA",
+      "area": "联合广场",
+      "star": 4,
+      "score": "8.7",
+      "reviews": "3400+",
+      "note": "市中心，去景点方便"
     },
     {
-      "title": "美食",
-      "content": "渔人码头Boudin的酸面包蛤蜊浓汤（$10-15）是招牌；珍宝蟹季（11月-次年6月）在码头摊位买整只现蒸约$30-40。中国城是北美最老唐人街，岭南小馆的椒盐珍宝蟹值得排队（人均$40-60）。Mission区是墨西哥卷饼发源地，La Taqueria的burrito约$12。Tartine Bakery的面包和可颂常排队20分钟。Ferry Building周六上午有农夫市集，生蚝和咖啡都好。"
-    },
-    {
-      "title": "实用贴士",
-      "content": "车内不留任何物品，旧金山砸车窗全美闻名，租车的人停车后把后备箱也清空示人。夏天反而冷，7-8月雾大风大，气温常仅15度上下，必备防风外套，“最冷的冬天是旧金山的夏天”不是玩笑。坡道极陡，穿舒适运动鞋。规划顺序：上午雾散前先玩室内或Mission区，下午再去金门大桥拍照。硅谷、斯坦福、纳帕酒乡都需租车一日游，可放行程最后一天提车。"
+      "name": "Chancellor Hotel on Union Square",
+      "area": "联合广场",
+      "star": 3,
+      "score": "8.7",
+      "reviews": "5000+",
+      "note": "联合广场，公交便利"
     }
   ],
-  "duration": "2-3天",
-  "best_time": "9-10月，雾季结束阳光最多气温最舒适，是旧金山一年中难得的“夏天”。"
+  "attractions": [
+    {
+      "name": "金门大桥",
+      "order": 1,
+      "tagline": "旧金山地标朱红大桥，15分钟-1小时",
+      "has_detail": true
+    },
+    {
+      "name": "恶魔岛",
+      "order": 2,
+      "tagline": "大名鼎鼎监狱岛，2-3小时，必须预订",
+      "has_detail": true
+    },
+    {
+      "name": "渔人码头",
+      "order": 3,
+      "tagline": "看海狮/吃海鲜必去，Pier39，1小时",
+      "has_detail": true
+    },
+    {
+      "name": "金门公园",
+      "order": 4,
+      "tagline": "科技馆/美术馆/植物园，2-4小时",
+      "has_detail": true
+    },
+    {
+      "name": "九曲花街",
+      "order": 5,
+      "tagline": "游客必去拍照点，10分钟",
+      "has_detail": false
+    },
+    {
+      "name": "艺术宫",
+      "order": 6,
+      "tagline": "欧式建筑拍照点，15分钟",
+      "has_detail": false
+    },
+    {
+      "name": "中国城",
+      "order": 7,
+      "tagline": "吃饭好地方+拍照，30分钟-1小时",
+      "has_detail": false
+    },
+    {
+      "name": "双子峰",
+      "order": 8,
+      "tagline": "360度俯瞰旧金山看日落，15分钟",
+      "has_detail": false
+    },
+    {
+      "name": "斯坦福大学",
+      "order": 9,
+      "tagline": "硅谷IT朝圣地，拱廊+胡佛塔，2-3小时",
+      "has_detail": true,
+      "group": "周边一日游"
+    },
+    {
+      "name": "半月湾",
+      "order": 10,
+      "tagline": "半月形海岸看海景买海鲜，一日游",
+      "has_detail": true,
+      "group": "周边一日游"
+    },
+    {
+      "name": "Santa Cruz",
+      "order": 11,
+      "tagline": "海滨小城+百年游乐场，一日游",
+      "has_detail": true,
+      "group": "周边一日游"
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": "市区经典打卡",
+      "detail": "上午：九曲花街 + 渔人码头（午餐）。下午：艺术宫 + 金门大桥（下午雾小些）。傍晚：中国城或日本城晚餐。"
+    },
+    {
+      "day": "2",
+      "title": "恶魔岛+金门公园+双子峰",
+      "detail": "上午：恶魔岛（必须预订）。下午：金门公园-加州科学博物馆（预订）。傍晚：双子峰看日落。"
+    },
+    {
+      "day": "3",
+      "title": "斯坦福+一号公路",
+      "detail": "上午：斯坦福大学看学霸。下午：开启一号公路自驾游。"
+    }
+  ],
+  "sections": [
+    {
+      "title": "铛铛车 Cable Cars",
+      "content": "150年以上历史的标志性交通工具，往返联合广场和渔人码头。票价单程9美金（4岁及以下免费），一日票15美金（无限次坐含铛铛车的公交）。购票：现金（不找零）或下载 MuniMobile。上车：总站排队（节假日可能1小时），小站可挥手上车但常满员。下车：小站要提前跟司机说 Next stop please（没有按钮）。最常用 Powell-Mason line（起点 Powell St & Market St 挨着BART和联合广场，终点 Taylor St & Bay St 近渔人码头）；人多可坐 Powell-Hyde Line。"
+    },
+    {
+      "title": "周边一日游",
+      "content": "斯坦福大学、半月湾、Santa Cruz 小镇、Sausalito 小镇、Muir 红杉森林。距洛杉矶400英里可走一号公路自驾。"
+    }
+  ]
 }

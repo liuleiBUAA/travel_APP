@@ -1,32 +1,257 @@
 {
   "name": "纽约",
   "type": "city",
-  "aliases": [],
+  "aliases": [
+    "New York",
+    "NYC"
+  ],
   "city": "纽约",
   "country": "美国",
-  "summary": "曼哈顿地标+博物馆+百老汇一城打包，地铁覆盖全部景点；提前订自由女神和热门演出，按区块规划少走回头路。",
+  "summary": "美国最大城市，移民口岸汇聚多元文化。上城博物馆云集，中城地标林立，下城金融与自由女神交织，建议安排3-5天深度游览。",
+  "transport": {
+    "fly_train": "三大机场：EWR纽瓦克机场（Uber60-120美金/机场巴士23.5美金/火车17美金，约30分钟）；JFK肯尼迪机场（Uber60-150美金/火车15美金左右，约30分钟，注意防骗）；LGA拉瓜迪亚机场（Uber约60美金/巴士2.9美金，约20-30分钟）",
+    "drive": "与波士顿217英里/4-5小时车程；与华盛顿225英里/5-6小时车程；与费城等东海岸城市可火车/巴士往返",
+    "local": "地铁单程2.9美金（2026年涨至3美金），不限距离，1.1米以下儿童免费；支持信用卡/手机Apple Pay/Google Wallet直接刷闸机；7天内刷12次费用封顶；OMNY卡5美金（需充值至少1美金）；白天乘坐相对安全但脏乱差，晚上建议Uber/Lyft"
+  },
+  "hotels": [
+    {
+      "name": "Hyatt Place New York City - Times Square",
+      "area": "中城",
+      "star": 4,
+      "score": "7.7",
+      "reviews": "19900",
+      "note": "位置方便",
+      "link": ""
+    },
+    {
+      "name": "Hilton Garden Inn New York Times Square South",
+      "area": "中城",
+      "star": 3,
+      "score": "8.2",
+      "reviews": "3600",
+      "note": "",
+      "link": ""
+    },
+    {
+      "name": "Pod Times Square",
+      "area": "中城",
+      "star": 3,
+      "score": "8.4",
+      "reviews": "19800",
+      "note": "",
+      "link": ""
+    },
+    {
+      "name": "Pod 51",
+      "area": "中城东",
+      "star": 3,
+      "score": "8.1",
+      "reviews": "10000",
+      "note": "",
+      "link": ""
+    },
+    {
+      "name": "San Carlos Hotel New York",
+      "area": "中城东",
+      "star": 4,
+      "score": "9.0",
+      "reviews": "4300",
+      "note": "",
+      "link": ""
+    },
+    {
+      "name": "Club Quarters Hotel Grand Central",
+      "area": "中城东",
+      "star": 4,
+      "score": "8.6",
+      "reviews": "4700",
+      "note": "",
+      "link": ""
+    },
+    {
+      "name": "Pod 39",
+      "area": "中城东",
+      "star": 3,
+      "score": "8.5",
+      "reviews": "10000",
+      "note": "",
+      "link": ""
+    },
+    {
+      "name": "Hotel Belleclaire Central Park",
+      "area": "上西区",
+      "star": 4,
+      "score": "8.4",
+      "reviews": "4900",
+      "note": "步行10分钟到自然历史博物馆",
+      "link": ""
+    },
+    {
+      "name": "Hotel Beacon",
+      "area": "上西区",
+      "star": 4,
+      "score": "8.8",
+      "reviews": "2900",
+      "note": "步行10分钟到自然历史博物馆",
+      "link": ""
+    },
+    {
+      "name": "Hotel Lucerne",
+      "area": "上西区",
+      "star": 4,
+      "score": "8.5",
+      "reviews": "1800",
+      "note": "步行10分钟到自然历史博物馆",
+      "link": ""
+    },
+    {
+      "name": "The Wallace Hotel",
+      "area": "上西区",
+      "star": 5,
+      "score": "9.3",
+      "reviews": "1300",
+      "note": "步行10分钟到自然历史博物馆",
+      "link": ""
+    },
+    {
+      "name": "voco The Franklin New York",
+      "area": "上东区",
+      "star": 4,
+      "score": "8.5",
+      "reviews": "390",
+      "note": "挨着地铁站，步行15分钟到大都会博物馆",
+      "link": ""
+    }
+  ],
+  "hotel_intro": "建议住纽约中城，位置方便相对安全。中城东表现更佳，上西区有生活气息（学者/媒体人/艺术从业者聚集），上东区为传统富人区但酒店少。作为宇宙中心房价较高需做好心理准备。",
+  "attractions": [
+    {
+      "name": "大都会博物馆",
+      "order": 1,
+      "tagline": "世界顶级艺术殿堂，藏品跨越5000年文明史，需半天以上",
+      "has_detail": false
+    },
+    {
+      "name": "美国自然历史博物馆",
+      "order": 2,
+      "tagline": "恐龙化石与宇宙探索，CityPass含普通门票+一个付费展览，需半天",
+      "has_detail": false
+    },
+    {
+      "name": "帝国大厦",
+      "order": 3,
+      "tagline": "经典地标观景台，CityPass含AM/PM票可日夜各去一次，看日落或夜景",
+      "has_detail": false
+    },
+    {
+      "name": "自由女神像和埃利斯岛",
+      "order": 4,
+      "tagline": "纽约必去象征，登岛游览，CityPass含渡轮往返，需半天",
+      "has_detail": false
+    },
+    {
+      "name": "中央公园",
+      "order": 5,
+      "tagline": "都市绿肺，适合散步野餐，四季皆宜",
+      "has_detail": false
+    },
+    {
+      "name": "时代广场",
+      "order": 6,
+      "tagline": "不夜城心脏，霓虹灯牌与人潮涌动，晚上更震撼",
+      "has_detail": false
+    },
+    {
+      "name": "峭石之巅观景台",
+      "order": 7,
+      "tagline": "洛克菲勒中心顶层，遥望帝国大厦与中央公园，CityPass可选项，日落时段推荐",
+      "has_detail": false
+    },
+    {
+      "name": "「无畏」号海洋航空航天博物馆",
+      "order": 8,
+      "tagline": "航母与飞机实物展示，CityPass可选项，适合军事爱好者，需2-3小时",
+      "has_detail": false
+    },
+    {
+      "name": "华尔街铜牛",
+      "order": 9,
+      "tagline": "金融区地标雕塑，顺游纽约证交所与三一教堂",
+      "has_detail": false
+    },
+    {
+      "name": "世贸遗址/9·11纪念馆",
+      "order": 10,
+      "tagline": "缅怀纪念地，氛围沉重，CityPass可选但情绪压抑",
+      "has_detail": false
+    },
+    {
+      "name": "布鲁克林大桥",
+      "order": 11,
+      "tagline": "横跨东河的百年桥梁，日落时分最美，之后可去唐人街晚餐",
+      "has_detail": false
+    },
+    {
+      "name": "中央车站",
+      "order": 12,
+      "tagline": "布杂艺术风格地标建筑，穹顶星空壁画震撼，10am-11am可参观纽约公共图书馆最美阅览室",
+      "has_detail": false
+    },
+    {
+      "name": "高线公园",
+      "order": 13,
+      "tagline": "废弃铁路改建的空中花园，适合散步拍照",
+      "has_detail": false
+    },
+    {
+      "name": "古根海姆美术馆",
+      "order": 14,
+      "tagline": "螺旋建筑本身即艺术品，CityPass可选但仅适合真艺术爱好者",
+      "has_detail": false
+    },
+    {
+      "name": "纽约现代艺术博物馆MoMA",
+      "order": 15,
+      "tagline": "现代艺术殿堂，梵高《星月夜》等名作收藏",
+      "has_detail": false
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": "上城博物馆日",
+      "detail": "白天参观『大都会博物馆』（虽然『自然历史博物馆』距离很近但建议拆开避免过赶），晚上在『帝国大厦』看日落或夜景"
+    },
+    {
+      "day": "2",
+      "title": "中城文化与自然",
+      "detail": "上午打卡『中央车站』『纽约公共图书馆』（最美阅览室仅周一至周六10am-11am开放），可顺访『Summit One Vanderbilt』观景，中午前往『自然历史博物馆』参观"
+    },
+    {
+      "day": "3",
+      "title": "中城游览",
+      "detail": "上午参观『航母博物馆』，下午沿『高线公园』散步，晚上游览『时代广场』"
+    },
+    {
+      "day": "4",
+      "title": "下城游",
+      "detail": "早上登岛看『自由女神』（游客较少），下午打卡『华尔街铜牛/纽约证交所/三一教堂』→『世贸遗址』，最后去『布鲁克林大桥』看日落（之后可去Chinatown晚餐）"
+    }
+  ],
   "sections": [
     {
-      "title": "到达与市内交通",
-      "content": "JFK机场进城：AirTrain接地铁E/A线约1小时，打车到曼哈顿固定价70美元左右（不含小费过路费）；纽瓦克EWR坐AirTrain接NJ Transit火车到Penn站约40分钟。市内地铁24小时运营，进站直接用手机或信用卡拍OMNY闸机，无需买卡，7天内满12次自动封顶免费。快车（Express）不是站站停，上车前看清标识。"
+      "title": "纽约印象",
+      "content": "纽约位于美国东海岸，是美国最大的城市。作为移民口岸，不同种族、信仰、肤色的人都生活在这里。城市里既有高大上的华尔街和上东区，又有破败混乱的贫民区，是美国人心中『最不美国』、外国人心中『最美国』的城市。从数据上看，纽约犯罪率比洛杉矶、华盛顿都要低，是个相对安全的城市。白天在景点附近活动基本安全，但地铁脏乱差问题明显，夜间怪人较多建议打车。"
     },
     {
-      "title": "住宿建议",
-      "content": "曼哈顿中城（时代广场至34街）位置最方便但贵且吵，3星也要250美元以上；下城金融区周末安静性价比高。长岛市（Long Island City）一两站地铁过江，价格低两成且能看曼哈顿天际线，是预算型首选。避开布鲁克林深处和布朗克斯不熟悉的区域，回程夜路地铁不便。"
+      "title": "纽约CityPass通票",
+      "content": "纽约CityPass售价成人164美金，6-17岁136美金，有效期9个连续自然日（从首次使用算起）。包含必选项目：帝国大厦（等同AM/PM票可日夜各去一次）+ 美国自然历史博物馆（普通门票+一个付费展览如蝴蝶馆/巨幕电影）。可选项目6选3：峭石之巅观景台（推荐）、自由女神像和埃利斯岛（推荐）、「无畏」号航母博物馆（推荐）、环线观光游轮（天气好才值得）、古根海姆美术馆（仅适合真艺术爱好者）、9/11纪念馆（氛围悲伤压抑）。单独购票以上5项热门组合约244美金，CityPass节省80美金。适合绝大多数第一次来纽约的游客，购买后收到电子票二维码，存手机直接扫描入场。如未使用可申请全额退款。"
     },
     {
-      "title": "必看与通票",
-      "content": "自由女神轮渡只认Statue City Cruises官网，登皇冠票需提前数周抢；不想花钱坐免费的Staten Island渡轮远观即可。帝国大厦、Top of the Rock、SUMMIT选一个登顶即可，日落前1小时时段最抢手。CityPASS（约146美元含5项）适合首次到访；大都会博物馆建议留半天，中央公园从南门走到毕士达喷泉约40分钟。百老汇捡漏：当天去时代广场TKTS亭排队5-7折，或下载TodayTix抽签rush票20-50美元。"
-    },
-    {
-      "title": "美食",
-      "content": "一美元披萨店遍布街头（99 Cent Fresh Pizza），Joe's Pizza是经典纽约薄底。熟食店Katz's Delicatessen的Pastrami三明治份量够两人分。法拉盛（地铁7号线终点）是全美最好的中餐区之一，比曼哈顿中国城地道。Chelsea Market和Time Out Market适合一站式解决选择困难。正餐人均30-60美元，账单需另加18-20%小费。"
-    },
-    {
-      "title": "实用贴士",
-      "content": "地铁车厢空荡时换一节人多的，深夜尽量打车（Uber/Lyft比扬招出租略便宜）。时代广场的玩偶人合影会强行索要小费，直接走开。博物馆周五晚常有免费或自愿付费时段（如MoMA周五晚免费需抢票）。曼哈顿街区号码即坐标：大道（Avenue）南北向、街（Street）东西向，迷路看路牌就能定位。"
+      "title": "地铁安全与使用",
+      "content": "与中国相比，纽约地铁发生危险事件概率更高，但对游客来说白天乘坐只是体验差，谈不上危险。地铁是多数当地人通勤工具，比中国地铁脏乱旧臭，大概率会看到无害的homeless（忽视即可），小概率遇到情绪激动怪人（躲开或下车）。网传恐怖事件属于『新闻』很少发生。全程用Google Map规划导航即可，找到绿色地铁口，注意小站指示牌标注Downtown（南向）和Uptown（北向），走错需重新付费进站。检票只在进站，出站无需操作。可用信用卡（带Contactless标志）、手机Apple Pay/Google Wallet直接刷闸机，或购买OMNY卡（5美金卡费+至少充值1美金）。站台无安全门建议与轨道保持距离，车厢明显乘客少不要上（可能有呕吐物或打架）。独自夜间乘车选有工作人员的中间车厢。坐错车下错站很正常不要怀疑智力。"
     }
   ],
   "duration": "4-5天",
-  "best_time": "5-6月和9-10月；天气舒适，避开酷暑湿热和节日人潮"
+  "best_time": "5-6月和9-10月，天气舒适，避开酷暑湿热和节日人潮"
 }

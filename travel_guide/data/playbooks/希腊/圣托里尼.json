@@ -1,28 +1,247 @@
 {
   "name": "圣托里尼",
-  "aliases": [],
+  "type": "city",
+  "aliases": [
+    "Santorini",
+    "圣岛"
+  ],
   "city": "圣托里尼",
   "country": "希腊",
-  "summary": "蓝顶白墙的悬崖小岛，伊亚日落是招牌。日落时段全岛的人都挤向伊亚，提前占位或换个机位是关键功课。",
+  "summary": "爱琴海上的蜜月圣地，以悬崖步道上的蓝白小房子和世界最美日落闻名。2-3天可玩遍经典悬崖步道、Oia小镇看日落、环岛自驾和出海项目。",
+  "transport": {
+    "fly_train": "机场到Fira公交总站€2.2/人，15-20分钟；打车到悬崖步道小镇€15-25（10-15分钟），到Oia约€25-30（20-30分钟）。从雅典飞行约45-50分钟，或从比雷埃夫斯港乘慢船约8小时、快船约4小时40分-5小时40分抵达新港。新港到Fira公交€2.7/人，打车到悬崖步道小镇€20-30、到Oia€30-40。",
+    "drive": "自驾环岛约55km，岛内Fira到Oia约10km（打车€30-40）。租车约€50-80/天，岛上坡多有急弯不适合新手。",
+    "local": "公交€2.2-2.8/人，车上现金购票。主要线路：Fira总站发车，环线连接Fira-Imerovigli-Firostefani，往Oia、机场、新港、红石滩Akrotiri、黑石滩Perissa/Kamari均有班次。"
+  },
+  "hotels": [
+    {
+      "name": "Antonia Apartments",
+      "area": "Fira",
+      "star": 3,
+      "score": "9.2",
+      "reviews": "1600+",
+      "note": "位于Fira距中心广场80米，带泳池，高性价比过度住宿",
+      "link": ""
+    },
+    {
+      "name": "Villa Fotini",
+      "area": "Firostefani",
+      "star": 3,
+      "score": "9.4",
+      "reviews": "370+",
+      "note": "前临主路公交站，后靠悬崖步道，高性价比",
+      "link": ""
+    },
+    {
+      "name": "Manos Small World",
+      "area": "Firostefani",
+      "star": 0,
+      "score": "9.4",
+      "reviews": "360+",
+      "note": "有全景露台，享受火山口景致，适合度假朋友",
+      "link": ""
+    },
+    {
+      "name": "Aqua Luxury Suites",
+      "area": "Imerovigli",
+      "star": 5,
+      "score": "9.8",
+      "reviews": "390+",
+      "note": "风景无敌，淡季性价比高，蜜月度假推荐",
+      "link": ""
+    },
+    {
+      "name": "Marizan Caves & Villas",
+      "area": "Oia",
+      "star": 4,
+      "score": "9.4",
+      "reviews": "360+",
+      "note": "恒温泳池，酒店内即可看日落，蜜月度假网红酒店",
+      "link": ""
+    },
+    {
+      "name": "White Concept Caves",
+      "area": "Fira",
+      "star": 0,
+      "score": "9.2",
+      "reviews": "370+",
+      "note": "传统洞穴房，带泳池，拍照美",
+      "link": ""
+    },
+    {
+      "name": "Villa Toula",
+      "area": "Fira",
+      "star": 3,
+      "score": "7.7",
+      "reviews": "770+",
+      "note": "在Fira主街，逛吃方便",
+      "link": ""
+    },
+    {
+      "name": "Afrodete Hotel",
+      "area": "Firostefani",
+      "star": 1,
+      "score": "9.3",
+      "reviews": "480+",
+      "note": "带室外水力按摩浴池",
+      "link": ""
+    },
+    {
+      "name": "Abelonas Retreat",
+      "area": "Imerovigli",
+      "star": 4,
+      "score": "9.0",
+      "reviews": "470+",
+      "note": "带泳池、露台",
+      "link": ""
+    },
+    {
+      "name": "Thea Apartments",
+      "area": "Imerovigli",
+      "star": 4,
+      "score": "9.6",
+      "reviews": "360+",
+      "note": "公寓和套房式住宿",
+      "link": ""
+    },
+    {
+      "name": "Santorini Princess Spa Hotel",
+      "area": "Imerovigli",
+      "star": 5,
+      "score": "9.8",
+      "reviews": "380+",
+      "note": "4/5/10月泳池加热",
+      "link": ""
+    },
+    {
+      "name": "Katikies Santorini - The Leading Hotels Of The World",
+      "area": "Oia",
+      "star": 5,
+      "score": "9.5",
+      "reviews": "110+",
+      "note": "无边泳池+无敌海景",
+      "link": ""
+    },
+    {
+      "name": "La Perla Villas and Suites - Adults Only",
+      "area": "Oia",
+      "star": 5,
+      "score": "9.4",
+      "reviews": "460+",
+      "note": "只接待成人，有洞穴屋，户外热水泳池",
+      "link": ""
+    },
+    {
+      "name": "Grace Hotel Santorini, Auberge Resorts Collection",
+      "area": "",
+      "star": 0,
+      "score": "",
+      "reviews": "",
+      "note": "《北京爱情故事》梁家辉和刘嘉玲所住的酒店",
+      "link": ""
+    }
+  ],
+  "hotel_intro": "游玩为主建议住Fira或Firostefani，公交总站在Fira各路线均从此发车，镇内酒店性价比高逛吃方便。蜜月度假建议住Imerovigli或Oia的悬崖酒店，无敌海景配泳池，Oia酒店更贵但日落无遮挡。至少住2晚，蜜月可安排过度住宿+轻奢享受两种酒店。悬崖酒店越往下越近海风景越好但台阶多，多为开放式私密性一般，洞穴房可能潮湿wifi信号弱。少数泡海滩游客选机场附近黑石滩，东侧海滩酒店更安逸价格相对便宜。",
+  "attractions": [
+    {
+      "name": "悬崖步道",
+      "order": 1,
+      "tagline": "Imerovigli-Firostefani-Fira串联三小镇2公里经典景色，各种美照机位，下坡方向，2-4小时",
+      "has_detail": false
+    },
+    {
+      "name": "Oia小镇",
+      "order": 2,
+      "tagline": "著名蓝白小房子小镇，看世界最美日落太阳落入海中，物价更贵，2-4小时",
+      "has_detail": false
+    },
+    {
+      "name": "自驾环岛",
+      "order": 3,
+      "tagline": "灯塔+黑/红石滩+小镇+品酒，全程约55km，半天到1天，非自驾可乘公交前往大部分景点",
+      "has_detail": false
+    },
+    {
+      "name": "双体帆船出海",
+      "order": 4,
+      "tagline": "包酒店接送、浮潜装备、烧烤饮料，海上看日落，5小时",
+      "has_detail": false
+    },
+    {
+      "name": "海盗船出海",
+      "order": 5,
+      "tagline": "观光+温泉游泳，可登火山岛，6小时",
+      "has_detail": false
+    },
+    {
+      "name": "Firostefani国家地理蓝顶教堂",
+      "order": 6,
+      "tagline": "悬崖步道沿线经典拍照地标",
+      "has_detail": false
+    },
+    {
+      "name": "红石滩",
+      "order": 7,
+      "tagline": "到Akrotiri站下车步行15分钟",
+      "has_detail": false
+    },
+    {
+      "name": "黑石滩Perissa",
+      "order": 8,
+      "tagline": "到Perissa站下车步行3分钟",
+      "has_detail": false
+    },
+    {
+      "name": "黑石滩Kamari",
+      "order": 9,
+      "tagline": "到Kamari站下车步行3分钟",
+      "has_detail": false
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": "抵达圣岛，Oia小镇看日落",
+      "detail": "从雅典乘船或飞机抵达圣托里尼，前往Oia小镇逛吃，傍晚在世界最美日落观景点看太阳落入爱琴海。住Oia或Fira。"
+    },
+    {
+      "day": "2",
+      "title": "自驾环岛或出海+海滩",
+      "detail": "方案A：租车自驾环岛游55km，途经灯塔、红石滩、黑石滩、品酒庄，傍晚看日落。方案B：上午参加双体帆船或海盗船出海项目（含烧烤/温泉/浮潜），下午在黑石滩玩水。"
+    },
+    {
+      "day": "3",
+      "title": "悬崖步道徒步",
+      "detail": "上午从Imerovigli出发沿悬崖步道下坡徒步经Firostefani（打卡国家地理蓝顶教堂）至Fira，2公里2-4小时拍照，下午离岛。"
+    },
+    {
+      "day": "4",
+      "title": "（蜜月延长）泡酒店+出海",
+      "detail": "上午在悬崖酒店泡无边泳池享受火山口景致，下午参加双体帆船出海项目海上烧烤并在海上看日落。住Firostefani或Imerovigli。"
+    }
+  ],
   "sections": [
     {
-      "title": "怎么去",
-      "content": "雅典飞过去约45分钟，或坐渡轮5-8小时（晕船慎选快船）。岛上公交以费拉为枢纽，班次有限；租ATV四轮摩托或小车更自由，记得带驾照翻译件。"
+      "title": "圣托里尼：爱琴海上的蓝白梦境",
+      "content": "圣托里尼，希腊人口中的『圣岛』，是爱琴海上最璀璨的明珠，也是全球蜜月圣地的代名词。这座由火山喷发形成的新月形岛屿，以其标志性的蓝白建筑、悬崖步道和世界最美日落，每年吸引着无数情侣与旅行者前来朝圣。岛屿西侧是壮观的火山口悬崖，Fira、Firostefani、Imerovigli和Oia四座小镇如珍珠般镶嵌其上，白色洞穴屋层层叠叠顺山势而建，蓝顶教堂点缀其间，与深蓝的爱琴海构成令人窒息的画面。东侧则是相对平缓的黑石滩和红石滩，火山熔岩留下的独特地貌让海滩也别具一格。"
     },
     {
-      "title": "伊亚日落",
-      "content": "日落前1-2小时就要到伊亚城堡遗址附近占位，旺季人墙三层。不想挤：①订有日落视野的餐厅（提前几天订位）②从费拉徒步到伊亚的悬崖步道（约3小时，本身就是全岛精华，建议上午走）③坐日落帆船从海上看。"
+      "title": "如何玩转圣岛",
+      "content": "圣托里尼岛不大，通常2-3天即可玩遍核心景点，蜜月度假则可安排3-5天慢慢享受。最经典的体验是从Imerovigli到Fira的2公里悬崖步道徒步，沿途串联三座小镇，每个转角都是明信片般的风景，国家地理杂志封面上的蓝顶教堂就位于Firostefani段。Oia小镇则是必访之地，这里不仅有最密集的蓝白房子，更以『世界最美日落』闻名——当太阳缓缓沉入爱琴海，整个小镇都会响起掌声。自驾环岛是另一种深度玩法，55公里的路线可以串联灯塔、红石滩、黑石滩、传统村庄和酒庄，半天到一天时间感受圣岛的多面风情。若想从海上视角欣赏圣岛，双体帆船出海是热门选择，5小时行程包含酒店接送、浮潜装备、海上烧烤和日落观赏；而海盗船出海则能带你登上火山岛，在温泉中游泳，6小时深度体验火山地貌。"
     },
     {
-      "title": "玩法建议",
-      "content": "费拉-伊亚悬崖步道经过Imerovigli（蓝顶教堂集中地），是明信片机位的真正出处。红沙滩看一眼即可不必久留。akrotiri史前遗址和酒庄（看火山口日落配酒）适合第二天。"
+      "title": "住在悬崖还是镇内",
+      "content": "圣岛的住宿选择丰富，Fira作为首府是公交枢纽，镇内酒店如Antonia Apartments距中心广场仅80米带泳池，性价比极高适合以游玩为主的旅行者。Firostefani的Villa Fotini前临公交站后靠悬崖步道，地理位置绝佳。若预算充足追求蜜月氛围，悬崖酒店是不二之选：Imerovigli的Aqua Luxury Suites风景无敌淡季性价比高，Oia的网红Marizan Caves & Villas有恒温泳池在酒店内即可看日落。需要注意的是，悬崖酒店呈阶梯状分布，越往下越近海风景越无遮挡但需下更多台阶，多数为开放式设计游客可随意进入拍照因此私密性有限，传统洞穴屋虽拍照美但可能潮湿且wifi信号弱。建议至少住2晚，蜜月游客可考虑在Fira住过度性价比酒店加Oia或Imerovigli住轻奢悬崖酒店的组合方案。"
     },
     {
-      "title": "实用贴士",
-      "content": "悬崖酒店又贵又抢手，预算有限住费拉性价比高（交通枢纽+夜生活）。日落后伊亚回费拉的公交大排长龙，自驾或打车更省心。岛上多台阶，行李箱是负担，轻装。"
+      "title": "交通与实用贴士",
+      "content": "抵达圣岛有飞机和轮渡两种方式。从雅典飞行仅45-50分钟，机场位于岛东侧距Fira约5.5km，可乘公交€2.2/人15-20分钟到Fira总站，打车到悬崖小镇€15-25、到Oia€25-30。若乘船则从雅典比雷埃夫斯港出发，慢船约8小时、快船约4.5-5.5小时抵达圣岛新港，新港到Fira公交€2.7/人，打车€20-40不等。岛内公交系统覆盖主要景点，票价€2.2-2.8车上现金购买，Fira总站是所有线路起点。租车自驾约€50-80/天，但圣岛坡多弯急不适合新手。打车方面Fira到Oia约€30-40，机场到各镇€15-30不等。若预订悬崖酒店，车辆无法直达门口，建议提前联系酒店会有人出来帮忙搬运行李。季节选择上，4月中至10月中是旅游季，7-8月是旺季人多活动丰富但价格最高，5-6月和9-10月人流相对少性价比更高。穿衣方面早晚温差大风凉但紫外线强，建议叠穿长裙配长袖外套或披肩，看日落时需穿长裤带轻薄羽绒服，务必注意防晒戴墨镜（白色建筑反光刺眼），穿舒适的鞋因拍照常需上下楼梯。10月中至次年3月是淡季风大部分设施关闭，但无敌海景酒店价格全年最低适合纯泡酒店，拍照也能包场，能否玩好全凭运气。"
+    },
+    {
+      "title": "餐饮推荐",
+      "content": "圣岛西侧四座小镇集中了大量餐厅。追求无敌海景可看日落的悬崖餐厅，Oia港口的Ammoudi Fish Tavern和Oia镇的Fanari Restaurant（均4-10月营业）、Fira的Naoussa Restaurant（全年营业）、Imerovigli的The Athenian House（4-10月营业）都是热门选择。若想性价比高吃希腊烤肉卷饼快餐，Fira的Lucky's souvlakis和Yogi - Gyro是当地人也爱的平价美味。满足中国胃的话，Fira有溢香居和Asia Club Chinese restaurant两家中餐馆。Oia小镇整体物价比其他镇更贵，用餐预算需相应提高。"
     }
   ],
   "duration": "2-3天",
-  "best_time": "5-6月、9-10月；7-8月人最多价最高",
-  "type": "city"
+  "best_time": "5-6月、9-10月性价比高人流少；7-8月旺季人最多价最高活动丰富；4月中-10月中是旅游季"
 }

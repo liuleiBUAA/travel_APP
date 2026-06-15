@@ -28,3 +28,7 @@ backend/services/__pycache__/
 backend/.harness/
 backend/harness/
 backend/travel_companion.db
+
+# travel guide work artifacts
+scripts/la_tmp_pb/
+scripts/playbook_bak/

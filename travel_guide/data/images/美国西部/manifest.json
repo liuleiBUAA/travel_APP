@@ -2572,5 +2572,77 @@
     "source": "pexels:Cleetwood Cove Trail Crater Lake"
    }
   ]
+ },
+ {
+  "city": "旧金山",
+  "attraction": "恶魔岛",
+  "status": "ok",
+  "local": "旧金山/恶魔岛.jpg",
+  "license": "Pexels",
+  "artist": "",
+  "source": "pexels"
+ },
+ {
+  "city": "旧金山",
+  "attraction": "艺术宫",
+  "status": "ok",
+  "local": "旧金山/艺术宫.jpg",
+  "license": "Pexels",
+  "artist": "",
+  "source": "pexels"
+ },
+ {
+  "city": "旧金山",
+  "attraction": "双子峰",
+  "status": "ok",
+  "local": "旧金山/双子峰.jpg",
+  "license": "Pexels",
+  "artist": "",
+  "source": "pexels"
+ },
+ {
+  "city": "旧金山",
+  "attraction": "中国城",
+  "status": "ok",
+  "local": "旧金山/中国城.jpg",
+  "license": "Pexels",
+  "artist": "",
+  "source": "pexels"
+ },
+ {
+  "city": "旧金山",
+  "attraction": "金门公园",
+  "status": "ok",
+  "local": "旧金山/金门公园.jpg",
+  "license": "Pexels",
+  "artist": "",
+  "source": "pexels"
+ },
+ {
+  "city": "旧金山",
+  "attraction": "斯坦福大学",
+  "status": "ok",
+  "local": "旧金山/斯坦福大学.jpg",
+  "license": "Pexels",
+  "artist": "",
+  "source": "pexels"
+ },
+ {
+  "city": "旧金山",
+  "attraction": "半月湾",
+  "status": "ok",
+  "local": "旧金山/半月湾.jpg",
+  "license": "Pexels",
+  "artist": "",
+  "source": "pexels"
+ },
+ {
+  "city": "旧金山",
+  "attraction": "Santa Cruz",
+  "status": "ok",
+  "local": "旧金山/SantaCruz.jpg",
+  "license": "Pexels",
+  "artist": "",
+  "source": "pexels"
  }
 ]

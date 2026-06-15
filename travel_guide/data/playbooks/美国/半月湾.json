@@ -1,0 +1,93 @@
+{
+  "name": "半月湾",
+  "type": "attraction",
+  "aliases": [
+    "Half Moon Bay"
+  ],
+  "city": "旧金山",
+  "country": "美国",
+  "summary": "半月湾是一块半月形状的海岸，是湾区人民周末游的好去处，适合看海景、买海鲜、走海景步道。",
+  "facts": [
+    {
+      "k": "距离旧金山",
+      "v": "30英里/48公里",
+      "sub": "约35分钟车程"
+    },
+    {
+      "k": "推荐游览时长",
+      "v": "一日游",
+      "sub": ""
+    },
+    {
+      "k": "最佳游览时间",
+      "v": "看Tide Pool需查潮汐表",
+      "sub": "tide小于1 foot时最适合"
+    }
+  ],
+  "route": [
+    "旧金山市区",
+    "半月湾"
+  ],
+  "route_note": "从旧金山市区自驾前往半月湾，距离约30英里/48公里，车程约35分钟。半月湾位于一号公路沿线，也是一号公路自驾游的选停景区，附近有斯坦福大学和Santa Cruz。",
+  "price": "",
+  "activities": [
+    {
+      "name": "Seal Cove Cypress Tree Tunnel网红树林",
+      "price": "免费停车",
+      "detail": "在长约800米的黑魔法风格树林里散步拍照，游览约1小时。停车地址：Fitzgerald Marine Ranger Station & Parking。附近海滩可看Tide Pool，需提前查看潮汐表，当tide小于1 foot时最适合，推荐视频『The Tide pools of Fitzgerald Marine Reserve』。"
+    },
+    {
+      "name": "Half Moon Bay Coastal Trail海景步道",
+      "price": "",
+      "detail": "半月湾区域最有人气的步道，往返2.7英里/4.3公里，约需1小时，期间会经过Ritz-Carlton酒店（酒店前方是公共步道可散步）。可徒步或在Ritz-Carlton的室外餐厅Ocean Terrace用餐（人均50美金，需预订）。停车地址：Half Moon Bay Trailhead Parking（699 Thone Ave #601，车位多）或California Coastal Trail（1001 Miramontes Point Rd，车位少），均免费停车。游览时长30分钟至1小时。"
+    },
+    {
+      "name": "Pillar Point Harbor买海鲜",
+      "price": "海鲜价格现场询价",
+      "detail": "每个周末（一整天都在卖，但上午选择多），会有10-20艘渔船停在这里卖海鲜。可买到非常新鲜的海胆（全年有卖，秋季味道最佳）、螃蟹（Dungeness最美味，11月-6月肉质最饱满）和鱼类（什么鱼正当季请问渔夫）。请自带Cooler。停车地址：Pillar Point Harbor（1 Johnson Pier, Half Moon Bay, CA），免费停车。备注：附近的Mavericks Beach可以赶海，但区域内有sneaker waves，不注意会有溺水风险，且捞到的海鲜可能有毒素，不建议一时兴起就去玩。"
+    },
+    {
+      "name": "Poplar Beach海滩",
+      "price": "停车费10美金/天",
+      "detail": "适合遛娃、遛狗的海滩，因停车场收费游客相对少。可看海、野餐，游览约1小时。停车地址：Poplar Beach Parking Lot（Poplar St, Half Moon Bay, CA）。Poplar是杨树的意思，海滩附近曾大量种植杨树而得名。"
+    },
+    {
+      "name": "Cowell Ranch Beach Access海滩",
+      "price": "免费停车",
+      "detail": "适合从高处俯瞰的海滩，春天有遍地野花和油菜花田（3月）。可高处俯瞰、海滩野餐，游览30分钟至1小时。停车地址：Cowell Ranch Beach Access Parking（Half Moon Bay, CA），免费停车但停车场非常小。"
+    },
+    {
+      "name": "南瓜节Pumpkin Festival",
+      "price": "农场门票免费至34.99美金不等",
+      "detail": "每年9月底和10月举办Half Moon Bay Art & Pumpkin Festival，有『世界南瓜之都』美称。热门农场：Farmer John's Pumpkin Farm（免费，卖南瓜为重点，数量多适合拍照）、Andreotti Family Farms（免费，更精致，玉米迷宫13.44美金，摘向日葵20美金/5只+额外2美金/只，可预订）、Lemos Farm Pumpkin Patch（成人17.99美金，儿童29.99-34.99美金，最适合小朋友玩，可喂小动物/坐小火车和拖拉机/骑小马，建议预订）。"
+    }
+  ],
+  "tips": [
+    "看Tide Pool需提前查看潮汐表Tide Table，当tide小于1 foot时最适合",
+    "Mavericks Beach赶海有sneaker waves溺水风险，且捞到的海鲜可能有毒素，需认真做功课",
+    "周末去Pillar Point Harbor买海鲜上午选择更多，请自带Cooler保温箱",
+    "螃蟹Dungeness最美味，11月-6月肉质最饱满；海胆全年有卖，秋季味道最佳",
+    "Cowell Ranch Beach停车场非常小，需早到",
+    "南瓜节期间农场活动需提前预订"
+  ],
+  "sections": [
+    {
+      "title": "半月湾简介",
+      "content": "半月湾（Half Moon Bay）是一块半月形状的海岸，距离旧金山30英里/48公里，约35分钟车程，是湾区人民周末游的好去处。这里适合看海景、买海鲜，附近有斯坦福大学和Santa Cruz，也是一号公路自驾游的选停景区。半月湾很适合一日游，如果想悠闲些也可以住在附近。"
+    },
+    {
+      "title": "示范行程",
+      "content": "一日游示范行程：上午去Seal Cove Cypress Tree Tunnel看树林（1小时）> 中午去Sam's Chowder House吃海鲜，然后在Pillar Point Harbor的渔船上采购些海货（周末才有/上午去选择多）> 下午走海景步道Coastal Trail（1小时）> 附近的海滩坐坐 > 回家。"
+    },
+    {
+      "title": "餐饮推荐",
+      "content": "半月湾有两家最有人气的海鲜餐厅：Sam's Chowder House（营业时间11:30am-8:30pm，特色是龙虾卷/Clam Chowder，人均$30-50）和Barbara's Fishtrap（营业时间11am-3pm, 4pm-8:30pm，特色是炸鱼/炸虾，人均$20-30）。"
+    },
+    {
+      "title": "住宿选择",
+      "content": "半月湾很适合一日游，但如果想悠闲些可以住在附近。推荐酒店：Harbour View Inn（三星，8.5分，889条评价+）和Beach House Half Moon Bay（三星海景酒店，9.0分，430条评价+）。"
+    }
+  ],
+  "duration": "一日游",
+  "best_time": "看Tide Pool需查潮汐表，tide小于1 foot时最适合"
+}

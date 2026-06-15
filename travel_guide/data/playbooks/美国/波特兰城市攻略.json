@@ -1,32 +1,154 @@
 {
   "name": "波特兰",
   "type": "city",
-  "aliases": [],
+  "aliases": [
+    "Portland OR",
+    "玫瑰城",
+    "City of Roses"
+  ],
   "city": "波特兰",
   "country": "美国",
-  "summary": "俄勒冈全州免消费税适合购物，食车文化、玫瑰园和哥伦比亚河谷瀑布群是招牌，市区两天加河谷一日游正好。",
+  "summary": "美国西北部俄勒冈州最大城市，因气候适宜种植玫瑰而得名『玫瑰城』。可游览日本花园、书店等市区景点，自驾东南小环线观瀑布、湖泊与山景，或前往Cannon Beach看海。俄勒冈州免税，适合购物。",
+  "transport": {
+    "fly_train": "波特兰机场PDX距市区12英里/19公里，自驾约25分钟，Uber约40美金；轻轨到市区票价2.8美金，40分钟车程，支持Apple Pay",
+    "drive": "西雅图到波特兰相距175英里/282公里，自驾约3小时；大巴Flixbus车程3.5-4小时，票价22美金起；火车Amtrak车程3.5小时，票价27美金起",
+    "local": "市区巴士和轻轨单次2.8美金，一天封顶5.6美金"
+  },
+  "hotels": [
+    {
+      "name": "The Mark Spencer Hotel Portland",
+      "area": "Downtown",
+      "star": 3,
+      "score": "位置9.3分 设施/服务8.7分 性价比8.9分",
+      "reviews": "",
+      "note": "步行3分钟到Powell's City of Books，步行9分钟到购物区Pioneer Square，有付费的onsite parking",
+      "link": ""
+    },
+    {
+      "name": "Inn at Northrup Station",
+      "area": "Northwest",
+      "star": 3,
+      "score": "位置9.6分 设施/服务9.2分 性价比8.9分",
+      "reviews": "",
+      "note": "步行6分钟到商业街NW 23rd Avenue，有免费的onsite parking",
+      "link": ""
+    },
+    {
+      "name": "Silver Cloud Hotel",
+      "area": "Northwest",
+      "star": 3,
+      "score": "位置9.3分 设施/服务9.0分 性价比9.1分",
+      "reviews": "",
+      "note": "步行10分钟到商业街NW 23rd Avenue，有免费的onsite parking",
+      "link": ""
+    }
+  ],
+  "hotel_intro": "可住在Downtown靠近购物区Pioneer Square，有商场Pioneer Place和Nordstrom，还有MUJI等日式店铺，吃喝逛街方便；或住在Northwest District靠近网红商业街NW 23rd Avenue。波特兰homeless较多，自驾建议选择有onsite parking的酒店。",
+  "attractions": [
+    {
+      "name": "日本花园 Japanese Garden",
+      "order": 1,
+      "tagline": "市区花园景点，每周二休园",
+      "has_detail": false
+    },
+    {
+      "name": "书店 Powell's City of Books",
+      "order": 2,
+      "tagline": "市区特色书店",
+      "has_detail": false
+    },
+    {
+      "name": "兰苏园 Lan Su",
+      "order": 3,
+      "tagline": "市区中式园林",
+      "has_detail": false
+    },
+    {
+      "name": "观景点 Pittock Mansion",
+      "order": 4,
+      "tagline": "市区观景点",
+      "has_detail": false
+    },
+    {
+      "name": "Vista House",
+      "order": 5,
+      "tagline": "东南小环线河景观景点",
+      "has_detail": false
+    },
+    {
+      "name": "Latourell Falls",
+      "order": 6,
+      "tagline": "东南小环线瀑布",
+      "has_detail": false
+    },
+    {
+      "name": "Multnomah Falls",
+      "order": 7,
+      "tagline": "东南小环线瀑布，夏季需预约",
+      "has_detail": false
+    },
+    {
+      "name": "Panorama Point",
+      "order": 8,
+      "tagline": "东南小环线山景观景点",
+      "has_detail": false
+    },
+    {
+      "name": "Trillium Lake",
+      "order": 9,
+      "tagline": "东南小环线湖泊玩水点",
+      "has_detail": false
+    },
+    {
+      "name": "Cannon Beach",
+      "order": 10,
+      "tagline": "海滩看海景吃海鲜，距波特兰自驾1.5小时",
+      "has_detail": false
+    },
+    {
+      "name": "飞机之家 Airplane Home",
+      "order": 11,
+      "tagline": "白天开放，下午1点后可进入机舱参观",
+      "has_detail": false
+    },
+    {
+      "name": "Rowena Crest Viewpoint",
+      "order": 12,
+      "tagline": "马蹄形公路观景点",
+      "has_detail": false
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": "西雅图出发抵达波特兰，市区游览",
+      "detail": "西雅图出发驾车3小时到达波特兰，下午游览市区景点，如日本花园（每周二休园）、Powell's书店、兰苏园，晚上可去阿迪员工店购物"
+    },
+    {
+      "day": "2",
+      "title": "东南小环线自驾",
+      "detail": "自驾东南小环线：Vista House看河景，Latourell Falls或Multnomah Falls（夏季需预约）看瀑布，Panorama Point看山景，Trillium Lake玩水，返回波特兰"
+    },
+    {
+      "day": "3",
+      "title": "Cannon Beach看海返回西雅图",
+      "detail": "波特兰出发驾车1.5小时在Cannon Beach看海景吃海鲜，驾车3.5小时回到西雅图。好奇心强的同学也可安排游玩飞机之家（白天开放，下午1点后可进入机舱参观）"
+    }
+  ],
   "sections": [
     {
-      "title": "到达与市内交通",
-      "content": "PDX机场有MAX轻轨红线直达市中心，约40分钟$2.5，性价比极高。市中心小而平坦，步行+轻轨够用；MAX四条线覆盖主要区域，单程票2.5小时内随意换乘。去哥伦比亚河谷、胡德山必须租车，机场提车方便。注意俄勒冈州加油历史上由工作人员代加（现已放开自助，但很多油站仍有人服务），不用下车自己动手，不需要给小费。市中心停车约$2-3/小时。"
+      "title": "波特兰：玫瑰城的免税购物天堂",
+      "content": "波特兰位于美国西北部的俄勒冈州，是该州最大的城市。因为气候适宜种植玫瑰，这座城市也被赋予了一个浪漫的别称——『玫瑰城』（City of Roses）。为了与美国东海岸的另一个波特兰区分，这里的正式名称是Portland OR。\n\n波特兰的市区虽然不大，却有着独特的文化气息。日本花园展现着东方园林的精致（请注意每周二休园），Powell's City of Books是书虫的天堂，而兰苏园则是一座地道的中式园林。市区的Downtown靠近购物区Pioneer Square，这里有Pioneer Place商场、Nordstrom百货，还有MUJI等日式店铺，虽然homeless较多，但吃喝逛街依然方便。Northwest District则以网红商业街NW 23rd Avenue闻名，大牌和神仙小店都能找到。\n\n俄勒冈州最吸引人的特点之一是免税——这里无需支付销售税。你可以在Downtown的苹果店Apple Pioneer Place购买电子产品，在Adidas Employee Store Portland买鞋（几乎全场5折，无需员工邀请，直接下载Adidas APP注册后在ADICLUB搜索波特兰店预约即可进店），或前往Woodburn Premium Outlets奥莱血拼。俄勒冈州的特产是榛子，不妨带些榛子巧克力或榛子酱回家。"
     },
     {
-      "title": "住宿建议",
-      "content": "市中心Downtown或Pearl District最方便（$150-250/晚），Pearl区由旧仓库改造，精酿酒吧和买手店集中，氛围最好。预算选东岸Hawthorne/Division街一带的民宿（$100-180/晚），是本地文艺街区，餐厅便宜。市中心部分街区（尤其Old Town Chinatown）流浪汉较多，夜间注意。波特兰酒店整体比西雅图便宜两三成，可以把购物行程安排在这里多住一晚。"
+      "title": "东南小环线：瀑布、湖泊与山景的自驾之旅",
+      "content": "波特兰周边的自然风光同样令人惊艳。最经典的玩法是东南小环线自驾：从Vista House开始欣赏哥伦比亚河的壮丽河景，然后前往Latourell Falls或Multnomah Falls观赏瀑布（需注意Multnomah Falls夏季需要预约），在Panorama Point俯瞰山景，最后到Trillium Lake玩水放松。整个环线可以在一天内完成，沿途风景多样，非常适合摄影爱好者。\n\n如果时间充裕，还可以驾车1.5小时前往Cannon Beach看海景、品尝新鲜海鲜。这个海滩距离波特兰和西雅图的位置都很适中，可以作为西雅图往返波特兰途中的一站。好奇心旺盛的游客不妨安排参观飞机之家（Airplane Home），这个独特的景点白天开放，如果想进入机舱内部参观，则需安排在下午1点以后。\n\n波特兰与西雅图之间的交通十分便利，两地相距175英里（282公里），自驾约需3小时。不开车的话，可以选择Flixbus大巴（车程3.5-4小时，票价22美金起）或Amtrak火车（车程3.5小时，票价27美金起，早订更便宜）。这种地理位置使得波特兰成为西雅图之旅的完美延伸目的地。"
     },
     {
-      "title": "必看与通票",
-      "content": "国际玫瑰试验园（International Rose Test Garden）免费，5-9月开花，6月最盛，610多个品种，与日本花园（$22，全美最佳之一）同在华盛顿公园，半天连玩。Powell's City of Books是全球最大独立书店，占一整个街区，免费逛1-2小时。哥伦比亚河谷一日游是重头戏：沿历史公路30号自驾，串起Vista House观景台、Multnomah瀑布（189米，俄勒冈第一地标，旺季5-9月部分时段需在recreation.gov预约timed entry，$2）等多个瀑布，半天到一天。"
-    },
-    {
-      "title": "美食",
-      "content": "波特兰是美国食车（food cart）之都，全城500多辆，市中心多个food cart pod集中扎堆，泰餐、中东卷、墨西哥菜$10-15吃饱。Voodoo Doughnut的怪味甜甜圈是打卡名物（培根枫糖款$4左右），24小时营业。精酿啤酒厂人均密度全美第一，Deschutes、10 Barrel在Pearl区都有门店，套杯$12-18。Salt & Straw冰淇淋发源于此，排队20分钟常态。早午餐文化盛行，周末热门店等位1小时，工作日去更从容。"
-    },
-    {
-      "title": "实用贴士",
-      "content": "全俄勒冈州0%消费税，苹果产品、运动鞋、户外装备（哥伦比亚、Nike总部都在本地，有员工店/奥莱）比加州便宜近10%，购物放在行程末段免得拖着箱子走。雨季11-4月与西雅图同款毛毛雨，带防水外套。Multnomah瀑布停车场旺季上午10点就满，要么8点前到，要么预约。胡德山（Mt. Hood）夏天也有雪，Timberline Lodge值得绕去看。市区骑行友好，共享单车Biketown扫码即用。"
+      "title": "实用信息与住宿建议",
+      "content": "波特兰机场（PDX）距离市区12英里（19公里），自驾约25分钟，乘坐Uber约40美金。也可以选择轻轨前往市区，票价2.8美金，车程40分钟，支持Apple Pay支付，非常方便。市区内的公共交通同样经济实惠，巴士和轻轨单次票价2.8美金，一天封顶5.6美金。如果不自驾，使用Uber和公交组合出行也很便利。\n\n关于住宿，由于波特兰的homeless人群较多，自驾游客建议选择提供onsite parking的酒店。The Mark Spencer Hotel Portland位于Downtown，步行3分钟可达Powell's City of Books，9分钟到购物区，提供付费停车。Northwest区域的Inn at Northrup Station和Silver Cloud Hotel都提供免费停车，且距离商业街NW 23rd Avenue仅数分钟步行路程，位置优越，设施和性价比评分都很高。\n\n最佳旅游季节是6-9月，此时正值旱季，天气晴朗，玫瑰盛开，瀑布水量充足，是户外探险和市区体验的双重最佳时期。整个行程建议安排2-3天，既能深度体验市区文化，又能自驾周边欣赏自然风光，还能享受免税购物的乐趣。"
     }
   ],
   "duration": "2-3天",
-  "best_time": "6-9月，旱季晴朗、玫瑰盛开且瀑布水量尚足，是户外和市区体验的双重最佳。"
+  "best_time": "6-9月，旱季晴朗、玫瑰盛开且瀑布水量尚足，是户外和市区体验的双重最佳"
 }
