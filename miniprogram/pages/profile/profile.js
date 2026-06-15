@@ -13,7 +13,7 @@ Page({
     tempAvatarUrl: '',
     tempNickname: '',
     // 旅行名片（展示用）
-    card: { bio: '', budget_level: '', good_at_photo: '', accommodation_pref: '', driving: '', tags: [] },
+    card: { bio: '', budget_level: '', good_at_photo: '', accommodation_pref: '', driving: '', mbti: '', zodiac: '', tags: [] },
   },
 
   onLoad() {
@@ -71,6 +71,8 @@ Page({
         good_at_photo: me.good_at_photo || '',
         accommodation_pref: me.accommodation_pref || '',
         driving: me.driving || '',
+        mbti: me.mbti || '',
+        zodiac: me.zodiac || '',
         tags: Array.isArray(me.tags) ? me.tags : []
       }
     })

@@ -36,6 +36,18 @@
         </picker>
       </view>
       <view class="card-form-item">
+        <text class="card-form-label">MBTI（选填）</text>
+        <picker range="{{mbtiOptions}}" value="{{mbtiIndex}}" bindchange="onMbtiChange">
+          <view class="card-picker">{{mbtiIndex >= 0 ? mbtiOptions[mbtiIndex] : '请选择'}}</view>
+        </picker>
+      </view>
+      <view class="card-form-item">
+        <text class="card-form-label">星座（选填）</text>
+        <picker range="{{zodiacOptions}}" value="{{zodiacIndex}}" bindchange="onZodiacChange">
+          <view class="card-picker">{{zodiacIndex >= 0 ? zodiacOptions[zodiacIndex] : '请选择'}}</view>
+        </picker>
+      </view>
+      <view class="card-form-item">
         <text class="card-form-label">兴趣标签</text>
         <view class="card-tag-options">
           <text wx:for="{{tagOptions}}" wx:key="*this"

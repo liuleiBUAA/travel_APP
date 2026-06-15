@@ -26,6 +26,8 @@ class User(Base):
     accommodation_pref = Column(String(20), nullable=True, comment="住宿偏好：不限/可拼房/各住各的")
     driving = Column(String(20), nullable=True, comment="驾驶：不会开车/会开但尽量不开/愿意当司机")
     tags = Column(String(300), nullable=True, comment="兴趣标签（逗号分隔）：早起党/夜猫子/美食控等")
+    mbti = Column(String(10), nullable=True, comment="MBTI人格类型（选填）：INTJ/INFP等16型")
+    zodiac = Column(String(10), nullable=True, comment="星座（选填）：白羊座/金牛座等12星座")
     wechat_id = Column(String(100), nullable=True, comment="微信号（私密，仅交换成功的对方可见）")
 
     created_at = Column(DateTime, server_default=func.now())

@@ -60,9 +60,11 @@
         <text wx:if="{{card.good_at_photo}}" class="card-tag">📷 拍照{{card.good_at_photo}}</text>
         <text wx:if="{{card.accommodation_pref}}" class="card-tag">🏨 {{card.accommodation_pref}}</text>
         <text wx:if="{{card.driving}}" class="card-tag">🚗 {{card.driving}}</text>
+        <text wx:if="{{card.mbti}}" class="card-tag">🧠 {{card.mbti}}</text>
+        <text wx:if="{{card.zodiac}}" class="card-tag">✨ {{card.zodiac}}</text>
         <text wx:for="{{card.tags}}" wx:key="*this" class="card-tag">{{item}}</text>
       </view>
-      <view wx:if="{{!card.bio && !card.budget_level && !card.good_at_photo && !card.accommodation_pref && !card.driving && card.tags.length === 0}}" class="hint-text">
+      <view wx:if="{{!card.bio && !card.budget_level && !card.good_at_photo && !card.accommodation_pref && !card.driving && !card.mbti && !card.zodiac && card.tags.length === 0}}" class="hint-text">
         完善名片，让搭子提前了解你（发帖时自动带入）
       </view>
     </view>

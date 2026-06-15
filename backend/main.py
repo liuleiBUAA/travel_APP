@@ -249,6 +249,8 @@ class UpdateProfileRequest(BaseModel):
     accommodation_pref: Optional[str] = None
     driving: Optional[str] = None
     tags: Optional[str] = None
+    mbti: Optional[str] = None
+    zodiac: Optional[str] = None
     wechat_id: Optional[str] = None
 
 
@@ -258,6 +260,10 @@ PROFILE_FIELD_OPTIONS = {
     "good_at_photo": ["一般", "擅长", "大师"],
     "accommodation_pref": ["不限", "可拼房", "各住各的"],
     "driving": ["不会开车", "会开但尽量不开", "愿意当司机"],
+    "mbti": ["INTJ", "INTP", "ENTJ", "ENTP", "INFJ", "INFP", "ENFJ", "ENFP",
+             "ISTJ", "ISFJ", "ESTJ", "ESFJ", "ISTP", "ISFP", "ESTP", "ESFP"],
+    "zodiac": ["白羊座", "金牛座", "双子座", "巨蟹座", "狮子座", "处女座",
+               "天秤座", "天蝎座", "射手座", "摩羯座", "水瓶座", "双鱼座"],
 }
 
 
@@ -269,6 +275,8 @@ def _profile_card_dict(user: User) -> dict:
         "good_at_photo": getattr(user, "good_at_photo", None),
         "accommodation_pref": getattr(user, "accommodation_pref", None),
         "driving": getattr(user, "driving", None),
+        "mbti": getattr(user, "mbti", None),
+        "zodiac": getattr(user, "zodiac", None),
         "tags": [t for t in (getattr(user, "tags", None) or "").split(",") if t],
     }
 

@@ -119,12 +119,16 @@ def test_update_and_read_profile_card():
         "good_at_photo": "大师",
         "accommodation_pref": "可拼房",
         "driving": "愿意当司机",
+        "mbti": "INTJ",
+        "zodiac": "天蝎座",
         "tags": "早起党,美食控,持国际驾照"
     })
     assert res.status_code == 200, res.text
     data = res.json()
     assert data["bio"] == "爱旅行爱摄影，求靠谱搭子"
     assert data["driving"] == "愿意当司机"
+    assert data["mbti"] == "INTJ"
+    assert data["zodiac"] == "天蝎座"
     assert data["tags"] == ["早起党", "美食控", "持国际驾照"]
 
     # /me 读回
@@ -132,7 +136,30 @@ def test_update_and_read_profile_card():
     assert res.status_code == 200
     me = res.json()
     assert me["budget_level"] == "舒适"
+    assert me["mbti"] == "INTJ"
+    assert me["zodiac"] == "天蝎座"
     assert me["tags"] == ["早起党", "美食控", "持国际驾照"]
+
+
+def test_mbti_zodiac_invalid_rejected():
+    u = _login("mbti_bad")
+    res = client.post("/api/auth/update-profile", headers=_auth(u["token"]),
+                      json={"mbti": "XXXX"})
+    assert res.status_code == 400
+    res = client.post("/api/auth/update-profile", headers=_auth(u["token"]),
+                      json={"zodiac": "蛇夫座"})
+    assert res.status_code == 400
+
+
+def test_mbti_zodiac_clear_field():
+    u = _login("mbti_clear")
+    client.post("/api/auth/update-profile", headers=_auth(u["token"]),
+                json={"mbti": "ENFP", "zodiac": "白羊座"})
+    res = client.post("/api/auth/update-profile", headers=_auth(u["token"]),
+                      json={"mbti": "", "zodiac": ""})
+    assert res.status_code == 200
+    assert res.json()["mbti"] is None
+    assert res.json()["zodiac"] is None
 
 
 def test_profile_invalid_option_rejected():

@@ -10,10 +10,14 @@ Page({
     photoOptions: ['一般', '擅长', '大师'],
     accommodationOptions: ['不限', '可拼房', '各住各的'],
     drivingOptions: ['不会开车', '会开但尽量不开', '愿意当司机'],
+    mbtiOptions: ['INTJ', 'INTP', 'ENTJ', 'ENTP', 'INFJ', 'INFP', 'ENFJ', 'ENFP', 'ISTJ', 'ISFJ', 'ESTJ', 'ESFJ', 'ISTP', 'ISFP', 'ESTP', 'ESFP'],
+    zodiacOptions: ['白羊座', '金牛座', '双子座', '巨蟹座', '狮子座', '处女座', '天秤座', '天蝎座', '射手座', '摩羯座', '水瓶座', '双鱼座'],
     budgetIndex: -1,
     photoIndex: -1,
     accommodationIndex: -1,
     drivingIndex: -1,
+    mbtiIndex: -1,
+    zodiacIndex: -1,
     tagOptions: ['早起党', '夜猫子', '美食控', '博物馆爱好者', '徒步', '购物', '摄影', '自驾老手', '持国际驾照', '小众路线'],
     editTags: [],
   },
@@ -35,6 +39,8 @@ Page({
           photoIndex: this.data.photoOptions.indexOf(me.good_at_photo || ''),
           accommodationIndex: this.data.accommodationOptions.indexOf(me.accommodation_pref || ''),
           drivingIndex: this.data.drivingOptions.indexOf(me.driving || ''),
+          mbtiIndex: this.data.mbtiOptions.indexOf(me.mbti || ''),
+          zodiacIndex: this.data.zodiacOptions.indexOf(me.zodiac || ''),
           editTags: [...tags]
         })
       } else {
@@ -59,6 +65,8 @@ Page({
   onPhotoChange(e) { this.setData({ photoIndex: Number(e.detail.value) }) },
   onAccommodationChange(e) { this.setData({ accommodationIndex: Number(e.detail.value) }) },
   onDrivingChange(e) { this.setData({ drivingIndex: Number(e.detail.value) }) },
+  onMbtiChange(e) { this.setData({ mbtiIndex: Number(e.detail.value) }) },
+  onZodiacChange(e) { this.setData({ zodiacIndex: Number(e.detail.value) }) },
 
   onToggleTag(e) {
     const tag = e.currentTarget.dataset.tag
@@ -85,6 +93,8 @@ Page({
         good_at_photo: d.photoIndex >= 0 ? d.photoOptions[d.photoIndex] : '',
         accommodation_pref: d.accommodationIndex >= 0 ? d.accommodationOptions[d.accommodationIndex] : '',
         driving: d.drivingIndex >= 0 ? d.drivingOptions[d.drivingIndex] : '',
+        mbti: d.mbtiIndex >= 0 ? d.mbtiOptions[d.mbtiIndex] : '',
+        zodiac: d.zodiacIndex >= 0 ? d.zodiacOptions[d.zodiacIndex] : '',
         tags: d.editTags.join(',')
       })
       if (res && res.success) {
