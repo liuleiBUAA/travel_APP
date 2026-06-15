@@ -58,6 +58,39 @@ class PlaybookIndex:
         name = self._city_alias.get(stay)
         return self._by_name.get(name) if name else None
 
+    def search(self, q: str, limit: int = 30) -> List[Dict]:
+        """攻略搜索：按 名称/别名/城市/国家 子串匹配，返回命中列表。
+        返回 [{name, type, country, city, summary}], 景点优先于城市，名称命中优先于城市/国家命中。"""
+        q = (q or "").strip()
+        if not q:
+            return []
+        scored = []
+        for name, data in self._by_name.items():
+            aliases = data.get("aliases", []) or []
+            city = data.get("city", "") or ""
+            country = data.get("country", "") or ""
+            is_city = data.get("type") == "city"
+            score = None
+            # 1=名称/别名命中(最相关) 2=城市命中 3=国家命中
+            if q in name or any(q in a for a in aliases):
+                score = 1
+            elif city and q in city:
+                score = 2
+            elif country and q in country:
+                score = 3
+            if score is None:
+                continue
+            # 同分时景点(0)排在城市(1)前
+            scored.append((score, 1 if is_city else 0, len(name), {
+                "name": name,
+                "type": data.get("type", "attraction"),
+                "country": country,
+                "city": city,
+                "summary": (data.get("summary", "") or "")[:60],
+            }))
+        scored.sort(key=lambda e: (e[0], e[1], e[2]))
+        return [s[3] for s in scored[:limit]]
+
     def match(self, activity: str) -> List[Dict]:
         """返回 activity 文本中出现的景点的玩法入口（轻量，只带名字和一句话）"""
         if not activity:

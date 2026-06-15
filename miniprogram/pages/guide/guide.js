@@ -4,6 +4,10 @@ const app = getApp()
 Page({
   data: {
     guideMode: 'recommend',   // 'recommend' 帮我推荐 | 'pick' 知道去哪
+    // 攻略搜索
+    guideSearchInput: '',
+    guideSearchResults: [],
+    guideSearched: false,
     selectedCities: [],
     // 「知道去哪」模式：自己选城
     pickSearchInput: '',
@@ -83,6 +87,42 @@ Page({
   },
 
   openPlaybook(e) {
+    const name = e.currentTarget.dataset.name
+    wx.navigateTo({ url: `/pages/attraction/attraction?name=${encodeURIComponent(name)}` })
+  },
+
+  // 攻略搜索：输入地名 → 命中卡片
+  onGuideSearchInput(e) {
+    const v = e.detail.value
+    this.setData({ guideSearchInput: v })
+    clearTimeout(this._searchTimer)
+    if (!v || !v.trim()) {
+      this.setData({ guideSearchResults: [], guideSearched: false })
+      return
+    }
+    // 防抖 300ms
+    this._searchTimer = setTimeout(() => this.doGuideSearch(v.trim()), 300)
+  },
+
+  doGuideSearch(q) {
+    api.searchAttractions(q).then(res => {
+      const results = ((res && res.results) || []).map(r => ({
+        ...r,
+        thumb: r.thumb ? api.imageUrl(r.thumb) : ''
+      }))
+      this.setData({ guideSearchResults: results, guideSearched: true })
+    }).catch(() => {
+      this.setData({ guideSearchResults: [], guideSearched: true })
+    })
+  },
+
+  clearGuideSearch() {
+    clearTimeout(this._searchTimer)
+    this.setData({ guideSearchInput: '', guideSearchResults: [], guideSearched: false })
+  },
+
+  // 点搜索结果卡片 → 跳详情页
+  openSearchResult(e) {
     const name = e.currentTarget.dataset.name
     wx.navigateTo({ url: `/pages/attraction/attraction?name=${encodeURIComponent(name)}` })
   },

@@ -1,4 +1,30 @@
 <view class="container">
+  <!-- 攻略搜索 -->
+  <view class="search-card">
+    <view class="search-box">
+      <text class="search-ic">🔍</text>
+      <input class="search-input" value="{{guideSearchInput}}" bindinput="onGuideSearchInput" placeholder="搜地名直达攻略，如 瑞吉山、东京" confirm-type="search" />
+      <text wx:if="{{guideSearchInput}}" class="search-clear" bindtap="clearGuideSearch">✕</text>
+    </view>
+  </view>
+
+  <!-- 搜索结果 -->
+  <block wx:if="{{guideSearched}}">
+    <view class="search-hint" wx:if="{{guideSearchResults.length}}">找到 {{guideSearchResults.length}} 个结果</view>
+    <view class="search-hint" wx:else>没有找到，换个词试试</view>
+    <view class="sresult-card" wx:for="{{guideSearchResults}}" wx:key="name" bindtap="openSearchResult" data-name="{{item.name}}">
+      <image wx:if="{{item.thumb}}" class="sresult-img" src="{{item.thumb}}" mode="aspectFill" />
+      <view wx:else class="sresult-img sresult-noimg">暂无图</view>
+      <view class="sresult-body">
+        <text class="sresult-tag">{{item.type === 'city' ? '城市攻略' : '景点详情'}}</text>
+        <view class="sresult-name">{{item.name}}</view>
+        <view class="sresult-meta">{{item.country}}{{item.city ? ' · ' + item.city : ''}}</view>
+        <view class="sresult-sum">{{item.summary}}</view>
+      </view>
+      <text class="sresult-arrow">›</text>
+    </view>
+  </block>
+
   <!-- 模式切换 -->
   <view class="card">
     <view class="card-title">做攻略</view>

@@ -69,6 +69,9 @@ module.exports = {
   getAttractionPlaybook(name) {
     return request(`/attractions/playbook?name=${encodeURIComponent(name)}`)
   },
+  searchAttractions(q) {
+    return request(`/attractions/search?q=${encodeURIComponent(q)}`)
+  },
   // 路线
   generateRoute(data) {
     return request('/routes/generate', 'POST', data)

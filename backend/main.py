@@ -1476,6 +1476,20 @@ async def get_attraction_playbook(name: str):
     return {"success": True, "playbook": pb}
 
 
+@app.get("/api/attractions/search")
+async def search_attractions(q: str, limit: int = 30):
+    """攻略搜索：按 名称/别名/城市/国家 匹配，返回命中列表（带缩略图）。
+    前端搜索框用：输入地名 → 命中卡片 → 点卡片跳详情页。"""
+    from services.playbook_service import get_playbook_index
+    from services.image_service import get_image_index
+    results = get_playbook_index().search(q, limit=limit)
+    img = get_image_index()
+    for r in results:
+        first = img.first_image(r["name"])
+        r["thumb"] = first["url"] if first else None
+    return {"success": True, "query": q, "count": len(results), "results": results}
+
+
 @app.get("/api/destinations/structure")
 async def get_destination_structure():
     """获取完整的目的地结构（区域→国家→城市）"""
