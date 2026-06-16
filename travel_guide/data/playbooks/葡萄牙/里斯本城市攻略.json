@@ -382,5 +382,7 @@
     }
   ],
   "duration": "2-3天（含辛特拉）",
-  "best_time": "3-6月、9-10月"
+  "best_time": "3-6月、9-10月",
+  "transport_map": "葡萄牙/葡萄牙_outer.png",
+  "transport_map_inner": "葡萄牙/里斯本_市内交通图.png"
 }
