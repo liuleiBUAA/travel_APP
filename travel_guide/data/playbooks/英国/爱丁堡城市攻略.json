@@ -136,5 +136,7 @@
     }
   ],
   "duration": "2天",
-  "best_time": "5-9月；8月艺术节人潮自行取舍"
+  "best_time": "5-9月；8月艺术节人潮自行取舍",
+  "transport_map": "英国/英国_城市间交通图.png",
+  "transport_map_inner": "英国/爱丁堡_市内交通图.png"
 }
