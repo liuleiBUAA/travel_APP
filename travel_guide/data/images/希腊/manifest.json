@@ -552,5 +552,16 @@
   "artist": "Stunning aerial view of Balos Lagoon with crystal-clear azure waters and serene coastal scenery.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "雅典",
+  "attraction": "卫城博物馆",
+  "status": "ok",
+  "local": "雅典/卫城博物馆_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Pinterpandai.com",
+  "source": "wikimedia",
+  "commons_file": "卫城博物馆_c2.jpg",
+  "extras": []
  }
 ]

@@ -949,5 +949,16 @@
   "artist": "Experience the serene beauty of Culebra's sandy shores under a clear blue sky in Puerto Rico.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "茂宜岛",
+  "attraction": "茂宜西海岸",
+  "status": "ok",
+  "local": "茂宜岛/茂宜西海岸_1.jpg",
+  "license": "CC BY 3.0 us",
+  "artist": "Forest and Kim Starr",
+  "source": "wikimedia",
+  "commons_file": "茂宜西海岸_c1.jpg",
+  "extras": []
  }
 ]

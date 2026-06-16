@@ -2230,5 +2230,71 @@
   "artist": "Breathtaking view of the dramatic coastline along Australia's famous Great Ocean Road.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "墨尔本",
+  "attraction": "圣保罗大教堂及周边（含弗林德斯街火车站、联邦广场、霍尔西巷涂鸦街）",
+  "status": "ok",
+  "local": "墨尔本/圣保罗大教堂及周边（含弗林德斯街火车站、联邦广场、霍尔西巷涂鸦街）_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Crisco 1492",
+  "source": "wikimedia",
+  "commons_file": "圣保罗大教堂及周边（含弗林德斯街火车站、联邦广场、霍尔西巷涂鸦街）_c1.jpg",
+  "extras": []
+ },
+ {
+  "city": "墨尔本",
+  "attraction": "维多利亚国立美术馆",
+  "status": "ok",
+  "local": "墨尔本/维多利亚国立美术馆_1.jpg",
+  "license": "Public domain",
+  "artist": "Lakeyboy at English Wikipedia",
+  "source": "wikimedia",
+  "commons_file": "维多利亚国立美术馆_c0.jpg",
+  "extras": []
+ },
+ {
+  "city": "墨尔本",
+  "attraction": "菲利普岛",
+  "status": "ok",
+  "local": "墨尔本/菲利普岛_1.jpg",
+  "license": "CC0",
+  "artist": "PookieFugglestein",
+  "source": "wikimedia",
+  "commons_file": "菲利普岛_c0.jpg",
+  "extras": []
+ },
+ {
+  "city": "乌鲁鲁",
+  "attraction": "卡塔丘塔",
+  "status": "ok",
+  "local": "乌鲁鲁/卡塔丘塔_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Reflexio",
+  "source": "wikimedia",
+  "commons_file": "卡塔丘塔_zh.jpg",
+  "extras": []
+ },
+ {
+  "city": "乌鲁鲁",
+  "attraction": "帝王谷（国王峡谷）",
+  "status": "ok",
+  "local": "乌鲁鲁/帝王谷（国王峡谷）_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Toby Hudson",
+  "source": "wikimedia",
+  "commons_file": "帝王谷（国王峡谷）_c0.jpg",
+  "extras": []
+ },
+ {
+  "city": "艾尔利海滩",
+  "attraction": "艾尔利海滩泻湖泳池",
+  "status": "ok",
+  "local": "艾尔利海滩/艾尔利海滩泻湖泳池_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "DANIEL JULIE from Paris, France",
+  "source": "wikimedia",
+  "commons_file": "艾尔利海滩泻湖泳池_c0.jpg",
+  "extras": []
  }
 ]

@@ -1503,5 +1503,126 @@
   "artist": "Iconic Arctic Cathedral with striking modern design against a clear blue sky in Tromsø, Norway.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "奥斯陆",
+  "attraction": "诺贝尔和平中心",
+  "status": "ok",
+  "local": "奥斯陆/诺贝尔和平中心_1.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Images George Rex",
+  "source": "wikimedia",
+  "commons_file": "诺贝尔和平中心_c0.jpg",
+  "extras": []
+ },
+ {
+  "city": "奥斯陆",
+  "attraction": "奥斯陆王宫",
+  "status": "ok",
+  "local": "奥斯陆/奥斯陆王宫_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Beata May",
+  "source": "wikimedia",
+  "commons_file": "奥斯陆王宫_c1.jpg",
+  "extras": []
+ },
+ {
+  "city": "奥斯陆",
+  "attraction": "卡尔约翰购物街",
+  "status": "ok",
+  "local": "奥斯陆/卡尔约翰购物街_1.jpg",
+  "license": "CC BY 3.0",
+  "artist": "Jorge Franganillo",
+  "source": "wikimedia",
+  "commons_file": "卡尔约翰购物街_c1.jpg",
+  "extras": []
+ },
+ {
+  "city": "奥斯陆",
+  "attraction": "奥斯陆大教堂",
+  "status": "ok",
+  "local": "奥斯陆/奥斯陆大教堂_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Suicasmo",
+  "source": "wikimedia",
+  "commons_file": "奥斯陆大教堂_zh.jpg",
+  "extras": []
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "五星要塞",
+  "status": "ok",
+  "local": "哥本哈根/五星要塞_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Dietmar Rabich",
+  "source": "wikimedia",
+  "commons_file": "五星要塞_c0.jpg",
+  "extras": []
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "吉菲昂喷泉",
+  "status": "ok",
+  "local": "哥本哈根/吉菲昂喷泉_1.jpg",
+  "license": "CC0",
+  "artist": "Marco Almbauer",
+  "source": "wikimedia",
+  "commons_file": "吉菲昂喷泉_c0.jpg",
+  "extras": []
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "圆塔",
+  "status": "ok",
+  "local": "哥本哈根/圆塔_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Avda",
+  "source": "wikimedia",
+  "commons_file": "圆塔_zh.jpg",
+  "extras": []
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "丹麦国立美术馆",
+  "status": "ok",
+  "local": "哥本哈根/丹麦国立美术馆_1.jpg",
+  "license": "CC0",
+  "artist": "Daderot",
+  "source": "wikimedia",
+  "commons_file": "丹麦国立美术馆_c0.jpg",
+  "extras": []
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "哥本哈根圆桥",
+  "status": "ok",
+  "local": "哥本哈根/哥本哈根圆桥_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Colin",
+  "source": "wikimedia",
+  "commons_file": "哥本哈根圆桥_c2.jpg",
+  "extras": []
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "管风琴教堂",
+  "status": "ok",
+  "local": "哥本哈根/管风琴教堂_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "",
+  "source": "wikimedia",
+  "commons_file": "管风琴教堂_zh.jpg",
+  "extras": []
+ },
+ {
+  "city": "雷克雅未克",
+  "attraction": "Harpa音乐厅",
+  "status": "ok",
+  "local": "雷克雅未克/Harpa音乐厅_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Tristan Ferne from UK",
+  "source": "wikimedia",
+  "commons_file": "Harpa音乐厅_c3.jpg",
+  "extras": []
  }
 ]

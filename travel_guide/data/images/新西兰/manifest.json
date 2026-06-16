@@ -1166,5 +1166,38 @@
   "artist": "Peaceful lakeside scenery in Auckland with clear water and lush greenery, perfect for nature backgrounds.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "奥克兰",
+  "attraction": "伊甸山",
+  "status": "ok",
+  "local": "奥克兰/伊甸山_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Avenue",
+  "source": "wikimedia",
+  "commons_file": "伊甸山_c0.jpg",
+  "extras": []
+ },
+ {
+  "city": "皇后镇",
+  "attraction": "皇后镇公园",
+  "status": "ok",
+  "local": "皇后镇/皇后镇公园_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Michal Klajban",
+  "source": "wikimedia",
+  "commons_file": "皇后镇公园_c3.jpg",
+  "extras": []
+ },
+ {
+  "city": "罗托鲁瓦",
+  "attraction": "Kuirau Park公园",
+  "status": "ok",
+  "local": "罗托鲁瓦/Kuirau Park公园_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Krzysztof Golik",
+  "source": "wikimedia",
+  "commons_file": "Kuirau Park公园_c0.jpg",
+  "extras": []
  }
 ]

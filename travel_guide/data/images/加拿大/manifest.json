@@ -1044,5 +1044,27 @@
   "artist": "A solitary ostrich standing in a grassy field at a zoo in Toronto, Canada.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "多伦多",
+  "attraction": "肯辛顿市场",
+  "status": "ok",
+  "local": "多伦多/肯辛顿市场_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Arild Vågen",
+  "source": "wikimedia",
+  "commons_file": "肯辛顿市场_c1.jpg",
+  "extras": []
+ },
+ {
+  "city": "贾斯珀",
+  "attraction": "贾斯珀天空缆车",
+  "status": "ok",
+  "local": "贾斯珀/贾斯珀天空缆车_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Cheflaryen",
+  "source": "wikimedia",
+  "commons_file": "贾斯珀天空缆车_c2.jpg",
+  "extras": []
  }
 ]

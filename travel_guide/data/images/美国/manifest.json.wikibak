@@ -1,0 +1,282 @@
+[
+ {
+  "city": "死亡谷",
+  "attraction": "Zabriskie Point",
+  "status": "ok",
+  "local": "死亡谷/Zabriskie Point_1.jpg",
+  "license": "Pexels",
+  "artist": "Striking colorful rock formations under clear sky, showcasing geological beauty.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "死亡谷",
+  "attraction": "Badwater恶水盆地",
+  "status": "ok",
+  "local": "死亡谷/Badwater恶水盆地_1.jpg",
+  "license": "Pexels",
+  "artist": "Wooden sign at Badwater Basin, 282 feet below sea level in Death Valley.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "死亡谷",
+  "attraction": "Artists Palette五彩岩石",
+  "status": "ok",
+  "local": "死亡谷/Artists Palette五彩岩石_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning view of the colorful Artist's Palette in Death Valley, showcasing layered mineral deposits.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "死亡谷",
+  "attraction": "Golden Canyon峡谷步道",
+  "status": "ok",
+  "local": "死亡谷/Golden Canyon峡谷步道_1.jpg",
+  "license": "Pexels",
+  "artist": "Captivating panoramic view of Death Valley's rugged terrain at sunset, showcasing vibrant geological formations.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "死亡谷",
+  "attraction": "Mesquite Flat Sand Dunes沙丘",
+  "status": "ok",
+  "local": "死亡谷/Mesquite Flat Sand Dunes沙丘_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning golden sand dunes with mountain backdrop in Death Valley National Park, California.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "优胜美地",
+  "attraction": "Yosemite Valley",
+  "status": "ok",
+  "local": "优胜美地/Yosemite Valley_1.jpg",
+  "license": "Pexels",
+  "artist": "Breathtaking view of mountains and lush greenery in Yosemite Valley, California.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "优胜美地",
+  "attraction": "Mist Trail",
+  "status": "ok",
+  "local": "优胜美地/Mist Trail_1.jpg",
+  "license": "Pexels",
+  "artist": "A breathtaking view of Vernal Fall surrounded by lush greenery in Yosemite National Park.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "可爱岛",
+  "attraction": "威美亚峽谷州立公园",
+  "status": "ok",
+  "local": "可爱岛/威美亚峽谷州立公园_1.jpg",
+  "license": "Pexels",
+  "artist": "Scenic summer view of Waimea Canyon with vibrant foliage and clear skies.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "可爱岛",
+  "attraction": "寇基州立公园",
+  "status": "ok",
+  "local": "可爱岛/寇基州立公园_1.jpg",
+  "license": "Pexels",
+  "artist": "Breathtaking view of Waimea Canyon's colorful cliffs and lush valleys under a bright blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "可爱岛",
+  "attraction": "哈埃纳州立公园",
+  "status": "ok",
+  "local": "可爱岛/哈埃纳州立公园_1.jpg",
+  "license": "Pexels",
+  "artist": "A beautiful aerial view of a tropical beach in Kauai, Hawaii, featuring lush greenery and golden sands.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "可爱岛",
+  "attraction": "纳帕利海岸州立公园",
+  "status": "ok",
+  "local": "可爱岛/纳帕利海岸州立公园_1.jpg",
+  "license": "Pexels",
+  "artist": "Breathtaking view of turquoise ocean water and rugged cliffs under bright summer sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "可爱岛",
+  "attraction": "Maha'ulepu Heritage Trail",
+  "status": "ok",
+  "local": "可爱岛/Maha'ulepu Heritage Trail_1.jpg",
+  "license": "Pexels",
+  "artist": "Beautiful view of a beach in Hawaii with rocky coastline and turquoise ocean waves crashing toward the shore.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "可爱岛",
+  "attraction": "Poipu Beach",
+  "status": "ok",
+  "local": "可爱岛/Poipu Beach_1.jpg",
+  "license": "Pexels",
+  "artist": "Relaxing Hawaiian beach scene capturing azure waters, sandy shore, and turquoise umbrellas under clear skies.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "可爱岛",
+  "attraction": "Allerton Garden",
+  "status": "ok",
+  "local": "可爱岛/Allerton Garden_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning aerial view of a vibrant garden in Banten, Indonesia, showcasing lush greenery and architectural pathways.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "可爱岛",
+  "attraction": "Spouting Horn",
+  "status": "ok",
+  "local": "可爱岛/Spouting Horn_1.jpg",
+  "license": "Pexels",
+  "artist": "Dramatic seascape of Halona Blowhole in Honolulu with ocean spray.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "夏威夷大岛",
+  "attraction": "南岬",
+  "status": "ok",
+  "local": "夏威夷大岛/南岬_1.jpg",
+  "license": "Pexels",
+  "artist": "Breathtaking aerial shot of Honaunau-Napoopoo coastline showcasing vibrant turquoise waters and lush greenery.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "檀香山",
+  "attraction": "威基基海滩和购物区",
+  "status": "ok",
+  "local": "檀香山/威基基海滩和购物区_1.jpg",
+  "license": "Pexels",
+  "artist": "Beautiful view of Waikiki Beach with Diamond Head in the background, perfect travel destination.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "檀香山",
+  "attraction": "恐龙湾保护区",
+  "status": "ok",
+  "local": "檀香山/恐龙湾保护区_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning aerial view of Hanauma Bay with turquoise waters and volcanic landscapes in Oahu, Hawaii.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "檀香山",
+  "attraction": "Pillbox Hike",
+  "status": "ok",
+  "local": "檀香山/Pillbox Hike_1.jpg",
+  "license": "Pexels",
+  "artist": "Breathtaking aerial view of Oahu's coast and hills on a sunny day.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "檀香山",
+  "attraction": "Lanikai Beach",
+  "status": "ok",
+  "local": "檀香山/Lanikai Beach_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning aerial view of Lanikai Beach and Mokulua Islands in Hawaii, showcasing vibrant blue waters and coastal scenery.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "檀香山",
+  "attraction": "都乐菠萝园",
+  "status": "ok",
+  "local": "檀香山/都乐菠萝园_1.jpg",
+  "license": "Pexels",
+  "artist": "Close-up view of a fresh pineapple growing on a plant outdoors.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "檀香山",
+  "attraction": "北海岸",
+  "status": "ok",
+  "local": "檀香山/北海岸_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning aerial view of Waimanalo Beach, HI showcasing turquoise waters and sandy shores.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "檀香山",
+  "attraction": "古兰尼牧场",
+  "status": "ok",
+  "local": "檀香山/古兰尼牧场_1.jpg",
+  "license": "Pexels",
+  "artist": "Beautiful view of Kualoa Ranch with majestic mountains and tranquil waters in Hawaii.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "檀香山",
+  "attraction": "波利尼西亚文化中心",
+  "status": "ok",
+  "local": "檀香山/波利尼西亚文化中心_1.jpg",
+  "license": "Pexels",
+  "artist": "Vibrant Polynesian dancers perform a traditional dance in colorful costumes outdoors.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "檀香山",
+  "attraction": "平等院",
+  "status": "ok",
+  "local": "檀香山/平等院_1.jpg",
+  "license": "Pexels",
+  "artist": "Serene landscape with Byodo-In Temple surrounded by lush greenery and a calm pond in the foreground.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "檀香山",
+  "attraction": "科奥利纳海岸",
+  "status": "ok",
+  "local": "檀香山/科奥利纳海岸_1.jpg",
+  "license": "Pexels",
+  "artist": "Crystal-clear waters and beachfront pier at Waikiki, Honolulu with surfers and skyline view.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "安克雷奇",
+  "attraction": "马塔努斯卡冰川",
+  "status": "ok",
+  "local": "安克雷奇/马塔努斯卡冰川_1.jpg",
+  "license": "Pexels",
+  "artist": "Breathtaking view of Alaskan mountains, glacier, and lush forest in summer. Ideal for nature and travel enthusiasts.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "安克雷奇",
+  "attraction": "基奈峡湾国家公园",
+  "status": "ok",
+  "local": "安克雷奇/基奈峡湾国家公园_1.jpg",
+  "license": "Pexels",
+  "artist": "Breathtaking view of a fjord in Alaska with snowcapped mountains and crystal blue water.",
+  "source": "pexels",
+  "extras": []
+ }
+]

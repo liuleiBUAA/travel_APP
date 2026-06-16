@@ -574,5 +574,16 @@
   "artist": "Stunning evening view of Vienna State Opera, beautifully illuminated in the urban cityscape.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "维也纳",
+  "attraction": "金色大厅音乐会",
+  "status": "ok",
+  "local": "维也纳/金色大厅音乐会_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "C.Stadler/Bwag",
+  "source": "wikimedia",
+  "commons_file": "金色大厅音乐会_c0.jpg",
+  "extras": []
  }
 ]

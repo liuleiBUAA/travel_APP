@@ -1375,5 +1375,27 @@
   "artist": "Aerial view of Shibuya skyline with vibrant city lights under a clear evening sky in Tokyo, Japan.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "那霸",
+  "attraction": "渡嘉敷岛",
+  "status": "ok",
+  "local": "那霸/渡嘉敷岛_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Rickard Törnblad",
+  "source": "wikimedia",
+  "commons_file": "渡嘉敷岛_c3.jpg",
+  "extras": []
+ },
+ {
+  "city": "奈良",
+  "attraction": "若草山",
+  "status": "ok",
+  "local": "奈良/若草山_1.jpg",
+  "license": "CC BY 2.5",
+  "artist": "PlusMinus",
+  "source": "wikimedia",
+  "commons_file": "若草山_zh.jpg",
+  "extras": []
  }
 ]

@@ -1120,5 +1120,16 @@
   "artist": "Row of chocolate Santa Claus figures wrapped in foil, perfect for Christmas festivities.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "德累斯顿",
+  "attraction": "王子的行列",
+  "status": "ok",
+  "local": "德累斯顿/王子的行列_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Christoph Münch",
+  "source": "wikimedia",
+  "commons_file": "王子的行列_zh.jpg",
+  "extras": []
  }
 ]

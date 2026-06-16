@@ -713,5 +713,38 @@
   "artist": "Explore the illuminated rock-cut architecture of Göreme at dusk, capturing the essence of Cappadocia's enchanting landscape.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "伊斯坦布尔",
+  "attraction": "多尔玛巴赫切宫(新皇宫)",
+  "status": "ok",
+  "local": "伊斯坦布尔/多尔玛巴赫切宫(新皇宫)_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Diego Delso",
+  "source": "wikimedia",
+  "commons_file": "多尔玛巴赫切宫(新皇宫)_c3.jpg",
+  "extras": []
+ },
+ {
+  "city": "格雷梅",
+  "attraction": "鸽子谷",
+  "status": "ok",
+  "local": "格雷梅/鸽子谷_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Dosseman",
+  "source": "wikimedia",
+  "commons_file": "鸽子谷_c2.jpg",
+  "extras": []
+ },
+ {
+  "city": "格雷梅",
+  "attraction": "德林库优地下城",
+  "status": "ok",
+  "local": "格雷梅/德林库优地下城_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Nevit Dilmen (talk)",
+  "source": "wikimedia",
+  "commons_file": "德林库优地下城_c2.jpg",
+  "extras": []
  }
 ]

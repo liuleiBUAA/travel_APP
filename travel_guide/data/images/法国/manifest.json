@@ -1296,5 +1296,71 @@
   "artist": "A collection of vintage wine bottles from an old cellar in Pauillac, France.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "里昂",
+  "attraction": "里昂高卢古罗马剧场",
+  "status": "ok",
+  "local": "里昂/里昂高卢古罗马剧场_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "John Samuel",
+  "source": "wikimedia",
+  "commons_file": "里昂高卢古罗马剧场_c3.jpg",
+  "extras": []
+ },
+ {
+  "city": "里昂",
+  "attraction": "里昂主座教堂",
+  "status": "ok",
+  "local": "里昂/里昂主座教堂_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Benjamin Smith",
+  "source": "wikimedia",
+  "commons_file": "里昂主座教堂_c2.jpg",
+  "extras": []
+ },
+ {
+  "city": "里昂",
+  "attraction": "白莱果广场",
+  "status": "ok",
+  "local": "里昂/白莱果广场_1.jpg",
+  "license": "Public domain",
+  "artist": "TwoWings",
+  "source": "wikimedia",
+  "commons_file": "白莱果广场_zh.jpg",
+  "extras": []
+ },
+ {
+  "city": "里昂",
+  "attraction": "里昂美术馆",
+  "status": "ok",
+  "local": "里昂/里昂美术馆_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Limfjord69",
+  "source": "wikimedia",
+  "commons_file": "里昂美术馆_zh.jpg",
+  "extras": []
+ },
+ {
+  "city": "巴黎",
+  "attraction": "罗丹美术馆",
+  "status": "ok",
+  "local": "巴黎/罗丹美术馆_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Jean-Pierre Dalbéra",
+  "source": "wikimedia",
+  "commons_file": "罗丹美术馆_c0.jpg",
+  "extras": []
+ },
+ {
+  "city": "阿维尼翁",
+  "attraction": "岩石公园",
+  "status": "ok",
+  "local": "阿维尼翁/岩石公园_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Txllxt TxllxT",
+  "source": "wikimedia",
+  "commons_file": "岩石公园_c3.jpg",
+  "extras": []
  }
 ]

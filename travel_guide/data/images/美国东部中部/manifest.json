@@ -3454,5 +3454,181 @@
   "artist": "Close-up of a wooden cross inside a church with stained glass background.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "纽约",
+  "attraction": "美国自然历史博物馆",
+  "status": "ok",
+  "local": "纽约/美国自然历史博物馆_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Ingfbruno",
+  "source": "wikimedia",
+  "commons_file": "美国自然历史博物馆_zh.jpg",
+  "extras": []
+ },
+ {
+  "city": "纽约",
+  "attraction": "高线公园",
+  "status": "ok",
+  "local": "纽约/高线公园_1.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Jakub Hałun",
+  "source": "wikimedia",
+  "commons_file": "高线公园_c2.jpg",
+  "extras": []
+ },
+ {
+  "city": "纽约",
+  "attraction": "古根海姆美术馆",
+  "status": "ok",
+  "local": "纽约/古根海姆美术馆_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Karl Döringer",
+  "source": "wikimedia",
+  "commons_file": "古根海姆美术馆_c1.jpg",
+  "extras": []
+ },
+ {
+  "city": "华盛顿",
+  "attraction": "国家航空航天博物馆",
+  "status": "ok",
+  "local": "华盛顿/国家航空航天博物馆_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "David Bjorgen",
+  "source": "wikimedia",
+  "commons_file": "国家航空航天博物馆_zh.jpg",
+  "extras": []
+ },
+ {
+  "city": "华盛顿",
+  "attraction": "国家植物园",
+  "status": "ok",
+  "local": "华盛顿/国家植物园_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Diego Delso",
+  "source": "wikimedia",
+  "commons_file": "国家植物园_c3.jpg",
+  "extras": []
+ },
+ {
+  "city": "波士顿",
+  "attraction": "麻省理工学院",
+  "status": "ok",
+  "local": "波士顿/麻省理工学院_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Beyond My Ken",
+  "source": "wikimedia",
+  "commons_file": "麻省理工学院_c2.jpg",
+  "extras": []
+ },
+ {
+  "city": "波士顿",
+  "attraction": "波士顿公共图书馆/教堂/Newbury商业街",
+  "status": "ok",
+  "local": "波士顿/波士顿公共图书馆_教堂_Newbury商业街_1.jpg",
+  "license": "Public domain",
+  "artist": "Abdalian, Leon H., 1884-1967",
+  "source": "wikimedia",
+  "commons_file": "波士顿公共图书馆_教堂_Newbury商业街_c0.jpg",
+  "extras": []
+ },
+ {
+  "city": "新奥尔良",
+  "attraction": "爵士乐游船Steamboat NATCHEZ",
+  "status": "ok",
+  "local": "新奥尔良/爵士乐游船Steamboat NATCHEZ_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Runner1928",
+  "source": "wikimedia",
+  "commons_file": "爵士乐游船Steamboat NATCHEZ_c2.jpg",
+  "extras": []
+ },
+ {
+  "city": "新奥尔良",
+  "attraction": "波旁街",
+  "status": "ok",
+  "local": "新奥尔良/波旁街_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Chris Litherland",
+  "source": "wikimedia",
+  "commons_file": "波旁街_zh.jpg",
+  "extras": []
+ },
+ {
+  "city": "费城",
+  "attraction": "Reading Terminal Market",
+  "status": "ok",
+  "local": "费城/Reading Terminal Market_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "N1NJ4",
+  "source": "wikimedia",
+  "commons_file": "Reading Terminal Market_c2.jpg",
+  "extras": []
+ },
+ {
+  "city": "费城",
+  "attraction": "Longwood Garden",
+  "status": "ok",
+  "local": "费城/Longwood Garden_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "P. Hughes",
+  "source": "wikimedia",
+  "commons_file": "Longwood Garden_c2.jpg",
+  "extras": []
+ },
+ {
+  "city": "芝加哥",
+  "attraction": "威利斯大厦观景台Skydeck",
+  "status": "ok",
+  "local": "芝加哥/威利斯大厦观景台Skydeck_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Zakarie Faibis",
+  "source": "wikimedia",
+  "commons_file": "威利斯大厦观景台Skydeck_c0.jpg",
+  "extras": []
+ },
+ {
+  "city": "迈阿密",
+  "attraction": "小哈瓦那",
+  "status": "ok",
+  "local": "迈阿密/小哈瓦那_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Infrogmation of New Orleans",
+  "source": "wikimedia",
+  "commons_file": "小哈瓦那_zh.jpg",
+  "extras": []
+ },
+ {
+  "city": "休斯顿",
+  "attraction": "水墙公园",
+  "status": "ok",
+  "local": "休斯顿/水墙公园_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "NeOak",
+  "source": "wikimedia",
+  "commons_file": "水墙公园_c2.jpg",
+  "extras": []
+ },
+ {
+  "city": "休斯顿",
+  "attraction": "莱斯大学",
+  "status": "ok",
+  "local": "休斯顿/莱斯大学_1.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Quintin Soloviev",
+  "source": "wikimedia",
+  "commons_file": "莱斯大学_c2.jpg",
+  "extras": []
+ },
+ {
+  "city": "亚特兰大",
+  "attraction": "德国小镇Helen",
+  "status": "ok",
+  "local": "亚特兰大/德国小镇Helen_1.jpg",
+  "license": "CC0",
+  "artist": "JoyD Smiths PTMr8",
+  "source": "wikimedia",
+  "commons_file": "德国小镇Helen_c1.jpg",
+  "extras": []
  }
 ]

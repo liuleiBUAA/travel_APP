@@ -1,0 +1,698 @@
+[
+ {
+  "city": "迪拜",
+  "attraction": "哈利法塔",
+  "status": "ok",
+  "local": "迪拜/哈利法塔_1.jpg",
+  "license": "Pexels",
+  "artist": "Maria Charizani",
+  "commons_file": "pexels:5577693",
+  "source": "pexels:Burj Khalifa Dubai",
+  "extras": [
+   {
+    "local": "迪拜/哈利法塔_2.jpg",
+    "license": "Pexels",
+    "artist": "Mo Eid",
+    "commons_file": "pexels:20688684",
+    "source": "pexels:Burj Khalifa Dubai"
+   },
+   {
+    "local": "迪拜/哈利法塔_3.jpg",
+    "license": "Pexels",
+    "artist": "Tim Gouw",
+    "commons_file": "pexels:47227",
+    "source": "pexels:Burj Khalifa Dubai"
+   }
+  ]
+ },
+ {
+  "city": "迪拜",
+  "attraction": "迪拜mall",
+  "status": "ok",
+  "local": "迪拜/迪拜mall_1.jpg",
+  "license": "Pexels",
+  "artist": "Denys Gromov",
+  "commons_file": "pexels:7662956",
+  "source": "pexels:Dubai Mall aquarium fountain",
+  "extras": [
+   {
+    "local": "迪拜/迪拜mall_2.jpg",
+    "license": "Pexels",
+    "artist": "Yassen Kounchev",
+    "commons_file": "pexels:30416486",
+    "source": "pexels:Dubai Mall aquarium fountain"
+   },
+   {
+    "local": "迪拜/迪拜mall_3.jpg",
+    "license": "Pexels",
+    "artist": "Saugat Shrestha",
+    "commons_file": "pexels:16664414",
+    "source": "pexels:Dubai Mall aquarium fountain"
+   }
+  ]
+ },
+ {
+  "city": "迪拜",
+  "attraction": "沙漠冲沙",
+  "status": "ok",
+  "local": "迪拜/沙漠冲沙_1.jpg",
+  "license": "Pexels",
+  "artist": "Jenis Christopher",
+  "commons_file": "pexels:12565188",
+  "source": "pexels:Dubai desert safari dune bashing",
+  "extras": [
+   {
+    "local": "迪拜/沙漠冲沙_2.jpg",
+    "license": "Pexels",
+    "artist": "Stephane Hurbe",
+    "commons_file": "pexels:2417260",
+    "source": "pexels:Dubai desert safari dune bashing"
+   },
+   {
+    "local": "迪拜/沙漠冲沙_3.jpg",
+    "license": "Pexels",
+    "artist": "Carlos Herrero",
+    "commons_file": "pexels:936250",
+    "source": "pexels:Dubai desert safari dune bashing"
+   }
+  ]
+ },
+ {
+  "city": "迪拜",
+  "attraction": "朱美拉海滩",
+  "status": "ok",
+  "local": "迪拜/朱美拉海滩_1.jpg",
+  "license": "Pexels",
+  "artist": "Vika Glitter",
+  "commons_file": "pexels:36094286",
+  "source": "pexels:Jumeirah Beach Burj Al Arab Dubai",
+  "extras": [
+   {
+    "local": "迪拜/朱美拉海滩_2.jpg",
+    "license": "Pexels",
+    "artist": "Stephane Hurbe",
+    "commons_file": "pexels:4083973",
+    "source": "pexels:Jumeirah Beach Burj Al Arab Dubai"
+   },
+   {
+    "local": "迪拜/朱美拉海滩_3.jpg",
+    "license": "Pexels",
+    "artist": "Mo Eid",
+    "commons_file": "pexels:6246867",
+    "source": "pexels:Jumeirah Beach Burj Al Arab Dubai"
+   }
+  ]
+ },
+ {
+  "city": "阿布扎比",
+  "attraction": "谢赫扎耶德大清真寺",
+  "status": "ok",
+  "local": "阿布扎比/谢赫扎耶德大清真寺_1.jpg",
+  "license": "Pexels",
+  "artist": "Daniel Dang",
+  "commons_file": "pexels:32119558",
+  "source": "pexels:Sheikh Zayed Grand Mosque Abu Dhabi",
+  "extras": [
+   {
+    "local": "阿布扎比/谢赫扎耶德大清真寺_2.jpg",
+    "license": "Pexels",
+    "artist": "Jenis Christopher",
+    "commons_file": "pexels:12565201",
+    "source": "pexels:Sheikh Zayed Grand Mosque Abu Dhabi"
+   },
+   {
+    "local": "阿布扎比/谢赫扎耶德大清真寺_3.jpg",
+    "license": "Pexels",
+    "artist": "Swiss Atlas",
+    "commons_file": "pexels:16110501",
+    "source": "pexels:Sheikh Zayed Grand Mosque Abu Dhabi"
+   }
+  ]
+ },
+ {
+  "city": "阿布扎比",
+  "attraction": "卢浮宫",
+  "status": "ok",
+  "local": "阿布扎比/卢浮宫_1.jpg",
+  "license": "Pexels",
+  "artist": "merna rakha",
+  "commons_file": "pexels:17142999",
+  "source": "pexels:Louvre Abu Dhabi museum dome",
+  "extras": [
+   {
+    "local": "阿布扎比/卢浮宫_2.jpg",
+    "license": "Pexels",
+    "artist": "Diego F. Parra",
+    "commons_file": "pexels:15127409",
+    "source": "pexels:Louvre Abu Dhabi museum dome"
+   },
+   {
+    "local": "阿布扎比/卢浮宫_3.jpg",
+    "license": "Pexels",
+    "artist": "Diego F. Parra",
+    "commons_file": "pexels:15127397",
+    "source": "pexels:Louvre Abu Dhabi museum dome"
+   }
+  ]
+ },
+ {
+  "city": "开罗",
+  "attraction": "金字塔",
+  "status": "ok",
+  "local": "开罗/金字塔_1.jpg",
+  "license": "Pexels",
+  "artist": "Michelle Chadwick",
+  "commons_file": "pexels:31133003",
+  "source": "pexels:Pyramids of Giza Egypt",
+  "extras": [
+   {
+    "local": "开罗/金字塔_2.jpg",
+    "license": "Pexels",
+    "artist": "hayriyenur .",
+    "commons_file": "pexels:29390088",
+    "source": "pexels:Pyramids of Giza Egypt"
+   },
+   {
+    "local": "开罗/金字塔_3.jpg",
+    "license": "Pexels",
+    "artist": "Alexey K.",
+    "commons_file": "pexels:36505454",
+    "source": "pexels:Pyramids of Giza Egypt"
+   }
+  ]
+ },
+ {
+  "city": "开罗",
+  "attraction": "狮身人面像",
+  "status": "ok",
+  "local": "开罗/狮身人面像_1.jpg",
+  "license": "Pexels",
+  "artist": "Pixabay",
+  "commons_file": "pexels:262786",
+  "source": "pexels:Great Sphinx of Giza Egypt",
+  "extras": [
+   {
+    "local": "开罗/狮身人面像_2.jpg",
+    "license": "Pexels",
+    "artist": "Fabio Minetto",
+    "commons_file": "pexels:17991670",
+    "source": "pexels:Great Sphinx of Giza Egypt"
+   },
+   {
+    "local": "开罗/狮身人面像_3.jpg",
+    "license": "Pexels",
+    "artist": "Zak H",
+    "commons_file": "pexels:36872817",
+    "source": "pexels:Great Sphinx of Giza Egypt"
+   }
+  ]
+ },
+ {
+  "city": "开罗",
+  "attraction": "埃及博物馆",
+  "status": "ok",
+  "local": "开罗/埃及博物馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Spencer Davis",
+  "commons_file": "pexels:4353815",
+  "source": "pexels:Egyptian Museum Cairo Tutankhamun",
+  "extras": [
+   {
+    "local": "开罗/埃及博物馆_2.jpg",
+    "license": "Pexels",
+    "artist": "Tito Zzzz",
+    "commons_file": "pexels:35373942",
+    "source": "pexels:Egyptian Museum Cairo Tutankhamun"
+   },
+   {
+    "local": "开罗/埃及博物馆_3.jpg",
+    "license": "Pexels",
+    "artist": "Arralyn",
+    "commons_file": "pexels:2402923",
+    "source": "pexels:Egyptian Museum Cairo Tutankhamun"
+   }
+  ]
+ },
+ {
+  "city": "开罗",
+  "attraction": "哈利利市场",
+  "status": "ok",
+  "local": "开罗/哈利利市场_1.jpg",
+  "license": "Pexels",
+  "artist": "Muhamad Guruh Budi Hartono",
+  "commons_file": "pexels:36772036",
+  "source": "pexels:Khan el-Khalili bazaar Cairo",
+  "extras": [
+   {
+    "local": "开罗/哈利利市场_2.jpg",
+    "license": "Pexels",
+    "artist": "Abd Ulrahman Mohamed",
+    "commons_file": "pexels:33041900",
+    "source": "pexels:Khan el-Khalili bazaar Cairo"
+   },
+   {
+    "local": "开罗/哈利利市场_3.jpg",
+    "license": "Pexels",
+    "artist": "Reike Podt",
+    "commons_file": "pexels:14529372",
+    "source": "pexels:Khan el-Khalili bazaar Cairo"
+   }
+  ]
+ },
+ {
+  "city": "卢克索",
+  "attraction": "卢克索神庙",
+  "status": "ok",
+  "local": "卢克索/卢克索神庙_1.jpg",
+  "license": "Pexels",
+  "artist": "Mert Çelik",
+  "commons_file": "pexels:33634601",
+  "source": "pexels:Luxor Temple Egypt",
+  "extras": [
+   {
+    "local": "卢克索/卢克索神庙_2.jpg",
+    "license": "Pexels",
+    "artist": "AXP Photography",
+    "commons_file": "pexels:18934607",
+    "source": "pexels:Luxor Temple Egypt"
+   },
+   {
+    "local": "卢克索/卢克索神庙_3.jpg",
+    "license": "Pexels",
+    "artist": "Alina Zhabynska",
+    "commons_file": "pexels:36518565",
+    "source": "pexels:Luxor Temple Egypt"
+   }
+  ]
+ },
+ {
+  "city": "卢克索",
+  "attraction": "卡尔纳克神庙",
+  "status": "ok",
+  "local": "卢克索/卡尔纳克神庙_1.jpg",
+  "license": "Pexels",
+  "artist": "Alina Zhabynska",
+  "commons_file": "pexels:36518565",
+  "source": "pexels:Karnak Temple columns Luxor Egypt",
+  "extras": [
+   {
+    "local": "卢克索/卡尔纳克神庙_2.jpg",
+    "license": "Pexels",
+    "artist": "Ritchie  Soto",
+    "commons_file": "pexels:17034971",
+    "source": "pexels:Karnak Temple columns Luxor Egypt"
+   },
+   {
+    "local": "卢克索/卡尔纳克神庙_3.jpg",
+    "license": "Pexels",
+    "artist": "AXP Photography",
+    "commons_file": "pexels:18934722",
+    "source": "pexels:Karnak Temple columns Luxor Egypt"
+   }
+  ]
+ },
+ {
+  "city": "卢克索",
+  "attraction": "帝王谷",
+  "status": "ok",
+  "local": "卢克索/帝王谷_1.jpg",
+  "license": "Pexels",
+  "artist": "Mert Çelik",
+  "commons_file": "pexels:33854606",
+  "source": "pexels:Valley of the Kings Luxor Egypt",
+  "extras": [
+   {
+    "local": "卢克索/帝王谷_2.jpg",
+    "license": "Pexels",
+    "artist": "AXP Photography",
+    "commons_file": "pexels:18934678",
+    "source": "pexels:Valley of the Kings Luxor Egypt"
+   },
+   {
+    "local": "卢克索/帝王谷_3.jpg",
+    "license": "Pexels",
+    "artist": "M  abnodey",
+    "commons_file": "pexels:15537230",
+    "source": "pexels:Valley of the Kings Luxor Egypt"
+   }
+  ]
+ },
+ {
+  "city": "卢克索",
+  "attraction": "王后谷",
+  "status": "ok",
+  "local": "卢克索/王后谷_1.jpg",
+  "license": "Pexels",
+  "artist": "M  abnodey",
+  "commons_file": "pexels:15537230",
+  "source": "pexels:Valley of the Queens Luxor Egypt",
+  "extras": [
+   {
+    "local": "卢克索/王后谷_2.jpg",
+    "license": "Pexels",
+    "artist": "AXP Photography",
+    "commons_file": "pexels:18934706",
+    "source": "pexels:Valley of the Queens Luxor Egypt"
+   },
+   {
+    "local": "卢克索/王后谷_3.jpg",
+    "license": "Pexels",
+    "artist": "Jennifer",
+    "commons_file": "pexels:36721596",
+    "source": "pexels:Valley of the Queens Luxor Egypt"
+   }
+  ]
+ },
+ {
+  "city": "阿斯旺",
+  "attraction": "阿布辛贝神庙",
+  "status": "ok",
+  "local": "阿斯旺/阿布辛贝神庙_1.jpg",
+  "license": "Pexels",
+  "artist": "Cristian Bagnarello",
+  "commons_file": "pexels:5488754",
+  "source": "pexels:Abu Simbel temple Egypt",
+  "extras": [
+   {
+    "local": "阿斯旺/阿布辛贝神庙_2.jpg",
+    "license": "Pexels",
+    "artist": "Ted McDonnell",
+    "commons_file": "pexels:6322875",
+    "source": "pexels:Abu Simbel temple Egypt"
+   },
+   {
+    "local": "阿斯旺/阿布辛贝神庙_3.jpg",
+    "license": "Pexels",
+    "artist": "AXP Photography",
+    "commons_file": "pexels:18991590",
+    "source": "pexels:Abu Simbel temple Egypt"
+   }
+  ]
+ },
+ {
+  "city": "阿斯旺",
+  "attraction": "菲莱神庙",
+  "status": "ok",
+  "local": "阿斯旺/菲莱神庙_1.jpg",
+  "license": "Pexels",
+  "artist": "AXP Photography",
+  "commons_file": "pexels:18934581",
+  "source": "pexels:Philae Temple Aswan Egypt",
+  "extras": [
+   {
+    "local": "阿斯旺/菲莱神庙_2.jpg",
+    "license": "Pexels",
+    "artist": "AXP Photography",
+    "commons_file": "pexels:16535879",
+    "source": "pexels:Philae Temple Aswan Egypt"
+   },
+   {
+    "local": "阿斯旺/菲莱神庙_3.jpg",
+    "license": "Pexels",
+    "artist": "DANIELA LAURA GONZALEZ",
+    "commons_file": "pexels:34137935",
+    "source": "pexels:Philae Temple Aswan Egypt"
+   }
+  ]
+ },
+ {
+  "city": "阿斯旺",
+  "attraction": "努比亚村",
+  "status": "ok",
+  "local": "阿斯旺/努比亚村_1.jpg",
+  "license": "Pexels",
+  "artist": "AXP Photography",
+  "commons_file": "pexels:18991587",
+  "source": "pexels:Nubian village Aswan colorful houses",
+  "extras": [
+   {
+    "local": "阿斯旺/努比亚村_2.jpg",
+    "license": "Pexels",
+    "artist": "AXP Photography",
+    "commons_file": "pexels:18991596",
+    "source": "pexels:Nubian village Aswan colorful houses"
+   },
+   {
+    "local": "阿斯旺/努比亚村_3.jpg",
+    "license": "Pexels",
+    "artist": "AXP Photography",
+    "commons_file": "pexels:18991593",
+    "source": "pexels:Nubian village Aswan colorful houses"
+   }
+  ]
+ },
+ {
+  "city": "赫尔格达",
+  "attraction": "红海潜水",
+  "status": "ok",
+  "local": "赫尔格达/红海潜水_1.jpg",
+  "license": "Pexels",
+  "artist": "Ruben Galante",
+  "commons_file": "pexels:4809065",
+  "source": "pexels:Red Sea scuba diving Hurghada Egypt",
+  "extras": [
+   {
+    "local": "赫尔格达/红海潜水_2.jpg",
+    "license": "Pexels",
+    "artist": "Atlantic Ambience",
+    "commons_file": "pexels:1540108",
+    "source": "pexels:Red Sea scuba diving Hurghada Egypt"
+   },
+   {
+    "local": "赫尔格达/红海潜水_3.jpg",
+    "license": "Pexels",
+    "artist": "Stephan Ernst",
+    "commons_file": "pexels:31895961",
+    "source": "pexels:Red Sea scuba diving Hurghada Egypt"
+   }
+  ]
+ },
+ {
+  "city": "赫尔格达",
+  "attraction": "海滩度假",
+  "status": "ok",
+  "local": "赫尔格达/海滩度假_1.jpg",
+  "license": "Pexels",
+  "artist": "Vika Glitter",
+  "commons_file": "pexels:31166900",
+  "source": "pexels:Hurghada beach resort Red Sea Egypt",
+  "extras": [
+   {
+    "local": "赫尔格达/海滩度假_2.jpg",
+    "license": "Pexels",
+    "artist": "Vika Glitter",
+    "commons_file": "pexels:31166932",
+    "source": "pexels:Hurghada beach resort Red Sea Egypt"
+   },
+   {
+    "local": "赫尔格达/海滩度假_3.jpg",
+    "license": "Pexels",
+    "artist": "Ditmar Tabacaru",
+    "commons_file": "pexels:28376565",
+    "source": "pexels:Hurghada beach resort Red Sea Egypt"
+   }
+  ]
+ },
+ {
+  "city": "赫尔格达",
+  "attraction": "吉夫顿岛",
+  "status": "ok",
+  "local": "赫尔格达/吉夫顿岛_1.jpg",
+  "license": "Pexels",
+  "artist": "Vika Glitter",
+  "commons_file": "pexels:31166932",
+  "source": "pexels:Giftun Island Hurghada Egypt",
+  "extras": [
+   {
+    "local": "赫尔格达/吉夫顿岛_2.jpg",
+    "license": "Pexels",
+    "artist": "Vika Glitter",
+    "commons_file": "pexels:31166900",
+    "source": "pexels:Giftun Island Hurghada Egypt"
+   },
+   {
+    "local": "赫尔格达/吉夫顿岛_3.jpg",
+    "license": "Pexels",
+    "artist": "Bunyamin Cicek",
+    "commons_file": "pexels:30683936",
+    "source": "pexels:Giftun Island Hurghada Egypt"
+   }
+  ]
+ },
+ {
+  "city": "赫尔格达",
+  "attraction": "浮潜",
+  "status": "ok",
+  "local": "赫尔格达/浮潜_1.jpg",
+  "license": "Pexels",
+  "artist": "Ruben Galante",
+  "commons_file": "pexels:4809065",
+  "source": "pexels:snorkeling coral reef Red Sea Hurghada",
+  "extras": [
+   {
+    "local": "赫尔格达/浮潜_2.jpg",
+    "license": "Pexels",
+    "artist": "Francesco Ungaro",
+    "commons_file": "pexels:4620455",
+    "source": "pexels:snorkeling coral reef Red Sea Hurghada"
+   },
+   {
+    "local": "赫尔格达/浮潜_3.jpg",
+    "license": "Pexels",
+    "artist": "Mo Ismail",
+    "commons_file": "pexels:22643815",
+    "source": "pexels:snorkeling coral reef Red Sea Hurghada"
+   }
+  ]
+ },
+ {
+  "city": "开罗",
+  "attraction": "萨拉丁城堡",
+  "status": "ok",
+  "local": "开罗/萨拉丁城堡_1.jpg",
+  "license": "Pexels",
+  "artist": "Captivating view of the Mosque of Muhammad Ali in Cairo against a vibrant blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "开罗",
+  "attraction": "吉萨金字塔",
+  "status": "ok",
+  "local": "开罗/吉萨金字塔_1.jpg",
+  "license": "Pexels",
+  "artist": "Iconic pyramids of Giza standing under a clear blue sky, showcasing ancient Egyptian architecture.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "开罗",
+  "attraction": "洞穴教堂",
+  "status": "ok",
+  "local": "开罗/洞穴教堂_1.jpg",
+  "license": "Pexels",
+  "artist": "Exterior view of the historic St. George's Church in Cairo, showcasing its iconic tower and grand entrance stairs.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "开罗",
+  "attraction": "阶梯金字塔",
+  "status": "ok",
+  "local": "开罗/阶梯金字塔_1.jpg",
+  "license": "Pexels",
+  "artist": "Step Pyramid of Djoser in Saqqara under restoration with clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "卢克索",
+  "attraction": "哈布城",
+  "status": "ok",
+  "local": "卢克索/哈布城_1.jpg",
+  "license": "Pexels",
+  "artist": "Majestic view of an ancient sandstone temple in Luxor under a clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "卢克索",
+  "attraction": "卡纳克神庙",
+  "status": "ok",
+  "local": "卢克索/卡纳克神庙_1.jpg",
+  "license": "Pexels",
+  "artist": "Sunlit ancient columns in the historic Karnak Temple Complex in Luxor, Egypt.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "卢克索",
+  "attraction": "门农巨像",
+  "status": "ok",
+  "local": "卢克索/门农巨像_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore the ancient architecture of the Mortuary Temple of Hatshepsut, a historical marvel in Egypt.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "卢克索",
+  "attraction": "哈特谢普苏特庙",
+  "status": "ok",
+  "local": "卢克索/哈特谢普苏特庙_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore the ancient Temple of Hatshepsut nestled in the cliffs of Luxor, Egypt.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "卢克索",
+  "attraction": "尼罗河帆船日落",
+  "status": "ok",
+  "local": "卢克索/尼罗河帆船日落_1.jpg",
+  "license": "Pexels",
+  "artist": "Vibrant Aswan riverfront with traditional feluccas sailing on the Nile.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "迪拜",
+  "attraction": "迪拜喷泉",
+  "status": "ok",
+  "local": "迪拜/迪拜喷泉_1.jpg",
+  "license": "Pexels",
+  "artist": "Captivating night view of Dubai's cosmopolitan skyline reflecting in a serene pond.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "迪拜",
+  "attraction": "失落空间水族馆",
+  "status": "ok",
+  "local": "迪拜/失落空间水族馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Experience vivid marine life with a vibrant fish in Dubai's iconic aquarium.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "迪拜",
+  "attraction": "水上乐园",
+  "status": "ok",
+  "local": "迪拜/水上乐园_1.jpg",
+  "license": "Pexels",
+  "artist": "Colorful and lively waterpark featuring slides and artistic structures under a clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "迪拜",
+  "attraction": "朱美拉古城",
+  "status": "ok",
+  "local": "迪拜/朱美拉古城_1.jpg",
+  "license": "Pexels",
+  "artist": "Scenic view of Burj Al Arab surrounded by lush palm trees and clear blue sky in Dubai.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "迪拜",
+  "attraction": "迪拜金相框",
+  "status": "ok",
+  "local": "迪拜/迪拜金相框_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning view of the Dubai Frame, a modern architectural landmark, set against a vibrant blue sky in Dubai, UAE.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "迪拜",
+  "attraction": "奇迹花园",
+  "status": "ok",
+  "local": "迪拜/奇迹花园_1.jpg",
+  "license": "Pexels",
+  "artist": "Vibrant floral sculptures and topiaries in Dubai Miracle Garden on a sunny day.",
+  "source": "pexels",
+  "extras": []
+ }
+]

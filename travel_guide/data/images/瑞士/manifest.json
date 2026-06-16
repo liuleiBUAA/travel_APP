@@ -857,5 +857,16 @@
   "artist": "Panoramic view of Zurich featuring the Limmat River, rooftops, and mountains under a bright blue sky.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "卢塞恩",
+  "attraction": "穆塞格城墙",
+  "status": "ok",
+  "local": "卢塞恩/穆塞格城墙_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Lines voisy",
+  "source": "wikimedia",
+  "commons_file": "穆塞格城墙_zh.jpg",
+  "extras": []
  }
 ]

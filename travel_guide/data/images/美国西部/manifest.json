@@ -2945,5 +2945,60 @@
   "artist": "Breathtaking view of Haystack Rock on Cannon Beach, Oregon, USA, under a clear blue sky.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "拉斯维加斯",
+  "attraction": "Fremont Street天幕老街",
+  "status": "ok",
+  "local": "拉斯维加斯/Fremont Street天幕老街_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "ZappaOMatic",
+  "source": "wikimedia",
+  "commons_file": "Fremont Street天幕老街_c3.jpg",
+  "extras": []
+ },
+ {
+  "city": "西雅图",
+  "attraction": "西雅图水族馆 Seattle Aquarium",
+  "status": "ok",
+  "local": "西雅图/西雅图水族馆 Seattle Aquarium_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Chanilim714",
+  "source": "wikimedia",
+  "commons_file": "西雅图水族馆 Seattle Aquarium_c1.jpg",
+  "extras": []
+ },
+ {
+  "city": "西雅图",
+  "attraction": "煤气厂公园 Gas Works Park",
+  "status": "ok",
+  "local": "西雅图/煤气厂公园 Gas Works Park_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Rick Gleason",
+  "source": "wikimedia",
+  "commons_file": "煤气厂公园 Gas Works Park_c1.jpg",
+  "extras": []
+ },
+ {
+  "city": "红杉国家公园",
+  "attraction": "Grizzly Falls",
+  "status": "ok",
+  "local": "红杉国家公园/Grizzly Falls_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "RuggyBearLA",
+  "source": "wikimedia",
+  "commons_file": "Grizzly Falls_c3.jpg",
+  "extras": []
+ },
+ {
+  "city": "圣地亚哥",
+  "attraction": "LEGOLAND乐高乐园",
+  "status": "ok",
+  "local": "圣地亚哥/LEGOLAND乐高乐园_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Michael Rivera",
+  "source": "wikimedia",
+  "commons_file": "LEGOLAND乐高乐园_c2.jpg",
+  "extras": []
  }
 ]

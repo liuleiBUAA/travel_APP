@@ -694,5 +694,60 @@
   "artist": "Vibrant floral sculptures and topiaries in Dubai Miracle Garden on a sunny day.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "迪拜",
+  "attraction": "迪拜购物中心",
+  "status": "ok",
+  "local": "迪拜/迪拜购物中心_1.jpg",
+  "license": "Public domain",
+  "artist": "Diligent",
+  "source": "wikimedia",
+  "commons_file": "迪拜购物中心_c0.jpg",
+  "extras": []
+ },
+ {
+  "city": "迪拜",
+  "attraction": "帆船酒店",
+  "status": "ok",
+  "local": "迪拜/帆船酒店_1.jpg",
+  "license": "CC0",
+  "artist": "Ronald Sagarino",
+  "source": "wikimedia",
+  "commons_file": "帆船酒店_zh.jpg",
+  "extras": []
+ },
+ {
+  "city": "迪拜",
+  "attraction": "黄金市集/香料市集",
+  "status": "ok",
+  "local": "迪拜/黄金市集_香料市集_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Jorge Láscar from Australia",
+  "source": "wikimedia",
+  "commons_file": "黄金市集_香料市集_c2.jpg",
+  "extras": []
+ },
+ {
+  "city": "开罗",
+  "attraction": "大埃及博物馆",
+  "status": "ok",
+  "local": "开罗/大埃及博物馆_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Richard Mortel",
+  "source": "wikimedia",
+  "commons_file": "大埃及博物馆_c1.jpg",
+  "extras": []
+ },
+ {
+  "city": "赫尔格达",
+  "attraction": "Orange Bay跳岛浮潜游",
+  "status": "ok",
+  "local": "赫尔格达/Orange Bay跳岛浮潜游_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Mahmoudxx1",
+  "source": "wikimedia",
+  "commons_file": "Orange Bay跳岛浮潜游_c0.jpg",
+  "extras": []
  }
 ]

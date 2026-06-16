@@ -278,5 +278,38 @@
   "artist": "Breathtaking view of a fjord in Alaska with snowcapped mountains and crystal blue water.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "死亡谷",
+  "attraction": "Devils Golf Course盐地",
+  "status": "ok",
+  "local": "死亡谷/Devils Golf Course盐地_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Brocken Inaglory",
+  "source": "wikimedia",
+  "commons_file": "Devils Golf Course盐地_c0.jpg",
+  "extras": []
+ },
+ {
+  "city": "夏威夷大岛",
+  "attraction": "冒纳凯亚火山和天文台",
+  "status": "ok",
+  "local": "夏威夷大岛/冒纳凯亚火山和天文台_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Robert Linsdell from St. Andrews, Canada",
+  "source": "wikimedia",
+  "commons_file": "冒纳凯亚火山和天文台_c3.jpg",
+  "extras": []
+ },
+ {
+  "city": "夏威夷大岛",
+  "attraction": "Kealakekua Bay",
+  "status": "ok",
+  "local": "夏威夷大岛/Kealakekua Bay_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Nnachappa64",
+  "source": "wikimedia",
+  "commons_file": "Kealakekua Bay_c0.jpg",
+  "extras": []
  }
 ]

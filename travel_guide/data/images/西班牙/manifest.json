@@ -1000,5 +1000,82 @@
   "artist": "Rustic Mediterranean stone house with green shutters and vibrant potted plants.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "马德里",
+  "attraction": "索菲亚王后国家艺术中心博物馆",
+  "status": "ok",
+  "local": "马德里/索菲亚王后国家艺术中心博物馆_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Daytonarolexboston",
+  "source": "wikimedia",
+  "commons_file": "索菲亚王后国家艺术中心博物馆_c0.jpg",
+  "extras": []
+ },
+ {
+  "city": "马德里",
+  "attraction": "西贝莱斯广场",
+  "status": "ok",
+  "local": "马德里/西贝莱斯广场_1.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Tomás Fano",
+  "source": "wikimedia",
+  "commons_file": "西贝莱斯广场_zh.jpg",
+  "extras": []
+ },
+ {
+  "city": "马德里",
+  "attraction": "格兰大道",
+  "status": "ok",
+  "local": "马德里/格兰大道_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Felipe Gabaldón",
+  "source": "wikimedia",
+  "commons_file": "格兰大道_zh.jpg",
+  "extras": []
+ },
+ {
+  "city": "马德里",
+  "attraction": "圣米盖尔市场",
+  "status": "ok",
+  "local": "马德里/圣米盖尔市场_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Juan Antonio Flores Segal from Madrid (Spain)",
+  "source": "wikimedia",
+  "commons_file": "圣米盖尔市场_c2.jpg",
+  "extras": []
+ },
+ {
+  "city": "马德里",
+  "attraction": "德波神庙",
+  "status": "ok",
+  "local": "马德里/德波神庙_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Javier Perez Montes",
+  "source": "wikimedia",
+  "commons_file": "德波神庙_c2.jpg",
+  "extras": []
+ },
+ {
+  "city": "帕尔马",
+  "attraction": "德拉赫溶洞",
+  "status": "ok",
+  "local": "帕尔马/德拉赫溶洞_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "no",
+  "source": "wikimedia",
+  "commons_file": "德拉赫溶洞_c0.jpg",
+  "extras": []
+ },
+ {
+  "city": "特内里费岛",
+  "attraction": "暹罗水上乐园（Siam Park）",
+  "status": "ok",
+  "local": "特内里费岛/暹罗水上乐园（Siam Park）_1.jpg",
+  "license": "CC BY 4.0",
+  "artist": "G.Lanting",
+  "source": "wikimedia",
+  "commons_file": "暹罗水上乐园（Siam Park）_c0.jpg",
+  "extras": []
  }
 ]

@@ -340,5 +340,104 @@
   "artist": "Scenic view of traditional boats on Douro River with Porto skyline in background, captured in Vila Nova de Gaia, Portugal.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "里斯本",
+  "attraction": "圣胡斯塔升降机",
+  "status": "ok",
+  "local": "里斯本/圣胡斯塔升降机_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Fernando Tomás from Zaragoza, Spain",
+  "source": "wikimedia",
+  "commons_file": "圣胡斯塔升降机_zh.jpg",
+  "extras": []
+ },
+ {
+  "city": "里斯本",
+  "attraction": "卡尔莫修道院",
+  "status": "ok",
+  "local": "里斯本/卡尔莫修道院_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Bene Riobó",
+  "source": "wikimedia",
+  "commons_file": "卡尔莫修道院_zh.jpg",
+  "extras": []
+ },
+ {
+  "city": "里斯本",
+  "attraction": "太阳门观景台",
+  "status": "ok",
+  "local": "里斯本/太阳门观景台_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Sacavem1",
+  "source": "wikimedia",
+  "commons_file": "太阳门观景台_zh.jpg",
+  "extras": []
+ },
+ {
+  "city": "里斯本",
+  "attraction": "里斯本主座教堂",
+  "status": "ok",
+  "local": "里斯本/里斯本主座教堂_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Alvesgaspar",
+  "source": "wikimedia",
+  "commons_file": "里斯本主座教堂_c1.jpg",
+  "extras": []
+ },
+ {
+  "city": "里斯本",
+  "attraction": "Time Out Market",
+  "status": "ok",
+  "local": "里斯本/Time Out Market_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Sonse",
+  "source": "wikimedia",
+  "commons_file": "Time Out Market_c0.jpg",
+  "extras": []
+ },
+ {
+  "city": "里斯本",
+  "attraction": "圣若热城堡",
+  "status": "ok",
+  "local": "里斯本/圣若热城堡_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Henning Supertramp from Germany",
+  "source": "wikimedia",
+  "commons_file": "圣若热城堡_zh.jpg",
+  "extras": []
+ },
+ {
+  "city": "里斯本",
+  "attraction": "蛋挞创始店",
+  "status": "ok",
+  "local": "里斯本/蛋挞创始店_1.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Jeremy Thompson from Los Angeles, California",
+  "source": "wikimedia",
+  "commons_file": "蛋挞创始店_c3.jpg",
+  "extras": []
+ },
+ {
+  "city": "波尔图",
+  "attraction": "卡尔莫教堂",
+  "status": "ok",
+  "local": "波尔图/卡尔莫教堂_1.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Dale Cruse - 10M views from San Francisco, CA, USA",
+  "source": "wikimedia",
+  "commons_file": "卡尔莫教堂_c3.jpg",
+  "extras": []
+ },
+ {
+  "city": "波尔图",
+  "attraction": "圣伊尔德丰索教堂",
+  "status": "ok",
+  "local": "波尔图/圣伊尔德丰索教堂_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Diego Delso",
+  "source": "wikimedia",
+  "commons_file": "圣伊尔德丰索教堂_c1.jpg",
+  "extras": []
  }
 ]

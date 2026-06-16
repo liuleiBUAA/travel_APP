@@ -1460,5 +1460,82 @@
   "artist": "Capture of the iconic arched walkways in Bologna, Italy, showcasing architectural elegance.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "那不勒斯",
+  "attraction": "那不勒斯国家考古博物馆",
+  "status": "ok",
+  "local": "那不勒斯/那不勒斯国家考古博物馆_1.jpg",
+  "license": "Public domain",
+  "artist": "Jeffmatt at English Wikipedia",
+  "source": "wikimedia",
+  "commons_file": "那不勒斯国家考古博物馆_zh.jpg",
+  "extras": []
+ },
+ {
+  "city": "那不勒斯",
+  "attraction": "翁贝托一世拱廊",
+  "status": "ok",
+  "local": "那不勒斯/翁贝托一世拱廊_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Marco Ober",
+  "source": "wikimedia",
+  "commons_file": "翁贝托一世拱廊_c1.jpg",
+  "extras": []
+ },
+ {
+  "city": "那不勒斯",
+  "attraction": "圣埃尔莫城堡",
+  "status": "ok",
+  "local": "那不勒斯/圣埃尔莫城堡_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "\n\n\n  This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, bu",
+  "source": "wikimedia",
+  "commons_file": "圣埃尔莫城堡_c0.jpg",
+  "extras": []
+ },
+ {
+  "city": "威尼斯",
+  "attraction": "学院桥",
+  "status": "ok",
+  "local": "威尼斯/学院桥_1.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "\n\n\n  This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, bu",
+  "source": "wikimedia",
+  "commons_file": "学院桥_c0.jpg",
+  "extras": []
+ },
+ {
+  "city": "罗马",
+  "attraction": "博尔盖塞美术馆",
+  "status": "ok",
+  "local": "罗马/博尔盖塞美术馆_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Livioandronico2013",
+  "source": "wikimedia",
+  "commons_file": "博尔盖塞美术馆_c2.jpg",
+  "extras": []
+ },
+ {
+  "city": "多洛米蒂",
+  "attraction": "Lake Antorno",
+  "status": "ok",
+  "local": "多洛米蒂/Lake Antorno_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Bruno Spatuzzi",
+  "source": "wikimedia",
+  "commons_file": "Lake Antorno_c1.jpg",
+  "extras": []
+ },
+ {
+  "city": "阿格里真托",
+  "attraction": "双子神殿",
+  "status": "ok",
+  "local": "阿格里真托/双子神殿_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Benjamin Smith",
+  "source": "wikimedia",
+  "commons_file": "双子神殿_c1.jpg",
+  "extras": []
  }
 ]
