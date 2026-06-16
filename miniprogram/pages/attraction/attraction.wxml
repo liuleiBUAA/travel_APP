@@ -35,9 +35,15 @@
       <!-- 1 交通（在前） -->
       <view class="sec">
         <view class="sec-h"><view class="bar"></view>交通 · 怎么到 / 玩转周边</view>
+        <view wx:if="{{playbook.transport_map_url}}" class="maplbl">外部交通 · 城市间直飞 / 自驾</view>
         <view wx:if="{{playbook.transport_map_url}}" class="mapbox" bindtap="previewMap" data-url="{{playbook.transport_map_url}}">
           <image class="map-img" src="{{playbook.transport_map_url}}" mode="widthFix" />
-          <view class="map-cap">点击查看大图 · 周边交通地形图</view>
+          <view class="map-cap">点击查看大图 · 城市间交通图</view>
+        </view>
+        <view wx:if="{{playbook.transport_map_inner_url}}" class="maplbl">内部交通 · 市内景点 &amp; 通票</view>
+        <view wx:if="{{playbook.transport_map_inner_url}}" class="mapbox" bindtap="previewMap" data-url="{{playbook.transport_map_inner_url}}">
+          <image class="map-img" src="{{playbook.transport_map_inner_url}}" mode="widthFix" />
+          <view class="map-cap">点击查看大图 · 市内交通景点图</view>
         </view>
         <view wx:if="{{playbook.transport.fly_train}}" class="tp-row"><text class="tp-k">✈ 飞机+火车</text>{{playbook.transport.fly_train}}</view>
         <view wx:if="{{playbook.transport.drive}}" class="tp-row"><text class="tp-k">🚗 自驾</text>{{playbook.transport.drive}}</view>

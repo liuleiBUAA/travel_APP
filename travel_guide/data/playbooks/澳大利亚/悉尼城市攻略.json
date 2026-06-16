@@ -1,7 +1,9 @@
 {
   "name": "悉尼",
   "type": "city",
-  "aliases": ["Sydney"],
+  "aliases": [
+    "Sydney"
+  ],
   "city": "悉尼",
   "country": "澳大利亚",
   "summary": "悉尼 Sydney 是澳洲最大、最繁华的城市，也是一座美丽的海港城市。歌剧院、海港大桥、邦迪海滩构成核心动线，CBD景点集中可步行，玩 3-4 天最顺，可再留 1-2 天去蓝山/猎人谷/史蒂芬港。",
@@ -69,27 +71,118 @@
   ],
   "hotel_intro": "首访建议住「环形码头」到「市中心 Town Hall」一带，步行可达歌剧院、岩石区和达令港；唐人街附近价格便宜、近中央车站。跨年烟花期（12月底）海港景观房提前半年订满、价格翻几倍。",
   "attractions": [
-    {"name": "悉尼歌剧院", "order": 1, "tagline": "澳洲最著名地标，风帆造型，公共区域免费进", "has_detail": false},
-    {"name": "悉尼皇家植物园", "order": 2, "tagline": "海港畔宁静绿洲，麦考利夫人椅子拍歌剧院最佳机位", "has_detail": false},
-    {"name": "海港大桥", "order": 3, "tagline": "世界最高钢铁拱桥+最古老岩石区，可攀桥俯瞰", "has_detail": false},
-    {"name": "达令港", "order": 4, "tagline": "情人港，购物美食游船，夜景与周末烟花", "has_detail": false},
-    {"name": "悉尼鱼市场", "order": 5, "tagline": "2026新开业海港新地标，现选海鲜现做", "has_detail": false},
-    {"name": "QVB", "display_name": "维多利亚女王大厦 QVB", "order": 6, "tagline": "百年购物地标，彩色玻璃穹顶，'世界最美商场'", "has_detail": false},
-    {"name": "悉尼塔", "order": 7, "tagline": "309米最高建筑，250米观景台360度全景", "has_detail": false},
-    {"name": "圣玛丽大教堂", "order": 8, "tagline": "南半球最美教堂，金黄砂岩双塔，免费", "has_detail": false},
-    {"name": "新南威尔士美术馆", "order": 9, "tagline": "梵高莫奈毕加索馆藏，免费，南北两馆", "has_detail": false},
-    {"name": "唐人街", "order": 10, "tagline": "南半球最大唐人街，德信街中华门，周五夜市", "has_detail": false},
-    {"name": "悉尼大学", "order": 11, "tagline": "'南半球牛津'，哈利波特楼方庭，蓝花楹季", "has_detail": false},
-    {"name": "邦迪海滩", "order": 12, "tagline": "最著名海滩，邦迪-库吉海岸徒步+网红泳池", "has_detail": false},
-    {"name": "塔龙加动物园", "order": 13, "tagline": "澳洲最大动物园，看考拉袋鼠+歌剧院海港景", "has_detail": false},
-    {"name": "曼利海滩", "order": 14, "tagline": "北岸冲浪海滩，渡轮30分钟，虫洞打卡", "has_detail": false}
+    {
+      "name": "悉尼歌剧院",
+      "order": 1,
+      "tagline": "澳洲最著名地标，风帆造型，公共区域免费进",
+      "has_detail": false
+    },
+    {
+      "name": "悉尼皇家植物园",
+      "order": 2,
+      "tagline": "海港畔宁静绿洲，麦考利夫人椅子拍歌剧院最佳机位",
+      "has_detail": false
+    },
+    {
+      "name": "海港大桥",
+      "order": 3,
+      "tagline": "世界最高钢铁拱桥+最古老岩石区，可攀桥俯瞰",
+      "has_detail": false
+    },
+    {
+      "name": "达令港",
+      "order": 4,
+      "tagline": "情人港，购物美食游船，夜景与周末烟花",
+      "has_detail": false
+    },
+    {
+      "name": "悉尼鱼市场",
+      "order": 5,
+      "tagline": "2026新开业海港新地标，现选海鲜现做",
+      "has_detail": false
+    },
+    {
+      "name": "QVB",
+      "display_name": "维多利亚女王大厦 QVB",
+      "order": 6,
+      "tagline": "百年购物地标，彩色玻璃穹顶，'世界最美商场'",
+      "has_detail": false
+    },
+    {
+      "name": "悉尼塔",
+      "order": 7,
+      "tagline": "309米最高建筑，250米观景台360度全景",
+      "has_detail": false
+    },
+    {
+      "name": "圣玛丽大教堂",
+      "order": 8,
+      "tagline": "南半球最美教堂，金黄砂岩双塔，免费",
+      "has_detail": false
+    },
+    {
+      "name": "新南威尔士美术馆",
+      "order": 9,
+      "tagline": "梵高莫奈毕加索馆藏，免费，南北两馆",
+      "has_detail": false
+    },
+    {
+      "name": "唐人街",
+      "order": 10,
+      "tagline": "南半球最大唐人街，德信街中华门，周五夜市",
+      "has_detail": false
+    },
+    {
+      "name": "悉尼大学",
+      "order": 11,
+      "tagline": "'南半球牛津'，哈利波特楼方庭，蓝花楹季",
+      "has_detail": false
+    },
+    {
+      "name": "邦迪海滩",
+      "order": 12,
+      "tagline": "最著名海滩，邦迪-库吉海岸徒步+网红泳池",
+      "has_detail": false
+    },
+    {
+      "name": "塔龙加动物园",
+      "order": 13,
+      "tagline": "澳洲最大动物园，看考拉袋鼠+歌剧院海港景",
+      "has_detail": false
+    },
+    {
+      "name": "曼利海滩",
+      "order": 14,
+      "tagline": "北岸冲浪海滩，渡轮30分钟，虫洞打卡",
+      "has_detail": false
+    }
   ],
   "itinerary": [
-    {"day": "1", "title": "CBD海港", "detail": "上午悉尼歌剧院，下午皇家植物园+海港大桥&岩石区，傍晚步行天文台山看日落"},
-    {"day": "2", "title": "CBD逛吃", "detail": "悉尼鱼市场逛吃海鲜，下午 QVB>悉尼塔>圣玛丽大教堂>州美术馆，晚上唐人街吃饭、达令港散步看夜景"},
-    {"day": "3", "title": "近郊海滩", "detail": "上午悉尼大学，下午邦迪海滩；延伸选去钻石湾>Watsons Bay，坐渡轮回环形码头"},
-    {"day": "4", "title": "动物园", "detail": "塔龙加动物园半天-1天，结束早可选去曼利海滩"},
-    {"day": "+", "title": "周边加日", "detail": "蓝山(三姐妹峰+缆车) / 猎人谷(酒庄+热气球) / 史蒂芬港(看海豚+滑沙)，各1天起"}
+    {
+      "day": "1",
+      "title": "CBD海港",
+      "detail": "上午悉尼歌剧院，下午皇家植物园+海港大桥&岩石区，傍晚步行天文台山看日落"
+    },
+    {
+      "day": "2",
+      "title": "CBD逛吃",
+      "detail": "悉尼鱼市场逛吃海鲜，下午 QVB>悉尼塔>圣玛丽大教堂>州美术馆，晚上唐人街吃饭、达令港散步看夜景"
+    },
+    {
+      "day": "3",
+      "title": "近郊海滩",
+      "detail": "上午悉尼大学，下午邦迪海滩；延伸选去钻石湾>Watsons Bay，坐渡轮回环形码头"
+    },
+    {
+      "day": "4",
+      "title": "动物园",
+      "detail": "塔龙加动物园半天-1天，结束早可选去曼利海滩"
+    },
+    {
+      "day": "+",
+      "title": "周边加日",
+      "detail": "蓝山(三姐妹峰+缆车) / 猎人谷(酒庄+热气球) / 史蒂芬港(看海豚+滑沙)，各1天起"
+    }
   ],
   "sections": [
     {
@@ -102,5 +195,6 @@
     }
   ],
   "duration": "3-4天",
-  "best_time": "夏季（12-2月）最佳也是旺季，春秋季气候宜人性价比高，冬季凉爽适合观鲸。10月-次年3月暖季海滩户外体验最好；12月底跨年烟花全球闻名但房价飙升。"
+  "best_time": "夏季（12-2月）最佳也是旺季，春秋季气候宜人性价比高，冬季凉爽适合观鲸。10月-次年3月暖季海滩户外体验最好；12月底跨年烟花全球闻名但房价飙升。",
+  "transport_map_inner": "澳大利亚/悉尼_市内交通图.png"
 }

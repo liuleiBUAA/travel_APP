@@ -32,6 +32,7 @@ page { background: #f2f4f7; }
 .sec-body { font-size: 27rpx; color: #444; line-height: 1.75; }
 
 /* ===== 交通 ===== */
+.maplbl { font-size: 27rpx; font-weight: 600; color: #2b6cb0; margin: 8rpx 0 10rpx; }
 .mapbox { border-radius: 14rpx; overflow: hidden; border: 1rpx solid #e3e8ee; margin-bottom: 18rpx; }
 .map-img { width: 100%; display: block; }
 .map-cap { font-size: 23rpx; color: #888; text-align: center; padding: 12rpx; background: #fafbfc; }

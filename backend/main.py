@@ -1989,6 +1989,10 @@ async def get_attraction_playbook(name: str):
         tm = pb.get("transport_map")
         if tm:
             pb["transport_map_url"] = f"/api/static/maps/{tm}"
+        # 一城两图：内部市内景点交通图（外部=transport_map 城市间图；内部=transport_map_inner 市内景点图）
+        tmi = pb.get("transport_map_inner")
+        if tmi:
+            pb["transport_map_inner_url"] = f"/api/static/maps/{tmi}"
         hero = None
         attractions = []
         for a in pb.get("attractions", []):
