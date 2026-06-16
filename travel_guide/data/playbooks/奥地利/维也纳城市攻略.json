@@ -163,5 +163,7 @@
     }
   ],
   "duration": "2-3天",
-  "best_time": "4-6月、9-10月；12月圣诞市集+新年音乐会季"
+  "best_time": "4-6月、9-10月；12月圣诞市集+新年音乐会季",
+  "transport_map": "奥地利/奥地利_outer.png",
+  "transport_map_inner": "奥地利/维也纳_市内交通图.png"
 }

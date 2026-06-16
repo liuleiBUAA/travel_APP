@@ -182,5 +182,7 @@
     }
   ],
   "duration": "2-3天",
-  "best_time": "4-6月、9-10月；冬天泡温泉别有风味"
+  "best_time": "4-6月、9-10月；冬天泡温泉别有风味",
+  "transport_map": "匈牙利/匈牙利_outer.png",
+  "transport_map_inner": "匈牙利/布达佩斯_市内交通图.png"
 }

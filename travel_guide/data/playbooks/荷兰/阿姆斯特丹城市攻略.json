@@ -168,5 +168,7 @@
     }
   ],
   "duration": "2-3天",
-  "best_time": "4-5月（郁金香季）、6-9月"
+  "best_time": "4-5月（郁金香季）、6-9月",
+  "transport_map": "荷兰/荷兰_outer.png",
+  "transport_map_inner": "荷兰/阿姆斯特丹_市内交通图.png"
 }

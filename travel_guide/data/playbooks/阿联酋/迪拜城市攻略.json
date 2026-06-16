@@ -273,5 +273,7 @@
     }
   ],
   "duration": "2-3天",
-  "best_time": "11-3月；夏季酷热"
+  "best_time": "11-3月；夏季酷热",
+  "transport_map": "阿联酋/阿联酋_outer.png",
+  "transport_map_inner": "阿联酋/迪拜_市内交通图.png"
 }
