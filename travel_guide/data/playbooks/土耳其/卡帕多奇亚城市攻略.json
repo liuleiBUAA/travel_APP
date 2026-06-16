@@ -174,5 +174,7 @@
     }
   ],
   "duration": "2-3天",
-  "best_time": "4-6月、9-10月"
+  "best_time": "4-6月、9-10月",
+  "transport_map": "土耳其/土耳其_城市间交通图.png",
+  "transport_map_inner": "土耳其/格雷梅_市内交通图.png"
 }
