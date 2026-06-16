@@ -232,5 +232,7 @@
     }
   ],
   "duration": "1-2天",
-  "best_time": "4-6月、9-10月（7-8月酷热）"
+  "best_time": "4-6月、9-10月（7-8月酷热）",
+  "transport_map": "希腊/希腊_城市间交通图.png",
+  "transport_map_inner": "希腊/雅典_市内交通图.png"
 }
