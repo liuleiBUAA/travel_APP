@@ -144,5 +144,7 @@
     }
   ],
   "duration": "1-2天",
-  "best_time": "5-9月适合河畔漫步；12月圣诞市场是全德最古老的，氛围一流"
+  "best_time": "5-9月适合河畔漫步；12月圣诞市场是全德最古老的，氛围一流",
+  "transport_map": "德国/德国_outer.png",
+  "transport_map_inner": "德国/德累斯顿_市内交通图.png"
 }

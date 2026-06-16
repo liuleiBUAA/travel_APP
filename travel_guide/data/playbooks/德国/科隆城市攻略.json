@@ -106,5 +106,7 @@
     }
   ],
   "duration": "1-2天",
-  "best_time": "5-9月气候舒适；12月大教堂前圣诞市场是全德最有气氛的之一"
+  "best_time": "5-9月气候舒适；12月大教堂前圣诞市场是全德最有气氛的之一",
+  "transport_map": "德国/德国_outer.png",
+  "transport_map_inner": "德国/科隆_市内交通图.png"
 }

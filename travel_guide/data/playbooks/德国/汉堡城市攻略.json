@@ -144,5 +144,7 @@
     }
   ],
   "duration": "2-3天",
-  "best_time": "5-9月白天长、轮渡和露天活动舒适；8月有港口周年庆类活动氛围最浓"
+  "best_time": "5-9月白天长、轮渡和露天活动舒适；8月有港口周年庆类活动氛围最浓",
+  "transport_map": "德国/德国_outer.png",
+  "transport_map_inner": "德国/汉堡_市内交通图.png"
 }

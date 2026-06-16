@@ -144,5 +144,7 @@
     }
   ],
   "duration": "2天+周边1-2天",
-  "best_time": "5-9月；9月中-10月初啤酒节是盛事也是高价季"
+  "best_time": "5-9月；9月中-10月初啤酒节是盛事也是高价季",
+  "transport_map": "德国/德国_outer.png",
+  "transport_map_inner": "德国/慕尼黑_市内交通图.png"
 }

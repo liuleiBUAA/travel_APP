@@ -153,5 +153,7 @@
     }
   ],
   "duration": "2-3天",
-  "best_time": "5-9月"
+  "best_time": "5-9月",
+  "transport_map": "德国/德国_outer.png",
+  "transport_map_inner": "德国/柏林_市内交通图.png"
 }
