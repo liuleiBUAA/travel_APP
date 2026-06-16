@@ -140,5 +140,7 @@
     }
   ],
   "duration": "1-2天",
-  "best_time": "6月中-7月中薰衣草季；5月和9月人少气候舒适"
+  "best_time": "6月中-7月中薰衣草季；5月和9月人少气候舒适",
+  "transport_map": "法国/法国_outer.png",
+  "transport_map_inner": "法国/阿维尼翁_市内交通图.png"
 }

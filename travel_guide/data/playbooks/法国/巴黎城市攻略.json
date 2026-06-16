@@ -245,5 +245,7 @@
     }
   ],
   "duration": "3-5天",
-  "best_time": "4-6月、9-10月最佳；8月本地人度假部分小店关门"
+  "best_time": "4-6月、9-10月最佳；8月本地人度假部分小店关门",
+  "transport_map": "法国/法国_outer.png",
+  "transport_map_inner": "法国/巴黎_市内交通图.png"
 }

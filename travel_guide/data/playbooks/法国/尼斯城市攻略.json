@@ -198,5 +198,7 @@
     }
   ],
   "duration": "2-3天（含周边）",
-  "best_time": "5-6月、9月"
+  "best_time": "5-6月、9月",
+  "transport_map": "法国/法国_outer.png",
+  "transport_map_inner": "法国/尼斯_市内交通图.png"
 }

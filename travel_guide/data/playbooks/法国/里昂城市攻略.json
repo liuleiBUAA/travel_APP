@@ -208,5 +208,7 @@
     }
   ],
   "duration": "1-2天",
-  "best_time": "4-6月、9-10月；12月初灯光节震撼但人山人海"
+  "best_time": "4-6月、9-10月；12月初灯光节震撼但人山人海",
+  "transport_map": "法国/法国_outer.png",
+  "transport_map_inner": "法国/里昂_市内交通图.png"
 }
