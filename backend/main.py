@@ -1995,10 +1995,12 @@ async def get_attraction_playbook(name: str):
             a = dict(a)
             # 优先用 image_alias（城市页景点名常带英文后缀/+号，与图库名对不上时显式映射）
             first = img.first_image(a.get("image_alias") or a["name"])
-            if first:
-                a["thumb"] = first["url"]
-                if hero is None:
-                    hero = first["url"]
+            if not first:
+                # 无图景点不返回，避免城市页渲染灰块卡（铁律：不可以没有图）
+                continue
+            a["thumb"] = first["url"]
+            if hero is None:
+                hero = first["url"]
             attractions.append(a)
         if attractions:
             pb["attractions"] = attractions
