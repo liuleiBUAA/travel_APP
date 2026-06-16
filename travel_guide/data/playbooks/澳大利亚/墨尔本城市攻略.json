@@ -176,7 +176,7 @@
       "name": "大洋路",
       "order": 12,
       "tagline": "重头戏，推荐自驾2天1晚或3天2晚体验最佳，时间有限可参加一日游",
-      "has_detail": false
+      "has_detail": true
     }
   ],
   "itinerary": [

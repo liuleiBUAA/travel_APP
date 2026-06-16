@@ -124,6 +124,16 @@
         <view wx:if="{{playbook.route_note}}" class="route-note">{{playbook.route_note}}</view>
       </view>
 
+      <!-- 路线大图（远郊自驾专页，如大洋路） -->
+      <view wx:if="{{playbook.route_map_url}}" class="sec">
+        <view class="sec-h"><view class="bar"></view>自驾路线图</view>
+        <view class="mapbox" bindtap="previewMap" data-url="{{playbook.route_map_url}}">
+          <image class="map-img" src="{{playbook.route_map_url}}" mode="widthFix" />
+          <view class="map-cap">点击查看大图 · 沿途景点 &amp; 车程</view>
+        </view>
+      </view>
+
+
       <!-- 票价卡已移除：价格信息变动频繁，统一放入上方信息条(facts)作参考，以官网为准 -->
 
       <!-- 玩法分条 -->

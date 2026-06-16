@@ -2017,6 +2017,10 @@ async def get_attraction_playbook(name: str):
         if pics:
             pb["hero"] = pics[0]["url"]
             pb["gallery"] = pics
+        # 远郊景点专页可挂路线大图（如大洋路自驾路线图）
+        rm = pb.get("route_map")
+        if rm:
+            pb["route_map_url"] = f"/api/static/maps/{rm}"
 
     return {"success": True, "playbook": pb}
 

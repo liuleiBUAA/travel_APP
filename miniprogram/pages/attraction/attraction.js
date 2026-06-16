@@ -27,6 +27,7 @@ Page({
         if (pb.hero) pb.hero = api.imageUrl(pb.hero)
         if (pb.transport_map_url) pb.transport_map_url = api.imageUrl(pb.transport_map_url)
         if (pb.transport_map_inner_url) pb.transport_map_inner_url = api.imageUrl(pb.transport_map_inner_url)
+        if (pb.route_map_url) pb.route_map_url = api.imageUrl(pb.route_map_url)
         if (pb.gallery) pb.gallery = pb.gallery.map(p => ({ ...p, url: api.imageUrl(p.url) }))
         if (pb.attractions) {
           pb.attractions = pb.attractions.map(a => ({
