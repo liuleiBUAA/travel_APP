@@ -16,7 +16,14 @@ Page({
     isLoggedIn: false,
     // 交换微信（我与帖主之间）
     exchangeStatus: 'none',
-    exchange: null
+    exchange: null,
+    // 组队 / 社交
+    team: null,
+    liked: false,
+    likeCount: 0,
+    viewCount: 0,
+    flightLabels: { none: '未定', searching: '🔍 看票中', booked: '✈️ 已出票' },
+    teamStatusLabels: { recruiting: '招募中', full: '已满员', closed: '已关闭' }
   },
 
   onLoad(options) {
@@ -29,12 +36,17 @@ Page({
     this.setData({ companionId: id, isLoggedIn: !!wx.getStorageSync('token') })
     this.loadDetail()
     this.loadComments()
+    // 浏览 +1（登录用户去重，匿名不计）
+    api.addView(id).catch(() => {})
   },
 
   onShow() {
     // 从登录页/名片页回来时刷新登录态和交换状态
     this.setData({ isLoggedIn: !!wx.getStorageSync('token') })
-    if (this.data.detail) this.loadExchangeStatus()
+    if (this.data.detail) {
+      this.loadExchangeStatus()
+      this.loadTeam()
+    }
   },
 
   // 转发给好友
@@ -73,7 +85,11 @@ Page({
           detail,
           route,
           seeking,
-          preferences
+          preferences,
+          team: detail.team || null,
+          liked: !!detail.liked_by_me,
+          likeCount: detail.like_count || 0,
+          viewCount: detail.view_count || 0
         })
         this.loadExchangeStatus()
       } else {
@@ -301,6 +317,173 @@ Page({
       data: wechat,
       success: () => wx.showToast({ title: '微信号已复制', icon: 'success' })
     })
+  },
+
+  // ---- 组队 ----
+  async loadTeam() {
+    try {
+      const res = await api.getTeam(this.data.companionId)
+      if (res && res.success) {
+        this.setData({ team: res.data })
+      }
+    } catch (e) {
+      console.error('加载组队信息失败', e)
+    }
+  },
+
+  // 申请加入队伍
+  onApplyTeam() {
+    if (!wx.getStorageSync('token')) { this.goLogin(); return }
+    wx.showModal({
+      title: '申请加入队伍',
+      content: '队长同意后你们将互相看到微信号、占用一个名额。建议先在下方留言聊几句～',
+      confirmText: '申请加入',
+      success: async (res) => {
+        if (!res.confirm) return
+        try {
+          const r = await api.applyTeam(this.data.companionId)
+          if (r && r.success) {
+            wx.showToast({ title: '申请已提交', icon: 'success' })
+            this.loadTeam()
+          } else {
+            this._teamErrorPrompt((r && r.detail) || '申请失败')
+          }
+        } catch (err) {
+          console.error('申请加入失败', err)
+          wx.showToast({ title: '网络错误', icon: 'none' })
+        }
+      }
+    })
+  },
+
+  _teamErrorPrompt(msg) {
+    if (msg.indexOf('微信') >= 0) {
+      wx.showModal({
+        title: '先填微信号',
+        content: '申请加入前需要先在旅行名片里填写你的微信号，通过后队长才能联系你',
+        confirmText: '去填写',
+        success: (m) => { if (m.confirm) wx.navigateTo({ url: '/pages/card-edit/card-edit' }) }
+      })
+    } else if (msg.indexOf('留言') >= 0) {
+      wx.showModal({
+        title: '先聊一聊',
+        content: '请先在下方留言区和队长聊几句，再申请加入队伍',
+        confirmText: '知道了',
+        showCancel: false
+      })
+    } else {
+      wx.showToast({ title: msg, icon: 'none' })
+    }
+  },
+
+  // 队长同意 / 拒绝申请
+  onHandleTeam(e) {
+    const memberId = Number(e.currentTarget.dataset.mid)
+    const action = e.currentTarget.dataset.action
+    const nickname = e.currentTarget.dataset.nickname || '对方'
+    if (!memberId || !action) return
+    const isApprove = action === 'approve'
+    wx.showModal({
+      title: isApprove ? '同意加入' : '拒绝申请',
+      content: isApprove
+        ? `同意 ${nickname} 加入队伍？你们将互相看到微信号，并占用一个名额`
+        : `拒绝 ${nickname} 的加入申请？`,
+      confirmText: isApprove ? '同意' : '拒绝',
+      confirmColor: isApprove ? '#07c160' : '#ef4444',
+      success: async (res) => {
+        if (!res.confirm) return
+        try {
+          const r = await api.handleTeam(this.data.companionId, memberId, action)
+          if (r && r.success) {
+            wx.showToast({ title: isApprove ? '已同意' : '已拒绝', icon: 'success' })
+            this.loadTeam()
+          } else {
+            wx.showToast({ title: (r && r.detail) || '操作失败', icon: 'none' })
+          }
+        } catch (err) {
+          console.error('处理申请失败', err)
+          wx.showToast({ title: '网络错误', icon: 'none' })
+        }
+      }
+    })
+  },
+
+  // 队长踢人
+  onKickMember(e) {
+    const memberId = Number(e.currentTarget.dataset.mid)
+    const nickname = e.currentTarget.dataset.nickname || '该成员'
+    if (!memberId) return
+    wx.showModal({
+      title: '移出队员',
+      content: `确定把 ${nickname} 移出队伍吗？名额会释放出来，对方之后仍可重新申请`,
+      confirmText: '移出',
+      confirmColor: '#ef4444',
+      success: async (res) => {
+        if (!res.confirm) return
+        try {
+          const r = await api.kickTeam(this.data.companionId, memberId)
+          if (r && r.success) {
+            wx.showToast({ title: '已移出', icon: 'success' })
+            this.loadTeam()
+          } else {
+            wx.showToast({ title: (r && r.detail) || '操作失败', icon: 'none' })
+          }
+        } catch (err) {
+          console.error('移出队员失败', err)
+          wx.showToast({ title: '网络错误', icon: 'none' })
+        }
+      }
+    })
+  },
+
+  // 队员更新自己的机票状态
+  onUpdateFlight() {
+    const itemList = ['未定', '🔍 看票中', '✈️ 已出票']
+    const values = ['none', 'searching', 'booked']
+    wx.showActionSheet({
+      itemList,
+      success: async (res) => {
+        const fs = values[res.tapIndex]
+        try {
+          const r = await api.updateFlightStatus(this.data.companionId, fs)
+          if (r && r.success) {
+            wx.showToast({ title: '已更新', icon: 'success' })
+            this.loadTeam()
+          } else {
+            wx.showToast({ title: (r && r.detail) || '更新失败', icon: 'none' })
+          }
+        } catch (err) {
+          console.error('更新机票状态失败', err)
+          wx.showToast({ title: '网络错误', icon: 'none' })
+        }
+      }
+    })
+  },
+
+  // 复制队友微信
+  copyMemberWechat(e) {
+    const wechat = e.currentTarget.dataset.wechat
+    if (!wechat) return
+    wx.setClipboardData({
+      data: wechat,
+      success: () => wx.showToast({ title: '微信号已复制', icon: 'success' })
+    })
+  },
+
+  // 点赞 / 取消
+  async onToggleLike() {
+    if (!wx.getStorageSync('token')) { this.goLogin(); return }
+    try {
+      const r = await api.toggleLike(this.data.companionId)
+      if (r && r.success) {
+        this.setData({ liked: r.liked, likeCount: r.like_count })
+      } else {
+        wx.showToast({ title: (r && r.detail) || '操作失败', icon: 'none' })
+      }
+    } catch (err) {
+      console.error('点赞失败', err)
+      wx.showToast({ title: '网络错误', icon: 'none' })
+    }
   },
 
   // 未登录点击 → 引导去登录

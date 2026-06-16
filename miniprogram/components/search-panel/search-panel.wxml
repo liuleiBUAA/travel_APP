@@ -19,6 +19,10 @@
     <view class="match-info">
       <text>{{item.current_people || '未知'}} · {{item.transport_mode || '不限'}} · {{item.budget_level || '经济'}}</text>
     </view>
+    <view wx:if="{{item.team}}" class="team-badge-row">
+      <text class="team-badge team-badge-{{item.team.team_status}}">{{item.team.team_status === 'full' ? '已满 ' : '组队 '}}{{item.team.joined_count}}/{{item.team.team_size}}</text>
+      <text class="team-badge-social">👁{{item.team.view_count || 0}} · ❤️{{item.team.like_count || 0}}</text>
+    </view>
   </view>
   <view wx:if="{{searchDone && searchResults.length === 0}}" class="hint-text">未找到相关路线，换个关键词试试</view>
 </view>
@@ -152,6 +156,11 @@
         <text>偏好 {{item.preference_score_pct || 0}}%</text>
       </view>
     </view>
+
+    <view wx:if="{{item.team}}" class="team-badge-row">
+      <text class="team-badge team-badge-{{item.team.team_status}}">{{item.team.team_status === 'full' ? '已满 ' : '组队 '}}{{item.team.joined_count}}/{{item.team.team_size}}</text>
+      <text class="team-badge-social">👁{{item.team.view_count || 0}} · ❤️{{item.team.like_count || 0}}</text>
+    </view>
   </view>
 </view>
 
@@ -164,6 +173,10 @@
     <view class="match-date">{{item.travel_date || '待定'}} · {{item.duration_days || 0}}天</view>
     <view class="match-cities">
       <view wx:for="{{item.route.cities}}" wx:for-item="city" wx:key="*this" class="city-badge">{{city}}</view>
+    </view>
+    <view wx:if="{{item.team}}" class="team-badge-row">
+      <text class="team-badge team-badge-{{item.team.team_status}}">{{item.team.team_status === 'full' ? '已满 ' : '组队 '}}{{item.team.joined_count}}/{{item.team.team_size}}</text>
+      <text class="team-badge-social">👁{{item.team.view_count || 0}} · ❤️{{item.team.like_count || 0}}</text>
     </view>
   </view>
 </view>

@@ -121,5 +121,27 @@ module.exports = {
   },
   getExchangeStatus(companionId, otherUserId) {
     return request(`/exchanges/status?companion_id=${companionId}&other_user_id=${otherUserId}`)
+  },
+  // 组队 / 社交
+  getTeam(companionId) {
+    return request(`/companions/${companionId}/team`)
+  },
+  applyTeam(companionId, message) {
+    return request(`/companions/${companionId}/team/apply`, 'POST', { message: message || null })
+  },
+  handleTeam(companionId, memberId, action) {
+    return request(`/companions/${companionId}/team/handle`, 'POST', { member_id: memberId, action })
+  },
+  kickTeam(companionId, memberId) {
+    return request(`/companions/${companionId}/team/kick`, 'POST', { member_id: memberId })
+  },
+  updateFlightStatus(companionId, flightStatus) {
+    return request(`/companions/${companionId}/flight-status`, 'POST', { flight_status: flightStatus })
+  },
+  addView(companionId) {
+    return request(`/companions/${companionId}/view`, 'POST', {})
+  },
+  toggleLike(companionId) {
+    return request(`/companions/${companionId}/like`, 'POST', {})
   }
 }

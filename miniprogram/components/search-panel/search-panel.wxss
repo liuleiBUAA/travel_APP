@@ -127,3 +127,31 @@
 .score-bar.pref {
   background: var(--c-score-pref);
 }
+
+/* ==================== 组队/社交徽章 ==================== */
+.team-badge-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12rpx;
+}
+.team-badge {
+  font-size: 22rpx;
+  padding: 4rpx 16rpx;
+  border-radius: 999rpx;
+  background: #fff1ec;
+  color: #ff6b5c;
+  font-weight: 500;
+}
+.team-badge-full {
+  background: #e6f7ed;
+  color: #07c160;
+}
+.team-badge-closed {
+  background: #f0e6e2;
+  color: #9a8f8a;
+}
+.team-badge-social {
+  font-size: 22rpx;
+  color: #9a8f8a;
+}

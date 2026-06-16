@@ -459,3 +459,219 @@
   background: var(--c-soft, #fff1ec);
   border-radius: 999rpx;
 }
+
+/* ==================== 组队卡 ==================== */
+.team-card {
+  padding: 28rpx 30rpx;
+}
+.team-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.team-progress-text {
+  font-size: 26rpx;
+  color: #ff6b5c;
+  font-weight: 600;
+}
+.team-bar {
+  height: 16rpx;
+  background: #f0e6e2;
+  border-radius: 999rpx;
+  overflow: hidden;
+  margin: 18rpx 0 10rpx;
+}
+.team-bar-fill {
+  height: 100%;
+  background: var(--grad-primary, linear-gradient(135deg, #ff7b5c, #ff5c8a));
+  border-radius: 999rpx;
+  transition: width .3s ease;
+}
+.team-slots-hint {
+  font-size: 24rpx;
+  color: #9a8f8a;
+  margin-bottom: 16rpx;
+}
+.team-slots-full {
+  color: #07c160;
+}
+
+/* 成员墙 */
+.member-wall {
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+  margin: 8rpx 0 6rpx;
+}
+.member-item {
+  display: flex;
+  align-items: center;
+  gap: 14rpx;
+  padding: 12rpx 0;
+  border-bottom: 1rpx solid #f5ece8;
+  flex-wrap: wrap;
+}
+.member-avatar {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.member-name {
+  font-size: 28rpx;
+  color: #2a2320;
+  font-weight: 500;
+}
+.member-role {
+  font-size: 20rpx;
+  color: #fff;
+  background: var(--grad-primary, linear-gradient(135deg, #ff7b5c, #ff5c8a));
+  padding: 2rpx 12rpx;
+  border-radius: 999rpx;
+}
+.member-flight {
+  font-size: 22rpx;
+  padding: 2rpx 14rpx;
+  border-radius: 999rpx;
+  background: #f0e6e2;
+  color: #9a8f8a;
+  margin-left: auto;
+}
+.member-flight.flight-searching {
+  background: #fff3e0;
+  color: #e07b00;
+}
+.member-flight.flight-booked {
+  background: #e6f7ed;
+  color: #07c160;
+}
+.member-wechat {
+  font-size: 22rpx;
+  color: #ff6b5c;
+  width: 100%;
+  padding-left: 78rpx;
+}
+.member-kick {
+  font-size: 22rpx;
+  color: #ef4444;
+  border: 1rpx solid #ef4444;
+  border-radius: 999rpx;
+  padding: 2rpx 16rpx;
+}
+
+/* 我的机票状态 */
+.team-my-flight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--c-soft, #fff1ec);
+  border-radius: 16rpx;
+  padding: 18rpx 24rpx;
+  margin-top: 18rpx;
+  font-size: 26rpx;
+  color: #2a2320;
+}
+.team-my-flight-edit {
+  color: #ff6b5c;
+  font-size: 24rpx;
+}
+
+/* 待审批 */
+.pending-list {
+  margin-top: 22rpx;
+  border-top: 1rpx dashed #e8ddd8;
+  padding-top: 18rpx;
+}
+.pending-title {
+  font-size: 26rpx;
+  color: #2a2320;
+  font-weight: 600;
+  margin-bottom: 14rpx;
+}
+.pending-item {
+  display: flex;
+  align-items: center;
+  gap: 14rpx;
+  padding: 12rpx 0;
+}
+.pending-avatar {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.pending-body {
+  flex: 1;
+  min-width: 0;
+}
+.pending-name {
+  font-size: 28rpx;
+  color: #2a2320;
+}
+.pending-msg {
+  font-size: 24rpx;
+  color: #9a8f8a;
+  margin-top: 4rpx;
+}
+.pending-btns {
+  display: flex;
+  gap: 12rpx;
+  flex-shrink: 0;
+}
+.pending-reject, .pending-approve {
+  font-size: 24rpx;
+  padding: 8rpx 22rpx;
+  border-radius: 999rpx;
+}
+.pending-reject {
+  color: #9a8f8a;
+  border: 1rpx solid #d8ccc6;
+}
+.pending-approve {
+  color: #fff;
+  background: var(--grad-primary, linear-gradient(135deg, #ff7b5c, #ff5c8a));
+}
+
+/* 申请加入按钮 */
+.team-apply-btn {
+  text-align: center;
+  margin-top: 20rpx;
+  padding: 22rpx 0;
+  border-radius: 999rpx;
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #fff;
+  background: var(--grad-primary, linear-gradient(135deg, #ff7b5c, #ff5c8a));
+}
+.team-apply-pending {
+  background: #f0e6e2;
+  color: #9a8f8a;
+}
+.team-apply-joined {
+  background: #e6f7ed;
+  color: #07c160;
+}
+.team-apply-disabled {
+  background: #f0e6e2;
+  color: #9a8f8a;
+}
+
+/* 社交栏 */
+.social-bar {
+  display: flex;
+  gap: 20rpx;
+  margin: 0 0 20rpx;
+}
+.social-item {
+  flex: 1;
+  text-align: center;
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 22rpx 0;
+  font-size: 28rpx;
+  color: #6b615c;
+  box-shadow: var(--shadow-card, 0 6rpx 22rpx rgba(255,107,92,.10));
+}
+.social-like.liked {
+  color: #ff5c8a;
+}

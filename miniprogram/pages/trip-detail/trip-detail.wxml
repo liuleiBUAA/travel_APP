@@ -36,10 +36,76 @@
           <view class="stat-label">天数</view>
         </view>
         <view class="stat-item">
-          <view class="stat-num">{{detail.current_people}}</view>
-          <view class="stat-label">现有成员</view>
+          <view class="stat-num">{{team ? (team.joined_count + '/' + team.team_size) : detail.current_people}}</view>
+          <view class="stat-label">已组队</view>
         </view>
       </view>
+    </view>
+
+    <!-- 组队卡 -->
+    <view wx:if="{{team}}" class="card team-card">
+      <view class="team-head">
+        <view class="card-title">队伍 · {{teamStatusLabels[team.team_status] || '招募中'}}</view>
+        <view class="team-progress-text">{{team.joined_count}}/{{team.team_size}} 人</view>
+      </view>
+      <!-- 进度条 -->
+      <view class="team-bar">
+        <view class="team-bar-fill" style="width: {{team.team_size > 0 ? (team.joined_count * 100 / team.team_size) : 0}}%"></view>
+      </view>
+      <view wx:if="{{team.open_slots > 0}}" class="team-slots-hint">还差 {{team.open_slots}} 人成行</view>
+      <view wx:else class="team-slots-hint team-slots-full">队伍已满，准备出发 🎉</view>
+
+      <!-- 成员墙 -->
+      <view class="member-wall">
+        <view wx:for="{{team.members}}" wx:key="member_id" class="member-item">
+          <image class="member-avatar" src="{{item.avatar_url || '/images/default_avatar.png'}}" mode="aspectFill"
+                 bindtap="goCommenterProfile" data-uid="{{item.user_id}}" />
+          <view class="member-name">{{item.nickname || '旅行者'}}{{item.is_me ? '（我）' : ''}}</view>
+          <view class="member-role" wx:if="{{item.role === 'leader'}}">队长</view>
+          <view class="member-flight flight-{{item.flight_status}}">{{flightLabels[item.flight_status] || '未定'}}</view>
+          <!-- 已入队成员之间可见微信，可复制 -->
+          <view wx:if="{{item.wechat_id && !item.is_me}}" class="member-wechat" catchtap="copyMemberWechat" data-wechat="{{item.wechat_id}}">微信:{{item.wechat_id}} 📋</view>
+          <!-- 队长可踢非队长成员 -->
+          <view wx:if="{{team.is_leader && item.role !== 'leader'}}" class="member-kick" catchtap="onKickMember" data-mid="{{item.member_id}}" data-nickname="{{item.nickname}}">移出</view>
+        </view>
+      </view>
+
+      <!-- 我是已入队成员：更新自己机票状态 -->
+      <view wx:if="{{team.my_member && team.my_member.status === 'approved'}}" class="team-my-flight" bindtap="onUpdateFlight">
+        <text>我的机票：{{flightLabels[team.my_member.flight_status] || '未定'}}</text>
+        <text class="team-my-flight-edit">点击更新 ›</text>
+      </view>
+
+      <!-- 队长视角：待审批申请 -->
+      <view wx:if="{{team.is_leader && team.pending_count > 0}}" class="pending-list">
+        <view class="pending-title">待审批申请（{{team.pending_count}}）</view>
+        <view wx:for="{{team.pending}}" wx:key="member_id" class="pending-item">
+          <image class="pending-avatar" src="{{item.avatar_url || '/images/default_avatar.png'}}" mode="aspectFill"
+                 bindtap="goCommenterProfile" data-uid="{{item.user_id}}" />
+          <view class="pending-body">
+            <view class="pending-name">{{item.nickname || '旅行者'}}</view>
+            <view wx:if="{{item.message}}" class="pending-msg">{{item.message}}</view>
+          </view>
+          <view class="pending-btns">
+            <view class="pending-reject" catchtap="onHandleTeam" data-mid="{{item.member_id}}" data-action="reject" data-nickname="{{item.nickname}}">拒绝</view>
+            <view class="pending-approve" catchtap="onHandleTeam" data-mid="{{item.member_id}}" data-action="approve" data-nickname="{{item.nickname}}">同意</view>
+          </view>
+        </view>
+      </view>
+
+      <!-- 访客视角：申请加入按钮 -->
+      <block wx:if="{{!detail.is_mine && (!team.my_member || team.my_member.status === 'rejected' || team.my_member.status === 'removed' || team.my_member.status === 'quit')}}">
+        <view wx:if="{{team.team_status === 'recruiting'}}" class="team-apply-btn" bindtap="onApplyTeam">+ 申请加入队伍</view>
+        <view wx:else class="team-apply-btn team-apply-disabled">{{teamStatusLabels[team.team_status]}}，暂不可加入</view>
+      </block>
+      <view wx:elif="{{!detail.is_mine && team.my_member && team.my_member.status === 'pending'}}" class="team-apply-btn team-apply-pending">⏳ 已申请，等待队长同意</view>
+      <view wx:elif="{{!detail.is_mine && team.my_member && team.my_member.status === 'approved'}}" class="team-apply-btn team-apply-joined">✅ 你已在队伍中</view>
+    </view>
+
+    <!-- 社交栏：浏览 + 点赞 -->
+    <view class="social-bar">
+      <view class="social-item">👁 {{viewCount}} 浏览</view>
+      <view class="social-item social-like {{liked ? 'liked' : ''}}" bindtap="onToggleLike">{{liked ? '❤️' : '🤍'}} {{likeCount}} 赞</view>
     </view>
 
     <!-- 联系 / 分享操作区 -->
