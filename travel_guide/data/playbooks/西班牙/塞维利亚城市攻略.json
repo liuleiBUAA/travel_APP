@@ -147,5 +147,7 @@
     }
   ],
   "duration": "2天",
-  "best_time": "3-5月、10-11月；夏季慎入"
+  "best_time": "3-5月、10-11月；夏季慎入",
+  "transport_map": "西班牙/西班牙_outer.png",
+  "transport_map_inner": "西班牙/塞维利亚_市内交通图.png"
 }

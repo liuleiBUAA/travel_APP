@@ -277,5 +277,7 @@
     }
   ],
   "duration": "2-3天",
-  "best_time": "4-6月、9-10月"
+  "best_time": "4-6月、9-10月",
+  "transport_map": "西班牙/西班牙_outer.png",
+  "transport_map_inner": "西班牙/马德里_市内交通图.png"
 }

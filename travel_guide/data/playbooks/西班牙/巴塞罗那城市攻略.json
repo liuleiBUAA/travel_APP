@@ -219,5 +219,7 @@
     }
   ],
   "duration": "3-4天",
-  "best_time": "5-6月、9-10月；7-8月热且人多"
+  "best_time": "5-6月、9-10月；7-8月热且人多",
+  "transport_map": "西班牙/西班牙_outer.png",
+  "transport_map_inner": "西班牙/巴塞罗那_市内交通图.png"
 }
