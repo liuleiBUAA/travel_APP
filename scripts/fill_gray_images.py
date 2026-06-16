@@ -95,7 +95,7 @@ for m in items:
 # results entries carry the english query; build a lookup spot->q for labeling
 spot_q={}
 for r in results:
-    spot_q[(r["region"],r["city"],r["name"])]=r.get("q","")
+    spot_q[(r["region"],r["city"],r["spot"])]=r.get("q","")
 for (region,city),spots in bycity.items():
     n=len(spots)
     cols=2; rows=(n+1)//2; cw,ch=400,300
