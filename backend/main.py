@@ -298,6 +298,27 @@ class ExchangeHandleRequest(BaseModel):
     action: str
 
 
+class TeamApplyRequest(BaseModel):
+    """申请加入队伍"""
+    message: Optional[str] = None
+
+
+class TeamHandleRequest(BaseModel):
+    """队长处理入队申请：approve / reject"""
+    member_id: int
+    action: str
+
+
+class TeamKickRequest(BaseModel):
+    """队长踢人"""
+    member_id: int
+
+
+class FlightStatusRequest(BaseModel):
+    """队员更新自己的机票状态: none/searching/booked"""
+    flight_status: str
+
+
 # ==================== API路由 ====================
 
 @app.get("/")
@@ -784,6 +805,7 @@ async def match_companions(request: CompanionMatchRequest):
                     "user_male_count": getattr(companion, "user_male_count", 0),
                     "user_female_count": getattr(companion, "user_female_count", 1),
                     "current_people": f"{getattr(companion, 'user_male_count', 0)}男{getattr(companion, 'user_female_count', 1)}女",
+                    "team": _team_brief(db, companion),
                     "match_score": round(total_score, 2),
                     "similarity_score": round(similarity, 2),
                     "time_score": round(time_score, 2),
@@ -842,6 +864,7 @@ async def search_companions(keyword: str = "", limit: int = 20, offset: int = 0)
                 "user_male_count": getattr(c, "user_male_count", 0),
                 "user_female_count": getattr(c, "user_female_count", 1),
                 "current_people": f"{getattr(c, 'user_male_count', 0)}男{getattr(c, 'user_female_count', 1)}女",
+                "team": _team_brief(db, c),
                 "created_at": c.created_at.strftime("%Y-%m-%d %H:%M")
             })
 
@@ -887,6 +910,7 @@ async def list_companions(limit: int = 20, offset: int = 0):
                 "user_male_count": getattr(c, "user_male_count", 0),
                 "user_female_count": getattr(c, "user_female_count", 1),
                 "current_people": f"{getattr(c, 'user_male_count', 0)}男{getattr(c, 'user_female_count', 1)}女",
+                "team": _team_brief(db, c),
                 "created_at": c.created_at.strftime("%Y-%m-%d %H:%M")
             })
 
@@ -935,6 +959,7 @@ async def get_my_companions(current_user: User = Depends(get_current_user_from_t
                 "user_male_count": getattr(c, "user_male_count", 0),
                 "user_female_count": getattr(c, "user_female_count", 1),
                 "current_people": f"{getattr(c, 'user_male_count', 0)}男{getattr(c, 'user_female_count', 1)}女",
+                "team": _team_brief(db, c),
                 "created_at": c.created_at.strftime("%Y-%m-%d %H:%M")
             })
 
@@ -998,6 +1023,10 @@ async def get_companion_detail(companion_id: int, current_user: Optional[User] =
                 "user_female_count": getattr(companion, "user_female_count", 1),
                 "current_people": f"{getattr(companion, 'user_male_count', 0)}男{getattr(companion, 'user_female_count', 1)}女",
                 "preferences": json.loads(companion.preferences) if companion.preferences else {},
+                "view_count": getattr(companion, "view_count", 0) or 0,
+                "like_count": getattr(companion, "like_count", 0) or 0,
+                "liked_by_me": _liked_by_me(db, companion.id, current_user),
+                "team": _team_payload(db, companion, current_user),
                 "created_at": companion.created_at.strftime("%Y-%m-%d %H:%M")
             }
         }
@@ -1397,6 +1426,507 @@ async def get_exchange_status(companion_id: int, other_user_id: int,
         return {"success": True, "status": ex.status, "data": _exchange_dict(ex, db, current_user.id)}
     except Exception as e:
         raise HTTPException(500, f"查询失败: {str(e)}")
+    finally:
+        db.close()
+
+
+# ==================== 组队 / 社交化 ====================
+
+FLIGHT_STATUS_VALUES = {"none", "searching", "booked"}
+
+
+def _liked_by_me(db, companion_id, viewer):
+    """当前用户是否已点赞该帖。"""
+    if viewer is None:
+        return False
+    from models import CompanionLike
+    return db.query(CompanionLike).filter(
+        CompanionLike.companion_id == companion_id,
+        CompanionLike.user_id == viewer.id,
+    ).first() is not None
+
+
+def _ensure_leader(db, companion):
+    """确保帖主有一条 leader 成员记录（老帖兼容兜底）。返回 leader 记录。"""
+    from models import TeamMember
+    try:
+        leader_uid = int(companion.user_id)
+    except (ValueError, TypeError):
+        return None
+    leader = db.query(TeamMember).filter(
+        TeamMember.companion_id == companion.id,
+        TeamMember.user_id == leader_uid,
+    ).first()
+    if not leader:
+        leader = TeamMember(
+            companion_id=companion.id, user_id=leader_uid,
+            role="leader", status="approved", flight_status="none",
+        )
+        db.add(leader)
+        db.flush()
+    return leader
+
+
+def _team_size(db, companion):
+    """队伍目标总人数（含队长）。优先用已存的 team_size，否则按 seeking.people_max+1。"""
+    ts = getattr(companion, "team_size", None)
+    if ts:
+        return ts
+    try:
+        seeking = json.loads(companion.seeking) if companion.seeking else {}
+        return int(seeking.get("people_max", 1) or 1) + 1
+    except (ValueError, TypeError, json.JSONDecodeError):
+        return 2
+
+
+def _approved_count(db, companion_id):
+    from models import TeamMember
+    return db.query(TeamMember).filter(
+        TeamMember.companion_id == companion_id,
+        TeamMember.status == "approved",
+    ).count()
+
+
+def _refresh_team_status(db, companion):
+    """根据已批准人数刷新 team_status（closed 不在此自动改回）。"""
+    if getattr(companion, "team_status", None) == "closed":
+        return companion.team_status
+    size = _team_size(db, companion)
+    approved = _approved_count(db, companion.id)
+    companion.team_status = "full" if approved >= size else "recruiting"
+    if getattr(companion, "team_size", None) is None:
+        companion.team_size = size
+    return companion.team_status
+
+
+def _member_dict(db, m, viewer_id, leader_id, can_see_wechat):
+    """成员对外序列化。can_see_wechat 控制是否附微信号。"""
+    u = db.query(User).filter(User.id == m.user_id).first()
+    item = {
+        "member_id": m.id,
+        "user_id": m.user_id,
+        "role": m.role,
+        "status": m.status,
+        "flight_status": m.flight_status or "none",
+        "message": m.message,
+        "is_me": viewer_id is not None and int(viewer_id) == int(m.user_id),
+        "nickname": u.nickname if u else None,
+        "avatar_url": u.avatar_url if u else None,
+        "wechat_id": None,
+    }
+    if u:
+        item.update(_profile_card_dict(u))
+        if can_see_wechat:
+            item["wechat_id"] = getattr(u, "wechat_id", None)
+    return item
+
+
+def _team_payload(db, companion, viewer):
+    """组装某帖的组队信息（详情页用）。"""
+    from models import TeamMember
+    _ensure_leader(db, companion)
+    db.flush()
+    size = _team_size(db, companion)
+    status = _refresh_team_status(db, companion)
+    db.commit()
+
+    leader_id = None
+    try:
+        leader_id = int(companion.user_id)
+    except (ValueError, TypeError):
+        pass
+    viewer_id = viewer.id if viewer else None
+    is_leader = viewer_id is not None and leader_id is not None and int(viewer_id) == leader_id
+
+    approved_members = db.query(TeamMember).filter(
+        TeamMember.companion_id == companion.id,
+        TeamMember.status == "approved",
+    ).order_by(TeamMember.role.desc(), TeamMember.created_at.asc()).all()
+
+    # 我（如果是已批准成员）能看队内所有人微信；队长能看全部
+    viewer_approved = viewer_id is not None and any(
+        int(m.user_id) == int(viewer_id) for m in approved_members
+    )
+    members = [
+        _member_dict(db, m, viewer_id, leader_id, can_see_wechat=(viewer_approved or is_leader))
+        for m in approved_members
+    ]
+
+    # 待审批申请（仅队长可见）
+    pending = []
+    if is_leader:
+        pend_rows = db.query(TeamMember).filter(
+            TeamMember.companion_id == companion.id,
+            TeamMember.status == "pending",
+        ).order_by(TeamMember.created_at.asc()).all()
+        pending = [_member_dict(db, m, viewer_id, leader_id, can_see_wechat=False) for m in pend_rows]
+
+    # 我的成员记录（用于前端按钮态）
+    my_member = None
+    if viewer_id is not None:
+        mine = db.query(TeamMember).filter(
+            TeamMember.companion_id == companion.id,
+            TeamMember.user_id == int(viewer_id),
+        ).order_by(TeamMember.created_at.desc()).first()
+        if mine:
+            my_member = {
+                "member_id": mine.id,
+                "role": mine.role,
+                "status": mine.status,
+                "flight_status": mine.flight_status or "none",
+            }
+
+    approved_count = len(members)
+    return {
+        "team_size": size,
+        "team_status": status,
+        "joined_count": approved_count,
+        "open_slots": max(0, size - approved_count),
+        "is_leader": is_leader,
+        "members": members,
+        "pending": pending,
+        "pending_count": len(pending),
+        "my_member": my_member,
+    }
+
+
+def _team_brief(db, companion):
+    """列表卡用的精简组队信息。"""
+    _ensure_leader(db, companion)
+    size = _team_size(db, companion)
+    status = _refresh_team_status(db, companion)
+    db.commit()
+    joined = _approved_count(db, companion.id)
+    return {
+        "team_size": size,
+        "team_status": status,
+        "joined_count": joined,
+        "open_slots": max(0, size - joined),
+        "view_count": getattr(companion, "view_count", 0) or 0,
+        "like_count": getattr(companion, "like_count", 0) or 0,
+    }
+
+
+@app.get("/api/companions/{companion_id}/team")
+async def get_team(companion_id: int, current_user: Optional[User] = Depends(get_optional_user)):
+    """获取某帖的组队信息（成员墙 / 待审批 / 我的状态）"""
+    db = next(get_db())
+    try:
+        from models import Companion
+        companion = db.query(Companion).filter(Companion.id == companion_id).first()
+        if not companion:
+            raise HTTPException(404, "行程不存在")
+        return {"success": True, "data": _team_payload(db, companion, current_user)}
+    except HTTPException:
+        db.rollback()
+        raise
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(500, f"查询失败: {str(e)}")
+    finally:
+        db.close()
+
+
+@app.post("/api/companions/{companion_id}/team/apply")
+async def apply_team(companion_id: int, req: TeamApplyRequest,
+                     current_user: User = Depends(get_current_user_from_token)):
+    """申请加入队伍（需先在帖下留言，且填了自己微信号）"""
+    db = next(get_db())
+    try:
+        from models import Companion, Comment, TeamMember
+
+        me = db.query(User).filter(User.id == current_user.id).first()
+        if not me:
+            raise HTTPException(401, "用户不存在")
+        if not getattr(me, "wechat_id", None):
+            raise HTTPException(400, "请先在「我的旅行名片」里填写你的微信号，通过后队长才能联系你")
+
+        companion = db.query(Companion).filter(Companion.id == companion_id).first()
+        if not companion:
+            raise HTTPException(404, "行程不存在")
+        if str(companion.user_id) == str(me.id):
+            raise HTTPException(400, "你是队长，无需申请加入自己的队伍")
+
+        _ensure_leader(db, companion)
+
+        # 满员 / 已关闭不可申请
+        status = _refresh_team_status(db, companion)
+        if status == "closed":
+            raise HTTPException(400, "该队伍已关闭招募")
+        if status == "full":
+            raise HTTPException(400, "队伍已满员")
+
+        # 先在帖下留过言才能申请（落实「先聊一聊再组队」）
+        commented = db.query(Comment).filter(
+            Comment.companion_id == companion.id,
+            Comment.user_id == str(me.id),
+        ).first()
+        if not commented:
+            raise HTTPException(400, "请先在帖子下留言聊一聊，再申请加入队伍")
+
+        # 已有记录处理
+        existing = db.query(TeamMember).filter(
+            TeamMember.companion_id == companion.id,
+            TeamMember.user_id == me.id,
+        ).order_by(TeamMember.created_at.desc()).first()
+        if existing:
+            if existing.status == "approved":
+                raise HTTPException(400, "你已在队伍中")
+            if existing.status == "pending":
+                raise HTTPException(400, "申请已提交，等待队长同意")
+            # rejected / removed / quit：允许重新申请（复用同一条记录）
+            existing.status = "pending"
+            existing.message = (req.message or "").strip()[:200] or None
+            existing.handled_at = None
+            existing.created_at = datetime.now()
+            db.commit()
+            db.refresh(existing)
+            return {"success": True, "message": "申请已提交", "member_id": existing.id}
+
+        message = (req.message or "").strip()[:200]
+        if message:
+            check = msg_sec_check(message, me.openid, scene=2)
+            if not check["pass"]:
+                raise HTTPException(400, "附言包含违规内容，请修改")
+
+        m = TeamMember(
+            companion_id=companion.id, user_id=me.id,
+            role="member", status="pending",
+            flight_status="none", message=message or None,
+        )
+        db.add(m)
+        db.commit()
+        db.refresh(m)
+        return {"success": True, "message": "申请已提交，等待队长同意", "member_id": m.id}
+    except HTTPException:
+        db.rollback()
+        raise
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(500, f"申请失败: {str(e)}")
+    finally:
+        db.close()
+
+
+@app.post("/api/companions/{companion_id}/team/handle")
+async def handle_team(companion_id: int, req: TeamHandleRequest,
+                      current_user: User = Depends(get_current_user_from_token)):
+    """队长同意 / 拒绝入队申请（同意=占位+双方微信互见+满员检测）"""
+    if req.action not in ("approve", "reject"):
+        raise HTTPException(400, "action 必须是 approve 或 reject")
+    db = next(get_db())
+    try:
+        from models import Companion, TeamMember
+
+        companion = db.query(Companion).filter(Companion.id == companion_id).first()
+        if not companion:
+            raise HTTPException(404, "行程不存在")
+        if str(companion.user_id) != str(current_user.id):
+            raise HTTPException(403, "只有队长可以处理申请")
+
+        m = db.query(TeamMember).filter(
+            TeamMember.id == req.member_id,
+            TeamMember.companion_id == companion.id,
+        ).first()
+        if not m:
+            raise HTTPException(404, "申请不存在")
+        if m.status != "pending":
+            raise HTTPException(400, "该申请已处理")
+
+        if req.action == "reject":
+            m.status = "rejected"
+            m.handled_at = datetime.now()
+            db.commit()
+            return {"success": True, "message": "已拒绝"}
+
+        # approve：满员校验 -> 占位
+        _ensure_leader(db, companion)
+        size = _team_size(db, companion)
+        if _approved_count(db, companion.id) >= size:
+            raise HTTPException(400, "队伍已满员，无法再同意")
+
+        m.status = "approved"
+        m.handled_at = datetime.now()
+        db.flush()
+
+        # 同意即解锁微信：双方互见 -> 复用 ContactExchange(accepted)
+        _grant_mutual_wechat(db, companion.id, int(companion.user_id), int(m.user_id))
+
+        _refresh_team_status(db, companion)
+        db.commit()
+        return {"success": True, "message": "已同意，微信已互相解锁",
+                "team_status": companion.team_status}
+    except HTTPException:
+        db.rollback()
+        raise
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(500, f"处理失败: {str(e)}")
+    finally:
+        db.close()
+
+
+def _grant_mutual_wechat(db, companion_id, leader_id, member_id):
+    """在队长与成员间写一条 accepted 的 ContactExchange（幂等），实现微信互见。"""
+    from models import ContactExchange
+    ex = db.query(ContactExchange).filter(
+        ContactExchange.companion_id == companion_id,
+        ((ContactExchange.from_user_id == leader_id) & (ContactExchange.to_user_id == member_id)) |
+        ((ContactExchange.from_user_id == member_id) & (ContactExchange.to_user_id == leader_id))
+    ).order_by(ContactExchange.created_at.desc()).first()
+    if ex:
+        if ex.status != "accepted":
+            ex.status = "accepted"
+            ex.handled_at = datetime.now()
+    else:
+        ex = ContactExchange(
+            companion_id=companion_id, from_user_id=member_id,
+            to_user_id=leader_id, message="组队入队自动解锁", status="accepted",
+            handled_at=datetime.now(),
+        )
+        db.add(ex)
+
+
+@app.post("/api/companions/{companion_id}/team/kick")
+async def kick_team(companion_id: int, req: TeamKickRequest,
+                    current_user: User = Depends(get_current_user_from_token)):
+    """队长踢人（释放名额，满员自动转回招募中）"""
+    db = next(get_db())
+    try:
+        from models import Companion, TeamMember
+
+        companion = db.query(Companion).filter(Companion.id == companion_id).first()
+        if not companion:
+            raise HTTPException(404, "行程不存在")
+        if str(companion.user_id) != str(current_user.id):
+            raise HTTPException(403, "只有队长可以移出队员")
+
+        m = db.query(TeamMember).filter(
+            TeamMember.id == req.member_id,
+            TeamMember.companion_id == companion.id,
+        ).first()
+        if not m:
+            raise HTTPException(404, "队员不存在")
+        if m.role == "leader":
+            raise HTTPException(400, "不能移出队长")
+        if m.status != "approved":
+            raise HTTPException(400, "该用户不是已入队成员")
+
+        m.status = "removed"
+        m.handled_at = datetime.now()
+        db.flush()
+        _refresh_team_status(db, companion)
+        db.commit()
+        return {"success": True, "message": "已移出该队员", "team_status": companion.team_status}
+    except HTTPException:
+        db.rollback()
+        raise
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(500, f"操作失败: {str(e)}")
+    finally:
+        db.close()
+
+
+@app.post("/api/companions/{companion_id}/flight-status")
+async def update_flight_status(companion_id: int, req: FlightStatusRequest,
+                               current_user: User = Depends(get_current_user_from_token)):
+    """队员更新自己的机票状态（只能改自己的；随时可进可退）"""
+    if req.flight_status not in FLIGHT_STATUS_VALUES:
+        raise HTTPException(400, "机票状态无效")
+    db = next(get_db())
+    try:
+        from models import Companion, TeamMember
+
+        companion = db.query(Companion).filter(Companion.id == companion_id).first()
+        if not companion:
+            raise HTTPException(404, "行程不存在")
+        _ensure_leader(db, companion)
+        db.flush()
+
+        m = db.query(TeamMember).filter(
+            TeamMember.companion_id == companion.id,
+            TeamMember.user_id == current_user.id,
+            TeamMember.status == "approved",
+        ).first()
+        if not m:
+            raise HTTPException(403, "只有已入队成员可以更新机票状态")
+
+        m.flight_status = req.flight_status
+        db.commit()
+        return {"success": True, "flight_status": m.flight_status}
+    except HTTPException:
+        db.rollback()
+        raise
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(500, f"更新失败: {str(e)}")
+    finally:
+        db.close()
+
+
+@app.post("/api/companions/{companion_id}/view")
+async def add_view(companion_id: int, current_user: Optional[User] = Depends(get_optional_user)):
+    """浏览 +1（仅登录用户、同人去重；匿名不计数避免刷量）"""
+    db = next(get_db())
+    try:
+        from models import Companion, CompanionView
+
+        companion = db.query(Companion).filter(Companion.id == companion_id).first()
+        if not companion:
+            raise HTTPException(404, "行程不存在")
+
+        if current_user is not None:
+            seen = db.query(CompanionView).filter(
+                CompanionView.companion_id == companion_id,
+                CompanionView.user_id == current_user.id,
+            ).first()
+            if not seen:
+                db.add(CompanionView(companion_id=companion_id, user_id=current_user.id))
+                companion.view_count = (getattr(companion, "view_count", 0) or 0) + 1
+                db.commit()
+        return {"success": True, "view_count": getattr(companion, "view_count", 0) or 0}
+    except HTTPException:
+        db.rollback()
+        raise
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(500, f"操作失败: {str(e)}")
+    finally:
+        db.close()
+
+
+@app.post("/api/companions/{companion_id}/like")
+async def toggle_like(companion_id: int, current_user: User = Depends(get_current_user_from_token)):
+    """点赞 / 取消点赞（登录用户，唯一约束防刷）"""
+    db = next(get_db())
+    try:
+        from models import Companion, CompanionLike
+
+        companion = db.query(Companion).filter(Companion.id == companion_id).first()
+        if not companion:
+            raise HTTPException(404, "行程不存在")
+
+        existing = db.query(CompanionLike).filter(
+            CompanionLike.companion_id == companion_id,
+            CompanionLike.user_id == current_user.id,
+        ).first()
+        if existing:
+            db.delete(existing)
+            companion.like_count = max(0, (getattr(companion, "like_count", 0) or 0) - 1)
+            liked = False
+        else:
+            db.add(CompanionLike(companion_id=companion_id, user_id=current_user.id))
+            companion.like_count = (getattr(companion, "like_count", 0) or 0) + 1
+            liked = True
+        db.commit()
+        return {"success": True, "liked": liked, "like_count": companion.like_count}
+    except HTTPException:
+        db.rollback()
+        raise
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(500, f"操作失败: {str(e)}")
     finally:
         db.close()
 

@@ -73,12 +73,58 @@ class Companion(Base):
     # 其他偏好（JSON存储，可选）
     preferences = Column(Text, nullable=True, comment="其他偏好")
 
+    # 组队 + 社交热度
+    team_size = Column(Integer, nullable=True, comment="队伍目标总人数（含队长）= people_max + 1")
+    team_status = Column(String(20), default="recruiting", index=True, comment="组队状态: recruiting/full/closed")
+    view_count = Column(Integer, default=0, comment="浏览量（去重后登录用户数）")
+    like_count = Column(Integer, default=0, comment="点赞数")
+
     # 时间戳
     created_at = Column(DateTime, server_default=func.now(), comment="创建时间")
     updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now(), comment="更新时间")
 
     def __repr__(self):
         return f"<Companion {self.id}: {self.user_name} - {self.travel_date}>"
+
+
+class TeamMember(Base):
+    """组队成员表（队长也是一条 role=leader 的成员记录）"""
+    __tablename__ = "team_members"
+
+    id = Column(Integer, primary_key=True, index=True, autoincrement=True)
+    companion_id = Column(Integer, nullable=False, index=True, comment="所属行程帖ID")
+    user_id = Column(Integer, nullable=False, index=True, comment="成员用户ID")
+    role = Column(String(10), default="member", comment="角色: leader/member")
+    status = Column(String(20), default="pending", index=True,
+                    comment="状态: pending/approved/rejected/removed/quit")
+    flight_status = Column(String(10), default="none",
+                           comment="机票状态(自我声明): none/searching/booked")
+    message = Column(String(200), nullable=True, comment="申请附言")
+    created_at = Column(DateTime, server_default=func.now(), comment="申请时间")
+    handled_at = Column(DateTime, nullable=True, comment="队长处理时间")
+
+    def __repr__(self):
+        return f"<TeamMember {self.id}: c{self.companion_id} u{self.user_id} {self.status}>"
+
+
+class CompanionLike(Base):
+    """行程点赞表（user_id + companion_id 唯一）"""
+    __tablename__ = "companion_likes"
+
+    id = Column(Integer, primary_key=True, index=True, autoincrement=True)
+    companion_id = Column(Integer, nullable=False, index=True, comment="行程帖ID")
+    user_id = Column(Integer, nullable=False, index=True, comment="点赞用户ID")
+    created_at = Column(DateTime, server_default=func.now(), comment="点赞时间")
+
+
+class CompanionView(Base):
+    """浏览去重表（同一登录用户对同一帖只计一次）"""
+    __tablename__ = "companion_views"
+
+    id = Column(Integer, primary_key=True, index=True, autoincrement=True)
+    companion_id = Column(Integer, nullable=False, index=True, comment="行程帖ID")
+    user_id = Column(Integer, nullable=False, index=True, comment="浏览用户ID")
+    created_at = Column(DateTime, server_default=func.now(), comment="首次浏览时间")
 
 
 class Comment(Base):
