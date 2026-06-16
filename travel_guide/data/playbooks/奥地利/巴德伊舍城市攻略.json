@@ -1,7 +1,9 @@
 {
   "name": "巴德伊舍",
   "type": "city",
-  "aliases": ["Bad Ischl"],
+  "aliases": [
+    "Bad Ischl"
+  ],
   "city": "巴德伊舍",
   "country": "奥地利",
   "summary": "茜茜公主订婚的温泉小镇，位于萨尔茨卡默古特湖区正中心，是辐射哈尔施塔特、圣沃尔夫冈、戈绍湖的最佳自驾基地。",
@@ -28,5 +30,7 @@
     }
   ],
   "duration": "2-3天",
-  "best_time": "6-9月湖水山色最佳且夏夫山小火车运行；5月和10月人少但部分设施停运"
+  "best_time": "6-9月湖水山色最佳且夏夫山小火车运行；5月和10月人少但部分设施停运",
+  "transport_map": "奥地利/奥地利_outer.png",
+  "transport_map_inner": "奥地利/巴德伊舍_湖区交通图.png"
 }
