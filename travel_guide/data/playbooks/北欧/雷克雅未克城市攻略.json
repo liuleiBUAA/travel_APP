@@ -231,5 +231,7 @@
     }
   ],
   "duration": "基地2晚+环线另计",
-  "best_time": "6-8月自驾；9-3月极光"
+  "best_time": "6-8月自驾；9-3月极光",
+  "transport_map": "北欧/雷克雅未克_城市间交通图.png",
+  "transport_map_inner": "北欧/雷克雅未克_市内交通图.png"
 }

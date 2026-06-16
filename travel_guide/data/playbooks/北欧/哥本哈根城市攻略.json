@@ -227,5 +227,7 @@
     }
   ],
   "duration": "2天",
-  "best_time": "5-9月；12月圣诞季趣伏里灯火"
+  "best_time": "5-9月；12月圣诞季趣伏里灯火",
+  "transport_map": "北欧/哥本哈根_城市间交通图.png",
+  "transport_map_inner": "北欧/哥本哈根_市内交通图.png"
 }
