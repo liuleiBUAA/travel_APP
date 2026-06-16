@@ -1,7 +1,9 @@
 {
   "name": "巴尔港",
   "type": "city",
-  "aliases": ["Bar Harbor"],
+  "aliases": [
+    "Bar Harbor"
+  ],
   "city": "巴尔港",
   "country": "美国",
   "summary": "阿卡迪亚国家公园的门户龙虾镇，Cadillac山看全美最早日出需单独预约车辆，夏秋旺季住宿提前数月锁定。",
@@ -28,5 +30,7 @@
     }
   ],
   "duration": "2-3天",
-  "best_time": "9月-10月中，秋高气爽枫叶渐红、人流比盛夏略缓，龙虾也正肥美。"
+  "best_time": "9月-10月中，秋高气爽枫叶渐红、人流比盛夏略缓，龙虾也正肥美。",
+  "transport_map": "美国/巴尔港_交通图3595.png",
+  "transport_map_inner": "美国/巴尔港_市内交通图3595.png"
 }
