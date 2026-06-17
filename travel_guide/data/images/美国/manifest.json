@@ -671,5 +671,15 @@
   "artist": "",
   "source": "wikimedia",
   "extras": []
+ },
+ {
+  "city": "纽约",
+  "attraction": "纽约现代艺术博物馆MoMA",
+  "status": "ok",
+  "local": "纽约/纽约现代艺术博物馆MoMA_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
  }
 ]

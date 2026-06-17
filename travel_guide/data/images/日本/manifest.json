@@ -1557,5 +1557,15 @@
   "artist": "",
   "source": "wikipedia",
   "extras": []
+ },
+ {
+  "city": "东京",
+  "attraction": "藤子F不二雄博物馆",
+  "status": "ok",
+  "local": "东京/藤子F不二雄博物馆_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
  }
 ]
