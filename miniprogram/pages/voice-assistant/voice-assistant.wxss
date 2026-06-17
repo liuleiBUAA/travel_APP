@@ -1,0 +1,155 @@
+.chat-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #f5f6f8;
+}
+
+/* 对话滚动区 */
+.chat-scroll {
+  flex: 1;
+  overflow: hidden;
+}
+.msg-list {
+  padding: 24rpx 24rpx 40rpx;
+}
+.msg-row {
+  display: flex;
+  margin-bottom: 24rpx;
+}
+.msg-row.left { justify-content: flex-start; }
+.msg-row.right { justify-content: flex-end; }
+
+/* 气泡 */
+.bubble {
+  max-width: 76%;
+  padding: 20rpx 26rpx;
+  border-radius: 24rpx;
+  font-size: 30rpx;
+  line-height: 1.5;
+  word-break: break-word;
+}
+.bubble-bot {
+  background: #ffffff;
+  color: #333;
+  border-top-left-radius: 6rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0,0,0,0.05);
+}
+.bubble-user {
+  background: #ff6b5c;
+  color: #fff;
+  border-top-right-radius: 6rpx;
+}
+
+/* 结果卡容器 */
+.card-wrap {
+  max-width: 82%;
+  display: flex;
+  flex-direction: column;
+}
+.result-card {
+  background: #fff;
+  border-radius: 18rpx;
+  padding: 22rpx 26rpx;
+  margin-bottom: 16rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0,0,0,0.06);
+}
+.rc-title {
+  font-size: 30rpx;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 8rpx;
+}
+.rc-sub {
+  font-size: 24rpx;
+  color: #888;
+}
+/* 攻略卡带缩略图 */
+.guide-card {
+  display: flex;
+  align-items: center;
+}
+.gc-thumb {
+  width: 96rpx;
+  height: 96rpx;
+  border-radius: 12rpx;
+  margin-right: 20rpx;
+  background: #eee;
+}
+.gc-info { flex: 1; }
+
+/* 发布确认卡 */
+.confirm-card {
+  max-width: 82%;
+  background: #fff;
+  border-radius: 20rpx;
+  padding: 28rpx 30rpx;
+  border: 2rpx solid #ffd9d2;
+  box-shadow: 0 2rpx 10rpx rgba(255,107,92,0.12);
+}
+.cc-title {
+  font-size: 32rpx;
+  font-weight: 700;
+  color: #ff6b5c;
+  margin-bottom: 18rpx;
+}
+.cc-row {
+  font-size: 28rpx;
+  color: #444;
+  margin-bottom: 10rpx;
+}
+.cc-btns {
+  display: flex;
+  margin-top: 24rpx;
+  gap: 20rpx;
+}
+.cc-btn {
+  flex: 1;
+  font-size: 28rpx;
+  border-radius: 999rpx;
+  padding: 12rpx 0;
+  line-height: 1.8;
+}
+.cc-btn.cancel {
+  background: #f0f0f0;
+  color: #666;
+}
+.cc-btn.confirm {
+  background: #ff6b5c;
+  color: #fff;
+}
+
+/* 底部输入区 */
+.input-bar {
+  display: flex;
+  align-items: center;
+  padding: 16rpx 24rpx;
+  padding-bottom: calc(16rpx + env(safe-area-inset-bottom));
+  background: #fff;
+  border-top: 1rpx solid #eee;
+  gap: 16rpx;
+}
+.text-input {
+  flex: 1;
+  height: 72rpx;
+  background: #f2f3f5;
+  border-radius: 36rpx;
+  padding: 0 28rpx;
+  font-size: 28rpx;
+}
+.voice-btn {
+  flex-shrink: 0;
+  min-width: 200rpx;
+  height: 72rpx;
+  background: #ff6b5c;
+  color: #fff;
+  border-radius: 36rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+}
+.voice-btn.recording {
+  background: #e64a3b;
+  transform: scale(0.97);
+}

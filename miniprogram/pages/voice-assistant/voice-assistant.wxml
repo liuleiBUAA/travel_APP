@@ -1,0 +1,61 @@
+<view class="chat-page">
+  <!-- 对话区 -->
+  <scroll-view class="chat-scroll" scroll-y scroll-into-view="{{scrollToView}}" scroll-with-animation>
+    <view class="msg-list">
+      <view wx:for="{{messages}}" wx:key="index" id="msg-{{index}}" class="msg-row {{item.role === 'user' ? 'right' : 'left'}}">
+
+        <!-- 文本气泡 -->
+        <view wx:if="{{item.type === 'text' && item.text}}" class="bubble {{item.role === 'user' ? 'bubble-user' : 'bubble-bot'}}">
+          <text>{{item.text}}</text>
+        </view>
+
+        <!-- 搭子结果卡 -->
+        <view wx:if="{{item.type === 'companions'}}" class="card-wrap">
+          <view wx:for="{{item.data}}" wx:for-item="c" wx:key="companion_id" class="result-card" bindtap="onTapCompanion" data-id="{{c.companion_id}}">
+            <view class="rc-title">{{c.user_name}} · {{c.duration_days}}天</view>
+            <view class="rc-sub">出发：{{c.travel_date}} · 当前 {{c.current_people}}</view>
+          </view>
+        </view>
+
+        <!-- 攻略结果卡 -->
+        <view wx:if="{{item.type === 'guides'}}" class="card-wrap">
+          <view wx:for="{{item.data}}" wx:for-item="g" wx:key="name" class="result-card guide-card" bindtap="onTapGuide" data-name="{{g.name}}">
+            <image wx:if="{{g.thumb}}" class="gc-thumb" src="{{g.thumb}}" mode="aspectFill"></image>
+            <view class="gc-info">
+              <view class="rc-title">{{g.name}}</view>
+              <view class="rc-sub">{{g.city || g.country || ''}}</view>
+            </view>
+          </view>
+        </view>
+
+        <!-- 发布二次确认卡 -->
+        <view wx:if="{{item.type === 'confirm'}}" class="confirm-card">
+          <view class="cc-title">📋 确认发布行程</view>
+          <view class="cc-row">目的地：{{item.data.cities}}</view>
+          <view class="cc-row">月份：{{item.data.travel_month}}月</view>
+          <view class="cc-row" wx:if="{{item.data.duration_days}}">天数：{{item.data.duration_days}}天</view>
+          <view class="cc-row" wx:if="{{item.data.seeking}}">想找：{{item.data.seeking}}</view>
+          <view class="cc-btns">
+            <button class="cc-btn cancel" bindtap="onCancelPublish">取消</button>
+            <button class="cc-btn confirm" bindtap="onConfirmPublish" data-card="{{item.data}}">确认发布</button>
+          </view>
+        </view>
+
+      </view>
+
+      <!-- loading -->
+      <view wx:if="{{loading}}" class="msg-row left">
+        <view class="bubble bubble-bot"><text>正在思考...</text></view>
+      </view>
+    </view>
+  </scroll-view>
+
+  <!-- 底部输入区 -->
+  <view class="input-bar">
+    <input class="text-input" value="{{inputText}}" placeholder="说不出来？也可以打字" bindinput="onInput" confirm-type="send" bindconfirm="sendText" />
+    <view class="voice-btn {{recording ? 'recording' : ''}}"
+          bindtouchstart="startRecord" bindtouchend="stopRecord">
+      <text>{{recording ? '松开发送' : '按住说话'}}</text>
+    </view>
+  </view>
+</view>

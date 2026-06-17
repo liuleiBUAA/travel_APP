@@ -143,5 +143,9 @@ module.exports = {
   },
   toggleLike(companionId) {
     return request(`/companions/${companionId}/like`, 'POST', {})
+  },
+  // 语音助手：传整段对话历史，后端判意图+分发
+  voiceAssistant(messages) {
+    return request('/voice/assistant', 'POST', { messages })
   }
 }

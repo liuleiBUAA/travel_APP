@@ -44,6 +44,11 @@ Page({
     wx.navigateTo({ url: '/pages/guide/guide' })
   },
 
+  // 语音助手
+  goVoice() {
+    wx.navigateTo({ url: '/pages/voice-assistant/voice-assistant' })
+  },
+
   // 找搭子（tab 页，switchTab 到找搭子选择页）
   goPublish() {
     wx.switchTab({ url: '/pages/companion/companion' })

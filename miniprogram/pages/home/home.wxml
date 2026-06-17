@@ -62,4 +62,10 @@
       <text class="quick-text">我的行程</text>
     </view>
   </view>
+
+  <!-- 悬浮语音助手入口 -->
+  <view class="voice-fab" bindtap="goVoice">
+    <text class="voice-fab-icon">🎤</text>
+    <text class="voice-fab-text">语音找搭子</text>
+  </view>
 </view>
