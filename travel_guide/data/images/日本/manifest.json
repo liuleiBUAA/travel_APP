@@ -1547,5 +1547,15 @@
   "artist": "Serene winter view through vibrant red torii gates in snowy Hokkaido, Japan.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "东京",
+  "attraction": "国立科学博物馆",
+  "status": "ok",
+  "local": "东京/国立科学博物馆_1.jpg",
+  "license": "CC (Wikipedia)",
+  "artist": "",
+  "source": "wikipedia",
+  "extras": []
  }
 ]

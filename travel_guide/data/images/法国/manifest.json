@@ -1482,5 +1482,15 @@
   "artist": "",
   "source": "wikimedia",
   "extras": []
+ },
+ {
+  "city": "阿维尼翁",
+  "attraction": "阿维尼翁城墙",
+  "status": "ok",
+  "local": "阿维尼翁/阿维尼翁城墙_1.jpg",
+  "license": "CC (Wikipedia)",
+  "artist": "",
+  "source": "wikipedia",
+  "extras": []
  }
 ]

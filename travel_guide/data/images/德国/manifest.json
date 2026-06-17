@@ -1211,5 +1211,15 @@
   "artist": "",
   "source": "wikimedia",
   "extras": []
+ },
+ {
+  "city": "慕尼黑",
+  "attraction": "谷物市场",
+  "status": "ok",
+  "local": "慕尼黑/谷物市场_1.jpg",
+  "license": "CC (Wikipedia)",
+  "artist": "",
+  "source": "wikipedia",
+  "extras": []
  }
 ]

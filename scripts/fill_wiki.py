@@ -13,9 +13,14 @@ def api(url):
     req=urllib.request.Request(url,headers={"User-Agent":UA})
     with urllib.request.urlopen(req,timeout=30) as r: return json.load(r)
 def download(url,dest):
-    req=urllib.request.Request(url,headers={"User-Agent":UA})
-    with urllib.request.urlopen(req,timeout=30) as r: data=r.read()
-    open(dest,"wb").write(data); return len(data)
+    for attempt in range(3):
+        try:
+            req=urllib.request.Request(url,headers={"User-Agent":UA})
+            with urllib.request.urlopen(req,timeout=30) as r: data=r.read()
+            open(dest,"wb").write(data); return len(data)
+        except Exception as e:
+            if attempt<2: time.sleep(2*(attempt+1))
+            else: raise
 def gray_score(fp):
     try:
         im=Image.open(fp).convert("RGB").resize((60,60)); px=list(im.getdata())

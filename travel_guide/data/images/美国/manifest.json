@@ -651,5 +651,15 @@
   "artist": "",
   "source": "wikipedia",
   "extras": []
+ },
+ {
+  "city": "华盛顿",
+  "attraction": "国家美术馆",
+  "status": "ok",
+  "local": "华盛顿/国家美术馆_1.jpg",
+  "license": "CC (Wikipedia)",
+  "artist": "",
+  "source": "wikipedia",
+  "extras": []
  }
 ]

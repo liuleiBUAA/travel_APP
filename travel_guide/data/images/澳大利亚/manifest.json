@@ -2396,5 +2396,15 @@
   "artist": "",
   "source": "wikimedia",
   "extras": []
+ },
+ {
+  "city": "珀斯",
+  "attraction": "伊丽莎白港",
+  "status": "ok",
+  "local": "珀斯/伊丽莎白港_1.jpg",
+  "license": "CC (Wikipedia)",
+  "artist": "",
+  "source": "wikipedia",
+  "extras": []
  }
 ]
