@@ -2296,5 +2296,45 @@
   "source": "wikimedia",
   "commons_file": "艾尔利海滩泻湖泳池_c0.jpg",
   "extras": []
+ },
+ {
+  "city": "汉密尔顿岛",
+  "attraction": "哈迪礁海上平台",
+  "status": "ok",
+  "local": "汉密尔顿岛/哈迪礁海上平台_1.jpg",
+  "license": "Pexels",
+  "artist": "Aerial photo of boats moored near coral reefs in the clear waters of Hurghada, Egypt.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "汉密尔顿岛",
+  "attraction": "One Tree Hill",
+  "status": "ok",
+  "local": "汉密尔顿岛/One Tree Hill_1.jpg",
+  "license": "Pexels",
+  "artist": "A breathtaking view of the serene Whitsundays beach with turquoise waters in Queensland, Australia.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "汉密尔顿岛",
+  "attraction": "汉密尔顿岛野生动物园",
+  "status": "ok",
+  "local": "汉密尔顿岛/汉密尔顿岛野生动物园_1.jpg",
+  "license": "Pexels",
+  "artist": "Two adorable koalas resting on a tree branch under a clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "珀斯",
+  "attraction": "Caversham野生动物园",
+  "status": "ok",
+  "local": "珀斯/Caversham野生动物园_1.jpg",
+  "license": "Pexels",
+  "artist": "A mother kangaroo with her joey in a tranquil park setting, Perth, Australia.",
+  "source": "pexels",
+  "extras": []
  }
 ]

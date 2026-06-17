@@ -746,5 +746,15 @@
   "source": "wikimedia",
   "commons_file": "德林库优地下城_c2.jpg",
   "extras": []
+ },
+ {
+  "city": "格雷梅",
+  "attraction": "阿瓦诺斯镇",
+  "status": "ok",
+  "local": "格雷梅/阿瓦诺斯镇_1.jpg",
+  "license": "Pexels",
+  "artist": "The Turkish flag waves proudly atop a hill in Avanos, Nevşehir against a bright blue sky.",
+  "source": "pexels",
+  "extras": []
  }
 ]

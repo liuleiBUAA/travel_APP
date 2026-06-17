@@ -1131,5 +1131,65 @@
   "source": "wikimedia",
   "commons_file": "王子的行列_zh.jpg",
   "extras": []
+ },
+ {
+  "city": "德累斯顿",
+  "attraction": "布吕尔平台",
+  "status": "ok",
+  "local": "德累斯顿/布吕尔平台_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning aerial view of Dresden showing historic architecture and the Elbe River under a clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "德累斯顿",
+  "attraction": "下雨会唱歌的房子",
+  "status": "ok",
+  "local": "德累斯顿/下雨会唱歌的房子_1.jpg",
+  "license": "Pexels",
+  "artist": "Close-up of a historic building's architectural detail showcasing AD 1749 inscription.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "德累斯顿",
+  "attraction": "大众透明工厂",
+  "status": "ok",
+  "local": "德累斯顿/大众透明工厂_1.jpg",
+  "license": "Pexels",
+  "artist": "Intricate reflection of glass and steel in modern architecture.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "汉堡",
+  "attraction": "汉堡碉堡",
+  "status": "ok",
+  "local": "汉堡/汉堡碉堡_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore this striking modern building in Hamburg, blending urban style and green innovation.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "科隆",
+  "attraction": "科隆三角大楼",
+  "status": "ok",
+  "local": "科隆/科隆三角大楼_1.jpg",
+  "license": "Pexels",
+  "artist": "Aerial view of Cologne Cathedral with golden sunrise over the Rhine River.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "科隆",
+  "attraction": "周杰伦同款拍照地",
+  "status": "ok",
+  "local": "科隆/周杰伦同款拍照地_1.jpg",
+  "license": "Pexels",
+  "artist": "Vibrant love locks on a bridge in Cologne, Germany with a passing train in the background.",
+  "source": "pexels",
+  "extras": []
  }
 ]

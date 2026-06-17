@@ -1199,5 +1199,25 @@
   "source": "wikimedia",
   "commons_file": "Kuirau Park公园_c0.jpg",
   "extras": []
+ },
+ {
+  "city": "皇后镇",
+  "attraction": "Main Street",
+  "status": "ok",
+  "local": "皇后镇/Main Street_1.jpg",
+  "license": "Pexels",
+  "artist": "Breathtaking aerial view of Queenstown by Lake Wakatipu, surrounded by majestic mountains under clear skies.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "罗托鲁瓦",
+  "attraction": "地狱之门",
+  "status": "ok",
+  "local": "罗托鲁瓦/地狱之门_1.jpg",
+  "license": "Pexels",
+  "artist": "Beautiful view of a steaming geothermal area with lush hills and cloudy sky.",
+  "source": "pexels",
+  "extras": []
  }
 ]

@@ -1362,5 +1362,35 @@
   "source": "wikimedia",
   "commons_file": "岩石公园_c3.jpg",
   "extras": []
+ },
+ {
+  "city": "尼斯",
+  "attraction": "城堡山丘",
+  "status": "ok",
+  "local": "尼斯/城堡山丘_1.jpg",
+  "license": "Pexels",
+  "artist": "Aerial view of Chateau Saint-Georges surrounded by lush greenery in Grasse, France.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "里昂",
+  "attraction": "微缩电影博物馆",
+  "status": "ok",
+  "local": "里昂/微缩电影博物馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Charming antique courtyard with arches in Lyon, France, showcasing classic architecture.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "里昂",
+  "attraction": "金头公园",
+  "status": "ok",
+  "local": "里昂/金头公园_1.jpg",
+  "license": "Pexels",
+  "artist": "Serene autumn landscape with trees reflecting on a lake in Lyon, France.",
+  "source": "pexels",
+  "extras": []
  }
 ]

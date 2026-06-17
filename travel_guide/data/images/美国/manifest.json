@@ -311,5 +311,155 @@
   "source": "wikimedia",
   "commons_file": "Kealakekua Bay_c0.jpg",
   "extras": []
+ },
+ {
+  "city": "芝加哥",
+  "attraction": "Field自然博物馆",
+  "status": "ok",
+  "local": "芝加哥/Field自然博物馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Imposing T-Rex fossil exhibit inside a historic museum in Los Angeles.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "可爱岛",
+  "attraction": "威陆亚河州立公园",
+  "status": "ok",
+  "local": "可爱岛/威陆亚河州立公园_1.jpg",
+  "license": "Pexels",
+  "artist": "Lush green landscapes and terraced fields in Hanalei Valley, Hawaii under a blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "红杉国家公园",
+  "attraction": "Hume Lake",
+  "status": "ok",
+  "local": "红杉国家公园/Hume Lake_1.jpg",
+  "license": "Pexels",
+  "artist": "A breathtaking view of Sequoia National Park with a vibrant forest and dramatic clouds.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "西雅图",
+  "attraction": "波音客机工厂",
+  "status": "ok",
+  "local": "西雅图/波音客机工厂_1.jpg",
+  "license": "Pexels",
+  "artist": "Low angle of engines and wing of modern aircraft in docking station on sunny day",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "迈阿密",
+  "attraction": "迈阿密植物园",
+  "status": "ok",
+  "local": "迈阿密/迈阿密植物园_1.jpg",
+  "license": "Pexels",
+  "artist": "Close-up of vibrant purple flowers with lush green leaves, capturing their natural beauty.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "檀香山",
+  "attraction": "植物园",
+  "status": "ok",
+  "local": "檀香山/植物园_1.jpg",
+  "license": "Pexels",
+  "artist": "Aerial view of a sunlit park with palm trees and walking path in Hawaii.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "新奥尔良",
+  "attraction": "LaBranche House",
+  "status": "ok",
+  "local": "新奥尔良/LaBranche House_1.jpg",
+  "license": "Pexels",
+  "artist": "Colorful Creole cottage exterior in New Orleans with orange shutters and ornate details.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "安克雷奇",
+  "attraction": "Valdez小镇",
+  "status": "ok",
+  "local": "安克雷奇/Valdez小镇_1.jpg",
+  "license": "Pexels",
+  "artist": "Beautiful coastal city with mountains and cruise ships under a clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "安克雷奇",
+  "attraction": "野生动物保护中心AWCC",
+  "status": "ok",
+  "local": "安克雷奇/野生动物保护中心AWCC_1.jpg",
+  "license": "Pexels",
+  "artist": "A peaceful scene of bisons grazing by a pond in lush countryside, capturing the essence of wildlife in nature.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "安克雷奇",
+  "attraction": "Whittier小镇",
+  "status": "ok",
+  "local": "安克雷奇/Whittier小镇_1.jpg",
+  "license": "Pexels",
+  "artist": "Scenic aerial view of a fjord surrounded by snow-capped mountains in Alaska, USA.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "奥兰多",
+  "attraction": "Wild Florida 野生动物园和草上飞",
+  "status": "ok",
+  "local": "奥兰多/Wild Florida 野生动物园和草上飞_1.jpg",
+  "license": "Pexels",
+  "artist": "American alligator in a Sarasota water pond, Florida USA.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "费城",
+  "attraction": "宾夕法尼亚大学",
+  "status": "ok",
+  "local": "费城/宾夕法尼亚大学_1.jpg",
+  "license": "Pexels",
+  "artist": "A historic brick building with columns in Gettysburg on a cloudy day.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "亚特兰大",
+  "attraction": "小城Chattanooga",
+  "status": "ok",
+  "local": "亚特兰大/小城Chattanooga_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning aerial view of Chattanooga, TN with bridges and river at sunset.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "亚特兰大",
+  "attraction": "观景点Bell Mountain",
+  "status": "ok",
+  "local": "亚特兰大/观景点Bell Mountain_1.jpg",
+  "license": "Pexels",
+  "artist": "A joyful dog on a rock cliff overlooking fall foliage in Mountain City, Georgia.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "波特兰",
+  "attraction": "Panorama Point",
+  "status": "ok",
+  "local": "波特兰/Panorama Point_1.jpg",
+  "license": "Pexels",
+  "artist": "Breathtaking view of the Columbia River and Mount Hood with a winding railway along the shore.",
+  "source": "pexels",
+  "extras": []
  }
 ]

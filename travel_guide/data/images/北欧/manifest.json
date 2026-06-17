@@ -1624,5 +1624,45 @@
   "source": "wikimedia",
   "commons_file": "Harpa音乐厅_c3.jpg",
   "extras": []
+ },
+ {
+  "city": "奥斯陆",
+  "attraction": "公共图书馆",
+  "status": "ok",
+  "local": "奥斯陆/公共图书馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Interior of spacious contemporary library with abundance of bookshelves with assorted literature near fences and modern escalators with glowing railings",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "丹麦建筑中心",
+  "status": "ok",
+  "local": "哥本哈根/丹麦建筑中心_1.jpg",
+  "license": "Pexels",
+  "artist": "Contemporary building by water under an overcast sky, showcasing urban architecture.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "特罗姆瑟",
+  "attraction": "特罗姆瑟大教堂",
+  "status": "ok",
+  "local": "特罗姆瑟/特罗姆瑟大教堂_1.jpg",
+  "license": "Pexels",
+  "artist": "Iconic Arctic Cathedral with striking modern design against a clear blue sky in Tromsø, Norway.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "特罗姆瑟",
+  "attraction": "公园观景台",
+  "status": "ok",
+  "local": "特罗姆瑟/公园观景台_1.jpg",
+  "license": "Pexels",
+  "artist": "Breathtaking aerial view of snow-covered Tromsø in winter, Norway with fjords and mountains.",
+  "source": "pexels",
+  "extras": []
  }
 ]

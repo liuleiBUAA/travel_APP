@@ -1066,5 +1066,55 @@
   "source": "wikimedia",
   "commons_file": "贾斯珀天空缆车_c2.jpg",
   "extras": []
+ },
+ {
+  "city": "瀑布城",
+  "attraction": "桌岩中心",
+  "status": "ok",
+  "local": "瀑布城/桌岩中心_1.jpg",
+  "license": "Pexels",
+  "artist": "A breathtaking aerial view of the Niagara Gorge with lush greenery and the flowing Niagara River.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "瀑布城",
+  "attraction": "摩天轮",
+  "status": "ok",
+  "local": "瀑布城/摩天轮_1.jpg",
+  "license": "Pexels",
+  "artist": "Dramatic fire explosion near the Niagara Falls Ferris wheel on a clear day.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "瀑布城",
+  "attraction": "赛车",
+  "status": "ok",
+  "local": "瀑布城/赛车_1.jpg",
+  "license": "Pexels",
+  "artist": "Child in go-kart racing on colorfully tiled track surrounded by tires.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "班夫",
+  "attraction": "诺奎山滑雪场",
+  "status": "ok",
+  "local": "班夫/诺奎山滑雪场_1.jpg",
+  "license": "Pexels",
+  "artist": "A breathtaking view of a snowy mountain landscape with skiers enjoying a sunny winter day.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "班夫",
+  "attraction": "阳光山村滑雪场",
+  "status": "ok",
+  "local": "班夫/阳光山村滑雪场_1.jpg",
+  "license": "Pexels",
+  "artist": "Majestic alpine peaks covered in snow under a clear blue sky, creating a serene winter landscape.",
+  "source": "pexels",
+  "extras": []
  }
 ]

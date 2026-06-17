@@ -1397,5 +1397,65 @@
   "source": "wikimedia",
   "commons_file": "若草山_zh.jpg",
   "extras": []
+ },
+ {
+  "city": "奈良",
+  "attraction": "春日大社",
+  "status": "ok",
+  "local": "奈良/春日大社_1.jpg",
+  "license": "Pexels",
+  "artist": "A deer stands among ancient moss-covered stone lanterns in Nara, capturing the serene blend of nature and culture.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "大阪",
+  "attraction": "大阪环球影城USJ",
+  "status": "ok",
+  "local": "大阪/大阪环球影城USJ_1.jpg",
+  "license": "Pexels",
+  "artist": "Iconic Universal Studios globe sculpture at sunset, symbolizing Hollywood magic.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "札幌",
+  "attraction": "札幌商业区",
+  "status": "ok",
+  "local": "札幌/札幌商业区_1.jpg",
+  "license": "Pexels",
+  "artist": "Dynamic cityscape of illuminated billboards in Sapporo during twilight, capturing urban energy.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "石垣岛",
+  "attraction": "石垣やいま村",
+  "status": "ok",
+  "local": "石垣岛/石垣やいま村_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore the traditional architecture of Xiyu, Taiwan, showcasing vibrant cultural heritage.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "石垣岛",
+  "attraction": "玉取崎展望台",
+  "status": "ok",
+  "local": "石垣岛/玉取崎展望台_1.jpg",
+  "license": "Pexels",
+  "artist": "Breathtaking view from an Okinawa cliff overlooking the serene, crystal-clear sea under a vibrant blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "东京",
+  "attraction": "吉卜力美术馆",
+  "status": "ok",
+  "local": "东京/吉卜力美术馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Contemporary building surrounded by lush yellow wildflowers in Nagoya's serene landscape.",
+  "source": "pexels",
+  "extras": []
  }
 ]

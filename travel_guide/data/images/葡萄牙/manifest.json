@@ -439,5 +439,25 @@
   "source": "wikimedia",
   "commons_file": "圣伊尔德丰索教堂_c1.jpg",
   "extras": []
+ },
+ {
+  "city": "里斯本",
+  "attraction": "热罗尼莫斯修道院",
+  "status": "ok",
+  "local": "里斯本/热罗尼莫斯修道院_1.jpg",
+  "license": "Pexels",
+  "artist": "Majestic view of Jeronimos Monastery's intricate architecture under a clear blue sky in Lisbon, Portugal.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "波尔图",
+  "attraction": "圣灵教堂",
+  "status": "ok",
+  "local": "波尔图/圣灵教堂_1.jpg",
+  "license": "Pexels",
+  "artist": "Baroque Clérigos Tower standing tall in Porto, Portugal cityscape under a vivid blue sky.",
+  "source": "pexels",
+  "extras": []
  }
 ]

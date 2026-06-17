@@ -868,5 +868,15 @@
   "source": "wikimedia",
   "commons_file": "穆塞格城墙_zh.jpg",
   "extras": []
+ },
+ {
+  "city": "因特拉肯",
+  "attraction": "哈德库尔姆观景台",
+  "status": "ok",
+  "local": "因特拉肯/哈德库尔姆观景台_1.jpg",
+  "license": "Pexels",
+  "artist": "A stunning aerial view of Interlaken, nestled between mountains and lakes, viewed from Harder Kulm.",
+  "source": "pexels",
+  "extras": []
  }
 ]

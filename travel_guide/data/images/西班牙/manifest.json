@@ -1077,5 +1077,65 @@
   "source": "wikimedia",
   "commons_file": "暹罗水上乐园（Siam Park）_c0.jpg",
   "extras": []
+ },
+ {
+  "city": "巴塞罗那",
+  "attraction": "焦糖山",
+  "status": "ok",
+  "local": "巴塞罗那/焦糖山_1.jpg",
+  "license": "Pexels",
+  "artist": "Aerial view of Barcelona cityscape featuring the Torre Glòries and Mediterranean Sea.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "特内里费岛",
+  "attraction": "Llano de Ucanca Vista Point观景台",
+  "status": "ok",
+  "local": "特内里费岛/Llano de Ucanca Vista Point观景台_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore the arid beauty of Teide National Park, showcasing volcanic rock formations and Mount Teide.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "特内里费岛",
+  "attraction": "Mirador de las Narices del Teide观景台",
+  "status": "ok",
+  "local": "特内里费岛/Mirador de las Narices del Teide观景台_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning view of Mount Teide with rugged volcanic terrain under a clear blue sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "特内里费岛",
+  "attraction": "TF-38弯道",
+  "status": "ok",
+  "local": "特内里费岛/TF-38弯道_1.jpg",
+  "license": "Pexels",
+  "artist": "Straight road through desert landscape with mountain. Perfect for travel and adventure themes.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "马德里",
+  "attraction": "二手书街",
+  "status": "ok",
+  "local": "马德里/二手书街_1.jpg",
+  "license": "Pexels",
+  "artist": "An assorted collection of books arranged on a table in Madrid, showcasing diverse genres and covers.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "塞维利亚",
+  "attraction": "弗拉门戈舞博物馆 Museo del Baile Flamenco",
+  "status": "ok",
+  "local": "塞维利亚/弗拉门戈舞博物馆 Museo del Baile Flamenco_1.jpg",
+  "license": "Pexels",
+  "artist": "Dynamic shot of a flamenco dancer in a vibrant red dress, captured mid-performance.",
+  "source": "pexels",
+  "extras": []
  }
 ]

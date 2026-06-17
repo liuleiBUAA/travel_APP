@@ -1537,5 +1537,75 @@
   "source": "wikimedia",
   "commons_file": "双子神殿_c1.jpg",
   "extras": []
+ },
+ {
+  "city": "多洛米蒂",
+  "attraction": "蝶鞍群山",
+  "status": "ok",
+  "local": "多洛米蒂/蝶鞍群山_1.jpg",
+  "license": "Pexels",
+  "artist": "Picturesque summer landscape of Sassolungo, Dolomites, Italy with rustic cabins and lush meadows.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "多洛米蒂",
+  "attraction": "拉加佐伊山",
+  "status": "ok",
+  "local": "多洛米蒂/拉加佐伊山_1.jpg",
+  "license": "Pexels",
+  "artist": "Picturesque scenery of houses placed in countryside against Dolomite Mountains in Italy under cloudless blue sky",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "多洛米蒂",
+  "attraction": "五塔山",
+  "status": "ok",
+  "local": "多洛米蒂/五塔山_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning view of Cinque Torri, Dolomites with green meadows and cloudy sky.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "阿马尔菲",
+  "attraction": "普莱亚诺",
+  "status": "ok",
+  "local": "阿马尔菲/普莱亚诺_1.jpg",
+  "license": "Pexels",
+  "artist": "Enjoy a serene coastal view from Praiano, Italy, with a lone hiker in a scenic landscape.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "阿马尔菲",
+  "attraction": "马约里",
+  "status": "ok",
+  "local": "阿马尔菲/马约里_1.jpg",
+  "license": "Pexels",
+  "artist": "Scenic aerial view of a picturesque Italian village on the Mediterranean coast.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "那不勒斯",
+  "attraction": "地下那不勒斯",
+  "status": "ok",
+  "local": "那不勒斯/地下那不勒斯_1.jpg",
+  "license": "Pexels",
+  "artist": "Skulls and bones stacked in the Paris Catacombs, creating a haunting display.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "那不勒斯",
+  "attraction": "西班牙区",
+  "status": "ok",
+  "local": "那不勒斯/西班牙区_1.jpg",
+  "license": "Pexels",
+  "artist": "Quaint narrow street with traditional buildings in Ciudadela de Menorca, under a clear blue sky.",
+  "source": "pexels",
+  "extras": []
  }
 ]

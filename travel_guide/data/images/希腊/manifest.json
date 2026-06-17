@@ -563,5 +563,55 @@
   "source": "wikimedia",
   "commons_file": "卫城博物馆_c2.jpg",
   "extras": []
+ },
+ {
+  "city": "雅典",
+  "attraction": "亚略巴古山",
+  "status": "ok",
+  "local": "雅典/亚略巴古山_1.jpg",
+  "license": "Pexels",
+  "artist": "Panoramic view of Athens cityscape with iconic Lycabettus Hill, under clear blue skies.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "圣托里尼",
+  "attraction": "Oia小镇",
+  "status": "ok",
+  "local": "圣托里尼/Oia小镇_1.jpg",
+  "license": "Pexels",
+  "artist": "Beautiful view of Oia village in Santorini, showcasing traditional white buildings and blue sea.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "圣托里尼",
+  "attraction": "Firostefani国家地理蓝顶教堂",
+  "status": "ok",
+  "local": "圣托里尼/Firostefani国家地理蓝顶教堂_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning view of a blue domed church overlooking the Aegean Sea in Santorini, Greece.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "罗德岛",
+  "attraction": "罗德卫城",
+  "status": "ok",
+  "local": "罗德岛/罗德卫城_1.jpg",
+  "license": "Pexels",
+  "artist": "Scenic view of ancient Greek ruins with stone columns and walls against a vibrant blue Aegean Sea backdrop.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "克里特岛",
+  "attraction": "粉色沙滩",
+  "status": "ok",
+  "local": "克里特岛/粉色沙滩_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning aerial view of Elafonissi Beach in Greece with crystal-clear turquoise waters and white sands.",
+  "source": "pexels",
+  "extras": []
  }
 ]
