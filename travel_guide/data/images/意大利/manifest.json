@@ -1727,5 +1727,25 @@
     "artist": "A panoramic view of Florence, featuring the iconic Duomo and Arno River under a bright blue sky.",
     "source": "Pexels",
     "extras": []
+  },
+  {
+    "city": "佛罗伦萨",
+    "attraction": "中央市场",
+    "status": "ok",
+    "local": "佛罗伦萨/中央市场_1.jpg",
+    "license": "CC (Wikimedia Commons)",
+    "artist": "",
+    "source": "Wikimedia Commons",
+    "extras": []
+  },
+  {
+    "city": "托斯卡纳",
+    "attraction": "中央市场",
+    "status": "ok",
+    "local": "托斯卡纳/中央市场_1.jpg",
+    "license": "CC (Wikimedia Commons)",
+    "artist": "",
+    "source": "Wikimedia Commons",
+    "extras": []
   }
 ]

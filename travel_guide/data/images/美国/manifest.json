@@ -741,5 +741,35 @@
     "artist": "Silhouettes of people admire vibrant marine life in a massive aquarium display, showcasing diverse fish species.",
     "source": "Pexels",
     "extras": []
+  },
+  {
+    "city": "檀香山",
+    "attraction": "珍珠港",
+    "status": "ok",
+    "local": "檀香山/珍珠港_1.jpg",
+    "license": "CC (Wikimedia Commons)",
+    "artist": "",
+    "source": "Wikimedia Commons",
+    "extras": []
+  },
+  {
+    "city": "华盛顿",
+    "attraction": "国会大厦",
+    "status": "ok",
+    "local": "华盛顿/国会大厦_1.jpg",
+    "license": "CC (Wikimedia Commons)",
+    "artist": "",
+    "source": "Wikimedia Commons",
+    "extras": []
+  },
+  {
+    "city": "费城",
+    "attraction": "市政厅",
+    "status": "ok",
+    "local": "费城/市政厅_1.jpg",
+    "license": "CC (Wikimedia Commons)",
+    "artist": "",
+    "source": "Wikimedia Commons",
+    "extras": []
   }
 ]

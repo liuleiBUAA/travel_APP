@@ -1196,5 +1196,15 @@
     "artist": "Majestic waterfall cascading against a backdrop of lush forests and towering mountains under a clear blue sky.",
     "source": "Pexels",
     "extras": []
+  },
+  {
+    "city": "贾斯珀",
+    "attraction": "玛琳峡谷",
+    "status": "ok",
+    "local": "贾斯珀/玛琳峡谷_1.jpg",
+    "license": "CC (Wikimedia Commons)",
+    "artist": "",
+    "source": "Wikimedia Commons",
+    "extras": []
   }
 ]

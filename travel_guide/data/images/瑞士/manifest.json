@@ -888,5 +888,15 @@
     "artist": "Beautiful sunny day in Zürich with historic buildings and clear water reflecting cityscape charm.",
     "source": "Pexels",
     "extras": []
+  },
+  {
+    "city": "日内瓦",
+    "attraction": "圣彼得大教堂",
+    "status": "ok",
+    "local": "日内瓦/圣彼得大教堂_1.jpg",
+    "license": "CC (Wikimedia Commons)",
+    "artist": "",
+    "source": "Wikimedia Commons",
+    "extras": []
   }
 ]
