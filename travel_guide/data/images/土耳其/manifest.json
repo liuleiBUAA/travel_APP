@@ -766,5 +766,15 @@
   "artist": "Explore the historic rock-carved architecture of the Zelve Open Air Museum in Cappadocia, Turkey.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "伊兹密尔",
+  "attraction": "伊兹密尔大电梯",
+  "status": "ok",
+  "local": "伊兹密尔/伊兹密尔大电梯_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
  }
 ]
