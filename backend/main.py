@@ -59,6 +59,7 @@ from services.match_service import MatchService
 from services.auth_service import (wx_code2session, login_or_register, get_current_user,
                                     register_web, login_web, update_profile, verify_token)
 from services.wx_service import msg_sec_check
+from services.llm_service import parse_intent
 from models import User
 
 app = FastAPI(title="找搭子小程序API", version="1.0.0")
@@ -193,6 +194,11 @@ class CompanionPublishRequest(BaseModel):
     contact_wechat: Optional[str] = None  # 联系方式（微信号），详情页仅登录用户可见
 
     preferences: Optional[Dict[str, Any]] = None  # 其他偏好
+
+
+class VoiceAssistantRequest(BaseModel):
+    """语音助手对话请求：传整段对话历史，后端无状态。"""
+    messages: List[Dict[str, str]]  # [{"role":"user"|"assistant","content":str}, ...]
 
 
 class CompanionMatchRequest(BaseModel):
@@ -2037,6 +2043,148 @@ async def search_attractions(q: str, limit: int = 30):
         first = img.first_image(r["name"])
         r["thumb"] = first["url"] if first else None
     return {"success": True, "query": q, "count": len(results), "results": results}
+
+
+@app.post("/api/voice/assistant")
+async def voice_assistant(request: VoiceAssistantRequest):
+    """语音对话式意图路由：
+    小程序把整段对话历史发上来 → 内容安全审核最新用户句 → LLM 判意图+抽槽位+判是否追问 →
+    按意图分发到已有业务接口；发布操作只解析参数返回"确认卡"，由前端二次确认后再真正 publish。
+
+    返回:
+        success, intent, reply(口语回话), need_more(是否在追问),
+        slots(抽出的槽位), action(前端下一步该做什么), data(结果数据)
+    """
+    msgs = request.messages or []
+    if not msgs:
+        raise HTTPException(400, "messages 不能为空")
+
+    # 1) 内容安全：审核最新一条用户消息（复用现成 msgSecCheck，未配 appid 时自动放行）
+    last_user = next((m["content"] for m in reversed(msgs) if m.get("role") == "user"), "")
+    if last_user:
+        try:
+            ok = msg_sec_check(last_user, openid="voice_assistant", scene=2)
+            if ok is False:
+                return {
+                    "success": True,
+                    "intent": "blocked",
+                    "reply": "你说的内容不太合适，换个说法吧~",
+                    "need_more": False,
+                    "slots": {},
+                    "action": "none",
+                    "data": None,
+                }
+        except Exception as e:
+            print(f"⚠️ msg_sec_check 异常(放行): {e}")
+
+    # 2) LLM 意图识别 + 槽位抽取 + 追问判断
+    try:
+        parsed = parse_intent(msgs)
+    except Exception as e:
+        print(f"⚠️ LLM parse_intent 失败: {e}")
+        return {
+            "success": True,
+            "intent": "unknown",
+            "reply": "我没太听清，能再说一遍吗？比如「找7月去日本的搭子」。",
+            "need_more": True,
+            "slots": {},
+            "action": "retry",
+            "data": None,
+        }
+
+    intent = parsed.get("intent", "unknown")
+    slots = parsed.get("slots", {})
+    reply = parsed.get("reply", "")
+    need_more = parsed.get("need_more", False)
+
+    base = {
+        "success": True,
+        "intent": intent,
+        "reply": reply,
+        "need_more": need_more,
+        "slots": slots,
+    }
+
+    # 信息不全 → 直接把追问回话返回，前端继续录音补充（对话历史在前端累积）
+    if need_more:
+        base["action"] = "ask"
+        base["data"] = None
+        return base
+
+    cities = slots.get("cities") or []
+    travel_month = slots.get("travel_month")
+
+    # 3) 按意图分发
+    if intent == "find_companion":
+        # 找搭子：按城市搜，再用抽出的月份精筛（用户没说月份就不筛；没说人数就不筛人数）
+        db = next(get_db())
+        try:
+            from models import Companion
+            kw = cities[0] if cities else ""
+            query = db.query(Companion)
+            if kw:
+                query = query.filter(Companion.cities.like(f"%{kw}%"))
+            companions = query.order_by(Companion.created_at.desc()).limit(60).all()
+
+            # 月份精筛在 Python 侧做（避开 SQLite/其它库的 SQL 方言差异）。
+            # 用户没说月份就不筛；没说人数本就不涉及人数过滤。
+            if travel_month:
+                companions = [c for c in companions if c.travel_date and c.travel_date.month == travel_month]
+            companions = companions[:20]
+
+            data = []
+            for c in companions:
+                display_name = _get_display_name(db, c.user_id, c.user_name)
+                data.append({
+                    "companion_id": c.id,
+                    "user_name": display_name,
+                    "route": json.loads(c.route_json),
+                    "travel_date": c.travel_date.strftime("%Y-%m-%d"),
+                    "duration_days": c.duration_days,
+                    "seeking": json.loads(c.seeking),
+                    "current_people": f"{getattr(c, 'user_male_count', 0)}男{getattr(c, 'user_female_count', 1)}女",
+                    "created_at": c.created_at.strftime("%Y-%m-%d %H:%M"),
+                })
+            base["action"] = "show_companions"
+            base["data"] = {"count": len(data), "list": data}
+            if not data:
+                base["reply"] = (reply + " 暂时没找到合适的搭子，要不要换个时间或目的地？").strip()
+            return base
+        finally:
+            db.close()
+
+    if intent == "search_guide":
+        # 查攻略：调现有攻略搜索
+        from services.playbook_service import get_playbook_index
+        from services.image_service import get_image_index
+        q = cities[0] if cities else ""
+        results = get_playbook_index().search(q, limit=10)
+        img = get_image_index()
+        for r in results:
+            first = img.first_image(r["name"])
+            r["thumb"] = first["url"] if first else None
+        base["action"] = "show_guides"
+        base["data"] = {"query": q, "count": len(results), "results": results}
+        if not results:
+            base["reply"] = (reply + f" 暂时没有「{q}」的攻略哦。").strip()
+        return base
+
+    if intent == "publish_route":
+        # 发布：只解析参数返回"确认卡"，绝不在此写库。用户点【确认发布】后前端再走 generate+publish。
+        base["action"] = "confirm_publish"
+        base["data"] = {
+            "cities": cities,
+            "travel_month": travel_month,
+            "duration_days": slots.get("duration_days"),
+            "seeking": slots.get("seeking"),
+        }
+        return base
+
+    # unknown / 其它
+    base["action"] = "none"
+    base["data"] = None
+    return base
+
 
 
 @app.get("/api/destinations/structure")
