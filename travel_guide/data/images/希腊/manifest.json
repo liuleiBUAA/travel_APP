@@ -643,5 +643,15 @@
   "artist": "",
   "source": "wikimedia",
   "extras": []
+ },
+ {
+  "city": "圣托里尼",
+  "attraction": "红石滩",
+  "status": "ok",
+  "local": "圣托里尼/红石滩_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
  }
 ]

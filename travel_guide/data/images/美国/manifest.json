@@ -531,5 +531,15 @@
   "artist": "",
   "source": "wikimedia",
   "extras": []
+ },
+ {
+  "city": "华盛顿",
+  "attraction": "间谍博物馆",
+  "status": "ok",
+  "local": "华盛顿/间谍博物馆_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
  }
 ]

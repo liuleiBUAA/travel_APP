@@ -16,7 +16,7 @@ def api(url):
     with urllib.request.urlopen(req,timeout=30) as r:
         return json.load(r)
 
-def search_images(q,limit=6):
+def search_images(q,limit=12):
     # generator=search in File namespace, get imageinfo url
     base="https://commons.wikimedia.org/w/api.php?"
     p={"action":"query","format":"json","generator":"search",
@@ -28,10 +28,17 @@ def search_images(q,limit=6):
         print("   api err",e); return []
     pages=(d.get("query") or {}).get("pages") or {}
     out=[]
+    # 排除馆藏画作/肖像/雕塑特写等(标题含这些词的多半不是建筑/景点本身)
+    BAD=["painting","portrait","oil on","canvas","drawing","sketch","engraving",
+         "sculpture of","bust of","statue of a","fresco","altarpiece","madonna",
+         "saint ","st. ","virgin","christ","crucifix","manuscript","map of","coat of arms",
+         "-_","tiepolo","rubens","goya","el_greco","rembrandt","caravaggio"]
     for pg in pages.values():
         ii=(pg.get("imageinfo") or [{}])[0]
         url=ii.get("thumburl") or ii.get("url")
         w=ii.get("width",0); h=ii.get("height",0)
+        title=(pg.get("title","") or "").lower()
+        if any(b in title for b in BAD): continue
         if url and url.lower().endswith((".jpg",".jpeg",".png")):
             out.append((url,w,h,pg.get("title","")))
     return out
@@ -55,7 +62,7 @@ def download(url,dest):
 results=[]; bycity=defaultdict(list); spot_q={}
 for it in ITEMS:
     region,city,spot,q=it["region"],it["city"],it["spot"],it["q"]
-    cand=search_images(q,limit=6)
+    cand=search_images(q,limit=12)
     best=None;bestgs=-1
     for url,w,h,title in cand:
         ext=os.path.splitext(url.split("?")[0])[1] or ".jpg"

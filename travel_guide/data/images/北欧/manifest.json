@@ -1674,5 +1674,15 @@
   "artist": "Modern library with unique curved bookshelves and wooden floors, creating a warm and inviting atmosphere.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "公共浴场",
+  "status": "ok",
+  "local": "哥本哈根/公共浴场_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
  }
 ]
