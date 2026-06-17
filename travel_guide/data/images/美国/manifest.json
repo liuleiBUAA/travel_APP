@@ -581,5 +581,25 @@
   "artist": "",
   "source": "wikipedia",
   "extras": []
+ },
+ {
+  "city": "死亡谷",
+  "attraction": "游客中心",
+  "status": "ok",
+  "local": "死亡谷/游客中心_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
+ },
+ {
+  "city": "红杉国家公园",
+  "attraction": "Junction View",
+  "status": "ok",
+  "local": "红杉国家公园/Junction View_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
  }
 ]

@@ -1472,5 +1472,15 @@
   "artist": "",
   "source": "wikipedia",
   "extras": []
+ },
+ {
+  "city": "阿维尼翁",
+  "attraction": "共和国街",
+  "status": "ok",
+  "local": "阿维尼翁/共和国街_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
  }
 ]
