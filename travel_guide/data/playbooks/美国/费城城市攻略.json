@@ -1,250 +1,244 @@
 {
-  "name": "费城",
-  "type": "city",
-  "aliases": [
-    "Philadelphia"
-  ],
-  "city": "费城",
-  "country": "美国",
-  "summary": "费城是美国的诞生地，独立宣言和宪法在这里通过，1790-1800年期间一直是美国的首都。市区景点集中在历史街区，适合步行游览独立宫、市政厅等历史地标，还可参观费城艺术博物馆和宾夕法尼亚大学。",
-  "transport": {
-    "fly_train": "费城国际机场PHL距离市中心20分钟车程，打车28美金+。从纽约巴士2小时约20美金、火车1.5小时提前订10-20美金临时订100美金+；从华盛顿巴士3小时、火车2小时",
-    "drive": "距离纽约100英里约2小时，距离华盛顿140英里。可顺路游览普林斯顿大学，停车费用SpotHero预订可控制在20美金/天以内",
-    "local": "市区景点集中，步行+Uber组合最佳。巴士或地铁单程2美金，支持Apple/Google Pay"
+ "name": "费城",
+ "type": "city",
+ "aliases": [
+  "Philadelphia"
+ ],
+ "city": "费城",
+ "country": "美国",
+ "summary": "费城是美国的诞生地，独立宣言和宪法在这里通过，1790-1800年期间一直是美国的首都。市区景点集中在历史街区，适合步行游览独立宫、市政厅等历史地标，还可参观费城艺术博物馆和宾夕法尼亚大学。",
+ "transport": {
+  "fly_train": "费城国际机场PHL距离市中心20分钟车程，打车28美金+。从纽约巴士2小时约20美金、火车1.5小时提前订10-20美金临时订100美金+；从华盛顿巴士3小时、火车2小时",
+  "drive": "距离纽约100英里约2小时，距离华盛顿140英里。可顺路游览普林斯顿大学，停车费用SpotHero预订可控制在20美金/天以内",
+  "local": "市区景点集中，步行+Uber组合最佳。巴士或地铁单程2美金，支持Apple/Google Pay"
+ },
+ "hotels": [
+  {
+   "name": "Hilton Garden Inn Philadelphia Center City",
+   "area": "市政厅附近",
+   "star": 3,
+   "score": "8.0",
+   "reviews": "2300",
+   "note": "性价比较高",
+   "link": ""
   },
-  "hotels": [
-    {
-      "name": "Hilton Garden Inn Philadelphia Center City",
-      "area": "市政厅附近",
-      "star": 3,
-      "score": "8.0",
-      "reviews": "2300",
-      "note": "性价比较高",
-      "link": ""
-    },
-    {
-      "name": "Holiday Inn Express Philadelphia",
-      "area": "市政厅附近",
-      "star": 3,
-      "score": "8.5",
-      "reviews": "1700",
-      "note": "性价比较高，步行5分钟到市政厅",
-      "link": ""
-    },
-    {
-      "name": "Motto by Hilton Rittenhouse Square",
-      "area": "市政厅附近",
-      "star": 3,
-      "score": "8.5",
-      "reviews": "2000",
-      "note": "性价比较高",
-      "link": ""
-    },
-    {
-      "name": "Club Quarters Hotel Rittenhouse Square",
-      "area": "市政厅附近",
-      "star": 4,
-      "score": "8.3",
-      "reviews": "3500",
-      "note": "性价比较高，步行5分钟到市政厅",
-      "link": ""
-    },
-    {
-      "name": "The Windsor Suites Philadelphia",
-      "area": "市政厅附近",
-      "star": 4,
-      "score": "8.3",
-      "reviews": "2700",
-      "note": "房价略高但品质更好",
-      "link": ""
-    },
-    {
-      "name": "Hyatt Centric Center City Philadelphia",
-      "area": "市政厅附近",
-      "star": 4,
-      "score": "8.7",
-      "reviews": "600",
-      "note": "房价略高但品质更好",
-      "link": ""
-    },
-    {
-      "name": "Element by Marriott Philadelphia Downtown",
-      "area": "市政厅附近",
-      "star": 4,
-      "score": "8.8",
-      "reviews": "800",
-      "note": "步行5分钟到市政厅",
-      "link": ""
-    },
-    {
-      "name": "Philadelphia Marriott Downtown",
-      "area": "市政厅附近",
-      "star": 4,
-      "score": "8.0",
-      "reviews": "1000",
-      "note": "步行5分钟到市政厅",
-      "link": ""
-    },
-    {
-      "name": "The Study at University City",
-      "area": "宾夕法尼亚大学附近",
-      "star": 4,
-      "score": "9.0",
-      "reviews": "1000",
-      "note": "出门就是宾大，好评很多",
-      "link": ""
-    },
-    {
-      "name": "The Inn at Penn, A Hilton Hotel",
-      "area": "宾夕法尼亚大学附近",
-      "star": 4,
-      "score": "8.3",
-      "reviews": "290",
-      "note": "适合喜欢学校氛围的游客",
-      "link": ""
-    },
-    {
-      "name": "Penn's View Hotel Philadelphia",
-      "area": "独立宫附近",
-      "star": 3,
-      "score": "8.6",
-      "reviews": "1400",
-      "note": "景区位置方便",
-      "link": ""
-    },
-    {
-      "name": "Wyndham Philadelphia-Historic District",
-      "area": "独立宫附近",
-      "star": 4,
-      "score": "7.9",
-      "reviews": "3000",
-      "note": "景区位置方便",
-      "link": ""
-    }
-  ],
-  "hotel_intro": "推荐住在市政厅附近，治安好且出行用餐方便。喜欢学校氛围可选宾夕法尼亚大学附近，想住景区可选独立宫附近。",
-  "attractions": [
-    {
-      "name": "市政厅",
-      "order": 1,
-      "tagline": "街边拍照或登顶俯瞰全城，5-30分钟",
-      "has_detail": false
-    },
-    {
-      "name": "独立宫",
-      "order": 2,
-      "tagline": "美式爱国主义教育基地，美国独立宣言和宪法通过地，30分钟",
-      "has_detail": false
-    },
-    {
-      "name": "费城艺术博物馆",
-      "order": 3,
-      "tagline": "著名美术馆门票30美金，周二/周三休馆，2-4小时",
-      "has_detail": false
-    },
-    {
-      "name": "宾夕法尼亚大学",
-      "order": 4,
-      "tagline": "藤校，可参观图书馆和博物馆，1-2小时",
-      "has_detail": false
-    },
-    {
-      "name": "东州教养所",
-      "order": 5,
-      "tagline": "充满废墟美的监狱门票21美金，周二关闭，1-2小时",
-      "has_detail": false
-    },
-    {
-      "name": "Reading Terminal Market",
-      "order": 6,
-      "tagline": "传统市场，15-30分钟",
-      "has_detail": false
-    },
-    {
-      "name": "魔法花园",
-      "order": 7,
-      "tagline": "小众网红打卡地门票15美金，周二休园，15-30分钟",
-      "has_detail": false
-    },
-    {
-      "name": "穆特博物馆",
-      "order": 8,
-      "tagline": "恐怖的医学博物馆门票20美金，周二休馆，1小时",
-      "has_detail": false
-    },
-    {
-      "name": "Otherworld",
-      "order": 9,
-      "tagline": "灯光互动艺术展门票35美金，费城周边，1-2小时",
-      "has_detail": false
-    },
-    {
-      "name": "Chanticleer Garden",
-      "order": 10,
-      "tagline": "小型花园春秋最美门票15美金，费城周边，1-2小时",
-      "has_detail": false
-    },
-    {
-      "name": "Longwood Garden",
-      "order": 11,
-      "tagline": "美东最美花园春天最美门票35美金，费城周边，3-4小时",
-      "has_detail": false
-    },
-    {
-      "name": "Holland Ridge Farms",
-      "order": 12,
-      "tagline": "每年4月看郁金香门票17-25美金，费城周边，2小时",
-      "has_detail": false
-    },
-    {
-      "name": "Cape May",
-      "order": 13,
-      "tagline": "海边度假，费城周边需2天1夜游",
-      "has_detail": false
-    },
-    {
-      "name": "Jim Thorpe",
-      "order": 14,
-      "tagline": "10月中坐小火车赏秋车票23-54美金，费城周边半日/一日游",
-      "has_detail": false
-    }
-  ],
-  "itinerary": [
-    {
-      "day": "1",
-      "title": "历史街区+艺术博物馆",
-      "detail": "上午游览市政厅和独立宫，在Reading市场或Chinatown午餐，下午参观费城艺术博物馆（周二/周三休馆需注意）"
-    },
-    {
-      "day": "2",
-      "title": "监狱+大学漫步",
-      "detail": "上午游览东州教养所（需预订），下午去宾夕法尼亚大学漫步，参观图书馆和博物馆"
-    }
-  ],
-  "sections": [
-    {
-      "title": "美国诞生地的历史印记",
-      "content": "费城是美国的诞生地，独立宣言和宪法在这里通过，1790至1800年期间一直是美国的首都，现在是美国第六大城市。走在费城的历史街区，仿佛穿越回美国建国时期。市政厅是地标建筑，可以在街边拍照或登顶俯瞰全城。独立宫是美式爱国主义教育基地，这里是美国独立宣言和宪法的通过地，30分钟的参观足以感受那段波澜壮阔的历史。"
-    },
-    {
-      "title": "艺术与文化的交融",
-      "content": "费城艺术博物馆是著名的美术馆，门票30美金，需要注意周二和周三休馆。这里收藏丰富，建议安排2到4小时细细品味。宾夕法尼亚大学作为藤校之一，校园本身就是一道风景线，可以参观图书馆和博物馆，感受学术氛围。东州教养所是一座充满废墟美的监狱，门票21美金，周二关闭，这座曾经关押过『阿尔·卡彭』等名人的监狱如今成为独特的历史遗迹，1到2小时的参观会给你带来特别的体验。"
-    },
-    {
-      "title": "便捷的交通网络",
-      "content": "费城位于宾夕法尼亚州，交通便利。从纽约出发，巴士2小时约20美金，火车1.5小时提前订票只需10到20美金，临时购买可能要100美金以上。从华盛顿出发，巴士3小时，火车2小时。费城国际机场距离市中心20分钟车程，打车28美金以上。如果自驾前来，距离纽约100英里约2小时车程，可以顺路游览普林斯顿大学。市区景点集中，步行加Uber的组合最佳，巴士或地铁单程2美金，支持Apple Pay和Google Pay。提前用SpotHero订车位，停车费可以控制在20美金每天以内。"
-    },
-    {
-      "title": "住宿区域建议",
-      "content": "推荐住在市政厅附近，这一区域治安良好且出行用餐方便。Holiday Inn Express Philadelphia和Club Quarters Hotel Rittenhouse Square步行5分钟即可到达市政厅，性价比很高。如果喜欢学校氛围，可以选择宾夕法尼亚大学附近的The Study at University City，出门就是宾大，好评如潮。想住在景区的游客可以考虑独立宫附近的Penn's View Hotel Philadelphia或Wyndham Philadelphia-Historic District。"
-    },
-    {
-      "title": "周边精彩延伸",
-      "content": "费城周边有不少值得一游的地方。Longwood Garden是美东最美的花园，春天最美，门票35美金，建议安排3到4小时游览。Holland Ridge Farms每年4月可以看郁金香，门票17到25美金。喜欢海边的可以去Cape May，需要安排2天1夜游。10月中想赏秋的可以去Jim Thorpe坐小火车，车票23到54美金，可以安排半日或一日游。Otherworld是灯光互动艺术展，门票35美金，1到2小时的体验充满趣味。"
-    }
-  ],
-  "duration": "1-2天",
-  "best_time": "4-5月和9-10月气候宜人，适合步行逛历史街区",
-  "transport_map": "美国/费城_交通图6970.png",
-  "transport_map_inner": "美国/费城_市内交通图6970.png"
+  {
+   "name": "Holiday Inn Express Philadelphia",
+   "area": "市政厅附近",
+   "star": 3,
+   "score": "8.5",
+   "reviews": "1700",
+   "note": "性价比较高，步行5分钟到市政厅",
+   "link": ""
+  },
+  {
+   "name": "Motto by Hilton Rittenhouse Square",
+   "area": "市政厅附近",
+   "star": 3,
+   "score": "8.5",
+   "reviews": "2000",
+   "note": "性价比较高",
+   "link": ""
+  },
+  {
+   "name": "Club Quarters Hotel Rittenhouse Square",
+   "area": "市政厅附近",
+   "star": 4,
+   "score": "8.3",
+   "reviews": "3500",
+   "note": "性价比较高，步行5分钟到市政厅",
+   "link": ""
+  },
+  {
+   "name": "The Windsor Suites Philadelphia",
+   "area": "市政厅附近",
+   "star": 4,
+   "score": "8.3",
+   "reviews": "2700",
+   "note": "房价略高但品质更好",
+   "link": ""
+  },
+  {
+   "name": "Hyatt Centric Center City Philadelphia",
+   "area": "市政厅附近",
+   "star": 4,
+   "score": "8.7",
+   "reviews": "600",
+   "note": "房价略高但品质更好",
+   "link": ""
+  },
+  {
+   "name": "Element by Marriott Philadelphia Downtown",
+   "area": "市政厅附近",
+   "star": 4,
+   "score": "8.8",
+   "reviews": "800",
+   "note": "步行5分钟到市政厅",
+   "link": ""
+  },
+  {
+   "name": "Philadelphia Marriott Downtown",
+   "area": "市政厅附近",
+   "star": 4,
+   "score": "8.0",
+   "reviews": "1000",
+   "note": "步行5分钟到市政厅",
+   "link": ""
+  },
+  {
+   "name": "The Study at University City",
+   "area": "宾夕法尼亚大学附近",
+   "star": 4,
+   "score": "9.0",
+   "reviews": "1000",
+   "note": "出门就是宾大，好评很多",
+   "link": ""
+  },
+  {
+   "name": "The Inn at Penn, A Hilton Hotel",
+   "area": "宾夕法尼亚大学附近",
+   "star": 4,
+   "score": "8.3",
+   "reviews": "290",
+   "note": "适合喜欢学校氛围的游客",
+   "link": ""
+  },
+  {
+   "name": "Penn's View Hotel Philadelphia",
+   "area": "独立宫附近",
+   "star": 3,
+   "score": "8.6",
+   "reviews": "1400",
+   "note": "景区位置方便",
+   "link": ""
+  },
+  {
+   "name": "Wyndham Philadelphia-Historic District",
+   "area": "独立宫附近",
+   "star": 4,
+   "score": "7.9",
+   "reviews": "3000",
+   "note": "景区位置方便",
+   "link": ""
+  }
+ ],
+ "hotel_intro": "推荐住在市政厅附近，治安好且出行用餐方便。喜欢学校氛围可选宾夕法尼亚大学附近，想住景区可选独立宫附近。",
+ "attractions": [
+  {
+   "name": "市政厅",
+   "order": 1,
+   "tagline": "街边拍照或登顶俯瞰全城，5-30分钟",
+   "has_detail": false
+  },
+  {
+   "name": "独立宫",
+   "order": 2,
+   "tagline": "美式爱国主义教育基地，美国独立宣言和宪法通过地，30分钟",
+   "has_detail": false
+  },
+  {
+   "name": "费城艺术博物馆",
+   "order": 3,
+   "tagline": "著名美术馆门票30美金，周二/周三休馆，2-4小时",
+   "has_detail": false
+  },
+  {
+   "name": "宾夕法尼亚大学",
+   "order": 4,
+   "tagline": "藤校，可参观图书馆和博物馆，1-2小时",
+   "has_detail": false
+  },
+  {
+   "name": "东州教养所",
+   "order": 5,
+   "tagline": "充满废墟美的监狱门票21美金，周二关闭，1-2小时",
+   "has_detail": false
+  },
+  {
+   "name": "Reading Terminal Market",
+   "order": 6,
+   "tagline": "传统市场，15-30分钟",
+   "has_detail": false
+  },
+  {
+   "name": "魔法花园",
+   "order": 7,
+   "tagline": "小众网红打卡地门票15美金，周二休园，15-30分钟",
+   "has_detail": false
+  },
+  {
+   "name": "穆特博物馆",
+   "order": 8,
+   "tagline": "恐怖的医学博物馆门票20美金，周二休馆，1小时",
+   "has_detail": false
+  },
+  {
+   "name": "Chanticleer Garden",
+   "order": 9,
+   "tagline": "小型花园春秋最美门票15美金，费城周边，1-2小时",
+   "has_detail": false
+  },
+  {
+   "name": "Longwood Garden",
+   "order": 10,
+   "tagline": "美东最美花园春天最美门票35美金，费城周边，3-4小时",
+   "has_detail": false
+  },
+  {
+   "name": "Holland Ridge Farms",
+   "order": 11,
+   "tagline": "每年4月看郁金香门票17-25美金，费城周边，2小时",
+   "has_detail": false
+  },
+  {
+   "name": "Cape May",
+   "order": 12,
+   "tagline": "海边度假，费城周边需2天1夜游",
+   "has_detail": false
+  },
+  {
+   "name": "Jim Thorpe",
+   "order": 13,
+   "tagline": "10月中坐小火车赏秋车票23-54美金，费城周边半日/一日游",
+   "has_detail": false
+  }
+ ],
+ "itinerary": [
+  {
+   "day": "1",
+   "title": "历史街区+艺术博物馆",
+   "detail": "上午游览市政厅和独立宫，在Reading市场或Chinatown午餐，下午参观费城艺术博物馆（周二/周三休馆需注意）"
+  },
+  {
+   "day": "2",
+   "title": "监狱+大学漫步",
+   "detail": "上午游览东州教养所（需预订），下午去宾夕法尼亚大学漫步，参观图书馆和博物馆"
+  }
+ ],
+ "sections": [
+  {
+   "title": "美国诞生地的历史印记",
+   "content": "费城是美国的诞生地，独立宣言和宪法在这里通过，1790至1800年期间一直是美国的首都，现在是美国第六大城市。走在费城的历史街区，仿佛穿越回美国建国时期。市政厅是地标建筑，可以在街边拍照或登顶俯瞰全城。独立宫是美式爱国主义教育基地，这里是美国独立宣言和宪法的通过地，30分钟的参观足以感受那段波澜壮阔的历史。"
+  },
+  {
+   "title": "艺术与文化的交融",
+   "content": "费城艺术博物馆是著名的美术馆，门票30美金，需要注意周二和周三休馆。这里收藏丰富，建议安排2到4小时细细品味。宾夕法尼亚大学作为藤校之一，校园本身就是一道风景线，可以参观图书馆和博物馆，感受学术氛围。东州教养所是一座充满废墟美的监狱，门票21美金，周二关闭，这座曾经关押过『阿尔·卡彭』等名人的监狱如今成为独特的历史遗迹，1到2小时的参观会给你带来特别的体验。"
+  },
+  {
+   "title": "便捷的交通网络",
+   "content": "费城位于宾夕法尼亚州，交通便利。从纽约出发，巴士2小时约20美金，火车1.5小时提前订票只需10到20美金，临时购买可能要100美金以上。从华盛顿出发，巴士3小时，火车2小时。费城国际机场距离市中心20分钟车程，打车28美金以上。如果自驾前来，距离纽约100英里约2小时车程，可以顺路游览普林斯顿大学。市区景点集中，步行加Uber的组合最佳，巴士或地铁单程2美金，支持Apple Pay和Google Pay。提前用SpotHero订车位，停车费可以控制在20美金每天以内。"
+  },
+  {
+   "title": "住宿区域建议",
+   "content": "推荐住在市政厅附近，这一区域治安良好且出行用餐方便。Holiday Inn Express Philadelphia和Club Quarters Hotel Rittenhouse Square步行5分钟即可到达市政厅，性价比很高。如果喜欢学校氛围，可以选择宾夕法尼亚大学附近的The Study at University City，出门就是宾大，好评如潮。想住在景区的游客可以考虑独立宫附近的Penn's View Hotel Philadelphia或Wyndham Philadelphia-Historic District。"
+  },
+  {
+   "title": "周边精彩延伸",
+   "content": "费城周边有不少值得一游的地方。Longwood Garden是美东最美的花园，春天最美，门票35美金，建议安排3到4小时游览。Holland Ridge Farms每年4月可以看郁金香，门票17到25美金。喜欢海边的可以去Cape May，需要安排2天1夜游。10月中想赏秋的可以去Jim Thorpe坐小火车，车票23到54美金，可以安排半日或一日游。Otherworld是灯光互动艺术展，门票35美金，1到2小时的体验充满趣味。"
+  }
+ ],
+ "duration": "1-2天",
+ "best_time": "4-5月和9-10月气候宜人，适合步行逛历史街区",
+ "transport_map": "美国/费城_交通图6970.png",
+ "transport_map_inner": "美国/费城_市内交通图6970.png"
 }

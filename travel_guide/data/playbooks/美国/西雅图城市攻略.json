@@ -1,217 +1,211 @@
 {
-  "name": "西雅图",
-  "type": "city",
-  "aliases": [
-    "Seattle"
-  ],
-  "city": "西雅图",
-  "country": "美国",
-  "summary": "位于华盛顿州的科技与自然之城，微软/亚马逊/星巴克总部所在地，有山有湖有海有森林。市区可游览太空针塔、派克市场等地标，周边可深入奥林匹克国家公园和雷尼尔山国家公园感受壮丽自然。",
-  "transport": {
-    "fly_train": "SEA机场→市区：轻轨Link Light Rail约40分钟，单程3美金；打车35-100美金（视时段）；租车需乘免费Shuttle至rental car facility",
-    "drive": "与美国主要城市间均有直飞航班，机场距市区15英里/24公里，车程25分钟+",
-    "local": "市区交通：单轨Seattle Center Monorail单程4美金（2站），轻轨Link Light Rail单程3美金，巴士单程3美金；频繁使用可购买ORCA Card（制卡费3美金，有换乘优惠）或下载Transit GO App"
+ "name": "西雅图",
+ "type": "city",
+ "aliases": [
+  "Seattle"
+ ],
+ "city": "西雅图",
+ "country": "美国",
+ "summary": "位于华盛顿州的科技与自然之城，微软/亚马逊/星巴克总部所在地，有山有湖有海有森林。市区可游览太空针塔、派克市场等地标，周边可深入奥林匹克国家公园和雷尼尔山国家公园感受壮丽自然。",
+ "transport": {
+  "fly_train": "SEA机场→市区：轻轨Link Light Rail约40分钟，单程3美金；打车35-100美金（视时段）；租车需乘免费Shuttle至rental car facility",
+  "drive": "与美国主要城市间均有直飞航班，机场距市区15英里/24公里，车程25分钟+",
+  "local": "市区交通：单轨Seattle Center Monorail单程4美金（2站），轻轨Link Light Rail单程3美金，巴士单程3美金；频繁使用可购买ORCA Card（制卡费3美金，有换乘优惠）或下载Transit GO App"
+ },
+ "hotels": [
+  {
+   "name": "Hyatt House Seattle Downtown",
+   "area": "市区太空针塔附近",
+   "star": 3,
+   "score": "8.7",
+   "reviews": "1100条评价+",
+   "note": "挨着太空针塔，交通方便，设施/服务/评价好，停车费45美金",
+   "link": ""
   },
-  "hotels": [
-    {
-      "name": "Hyatt House Seattle Downtown",
-      "area": "市区太空针塔附近",
-      "star": 3,
-      "score": "8.7",
-      "reviews": "1100条评价+",
-      "note": "挨着太空针塔，交通方便，设施/服务/评价好，停车费45美金",
-      "link": ""
-    },
-    {
-      "name": "citizenM Seattle South Lake Union",
-      "area": "市区",
-      "star": 4,
-      "score": "8.8",
-      "reviews": "2500条评价+",
-      "note": "步行12分钟到太空针塔，街区安全，房间现代，性价比高，缺点是房间仅14平且无停车场",
-      "link": ""
-    },
-    {
-      "name": "Silver Cloud Hotel - Seattle Lake Union",
-      "area": "联合湖畔",
-      "star": 3,
-      "score": "8.5",
-      "reviews": "1800条评价+",
-      "note": "房间大（32平），靠近联合湖有湖景房，停车费30美金，车程10分钟到太空针塔",
-      "link": ""
-    },
-    {
-      "name": "Staypineapple, The Maxwell Hotel",
-      "area": "市区",
-      "star": 3,
-      "score": "9.2",
-      "reviews": "",
-      "note": "步行10分钟到太空针塔，街区安全，有专属停车场42美金/天",
-      "link": ""
-    },
-    {
-      "name": "Marco Polo Motel",
-      "area": "市区外围",
-      "star": 2,
-      "score": "8.0",
-      "reviews": "900条评价+",
-      "note": "汽车旅馆，距太空针9分钟车程，价格低",
-      "link": ""
-    },
-    {
-      "name": "Green Tortoise Hostel Seattle",
-      "area": "派克市场附近",
-      "star": 0,
-      "score": "8.7",
-      "reviews": "3000条评价+",
-      "note": "青年旅馆，挨着派克市场，可乘轻轨到Symphony站步行6分钟",
-      "link": ""
-    },
-    {
-      "name": "Coast Gateway Hotel",
-      "area": "机场附近",
-      "star": 3,
-      "score": "8.6",
-      "reviews": "",
-      "note": "有免费机场班车，停车免费，适合早晚航班过夜",
-      "link": ""
-    }
-  ],
-  "hotel_intro": "市区住宿建议选太空针塔/派克市场附近，步行或短途打车即达景点。Hyatt House位置最佳但价格较高，citizenM性价比突出但房间小无车位，Silver Cloud房间大有湖景。注意西雅图homeless问题较严重，三街3rd Ave区域需避开，选择评价显示周边安全、门口少有homeless的酒店。若追求安全可住Bellevue东雅图区域（距市区20分钟车程，酒店停车免费）。机场附近酒店适合转机过夜，多有免费接驳和停车。",
-  "attractions": [
-    {
-      "name": "Kerry Park",
-      "order": 1,
-      "tagline": "西雅图最美机位观景点，可俯瞰城市天际线和雷尼尔雪山，5-30分钟",
-      "has_detail": false
-    },
-    {
-      "name": "太空针塔 Space Needle",
-      "order": 2,
-      "tagline": "西雅图地标，Day/Night票可白天和晚上各上塔一次，建议买联票或使用CityPass",
-      "has_detail": false
-    },
-    {
-      "name": "奇胡利玻璃博物馆 Chihuly Garden and Glass",
-      "order": 3,
-      "tagline": "西雅图特色博物馆，与太空针塔有套票72.65美金（单次上塔），建议使用CityPass",
-      "has_detail": false
-    },
-    {
-      "name": "流行文化博物馆 MoPOP",
-      "order": 4,
-      "tagline": "音乐/科幻&恐怖电影主题特色景点，支持CityPass，2小时",
-      "has_detail": false
-    },
-    {
-      "name": "派克市场 Pike Place Market",
-      "order": 5,
-      "tagline": "地标级市场，逛吃1-2小时",
-      "has_detail": false
-    },
-    {
-      "name": "西雅图水族馆 Seattle Aquarium",
-      "order": 6,
-      "tagline": "用CityPass更合适的景点",
-      "has_detail": false
-    },
-    {
-      "name": "阿戈西游船 Argosy Cruises Harbor Tour",
-      "order": 7,
-      "tagline": "一小时游船从海上看西雅图天际线，天气好值得坐，用CityPass更合适",
-      "has_detail": false
-    },
-    {
-      "name": "西雅图摩天轮",
-      "order": 8,
-      "tagline": "海滨地标",
-      "has_detail": false
-    },
-    {
-      "name": "煤气厂公园 Gas Works Park",
-      "order": 9,
-      "tagline": "湖畔绿地适合野餐，免费，30分钟",
-      "has_detail": false
-    },
-    {
-      "name": "华盛顿大学",
-      "order": 10,
-      "tagline": "赏樱圣地和网红图书馆，免费，30分钟-1小时",
-      "has_detail": false
-    },
-    {
-      "name": "飞行博物馆",
-      "order": 11,
-      "tagline": "美国飞行相关收藏品最多的展馆，2-4小时",
-      "has_detail": false
-    },
-    {
-      "name": "波音客机工厂",
-      "order": 12,
-      "tagline": "参观真实波音工厂，1.5小时",
-      "has_detail": false
-    },
-    {
-      "name": "Bainbridge Island",
-      "order": 13,
-      "tagline": "岛上有庄园（周一休园），半日游",
-      "has_detail": false
-    },
-    {
-      "name": "奥林匹克国家公园",
-      "order": 14,
-      "tagline": "看山、看海、看雨林，夏秋季节建议安排3天",
-      "has_detail": false
-    },
-    {
-      "name": "雷尼尔山国家公园",
-      "order": 15,
-      "tagline": "走著名Skyline Trail看雪山/鲜花/瀑布和土拨鼠，夏秋季建议安排1天",
-      "has_detail": false
-    }
-  ],
-  "itinerary": [
-    {
-      "day": "1",
-      "title": "市区地标游览",
-      "detail": "住宿地→打车→Kerry Park观景→打车/步行→太空针塔+奇胡利玻璃博物馆+流行文化博物馆→单轨/步行→派克市场逛吃"
-    },
-    {
-      "day": "2",
-      "title": "文艺科技氛围体验",
-      "detail": "上午逛煤气厂公园和华盛顿大学，下午去飞行博物馆看飞机，全天建议打车/自驾"
-    },
-    {
-      "day": "3-5",
-      "title": "奥林匹克国家公园深度游（夏秋季追加）",
-      "detail": "深入奥林匹克国家公园看山看海看雨林"
-    },
-    {
-      "day": "6",
-      "title": "雷尼尔山国家公园（夏秋季追加）",
-      "detail": "走Skyline Trail看雪山/鲜花/瀑布及成群土拨鼠"
-    }
-  ],
-  "sections": [
-    {
-      "title": "西雅图CityPass值得买吗",
-      "content": "西雅图CityPass售价成人139美金，5-12岁119美金，9个连续自然日有效（从首次使用算起），未使用可全额退款。包含必选项目：太空针塔Day/Night票（白天晚上各去一次）、西雅图水族馆；以及5选3项目：阿戈西游船、流行文化博物馆、林地公园动物园、玻璃博物馆、太平洋科技馆。\n\n若选择太空针塔+水族馆+游船+流行文化博物馆+玻璃博物馆这5项，单独购票总价260.61美金，而CityPass仅139美金，节省121.61美金。但西雅图真正特色景点是太空针塔+玻璃博物馆+流行文化博物馆，三者单买票价112.65美金（太空针与玻璃博物馆套票72.65美金仅能上塔1次）。\n\n多花26.35美金买CityPass可换来：太空针塔额外一次上塔机会（白天看远景晚上看夜景）、一小时阿戈西游船（天气好从海上看天际线很值）、西雅图水族馆（单独买不值但有Pass可顺便去）。对愿意深度游览多个景点的游客来说，CityPass性价比很高。"
-    },
-    {
-      "title": "西雅图的气候与最佳旅行时间",
-      "content": "西雅图位于华盛顿州，有山有湖有海有森林，年平均气温在0度以上，冬天不冷夏天不热，树木常青，非常适合喜欢运动、追求健康的生活方式。微软、亚马逊、星巴克等知名公司总部都建在这里。\n\n但需注意西雅图全年有300多天降雨，7-9月是旱季晴天最多、白昼最长的时节，此时雷尼尔雪山和市区景观都处于最佳状态，是游览的黄金时间。若在夏秋季节出行，强烈建议追加4天前往奥林匹克国家公园（3天）和雷尼尔山国家公园（1天），深度感受西雅图周边的壮丽自然风光。"
-    },
-    {
-      "title": "西雅图的安全提示",
-      "content": "西雅图同洛杉矶、旧金山一样，有比较严重的homeless问题。西雅图的homeless分散在城市各处，但三街3rd Ave数量最多，需特别注意。\n\n白天步行经过三街的奇怪人群通常没有问题，在太空针塔和派克市场景区内步行也安全，但两地之间的交通更建议乘坐轻轨或打车。天黑后建议直接打车或自驾回酒店。\n\n选择住宿时，若出门就自驾或打车，住哪儿都行。但自驾建议选择有专属停车场的酒店，虽然停车费贵但晚上回来更安心；打车的话建议仔细看酒店评价，有的酒店门口长期有homeless徘徊甚至使用酒店设施，极少数有房客被攻击或抢劫的案例。\n\n若仍觉得不安全，可选择住在相对远些的Bellevue东雅图区域（距市区约11英里/20分钟车程），该区域社区内亚裔较多、警力相对充足、homeless数量少很多，酒店性价比也相对较高且停车免费。"
-    },
-    {
-      "title": "市区交通详解",
-      "content": "西雅图市区景点距离很近，可以步行或打车。公共交通方面有三种主要选择：\n\n单轨Seattle Center Monorail单程4美金，只有两站——Seattle Center（旁边是太空针塔/玻璃博物馆/流行文化博物馆）和Westlake Center（旁边是派克市场，可换乘轻轨）。\n\n轻轨Link Light Rail单程3美金，实用站点包括SeaTac/Airport（西雅图机场）、Symphony（步行11分钟到派克市场）、Westlake（可换乘单轨，步行13分钟到派克市场）、University of Washington（步行8分钟到华大）。\n\n巴士单程3美金，覆盖网络最广但等车时间可能较长，请用Google Map规划路线。\n\n若计划频繁使用公交工具，可购买ORCA Card（制卡费3美金，支持所有交通工具，有跨交通工具换乘优惠）或下载Transit GO App（无制卡费，不支持单轨，没有换乘优惠，但对游客来说挺方便）。"
-    }
-  ],
-  "duration": "2-3天",
-  "best_time": "7-9月，旱季晴天最多、白昼长，雷尼尔雪山和市区景观都处于最佳状态",
-  "transport_map": "美国/西雅图_交通图1704.png",
-  "transport_map_inner": "美国/西雅图_市内交通图1704.png"
+  {
+   "name": "citizenM Seattle South Lake Union",
+   "area": "市区",
+   "star": 4,
+   "score": "8.8",
+   "reviews": "2500条评价+",
+   "note": "步行12分钟到太空针塔，街区安全，房间现代，性价比高，缺点是房间仅14平且无停车场",
+   "link": ""
+  },
+  {
+   "name": "Silver Cloud Hotel - Seattle Lake Union",
+   "area": "联合湖畔",
+   "star": 3,
+   "score": "8.5",
+   "reviews": "1800条评价+",
+   "note": "房间大（32平），靠近联合湖有湖景房，停车费30美金，车程10分钟到太空针塔",
+   "link": ""
+  },
+  {
+   "name": "Staypineapple, The Maxwell Hotel",
+   "area": "市区",
+   "star": 3,
+   "score": "9.2",
+   "reviews": "",
+   "note": "步行10分钟到太空针塔，街区安全，有专属停车场42美金/天",
+   "link": ""
+  },
+  {
+   "name": "Marco Polo Motel",
+   "area": "市区外围",
+   "star": 2,
+   "score": "8.0",
+   "reviews": "900条评价+",
+   "note": "汽车旅馆，距太空针9分钟车程，价格低",
+   "link": ""
+  },
+  {
+   "name": "Green Tortoise Hostel Seattle",
+   "area": "派克市场附近",
+   "star": 0,
+   "score": "8.7",
+   "reviews": "3000条评价+",
+   "note": "青年旅馆，挨着派克市场，可乘轻轨到Symphony站步行6分钟",
+   "link": ""
+  },
+  {
+   "name": "Coast Gateway Hotel",
+   "area": "机场附近",
+   "star": 3,
+   "score": "8.6",
+   "reviews": "",
+   "note": "有免费机场班车，停车免费，适合早晚航班过夜",
+   "link": ""
+  }
+ ],
+ "hotel_intro": "市区住宿建议选太空针塔/派克市场附近，步行或短途打车即达景点。Hyatt House位置最佳但价格较高，citizenM性价比突出但房间小无车位，Silver Cloud房间大有湖景。注意西雅图homeless问题较严重，三街3rd Ave区域需避开，选择评价显示周边安全、门口少有homeless的酒店。若追求安全可住Bellevue东雅图区域（距市区20分钟车程，酒店停车免费）。机场附近酒店适合转机过夜，多有免费接驳和停车。",
+ "attractions": [
+  {
+   "name": "Kerry Park",
+   "order": 1,
+   "tagline": "西雅图最美机位观景点，可俯瞰城市天际线和雷尼尔雪山，5-30分钟",
+   "has_detail": false
+  },
+  {
+   "name": "太空针塔 Space Needle",
+   "order": 2,
+   "tagline": "西雅图地标，Day/Night票可白天和晚上各上塔一次，建议买联票或使用CityPass",
+   "has_detail": false
+  },
+  {
+   "name": "奇胡利玻璃博物馆 Chihuly Garden and Glass",
+   "order": 3,
+   "tagline": "西雅图特色博物馆，与太空针塔有套票72.65美金（单次上塔），建议使用CityPass",
+   "has_detail": false
+  },
+  {
+   "name": "流行文化博物馆 MoPOP",
+   "order": 4,
+   "tagline": "音乐/科幻&恐怖电影主题特色景点，支持CityPass，2小时",
+   "has_detail": false
+  },
+  {
+   "name": "派克市场 Pike Place Market",
+   "order": 5,
+   "tagline": "地标级市场，逛吃1-2小时",
+   "has_detail": false
+  },
+  {
+   "name": "西雅图水族馆 Seattle Aquarium",
+   "order": 6,
+   "tagline": "用CityPass更合适的景点",
+   "has_detail": false
+  },
+  {
+   "name": "西雅图摩天轮",
+   "order": 7,
+   "tagline": "海滨地标",
+   "has_detail": false
+  },
+  {
+   "name": "煤气厂公园 Gas Works Park",
+   "order": 8,
+   "tagline": "湖畔绿地适合野餐，免费，30分钟",
+   "has_detail": false
+  },
+  {
+   "name": "华盛顿大学",
+   "order": 9,
+   "tagline": "赏樱圣地和网红图书馆，免费，30分钟-1小时",
+   "has_detail": false
+  },
+  {
+   "name": "飞行博物馆",
+   "order": 10,
+   "tagline": "美国飞行相关收藏品最多的展馆，2-4小时",
+   "has_detail": false
+  },
+  {
+   "name": "波音客机工厂",
+   "order": 11,
+   "tagline": "参观真实波音工厂，1.5小时",
+   "has_detail": false
+  },
+  {
+   "name": "Bainbridge Island",
+   "order": 12,
+   "tagline": "岛上有庄园（周一休园），半日游",
+   "has_detail": false
+  },
+  {
+   "name": "奥林匹克国家公园",
+   "order": 13,
+   "tagline": "看山、看海、看雨林，夏秋季节建议安排3天",
+   "has_detail": false
+  },
+  {
+   "name": "雷尼尔山国家公园",
+   "order": 14,
+   "tagline": "走著名Skyline Trail看雪山/鲜花/瀑布和土拨鼠，夏秋季建议安排1天",
+   "has_detail": false
+  }
+ ],
+ "itinerary": [
+  {
+   "day": "1",
+   "title": "市区地标游览",
+   "detail": "住宿地→打车→Kerry Park观景→打车/步行→太空针塔+奇胡利玻璃博物馆+流行文化博物馆→单轨/步行→派克市场逛吃"
+  },
+  {
+   "day": "2",
+   "title": "文艺科技氛围体验",
+   "detail": "上午逛煤气厂公园和华盛顿大学，下午去飞行博物馆看飞机，全天建议打车/自驾"
+  },
+  {
+   "day": "3-5",
+   "title": "奥林匹克国家公园深度游（夏秋季追加）",
+   "detail": "深入奥林匹克国家公园看山看海看雨林"
+  },
+  {
+   "day": "6",
+   "title": "雷尼尔山国家公园（夏秋季追加）",
+   "detail": "走Skyline Trail看雪山/鲜花/瀑布及成群土拨鼠"
+  }
+ ],
+ "sections": [
+  {
+   "title": "西雅图CityPass值得买吗",
+   "content": "西雅图CityPass售价成人139美金，5-12岁119美金，9个连续自然日有效（从首次使用算起），未使用可全额退款。包含必选项目：太空针塔Day/Night票（白天晚上各去一次）、西雅图水族馆；以及5选3项目：阿戈西游船、流行文化博物馆、林地公园动物园、玻璃博物馆、太平洋科技馆。\n\n若选择太空针塔+水族馆+游船+流行文化博物馆+玻璃博物馆这5项，单独购票总价260.61美金，而CityPass仅139美金，节省121.61美金。但西雅图真正特色景点是太空针塔+玻璃博物馆+流行文化博物馆，三者单买票价112.65美金（太空针与玻璃博物馆套票72.65美金仅能上塔1次）。\n\n多花26.35美金买CityPass可换来：太空针塔额外一次上塔机会（白天看远景晚上看夜景）、一小时阿戈西游船（天气好从海上看天际线很值）、西雅图水族馆（单独买不值但有Pass可顺便去）。对愿意深度游览多个景点的游客来说，CityPass性价比很高。"
+  },
+  {
+   "title": "西雅图的气候与最佳旅行时间",
+   "content": "西雅图位于华盛顿州，有山有湖有海有森林，年平均气温在0度以上，冬天不冷夏天不热，树木常青，非常适合喜欢运动、追求健康的生活方式。微软、亚马逊、星巴克等知名公司总部都建在这里。\n\n但需注意西雅图全年有300多天降雨，7-9月是旱季晴天最多、白昼最长的时节，此时雷尼尔雪山和市区景观都处于最佳状态，是游览的黄金时间。若在夏秋季节出行，强烈建议追加4天前往奥林匹克国家公园（3天）和雷尼尔山国家公园（1天），深度感受西雅图周边的壮丽自然风光。"
+  },
+  {
+   "title": "西雅图的安全提示",
+   "content": "西雅图同洛杉矶、旧金山一样，有比较严重的homeless问题。西雅图的homeless分散在城市各处，但三街3rd Ave数量最多，需特别注意。\n\n白天步行经过三街的奇怪人群通常没有问题，在太空针塔和派克市场景区内步行也安全，但两地之间的交通更建议乘坐轻轨或打车。天黑后建议直接打车或自驾回酒店。\n\n选择住宿时，若出门就自驾或打车，住哪儿都行。但自驾建议选择有专属停车场的酒店，虽然停车费贵但晚上回来更安心；打车的话建议仔细看酒店评价，有的酒店门口长期有homeless徘徊甚至使用酒店设施，极少数有房客被攻击或抢劫的案例。\n\n若仍觉得不安全，可选择住在相对远些的Bellevue东雅图区域（距市区约11英里/20分钟车程），该区域社区内亚裔较多、警力相对充足、homeless数量少很多，酒店性价比也相对较高且停车免费。"
+  },
+  {
+   "title": "市区交通详解",
+   "content": "西雅图市区景点距离很近，可以步行或打车。公共交通方面有三种主要选择：\n\n单轨Seattle Center Monorail单程4美金，只有两站——Seattle Center（旁边是太空针塔/玻璃博物馆/流行文化博物馆）和Westlake Center（旁边是派克市场，可换乘轻轨）。\n\n轻轨Link Light Rail单程3美金，实用站点包括SeaTac/Airport（西雅图机场）、Symphony（步行11分钟到派克市场）、Westlake（可换乘单轨，步行13分钟到派克市场）、University of Washington（步行8分钟到华大）。\n\n巴士单程3美金，覆盖网络最广但等车时间可能较长，请用Google Map规划路线。\n\n若计划频繁使用公交工具，可购买ORCA Card（制卡费3美金，支持所有交通工具，有跨交通工具换乘优惠）或下载Transit GO App（无制卡费，不支持单轨，没有换乘优惠，但对游客来说挺方便）。"
+  }
+ ],
+ "duration": "2-3天",
+ "best_time": "7-9月，旱季晴天最多、白昼长，雷尼尔雪山和市区景观都处于最佳状态",
+ "transport_map": "美国/西雅图_交通图1704.png",
+ "transport_map_inner": "美国/西雅图_市内交通图1704.png"
 }

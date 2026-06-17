@@ -1,212 +1,206 @@
 {
-  "name": "圣地亚哥",
-  "type": "city",
-  "aliases": [
-    "San Diego",
-    "圣迭戈"
-  ],
-  "city": "圣地亚哥",
-  "country": "美国",
-  "summary": "南加州四季温暖的海滨度假胜地，以主题乐园、航母博物馆和La Jolla美丽海滩闻名。可体验过山车、海洋动物表演及西班牙-墨西哥混搭建筑风情。",
-  "transport": {
-    "fly_train": "机场San Diego Airport(SAN)距市区4英里/6.4公里；从洛杉矶可乘Pacific Surfliner火车2小时54分钟，普通舱单程36美金起、商务舱55美金起，到Old Town(OLT)或Santa Fe Depot(SAN)站",
-    "drive": "距洛杉矶约120英里/193公里，自驾约2小时",
-    "local": "市区很小，自驾或打车方便；海洋世界停车25-35美金，市区到海洋世界打车约25美金起"
+ "name": "圣地亚哥",
+ "type": "city",
+ "aliases": [
+  "San Diego",
+  "圣迭戈"
+ ],
+ "city": "圣地亚哥",
+ "country": "美国",
+ "summary": "南加州四季温暖的海滨度假胜地，以主题乐园、航母博物馆和La Jolla美丽海滩闻名。可体验过山车、海洋动物表演及西班牙-墨西哥混搭建筑风情。",
+ "transport": {
+  "fly_train": "机场San Diego Airport(SAN)距市区4英里/6.4公里；从洛杉矶可乘Pacific Surfliner火车2小时54分钟，普通舱单程36美金起、商务舱55美金起，到Old Town(OLT)或Santa Fe Depot(SAN)站",
+  "drive": "距洛杉矶约120英里/193公里，自驾约2小时",
+  "local": "市区很小，自驾或打车方便；海洋世界停车25-35美金，市区到海洋世界打车约25美金起"
+ },
+ "hotels": [
+  {
+   "name": "Manchester Grand Hyatt San Diego",
+   "area": "市区航母附近",
+   "star": 4,
+   "score": "8.5",
+   "reviews": "2800条评价+",
+   "note": "停车$45，步行10分钟到航母博物馆，周边餐厅多",
+   "link": ""
   },
-  "hotels": [
-    {
-      "name": "Manchester Grand Hyatt San Diego",
-      "area": "市区航母附近",
-      "star": 4,
-      "score": "8.5",
-      "reviews": "2800条评价+",
-      "note": "停车$45，步行10分钟到航母博物馆，周边餐厅多",
-      "link": ""
-    },
-    {
-      "name": "SpringHill Suites by Marriott San Diego",
-      "area": "市区航母附近",
-      "star": 3,
-      "score": "8.9",
-      "reviews": "500条评价+",
-      "note": "停车$45，步行6分钟到航母博物馆",
-      "link": ""
-    },
-    {
-      "name": "Holiday Inn Express San Diego",
-      "area": "市区SeaWorld附近",
-      "star": 2,
-      "score": "8.5",
-      "reviews": "1600条评价+",
-      "note": "停车免费，距离SeaWorld 5分钟车程",
-      "link": ""
-    },
-    {
-      "name": "Old Town Inn",
-      "area": "老城",
-      "star": 2,
-      "score": "8.5",
-      "reviews": "3400条评价+",
-      "note": "停车免费，步行6分钟到老城，性价比高",
-      "link": ""
-    },
-    {
-      "name": "Inn by the Sea, at La Jolla",
-      "area": "La Jolla",
-      "star": 3,
-      "score": "8.6",
-      "reviews": "1300条评价+",
-      "note": "停车$20，步行可到最美海滩",
-      "link": ""
-    },
-    {
-      "name": "Sands Of La Jolla",
-      "area": "La Jolla",
-      "star": 4,
-      "score": "8.7",
-      "reviews": "2200条评价+",
-      "note": "免费停车，车程10分钟到La Jolla Cove最美海滩，周边环境好",
-      "link": ""
-    },
-    {
-      "name": "Hyatt Regency La Jolla at Aventine",
-      "area": "La Jolla",
-      "star": 4,
-      "score": "8.3",
-      "reviews": "800条评价+",
-      "note": "停车$45，车程10分钟到最美海滩",
-      "link": ""
-    },
-    {
-      "name": "Hampton Inn & Suites",
-      "area": "机场附近",
-      "star": 3,
-      "score": "8.7",
-      "reviews": "800条评价+",
-      "note": "停车$25，距机场5分钟车程，提供机场班车",
-      "link": ""
-    },
-    {
-      "name": "Harbor Island Hilton",
-      "area": "机场附近",
-      "star": 3,
-      "score": "8.3",
-      "reviews": "700条评价+",
-      "note": "停车$35，距机场5分钟车程，提供机场班车",
-      "link": ""
-    },
-    {
-      "name": "Best Western Yacht Harbour Hotel",
-      "area": "市区",
-      "star": 3,
-      "score": "7.9",
-      "reviews": "4500条评价+",
-      "note": "位于航母/老城/Sunset Cliff的中间",
-      "link": ""
-    }
-  ],
-  "hotel_intro": "市区出行吃饭最方便，治安比洛杉矶好；La Jolla是典型南加州海滨区，可每天看迷人日落；需早晚航班可住机场附近酒店",
-  "attractions": [
-    {
-      "name": "USS Midway航母博物馆",
-      "order": 1,
-      "tagline": "美国展出的最强大航母，约需3小时",
-      "has_detail": false
-    },
-    {
-      "name": "La Jolla Cove",
-      "order": 2,
-      "tagline": "最美海滩/日落观赏地，需1-3小时",
-      "has_detail": false
-    },
-    {
-      "name": "Balboa Park巴尔博亚公园",
-      "order": 3,
-      "tagline": "西班牙建筑+动物园，约需1天",
-      "has_detail": false
-    },
-    {
-      "name": "SeaWorld海洋世界",
-      "order": 4,
-      "tagline": "过山车+海豚/海狮/虎鲸表演，约需1天",
-      "has_detail": true
-    },
-    {
-      "name": "Sunset Cliff",
-      "order": 5,
-      "tagline": "日落观景点",
-      "has_detail": false
-    },
-    {
-      "name": "Old Town老城公园",
-      "order": 6,
-      "tagline": "体验墨西哥风情，约需30分钟",
-      "has_detail": false
-    },
-    {
-      "name": "观鲸Whale Watching",
-      "order": 7,
-      "tagline": "出海观鲸+海上日落，约需3小时",
-      "has_detail": false
-    },
-    {
-      "name": "Potato Chip Rock薯片岩",
-      "order": 8,
-      "tagline": "徒步约需3小时，往返4英里/6.6公里",
-      "has_detail": false
-    },
-    {
-      "name": "Safari Park野生动物园",
-      "order": 9,
-      "tagline": "看放养动物，约需4-5小时",
-      "has_detail": false
-    },
-    {
-      "name": "LEGOLAND乐高乐园",
-      "order": 10,
-      "tagline": "适合小龄儿童，约需1天",
-      "has_detail": false
-    },
-    {
-      "name": "The Flower Fields花海",
-      "order": 11,
-      "tagline": "3月中-5月初开放，约需2小时",
-      "has_detail": false
-    }
-  ],
-  "itinerary": [
-    {
-      "day": "1",
-      "title": "航母博物馆→老城→La Jolla海滩日落",
-      "detail": "上午前往USS Midway航母博物馆参观美国展出的最强大航母（约需3小时）；下午打卡Old Town老城公园体验墨西哥风情（约需30分钟）；傍晚去La Jolla Cove看最美海滩和日落（需1-3小时）"
-    },
-    {
-      "day": "2",
-      "title": "主题乐园或动物园",
-      "detail": "根据兴趣选择：喜欢动物可去Balboa Park看西班牙建筑+逛动物园（约需1天）；想玩过山车+看海洋动物表演可去SeaWorld海洋世界（约需1天）；想看放养动物可去Safari Park野生动物园（约需4-5小时）；带小龄儿童可去LEGOLAND乐高乐园（约需1天）"
-    },
-    {
-      "day": "3",
-      "title": "特色体验",
-      "detail": "可选择出海观鲸看海上日落（约需3小时）；或徒步Potato Chip Rock薯片岩（约需3小时往返）；若3月中-5月初到访务必去The Flower Fields看花海（约需2小时）"
-    }
-  ],
-  "sections": [
-    {
-      "title": "城市概况",
-      "content": "圣地亚哥英文名San Diego，也常被翻译为圣迭戈，位于南加州，是四季温暖的海滨度假胜地和主题乐园之城。这座城市历史上先后被西班牙、墨西哥和美国殖民或占领，因此建筑风格混搭，很有特色。距离洛杉矶约120英里，自驾约2小时可达，也可乘坐Pacific Surfliner海景列车前往，部分路段能欣赏到迷人海景。作为度假城市，圣地亚哥治安比洛杉矶好很多。"
-    },
-    {
-      "title": "SeaWorld海洋世界详解",
-      "content": "SeaWorld San Diego是圣地亚哥最著名的景点，卖点是动物表演和过山车，可以游玩一整天。乐园创立于1964年，营业时间通常为10am-9/10pm。主要表演包括：Dolphin Adventures海豚表演（长20分钟，海豚可加速到30英里/小时、闭气8-10分钟，脑容量1600克比人类还多300克）；The Sea Lion Experience海狮表演（长20分钟，主角是海狮和亚洲小爪水獭，以搞笑为特色）；Orca Encounter虎鲸表演（约25分钟，以前叫杀人鲸表演，现改名为虎鲸，以科普为主，虎鲸是海洋顶级掠食者、属于海豚科）；暑期每晚闭园时还有烟花秀。\n\n主要过山车项目：Electric Eel是体感最刺激的过山车，有翻转，2018年引入，轨道长约260米、最快时速100公里、最高点46米；Emperor是加州最高的无地板过山车，有3次翻转，2022年引入，最快时速97公里、最高点47米；Manta是招牌过山车，脚悬空无360度翻转，2012年引入，轨道长约850米、最快时速69公里；Arctic Rescue是雪地摩托主题家庭向过山车，2023年引入，无翻转但刺激有趣。其他项目还有Journey to Atlantis激流勇进（最高点29米、最快时速68公里）和Shipwreck Rapids漂流（不刺激但保证湿身凉爽）。\n\n园区禁止携带午餐/饮料，只能带水/水壶。有All-Day Dining Deal套餐成人60美金起，每1.5小时可吃1次，但味道一般且节假日排队时间长。表演场地无遮挡特别晒，需备齐防晒用品。暑期/大型节假日建议购买Quick Queue快通票（30-60美金），平时必要性不大。"
-    },
-    {
-      "title": "住宿区域建议",
-      "content": "多数游客会住在市区或La Jolla附近。市区住宿出行和吃饭最方便，虽有homeless但数量少，航母附近的Manchester Grand Hyatt步行10分钟可到航母博物馆、周边餐厅多，SpringHill Suites步行6分钟到航母；Old Town附近的Old Town Inn性价比高、停车免费。La Jolla是典型的南加州海滨区，每天都能看到迷人日落，Inn by the Sea步行可到最美海滩，Sands Of La Jolla免费停车、车程10分钟到La Jolla Cove。需要乘坐早晚航班的游客可住机场附近，Hampton Inn & Suites和Harbor Island Hilton距机场5分钟车程且提供机场班车。"
-    }
-  ],
-  "duration": "2-3天",
-  "best_time": "9-11月，海水最暖、阴雾季已过且避开暑期人潮，全年其实都适合到访",
-  "transport_map": "美国/圣地亚哥_交通图2733.png",
-  "transport_map_inner": "美国/圣地亚哥_市内交通图2733.png"
+  {
+   "name": "SpringHill Suites by Marriott San Diego",
+   "area": "市区航母附近",
+   "star": 3,
+   "score": "8.9",
+   "reviews": "500条评价+",
+   "note": "停车$45，步行6分钟到航母博物馆",
+   "link": ""
+  },
+  {
+   "name": "Holiday Inn Express San Diego",
+   "area": "市区SeaWorld附近",
+   "star": 2,
+   "score": "8.5",
+   "reviews": "1600条评价+",
+   "note": "停车免费，距离SeaWorld 5分钟车程",
+   "link": ""
+  },
+  {
+   "name": "Old Town Inn",
+   "area": "老城",
+   "star": 2,
+   "score": "8.5",
+   "reviews": "3400条评价+",
+   "note": "停车免费，步行6分钟到老城，性价比高",
+   "link": ""
+  },
+  {
+   "name": "Inn by the Sea, at La Jolla",
+   "area": "La Jolla",
+   "star": 3,
+   "score": "8.6",
+   "reviews": "1300条评价+",
+   "note": "停车$20，步行可到最美海滩",
+   "link": ""
+  },
+  {
+   "name": "Sands Of La Jolla",
+   "area": "La Jolla",
+   "star": 4,
+   "score": "8.7",
+   "reviews": "2200条评价+",
+   "note": "免费停车，车程10分钟到La Jolla Cove最美海滩，周边环境好",
+   "link": ""
+  },
+  {
+   "name": "Hyatt Regency La Jolla at Aventine",
+   "area": "La Jolla",
+   "star": 4,
+   "score": "8.3",
+   "reviews": "800条评价+",
+   "note": "停车$45，车程10分钟到最美海滩",
+   "link": ""
+  },
+  {
+   "name": "Hampton Inn & Suites",
+   "area": "机场附近",
+   "star": 3,
+   "score": "8.7",
+   "reviews": "800条评价+",
+   "note": "停车$25，距机场5分钟车程，提供机场班车",
+   "link": ""
+  },
+  {
+   "name": "Harbor Island Hilton",
+   "area": "机场附近",
+   "star": 3,
+   "score": "8.3",
+   "reviews": "700条评价+",
+   "note": "停车$35，距机场5分钟车程，提供机场班车",
+   "link": ""
+  },
+  {
+   "name": "Best Western Yacht Harbour Hotel",
+   "area": "市区",
+   "star": 3,
+   "score": "7.9",
+   "reviews": "4500条评价+",
+   "note": "位于航母/老城/Sunset Cliff的中间",
+   "link": ""
+  }
+ ],
+ "hotel_intro": "市区出行吃饭最方便，治安比洛杉矶好；La Jolla是典型南加州海滨区，可每天看迷人日落；需早晚航班可住机场附近酒店",
+ "attractions": [
+  {
+   "name": "USS Midway航母博物馆",
+   "order": 1,
+   "tagline": "美国展出的最强大航母，约需3小时",
+   "has_detail": false
+  },
+  {
+   "name": "La Jolla Cove",
+   "order": 2,
+   "tagline": "最美海滩/日落观赏地，需1-3小时",
+   "has_detail": false
+  },
+  {
+   "name": "Balboa Park巴尔博亚公园",
+   "order": 3,
+   "tagline": "西班牙建筑+动物园，约需1天",
+   "has_detail": false
+  },
+  {
+   "name": "SeaWorld海洋世界",
+   "order": 4,
+   "tagline": "过山车+海豚/海狮/虎鲸表演，约需1天",
+   "has_detail": true
+  },
+  {
+   "name": "Sunset Cliff",
+   "order": 5,
+   "tagline": "日落观景点",
+   "has_detail": false
+  },
+  {
+   "name": "Old Town老城公园",
+   "order": 6,
+   "tagline": "体验墨西哥风情，约需30分钟",
+   "has_detail": false
+  },
+  {
+   "name": "Potato Chip Rock薯片岩",
+   "order": 7,
+   "tagline": "徒步约需3小时，往返4英里/6.6公里",
+   "has_detail": false
+  },
+  {
+   "name": "Safari Park野生动物园",
+   "order": 8,
+   "tagline": "看放养动物，约需4-5小时",
+   "has_detail": false
+  },
+  {
+   "name": "LEGOLAND乐高乐园",
+   "order": 9,
+   "tagline": "适合小龄儿童，约需1天",
+   "has_detail": false
+  },
+  {
+   "name": "The Flower Fields花海",
+   "order": 10,
+   "tagline": "3月中-5月初开放，约需2小时",
+   "has_detail": false
+  }
+ ],
+ "itinerary": [
+  {
+   "day": "1",
+   "title": "航母博物馆→老城→La Jolla海滩日落",
+   "detail": "上午前往USS Midway航母博物馆参观美国展出的最强大航母（约需3小时）；下午打卡Old Town老城公园体验墨西哥风情（约需30分钟）；傍晚去La Jolla Cove看最美海滩和日落（需1-3小时）"
+  },
+  {
+   "day": "2",
+   "title": "主题乐园或动物园",
+   "detail": "根据兴趣选择：喜欢动物可去Balboa Park看西班牙建筑+逛动物园（约需1天）；想玩过山车+看海洋动物表演可去SeaWorld海洋世界（约需1天）；想看放养动物可去Safari Park野生动物园（约需4-5小时）；带小龄儿童可去LEGOLAND乐高乐园（约需1天）"
+  },
+  {
+   "day": "3",
+   "title": "特色体验",
+   "detail": "可选择出海观鲸看海上日落（约需3小时）；或徒步Potato Chip Rock薯片岩（约需3小时往返）；若3月中-5月初到访务必去The Flower Fields看花海（约需2小时）"
+  }
+ ],
+ "sections": [
+  {
+   "title": "城市概况",
+   "content": "圣地亚哥英文名San Diego，也常被翻译为圣迭戈，位于南加州，是四季温暖的海滨度假胜地和主题乐园之城。这座城市历史上先后被西班牙、墨西哥和美国殖民或占领，因此建筑风格混搭，很有特色。距离洛杉矶约120英里，自驾约2小时可达，也可乘坐Pacific Surfliner海景列车前往，部分路段能欣赏到迷人海景。作为度假城市，圣地亚哥治安比洛杉矶好很多。"
+  },
+  {
+   "title": "SeaWorld海洋世界详解",
+   "content": "SeaWorld San Diego是圣地亚哥最著名的景点，卖点是动物表演和过山车，可以游玩一整天。乐园创立于1964年，营业时间通常为10am-9/10pm。主要表演包括：Dolphin Adventures海豚表演（长20分钟，海豚可加速到30英里/小时、闭气8-10分钟，脑容量1600克比人类还多300克）；The Sea Lion Experience海狮表演（长20分钟，主角是海狮和亚洲小爪水獭，以搞笑为特色）；Orca Encounter虎鲸表演（约25分钟，以前叫杀人鲸表演，现改名为虎鲸，以科普为主，虎鲸是海洋顶级掠食者、属于海豚科）；暑期每晚闭园时还有烟花秀。\n\n主要过山车项目：Electric Eel是体感最刺激的过山车，有翻转，2018年引入，轨道长约260米、最快时速100公里、最高点46米；Emperor是加州最高的无地板过山车，有3次翻转，2022年引入，最快时速97公里、最高点47米；Manta是招牌过山车，脚悬空无360度翻转，2012年引入，轨道长约850米、最快时速69公里；Arctic Rescue是雪地摩托主题家庭向过山车，2023年引入，无翻转但刺激有趣。其他项目还有Journey to Atlantis激流勇进（最高点29米、最快时速68公里）和Shipwreck Rapids漂流（不刺激但保证湿身凉爽）。\n\n园区禁止携带午餐/饮料，只能带水/水壶。有All-Day Dining Deal套餐成人60美金起，每1.5小时可吃1次，但味道一般且节假日排队时间长。表演场地无遮挡特别晒，需备齐防晒用品。暑期/大型节假日建议购买Quick Queue快通票（30-60美金），平时必要性不大。"
+  },
+  {
+   "title": "住宿区域建议",
+   "content": "多数游客会住在市区或La Jolla附近。市区住宿出行和吃饭最方便，虽有homeless但数量少，航母附近的Manchester Grand Hyatt步行10分钟可到航母博物馆、周边餐厅多，SpringHill Suites步行6分钟到航母；Old Town附近的Old Town Inn性价比高、停车免费。La Jolla是典型的南加州海滨区，每天都能看到迷人日落，Inn by the Sea步行可到最美海滩，Sands Of La Jolla免费停车、车程10分钟到La Jolla Cove。需要乘坐早晚航班的游客可住机场附近，Hampton Inn & Suites和Harbor Island Hilton距机场5分钟车程且提供机场班车。"
+  }
+ ],
+ "duration": "2-3天",
+ "best_time": "9-11月，海水最暖、阴雾季已过且避开暑期人潮，全年其实都适合到访",
+ "transport_map": "美国/圣地亚哥_交通图2733.png",
+ "transport_map_inner": "美国/圣地亚哥_市内交通图2733.png"
 }
