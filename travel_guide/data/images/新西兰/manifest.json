@@ -1219,5 +1219,25 @@
   "artist": "Beautiful view of a steaming geothermal area with lush hills and cloudy sky.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "罗托鲁瓦",
+  "attraction": "木桶温泉（Secret Spot Hot Tubs）",
+  "status": "ok",
+  "local": "罗托鲁瓦/木桶温泉（Secret Spot Hot Tubs）_1.jpg",
+  "license": "Pexels",
+  "artist": "Relaxing outdoor jacuzzi under a starry sky with distant city lights in Santa Teresa, Brazil.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "罗托鲁瓦",
+  "attraction": "爱哥顿农场",
+  "status": "ok",
+  "local": "罗托鲁瓦/爱哥顿农场_1.jpg",
+  "license": "Pexels",
+  "artist": "Serene landscape of a sheep farm in Gisborne, New Zealand, under a clear blue sky.",
+  "source": "pexels",
+  "extras": []
  }
 ]

@@ -461,5 +461,35 @@
   "artist": "Breathtaking view of the Columbia River and Mount Hood with a winding railway along the shore.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "死亡谷",
+  "attraction": "Harmony Borax Works废墟",
+  "status": "ok",
+  "local": "死亡谷/Harmony Borax Works废墟_1.jpg",
+  "license": "Pexels",
+  "artist": "Explore the barren landscape of a deserted mine in Nevada, featuring a rusty vehicle.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "夏威夷大岛",
+  "attraction": "希洛农贸市场",
+  "status": "ok",
+  "local": "夏威夷大岛/希洛农贸市场_1.jpg",
+  "license": "Pexels",
+  "artist": "An array of fresh fruits including mangoes and oranges on display at an outdoor street market stall.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "拉斯维加斯",
+  "attraction": "威尼斯人酒店",
+  "status": "ok",
+  "local": "拉斯维加斯/威尼斯人酒店_1.jpg",
+  "license": "Pexels",
+  "artist": "Lavishly decorated ceiling with intricate art at The Venetian, Las Vegas.",
+  "source": "pexels",
+  "extras": []
  }
 ]

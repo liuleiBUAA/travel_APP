@@ -1607,5 +1607,15 @@
   "artist": "Quaint narrow street with traditional buildings in Ciudadela de Menorca, under a clear blue sky.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "佛罗伦萨",
+  "attraction": "圣若望礼拜堂",
+  "status": "ok",
+  "local": "佛罗伦萨/圣若望礼拜堂_1.jpg",
+  "license": "Pexels",
+  "artist": "Majestic frescoed dome viewed from below in Firenze, highlighting Renaissance artistry.",
+  "source": "pexels",
+  "extras": []
  }
 ]

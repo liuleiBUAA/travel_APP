@@ -1116,5 +1116,35 @@
   "artist": "Majestic alpine peaks covered in snow under a clear blue sky, creating a serene winter landscape.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "班夫",
+  "attraction": "露易丝湖滑雪场",
+  "status": "ok",
+  "local": "班夫/露易丝湖滑雪场_1.jpg",
+  "license": "Pexels",
+  "artist": "Skier on a snowy slope with gondolas against clear blue sky, capturing winter sport excitement.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "多伦多",
+  "attraction": "太古广场（Pacific Mall）",
+  "status": "ok",
+  "local": "多伦多/太古广场（Pacific Mall）_1.jpg",
+  "license": "Pexels",
+  "artist": "Indoor view of a shopping mall with vibrant red Chinese New Year decorations and banners.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "多伦多",
+  "attraction": "加拿大奇幻乐园",
+  "status": "ok",
+  "local": "多伦多/加拿大奇幻乐园_1.jpg",
+  "license": "Pexels",
+  "artist": "Exciting roller coaster ride with vibrant colors against a clear blue sky.",
+  "source": "pexels",
+  "extras": []
  }
 ]

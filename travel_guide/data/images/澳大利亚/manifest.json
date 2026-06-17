@@ -2336,5 +2336,45 @@
   "artist": "A mother kangaroo with her joey in a tranquil park setting, Perth, Australia.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "凯恩斯",
+  "attraction": "市区景点",
+  "status": "ok",
+  "local": "凯恩斯/市区景点_1.jpg",
+  "license": "Pexels",
+  "artist": "Stunning aerial view of Airlie Beach coastline in Queensland, Australia, showcasing lush greenery and turquoise waters.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "凯恩斯",
+  "attraction": "翡翠岛",
+  "status": "ok",
+  "local": "凯恩斯/翡翠岛_1.jpg",
+  "license": "Pexels",
+  "artist": "Discover the colorful coral reef ecosystem bustling with diverse marine life under the clear blue ocean.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "汉密尔顿岛",
+  "attraction": "Passage Peak",
+  "status": "ok",
+  "local": "汉密尔顿岛/Passage Peak_1.jpg",
+  "license": "Pexels",
+  "artist": "A breathtaking view of the serene Whitsundays beach with turquoise waters in Queensland, Australia.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "珀斯",
+  "attraction": "西澳大学",
+  "status": "ok",
+  "local": "珀斯/西澳大学_1.jpg",
+  "license": "Pexels",
+  "artist": "A tall clock tower stands against a clear blue sky on the UBC Vancouver campus.",
+  "source": "pexels",
+  "extras": []
  }
 ]

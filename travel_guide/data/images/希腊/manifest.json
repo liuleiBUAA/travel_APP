@@ -613,5 +613,25 @@
   "artist": "Stunning aerial view of Elafonissi Beach in Greece with crystal-clear turquoise waters and white sands.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "圣托里尼",
+  "attraction": "黑石滩Perissa",
+  "status": "ok",
+  "local": "圣托里尼/黑石滩Perissa_1.jpg",
+  "license": "Pexels",
+  "artist": "A breathtaking sunset view at the seashore in Santorini, Greece, with a golden horizon over tranquil waters.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "圣托里尼",
+  "attraction": "黑石滩Kamari",
+  "status": "ok",
+  "local": "圣托里尼/黑石滩Kamari_1.jpg",
+  "license": "Pexels",
+  "artist": "Idyllic beach view featuring a vibrant boat, sun umbrellas, and a clear blue sea.",
+  "source": "pexels",
+  "extras": []
  }
 ]

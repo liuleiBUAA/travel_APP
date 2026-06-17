@@ -1392,5 +1392,55 @@
   "artist": "Serene autumn landscape with trees reflecting on a lake in Lyon, France.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "巴黎",
+  "attraction": "毕加索美术馆",
+  "status": "ok",
+  "local": "巴黎/毕加索美术馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Roof of aged stone house with attic windows and chimney on roof located on street in city against blue sky in sunlight",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "尼斯",
+  "attraction": "马蒂斯博物馆",
+  "status": "ok",
+  "local": "尼斯/马蒂斯博物馆_1.jpg",
+  "license": "Pexels",
+  "artist": "A beautiful villa surrounded by lush greenery in Provence-Alpes-Côte d'Azur, France.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "里昂",
+  "attraction": "汇流美术馆",
+  "status": "ok",
+  "local": "里昂/汇流美术馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Abstract view of modern orange geometric architecture in Lyon, France.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "里昂",
+  "attraction": "保罗博古斯市场",
+  "status": "ok",
+  "local": "里昂/保罗博古斯市场_1.jpg",
+  "license": "Pexels",
+  "artist": "Bustling indoor market scene in Avignon, capturing diverse stalls and vibrant produce.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "阿维尼翁",
+  "attraction": "钟楼广场",
+  "status": "ok",
+  "local": "阿维尼翁/钟楼广场_1.jpg",
+  "license": "Pexels",
+  "artist": "A beautifully ornate vintage carousel on a sunny day in Bordeaux's Place de la Comédie.",
+  "source": "pexels",
+  "extras": []
  }
 ]

@@ -1457,5 +1457,65 @@
   "artist": "Contemporary building surrounded by lush yellow wildflowers in Nagoya's serene landscape.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "札幌",
+  "attraction": "北海道大学",
+  "status": "ok",
+  "local": "札幌/北海道大学_1.jpg",
+  "license": "Pexels",
+  "artist": "Close-up of vivid yellow fallen leaves on a pavement, capturing the essence of autumn.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "札幌",
+  "attraction": "白色恋人巧克力工厂",
+  "status": "ok",
+  "local": "札幌/白色恋人巧克力工厂_1.jpg",
+  "license": "Pexels",
+  "artist": "Charming red brick architecture under a bright blue sky in Jönköping, Sweden.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "那霸",
+  "attraction": "国际通大街",
+  "status": "ok",
+  "local": "那霸/国际通大街_1.jpg",
+  "license": "Pexels",
+  "artist": "Narrow walkway between street shops with shiny lamps in Asian town at night",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "那霸",
+  "attraction": "第一牧志公社市场",
+  "status": "ok",
+  "local": "那霸/第一牧志公社市场_1.jpg",
+  "license": "Pexels",
+  "artist": "Close-up of fresh black cod and red fish displayed on ice at a seafood market.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "东京",
+  "attraction": "哈利波特影城",
+  "status": "ok",
+  "local": "东京/哈利波特影城_1.jpg",
+  "license": "Pexels",
+  "artist": "Two people in wizard costumes reading from a book indoors. Magical theme.",
+  "source": "pexels",
+  "extras": []
+ },
+ {
+  "city": "京都",
+  "attraction": "清水寺及周边",
+  "status": "ok",
+  "local": "京都/清水寺及周边_1.jpg",
+  "license": "Pexels",
+  "artist": "Breathtaking view of Kiyomizu-dera Temple with vibrant autumn foliage in Kyoto, Japan.",
+  "source": "pexels",
+  "extras": []
  }
 ]
