@@ -1492,5 +1492,15 @@
   "artist": "",
   "source": "wikipedia",
   "extras": []
+ },
+ {
+  "city": "尼斯",
+  "attraction": "夏加尔博物馆",
+  "status": "ok",
+  "local": "尼斯/夏加尔博物馆_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
  }
 ]

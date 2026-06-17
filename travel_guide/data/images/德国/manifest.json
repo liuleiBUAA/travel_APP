@@ -1221,5 +1221,15 @@
   "artist": "",
   "source": "wikipedia",
   "extras": []
+ },
+ {
+  "city": "汉堡",
+  "attraction": "汉堡渔市",
+  "status": "ok",
+  "local": "汉堡/汉堡渔市_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
  }
 ]

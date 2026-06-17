@@ -661,5 +661,15 @@
   "artist": "",
   "source": "wikipedia",
   "extras": []
+ },
+ {
+  "city": "亚特兰大",
+  "attraction": "石头山州立公园",
+  "status": "ok",
+  "local": "亚特兰大/石头山州立公园_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
  }
 ]
