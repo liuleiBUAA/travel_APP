@@ -601,5 +601,25 @@
   "artist": "",
   "source": "wikimedia",
   "extras": []
+ },
+ {
+  "city": "波士顿",
+  "attraction": "波士顿美术馆",
+  "status": "ok",
+  "local": "波士顿/波士顿美术馆_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
+ },
+ {
+  "city": "波特兰",
+  "attraction": "Rowena Crest Viewpoint",
+  "status": "ok",
+  "local": "波特兰/Rowena Crest Viewpoint_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
  }
 ]

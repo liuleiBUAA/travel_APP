@@ -2376,5 +2376,25 @@
   "artist": "A tall clock tower stands against a clear blue sky on the UBC Vancouver campus.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "墨尔本",
+  "attraction": "维多利亚女王市场",
+  "status": "ok",
+  "local": "墨尔本/维多利亚女王市场_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
+ },
+ {
+  "city": "艾尔利海滩",
+  "attraction": "哈迪礁海上平台",
+  "status": "ok",
+  "local": "艾尔利海滩/哈迪礁海上平台_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
  }
 ]

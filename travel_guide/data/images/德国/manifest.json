@@ -1191,5 +1191,25 @@
   "artist": "Vibrant love locks on a bridge in Cologne, Germany with a passing train in the background.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "德累斯顿",
+  "attraction": "绿穹珍宝馆",
+  "status": "ok",
+  "local": "德累斯顿/绿穹珍宝馆_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
+ },
+ {
+  "city": "德累斯顿",
+  "attraction": "普芬德奶制品店",
+  "status": "ok",
+  "local": "德累斯顿/普芬德奶制品店_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
  }
 ]

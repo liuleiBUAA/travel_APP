@@ -1684,5 +1684,35 @@
   "artist": "",
   "source": "wikimedia",
   "extras": []
+ },
+ {
+  "city": "特罗姆瑟",
+  "attraction": "极地水族馆",
+  "status": "ok",
+  "local": "特罗姆瑟/极地水族馆_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
+ },
+ {
+  "city": "特罗姆瑟",
+  "attraction": "北挪威艺术博物馆",
+  "status": "ok",
+  "local": "特罗姆瑟/北挪威艺术博物馆_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "丹麦设计博物馆",
+  "status": "ok",
+  "local": "哥本哈根/丹麦设计博物馆_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
  }
 ]

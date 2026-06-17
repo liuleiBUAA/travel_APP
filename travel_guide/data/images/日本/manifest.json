@@ -1527,5 +1527,15 @@
   "artist": "",
   "source": "wikipedia",
   "extras": []
+ },
+ {
+  "city": "东京",
+  "attraction": "三丽鸥彩虹乐园",
+  "status": "ok",
+  "local": "东京/三丽鸥彩虹乐园_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
  }
 ]

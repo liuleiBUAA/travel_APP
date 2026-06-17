@@ -1627,5 +1627,25 @@
   "artist": "",
   "source": "wikipedia",
   "extras": []
+ },
+ {
+  "city": "威尼斯",
+  "attraction": "沉船书店",
+  "status": "ok",
+  "local": "威尼斯/沉船书店_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
+ },
+ {
+  "city": "佛罗伦萨",
+  "attraction": "大教堂歌剧博物馆",
+  "status": "ok",
+  "local": "佛罗伦萨/大教堂歌剧博物馆_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
  }
 ]
