@@ -1239,5 +1239,25 @@
   "artist": "Serene landscape of a sheep farm in Gisborne, New Zealand, under a clear blue sky.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "罗托鲁瓦",
+  "attraction": "波利尼西亚温泉（Polynesian Spa）",
+  "status": "ok",
+  "local": "罗托鲁瓦/波利尼西亚温泉（Polynesian Spa）_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
+ },
+ {
+  "city": "罗托鲁瓦",
+  "attraction": "天堂谷野生动物园",
+  "status": "ok",
+  "local": "罗托鲁瓦/天堂谷野生动物园_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
  }
 ]

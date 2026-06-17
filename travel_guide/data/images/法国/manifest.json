@@ -1442,5 +1442,25 @@
   "artist": "A beautifully ornate vintage carousel on a sunny day in Bordeaux's Place de la Comédie.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "里昂",
+  "attraction": "卢米埃博物馆",
+  "status": "ok",
+  "local": "里昂/卢米埃博物馆_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
+ },
+ {
+  "city": "尼斯",
+  "attraction": "#ilovenice墙",
+  "status": "ok",
+  "local": "尼斯/#ilovenice墙_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
  }
 ]

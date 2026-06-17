@@ -491,5 +491,45 @@
   "artist": "Lavishly decorated ceiling with intricate art at The Venetian, Las Vegas.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "纽约",
+  "attraction": "华尔街铜牛",
+  "status": "ok",
+  "local": "纽约/华尔街铜牛_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
+ },
+ {
+  "city": "华盛顿",
+  "attraction": "暗门博物馆",
+  "status": "ok",
+  "local": "华盛顿/暗门博物馆_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
+ },
+ {
+  "city": "费城",
+  "attraction": "穆特博物馆",
+  "status": "ok",
+  "local": "费城/穆特博物馆_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
+ },
+ {
+  "city": "檀香山",
+  "attraction": "阿拉莫阿娜购物中心",
+  "status": "ok",
+  "local": "檀香山/阿拉莫阿娜购物中心_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikimedia",
+  "extras": []
  }
 ]
