@@ -1,249 +1,243 @@
 {
- "name": "皇后镇",
- "type": "city",
- "aliases": [
-  "Queenstown"
- ],
- "city": "皇后镇",
- "country": "新西兰",
- "summary": "新西兰南岛最热门旅游地，四季风景皆宜。坐拥瓦卡蒂普湖无敌湖景，集极限运动、温泉、高山牧场、峡湾1日游于一体，镇内步行可达各网红餐厅，周边可自驾前往魔戒取景地和箭镇金秋胜景。",
- "transport": {
-  "fly_train": "机场位于市区东8km，车程10分钟。公交1路到镇中心15分钟，使用Bee Card刷卡NZ$2/直接买票NZ$10（6am-午夜0点）；Uber约NZ$30；小巴拼车门到门NZ$22.8/人",
-  "drive": "镇内步行即可，周边活动可自驾可参团。箭镇+瓦纳卡途径皇冠山脉山路坡多弯多，风景美",
-  "local": "镇内步行游览，使用Bee Card公交卡注册NZ$2/车票NZ$2"
- },
- "hotels": [
-  {
-   "name": "The Rees Hotel & Luxury Apartments",
-   "area": "湖畔",
-   "star": 5,
-   "score": "9.1",
-   "reviews": "1500+",
-   "note": "距离皇后镇10分钟车程，到镇中心有免费班车",
-   "link": ""
+  "name": "皇后镇",
+  "type": "city",
+  "aliases": [
+    "Queenstown"
+  ],
+  "city": "皇后镇",
+  "country": "新西兰",
+  "summary": "新西兰南岛最热门旅游地，四季风景皆宜。坐拥瓦卡蒂普湖无敌湖景，集极限运动、温泉、高山牧场、峡湾1日游于一体，镇内步行可达各网红餐厅，周边可自驾前往魔戒取景地和箭镇金秋胜景。",
+  "transport": {
+    "fly_train": "机场位于市区东8km，车程10分钟。公交1路到镇中心15分钟，使用Bee Card刷卡NZ$2/直接买票NZ$10（6am-午夜0点）；Uber约NZ$30；小巴拼车门到门NZ$22.8/人",
+    "drive": "镇内步行即可，周边活动可自驾可参团。箭镇+瓦纳卡途径皇冠山脉山路坡多弯多，风景美",
+    "local": "镇内步行游览，使用Bee Card公交卡注册NZ$2/车票NZ$2"
   },
-  {
-   "name": "Heritage Queenstown",
-   "area": "湖畔",
-   "star": 4.5,
-   "score": "8.4",
-   "reviews": "1800+",
-   "note": "带泳池",
-   "link": ""
-  },
-  {
-   "name": "Oaks Queenstown Shores Resort",
-   "area": "湖畔",
-   "star": 4,
-   "score": "8.0",
-   "reviews": "2600+",
-   "note": "公寓式酒店，有健身中心和桑拿",
-   "link": ""
-  },
-  {
-   "name": "Sherwood",
-   "area": "湖畔",
-   "star": 4,
-   "score": "8.5",
-   "reviews": "2500+",
-   "note": "距离机场8分钟，皇后镇镇中心5分钟车程，设有自行车道和菜园",
-   "link": ""
-  },
-  {
-   "name": "Pencarrow Boutique Lodge",
-   "area": "湖畔",
-   "star": 0,
-   "score": "8.7",
-   "reviews": "130+",
-   "note": "带设施齐全的厨房，SPA",
-   "link": ""
-  },
-  {
-   "name": "Hilton Queenstown Resort & Spa",
-   "area": "湖畔",
-   "star": 5,
-   "score": "8.4",
-   "reviews": "3800+",
-   "note": "距离机场5分钟车程，乘水上巴士15分钟到皇后镇中心",
-   "link": ""
-  },
-  {
-   "name": "Copthorne Hotel & Apartments Queenstown Lakeview",
-   "area": "镇内",
-   "star": 4,
-   "score": "7.9",
-   "reviews": "4000+",
-   "note": "近湖边，有免费地下停车场",
-   "link": ""
-  },
-  {
-   "name": "Pinewood Lodge and Apartments",
-   "area": "镇内",
-   "star": 0,
-   "score": "7.4",
-   "reviews": "3200+",
-   "note": "经济型，距离镇中心步行7-8分钟，免费停车",
-   "link": ""
-  },
-  {
-   "name": "Copthorne Hotel & Resort Lakefront Queenstown",
-   "area": "镇内",
-   "star": 4,
-   "score": "8.2",
-   "reviews": "2400+",
-   "note": "位于主路旁，有湖景房间，距离镇中心步行5分钟",
-   "link": ""
-  },
-  {
-   "name": "Kinross Boutique Vineyard Hotel",
-   "area": "郊区",
-   "star": 4,
-   "score": "9.1",
-   "reviews": "0",
-   "note": "距离皇后镇30分钟车程，享有葡萄园景致，有室外热水浴池，晚上可看星空",
-   "link": ""
-  },
-  {
-   "name": "Millbrook Resort",
-   "area": "郊区",
-   "star": 5,
-   "score": "9.2",
-   "reviews": "0",
-   "note": "度假村，距离皇后镇30分钟车程，享受山脉景致，带3个室外泳池、高尔夫球场，距离机场20分钟",
-   "link": ""
-  }
- ],
- "hotel_intro": "自驾游客推荐住湖畔，享受无敌湖光山色；非自驾游客住镇内，步行逛吃参加活动便利。特色酒店距镇略远但可享受宁静大自然。",
- "attractions": [
-  {
-   "name": "天际缆车Skyline",
-   "order": 1,
-   "tagline": "乘缆车到皇后镇制高点俯瞰美景，可玩Luge滑板车，缆车NZ$52",
-   "has_detail": false,
-   "image_alias": "天际缆车"
-  },
-  {
-   "name": "木桶温泉Onsen Hot Pool",
-   "order": 2,
-   "tagline": "近几年热门温泉形式舒适惬意，2人NZ$145起/4人NZ$230起，建议提前预订",
-   "has_detail": false
-  },
-  {
-   "name": "高山鹿园Deer Park Heights",
-   "order": 3,
-   "tagline": "看鹿群+喂食各种动物，NZ$55/车（车内最多8人），带硬币NZ$2可买大桶饲料",
-   "has_detail": false,
-   "image_alias": "高山鹿园"
-  },
-  {
-   "name": "皇后镇公园",
-   "order": 4,
-   "tagline": "风景美，推荐安排半天闲逛",
-   "has_detail": false
-  },
-  {
-   "name": "Main Street",
-   "order": 5,
-   "tagline": "热闹的步行街",
-   "has_detail": false
-  },
-  {
-   "name": "格林诺奇和天堂镇",
-   "order": 6,
-   "tagline": "魔戒取景地，沿途湖光山色穿越森林牧场，4小时，可自驾可参团",
-   "has_detail": false,
-   "image_alias": "格林诺奇"
-  },
-  {
-   "name": "箭镇+瓦纳卡",
-   "order": 7,
-   "tagline": "途径皇冠山脉风景美，途径网红胸衣墙，6小时小团组，可自驾可参团",
-   "has_detail": false,
-   "image_alias": "箭镇"
-  },
-  {
-   "name": "米尔福德峡湾",
-   "order": 8,
-   "tagline": "玻璃顶大巴12.5小时/小巴车小团组13小时，建议参团",
-   "has_detail": false,
-   "image_alias": "米尔福德峡湾一日游"
-  },
-  {
-   "name": "库克山Mt Cook",
-   "order": 9,
-   "tagline": "途径普卡基湖可买三文鱼，春季有鲁冰花，12小时，建议参团",
-   "has_detail": false,
-   "image_alias": "好牧羊人教堂"
-  },
-  {
-   "name": "滑翔伞Paragliding",
-   "order": 10,
-   "tagline": "自由飞行俯瞰湖光山色，没有失重感不难受不恐怖",
-   "has_detail": false,
-   "image_alias": "观光飞行"
-  },
-  {
-   "name": "喷射快艇Shotover River",
-   "order": 11,
-   "tagline": "在两岸悬崖耸立的河道飞驰，体验360°船体旋转",
-   "has_detail": false,
-   "image_alias": "瓦卡蒂普湖"
-  },
-  {
-   "name": "高原牧场TSS Earnslaw",
-   "order": 12,
-   "tagline": "乘TSS蒸汽船前往牧场，有剪羊毛表演和各种小动物，可享用BBQ自助餐",
-   "has_detail": false,
-   "image_alias": "游船"
-  },
-  {
-   "name": "双人高空跳伞NZONE Skydive",
-   "order": 13,
-   "tagline": "1教练+1游客，由教练主导，游客固定在教练身前",
-   "has_detail": false,
-   "image_alias": "跳伞"
-  },
-  {
-   "name": "卡瓦劳大桥蹦极Kawarau Bridge Bungy",
-   "order": 14,
-   "tagline": "蹦极的发源地，可选触水蹦极",
-   "has_detail": false,
-   "image_alias": "蹦极"
-  }
- ],
- "itinerary": [
-  {
-   "day": "1",
-   "title": "抵达皇后镇",
-   "detail": "上午：机场租车，机场附近超市采购。\n下午：入住酒店，悠闲逛皇后镇市区、吃网红冰激凌。\n晚上：网红肋排店晚餐。"
-  },
-  {
-   "day": "2",
-   "title": "主要景点",
-   "detail": "上午：高山鹿园。\n中午：网红大汉堡。\n下午：天际缆车 + 山顶滑板车。\n傍晚：海鲜自助餐。"
-  },
-  {
-   "day": "3",
-   "title": "1日游 / 活动二选一",
-   "detail": "扶老携幼：高原牧场 TSS Earnslaw 游船。\n情侣闺蜜：木桶温泉。\n年轻朋友：极限运动（跳伞 / 蹦极 / 喷射快艇）。\n夏季首选：米尔福德峡湾 1 日游。\n秋季首选：箭镇 + 瓦纳卡 1 日游。"
-  }
- ],
- "sections": [
-  {
-   "title": "皇后镇风光与定位",
-   "content": "皇后镇坐落在瓦卡蒂普湖畔，是新西兰南岛最热门的旅游目的地，四季风景皆宜。这座小镇本身不大，镇内步行即可游览，但风景美不胜收，推荐安排半天时间闲逛。可以前往皇后镇公园欣赏湖光山色，或在Main Street热闹的步行街感受小镇氛围。皇后镇最大的魅力在于丰富的活动选择——从天际缆车俯瞰全景、木桶温泉舒适惬意，到滑翔伞、喷射快艇、高空跳伞等极限运动，再到周边的魔戒取景地、箭镇金秋、米尔福德峡湾和库克山1日游，无论扶老携幼还是年轻冒险者都能找到适合自己的玩法。"
-  },
-  {
-   "title": "餐饮推荐",
-   "content": "皇后镇有多家网红餐厅值得一试。Stratosfare Restaurant & Bar是位于天际缆车山顶站的海鲜自助餐厅，落地玻璃窗可俯瞰皇后镇全景，拍照好看，自助餐种类和味道可以但不惊艳。Fergburger是网红大汉堡店，材料新鲜各种肉类都有，喜爱清淡的可以点鱼肉汉堡，非高峰期通常等15-20分钟，旺季高峰可能要等1.5小时排队人会非常非常多。Flame Bar & Grill是网红肋排店，肋排、牛排、虾饭都不错，饭点会爆满，旺季晚餐推荐提前预订。Patagonia Chocolates是《妻子的浪漫旅行2》谢娜提到的网红冰激凌店，琳琅满目的甜品看着也很幸福。"
-  },
-  {
-   "title": "行程规划建议",
-   "content": "由于皇后镇风景美、活动多，如果安排南岛环线自驾，建议停留2晚以上；如果仅住在皇后镇度假，建议住3-5晚。典型行程安排：第1天抵达皇后镇，机场租车采购后入住酒店，逛皇后镇吃冰激凌，晚上去网红肋排店；第2天上午去高山鹿园，中午吃网红大汉堡，下午天际缆车+滑板车，傍晚海鲜自助餐；第3-5天根据兴趣选择1日游或活动——扶老携幼推荐高原牧场，情侣闺蜜推荐木桶温泉，年轻朋友推荐极限运动，夏季推荐米尔福德峡湾1日游，秋季推荐箭镇+瓦纳卡1日游。参与极限运动或一日游活动一般都在镇内门店集合，免费乘车往返活动地点。"
-  }
- ],
- "duration": "3-4天",
- "best_time": "12-2月夏季可玩全部水陆项目且白昼长；6-8月雪季滑雪客首选，秋季4月箭镇金黄也值一去",
- "transport_map": "新西兰/皇后镇_交通图893201.png",
- "transport_map_inner": "新西兰/皇后镇_市内交通图128987.png"
+  "hotels": [
+    {
+      "name": "The Rees Hotel & Luxury Apartments",
+      "area": "湖畔",
+      "star": 5,
+      "score": "9.1",
+      "reviews": "1500+",
+      "note": "距离皇后镇10分钟车程，到镇中心有免费班车",
+      "link": ""
+    },
+    {
+      "name": "Heritage Queenstown",
+      "area": "湖畔",
+      "star": 4.5,
+      "score": "8.4",
+      "reviews": "1800+",
+      "note": "带泳池",
+      "link": ""
+    },
+    {
+      "name": "Oaks Queenstown Shores Resort",
+      "area": "湖畔",
+      "star": 4,
+      "score": "8.0",
+      "reviews": "2600+",
+      "note": "公寓式酒店，有健身中心和桑拿",
+      "link": ""
+    },
+    {
+      "name": "Sherwood",
+      "area": "湖畔",
+      "star": 4,
+      "score": "8.5",
+      "reviews": "2500+",
+      "note": "距离机场8分钟，皇后镇镇中心5分钟车程，设有自行车道和菜园",
+      "link": ""
+    },
+    {
+      "name": "Pencarrow Boutique Lodge",
+      "area": "湖畔",
+      "star": 0,
+      "score": "8.7",
+      "reviews": "130+",
+      "note": "带设施齐全的厨房，SPA",
+      "link": ""
+    },
+    {
+      "name": "Hilton Queenstown Resort & Spa",
+      "area": "湖畔",
+      "star": 5,
+      "score": "8.4",
+      "reviews": "3800+",
+      "note": "距离机场5分钟车程，乘水上巴士15分钟到皇后镇中心",
+      "link": ""
+    },
+    {
+      "name": "Copthorne Hotel & Apartments Queenstown Lakeview",
+      "area": "镇内",
+      "star": 4,
+      "score": "7.9",
+      "reviews": "4000+",
+      "note": "近湖边，有免费地下停车场",
+      "link": ""
+    },
+    {
+      "name": "Pinewood Lodge and Apartments",
+      "area": "镇内",
+      "star": 0,
+      "score": "7.4",
+      "reviews": "3200+",
+      "note": "经济型，距离镇中心步行7-8分钟，免费停车",
+      "link": ""
+    },
+    {
+      "name": "Copthorne Hotel & Resort Lakefront Queenstown",
+      "area": "镇内",
+      "star": 4,
+      "score": "8.2",
+      "reviews": "2400+",
+      "note": "位于主路旁，有湖景房间，距离镇中心步行5分钟",
+      "link": ""
+    },
+    {
+      "name": "Kinross Boutique Vineyard Hotel",
+      "area": "郊区",
+      "star": 4,
+      "score": "9.1",
+      "reviews": "0",
+      "note": "距离皇后镇30分钟车程，享有葡萄园景致，有室外热水浴池，晚上可看星空",
+      "link": ""
+    },
+    {
+      "name": "Millbrook Resort",
+      "area": "郊区",
+      "star": 5,
+      "score": "9.2",
+      "reviews": "0",
+      "note": "度假村，距离皇后镇30分钟车程，享受山脉景致，带3个室外泳池、高尔夫球场，距离机场20分钟",
+      "link": ""
+    }
+  ],
+  "hotel_intro": "自驾游客推荐住湖畔，享受无敌湖光山色；非自驾游客住镇内，步行逛吃参加活动便利。特色酒店距镇略远但可享受宁静大自然。",
+  "attractions": [
+    {
+      "name": "天际缆车Skyline",
+      "order": 1,
+      "tagline": "乘缆车到皇后镇制高点俯瞰美景，可玩Luge滑板车，缆车NZ$52",
+      "has_detail": false,
+      "image_alias": "天际缆车"
+    },
+    {
+      "name": "高山鹿园Deer Park Heights",
+      "order": 3,
+      "tagline": "看鹿群+喂食各种动物，NZ$55/车（车内最多8人），带硬币NZ$2可买大桶饲料",
+      "has_detail": false,
+      "image_alias": "高山鹿园"
+    },
+    {
+      "name": "皇后镇公园",
+      "order": 4,
+      "tagline": "风景美，推荐安排半天闲逛",
+      "has_detail": false
+    },
+    {
+      "name": "Main Street",
+      "order": 5,
+      "tagline": "热闹的步行街",
+      "has_detail": false
+    },
+    {
+      "name": "格林诺奇和天堂镇",
+      "order": 6,
+      "tagline": "魔戒取景地，沿途湖光山色穿越森林牧场，4小时，可自驾可参团",
+      "has_detail": false,
+      "image_alias": "格林诺奇"
+    },
+    {
+      "name": "箭镇+瓦纳卡",
+      "order": 7,
+      "tagline": "途径皇冠山脉风景美，途径网红胸衣墙，6小时小团组，可自驾可参团",
+      "has_detail": false,
+      "image_alias": "箭镇"
+    },
+    {
+      "name": "米尔福德峡湾",
+      "order": 8,
+      "tagline": "玻璃顶大巴12.5小时/小巴车小团组13小时，建议参团",
+      "has_detail": false,
+      "image_alias": "米尔福德峡湾一日游"
+    },
+    {
+      "name": "库克山Mt Cook",
+      "order": 9,
+      "tagline": "途径普卡基湖可买三文鱼，春季有鲁冰花，12小时，建议参团",
+      "has_detail": false,
+      "image_alias": "好牧羊人教堂"
+    },
+    {
+      "name": "滑翔伞Paragliding",
+      "order": 10,
+      "tagline": "自由飞行俯瞰湖光山色，没有失重感不难受不恐怖",
+      "has_detail": false,
+      "image_alias": "观光飞行"
+    },
+    {
+      "name": "喷射快艇Shotover River",
+      "order": 11,
+      "tagline": "在两岸悬崖耸立的河道飞驰，体验360°船体旋转",
+      "has_detail": false,
+      "image_alias": "瓦卡蒂普湖"
+    },
+    {
+      "name": "高原牧场TSS Earnslaw",
+      "order": 12,
+      "tagline": "乘TSS蒸汽船前往牧场，有剪羊毛表演和各种小动物，可享用BBQ自助餐",
+      "has_detail": false,
+      "image_alias": "游船"
+    },
+    {
+      "name": "双人高空跳伞NZONE Skydive",
+      "order": 13,
+      "tagline": "1教练+1游客，由教练主导，游客固定在教练身前",
+      "has_detail": false,
+      "image_alias": "跳伞"
+    },
+    {
+      "name": "卡瓦劳大桥蹦极Kawarau Bridge Bungy",
+      "order": 14,
+      "tagline": "蹦极的发源地，可选触水蹦极",
+      "has_detail": false,
+      "image_alias": "蹦极"
+    }
+  ],
+  "itinerary": [
+    {
+      "day": "1",
+      "title": "抵达皇后镇",
+      "detail": "上午：机场租车，机场附近超市采购。\n下午：入住酒店，悠闲逛皇后镇市区、吃网红冰激凌。\n晚上：网红肋排店晚餐。"
+    },
+    {
+      "day": "2",
+      "title": "主要景点",
+      "detail": "上午：高山鹿园。\n中午：网红大汉堡。\n下午：天际缆车 + 山顶滑板车。\n傍晚：海鲜自助餐。"
+    },
+    {
+      "day": "3",
+      "title": "1日游 / 活动二选一",
+      "detail": "扶老携幼：高原牧场 TSS Earnslaw 游船。\n情侣闺蜜：木桶温泉。\n年轻朋友：极限运动（跳伞 / 蹦极 / 喷射快艇）。\n夏季首选：米尔福德峡湾 1 日游。\n秋季首选：箭镇 + 瓦纳卡 1 日游。"
+    }
+  ],
+  "sections": [
+    {
+      "title": "皇后镇风光与定位",
+      "content": "皇后镇坐落在瓦卡蒂普湖畔，是新西兰南岛最热门的旅游目的地，四季风景皆宜。这座小镇本身不大，镇内步行即可游览，但风景美不胜收，推荐安排半天时间闲逛。可以前往皇后镇公园欣赏湖光山色，或在Main Street热闹的步行街感受小镇氛围。皇后镇最大的魅力在于丰富的活动选择——从天际缆车俯瞰全景、木桶温泉舒适惬意，到滑翔伞、喷射快艇、高空跳伞等极限运动，再到周边的魔戒取景地、箭镇金秋、米尔福德峡湾和库克山1日游，无论扶老携幼还是年轻冒险者都能找到适合自己的玩法。"
+    },
+    {
+      "title": "餐饮推荐",
+      "content": "皇后镇有多家网红餐厅值得一试。Stratosfare Restaurant & Bar是位于天际缆车山顶站的海鲜自助餐厅，落地玻璃窗可俯瞰皇后镇全景，拍照好看，自助餐种类和味道可以但不惊艳。Fergburger是网红大汉堡店，材料新鲜各种肉类都有，喜爱清淡的可以点鱼肉汉堡，非高峰期通常等15-20分钟，旺季高峰可能要等1.5小时排队人会非常非常多。Flame Bar & Grill是网红肋排店，肋排、牛排、虾饭都不错，饭点会爆满，旺季晚餐推荐提前预订。Patagonia Chocolates是《妻子的浪漫旅行2》谢娜提到的网红冰激凌店，琳琅满目的甜品看着也很幸福。"
+    },
+    {
+      "title": "行程规划建议",
+      "content": "由于皇后镇风景美、活动多，如果安排南岛环线自驾，建议停留2晚以上；如果仅住在皇后镇度假，建议住3-5晚。典型行程安排：第1天抵达皇后镇，机场租车采购后入住酒店，逛皇后镇吃冰激凌，晚上去网红肋排店；第2天上午去高山鹿园，中午吃网红大汉堡，下午天际缆车+滑板车，傍晚海鲜自助餐；第3-5天根据兴趣选择1日游或活动——扶老携幼推荐高原牧场，情侣闺蜜推荐木桶温泉，年轻朋友推荐极限运动，夏季推荐米尔福德峡湾1日游，秋季推荐箭镇+瓦纳卡1日游。参与极限运动或一日游活动一般都在镇内门店集合，免费乘车往返活动地点。"
+    }
+  ],
+  "duration": "3-4天",
+  "best_time": "12-2月夏季可玩全部水陆项目且白昼长；6-8月雪季滑雪客首选，秋季4月箭镇金黄也值一去",
+  "transport_map": "新西兰/皇后镇_交通图893201.png",
+  "transport_map_inner": "新西兰/皇后镇_市内交通图128987.png"
 }
