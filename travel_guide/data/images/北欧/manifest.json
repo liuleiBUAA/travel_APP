@@ -1724,5 +1724,15 @@
   "artist": "Snow-covered mountains and houses surround a serene fjord in Tromsø, Norway under a clear blue sky.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "哥本哈根",
+  "attraction": "丹麦国家博物馆",
+  "status": "ok",
+  "local": "哥本哈根/丹麦国家博物馆_1.jpg",
+  "license": "CC (Wikipedia)",
+  "artist": "",
+  "source": "wikipedia",
+  "extras": []
  }
 ]
