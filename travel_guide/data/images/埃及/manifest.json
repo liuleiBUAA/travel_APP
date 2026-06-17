@@ -8,5 +8,15 @@
   "artist": "Off-road vehicles traverse the sandy desert landscape of Faiyum, Egypt under a dramatic sky.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "开罗",
+  "attraction": "文明博物馆",
+  "status": "ok",
+  "local": "开罗/文明博物馆_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikipedia",
+  "extras": []
  }
 ]

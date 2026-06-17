@@ -541,5 +541,45 @@
   "artist": "",
   "source": "wikimedia",
   "extras": []
+ },
+ {
+  "city": "休斯顿",
+  "attraction": "黑白礼拜堂",
+  "status": "ok",
+  "local": "休斯顿/黑白礼拜堂_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikipedia",
+  "extras": []
+ },
+ {
+  "city": "休斯顿",
+  "attraction": "Meow Wolf Radio Tave",
+  "status": "ok",
+  "local": "休斯顿/Meow Wolf Radio Tave_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikipedia",
+  "extras": []
+ },
+ {
+  "city": "新奥尔良",
+  "attraction": "Preservation Hall",
+  "status": "ok",
+  "local": "新奥尔良/Preservation Hall_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikipedia",
+  "extras": []
+ },
+ {
+  "city": "奥兰多",
+  "attraction": "乐高乐园（Legoland Florida）",
+  "status": "ok",
+  "local": "奥兰多/乐高乐园（Legoland Florida）_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikipedia",
+  "extras": []
  }
 ]

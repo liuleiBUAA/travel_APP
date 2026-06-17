@@ -1146,5 +1146,15 @@
   "artist": "Exciting roller coaster ride with vibrant colors against a clear blue sky.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "班夫",
+  "attraction": "费尔蒙酒店",
+  "status": "ok",
+  "local": "班夫/费尔蒙酒店_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikipedia",
+  "extras": []
  }
 ]

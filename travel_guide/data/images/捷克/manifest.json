@@ -8,5 +8,15 @@
   "artist": "Colorful outdoor market stall in European city with souvenirs and bustling street life, perfect for tourism imagery.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "布拉格",
+  "attraction": "火药塔",
+  "status": "ok",
+  "local": "布拉格/火药塔_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikipedia",
+  "extras": []
  }
 ]

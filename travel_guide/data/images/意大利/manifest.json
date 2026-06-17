@@ -1617,5 +1617,15 @@
   "artist": "Majestic frescoed dome viewed from below in Firenze, highlighting Renaissance artistry.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "阿马尔菲",
+  "attraction": "柠檬小径徒步",
+  "status": "ok",
+  "local": "阿马尔菲/柠檬小径徒步_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikipedia",
+  "extras": []
  }
 ]

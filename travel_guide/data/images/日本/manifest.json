@@ -1517,5 +1517,15 @@
   "artist": "Breathtaking view of Kiyomizu-dera Temple with vibrant autumn foliage in Kyoto, Japan.",
   "source": "pexels",
   "extras": []
+ },
+ {
+  "city": "大阪",
+  "attraction": "大阪海游馆",
+  "status": "ok",
+  "local": "大阪/大阪海游馆_1.jpg",
+  "license": "CC (Wikimedia Commons)",
+  "artist": "",
+  "source": "wikipedia",
+  "extras": []
  }
 ]
