@@ -1794,5 +1794,25 @@
     "artist": "",
     "source": "Wikimedia Commons",
     "extras": []
+  },
+  {
+    "city": "斯德哥尔摩",
+    "attraction": "市政厅",
+    "status": "ok",
+    "local": "斯德哥尔摩/市政厅_1.jpg",
+    "license": "CC (Wikimedia Commons)",
+    "artist": "",
+    "source": "Wikimedia Commons",
+    "extras": []
+  },
+  {
+    "city": "特罗姆瑟",
+    "attraction": "极地博物馆",
+    "status": "ok",
+    "local": "特罗姆瑟/极地博物馆_1.jpg",
+    "license": "CC (Wikimedia Commons)",
+    "artist": "",
+    "source": "Wikimedia Commons",
+    "extras": []
   }
 ]
