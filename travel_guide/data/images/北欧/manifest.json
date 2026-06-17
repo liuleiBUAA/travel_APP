@@ -1714,5 +1714,15 @@
   "artist": "",
   "source": "wikimedia",
   "extras": []
+ },
+ {
+  "city": "特罗姆瑟",
+  "attraction": "特罗姆瑟湖区",
+  "status": "ok",
+  "local": "特罗姆瑟/特罗姆瑟湖区_1.jpg",
+  "license": "Pexels",
+  "artist": "Snow-covered mountains and houses surround a serene fjord in Tromsø, Norway under a clear blue sky.",
+  "source": "pexels",
+  "extras": []
  }
 ]

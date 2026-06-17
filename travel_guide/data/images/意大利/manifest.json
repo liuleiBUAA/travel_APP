@@ -1647,5 +1647,15 @@
   "artist": "",
   "source": "wikimedia",
   "extras": []
+ },
+ {
+  "city": "阿马尔菲",
+  "attraction": "米诺利",
+  "status": "ok",
+  "local": "阿马尔菲/米诺利_1.jpg",
+  "license": "Pexels",
+  "artist": "Scenic view of Positano's colorful buildings on the Amalfi Coast in Italy, bathed in warm sunlight.",
+  "source": "pexels",
+  "extras": []
  }
 ]

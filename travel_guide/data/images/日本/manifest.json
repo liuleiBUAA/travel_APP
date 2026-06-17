@@ -1537,5 +1537,15 @@
   "artist": "",
   "source": "wikimedia",
   "extras": []
+ },
+ {
+  "city": "札幌",
+  "attraction": "北海道神宫",
+  "status": "ok",
+  "local": "札幌/北海道神宫_1.jpg",
+  "license": "Pexels",
+  "artist": "Serene winter view through vibrant red torii gates in snowy Hokkaido, Japan.",
+  "source": "pexels",
+  "extras": []
  }
 ]

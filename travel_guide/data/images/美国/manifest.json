@@ -621,5 +621,15 @@
   "artist": "",
   "source": "wikimedia",
   "extras": []
+ },
+ {
+  "city": "新奥尔良",
+  "attraction": "国家二战博物馆",
+  "status": "ok",
+  "local": "新奥尔良/国家二战博物馆_1.jpg",
+  "license": "Pexels",
+  "artist": "Three vintage military planes flying in formation against a clear blue sky.",
+  "source": "pexels",
+  "extras": []
  }
 ]
