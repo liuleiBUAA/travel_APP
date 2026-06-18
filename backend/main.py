@@ -207,6 +207,9 @@ class CompanionMatchRequest(BaseModel):
     travel_date: str
     time_flexibility_days: int = 7
 
+    # 匹配模式：fuzzy=模糊(只看时间+地点,免费) / precise=精确(叠加偏好筛选)
+    match_mode: str = "precise"
+
     # 用户偏好（用于匹配计算）
     transport_mode: Optional[str] = "不限"
     accommodation: Optional[str] = "不限"
@@ -650,6 +653,7 @@ async def match_companions(request: CompanionMatchRequest,
         companions = q.all()
 
         # 计算匹配度
+        is_precise = (request.match_mode == "precise")  # 精确模式才叠加偏好筛选
         matches = []
         for companion in companions:
             companion_route = json.loads(companion.route_json)
@@ -665,62 +669,63 @@ async def match_companions(request: CompanionMatchRequest,
             # 用户是否为情侣：正好一男一女
             user_is_couple = (request.user_male_count == 1 and request.user_female_count == 1)
 
-            # 性别匹配逻辑：
+            # 性别匹配逻辑（仅精确模式生效）：
             # 1. 对方要求"不限" → 任何组成都可以
             # 2. 对方要求"男" → 用户必须有男生（可以有女生）
             # 3. 对方要求"女" → 用户必须有女生（可以有男生）
             # 4. 对方要求"情侣" → 用户必须是一男一女
-            if seeking_gender == "男":
-                if not user_has_male:
-                    continue  # 用户没有男生，不匹配
-            elif seeking_gender == "女":
-                if not user_has_female:
-                    continue  # 用户没有女生，不匹配
-            elif seeking_gender == "情侣":
-                if not user_is_couple:
-                    continue  # 用户不是一男一女，不匹配
+            if is_precise:
+                if seeking_gender == "男":
+                    if not user_has_male:
+                        continue  # 用户没有男生，不匹配
+                elif seeking_gender == "女":
+                    if not user_has_female:
+                        continue  # 用户没有女生，不匹配
+                elif seeking_gender == "情侣":
+                    if not user_is_couple:
+                        continue  # 用户不是一男一女，不匹配
 
-            # ========== 用户的找搭子筛选条件（可选）==========
+            # ========== 用户的找搭子筛选条件（仅精确模式生效）==========
+            if is_precise:
+                # 1. 用户的找搭子人数要求
+                if request.people_min is not None or request.people_max is not None:
+                    # 对方目前的人数
+                    companion_current = (getattr(companion, "user_male_count", 0) +
+                                       getattr(companion, "user_female_count", 1))
+                    # 对方找的人数范围
+                    seeking_people_min = seeking.get("people_min", 1)
+                    seeking_people_max = seeking.get("people_max", 2)
 
-            # 1. 用户的找搭子人数要求
-            if request.people_min is not None or request.people_max is not None:
-                # 对方目前的人数
-                companion_current = (getattr(companion, "user_male_count", 0) +
-                                   getattr(companion, "user_female_count", 1))
-                # 对方找的人数范围
-                seeking_people_min = seeking.get("people_min", 1)
-                seeking_people_max = seeking.get("people_max", 2)
+                    # 检查是否兼容：用户要找的人数 和 对方要找的人数 有交集
+                    user_min = request.people_min if request.people_min is not None else 1
+                    user_max = request.people_max if request.people_max is not None else 10
 
-                # 检查是否兼容：用户要找的人数 和 对方要找的人数 有交集
-                user_min = request.people_min if request.people_min is not None else 1
-                user_max = request.people_max if request.people_max is not None else 10
-
-                # 人数范围无交集则跳过
-                if user_max < seeking_people_min or user_min > seeking_people_max:
-                    continue
-
-            # 2. 用户的性别要求
-            if request.gender and request.gender != "不限":
-                # 对方的男女组成
-                companion_male = getattr(companion, "user_male_count", 0)
-                companion_female = getattr(companion, "user_female_count", 1)
-                companion_has_male = companion_male > 0
-                companion_has_female = companion_female > 0
-                # 对方是否为情侣：正好一男一女
-                companion_is_couple = (companion_male == 1 and companion_female == 1)
-
-                # 用户要求"男" → 对方必须有男生
-                if request.gender == "男":
-                    if not companion_has_male:
+                    # 人数范围无交集则跳过
+                    if user_max < seeking_people_min or user_min > seeking_people_max:
                         continue
-                # 用户要求"女" → 对方必须有女生
-                elif request.gender == "女":
-                    if not companion_has_female:
-                        continue
-                # 用户要求"情侣" → 对方必须是一男一女
-                elif request.gender == "情侣":
-                    if not companion_is_couple:
-                        continue
+
+                # 2. 用户的性别要求
+                if request.gender and request.gender != "不限":
+                    # 对方的男女组成
+                    companion_male = getattr(companion, "user_male_count", 0)
+                    companion_female = getattr(companion, "user_female_count", 1)
+                    companion_has_male = companion_male > 0
+                    companion_has_female = companion_female > 0
+                    # 对方是否为情侣：正好一男一女
+                    companion_is_couple = (companion_male == 1 and companion_female == 1)
+
+                    # 用户要求"男" → 对方必须有男生
+                    if request.gender == "男":
+                        if not companion_has_male:
+                            continue
+                    # 用户要求"女" → 对方必须有女生
+                    elif request.gender == "女":
+                        if not companion_has_female:
+                            continue
+                    # 用户要求"情侣" → 对方必须是一男一女
+                    elif request.gender == "情侣":
+                        if not companion_is_couple:
+                            continue
 
             # 计算路线相似度
             similarity = match_service.calculate_route_similarity(
@@ -728,48 +733,48 @@ async def match_companions(request: CompanionMatchRequest,
                 companion_route
             )
 
-            # ⭐ 关键：必须有城市重合才继续
+            # ⭐ 关键：必须有城市重合才继续（模糊/精确两档都要地点重合）
             if similarity == 0:
                 continue
 
-            # ========== 精准筛选（硬性条件）==========
-
-            # 1. 交通方式筛选（新规则）
+            # ========== 偏好硬性筛选（仅精确模式生效）==========
             companion_transport = getattr(companion, "transport_mode", "不限")
-            user_transport = request.transport_mode or "不限"
-
-            # 定义交通方式兼容性
-            def transport_compatible(t1, t2):
-                if t1 == "不限" or t2 == "不限":
-                    return True
-                if t1 == "混合" or t2 == "混合":
-                    return True
-                return t1 == t2
-
-            if not transport_compatible(user_transport, companion_transport):
-                continue  # 交通方式不兼容，跳过
-
-            # 2. 住宿安排筛选（新规则）
             companion_accom = getattr(companion, "accommodation", "不限")
-            user_accom = request.accommodation or "不限"
-
-            def accommodation_compatible(a1, a2):
-                if a1 == "不限" or a2 == "不限":
-                    return True
-                if {a1, a2} == {"可拼房", "各住各的"}:
-                    return False  # 利益冲突，无法凑一起
-                return a1 == a2
-
-            if not accommodation_compatible(user_accom, companion_accom):
-                continue  # 住宿安排不兼容，跳过
-
-            # 3. 消费水平筛选（必须有交集）
             companion_budget = getattr(companion, "budget_level", "经济")
-            user_budgets = set(request.budget_level.split(',')) if request.budget_level else {"经济"}
-            companion_budgets = set(companion_budget.split(',')) if ',' in companion_budget else {companion_budget}
+            if is_precise:
+                # 1. 交通方式筛选
+                user_transport = request.transport_mode or "不限"
 
-            if not (user_budgets & companion_budgets):  # 无交集
-                continue  # 消费水平无交集，跳过
+                # 定义交通方式兼容性
+                def transport_compatible(t1, t2):
+                    if t1 == "不限" or t2 == "不限":
+                        return True
+                    if t1 == "混合" or t2 == "混合":
+                        return True
+                    return t1 == t2
+
+                if not transport_compatible(user_transport, companion_transport):
+                    continue  # 交通方式不兼容，跳过
+
+                # 2. 住宿安排筛选
+                user_accom = request.accommodation or "不限"
+
+                def accommodation_compatible(a1, a2):
+                    if a1 == "不限" or a2 == "不限":
+                        return True
+                    if {a1, a2} == {"可拼房", "各住各的"}:
+                        return False  # 利益冲突，无法凑一起
+                    return a1 == a2
+
+                if not accommodation_compatible(user_accom, companion_accom):
+                    continue  # 住宿安排不兼容，跳过
+
+                # 3. 消费水平筛选（必须有交集）；用户没填则视为"不限"不筛
+                if request.budget_level:
+                    user_budgets = set(request.budget_level.split(','))
+                    companion_budgets = set(companion_budget.split(',')) if ',' in companion_budget else {companion_budget}
+                    if not (user_budgets & companion_budgets):  # 无交集
+                        continue  # 消费水平无交集，跳过
 
             # ========== 计算分数（仅用于排序）==========
             # 计算时间契合度

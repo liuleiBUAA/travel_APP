@@ -155,3 +155,43 @@
   font-size: 22rpx;
   color: #9a8f8a;
 }
+
+/* ===== 模糊/精确 切换 ===== */
+.match-seg {
+  display: flex;
+  background: #f0f1f5;
+  border-radius: var(--radius-ctrl);
+  padding: 6rpx;
+  margin-bottom: 16rpx;
+}
+.match-seg-item {
+  flex: 1;
+  text-align: center;
+  font-size: 28rpx;
+  padding: 16rpx 0;
+  border-radius: calc(var(--radius-ctrl) - 4rpx);
+  color: #888;
+  transition: all 0.2s;
+}
+.match-seg-item.active {
+  background: #fff;
+  color: var(--c-primary);
+  font-weight: 600;
+  box-shadow: 0 2rpx 8rpx rgba(0,0,0,0.08);
+}
+.match-seg-hint {
+  font-size: 24rpx;
+  color: #999;
+  line-height: 1.5;
+  margin-bottom: 20rpx;
+}
+.pay-banner {
+  font-size: 24rpx;
+  color: #b3691a;
+  background: #fff6e8;
+  border: 1rpx solid #ffe0b0;
+  border-radius: 12rpx;
+  padding: 16rpx 20rpx;
+  line-height: 1.5;
+  margin-bottom: 20rpx;
+}

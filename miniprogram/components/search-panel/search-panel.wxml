@@ -29,7 +29,13 @@
 
 <!-- 匹配条件 -->
 <view class="card">
-  <view class="card-title">精确匹配</view>
+  <!-- 模糊/精确 切换 -->
+  <view class="match-seg">
+    <view class="match-seg-item {{matchMode === 'fuzzy' ? 'active' : ''}}" bindtap="switchMatchMode" data-mode="fuzzy">🔍 模糊匹配</view>
+    <view class="match-seg-item {{matchMode === 'precise' ? 'active' : ''}}" bindtap="switchMatchMode" data-mode="precise">🎯 精确匹配</view>
+  </view>
+  <view wx:if="{{matchMode === 'fuzzy'}}" class="match-seg-hint">只按「时间 + 地点」找，宽松快速。先看看有谁同期同地。</view>
+  <view wx:else class="pay-banner">💎 精确匹配可叠加消费习惯、是否会拍照、是否开车等偏好，找到更合拍的搭子。（未来付费功能，现阶段免费体验）</view>
 
   <view class="form-group">
     <view class="form-label">你的路线</view>
@@ -53,6 +59,8 @@
     </picker>
   </view>
 
+  <!-- 偏好筛选：仅精确匹配模式展开 -->
+  <block wx:if="{{matchMode === 'precise'}}">
   <view class="form-group">
     <view class="form-label">找搭子人数（可选）</view>
     <view class="row" style="display:flex;align-items:center;gap:8rpx;">
@@ -112,8 +120,9 @@
       <text>女</text>
     </view>
   </view>
+  </block>
 
-  <button class="btn-secondary" bindtap="startMatch">开始匹配</button>
+  <button class="btn-secondary" bindtap="startMatch">{{matchMode === 'precise' ? '开始精确匹配' : '开始匹配'}}</button>
 </view>
 
 <!-- 加载中 -->

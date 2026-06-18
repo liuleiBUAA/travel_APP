@@ -12,6 +12,7 @@ Component({
     searchLoading: false,
     searchDone: false,
     searchResults: [],
+    matchMode: 'fuzzy',  // 'fuzzy'模糊(只看时间+地点,免费) / 'precise'精确(叠加偏好)
     selectedCities: [],
     matchDate: '',
     todayStr: '',
@@ -80,6 +81,13 @@ Component({
 
     onSearchInput(e) {
       this.setData({ searchKeyword: e.detail.value })
+    },
+
+    // 切换 模糊/精确 匹配模式
+    switchMatchMode(e) {
+      const mode = e.currentTarget.dataset.mode
+      if (mode === this.data.matchMode) return
+      this.setData({ matchMode: mode })
     },
 
     async doSearch() {
@@ -177,31 +185,35 @@ Component({
         const matchParams = {
           route_json: route,
           travel_date: this.data.matchDate,
-          time_flexibility_days: this.data.flexOptions[this.data.flexIndex].value
+          time_flexibility_days: this.data.flexOptions[this.data.flexIndex].value,
+          match_mode: this.data.matchMode
         }
 
-        // 可选字段：只有填写了才传
-        if (this.data.peopleMin) matchParams.people_min = parseInt(this.data.peopleMin)
-        if (this.data.peopleMax) matchParams.people_max = parseInt(this.data.peopleMax)
+        // 仅「精确匹配」才附加偏好筛选条件；「模糊匹配」只按时间+地点
+        if (this.data.matchMode === 'precise') {
+          // 可选字段：只有填写了才传
+          if (this.data.peopleMin) matchParams.people_min = parseInt(this.data.peopleMin)
+          if (this.data.peopleMax) matchParams.people_max = parseInt(this.data.peopleMax)
 
-        const gender = this.data.genderOptions[this.data.genderIndex]
-        if (gender && gender !== '不限') matchParams.gender = gender
+          const gender = this.data.genderOptions[this.data.genderIndex]
+          if (gender && gender !== '不限') matchParams.gender = gender
 
-        const transport = this.data.transportOptions[this.data.transportIndex]
-        if (transport && transport !== '不限') matchParams.transport_mode = transport
+          const transport = this.data.transportOptions[this.data.transportIndex]
+          if (transport && transport !== '不限') matchParams.transport_mode = transport
 
-        const accommodation = this.data.accommodationOptions[this.data.accommodationIndex]
-        if (accommodation && accommodation !== '不限') matchParams.accommodation = accommodation
+          const accommodation = this.data.accommodationOptions[this.data.accommodationIndex]
+          if (accommodation && accommodation !== '不限') matchParams.accommodation = accommodation
 
-        const photo = this.data.photoOptions[this.data.photoIndex]
-        if (photo && photo !== '不限') matchParams.good_at_photo = photo
+          const photo = this.data.photoOptions[this.data.photoIndex]
+          if (photo && photo !== '不限') matchParams.good_at_photo = photo
 
-        if (this.data.budgetSelected.length > 0) {
-          matchParams.budget_level = this.data.budgetSelected.join(',')
+          if (this.data.budgetSelected.length > 0) {
+            matchParams.budget_level = this.data.budgetSelected.join(',')
+          }
+
+          if (this.data.userMaleCount) matchParams.user_male_count = parseInt(this.data.userMaleCount)
+          if (this.data.userFemaleCount) matchParams.user_female_count = parseInt(this.data.userFemaleCount)
         }
-
-        if (this.data.userMaleCount) matchParams.user_male_count = parseInt(this.data.userMaleCount)
-        if (this.data.userFemaleCount) matchParams.user_female_count = parseInt(this.data.userFemaleCount)
 
         const res = await api.matchCompanions(matchParams)
 
