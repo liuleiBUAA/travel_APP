@@ -627,7 +627,8 @@ async def publish_companion(request: CompanionPublishRequest, current_user: User
 
 @app.post("/api/companions/match")
 @harness.api_guard  # Harness 守卫
-async def match_companions(request: CompanionMatchRequest):
+async def match_companions(request: CompanionMatchRequest,
+                           current_user: Optional[User] = Depends(get_optional_user)):
     """匹配相似路线的搭子"""
     db = next(get_db())
 
@@ -639,11 +640,14 @@ async def match_companions(request: CompanionMatchRequest):
         date_start = target_date - timedelta(days=request.time_flexibility_days)
         date_end = target_date + timedelta(days=request.time_flexibility_days)
 
-        # 查询时间范围内的所有发布
-        companions = db.query(Companion).filter(
+        # 查询时间范围内的所有发布（剔除自己的发布）
+        q = db.query(Companion).filter(
             Companion.travel_date >= date_start,
             Companion.travel_date <= date_end
-        ).all()
+        )
+        if current_user is not None:
+            q = q.filter(Companion.user_id != str(current_user.id))
+        companions = q.all()
 
         # 计算匹配度
         matches = []
@@ -832,25 +836,29 @@ async def match_companions(request: CompanionMatchRequest):
 
 
 @app.get("/api/companions/search")
-async def search_companions(keyword: str = "", limit: int = 20, offset: int = 0):
-    """按目的地关键词搜索搭子 - 已优化：使用索引字段搜索"""
+async def search_companions(keyword: str = "", limit: int = 20, offset: int = 0,
+                            current_user: Optional[User] = Depends(get_optional_user)):
+    """按目的地关键词搜索搭子 - 城市/国家均可命中，已剔除自己的发布"""
     if not keyword.strip():
         raise HTTPException(400, "请输入搜索关键词")
 
     db = next(get_db())
     try:
         from models import Companion
+        from sqlalchemy import or_
 
-        # 🚀 性能优化：优先使用 cities 字段搜索（有索引），fallback 到 route_json
-        companions = db.query(Companion).filter(
-            Companion.cities.like(f"%{keyword}%")
-        ).order_by(Companion.created_at.desc()).limit(limit).offset(offset).all()
-
-        # 如果 cities 字段为空（旧数据），fallback 到 route_json 搜索
-        if not companions:
-            companions = db.query(Companion).filter(
+        # 🔍 城市 OR 国家：cities 字段存城市名，route_json 里含 countries 数组，
+        #     两者任一命中即可——这样搜"日本""瑞士"等国家名也能搜到（老数据无需迁移）
+        query = db.query(Companion).filter(
+            or_(
+                Companion.cities.like(f"%{keyword}%"),
                 Companion.route_json.like(f"%{keyword}%")
-            ).order_by(Companion.created_at.desc()).limit(limit).offset(offset).all()
+            )
+        )
+        # 🙋 剔除自己的发布（已登录时）
+        if current_user is not None:
+            query = query.filter(Companion.user_id != str(current_user.id))
+        companions = query.order_by(Companion.created_at.desc()).limit(limit).offset(offset).all()
 
         result = []
         for c in companions:
