@@ -1,97 +1,105 @@
 {
-  "挪威": {
-    "full_title": "挪威",
+  "挪威·南部峡湾经典": {
+    "full_title": "挪威·南部峡湾经典",
     "best_season": "6-8月",
     "itinerary": [
       {
         "day": "Day 1",
-        "activity": "维格兰雕塑公园、皇宫",
-        "transport": "🚶 步行",
-        "stay": "奥斯陆"
-      },
-      {
-        "day": "Day 1",
-        "activity": "卑尔根古城、布吕根码头",
-        "transport": "🚶 步行",
-        "stay": "卑尔根"
-      },
-      {
-        "day": "Day 2",
-        "activity": "哈当厄尔峡湾一日游",
-        "transport": "🚗 自驾",
-        "stay": "卑尔根"
-      },
-      {
-        "day": "Day 3",
-        "activity": "纳伊柔峡湾（挪威缩影）",
-        "transport": "🚗 火车",
-        "stay": "卑尔根"
-      },
-      {
-        "day": "Day 4",
-        "activity": "弗洛姆、松恩峡湾",
-        "transport": "🚗 火车",
-        "stay": "卑尔根"
-      },
-      {
-        "day": "Day 1",
-        "activity": "布道石徒步、吕瑟峡湾",
-        "transport": "✈️ 飞机",
+        "activity": "奥斯陆：维格兰雕塑公园、蒙克美术馆、奥斯陆歌剧院，晚上飞斯塔万格",
+        "transport": "🚶 步行 / ✈️ 飞机",
         "stay": "斯塔万格"
       },
       {
-        "day": "Day 1",
-        "activity": "罗弗敦群岛：渔民屋、峡湾",
-        "transport": "🚗 自驾",
-        "stay": "罗弗敦"
-      },
-      {
         "day": "Day 2",
-        "activity": "罗弗敦群岛：特罗洛",
-        "transport": "🚗 自驾",
-        "stay": "罗弗敦"
+        "activity": "斯塔万格：布道石徒步、吕瑟峡湾",
+        "transport": "🥾 徒步",
+        "stay": "斯塔万格"
       },
       {
         "day": "Day 3",
-        "activity": "罗弗敦群岛深度游",
-        "transport": "🚗 自驾",
-        "stay": "罗弗敦"
-      },
-      {
-        "day": "Day 1",
-        "activity": "极光、极地博物馆、缆车",
-        "transport": "-",
-        "stay": "特罗姆瑟"
+        "activity": "一早飞卑尔根，玩卑尔根市区：布吕根、卑尔根鱼市、弗洛伊恩山缆车",
+        "transport": "✈️ 飞机 / 🚶 步行",
+        "stay": "卑尔根"
       },
       {
         "day": "Day 4",
-        "activity": "罗弗敦群岛：渔民屋、峡湾",
-        "transport": "🚗 自驾",
-        "stay": "罗弗敦"
+        "activity": "挪威缩影：卑尔根—沃斯—居德旺恩—松恩峡湾游船—弗洛姆—米尔达",
+        "transport": "🚆 火车+游船",
+        "stay": "卑尔根"
       },
       {
-        "day": "Day 2",
-        "activity": "罗弗敦群岛深度游",
-        "transport": "🚗 自驾",
-        "stay": "罗弗敦"
+        "day": "Day 5",
+        "activity": "哈当厄尔峡湾缩影：Steinsdalsfossen瀑布、Vøringsfossen瀑布",
+        "transport": "🚌 巴士+游船",
+        "stay": "卑尔根"
       },
       {
-        "day": "Day 3",
-        "activity": "罗弗敦→塞尼亚半岛",
-        "transport": "🚗 自驾",
-        "stay": "塞尼亚"
+        "day": "Day 6",
+        "activity": "盖朗厄尔峡湾缩影：奥勒松、盖朗厄尔峡湾、精灵之路",
+        "transport": "🚌 巴士+游船",
+        "stay": "盖朗厄尔"
       },
       {
-        "day": "Day 4",
-        "activity": "塞尼亚半岛→特罗姆瑟：极光",
-        "transport": "🚗 自驾",
-        "stay": "特罗姆瑟"
+        "day": "Day 7",
+        "activity": "飞奥斯陆，返程",
+        "transport": "✈️ 飞机",
+        "stay": "奥斯陆"
       }
     ],
     "tags": {
       "人文历史": 0.8,
-      "自然风光": 0.7,
+      "自然风光": 0.9,
+      "海岛海滨": 0.6
+    }
+  },
+  "挪威·罗弗敦群岛自驾": {
+    "full_title": "挪威·罗弗敦群岛自驾",
+    "best_season": "6-8月",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "抵达罗弗敦群岛，入住渔村小屋（Rorbuer）",
+        "transport": "✈️ 飞机/🚗 自驾",
+        "stay": "罗弗敦"
+      },
+      {
+        "day": "Day 2",
+        "activity": "南部：雷纳Reine、Hamnøy桥头、O村，徒步Reinebringen",
+        "transport": "🚗 自驾",
+        "stay": "罗弗敦"
+      },
+      {
+        "day": "Day 3",
+        "activity": "北部：斯沃尔韦尔、特罗洛峡湾、Ramberg海滩",
+        "transport": "🚗 自驾",
+        "stay": "罗弗敦"
+      },
+      {
+        "day": "Day 4",
+        "activity": "午夜阳光摄影/查漏补缺，离开",
+        "transport": "🚗 自驾",
+        "stay": "罗弗敦"
+      }
+    ],
+    "tags": {
+      "自然风光": 1.0,
       "海岛海滨": 0.7
+    }
+  },
+  "挪威·特罗姆瑟极圈": {
+    "full_title": "挪威·特罗姆瑟极圈",
+    "best_season": "6-8月（午夜阳光）",
+    "itinerary": [
+      {
+        "day": "Day 1",
+        "activity": "缆车登观景台、北极大教堂、极地博物馆、午夜阳光",
+        "transport": "🚶 步行/缆车",
+        "stay": "特罗姆瑟"
+      }
+    ],
+    "tags": {
+      "自然风光": 0.8,
+      "人文历史": 0.5
     }
   },
   "冰岛（8天环线）": {
@@ -239,54 +247,5 @@
         "stay": "罗瓦涅米"
       }
     ]
-  },
-  "罗弗敦": {
-    "full_title": "罗弗敦群岛",
-    "best_season": "6-8月（极昼）或11-2月（极光）",
-    "itinerary": [
-      {
-        "day": "Day 1",
-        "activity": "Hamnøy 桥头 + Reine + 徒步 Reinebringen",
-        "stay": "罗弗敦",
-        "transport": "🚗 自驾"
-      },
-      {
-        "day": "Day 2",
-        "activity": "徒步 Ryten + Ramberg 海滩散步",
-        "stay": "罗弗敦",
-        "transport": "🚗 自驾"
-      },
-      {
-        "day": "Day 3",
-        "activity": "白天查漏补缺 + 适时前往下一个目的地",
-        "stay": "罗弗敦",
-        "transport": "当地",
-        "options": [
-          {
-            "label": "去特罗姆瑟",
-            "to": [
-              "特罗姆瑟"
-            ],
-            "stay": "特罗姆瑟",
-            "drive": 6.0,
-            "detail": "从罗弗敦出发，北极圈内，看极光最佳地",
-            "type": "continue"
-          },
-          {
-            "label": "回奥斯陆（飞下一站）",
-            "to": [
-              "奥斯陆"
-            ],
-            "stay": "奥斯陆",
-            "detail": "从斯沃尔韦尔机场飞奥斯陆，约1.5h",
-            "type": "return_hub"
-          }
-        ]
-      }
-    ],
-    "tags": {
-      "自然风光": 0.7,
-      "海岛海滨": 0.7
-    }
   }
 }
