@@ -8,7 +8,7 @@ Harness Engineering 集成：
 - constraints: 权限边界、循环检测
 """
 
-from fastapi import FastAPI, HTTPException, Header, Depends
+from fastapi import FastAPI, HTTPException, Header, Depends, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional, Dict, Any
@@ -74,6 +74,11 @@ if _attractions_dir.exists():
 _maps_dir = Path(__file__).parent.parent / "travel_guide" / "data" / "maps"
 if _maps_dir.exists():
     app.mount("/api/static/maps", StaticFiles(directory=str(_maps_dir)), name="maps")
+
+# 用户上传图片（自定义路线图/手账等）静态托管。目录不存在则自动创建
+_uploads_dir = Path(__file__).parent / "uploads"
+_uploads_dir.mkdir(parents=True, exist_ok=True)
+app.mount("/api/static/uploads", StaticFiles(directory=str(_uploads_dir)), name="uploads")
 
 # CORS配置 - 修复：使用白名单替代 *
 ALLOWED_ORIGINS = [
@@ -176,11 +181,11 @@ class RouteGenerateRequest(BaseModel):
 
 class CompanionPublishRequest(BaseModel):
     """发布找搭子请求 - 已修复：user_id 和 user_name 从 token 自动获取"""
-    route_json: Dict[str, Any]  # 完整的路线JSON
+    route_json: Dict[str, Any]  # 完整的路线JSON（自定义帖 route_type="custom"）
     travel_date: str  # "2026-05-01"
-    duration_days: int
+    duration_days: Optional[int] = None  # 行程天数（自定义帖可不填）
     flexibility_days: int = 3  # 时间灵活度
-    seeking: Dict[str, Any]  # {"people_min": 1, "people_max": 2, "gender": "不限", "age_range": "25-35"}
+    seeking: Optional[Dict[str, Any]] = None  # {"people_min": 1, "people_max": 2, "gender": "不限"}（自定义帖可不填，默认找1-2人不限）
 
     # 出行偏好（必填）
     transport_mode: Optional[str] = "不限"  # 交通方式
@@ -564,6 +569,59 @@ async def generate_route(request: RouteGenerateRequest):
         raise HTTPException(500, f"路线生成失败: {str(e)}")
 
 
+# 图片上传配置
+_UPLOAD_ALLOWED_EXT = {"jpg": "jpg", "jpeg": "jpg", "png": "png", "webp": "webp"}
+_UPLOAD_ALLOWED_MIME = {
+    "image/jpeg": "jpg", "image/png": "png", "image/webp": "webp",
+}
+_UPLOAD_MAX_BYTES = 5 * 1024 * 1024  # 单张 5MB
+
+
+@app.post("/api/upload/image")
+@harness.api_guard
+async def upload_image(file: UploadFile = File(...),
+                       current_user: User = Depends(get_current_user_from_token)):
+    """上传图片（自定义路线图/手账等），返回可访问 URL。
+    - 仅允许登录用户上传
+    - 格式白名单：jpg/png/webp
+    - 大小上限：5MB
+    - 存到 backend/uploads/，经 /api/static/uploads 静态托管
+    """
+    import uuid
+
+    # 校验 MIME 类型
+    content_type = (file.content_type or "").lower()
+    ext = _UPLOAD_ALLOWED_MIME.get(content_type)
+    if not ext:
+        # MIME 不可信时兜底看扩展名
+        fname = (file.filename or "").lower()
+        suffix = fname.rsplit(".", 1)[-1] if "." in fname else ""
+        ext = _UPLOAD_ALLOWED_EXT.get(suffix)
+    if not ext:
+        raise HTTPException(400, "只支持 jpg/png/webp 格式的图片")
+
+    # 读取并校验大小
+    content = await file.read()
+    if len(content) == 0:
+        raise HTTPException(400, "图片内容为空")
+    if len(content) > _UPLOAD_MAX_BYTES:
+        raise HTTPException(400, "图片过大，单张请控制在 5MB 以内")
+
+    # 生成唯一文件名并写盘
+    filename = f"{current_user.id}_{uuid.uuid4().hex}.{ext}"
+    dest = _uploads_dir / filename
+    try:
+        dest.write_bytes(content)
+    except Exception as e:
+        raise HTTPException(500, f"图片保存失败: {str(e)}")
+
+    return {
+        "success": True,
+        "url": f"/api/static/uploads/{filename}",
+        "filename": filename,
+    }
+
+
 @app.post("/api/companions/publish")
 @harness.api_guard  # Harness 守卫：自动计时 + 验证返回格式 + 异常捕获
 async def publish_companion(request: CompanionPublishRequest, current_user: User = Depends(get_current_user_from_token)):
@@ -582,9 +640,28 @@ async def publish_companion(request: CompanionPublishRequest, current_user: User
         # 🔒 安全修复：从 token 解析的 current_user 获取真实 user_id，不信任请求体
         # 🚀 性能优化：提取城市列表到独立字段，用于快速搜索
         cities_list = []
+        route_type = ''
         if request.route_json and isinstance(request.route_json, dict):
-            cities_list = request.route_json.get('cities', [])
+            cities_list = request.route_json.get('cities', []) or []
+            route_type = request.route_json.get('route_type', '')
         cities_str = ','.join(cities_list) if cities_list else ''
+
+        # 自定义帖校验：必须有地点，且文字/图片至少填一个
+        if route_type == 'custom':
+            if not cities_list:
+                raise HTTPException(400, "自定义帖需至少选择一个地点")
+            custom_text = (request.route_json.get('custom_text') or '').strip()
+            custom_images = request.route_json.get('custom_images') or []
+            if not custom_text and not custom_images:
+                raise HTTPException(400, "自定义帖需至少填写一句话或上传一张图")
+
+        # 天数兜底：自定义帖可不填，缺省用城市数或 1
+        duration_days = request.duration_days
+        if not duration_days or duration_days < 1:
+            duration_days = len(cities_list) if cities_list else 1
+
+        # seeking 兜底：自定义帖可不填，缺省找 1-2 人不限
+        seeking = request.seeking or {"people_min": 1, "people_max": 2, "gender": "不限"}
 
         # 创建发布记录
         companion = Companion(
@@ -593,9 +670,9 @@ async def publish_companion(request: CompanionPublishRequest, current_user: User
             route_json=json.dumps(request.route_json, ensure_ascii=False),
             cities=cities_str,  # ✅ 独立存储城市列表
             travel_date=datetime.strptime(request.travel_date, "%Y-%m-%d").date(),
-            duration_days=request.duration_days,
+            duration_days=duration_days,
             flexibility_days=request.flexibility_days,
-            seeking=json.dumps(request.seeking, ensure_ascii=False),
+            seeking=json.dumps(seeking, ensure_ascii=False),
             transport_mode=request.transport_mode,
             accommodation=request.accommodation,
             budget_level=request.budget_level,
@@ -623,6 +700,9 @@ async def publish_companion(request: CompanionPublishRequest, current_user: User
             "message": "发布成功"
         }
 
+    except HTTPException:
+        db.rollback()
+        raise
     except Exception as e:
         db.rollback()
         raise HTTPException(500, f"发布失败: {str(e)}")
