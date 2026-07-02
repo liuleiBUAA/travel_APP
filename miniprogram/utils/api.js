@@ -38,8 +38,40 @@ function imageUrl(path) {
   return path.indexOf('http') === 0 ? path : ORIGIN + path
 }
 
+// 上传图片：wx.uploadFile 走 multipart，返回 { success, url, filename }
+function uploadImage(filePath) {
+  return new Promise((resolve, reject) => {
+    const token = getToken()
+    wx.uploadFile({
+      url: BASE_URL + '/upload/image',
+      filePath: filePath,
+      name: 'file',
+      header: {
+        ...(token ? { 'Authorization': token } : {})
+      },
+      success(res) {
+        try {
+          const data = typeof res.data === 'string' ? JSON.parse(res.data) : res.data
+          if (res.statusCode === 200 && data && data.success) {
+            resolve(data)
+          } else {
+            reject(new Error((data && data.detail) || '上传失败'))
+          }
+        } catch (e) {
+          reject(new Error('上传返回解析失败'))
+        }
+      },
+      fail(err) {
+        console.error('[上传失败]', err.errMsg || JSON.stringify(err))
+        reject(err)
+      }
+    })
+  })
+}
+
 module.exports = {
   imageUrl,
+  uploadImage,
   // 认证
   wxLogin(code, nickname, avatarUrl) {
     return request('/auth/wx-login', 'POST', { code, nickname, avatar_url: avatarUrl })

@@ -8,7 +8,7 @@ Component({
   },
 
   data: {
-    inputMode: 'smart',  // 'smart' or 'manual'
+    inputMode: 'smart',  // 'smart' | 'manual' | 'custom'
     regions: ['欧洲', '亚洲', '北美', '大洋洲'],
     regionIcons: { '欧洲': '🇪🇺', '亚洲': '🌏', '北美': '🇺🇸', '大洋洲': '🦘' },
     currentRegion: '欧洲',
@@ -26,6 +26,11 @@ Component({
     manualCities: '',
     manualDays: '',
     manualPreviewText: '',
+    // 自定义模式
+    customText: '',           // 一句话
+    customImages: [],         // 已上传图片 URL 数组（相对路径，用于发布）
+    customImagesDisplay: [],  // 完整 URL 数组（用于页面展示）
+    customUploading: false,   // 上传中标志
     // 表单
     userName: '',
     travelDate: '',
@@ -123,6 +128,11 @@ Component({
       if (mode === 'manual') {
         this.loadManualCountries()
         this.updateManualPreview()
+      } else if (mode === 'custom') {
+        // 自定义模式复用智能选城的地区/国家/城市选择器
+        if (this.data.countries.length === 0) {
+          this.loadCountries(this.data.currentRegion)
+        }
       }
     },
 
@@ -200,6 +210,70 @@ Component({
       this.setData({
         manualPreviewText: `${region} - ${cities.join(' → ')} 共${totalDays}天`
       })
+    },
+
+    // ---- 自定义模式 ----
+    onCustomTextInput(e) {
+      this.setData({ customText: e.detail.value })
+    },
+
+    chooseCustomImages() {
+      const remaining = 9 - this.data.customImages.length
+      if (remaining <= 0) {
+        wx.showToast({ title: '最多上传9张', icon: 'none' })
+        return
+      }
+      wx.chooseMedia({
+        count: remaining,
+        mediaType: ['image'],
+        sourceType: ['album', 'camera'],
+        success: (res) => {
+          const files = res.tempFiles || []
+          this.uploadCustomImages(files.map(f => f.tempFilePath))
+        }
+      })
+    },
+
+    async uploadCustomImages(paths) {
+      if (!paths || paths.length === 0) return
+      if (!app.globalData.userInfo) {
+        wx.showToast({ title: '请先登录再上传', icon: 'none' })
+        return
+      }
+      this.setData({ customUploading: true })
+      wx.showLoading({ title: '上传中...' })
+      const uploaded = []
+      try {
+        for (const p of paths) {
+          const res = await api.uploadImage(p)
+          if (res && res.url) uploaded.push(res.url)
+        }
+        this.setData({
+          customImages: this.data.customImages.concat(uploaded),
+          customImagesDisplay: this.data.customImagesDisplay.concat(uploaded.map(u => api.imageUrl(u)))
+        })
+      } catch (err) {
+        wx.showToast({ title: '图片上传失败', icon: 'none' })
+        console.error('上传失败', err)
+      } finally {
+        wx.hideLoading()
+        this.setData({ customUploading: false })
+      }
+    },
+
+    removeCustomImage(e) {
+      const idx = e.currentTarget.dataset.index
+      const list = this.data.customImages.slice()
+      const disp = this.data.customImagesDisplay.slice()
+      list.splice(idx, 1)
+      disp.splice(idx, 1)
+      this.setData({ customImages: list, customImagesDisplay: disp })
+    },
+
+    previewCustomImage(e) {
+      const idx = e.currentTarget.dataset.index
+      const urls = this.data.customImagesDisplay
+      wx.previewImage({ current: urls[idx], urls: urls })
     },
 
     // ---- 用户资料 ----
@@ -441,7 +515,35 @@ Component({
       wx.showLoading({ title: '发布中...' })
 
       try {
-        if (d.inputMode === 'manual') {
+        if (d.inputMode === 'custom') {
+          // 自定义模式：不生成路线，直接组装 custom route_json
+          if (d.selectedCities.length < 1) {
+            wx.hideLoading()
+            wx.showToast({ title: '请至少选择一个地点', icon: 'none' })
+            return
+          }
+          const customText = (d.customText || '').trim()
+          if (!customText && d.customImages.length === 0) {
+            wx.hideLoading()
+            wx.showToast({ title: '请填一句话或传张图', icon: 'none' })
+            return
+          }
+          if (d.customUploading) {
+            wx.hideLoading()
+            wx.showToast({ title: '图片上传中，请稍候', icon: 'none' })
+            return
+          }
+          route = {
+            route_type: 'custom',
+            cities: d.selectedCities,
+            city_count: d.selectedCities.length,
+            custom_text: customText,
+            custom_images: d.customImages,
+            region: d.currentRegion,
+            description: customText || `${d.selectedCities.join('·')} 自定义路线`
+          }
+
+        } else if (d.inputMode === 'manual') {
           // 手动输入模式
           if (!d.manualCities.trim()) {
             wx.hideLoading()
@@ -512,7 +614,7 @@ Component({
         const pubRes = await api.publishCompanion({
           route_json: route,
           travel_date: d.travelDate,
-          duration_days: route.total_days || 10,
+          duration_days: d.inputMode === 'custom' ? (route.total_days || null) : (route.total_days || 10),
           flexibility_days: 3,
           seeking: {
             people_min: parseInt(d.peopleMin),

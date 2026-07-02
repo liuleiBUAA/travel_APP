@@ -314,3 +314,92 @@
   padding: 26rpx 0;
   margin-top: 10rpx;
 }
+
+/* 自定义模式 */
+.mode-btn-new {
+  position: relative;
+}
+.mode-btn-new::after {
+  content: "NEW";
+  position: absolute;
+  top: -12rpx;
+  right: -8rpx;
+  background: var(--c-success, #14b8a6);
+  color: #fff;
+  font-size: 16rpx;
+  padding: 2rpx 8rpx;
+  border-radius: 12rpx;
+  font-weight: 700;
+}
+
+.opt-tip {
+  font-size: 22rpx;
+  font-weight: 400;
+  color: var(--c-text-faint);
+  margin-left: 8rpx;
+}
+
+.custom-img-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16rpx;
+}
+
+.custom-img-item {
+  position: relative;
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.custom-img {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 12rpx;
+  border: 2rpx solid var(--c-border-soft);
+}
+
+.custom-img-del {
+  position: absolute;
+  top: -10rpx;
+  right: -10rpx;
+  width: 40rpx;
+  height: 40rpx;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30rpx;
+  line-height: 1;
+}
+
+.custom-img-add {
+  width: 200rpx;
+  height: 200rpx;
+  border: 2rpx dashed var(--c-border);
+  border-radius: 12rpx;
+  background: var(--c-input-bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-img-add .add-icon {
+  font-size: 48rpx;
+  color: var(--c-text-faint);
+  line-height: 1;
+}
+
+.custom-img-add .add-text {
+  font-size: 22rpx;
+  color: var(--c-text-muted);
+  margin-top: 8rpx;
+}
+
+.upload-hint {
+  font-size: 22rpx;
+  color: var(--c-text-faint);
+  margin-top: 12rpx;
+}
