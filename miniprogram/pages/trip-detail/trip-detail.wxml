@@ -20,8 +20,9 @@
           </view>
         </view>
       </view>
-      <!-- 自定义帖：一句话 + 图片 + 城市标签 -->
+      <!-- 自定义帖：标题 + 一句话 + 图片 + 城市标签 -->
       <block wx:if="{{isCustom}}">
+        <view wx:if="{{route.custom_title}}" class="custom-title">{{route.custom_title}}</view>
         <view wx:if="{{route.custom_text}}" class="custom-text">{{route.custom_text}}</view>
         <view wx:if="{{customImagesDisplay.length > 0}}" class="custom-images">
           <image

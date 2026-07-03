@@ -1,6 +1,13 @@
 .trip-card {
   margin-bottom: 20rpx;
 }
+.trip-title {
+  font-size: 32rpx;
+  font-weight: 700;
+  color: var(--c-text-main, #222);
+  line-height: 1.4;
+  margin-bottom: 12rpx;
+}
 .trip-cities {
   display: flex;
   flex-wrap: wrap;

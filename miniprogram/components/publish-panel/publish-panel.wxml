@@ -39,6 +39,52 @@
   </view>
 </view>
 
+<!-- 自定义模式：说点啥（标题 + 一句话 + 图片）—— 放在发布方式正下面 -->
+<block wx:if="{{inputMode === 'custom'}}">
+  <view class="card">
+    <view class="card-title">📝 说点啥</view>
+
+    <view class="form-group">
+      <view class="form-label">标题 <text class="req-mark">*必填</text></view>
+      <input
+        class="form-input"
+        placeholder="给这趟行程起个标题，如：国庆法国摇人～"
+        value="{{customTitle}}"
+        bindinput="onCustomTitleInput"
+        maxlength="30"
+      />
+    </view>
+
+    <view class="form-group">
+      <view class="form-label">一句话（可选）</view>
+      <textarea
+        class="form-textarea"
+        placeholder="例如：国庆去法国摇人！想找爱拍照的姐妹一起，节奏轻松点～"
+        value="{{customText}}"
+        bindinput="onCustomTextInput"
+        maxlength="300"
+        style="height:160rpx;"
+      ></textarea>
+    </view>
+
+    <view class="form-group">
+      <view class="form-label">路线图 / 手账（可选，最多9张）</view>
+      <view class="custom-img-grid">
+        <view wx:for="{{customImagesDisplay}}" wx:key="index" class="custom-img-item">
+          <image class="custom-img" src="{{customImagesDisplay[index]}}" mode="aspectFill"
+                 bindtap="previewCustomImage" data-index="{{index}}" />
+          <view class="custom-img-del" catchtap="removeCustomImage" data-index="{{index}}">×</view>
+        </view>
+        <view wx:if="{{customImagesDisplay.length < 9}}" class="custom-img-add" bindtap="chooseCustomImages">
+          <view class="add-icon">＋</view>
+          <view class="add-text">上传图片</view>
+        </view>
+      </view>
+      <view class="upload-hint">支持 jpg/png/webp，单张 ≤5MB</view>
+    </view>
+  </view>
+</block>
+
 <!-- 智能选城 / 自定义模式：共用地区-国家-城市选择器 -->
 <block wx:if="{{inputMode === 'smart' || inputMode === 'custom'}}">
   <!-- 搜索直达 -->
@@ -181,41 +227,6 @@
     <view wx:if="{{manualPreviewText}}" class="manual-preview">
       <view class="preview-title">预览路线：</view>
       <view class="preview-content">{{manualPreviewText}}</view>
-    </view>
-  </view>
-</block>
-
-<!-- 自定义模式：一句话 + 图片 -->
-<block wx:if="{{inputMode === 'custom'}}">
-  <view class="card">
-    <view class="card-title">📝 说点啥 <text class="opt-tip">文字/图片至少填一个</text></view>
-
-    <view class="form-group">
-      <view class="form-label">一句话（可选）</view>
-      <textarea
-        class="form-textarea"
-        placeholder="例如：国庆去法国摇人！想找爱拍照的姐妹一起，节奏轻松点～"
-        value="{{customText}}"
-        bindinput="onCustomTextInput"
-        maxlength="300"
-        style="height:160rpx;"
-      ></textarea>
-    </view>
-
-    <view class="form-group">
-      <view class="form-label">路线图 / 手账（可选，最多9张）</view>
-      <view class="custom-img-grid">
-        <view wx:for="{{customImagesDisplay}}" wx:key="index" class="custom-img-item">
-          <image class="custom-img" src="{{customImagesDisplay[index]}}" mode="aspectFill"
-                 bindtap="previewCustomImage" data-index="{{index}}" />
-          <view class="custom-img-del" catchtap="removeCustomImage" data-index="{{index}}">×</view>
-        </view>
-        <view wx:if="{{customImagesDisplay.length < 9}}" class="custom-img-add" bindtap="chooseCustomImages">
-          <view class="add-icon">＋</view>
-          <view class="add-text">上传图片</view>
-        </view>
-      </view>
-      <view class="upload-hint">支持 jpg/png/webp，单张 ≤5MB</view>
     </view>
   </view>
 </block>

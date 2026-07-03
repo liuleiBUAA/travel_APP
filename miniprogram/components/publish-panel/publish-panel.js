@@ -27,6 +27,7 @@ Component({
     manualDays: '',
     manualPreviewText: '',
     // 自定义模式
+    customTitle: '',          // 标题（必填）
     customText: '',           // 一句话
     customImages: [],         // 已上传图片 URL 数组（相对路径，用于发布）
     customImagesDisplay: [],  // 完整 URL 数组（用于页面展示）
@@ -213,6 +214,10 @@ Component({
     },
 
     // ---- 自定义模式 ----
+    onCustomTitleInput(e) {
+      this.setData({ customTitle: e.detail.value })
+    },
+
     onCustomTextInput(e) {
       this.setData({ customText: e.detail.value })
     },
@@ -517,17 +522,23 @@ Component({
       try {
         if (d.inputMode === 'custom') {
           // 自定义模式：不生成路线，直接组装 custom route_json
+          const customTitle = (d.customTitle || '').trim()
+          if (!customTitle) {
+            wx.hideLoading()
+            wx.showToast({ title: '请填写标题', icon: 'none' })
+            return
+          }
+          if (!d.currentCountry) {
+            wx.hideLoading()
+            wx.showToast({ title: '请先选择国家', icon: 'none' })
+            return
+          }
           if (d.selectedCities.length < 1) {
             wx.hideLoading()
-            wx.showToast({ title: '请至少选择一个地点', icon: 'none' })
+            wx.showToast({ title: '请至少选择一个城市', icon: 'none' })
             return
           }
           const customText = (d.customText || '').trim()
-          if (!customText && d.customImages.length === 0) {
-            wx.hideLoading()
-            wx.showToast({ title: '请填一句话或传张图', icon: 'none' })
-            return
-          }
           if (d.customUploading) {
             wx.hideLoading()
             wx.showToast({ title: '图片上传中，请稍候', icon: 'none' })
@@ -535,12 +546,14 @@ Component({
           }
           route = {
             route_type: 'custom',
+            custom_title: customTitle,
             cities: d.selectedCities,
             city_count: d.selectedCities.length,
             custom_text: customText,
             custom_images: d.customImages,
             region: d.currentRegion,
-            description: customText || `${d.selectedCities.join('·')} 自定义路线`
+            country: d.currentCountry,
+            description: customTitle
           }
 
         } else if (d.inputMode === 'manual') {

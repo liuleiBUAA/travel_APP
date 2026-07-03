@@ -3,6 +3,7 @@
   <view wx:elif="{{myTripsEmpty}}" class="hint-text">暂无发布的行程</view>
 
   <view wx:for="{{myTrips}}" wx:key="companion_id" class="card trip-card" bindtap="onTripDetail" data-trip="{{item}}">
+    <view wx:if="{{item.route.custom_title}}" class="trip-title">{{item.route.custom_title}}</view>
     <view class="trip-cities">
       <text wx:for="{{item.route.cities}}" wx:for-item="city" wx:key="*this" class="city-badge">{{city}}</text>
     </view>
