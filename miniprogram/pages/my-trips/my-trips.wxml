@@ -6,6 +6,7 @@
     <view class="trip-cities">
       <text wx:for="{{item.route.cities}}" wx:for-item="city" wx:key="*this" class="city-badge">{{city}}</text>
     </view>
+    <view wx:if="{{item.route.custom_text}}" class="trip-custom-text">{{item.route.custom_text}}</view>
     <view class="trip-meta">
       <text class="trip-date">{{item.travel_date || '待定'}}</text>
       <text class="trip-sep">·</text>

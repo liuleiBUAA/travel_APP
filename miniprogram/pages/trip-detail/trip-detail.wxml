@@ -20,18 +20,39 @@
           </view>
         </view>
       </view>
-      <view class="cities-list">
+      <!-- 自定义帖：一句话 + 图片 + 城市标签 -->
+      <block wx:if="{{isCustom}}">
+        <view wx:if="{{route.custom_text}}" class="custom-text">{{route.custom_text}}</view>
+        <view wx:if="{{customImagesDisplay.length > 0}}" class="custom-images">
+          <image
+            wx:for="{{customImagesDisplay}}"
+            wx:key="index"
+            class="custom-image"
+            src="{{customImagesDisplay[index]}}"
+            mode="widthFix"
+            bindtap="previewCustomImage"
+            data-index="{{index}}"
+          />
+        </view>
+        <view class="cities-chips">
+          <text wx:for="{{route.cities}}" wx:key="index" class="city-chip">📍 {{item}}</text>
+        </view>
+      </block>
+
+      <!-- 普通路线帖：城市→箭头 -->
+      <view wx:else class="cities-list">
         <block wx:for="{{route.cities}}" wx:key="index">
           <text class="city">{{item}}</text>
           <text wx:if="{{index < route.cities.length - 1}}" class="arrow">→</text>
         </block>
       </view>
+
       <view class="route-stats">
         <view class="stat-item">
           <view class="stat-num">{{route.city_count || route.cities.length}}</view>
           <view class="stat-label">城市</view>
         </view>
-        <view class="stat-item">
+        <view wx:if="{{!isCustom}}" class="stat-item">
           <view class="stat-num">{{detail.duration_days}}</view>
           <view class="stat-label">天数</view>
         </view>

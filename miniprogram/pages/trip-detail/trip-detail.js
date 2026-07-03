@@ -80,10 +80,18 @@ Page({
         const seeking = detail.seeking || {}
         const preferences = detail.preferences || {}
 
+        // 自定义帖：拼接图片完整 URL 供展示
+        const isCustom = route.route_type === 'custom'
+        const customImagesDisplay = isCustom && Array.isArray(route.custom_images)
+          ? route.custom_images.map(u => api.imageUrl(u))
+          : []
+
         this.setData({
           loading: false,
           detail,
           route,
+          isCustom,
+          customImagesDisplay,
           seeking,
           preferences,
           team: detail.team || null,
@@ -108,6 +116,14 @@ Page({
     const author = this.data.detail && this.data.detail.author
     if (!author || !author.user_id) return
     wx.navigateTo({ url: `/pages/user-profile/user-profile?id=${author.user_id}` })
+  },
+
+  // 预览自定义帖图片
+  previewCustomImage(e) {
+    const idx = e.currentTarget.dataset.index
+    const urls = this.data.customImagesDisplay || []
+    if (urls.length === 0) return
+    wx.previewImage({ current: urls[idx], urls: urls })
   },
 
   // 查看留言者主页
