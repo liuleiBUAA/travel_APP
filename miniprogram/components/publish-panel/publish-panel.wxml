@@ -45,6 +45,22 @@
     <view class="card-title">📝 说点啥</view>
 
     <view class="form-group">
+      <view class="form-label">路线图 / 手账（可选，最多9张）</view>
+      <view class="custom-img-grid">
+        <view wx:for="{{customImagesDisplay}}" wx:key="index" class="custom-img-item">
+          <image class="custom-img" src="{{customImagesDisplay[index]}}" mode="aspectFill"
+                 bindtap="previewCustomImage" data-index="{{index}}" />
+          <view class="custom-img-del" catchtap="removeCustomImage" data-index="{{index}}">×</view>
+        </view>
+        <view wx:if="{{customImagesDisplay.length < 9}}" class="custom-img-add" bindtap="chooseCustomImages">
+          <view class="add-icon">＋</view>
+          <view class="add-text">上传图片</view>
+        </view>
+      </view>
+      <view class="upload-hint">支持 jpg/png/webp，单张 ≤5MB</view>
+    </view>
+
+    <view class="form-group">
       <view class="form-label">标题 <text class="req-mark">*必填</text></view>
       <input
         class="form-input"
@@ -65,22 +81,6 @@
         maxlength="300"
         style="height:160rpx;"
       ></textarea>
-    </view>
-
-    <view class="form-group">
-      <view class="form-label">路线图 / 手账（可选，最多9张）</view>
-      <view class="custom-img-grid">
-        <view wx:for="{{customImagesDisplay}}" wx:key="index" class="custom-img-item">
-          <image class="custom-img" src="{{customImagesDisplay[index]}}" mode="aspectFill"
-                 bindtap="previewCustomImage" data-index="{{index}}" />
-          <view class="custom-img-del" catchtap="removeCustomImage" data-index="{{index}}">×</view>
-        </view>
-        <view wx:if="{{customImagesDisplay.length < 9}}" class="custom-img-add" bindtap="chooseCustomImages">
-          <view class="add-icon">＋</view>
-          <view class="add-text">上传图片</view>
-        </view>
-      </view>
-      <view class="upload-hint">支持 jpg/png/webp，单张 ≤5MB</view>
     </view>
   </view>
 </block>
