@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh"><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;}
+body{background:#dfe4ea;padding:36px;}
+.grid{display:flex;flex-wrap:wrap;gap:40px;justify-content:center;max-width:1600px;margin:0 auto;}
+.col{display:flex;flex-direction:column;align-items:center;}
+.label{font-size:14px;font-weight:700;color:#3a3a44;margin-bottom:12px;letter-spacing:.5px;}
+.phone{width:330px;height:700px;border-radius:38px;overflow:hidden;box-shadow:0 20px 46px rgba(0,0,0,.20);border:9px solid #16161a;background:#000;}
+.screen{height:100%;overflow:hidden;background:#f7f8fa;position:relative;}
+.sb{height:38px;display:flex;align-items:center;justify-content:space-between;padding:0 22px;font-size:12px;font-weight:600;color:#1a1a1a;background:#f7f8fa;}
+:root{ --brand:#ff6a5c; --brand-soft:#fff0ee; --ink:#1a1a1a; --sub:#666; --faint:#999; --line:#eee; }
+.body{padding:16px;height:662px;overflow-y:auto;}
+.body::-webkit-scrollbar{display:none;}
+.h1{font-size:25px;font-weight:800;color:var(--ink);letter-spacing:-.02em;line-height:1.25;}
+.h1-sub{font-size:13px;color:var(--faint);margin-top:6px;}
+.card{background:#fff;border-radius:16px;padding:16px;box-shadow:0 2px 12px rgba(0,0,0,.05);margin-bottom:14px;}
+.sec-title{font-size:17px;font-weight:700;color:var(--ink);letter-spacing:-.01em;margin:20px 2px 12px;display:flex;justify-content:space-between;align-items:center;}
+.sec-title .more{font-size:12px;font-weight:500;color:var(--faint);}
+.ctitle{font-size:16px;font-weight:700;color:var(--ink);margin-bottom:14px;display:flex;align-items:center;}
+.ctitle::before{content:"";width:4px;height:16px;border-radius:2px;background:var(--brand);margin-right:9px;}
+.chip{display:inline-block;padding:5px 12px;border-radius:999px;font-size:12px;background:#f2f3f5;color:var(--sub);margin:3px 5px 3px 0;}
+.chip.on{background:var(--brand);color:#fff;}
+.chip.soft{background:var(--brand-soft);color:var(--brand);font-weight:600;}
+.btn{display:block;width:100%;text-align:center;padding:14px;border-radius:12px;font-size:15px;font-weight:700;background:var(--brand);color:#fff;border:none;margin-top:6px;}
+.btn-ghost{background:#fff;color:var(--ink);border:1.5px solid var(--line);}
+.arrow{color:var(--faint);font-size:16px;}
+.muted{color:var(--faint);font-size:12px;}
+.label2{font-size:13px;color:var(--sub);font-weight:500;margin-bottom:8px;}
+.field{background:#f7f8fa;border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;font-size:14px;color:var(--ink);margin-bottom:14px;}
+.field.ph{color:var(--faint);}
+.tab{display:flex;background:#f2f3f5;border-radius:12px;padding:4px;gap:4px;}
+.tab .t{flex:1;text-align:center;padding:9px;border-radius:9px;font-size:13px;font-weight:600;color:var(--sub);}
+.tab .t.on{background:#fff;color:var(--brand);box-shadow:0 1px 4px rgba(0,0,0,.06);}
+.avatar{width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,#ffd0ca,#ffb3a8);display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0;}
+.badge{display:inline-block;padding:4px 10px;border-radius:6px;font-size:11px;background:#eef6f7;color:#1e95c4;margin:2px 4px 2px 0;}
+</style></head><body>
+<div class="grid" id="g"></div>
+<script>
+const sb=`<div class="sb"><span>9:41</span><span>📶 🔋</span></div>`;
+function phone(l,i){return `<div class="col"><div class="label">${l}</div><div class="phone"><div class="screen">${sb}<div class="body">${i}</div></div></div></div>`;}
+const P=[];
+
+/* ① 首页 */
+P.push(phone("① 首页 home",`
+<div style="padding:8px 2px 0;"><div class="h1">你好，浩然 👋</div><div class="h1-sub">下一段旅程，从这里开始</div></div>
+<div style="margin-top:20px;display:flex;flex-direction:column;gap:14px;">
+  <div class="card" style="border-left:4px solid var(--brand);display:flex;align-items:center;gap:14px;padding:20px 16px;margin:0;">
+    <div style="font-size:32px;">🗺️</div><div style="flex:1;"><div style="font-size:18px;font-weight:700;">做攻略</div><div class="muted" style="margin-top:4px;">选好目的地，自动生成 Day-by-Day 行程</div></div><div class="arrow">›</div></div>
+  <div class="card" style="border-left:4px solid #2bb3c0;display:flex;align-items:center;gap:14px;padding:20px 16px;margin:0;">
+    <div style="font-size:32px;">🤝</div><div style="flex:1;"><div style="font-size:18px;font-weight:700;">找搭子</div><div class="muted" style="margin-top:4px;">发布路线，匹配同期同路线的旅伴</div></div><div class="arrow">›</div></div>
+</div>
+<div class="sec-title">最新找搭子<span class="more">查看全部 ›</span></div>
+<div style="display:flex;gap:12px;">
+  <div class="card" style="width:175px;flex-shrink:0;margin:0;"><div style="font-weight:700;font-size:14px;">苏黎世·因特拉肯·卢塞恩</div><div style="color:var(--brand);font-size:12px;font-weight:600;margin:8px 0 5px;">2026-08-15 · 7天</div><div class="muted">Luna · 2/4人</div></div>
+  <div class="card" style="width:120px;flex-shrink:0;margin:0;overflow:hidden;"><div style="font-weight:700;font-size:14px;">东京·京都·大阪</div><div style="color:var(--brand);font-size:12px;font-weight:600;margin:8px 0 5px;">2026-09-01</div><div class="muted">阿May</div></div>
+</div>
+<div style="display:flex;gap:12px;margin-top:16px;">
+  <div class="card" style="flex:1;text-align:center;margin:0;"><div style="font-size:22px;">🔍</div><div class="muted" style="margin-top:6px;">大家都去哪</div></div>
+  <div class="card" style="flex:1;text-align:center;margin:0;"><div style="font-size:22px;">👤</div><div class="muted" style="margin-top:6px;">我的行程</div></div>
+</div>`));
+
+/* ② 登录 login */
+P.push(phone("② 登录 login",`
+<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:560px;text-align:center;">
+  <div style="width:96px;height:96px;border-radius:28px;background:linear-gradient(135deg,#ff8a5c,#ff5c8a);display:flex;align-items:center;justify-content:center;font-size:48px;box-shadow:0 12px 30px rgba(255,92,138,.3);">✈️</div>
+  <div style="font-size:30px;font-weight:800;margin-top:24px;letter-spacing:-.02em;">找搭子</div>
+  <div class="muted" style="font-size:14px;margin-top:8px;">生成专属攻略 · 找到同行旅伴</div>
+  <div style="width:100%;margin-top:56px;">
+    <div class="btn" style="background:#07c160;">💬 微信一键登录</div>
+    <div class="muted" style="margin-top:16px;font-size:11px;">登录即表示同意用户协议与隐私政策</div>
+  </div>
+</div>`));
+
+/* ③ 做攻略 guide */
+P.push(phone("③ 做攻略 guide",`
+<div class="field ph" style="display:flex;align-items:center;gap:8px;">🔍 搜地名直达攻略，如 瑞吉山、东京</div>
+<div class="card">
+  <div class="ctitle">做攻略</div>
+  <div class="tab"><div class="t on">✨ 帮我推荐</div><div class="t">📍 知道去哪</div></div>
+</div>
+<div class="card">
+  <div class="ctitle">告诉我你的偏好</div>
+  <div class="label2">旅行月份</div><div class="field">2026年8月</div>
+  <div class="label2">计划天数（可不填，自动推荐）</div><div class="field ph">留空则自动推荐天数</div>
+  <div class="label2">旅行区域</div>
+  <div style="margin-bottom:14px;"><span class="chip on">欧洲</span><span class="chip">亚洲</span><span class="chip">大洋洲</span><span class="chip">美洲</span></div>
+  <div class="label2">国家筛选（可多选）</div>
+  <div><span class="chip soft">✓ 瑞士</span><span class="chip">法国</span><span class="chip">意大利</span><span class="chip">冰岛</span></div>
+</div>
+<div class="btn">✨ 生成我的专属攻略</div>`));
+
+/* ④ 找搭子 companion */
+P.push(phone("④ 找搭子 companion",`
+<div class="card"><div class="ctitle">找搭子</div>
+  <div class="tab"><div class="t on">📤 发布路线</div><div class="t">🔍 搜搭子</div></div></div>
+<div class="card">
+  <div class="ctitle">发布你的行程</div>
+  <div class="label2">目的地城市</div>
+  <div style="border:1.5px dashed var(--line);border-radius:12px;padding:10px;margin-bottom:14px;"><span class="chip on">苏黎世 ✕</span><span class="chip on">卢塞恩 ✕</span><span class="chip">+ 添加</span></div>
+  <div class="label2">出发日期</div><div class="field">2026-08-15</div>
+  <div class="label2">天数</div><div class="field">7 天</div>
+  <div class="label2">想找的搭子</div>
+  <div><span class="chip soft">✓ 拼房</span><span class="chip">拼车</span><span class="chip">结伴同游</span></div>
+</div>
+<div class="btn">发布找搭子</div>`));
+
+/* ⑤ 搜搭子结果 match */
+P.push(phone("⑤ 搜搭子结果 match",`
+<div class="field ph" style="display:flex;align-items:center;gap:8px;">🔍 搜城市/日期找同路旅伴</div>
+<div class="sec-title" style="margin-top:8px;">找到 3 位同路旅伴</div>
+${[['Luna','苏黎世·因特拉肯·卢塞恩','2026-08-15 · 7天','92'],['大熊','采尔马特·苏黎世','2026-08-18 · 6天','85'],['小鹿','日内瓦·蒙特勒','2026-08-20 · 5天','78']].map(x=>`
+<div class="card" style="display:flex;align-items:center;gap:12px;">
+  <div class="avatar">🧑</div>
+  <div style="flex:1;"><div style="font-weight:700;font-size:15px;">${x[0]}</div><div style="font-size:13px;color:var(--ink);margin:3px 0;">${x[1]}</div><div class="muted">${x[2]}</div></div>
+  <div style="text-align:center;"><div style="font-size:22px;font-weight:800;color:var(--brand);">${x[3]}</div><div class="muted">匹配分</div></div>
+</div>`).join('')}`));
+
+/* ⑥ 行程详情 trip-detail */
+P.push(phone("⑥ 行程详情 trip-detail",`
+<div class="card" style="padding:0;overflow:hidden;">
+  <div style="height:130px;background:linear-gradient(135deg,#a8c0d8,#7a9bbd);display:flex;align-items:flex-end;padding:14px;color:#fff;"><div style="font-size:20px;font-weight:800;text-shadow:0 2px 6px rgba(0,0,0,.3);">瑞士深度 7 日</div></div>
+  <div style="padding:16px;">
+    <div><span class="badge">苏黎世</span><span class="badge">因特拉肯</span><span class="badge">卢塞恩</span></div>
+    <div style="display:flex;gap:14px;margin-top:12px;font-size:13px;color:var(--sub);"><span>📅 08-15</span><span>⏱ 7天</span><span>👥 2/4人</span></div>
+  </div>
+</div>
+<div class="card">
+  <div class="ctitle">发布者</div>
+  <div style="display:flex;align-items:center;gap:12px;"><div class="avatar">🧑</div><div style="flex:1;"><div style="font-weight:700;">Luna</div><div class="muted">爱摄影爱徒步，求靠谱搭子</div></div><div class="chip soft">申请交换微信</div></div>
+</div>
+<div class="card"><div class="ctitle">Day 1 · 苏黎世</div><div style="font-size:13px;color:var(--sub);line-height:1.7;">抵达苏黎世机场，班霍夫大街漫步，苏黎世湖畔日落。宿老城区。</div></div>
+<div class="card"><div class="ctitle">Day 2 · 因特拉肯</div><div style="font-size:13px;color:var(--sub);line-height:1.7;">少女峰登山铁道，途经劳特布龙嫩瀑布小镇。</div></div>`));
+
+/* ⑦ 景点详情 attraction */
+P.push(phone("⑦ 景点详情 attraction",`
+<div class="card" style="padding:0;overflow:hidden;">
+  <div style="height:150px;background:linear-gradient(135deg,#8fc5a8,#5a9b7a);"></div>
+  <div style="padding:16px;"><div style="font-size:20px;font-weight:800;">少女峰</div><div class="muted" style="margin-top:5px;">瑞士 · 因特拉肯 · 欧洲之巅</div></div>
+</div>
+<div class="card"><div class="ctitle">简介</div><div style="font-size:13px;color:var(--sub);line-height:1.7;">海拔 3454 米的观景平台，可乘欧洲海拔最高的齿轨火车直达，全年积雪。</div></div>
+<div class="card"><div class="ctitle">游玩贴士</div>
+  <div style="font-size:13px;color:var(--sub);line-height:1.9;">🚞 火车往返约 CHF 210<br>🕐 建议停留 3-4 小时<br>🧥 山顶温度低，带厚外套<br>☀️ 晴天登顶视野最佳</div></div>
+<div class="btn btn-ghost">加入我的行程</div>`));
+
+/* ⑧ 我的 profile */
+P.push(phone("⑧ 我的 profile",`
+<div style="display:flex;align-items:center;gap:14px;padding:10px 4px 20px;"><div class="avatar" style="width:64px;height:64px;font-size:30px;">🧑</div><div><div style="font-size:20px;font-weight:800;">浩然</div><div class="muted" style="margin-top:4px;">旅行者</div></div></div>
+<div class="card">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;"><div style="font-size:15px;font-weight:700;">我的旅行名片</div><div class="muted" style="color:var(--brand);">编辑 ›</div></div>
+  <div style="font-size:13px;color:var(--sub);margin-bottom:12px;">爱摄影爱美食，喜欢深度游，求靠谱搭子</div>
+  <div><span class="chip">💰 舒适</span><span class="chip">📷 拍照达人</span><span class="chip">🏨 民宿</span><span class="chip">🚗 会开车</span><span class="chip">🧠 ENFP</span></div>
+</div>
+<div class="card" style="padding:4px 0;">
+  ${[['✏️','编辑资料'],['🗺️','我发布的行程'],['📖','我的攻略'],['🤝','我的搭子'],['⚙️','设置']].map(m=>`<div style="display:flex;align-items:center;gap:12px;padding:14px 16px;border-bottom:1px solid #f4f4f6;"><span style="font-size:18px;">${m[0]}</span><span style="flex:1;font-size:14px;color:var(--ink);">${m[1]}</span><span class="arrow">›</span></div>`).join('')}
+</div>
+<div class="btn btn-ghost" style="color:var(--brand);">退出登录</div>`));
+
+/* ⑨ 我发布的行程 my-trips */
+P.push(phone("⑨ 我发布的 my-trips",`
+<div class="sec-title" style="margin-top:6px;">我发布的行程</div>
+${[['瑞士深度7日','苏黎世·因特拉肯·卢塞恩','2026-08-15 · 7天 · 2/4人'],['日本关西游','东京·京都·大阪','2026-09-01 · 8天 · 1/3人']].map(t=>`
+<div class="card">
+  <div style="font-weight:700;font-size:15px;margin-bottom:8px;">${t[0]}</div>
+  <div style="margin-bottom:8px;"><span class="badge">${t[1].split('·')[0]}</span><span class="badge">${t[1].split('·')[1]}</span><span class="badge">${t[1].split('·')[2]}</span></div>
+  <div class="muted" style="margin-bottom:10px;">${t[2]}</div>
+  <div><span class="chip">自驾</span><span class="chip">民宿</span><span class="chip">经济</span></div>
+  <div style="display:flex;justify-content:space-between;margin-top:12px;padding-top:12px;border-top:1px solid #f4f4f6;"><span class="muted">发布于 2026-07-01</span><span class="muted" style="color:var(--brand);">删除</span></div>
+</div>`).join('')}`));
+
+/* ⑩ 我的搭子 my-buddies */
+P.push(phone("⑩ 我的搭子 my-buddies",`
+<div class="card"><div class="ctitle">收到的申请（1）</div>
+  <div style="display:flex;gap:12px;"><div class="avatar">🧑</div><div style="flex:1;"><div style="font-weight:700;">大熊</div><div class="muted" style="margin:3px 0;">"看你也去瑞士，一起拼车？"</div><div class="muted" style="color:var(--brand);">查看相关行程 ›</div></div></div>
+  <div style="display:flex;gap:10px;margin-top:12px;"><div class="chip" style="flex:1;text-align:center;padding:9px;">拒绝</div><div class="chip on" style="flex:1;text-align:center;padding:9px;">同意</div></div>
+</div>
+<div class="card"><div class="ctitle">已交换微信（1）</div>
+  <div style="display:flex;align-items:center;gap:12px;"><div class="avatar">🧑</div><div style="flex:1;"><div style="font-weight:700;">Luna</div><div class="muted" style="margin-top:3px;">微信：luna_travel</div></div><div class="chip soft">复制</div></div>
+</div>
+<div class="card"><div class="ctitle">我发出的（1）</div>
+  <div style="display:flex;align-items:center;gap:12px;"><div class="avatar">🧑</div><div style="flex:1;"><div style="font-weight:700;">小鹿</div><div class="muted" style="color:var(--brand);margin-top:3px;">查看相关行程 ›</div></div><div class="chip">等待同意</div></div>
+</div>`));
+
+/* ⑪ 他人主页 user-profile */
+P.push(phone("⑪ 他人主页 user-profile",`
+<div class="card" style="display:flex;align-items:center;gap:14px;"><div class="avatar" style="width:60px;height:60px;font-size:28px;">🧑</div><div><div style="font-size:18px;font-weight:800;">Luna</div><div class="muted" style="margin-top:5px;">女 · 2025-03 加入 · 发布 5 条行程</div></div></div>
+<div class="card"><div class="ctitle">旅行名片</div>
+  <div style="font-size:13px;color:var(--sub);margin-bottom:12px;">爱摄影爱徒步，喜欢慢节奏深度游，欢迎同好一起</div>
+  <div><span class="chip">💰 舒适</span><span class="chip">📷 拍照达人</span><span class="chip">🏨 民宿</span><span class="chip">🚗 会开车</span><span class="chip">徒步</span><span class="chip">摄影</span></div>
+</div>`));
+
+/* ⑫ 编辑名片 card-edit */
+P.push(phone("⑫ 编辑名片 card-edit",`
+<div class="card">
+  <div class="label2">自我介绍</div><div class="field ph" style="height:60px;">一句话介绍自己，比如：爱摄影爱美食，求靠谱搭子</div>
+  <div class="label2">微信号（私密，仅交换成功的搭子可见）</div><div class="field ph">填写后才能和搭子交换微信</div>
+  <div class="label2">消费习惯</div><div class="field">舒适</div>
+  <div class="label2">拍照技能</div><div class="field">达人</div>
+  <div class="label2">兴趣标签</div>
+  <div><span class="chip on">摄影</span><span class="chip on">徒步</span><span class="chip">美食</span><span class="chip">潜水</span><span class="chip">滑雪</span></div>
+</div>
+<div class="btn">保存</div>`));
+
+/* ⑬ 语音助手 voice-assistant */
+P.push(phone("⑬ 语音助手 voice",`
+<div style="display:flex;flex-direction:column;gap:14px;">
+  <div style="align-self:flex-start;max-width:80%;background:#fff;border-radius:4px 16px 16px 16px;padding:12px 14px;font-size:13px;box-shadow:0 2px 8px rgba(0,0,0,.05);">你好呀～想去哪玩，或者找什么样的搭子？跟我说说 🎤</div>
+  <div style="align-self:flex-end;max-width:80%;background:var(--brand);color:#fff;border-radius:16px 4px 16px 16px;padding:12px 14px;font-size:13px;">8月想去瑞士玩一周，找个拼房的女生</div>
+  <div style="align-self:flex-start;max-width:85%;background:#fff;border-radius:4px 16px 16px 16px;padding:12px 14px;font-size:13px;box-shadow:0 2px 8px rgba(0,0,0,.05);">帮你找到 2 位同路旅伴：</div>
+  <div style="align-self:flex-start;width:85%;">
+    <div class="card" style="margin:0 0 8px;padding:12px;"><div style="font-weight:700;font-size:14px;">Luna · 7天</div><div class="muted" style="margin-top:3px;">出发 08-15 · 当前 2/4人</div></div>
+    <div class="card" style="margin:0;padding:12px;"><div style="font-weight:700;font-size:14px;">大熊 · 6天</div><div class="muted" style="margin-top:3px;">出发 08-18 · 当前 1/3人</div></div>
+  </div>
+</div>
+<div style="position:absolute;bottom:0;left:0;right:0;padding:14px 16px;background:#f7f8fa;"><div class="btn" style="border-radius:999px;margin:0;">🎤 按住说话</div></div>`));
+
+/* ⑭ 发布行程 index(publish) */
+P.push(phone("⑭ 发布 index",`
+<div class="card"><div class="ctitle">发布方式</div>
+  <div class="tab"><div class="t on">🗺️ 从我的攻略选</div><div class="t">✏️ 自定义</div></div></div>
+<div class="card">
+  <div class="label2">标题 <span style="color:var(--brand);">*必填</span></div><div class="field ph">给你的行程起个名，如 瑞士深度7日</div>
+  <div class="label2">路线图 / 手账（可选，最多9张）</div>
+  <div style="display:flex;gap:8px;margin-bottom:14px;"><div style="width:70px;height:70px;border:1.5px dashed var(--line);border-radius:12px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:var(--faint);"><div style="font-size:22px;">＋</div><div style="font-size:10px;">上传</div></div></div>
+  <div class="label2">说点啥</div><div class="field ph" style="height:60px;">分享这条路线的亮点、注意事项…</div>
+</div>
+<div class="btn">发布</div>`));
+
+document.getElementById('g').innerHTML=P.join('');
+</script></body></html>

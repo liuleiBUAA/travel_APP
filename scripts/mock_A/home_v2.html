@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh"><head><meta charset="utf-8">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;}
+body{background:#dfe4ea;padding:36px;}
+.block{background:#dfe4ea;padding-bottom:8px;}
+.rowtitle{text-align:center;font-size:19px;font-weight:800;color:#2a2a33;margin-bottom:20px;letter-spacing:.5px;}
+.rowtitle .desc{display:block;font-size:13px;font-weight:500;color:#6a6a75;margin-top:6px;}
+.row{display:flex;flex-wrap:wrap;gap:24px;justify-content:center;align-items:flex-start;}
+.col{display:flex;flex-direction:column;align-items:center;}
+.label{font-size:14px;font-weight:700;color:#3a3a44;margin-bottom:12px;letter-spacing:.5px;}
+.label.after{color:#ff6a5c;}
+.phone{width:320px;height:660px;border-radius:38px;overflow:hidden;box-shadow:0 20px 46px rgba(0,0,0,.20);border:9px solid #16161a;background:#000;}
+.screen{height:100%;overflow:hidden;background:#f7f8fa;position:relative;}
+.sb{height:38px;display:flex;align-items:center;justify-content:space-between;padding:0 22px;font-size:12px;font-weight:600;color:#1a1a1a;background:#f7f8fa;}
+:root{ --brand:#ff6a5c; --brand-soft:#fff0ee; --ink:#1a1a1a; --sub:#666; --faint:#999; --line:#eee; }
+.body{padding:16px;height:622px;overflow-y:auto;}
+.body::-webkit-scrollbar{display:none;}
+.h1{font-size:23px;font-weight:800;color:var(--ink);letter-spacing:-.02em;line-height:1.25;}
+.h1-sub{font-size:13px;color:var(--faint);margin-top:6px;}
+.card{background:#fff;border-radius:16px;padding:16px;box-shadow:0 2px 12px rgba(0,0,0,.05);margin-bottom:14px;}
+.sec-title{font-size:17px;font-weight:700;color:var(--ink);letter-spacing:-.01em;margin:20px 2px 12px;display:flex;justify-content:space-between;align-items:center;}
+.sec-title .more{font-size:12px;font-weight:500;color:var(--faint);}
+.chip{display:inline-block;padding:5px 12px;border-radius:999px;font-size:12px;background:#f2f3f5;color:var(--sub);margin:3px 5px 3px 0;}
+.chip.on{background:var(--brand);color:#fff;}
+.chip.soft{background:var(--brand-soft);color:var(--brand);font-weight:600;}
+.arrow{color:var(--faint);font-size:16px;}
+.muted{color:var(--faint);font-size:12px;}
+.avatar{width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,#ffd0ca,#ffb3a8);display:flex;align-items:center;justify-content:center;font-size:24px;flex-shrink:0;}
+</style></head><body>
+<div id="app"></div>
+<script>
+const sb=`<div class="sb"><span>9:41</span><span>📶 🔋</span></div>`;
+function phone(l,i,after){return `<div class="col"><div class="label ${after?'after':''}">${l}</div><div class="phone"><div class="screen">${sb}<div class="body">${i}</div></div></div></div>`;}
+function block(title,desc,cells){return `<div class="block"><div class="rowtitle">${title}<span class="desc">${desc}</span></div><div class="row">${cells}</div></div>`;}
+const R=[];
+
+/* 通用：顶部问候 */
+const greet=`<div style="padding:8px 2px 0;display:flex;justify-content:space-between;align-items:center;">
+  <div><div class="h1">你好，浩然 👋</div><div class="h1-sub">下一段旅程，从这里开始</div></div>
+  <div class="avatar" style="width:44px;height:44px;font-size:20px;">🧑</div>
+</div>`;
+
+/* 通用：搭子列表 */
+const buddyList=`
+<div class="sec-title">最新找搭子<span class="more">查看全部 ›</span></div>
+<div class="card" style="display:flex;align-items:center;gap:12px;padding:14px;">
+  <div class="avatar">🧑</div>
+  <div style="flex:1;min-width:0;"><div style="font-weight:700;font-size:15px;">苏黎世·因特拉肯·卢塞恩</div>
+    <div style="margin:6px 0 4px;"><span class="chip soft" style="margin:0;">🇨🇭 瑞士</span><span class="chip" style="margin:0 0 0 4px;">拼房</span></div>
+    <div class="muted">Luna · 还差 2 人</div></div>
+  <div style="text-align:center;"><div style="font-size:12px;color:var(--brand);font-weight:700;">08-15</div><div class="muted" style="font-size:10px;">出发</div></div>
+</div>
+<div class="card" style="display:flex;align-items:center;gap:12px;padding:14px;">
+  <div class="avatar">🧑</div>
+  <div style="flex:1;min-width:0;"><div style="font-weight:700;font-size:15px;">东京·京都·大阪</div>
+    <div style="margin:6px 0 4px;"><span class="chip soft" style="margin:0;">🇯🇵 日本</span><span class="chip" style="margin:0 0 0 4px;">结伴同游</span></div>
+    <div class="muted">阿May · 还差 2 人</div></div>
+  <div style="text-align:center;"><div style="font-size:12px;color:var(--brand);font-weight:700;">09-01</div><div class="muted" style="font-size:10px;">出发</div></div>
+</div>`;
+
+/* ===== 上一版（做攻略为主）===== */
+const v_guide_main=`${greet}
+<div style="margin-top:20px;">
+  <div style="border-radius:18px;padding:22px 18px;background:linear-gradient(120deg,#ff8a5c,#ff5c72);color:#fff;position:relative;overflow:hidden;box-shadow:0 8px 22px rgba(255,90,100,.28);">
+    <div style="font-size:34px;">🗺️</div>
+    <div style="font-size:20px;font-weight:800;margin-top:8px;">做攻略</div>
+    <div style="font-size:12px;opacity:.92;margin-top:4px;">选好目的地，自动生成 Day-by-Day 行程</div>
+    <div style="position:absolute;right:-10px;bottom:-14px;font-size:90px;opacity:.14;">🗺️</div>
+  </div>
+  <div class="card" style="display:flex;align-items:center;gap:14px;margin:14px 0 0;padding:18px 16px;">
+    <div style="width:46px;height:46px;border-radius:13px;background:#e8f7f9;display:flex;align-items:center;justify-content:center;font-size:24px;">🤝</div>
+    <div style="flex:1;"><div style="font-size:16px;font-weight:700;">找搭子</div><div class="muted" style="margin-top:3px;">发布路线，匹配同期同路线旅伴</div></div><div class="arrow">›</div>
+  </div>
+</div>${buddyList}`;
+
+/* ===== 新版（找搭子为主）===== */
+const v_buddy_main=`${greet}
+<div style="margin-top:20px;">
+  <div style="border-radius:18px;padding:22px 18px;background:linear-gradient(120deg,#ff7a5c,#ff5c72);color:#fff;position:relative;overflow:hidden;box-shadow:0 8px 22px rgba(255,90,100,.28);">
+    <div style="font-size:34px;">🤝</div>
+    <div style="font-size:20px;font-weight:800;margin-top:8px;">找搭子</div>
+    <div style="font-size:12px;opacity:.93;margin-top:4px;">发布你的路线，匹配同期同路线的旅伴</div>
+    <div style="margin-top:14px;display:inline-block;background:rgba(255,255,255,.22);border-radius:10px;padding:8px 16px;font-size:13px;font-weight:700;">＋ 发布路线找搭子</div>
+    <div style="position:absolute;right:-8px;bottom:-16px;font-size:96px;opacity:.15;">🤝</div>
+  </div>
+  <div class="card" style="display:flex;align-items:center;gap:14px;margin:14px 0 0;padding:18px 16px;">
+    <div style="width:46px;height:46px;border-radius:13px;background:#fff0ee;display:flex;align-items:center;justify-content:center;font-size:24px;">🗺️</div>
+    <div style="flex:1;"><div style="font-size:16px;font-weight:700;">做攻略</div><div class="muted" style="margin-top:3px;">还没定行程？先生成 Day-by-Day 攻略</div></div><div class="arrow">›</div>
+  </div>
+</div>${buddyList}`;
+
+R.push(block("首页主入口对调","上一版把「做攻略」放大做主视觉；新版把「找搭子」放大做主视觉（搭子才是核心），做攻略降为次级横条。找搭子主卡额外加了「＋发布路线找搭子」行动按钮",
+  phone("上一版（做攻略为主）",v_guide_main,false)+phone("新版（找搭子为主）✓",v_buddy_main,true)));
+
+document.getElementById('app').innerHTML=R.join('');
+</script></body></html>
