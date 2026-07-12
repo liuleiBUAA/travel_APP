@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh"><head><meta charset="utf-8">
+<style>
+/* 复刻 app.wxss 真实主题变量 */
+:root{
+  --c-primary:#ff6b5c; --c-primary-2:#ff8a5c;
+  --grad-primary:linear-gradient(135deg,#ff7b5c 0%,#ff5c8a 100%);
+  --c-bg:#fef7f4; --c-card:#ffffff; --c-soft:#fff1ec;
+  --c-text:#2a2320; --c-text-sub:#6b5f59; --c-text-muted:#a39690; --c-text-faint:#cabfb9;
+  --shadow-card:0 6px 22px rgba(255,107,92,0.10);
+}
+*{margin:0;padding:0;box-sizing:border-box;font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;}
+body{background:#dfe4ea;padding:40px;display:flex;justify-content:center;}
+.phone{width:390px;border-radius:44px;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.24);border:11px solid #16161a;background:#000;}
+.screen{background:var(--c-bg);position:relative;}
+.sb{height:44px;display:flex;align-items:center;justify-content:space-between;padding:0 26px;font-size:13px;font-weight:600;color:var(--c-text);}
+/* home.wxss 真实换算 rpx→px (÷2) */
+.home{min-height:760px;background:var(--c-bg);padding:20px 15px;}
+.hero{position:relative;margin-bottom:20px;padding:5px 5px 0;overflow:hidden;}
+.hero-deco{position:absolute;font-size:30px;opacity:.12;}
+.deco-1{top:0;right:20px;transform:rotate(15deg);font-size:45px;}
+.greeting-hi{font-size:24px;font-weight:700;color:var(--c-text);margin-bottom:5px;}
+.greeting-sub{font-size:14px;color:var(--c-text-muted);}
+.cards{display:flex;flex-direction:column;gap:10px;}
+.hero-card{position:relative;border-radius:16px;padding:20px 18px;background:var(--grad-primary);color:#fff;overflow:hidden;box-shadow:0 6px 16px rgba(255,107,92,.28);}
+.hero-card-emoji{font-size:34px;line-height:1;}
+.hero-card-title{font-size:22px;font-weight:800;margin-top:8px;letter-spacing:-.25px;}
+.hero-card-desc{font-size:13px;color:rgba(255,255,255,.92);margin-top:5px;line-height:1.5;}
+.hero-card-cta{display:inline-block;margin-top:14px;background:rgba(255,255,255,.24);border-radius:7px;padding:8px 16px;font-size:14px;font-weight:700;}
+.hero-card-bg{position:absolute;right:-8px;bottom:-16px;font-size:100px;opacity:.15;line-height:1;}
+.sub-card{display:flex;align-items:center;gap:12px;background:var(--c-card);border-radius:12px;padding:15px 14px;box-shadow:var(--shadow-card);}
+.sub-card-icon{width:42px;height:42px;border-radius:11px;background:var(--c-soft);display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0;}
+.sub-card-text{flex:1;min-width:0;}
+.sub-card-title{font-size:16px;font-weight:700;color:var(--c-text);}
+.sub-card-desc{font-size:12.5px;color:var(--c-text-muted);margin-top:3px;}
+.sub-card-arrow{font-size:20px;color:var(--c-text-faint);flex-shrink:0;}
+.recent-section{margin-top:20px;}
+.section-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;padding:0 3px;}
+.section-title{font-size:16px;font-weight:600;color:var(--c-text);}
+.section-more{font-size:13px;color:var(--c-primary);}
+.recent-list{display:flex;flex-direction:column;gap:8px;}
+.buddy-card{display:flex;align-items:center;gap:10px;background:var(--c-card);border-radius:12px;padding:12px 13px;box-shadow:var(--shadow-card);}
+.buddy-avatar{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,#ffd0ca,#ffb3a8);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;}
+.buddy-info{flex:1;min-width:0;}
+.buddy-cities{font-size:15px;font-weight:700;color:var(--c-text);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.buddy-tags{margin:5px 0 4px;}
+.buddy-tag{display:inline-block;font-size:11px;color:var(--c-text-sub);background:var(--c-soft);border-radius:999px;padding:2.5px 8px;margin-right:5px;}
+.buddy-user{font-size:12px;color:var(--c-text-muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.buddy-date{text-align:center;flex-shrink:0;}
+.buddy-date-num{font-size:14px;font-weight:800;color:var(--c-primary);}
+.buddy-date-label{font-size:10px;color:var(--c-text-muted);margin-top:1px;}
+.quick-row{display:flex;gap:12px;margin-top:18px;}
+.quick-item{flex:1;background:var(--c-card);border-radius:10px;padding:14px 0;display:flex;flex-direction:column;align-items:center;gap:5px;box-shadow:var(--shadow-card);}
+.quick-emoji{font-size:22px;}
+.quick-text{font-size:13px;color:var(--c-text-sub);}
+.voice-fab{position:absolute;right:16px;bottom:24px;background:linear-gradient(135deg,#ff8a5c,#ff5c8a);color:#fff;border-radius:999px;padding:10px 16px;display:flex;align-items:center;gap:6px;box-shadow:0 4px 12px rgba(255,92,138,.4);}
+.voice-fab-icon{font-size:20px;}.voice-fab-text{font-size:14px;font-weight:600;}
+</style></head><body>
+<div class="phone"><div class="screen">
+<div class="sb"><span>9:41</span><span>📶 🔋</span></div>
+<div class="home">
+  <div class="hero">
+    <div class="hero-deco deco-1">✈️</div>
+    <div class="greeting-hi">你好，浩然 👋</div>
+    <div class="greeting-sub">下一段旅程，从这里开始</div>
+  </div>
+  <div class="cards">
+    <div class="hero-card">
+      <div class="hero-card-emoji">🤝</div>
+      <div class="hero-card-title">找搭子</div>
+      <div class="hero-card-desc">发布你的路线，匹配同期同路线的旅伴</div>
+      <div class="hero-card-cta">＋ 发布路线找搭子</div>
+      <div class="hero-card-bg">🤝</div>
+    </div>
+    <div class="sub-card">
+      <div class="sub-card-icon">🗺️</div>
+      <div class="sub-card-text">
+        <div class="sub-card-title">做攻略</div>
+        <div class="sub-card-desc">还没定行程？先生成 Day-by-Day 攻略</div>
+      </div>
+      <div class="sub-card-arrow">›</div>
+    </div>
+  </div>
+  <div class="recent-section">
+    <div class="section-header">
+      <span class="section-title">最新找搭子</span>
+      <span class="section-more">查看全部 ›</span>
+    </div>
+    <div class="recent-list">
+      <div class="buddy-card">
+        <div class="buddy-avatar">🧑</div>
+        <div class="buddy-info">
+          <div class="buddy-cities">苏黎世 → 因特拉肯 → 卢塞恩</div>
+          <div class="buddy-tags"><span class="buddy-tag">7天</span><span class="buddy-tag">0男1女</span></div>
+          <div class="buddy-user">Luna · 还差 3 人</div>
+        </div>
+        <div class="buddy-date"><div class="buddy-date-num">08-15</div><div class="buddy-date-label">出发</div></div>
+      </div>
+      <div class="buddy-card">
+        <div class="buddy-avatar">🧑</div>
+        <div class="buddy-info">
+          <div class="buddy-cities">东京 → 京都 → 大阪</div>
+          <div class="buddy-tags"><span class="buddy-tag">8天</span><span class="buddy-tag">1男0女</span></div>
+          <div class="buddy-user">阿May · 还差 2 人</div>
+        </div>
+        <div class="buddy-date"><div class="buddy-date-num">09-01</div><div class="buddy-date-label">出发</div></div>
+      </div>
+    </div>
+  </div>
+  <div class="quick-row">
+    <div class="quick-item"><span class="quick-emoji">🔍</span><span class="quick-text">大家都去哪</span></div>
+    <div class="quick-item"><span class="quick-emoji">👤</span><span class="quick-text">我的行程</span></div>
+  </div>
+  <div class="voice-fab"><span class="voice-fab-icon">🎤</span><span class="voice-fab-text">语音找搭子</span></div>
+</div>
+</div></div>
+</body></html>

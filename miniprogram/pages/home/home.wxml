@@ -2,35 +2,29 @@
   <!-- 顶部 hero -->
   <view class="hero">
     <view class="hero-deco deco-1">✈️</view>
-    <view class="hero-deco deco-2">🌍</view>
     <view class="greeting-hi">你好{{nickname ? '，' + nickname : ''}} 👋</view>
     <view class="greeting-sub">下一段旅程，从这里开始</view>
   </view>
 
-  <!-- 两大主线 -->
+  <!-- 主入口：找搭子为主 -->
   <view class="cards">
-    <!-- 做攻略 -->
-    <view class="big-card card-guide" bindtap="goGuide" hover-class="big-card-hover">
-      <view class="big-card-body">
-        <view class="big-card-emoji">🗺️</view>
-        <view class="big-card-text">
-          <view class="big-card-title">做攻略</view>
-          <view class="big-card-desc">选好目的地，自动生成 Day-by-Day 行程</view>
-        </view>
-      </view>
-      <view class="big-card-go">开始规划 ›</view>
+    <!-- 找搭子（核心，主视觉大卡） -->
+    <view class="hero-card" bindtap="goPublish" hover-class="hero-card-hover">
+      <view class="hero-card-emoji">🤝</view>
+      <view class="hero-card-title">找搭子</view>
+      <view class="hero-card-desc">发布你的路线，匹配同期同路线的旅伴</view>
+      <view class="hero-card-cta">＋ 发布路线找搭子</view>
+      <view class="hero-card-bg">🤝</view>
     </view>
 
-    <!-- 找搭子 -->
-    <view class="big-card card-match" bindtap="goPublish" hover-class="big-card-hover">
-      <view class="big-card-body">
-        <view class="big-card-emoji">🤝</view>
-        <view class="big-card-text">
-          <view class="big-card-title">找搭子</view>
-          <view class="big-card-desc">发布路线，匹配同期同路线的旅伴</view>
-        </view>
+    <!-- 做攻略（次级横条） -->
+    <view class="sub-card" bindtap="goGuide" hover-class="sub-card-hover">
+      <view class="sub-card-icon">🗺️</view>
+      <view class="sub-card-text">
+        <view class="sub-card-title">做攻略</view>
+        <view class="sub-card-desc">还没定行程？先生成 Day-by-Day 攻略</view>
       </view>
-      <view class="big-card-go">发布 / 匹配 ›</view>
+      <view class="sub-card-arrow">›</view>
     </view>
   </view>
 
@@ -40,15 +34,23 @@
       <text class="section-title">最新找搭子</text>
       <text class="section-more" bindtap="goMatch">查看全部 ›</text>
     </view>
-    <scroll-view scroll-x class="recent-scroll" show-scrollbar="{{false}}">
-      <view class="recent-row">
-        <view wx:for="{{recent}}" wx:key="companion_id" class="recent-card" bindtap="goDetail" data-id="{{item.companion_id}}">
-          <view class="recent-cities">{{item.citiesText}}</view>
-          <view class="recent-meta">{{item.travel_date}} · {{item.duration_days}}天</view>
-          <view class="recent-user">{{item.user_name}} · {{item.current_people}}</view>
+    <view class="recent-list">
+      <view wx:for="{{recent}}" wx:key="companion_id" class="buddy-card" bindtap="goDetail" data-id="{{item.companion_id}}">
+        <view class="buddy-avatar">🧑</view>
+        <view class="buddy-info">
+          <view class="buddy-cities">{{item.citiesText}}</view>
+          <view class="buddy-tags">
+            <text class="buddy-tag">{{item.duration_days}}天</text>
+            <text class="buddy-tag">{{item.current_people}}</text>
+          </view>
+          <view class="buddy-user">{{item.user_name}}{{item.needText ? ' · ' + item.needText : ''}}</view>
+        </view>
+        <view class="buddy-date">
+          <view class="buddy-date-num">{{item.dateShort}}</view>
+          <view class="buddy-date-label">出发</view>
         </view>
       </view>
-    </scroll-view>
+    </view>
   </view>
 
   <!-- 快捷入口 -->

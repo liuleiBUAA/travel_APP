@@ -20,9 +20,24 @@ Page({
       if (res.success && Array.isArray(res.data)) {
         const recent = res.data.map(c => {
           const cities = (c.route && Array.isArray(c.route.cities)) ? c.route.cities : []
+          // 出发日期取「月-日」短格式（travel_date 形如 2026-08-15）
+          let dateShort = ''
+          if (c.travel_date && c.travel_date.length >= 10) {
+            dateShort = c.travel_date.slice(5)  // "08-15"
+          }
+          // 还差几人：seeking.people_max - 已组队人数（真实字段，缺省不显示）
+          let needText = ''
+          const seeking = c.seeking || {}
+          const wantMax = seeking.people_max
+          const cur = (c.user_male_count || 0) + (c.user_female_count || 0)
+          if (typeof wantMax === 'number' && wantMax > cur) {
+            needText = '还差 ' + (wantMax - cur) + ' 人'
+          }
           return {
             ...c,
-            citiesText: cities.slice(0, 3).join(' → ') + (cities.length > 3 ? '…' : '')
+            citiesText: cities.slice(0, 3).join(' → ') + (cities.length > 3 ? '…' : ''),
+            dateShort,
+            needText
           }
         })
         this.setData({ recent })
