@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>找搭子 · 非对称时间轴滑块</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color:transparent; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",sans-serif;
+         background:#f2f3f5; color:#1f1f1f; padding:16px; }
+  .wrap { max-width:390px; margin:0 auto; }
+  h1 { font-size:16px; text-align:center; margin-bottom:4px; color:#333; }
+  .sub { font-size:12px; text-align:center; color:#999; margin-bottom:18px; }
+
+  .card { background:#fff; border-radius:16px; padding:18px 16px 22px; margin-bottom:16px;
+          box-shadow:0 2px 10px rgba(0,0,0,.05); }
+  .card-head { display:flex; align-items:center; justify-content:space-between; margin-bottom:6px; }
+  .card-title { font-size:15px; font-weight:600; }
+  .tag { font-size:11px; padding:2px 8px; border-radius:10px; }
+  .tag-a { background:#e8f3ff; color:#2f7dff; }
+  .tag-b { background:#fff2e8; color:#ff8c1a; }
+  .ratio { font-size:12px; color:#999; margin-bottom:16px; }
+
+  .anchor-row { font-size:13px; color:#555; margin-bottom:14px; }
+  .anchor-row b { color:#2f7dff; }
+
+  /* 时间轴 */
+  .axis-box { position:relative; padding:0 12px; }
+  .track { position:relative; height:6px; background:#e6e8eb; border-radius:3px; margin:34px 0 10px; }
+  .track .fill { position:absolute; top:0; height:100%; background:linear-gradient(90deg,#4a9cff,#2f7dff); border-radius:3px; }
+  /* 锚点标记 */
+  .anchor-mark { position:absolute; top:-8px; width:2px; height:22px; background:#ff4d4f; }
+  .anchor-mark::after { content:"想走"; position:absolute; top:-16px; left:50%; transform:translateX(-50%);
+        font-size:10px; color:#ff4d4f; white-space:nowrap; }
+  .handle { position:absolute; top:50%; width:26px; height:26px; margin-left:-13px; margin-top:-13px;
+        background:#fff; border:3px solid #2f7dff; border-radius:50%; box-shadow:0 2px 6px rgba(0,0,0,.2);
+        cursor:grab; touch-action:none; z-index:3; }
+  .handle:active { cursor:grabbing; }
+  .handle .lbl { position:absolute; top:-30px; left:50%; transform:translateX(-50%);
+        background:#2f7dff; color:#fff; font-size:11px; padding:2px 7px; border-radius:6px; white-space:nowrap; }
+  .handle .lbl::after { content:""; position:absolute; bottom:-4px; left:50%; transform:translateX(-50%);
+        border-left:4px solid transparent; border-right:4px solid transparent; border-top:4px solid #2f7dff; }
+
+  /* 刻度 */
+  .ticks { position:relative; height:26px; }
+  .tick { position:absolute; top:0; transform:translateX(-50%); font-size:10px; color:#bbb; text-align:center; }
+  .tick .dot { width:1px; height:5px; background:#d5d8db; margin:0 auto 3px; }
+
+  .result { margin-top:16px; text-align:center; font-size:14px; }
+  .result b { color:#2f7dff; font-size:16px; }
+  .result .days { color:#ff8c1a; font-weight:600; }
+
+  .note { font-size:11px; color:#aaa; text-align:center; margin-top:8px; line-height:1.5; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>发布找搭子 · 非对称时间轴</h1>
+  <p class="sub">示例锚点「想走那天」= 2026-10-01（国庆）</p>
+
+  <!-- 方案A -->
+  <div class="card">
+    <div class="card-head">
+      <span class="card-title">方案 A · 折中</span>
+      <span class="tag tag-a">左 7 / 右 28</span>
+    </div>
+    <div class="ratio">总长 35 天 · 左右比 1 : 4</div>
+    <div class="anchor-row">拖动两个手柄框出你能接受的出行区间（左=最早出发，右=最晚出发）</div>
+    <div class="axis-box" id="axisA"></div>
+    <div class="result" id="resultA"></div>
+  </div>
+
+  <!-- 方案B -->
+  <div class="card">
+    <div class="card-head">
+      <span class="card-title">方案 B · 替代</span>
+      <span class="tag tag-b">左 10 / 右 25</span>
+    </div>
+    <div class="ratio">总长 35 天 · 左右比 1 : 2.5</div>
+    <div class="anchor-row">同样拖两个手柄，感受左边给多一点提前余地的差别</div>
+    <div class="axis-box" id="axisB"></div>
+    <div class="result" id="resultB"></div>
+  </div>
+
+  <p class="note">两套总长都是 35 天，只是「想走那天」在轴上的位置不同。<br>A 更强调「往后拖是常态」，B 给早走多留 3 天余地。</p>
+</div>
+
+<script>
+const ANCHOR = new Date(2026,9,1); // 2026-10-01
+function fmt(d){ return (d.getMonth()+1)+"."+d.getDate(); }
+function addDays(base,n){ const d=new Date(base); d.setDate(d.getDate()+n); return d; }
+
+function buildAxis(boxId, resultId, leftDays, rightDays, defStartOff, defEndOff){
+  const box = document.getElementById(boxId);
+  const total = leftDays + rightDays;               // 天数跨度
+  const startDate = addDays(ANCHOR, -leftDays);
+  // 结构
+  box.innerHTML =
+    '<div class="track"><div class="fill"></div>'+
+      '<div class="anchor-mark"></div>'+
+      '<div class="handle" data-h="l"><div class="lbl"></div></div>'+
+      '<div class="handle" data-h="r"><div class="lbl"></div></div>'+
+    '</div><div class="ticks"></div>';
+  const track = box.querySelector('.track');
+  const fill = box.querySelector('.fill');
+  const anchorMark = box.querySelector('.anchor-mark');
+  const hl = box.querySelector('[data-h="l"]');
+  const hr = box.querySelector('[data-h="r"]');
+  const ticks = box.querySelector('.ticks');
+
+  // 刻度：每 7 天一个
+  for(let i=0;i<=total;i+=7){
+    const t=document.createElement('div'); t.className='tick';
+    t.style.left=(i/total*100)+'%';
+    t.innerHTML='<div class="dot"></div>'+fmt(addDays(startDate,i));
+    ticks.appendChild(t);
+  }
+
+  // 状态：以「天偏移」表示（0..total）
+  let sOff = defStartOff, eOff = defEndOff;
+
+  function pct(off){ return off/total*100; }
+  function render(){
+    hl.style.left = pct(sOff)+'%';
+    hr.style.left = pct(eOff)+'%';
+    fill.style.left = pct(sOff)+'%';
+    fill.style.width = (pct(eOff)-pct(sOff))+'%';
+    anchorMark.style.left = pct(leftDays)+'%';
+    const sd = addDays(startDate,sOff), ed = addDays(startDate,eOff);
+    hl.querySelector('.lbl').textContent = fmt(sd);
+    hr.querySelector('.lbl').textContent = fmt(ed);
+    const span = eOff-sOff+1;
+    document.getElementById(resultId).innerHTML =
+      '出行区间 <b>'+fmt(sd)+' – '+fmt(ed)+'</b> · <span class="days">窗宽约 '+span+' 天</span>';
+  }
+  render();
+
+  function startDrag(handle, which){
+    function move(clientX){
+      const rect = track.getBoundingClientRect();
+      let ratio=(clientX-rect.left)/rect.width;
+      ratio=Math.max(0,Math.min(1,ratio));
+      let off=Math.round(ratio*total);
+      if(which==='l'){ off=Math.min(off,eOff-1); sOff=off; }
+      else { off=Math.max(off,sOff+1); eOff=off; }
+      render();
+    }
+    handle.addEventListener('mousedown',e=>{
+      e.preventDefault();
+      const mv=ev=>move(ev.clientX);
+      const up=()=>{document.removeEventListener('mousemove',mv);document.removeEventListener('mouseup',up);};
+      document.addEventListener('mousemove',mv);document.addEventListener('mouseup',up);
+    });
+    handle.addEventListener('touchstart',e=>{
+      const mv=ev=>move(ev.touches[0].clientX);
+      const up=()=>{document.removeEventListener('touchmove',mv);document.removeEventListener('touchend',up);};
+      document.addEventListener('touchmove',mv,{passive:false});document.addEventListener('touchend',up);
+    });
+  }
+  startDrag(hl,'l'); startDrag(hr,'r');
+}
+
+// 默认：左柄落锚点当天，右柄落锚点+7天（约一周行程）
+buildAxis('axisA','resultA', 7, 28, 7, 14);   // 锚点在偏移7处
+buildAxis('axisB','resultB', 10, 25, 10, 17); // 锚点在偏移10处
+</script>
+</body>
+</html>
