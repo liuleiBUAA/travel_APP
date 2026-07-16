@@ -608,9 +608,9 @@ Component({
 
         } else {
           // 智能选城模式
-          if (d.selectedCities.length < 2) {
+          if (d.selectedCities.length < 1) {
             wx.hideLoading()
-            wx.showToast({ title: '请至少选择2个城市', icon: 'none' })
+            wx.showToast({ title: '请至少选择一个城市', icon: 'none' })
             return
           }
 

@@ -261,8 +261,8 @@ class RouteService:
         - start_node: 指定起始城市（可选）
         - end_node: 指定结束城市（可选）
         """
-        if not cities or len(cities) < 2:
-            raise ValueError("至少需要2个城市才能生成路线")
+        if not cities or len(cities) < 1:
+            raise ValueError("至少需要1个城市才能生成路线")
 
         try:
             # 确定区域：优先使用传入的region，否则根据城市名推断
