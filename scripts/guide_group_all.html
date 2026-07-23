@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<style>
+  :root{
+    --c-primary:#ff6b5c;
+    --grad-primary:linear-gradient(135deg,#ff7b5c 0%,#ff5c8a 100%);
+    --c-text:#2a2320; --c-text-muted:#a39690;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;font-family:-apple-system,"PingFang SC",sans-serif;}
+  body{background:#dfe4ea;padding:24px;display:flex;gap:26px;justify-content:center;align-items:flex-start;}
+  .phone{width:360px;background:#f6f7f9;border-radius:26px;overflow:hidden;box-shadow:0 10px 34px rgba(0,0,0,.16);}
+  .navbar{background:var(--grad-primary);color:#fff;text-align:center;padding:44px 0 13px;font-size:16px;font-weight:600;position:relative;}
+  .navbar .back{position:absolute;left:15px;bottom:13px;}
+  .banner{text-align:center;font-size:12px;font-weight:600;padding:8px 6px;line-height:1.4;background:#e6f9f0;color:#0a8a5a;}
+  .body{padding:14px;}
+  .form-label{font-size:13.5px;font-weight:600;color:var(--c-text);margin:14px 0 8px;}
+  .city-grid{display:flex;flex-wrap:wrap;gap:8px;}
+  .city{width:calc(33% - 6px);background:#fff;border:1px solid #eceef1;border-radius:10px;
+        padding:10px 8px;min-height:82px;display:flex;flex-direction:column;align-items:flex-start;
+        box-shadow:0 1px 5px rgba(0,0,0,.04);}
+  .city-name{font-size:12px;font-weight:600;color:var(--c-text);line-height:1.3;}
+  .city-days{display:inline-block;font-size:9.5px;color:var(--c-primary);background:rgba(255,107,92,.1);
+             border-radius:999px;padding:2px 7px;margin-top:5px;align-self:flex-start;}
+  .city-season{font-size:9px;color:var(--c-text-muted);margin-top:4px;}
+  .subhead{display:flex;align-items:center;gap:6px;font-size:12.5px;font-weight:600;color:#555;
+           margin:16px 0 8px;padding-bottom:5px;border-bottom:1px solid #eaecef;}
+  .subhead .ico{font-size:14px;}
+  .subhead .cnt{font-size:10px;color:#aaa;font-weight:400;margin-left:auto;}
+</style>
+</head>
+<body>
+
+<!-- ========= 美国东部中部 ========= -->
+<div class="phone">
+  <div class="navbar"><span class="back">‹</span>生成攻略 · 美国东部中部</div>
+  <div class="banner">22 个目的地 · 分 5 个小分区</div>
+  <div class="body">
+    <div class="form-label">城市（点击添加）</div>
+
+    <div class="subhead"><span class="ico">🏙️</span>东北都会<span class="cnt">5</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">纽约</div><div class="city-days">建议3天</div></div>
+      <div class="city"><div class="city-name">波士顿</div><div class="city-days">建议2天</div><div class="city-season">5-10月</div></div>
+      <div class="city"><div class="city-name">华盛顿</div><div class="city-days">建议2天</div></div>
+      <div class="city"><div class="city-name">费城</div><div class="city-days">建议1天</div></div>
+      <div class="city"><div class="city-name">尼亚加拉瀑布</div><div class="city-days">建议2天</div><div class="city-season">6-8月</div></div>
+    </div>
+
+    <div class="subhead"><span class="ico">⛰️</span>阿巴拉契亚山区<span class="cnt">4</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">阿卡迪亚国家公园</div><div class="city-days">建议3天</div><div class="city-season">5-10月</div></div>
+      <div class="city"><div class="city-name">大雾山国家公园</div><div class="city-days">建议2天</div><div class="city-season">4-10月</div></div>
+      <div class="city"><div class="city-name">仙纳度国家公园</div><div class="city-days">建议2天</div><div class="city-season">4-10月</div></div>
+      <div class="city"><div class="city-name">蓝岭公路与双园大环线</div><div class="city-days">建议5天</div><div class="city-season">9-11月</div></div>
+    </div>
+
+    <div class="subhead"><span class="ico">🌴</span>佛州 & 南方<span class="cnt">7</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">奥兰多</div><div class="city-days">建议7天</div><div class="city-season">12-4月</div></div>
+      <div class="city"><div class="city-name">迈阿密</div><div class="city-days">建议3天</div><div class="city-season">12-4月</div></div>
+      <div class="city"><div class="city-name">坦帕</div><div class="city-days">建议3天</div><div class="city-season">11-4月</div></div>
+      <div class="city"><div class="city-name">亚特兰大</div><div class="city-days">建议2天</div></div>
+      <div class="city"><div class="city-name">大沼泽地国家公园</div><div class="city-days">建议2天</div><div class="city-season">11-4月</div></div>
+      <div class="city"><div class="city-name">新奥尔良</div><div class="city-days">建议2天</div><div class="city-season">2-5月</div></div>
+      <div class="city"><div class="city-name">休斯顿</div><div class="city-days">建议2天</div></div>
+    </div>
+
+    <div class="subhead"><span class="ico">🌾</span>中西部 & 落基山<span class="cnt">4</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">芝加哥</div><div class="city-days">建议2天</div><div class="city-season">5-9月</div></div>
+      <div class="city"><div class="city-name">密歇根湖沙丘大环线</div><div class="city-days">建议5天</div><div class="city-season">6-9月</div></div>
+      <div class="city"><div class="city-name">丹佛</div><div class="city-days">建议2天</div></div>
+      <div class="city"><div class="city-name">洛基山国家公园</div><div class="city-days">建议2天</div><div class="city-season">5-10月</div></div>
+    </div>
+
+    <div class="subhead"><span class="ico">🔄</span>跨城大环线<span class="cnt">2</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">美东城市环线</div><div class="city-days">建议4天</div></div>
+      <div class="city"><div class="city-name">波士顿+阿卡迪亚环线</div><div class="city-days">建议4天</div><div class="city-season">5-10月</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ========= 美国西部 ========= -->
+<div class="phone">
+  <div class="navbar"><span class="back">‹</span>生成攻略 · 美国西部</div>
+  <div class="banner">16 个目的地 · 分 5 个小分区</div>
+  <div class="body">
+    <div class="form-label">城市（点击添加）</div>
+
+    <div class="subhead"><span class="ico">🌉</span>加州海岸都会<span class="cnt">5</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">旧金山</div><div class="city-days">建议1天</div></div>
+      <div class="city"><div class="city-name">洛杉矶</div><div class="city-days">建议3天</div></div>
+      <div class="city"><div class="city-name">圣地亚哥</div><div class="city-days">建议2天</div></div>
+      <div class="city"><div class="city-name">1号公路</div><div class="city-days">建议4天</div><div class="city-season">5-10月</div></div>
+      <div class="city"><div class="city-name">红杉国家公园</div><div class="city-days">建议2天</div><div class="city-season">4-10月</div></div>
+    </div>
+
+    <div class="subhead"><span class="ico">🎰</span>内华达 & 峡谷沙漠<span class="cnt">3</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">拉斯维加斯</div><div class="city-days">建议2天</div></div>
+      <div class="city"><div class="city-name">死亡谷国家公园</div><div class="city-days">建议2天</div><div class="city-season">11-3月</div></div>
+      <div class="city"><div class="city-name">羚羊谷+大峡谷环线</div><div class="city-days">建议2天</div><div class="city-season">4-10月</div></div>
+    </div>
+
+    <div class="subhead"><span class="ico">🌲</span>山地国家公园<span class="cnt">3</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">优胜美地国家公园</div><div class="city-days">建议4天</div><div class="city-season">4-10月</div></div>
+      <div class="city"><div class="city-name">冰川国家公园</div><div class="city-days">建议5天</div><div class="city-season">7-9月</div></div>
+      <div class="city"><div class="city-name">黄石大提顿环线</div><div class="city-days">建议4天</div><div class="city-season">6-9月</div></div>
+    </div>
+
+    <div class="subhead"><span class="ico">🌧️</span>西北太平洋<span class="cnt">4</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">西雅图</div><div class="city-days">建议1天</div></div>
+      <div class="city"><div class="city-name">波特兰</div><div class="city-days">建议3天</div></div>
+      <div class="city"><div class="city-name">火山口湖国家公园</div><div class="city-days">建议1天</div><div class="city-season">7-10月</div></div>
+      <div class="city"><div class="city-name">海山冰川大环线</div><div class="city-days">建议7天</div><div class="city-season">7-9月</div></div>
+    </div>
+
+    <div class="subhead"><span class="ico">🔄</span>跨州大环线<span class="cnt">1</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">精华版美西环线</div><div class="city-days">建议4天</div><div class="city-season">4-6月/9-10月</div></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

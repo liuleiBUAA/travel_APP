@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<style>
+  :root{
+    --c-primary:#ff6b5c;
+    --grad-primary:linear-gradient(135deg,#ff7b5c 0%,#ff5c8a 100%);
+    --c-text:#2a2320; --c-text-muted:#a39690;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;font-family:-apple-system,"PingFang SC",sans-serif;}
+  body{background:#dfe4ea;padding:24px;display:flex;flex-wrap:wrap;gap:26px;justify-content:center;align-items:flex-start;}
+  .phone{width:360px;background:#f6f7f9;border-radius:26px;overflow:hidden;box-shadow:0 10px 34px rgba(0,0,0,.16);}
+  .navbar{background:var(--grad-primary);color:#fff;text-align:center;padding:44px 0 13px;font-size:16px;font-weight:600;position:relative;}
+  .navbar .back{position:absolute;left:15px;bottom:13px;}
+  .banner{text-align:center;font-size:12px;font-weight:600;padding:8px 6px;line-height:1.4;background:#e6f9f0;color:#0a8a5a;}
+  .body{padding:14px;}
+  .form-label{font-size:13.5px;font-weight:600;color:var(--c-text);margin:14px 0 8px;}
+  .city-grid{display:flex;flex-wrap:wrap;gap:8px;}
+  .city{width:calc(33% - 6px);background:#fff;border:1px solid #eceef1;border-radius:10px;
+        padding:10px 8px;min-height:78px;display:flex;flex-direction:column;align-items:flex-start;
+        box-shadow:0 1px 5px rgba(0,0,0,.04);}
+  .city-name{font-size:12px;font-weight:600;color:var(--c-text);line-height:1.3;}
+  .city-days{display:inline-block;font-size:9.5px;color:var(--c-primary);background:rgba(255,107,92,.1);
+             border-radius:999px;padding:2px 7px;margin-top:5px;align-self:flex-start;}
+  .city-season{font-size:9px;color:var(--c-text-muted);margin-top:4px;}
+  .subhead{display:flex;align-items:center;gap:6px;font-size:12.5px;font-weight:600;color:#555;
+           margin:16px 0 8px;padding-bottom:5px;border-bottom:1px solid #eaecef;}
+  .subhead .ico{font-size:14px;}
+  .subhead .cnt{font-size:10px;color:#aaa;font-weight:400;margin-left:auto;}
+</style>
+</head>
+<body>
+
+<!-- ========= 英国 ========= -->
+<div class="phone">
+  <div class="navbar"><span class="back">‹</span>生成攻略 · 英国</div>
+  <div class="banner">13 个目的地 · 分 3 个小分区</div>
+  <div class="body">
+    <div class="form-label">城市（点击添加）</div>
+
+    <div class="subhead"><span class="ico">🏙️</span>英格兰核心圈<span class="cnt">5</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">伦敦</div><div class="city-days">建议4天</div></div>
+      <div class="city"><div class="city-name">牛津</div><div class="city-days">建议1天</div></div>
+      <div class="city"><div class="city-name">剑桥</div><div class="city-days">建议1天</div></div>
+      <div class="city"><div class="city-name">巴斯</div><div class="city-days">建议1天</div></div>
+      <div class="city"><div class="city-name">布里斯托</div><div class="city-days">建议1天</div></div>
+    </div>
+
+    <div class="subhead"><span class="ico">🏴</span>苏格兰<span class="cnt">3</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">爱丁堡</div><div class="city-days">建议2天</div></div>
+      <div class="city"><div class="city-name">苏格兰高地</div><div class="city-days">建议3天</div><div class="city-season">5-9月</div></div>
+      <div class="city"><div class="city-name">格拉斯哥</div><div class="city-days">建议1天</div></div>
+    </div>
+
+    <div class="subhead"><span class="ico">🏭</span>英格兰北部&中部<span class="cnt">5</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">曼彻斯特</div><div class="city-days">建议1天</div></div>
+      <div class="city"><div class="city-name">利物浦</div><div class="city-days">建议1天</div></div>
+      <div class="city"><div class="city-name">约克</div><div class="city-days">建议1天</div></div>
+      <div class="city"><div class="city-name">伯明翰</div><div class="city-days">建议1天</div></div>
+      <div class="city"><div class="city-name">英国湖区</div><div class="city-days">建议2天</div><div class="city-season">5-9月</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ========= 澳大利亚 ========= -->
+<div class="phone">
+  <div class="navbar"><span class="back">‹</span>生成攻略 · 澳大利亚</div>
+  <div class="banner">13 个目的地 · 分 4 个小分区</div>
+  <div class="body">
+    <div class="form-label">城市（点击添加）</div>
+
+    <div class="subhead"><span class="ico">🏙️</span>东岸都会<span class="cnt">4</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">悉尼</div><div class="city-days">建议3天</div></div>
+      <div class="city"><div class="city-name">墨尔本</div><div class="city-days">建议3天</div></div>
+      <div class="city"><div class="city-name">布里斯班</div><div class="city-days">建议2天</div></div>
+      <div class="city"><div class="city-name">堪培拉</div><div class="city-days">建议1天</div></div>
+    </div>
+
+    <div class="subhead"><span class="ico">🏖️</span>昆士兰海岸&大堡礁<span class="cnt">4</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">黄金海岸</div><div class="city-days">建议4天</div><div class="city-season">4-11月</div></div>
+      <div class="city"><div class="city-name">凯恩斯</div><div class="city-days">建议2天</div><div class="city-season">5-10月</div></div>
+      <div class="city"><div class="city-name">艾尔利海滩</div><div class="city-days">建议4天</div></div>
+      <div class="city"><div class="city-name">汉密尔顿岛</div><div class="city-days">建议4天</div></div>
+    </div>
+
+    <div class="subhead"><span class="ico">🚗</span>自然与内陆<span class="cnt">3</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">大洋路</div><div class="city-days">建议3天</div></div>
+      <div class="city"><div class="city-name">塔斯马尼亚</div><div class="city-days">建议7天</div><div class="city-season">12-2月</div></div>
+      <div class="city"><div class="city-name">乌鲁鲁</div><div class="city-days">建议4天</div><div class="city-season">4-10月</div></div>
+    </div>
+
+    <div class="subhead"><span class="ico">🌅</span>西部&南部<span class="cnt">2</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">珀斯</div><div class="city-days">建议2天</div><div class="city-season">5-10月</div></div>
+      <div class="city"><div class="city-name">阿德莱德</div><div class="city-days">建议2天</div><div class="city-season">9-11月</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ========= 德国 ========= -->
+<div class="phone">
+  <div class="navbar"><span class="back">‹</span>生成攻略 · 德国</div>
+  <div class="banner">12 个目的地 · 分 3 个小分区</div>
+  <div class="body">
+    <div class="form-label">城市（点击添加）</div>
+
+    <div class="subhead"><span class="ico">🏙️</span>大都会<span class="cnt">6</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">慕尼黑</div><div class="city-days">建议2天</div></div>
+      <div class="city"><div class="city-name">柏林</div><div class="city-days">建议2天</div></div>
+      <div class="city"><div class="city-name">法兰克福</div><div class="city-days">建议1天</div></div>
+      <div class="city"><div class="city-name">汉堡</div><div class="city-days">建议2天</div></div>
+      <div class="city"><div class="city-name">科隆</div><div class="city-days">建议2天</div></div>
+      <div class="city"><div class="city-name">杜塞尔多夫</div><div class="city-days">建议1天</div></div>
+    </div>
+
+    <div class="subhead"><span class="ico">🏰</span>古镇&名城<span class="cnt">4</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">海德堡</div><div class="city-days">建议1天</div></div>
+      <div class="city"><div class="city-name">罗腾堡</div><div class="city-days">建议1天</div></div>
+      <div class="city"><div class="city-name">斯图加特</div><div class="city-days">建议1天</div></div>
+      <div class="city"><div class="city-name">德累斯顿</div><div class="city-days">建议2天</div></div>
+    </div>
+
+    <div class="subhead"><span class="ico">⛰️</span>自然山湖<span class="cnt">2</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">国王湖</div><div class="city-days">建议2天</div><div class="city-season">5-10月</div></div>
+      <div class="city"><div class="city-name">黑森林</div><div class="city-days">建议2天</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ========= 法国 ========= -->
+<div class="phone">
+  <div class="navbar"><span class="back">‹</span>生成攻略 · 法国</div>
+  <div class="banner">12 个目的地 · 分 4 个小分区</div>
+  <div class="body">
+    <div class="form-label">城市（点击添加）</div>
+
+    <div class="subhead"><span class="ico">🗼</span>巴黎及周边<span class="cnt">2</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">巴黎</div><div class="city-days">建议5天</div></div>
+      <div class="city"><div class="city-name">枫丹白露宫</div><div class="city-days">建议1天</div></div>
+    </div>
+
+    <div class="subhead"><span class="ico">🌊</span>南法地中海<span class="cnt">3</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">蔚蓝海岸（尼斯/摩纳哥/戛纳）</div><div class="city-days">建议3天</div><div class="city-season">5-10月</div></div>
+      <div class="city"><div class="city-name">普罗旺斯（阿维尼翁/马赛）</div><div class="city-days">建议4天</div><div class="city-season">6-8月</div></div>
+      <div class="city"><div class="city-name">里昂</div><div class="city-days">建议2天</div></div>
+    </div>
+
+    <div class="subhead"><span class="ico">🏰</span>西部城堡&海岸<span class="cnt">4</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">卢瓦尔河谷</div><div class="city-days">建议3天</div><div class="city-season">4-6月/9-10月</div></div>
+      <div class="city"><div class="city-name">圣米歇尔山/圣马洛</div><div class="city-days">建议3天</div></div>
+      <div class="city"><div class="city-name">波尔多</div><div class="city-days">建议2天</div></div>
+      <div class="city"><div class="city-name">象鼻山</div><div class="city-days">建议1天</div><div class="city-season">5-9月</div></div>
+    </div>
+
+    <div class="subhead"><span class="ico">⛰️</span>阿尔卑斯&阿尔萨斯<span class="cnt">3</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">安纳西</div><div class="city-days">建议1天</div><div class="city-season">5-10月</div></div>
+      <div class="city"><div class="city-name">霞慕尼</div><div class="city-days">建议1天</div><div class="city-season">12-3月</div></div>
+      <div class="city"><div class="city-name">科尔马/斯特拉斯堡</div><div class="city-days">建议2天</div></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

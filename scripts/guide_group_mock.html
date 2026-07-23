@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<style>
+  :root{
+    --c-primary:#ff6b5c;
+    --grad-primary:linear-gradient(135deg,#ff7b5c 0%,#ff5c8a 100%);
+    --c-text:#2a2320; --c-text-muted:#a39690;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;font-family:-apple-system,"PingFang SC",sans-serif;}
+  body{background:#dfe4ea;padding:24px;display:flex;gap:26px;justify-content:center;align-items:flex-start;}
+  .phone{width:360px;background:#f6f7f9;border-radius:26px;overflow:hidden;box-shadow:0 10px 34px rgba(0,0,0,.16);}
+  .navbar{background:var(--grad-primary);color:#fff;text-align:center;padding:44px 0 13px;font-size:16px;font-weight:600;position:relative;}
+  .navbar .back{position:absolute;left:15px;bottom:13px;}
+  .banner{text-align:center;font-size:12px;font-weight:600;padding:8px 6px;line-height:1.4;}
+  .before .banner{background:#fde8e8;color:#c0392b;}
+  .after .banner{background:#e6f9f0;color:#0a8a5a;}
+  .body{padding:14px;}
+  .form-label{font-size:13.5px;font-weight:600;color:var(--c-text);margin:14px 0 8px;}
+  .city-grid{display:flex;flex-wrap:wrap;gap:8px;}
+  .city{width:calc(33% - 6px);background:#fff;border:1px solid #eceef1;border-radius:10px;
+        padding:10px 8px;min-height:82px;display:flex;flex-direction:column;align-items:flex-start;
+        box-shadow:0 1px 5px rgba(0,0,0,.04);}
+  .city-name{font-size:12px;font-weight:600;color:var(--c-text);line-height:1.3;}
+  .city-days{display:inline-block;font-size:9.5px;color:var(--c-primary);background:rgba(255,107,92,.1);
+             border-radius:999px;padding:2px 7px;margin-top:5px;align-self:flex-start;}
+  .city-season{font-size:9px;color:var(--c-text-muted);margin-top:4px;}
+  /* 小分区标题 */
+  .subhead{display:flex;align-items:center;gap:6px;font-size:12.5px;font-weight:600;color:#555;
+           margin:14px 0 8px;padding-bottom:5px;border-bottom:1px solid #eaecef;}
+  .subhead .ico{font-size:14px;}
+  .subhead .cnt{font-size:10px;color:#aaa;font-weight:400;margin-left:auto;}
+</style>
+</head>
+<body>
+
+<!-- ========= 现状:平铺 ========= -->
+<div class="phone before">
+  <div class="navbar"><span class="back">‹</span>生成攻略</div>
+  <div class="banner">现状 · 东部16个城市平铺<br>一大片卡片糊在一起，找起来费劲</div>
+  <div class="body">
+    <div class="form-label">城市（点击添加）</div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">纽约</div><div class="city-days">建议3天</div></div>
+      <div class="city"><div class="city-name">波士顿</div><div class="city-days">建议2天</div><div class="city-season">5-10月最佳</div></div>
+      <div class="city"><div class="city-name">华盛顿</div><div class="city-days">建议2天</div></div>
+      <div class="city"><div class="city-name">费城</div><div class="city-days">建议1天</div></div>
+      <div class="city"><div class="city-name">尼亚加拉瀑布</div><div class="city-days">建议2天</div><div class="city-season">6-8月最佳</div></div>
+      <div class="city"><div class="city-name">阿卡迪亚国家公园</div><div class="city-days">建议3天</div><div class="city-season">5-10月最佳</div></div>
+      <div class="city"><div class="city-name">大雾山国家公园</div><div class="city-days">建议2天</div><div class="city-season">4-10月最佳</div></div>
+      <div class="city"><div class="city-name">仙纳度国家公园</div><div class="city-days">建议2天</div><div class="city-season">4-10月最佳</div></div>
+      <div class="city"><div class="city-name">奥兰多</div><div class="city-days">建议7天</div><div class="city-season">12-4月最佳</div></div>
+      <div class="city"><div class="city-name">迈阿密</div><div class="city-days">建议3天</div><div class="city-season">12-4月最佳</div></div>
+      <div class="city"><div class="city-name">坦帕</div><div class="city-days">建议3天</div><div class="city-season">11-4月最佳</div></div>
+      <div class="city"><div class="city-name">亚特兰大</div><div class="city-days">建议2天</div></div>
+      <div class="city"><div class="city-name">大沼泽地国家公园</div><div class="city-days">建议2天</div><div class="city-season">11-4月最佳</div></div>
+      <div class="city"><div class="city-name">波士顿+阿卡迪亚环线</div><div class="city-days">建议4天</div></div>
+      <div class="city"><div class="city-name">美东城市环线</div><div class="city-days">建议7天</div></div>
+      <div class="city"><div class="city-name">蓝岭公路大环线</div><div class="city-days">建议5天</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- ========= 改后:分组 ========= -->
+<div class="phone after">
+  <div class="navbar"><span class="back">‹</span>生成攻略</div>
+  <div class="banner">改后 · 东部分3个小分区<br>加小标题切段，一眼看清、好找</div>
+  <div class="body">
+    <div class="form-label">城市（点击添加）</div>
+
+    <div class="subhead"><span class="ico">🏙️</span>东北都会<span class="cnt">5</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">纽约</div><div class="city-days">建议3天</div></div>
+      <div class="city"><div class="city-name">波士顿</div><div class="city-days">建议2天</div><div class="city-season">5-10月最佳</div></div>
+      <div class="city"><div class="city-name">华盛顿</div><div class="city-days">建议2天</div></div>
+      <div class="city"><div class="city-name">费城</div><div class="city-days">建议1天</div></div>
+      <div class="city"><div class="city-name">尼亚加拉瀑布</div><div class="city-days">建议2天</div><div class="city-season">6-8月最佳</div></div>
+    </div>
+
+    <div class="subhead"><span class="ico">⛰️</span>阿巴拉契亚山区<span class="cnt">4</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">阿卡迪亚国家公园</div><div class="city-days">建议3天</div><div class="city-season">5-10月最佳</div></div>
+      <div class="city"><div class="city-name">大雾山国家公园</div><div class="city-days">建议2天</div><div class="city-season">4-10月最佳</div></div>
+      <div class="city"><div class="city-name">仙纳度国家公园</div><div class="city-days">建议2天</div><div class="city-season">4-10月最佳</div></div>
+      <div class="city"><div class="city-name">蓝岭公路大环线</div><div class="city-days">建议5天</div></div>
+    </div>
+
+    <div class="subhead"><span class="ico">🌴</span>佛州 & 南方<span class="cnt">5</span></div>
+    <div class="city-grid">
+      <div class="city"><div class="city-name">奥兰多</div><div class="city-days">建议7天</div><div class="city-season">12-4月最佳</div></div>
+      <div class="city"><div class="city-name">迈阿密</div><div class="city-days">建议3天</div><div class="city-season">12-4月最佳</div></div>
+      <div class="city"><div class="city-name">坦帕</div><div class="city-days">建议3天</div><div class="city-season">11-4月最佳</div></div>
+      <div class="city"><div class="city-name">亚特兰大</div><div class="city-days">建议2天</div></div>
+      <div class="city"><div class="city-name">大沼泽地国家公园</div><div class="city-days">建议2天</div><div class="city-season">11-4月最佳</div></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
