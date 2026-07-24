@@ -69,6 +69,28 @@
   gap: 12rpx;
 }
 
+/* 城市分组小标题 */
+.city-subhead {
+  display: flex;
+  align-items: center;
+  font-size: 25rpx;
+  font-weight: 600;
+  color: #555;
+  margin: 28rpx 0 14rpx;
+  padding-bottom: 10rpx;
+  border-bottom: 1rpx solid var(--c-border);
+}
+.city-subhead-ico {
+  font-size: 28rpx;
+  margin-right: 10rpx;
+}
+.city-subhead-cnt {
+  margin-left: auto;
+  font-size: 20rpx;
+  font-weight: 400;
+  color: #aaa;
+}
+
 .city-item {
   width: calc(33% - 8rpx);
   padding: 16rpx 10rpx;

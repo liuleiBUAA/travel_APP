@@ -1,6 +1,45 @@
 const api = require('../../utils/api')
 const app = getApp()
 
+// 城市分组配置（纯展示层）：仅目的地数量多的国家分组，其余国家平铺。
+// key = 国家名（与后端 destinations 目录一致）；顺序即渲染顺序。
+const CITY_GROUPS = {
+  '美国东部中部': [
+    { icon: '🏙️', title: '东北都会', cities: ['纽约', '波士顿', '华盛顿', '费城', '尼亚加拉瀑布'] },
+    { icon: '⛰️', title: '阿巴拉契亚山区', cities: ['阿卡迪亚国家公园', '大雾山国家公园', '仙纳度国家公园', '美东“蓝岭公路与双园”大环线'] },
+    { icon: '🌴', title: '佛州 & 南方', cities: ['奥兰多', '迈阿密', '坦帕', '亚特兰大', '大沼泽地国家公园', '新奥尔良', '休斯顿'] },
+    { icon: '🌾', title: '中西部 & 落基山', cities: ['芝加哥', '密歇根湖“巨型沙丘与五彩悬崖”大环线', '丹佛', '洛基山国家公园'] },
+    { icon: '🔄', title: '跨城大环线', cities: ['🔄 波士顿+阿卡迪亚环线'] },
+  ],
+  '美国西部': [
+    { icon: '🌉', title: '加州海岸都会', cities: ['旧金山', '洛杉矶', '圣地亚哥', '1号公路', '红杉国家公园'] },
+    { icon: '🎰', title: '内华达 & 峡谷沙漠', cities: ['拉斯维加斯', '死亡谷国家公园', '🔄 羚羊谷+大峡谷2日环线'] },
+    { icon: '🌲', title: '山地国家公园', cities: ['优胜美地国家公园', '冰川国家公园', '🔄 黄石大提顿环线'] },
+    { icon: '🌧️', title: '西北太平洋', cities: ['西雅图', '波特兰', '火山口湖国家公园', '华盛顿州“海山冰川”大环线'] },
+    { icon: '🔄', title: '跨州大环线', cities: ['🔄 精华版美西环线'] },
+  ],
+}
+
+// 把扁平城市列表按 CITY_GROUPS 切成分组；未命中的城市兜底进「更多」组，保证一城不落。
+function buildCityGroups(country, cities) {
+  const defs = CITY_GROUPS[country]
+  if (!defs) return []
+  const byName = {}
+  cities.forEach(c => { byName[c.name] = c })
+  const used = {}
+  const groups = []
+  defs.forEach(def => {
+    const list = []
+    def.cities.forEach(name => {
+      if (byName[name]) { list.push(byName[name]); used[name] = true }
+    })
+    if (list.length) groups.push({ icon: def.icon, title: def.title, cities: list })
+  })
+  const leftover = cities.filter(c => !used[c.name])
+  if (leftover.length) groups.push({ icon: '📍', title: '更多', cities: leftover })
+  return groups
+}
+
 Page({
   data: {
     guideMode: 'recommend',   // 'recommend' 帮我推荐 | 'pick' 知道去哪
@@ -15,6 +54,7 @@ Page({
     pickCountries: [],
     pickCurrentCountry: '',
     pickCities: [],
+    pickGroups: [],   // 城市分组（有则按分区渲染，无则扁平）
     showRouteOptions: false,  // 路线高级选项折叠
     // 推荐
     monthOptions: [
@@ -347,7 +387,7 @@ Page({
   selectPickRegion(e) {
     const region = e.currentTarget.dataset.region
     const opt = this.data.regionOptions.find(r => r.value === region)
-    this.setData({ recommendRegion: region, pickCurrentCountry: '', pickCities: [], pickCountries: [] })
+    this.setData({ recommendRegion: region, pickCurrentCountry: '', pickCities: [], pickGroups: [], pickCountries: [] })
     this.loadPickCountries(opt.cn)
   },
 
@@ -369,10 +409,11 @@ Page({
   async loadPickCities(country) {
     const regionCN = this.data.regionOptions.find(r => r.value === this.data.recommendRegion).cn
     try {
-      const res = await api.getCities(regionCN, country, 16)
-      this.setData({ pickCities: (res && res.success && Array.isArray(res.cities)) ? res.cities : [] })
+      const res = await api.getCities(regionCN, country, 40)
+      const cities = (res && res.success && Array.isArray(res.cities)) ? res.cities : []
+      this.setData({ pickCities: cities, pickGroups: buildCityGroups(country, cities) })
     } catch (e) {
-      this.setData({ pickCities: [] })
+      this.setData({ pickCities: [], pickGroups: [] })
     }
   },
 

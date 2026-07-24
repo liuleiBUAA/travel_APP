@@ -164,7 +164,34 @@
 
       <view class="form-group">
         <view class="form-label">城市（点击添加）</view>
-        <view class="city-grid">
+
+        <!-- 有分组：按小分区渲染（美国等目的地多的国家） -->
+        <block wx:if="{{pickGroups.length > 0}}">
+          <view wx:for="{{pickGroups}}" wx:for-item="grp" wx:key="title">
+            <view class="city-subhead">
+              <text class="city-subhead-ico">{{grp.icon}}</text>
+              <text>{{grp.title}}</text>
+              <text class="city-subhead-cnt">{{grp.cities.length}}</text>
+            </view>
+            <view class="city-grid">
+              <view
+                wx:for="{{grp.cities}}"
+                wx:for-item="item"
+                wx:key="name"
+                class="city-item {{selectedCities.indexOf(item.name) > -1 ? 'selected' : ''}}"
+                bindtap="togglePickCity"
+                data-name="{{item.name}}"
+              >
+                <view class="city-name">{{item.name}}</view>
+                <view class="city-days">建议{{item.recommended_days}}天</view>
+                <view wx:if="{{item.best_season}}" class="city-season">{{item.best_season}}最佳</view>
+              </view>
+            </view>
+          </view>
+        </block>
+
+        <!-- 无分组：扁平网格（其余国家维持原样） -->
+        <view wx:else class="city-grid">
           <view
             wx:for="{{pickCities}}"
             wx:key="name"
