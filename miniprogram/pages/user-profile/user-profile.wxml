@@ -24,10 +24,11 @@
         <text wx:if="{{profile.budget_level}}" class="user-tag">💰 {{profile.budget_level}}</text>
         <text wx:if="{{profile.good_at_photo}}" class="user-tag">📷 拍照{{profile.good_at_photo}}</text>
         <text wx:if="{{profile.accommodation_pref}}" class="user-tag">🏨 {{profile.accommodation_pref}}</text>
+        <text wx:if="{{profile.travel_pace}}" class="user-tag">⏱ {{profile.travel_pace}}</text>
         <text wx:if="{{profile.driving}}" class="user-tag">🚗 {{profile.driving}}</text>
         <text wx:for="{{profile.tags}}" wx:key="*this" class="user-tag">{{item}}</text>
       </view>
-      <view wx:if="{{!profile.bio && !profile.budget_level && !profile.good_at_photo && !profile.accommodation_pref && !profile.driving && profile.tags.length === 0}}" class="hint-text">
+      <view wx:if="{{!profile.bio && !profile.budget_level && !profile.good_at_photo && !profile.accommodation_pref && !profile.travel_pace && !profile.driving && profile.tags.length === 0}}" class="hint-text">
         TA 还没有填写旅行名片
       </view>
     </view>

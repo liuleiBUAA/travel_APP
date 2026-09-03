@@ -30,6 +30,12 @@
         </picker>
       </view>
       <view class="card-form-item">
+        <text class="card-form-label">旅游节奏</text>
+        <picker range="{{paceOptions}}" value="{{paceIndex}}" bindchange="onPaceChange">
+          <view class="card-picker">{{paceIndex >= 0 ? paceOptions[paceIndex] : '请选择'}}</view>
+        </picker>
+      </view>
+      <view class="card-form-item">
         <text class="card-form-label">驾驶</text>
         <picker range="{{drivingOptions}}" value="{{drivingIndex}}" bindchange="onDrivingChange">
           <view class="card-picker">{{drivingIndex >= 0 ? drivingOptions[drivingIndex] : '请选择'}}</view>

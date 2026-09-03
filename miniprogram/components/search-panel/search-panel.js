@@ -31,6 +31,8 @@ Component({
     transportIndex: 0,
     accommodationOptions: ['不限', '可拼房', '各住各的'],
     accommodationIndex: 0,
+    paceOptions: ['不限', '特种兵', '适中', '慢悠悠'],
+    paceIndex: 0,
     budgetOptions: ['穷游', '经济', '舒适', '轻奢'],
     budgetSelected: [],
     photoOptions: ['不限', '一般', '擅长', '大师'],
@@ -203,6 +205,9 @@ Component({
 
           const accommodation = this.data.accommodationOptions[this.data.accommodationIndex]
           if (accommodation && accommodation !== '不限') matchParams.accommodation = accommodation
+
+          const pace = this.data.paceOptions[this.data.paceIndex]
+          if (pace && pace !== '不限') matchParams.travel_pace = pace
 
           const photo = this.data.photoOptions[this.data.photoIndex]
           if (photo && photo !== '不限') matchParams.good_at_photo = photo

@@ -44,6 +44,8 @@ Component({
     transportIndex: 0,
     accommodationOptions: ['不限', '可拼房', '各住各的'],
     accommodationIndex: 0,
+    paceOptions: ['不限', '特种兵', '适中', '慢悠悠'],
+    paceIndex: 0,
     budgetOptions: ['穷游', '经济', '舒适', '轻奢'],
     budgetSelected: ['经济'],
     photoOptions: ['不限', '一般', '擅长', '大师'],
@@ -310,6 +312,10 @@ Component({
         if (me.accommodation_pref) {
           const i = d.accommodationOptions.indexOf(me.accommodation_pref)
           if (i >= 0) patch.accommodationIndex = i
+        }
+        if (me.travel_pace) {
+          const i = d.paceOptions.indexOf(me.travel_pace)
+          if (i >= 0) patch.paceIndex = i
         }
         if (Object.keys(patch).length > 0) this.setData(patch)
       } catch (e) {
@@ -637,6 +643,7 @@ Component({
           transport_mode: d.transportOptions[d.transportIndex],
           accommodation: d.accommodationOptions[d.accommodationIndex],
           budget_level: d.budgetSelected.join(','),
+          travel_pace: d.paceOptions[d.paceIndex],
           good_at_photo: d.photoOptions[d.photoIndex],
           user_male_count: parseInt(d.userMaleCount),
           user_female_count: parseInt(d.userFemaleCount)
@@ -657,6 +664,7 @@ Component({
             transport_mode: d.transportOptions[d.transportIndex],
             accommodation: d.accommodationOptions[d.accommodationIndex],
             budget_level: d.budgetSelected.join(','),
+            travel_pace: d.paceOptions[d.paceIndex],
             good_at_photo: d.photoOptions[d.photoIndex],
             user_male_count: parseInt(d.userMaleCount),
             user_female_count: parseInt(d.userFemaleCount)

@@ -18,6 +18,7 @@
     <view class="trip-tags">
       <text class="trip-tag">{{item.transport_mode || '不限'}}</text>
       <text class="trip-tag">{{item.accommodation || '不限'}}</text>
+      <text class="trip-tag">{{item.travel_pace || '不限'}}</text>
       <text class="trip-tag">{{item.budget_level || '经济'}}</text>
       <text class="trip-tag">{{item.good_at_photo || '不限'}}</text>
     </view>

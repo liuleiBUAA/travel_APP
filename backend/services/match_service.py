@@ -166,10 +166,11 @@ class MatchService:
         计算出行偏好匹配度
 
         包含：
-        1. 交通方式匹配 (40%)
-        2. 消费水平匹配 (40%)
-        3. 住宿安排匹配 (10%)
-        4. 拍照技能互补 (10%)
+        1. 交通方式匹配 (30%)
+        2. 消费水平匹配 (30%)
+        3. 旅游节奏匹配 (25%)
+        4. 住宿安排匹配 (10%)
+        5. 拍照技能互补 (5%)
 
         返回：0-1之间的匹配度
         """
@@ -271,10 +272,26 @@ class MatchService:
             else:
                 photo_score = 0.5
 
+        # 5. 旅游节奏匹配 (25%)
+        pace_a = pref_a.get("travel_pace", "不限") or "不限"
+        pace_b = pref_b.get("travel_pace", "不限") or "不限"
+
+        if pace_a == "不限" or pace_b == "不限":
+            pace_score = 1.0
+        elif pace_a == pace_b:
+            pace_score = 1.0
+        elif {pace_a, pace_b} == {"特种兵", "慢悠悠"}:
+            # 一个天天赶景点、一个想躺平，作息强冲突
+            pace_score = 0.0
+        else:
+            # 适中 与 特种兵/慢悠悠：有协商空间
+            pace_score = 0.5
+
         # 综合分数
-        total = (transport_score * 0.4 +
-                budget_score * 0.4 +
-                accom_score * 0.1 +
-                photo_score * 0.1)
+        total = (transport_score * 0.30 +
+                budget_score * 0.30 +
+                pace_score * 0.25 +
+                accom_score * 0.10 +
+                photo_score * 0.05)
 
         return total

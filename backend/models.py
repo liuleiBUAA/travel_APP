@@ -24,6 +24,7 @@ class User(Base):
     budget_level = Column(String(20), nullable=True, comment="消费习惯：穷游/经济/舒适/轻奢")
     good_at_photo = Column(String(10), nullable=True, comment="拍照技能：一般/擅长/大师")
     accommodation_pref = Column(String(20), nullable=True, comment="住宿偏好：不限/可拼房/各住各的")
+    travel_pace = Column(String(20), nullable=True, comment="旅游节奏：特种兵/适中/慢悠悠/不限")
     driving = Column(String(20), nullable=True, comment="驾驶：不会开车/会开但尽量不开/愿意当司机")
     tags = Column(String(300), nullable=True, comment="兴趣标签（逗号分隔）：早起党/夜猫子/美食控等")
     mbti = Column(String(10), nullable=True, comment="MBTI人格类型（选填）：INTJ/INFP等16型")
@@ -63,6 +64,7 @@ class Companion(Base):
     transport_mode = Column(String(50), nullable=True, comment="交通方式：不限/公共交通为主/自驾为主/混合")
     accommodation = Column(String(50), nullable=True, comment="住宿安排：不限/可拼房/各住各的")
     budget_level = Column(String(100), nullable=True, comment="消费水平（多选，逗号分隔）：穷游/经济/舒适/轻奢")
+    travel_pace = Column(String(20), nullable=True, comment="旅游节奏：特种兵/适中/慢悠悠/不限")
 
     # 个人信息
     good_at_photo = Column(String(10), nullable=True, comment="拍照技能：一般/擅长/大师")

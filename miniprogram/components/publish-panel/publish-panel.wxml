@@ -288,6 +288,14 @@
     </view>
 
     <view class="form-group">
+      <view class="form-label">旅游节奏</view>
+      <picker range="{{paceOptions}}" value="{{paceIndex}}" bindchange="onPickerChange" data-field="paceIndex">
+        <view class="form-input">{{paceOptions[paceIndex]}}</view>
+      </picker>
+      <view class="form-hint">特种兵=一天多景点连轴转 / 慢悠悠=一天一两个点慢慢逛</view>
+    </view>
+
+    <view class="form-group">
       <view class="form-label">消费水平</view>
       <view class="checkbox-group">
         <checkbox-group wx:for="{{budgetOptions}}" wx:key="*this" bindchange="toggleBudget" data-value="{{item}}">

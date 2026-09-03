@@ -370,6 +370,10 @@
                                 <select id="accommodation"><option value="不限" selected>不限</option><option value="可拼房">可拼房</option><option value="各住各的">各住各的</option></select>
                             </div>
                             <div class="form-group">
+                                <label>旅游节奏</label>
+                                <select id="travelPace"><option value="不限" selected>不限</option><option value="特种兵">特种兵</option><option value="适中">适中</option><option value="慢悠悠">慢悠悠</option></select>
+                            </div>
+                            <div class="form-group">
                                 <label>拍照技能</label>
                                 <select id="goodAtPhoto"><option value="不限" selected>不限</option><option value="一般">一般</option><option value="擅长">擅长</option><option value="大师">大师</option></select>
                             </div>
@@ -520,6 +524,10 @@
                         <div class="form-group">
                             <label>住宿安排（可选）</label>
                             <select id="matchAccommodation"><option value="" selected>不限</option><option value="可拼房">可拼房</option><option value="各住各的">各住各的</option></select>
+                        </div>
+                        <div class="form-group">
+                            <label>旅游节奏</label>
+                            <select id="matchTravelPace"><option value="" selected>不限</option><option value="特种兵">特种兵</option><option value="适中">适中</option><option value="慢悠悠">慢悠悠</option></select>
                         </div>
                         <div class="form-group">
                             <label>拍照技能（可选）</label>
@@ -1405,6 +1413,7 @@
                         transport_mode: document.getElementById('transportMode').value,
                         accommodation: document.getElementById('accommodation').value,
                         budget_level: budgetLevels.join(','),  // 多选用逗号分隔
+                        travel_pace: document.getElementById('travelPace').value,
                         good_at_photo: document.getElementById('goodAtPhoto').value,
                         user_male_count: parseInt(document.getElementById('userMaleCount').value),
                         user_female_count: parseInt(document.getElementById('userFemaleCount').value)
@@ -1437,6 +1446,7 @@
                             transport_mode: document.getElementById('transportMode').value,
                             accommodation: document.getElementById('accommodation').value,
                             budget_level: budgetLevels.join(','),
+                            travel_pace: document.getElementById('travelPace').value,
                             good_at_photo: document.getElementById('goodAtPhoto').value,
                             user_male_count: parseInt(document.getElementById('userMaleCount').value),
                             user_female_count: parseInt(document.getElementById('userFemaleCount').value)
@@ -1521,6 +1531,7 @@
                 const gender = document.getElementById('matchGender').value;
                 const transportMode = document.getElementById('matchTransportMode').value;
                 const accommodation = document.getElementById('matchAccommodation').value;
+                const travelPace = document.getElementById('matchTravelPace').value;
                 const goodAtPhoto = document.getElementById('matchGoodAtPhoto').value;
                 const userMaleCount = document.getElementById('matchUserMaleCount').value;
                 const userFemaleCount = document.getElementById('matchUserFemaleCount').value;
@@ -1530,6 +1541,7 @@
                 if (gender) matchFilters.gender = gender;
                 if (transportMode) matchFilters.transport_mode = transportMode;
                 if (accommodation) matchFilters.accommodation = accommodation;
+                if (travelPace) matchFilters.travel_pace = travelPace;
                 if (goodAtPhoto) matchFilters.good_at_photo = goodAtPhoto;
                 if (matchBudgetLevels.length > 0) matchFilters.budget_level = matchBudgetLevels.join(',');
                 if (userMaleCount) matchFilters.user_male_count = parseInt(userMaleCount);
@@ -1557,6 +1569,9 @@
                 }
                 if (matchFilters.accommodation) {
                     filterTexts.push(`🛏️ 住宿安排：<strong>${matchFilters.accommodation}</strong>`);
+                }
+                if (matchFilters.travel_pace) {
+                    filterTexts.push(`⏱️ 旅游节奏：<strong>${matchFilters.travel_pace}</strong>`);
                 }
                 if (matchFilters.budget_level) {
                     filterTexts.push(`💰 消费水平：<strong>${matchFilters.budget_level}</strong>`);
@@ -1609,7 +1624,7 @@
                     <div class="match-info">
                         👥 目前${match.user_male_count || 0}男${match.user_female_count || 0}女 · 找${match.seeking.people_min || 1}-${match.seeking.people_max || 2}人 · ${match.seeking.gender}<br>
                         🚗 ${match.transport_mode} · 🛏️ ${match.accommodation}<br>
-                        💰 ${match.budget_level} · 📷 拍照${match.good_at_photo}<br>
+                        💰 ${match.budget_level} · ⏱️ ${match.travel_pace || '不限'} · 📷 拍照${match.good_at_photo}<br>
                         📊 路线 ${Math.round(match.similarity_score * 100)}% · 时间 ${Math.round(match.time_score * 100)}% · 偏好 ${Math.round(match.preference_score * 100)}%
                     </div>
                 </div>
@@ -1642,7 +1657,7 @@
                                 ${(c.route.cities || []).map(city => `<span class="city-badge">${city}</span>`).join('')}
                             </div>
                             <div class="match-info">
-                                ${c.current_people} · ${c.transport_mode} · ${c.budget_level}
+                                ${c.current_people} · ${c.transport_mode} · ${c.budget_level} · ${c.travel_pace || '不限'}
                             </div>
                         </div>
                     `).join('');

@@ -93,6 +93,13 @@
   </view>
 
   <view class="form-group">
+    <view class="form-label">旅游节奏（可选）</view>
+    <picker range="{{paceOptions}}" value="{{paceIndex}}" bindchange="onPickerChange" data-field="paceIndex">
+      <view class="form-input">{{paceOptions[paceIndex]}}</view>
+    </picker>
+  </view>
+
+  <view class="form-group">
     <view class="form-label">消费水平（可选，多选）</view>
     <view class="checkbox-group">
       <checkbox-group wx:for="{{budgetOptions}}" wx:key="*this" bindchange="toggleBudget" data-value="{{item}}">
@@ -148,7 +155,7 @@
 
     <view class="match-info">
       <text>{{item.user_male_count || 0}}男{{item.user_female_count || 0}}女 · 找{{item.seeking.people_min || 1}}-{{item.seeking.people_max || 2}}人 · {{item.seeking.gender || '不限'}}</text>
-      <view class="match-info-text">{{item.transport_mode || '不限'}} · {{item.accommodation || '不限'}} · {{item.budget_level || '经济'}}</view>
+      <view class="match-info-text">{{item.transport_mode || '不限'}} · {{item.accommodation || '不限'}} · {{item.budget_level || '经济'}} · ⏱{{item.travel_pace || '不限'}}</view>
     </view>
 
     <view class="match-scores">

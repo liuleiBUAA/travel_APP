@@ -191,6 +191,7 @@ class CompanionPublishRequest(BaseModel):
     transport_mode: Optional[str] = "不限"  # 交通方式
     accommodation: Optional[str] = "不限"  # 住宿安排
     budget_level: Optional[str] = "经济"  # 消费水平（多选，逗号分隔）
+    travel_pace: Optional[str] = "不限"  # 旅游节奏：特种兵/适中/慢悠悠/不限
 
     # 个人信息
     good_at_photo: Optional[str] = "不限"  # 拍照技能：不限/一般/擅长/大师
@@ -219,6 +220,7 @@ class CompanionMatchRequest(BaseModel):
     transport_mode: Optional[str] = "不限"
     accommodation: Optional[str] = "不限"
     budget_level: Optional[str] = "经济"
+    travel_pace: Optional[str] = "不限"
     good_at_photo: Optional[str] = "不限"
     user_male_count: int = 0  # 男生人数
     user_female_count: int = 1  # 女生人数
@@ -261,6 +263,7 @@ class UpdateProfileRequest(BaseModel):
     budget_level: Optional[str] = None
     good_at_photo: Optional[str] = None
     accommodation_pref: Optional[str] = None
+    travel_pace: Optional[str] = None
     driving: Optional[str] = None
     tags: Optional[str] = None
     mbti: Optional[str] = None
@@ -273,6 +276,7 @@ PROFILE_FIELD_OPTIONS = {
     "budget_level": ["穷游", "经济", "舒适", "轻奢"],
     "good_at_photo": ["一般", "擅长", "大师"],
     "accommodation_pref": ["不限", "可拼房", "各住各的"],
+    "travel_pace": ["特种兵", "适中", "慢悠悠", "不限"],
     "driving": ["不会开车", "会开但尽量不开", "愿意当司机"],
     "mbti": ["INTJ", "INTP", "ENTJ", "ENTP", "INFJ", "INFP", "ENFJ", "ENFP",
              "ISTJ", "ISFJ", "ESTJ", "ESFJ", "ISTP", "ISFP", "ESTP", "ESFP"],
@@ -288,6 +292,7 @@ def _profile_card_dict(user: User) -> dict:
         "budget_level": getattr(user, "budget_level", None),
         "good_at_photo": getattr(user, "good_at_photo", None),
         "accommodation_pref": getattr(user, "accommodation_pref", None),
+        "travel_pace": getattr(user, "travel_pace", None),
         "driving": getattr(user, "driving", None),
         "mbti": getattr(user, "mbti", None),
         "zodiac": getattr(user, "zodiac", None),
@@ -676,6 +681,7 @@ async def publish_companion(request: CompanionPublishRequest, current_user: User
             transport_mode=request.transport_mode,
             accommodation=request.accommodation,
             budget_level=request.budget_level,
+            travel_pace=request.travel_pace,
             good_at_photo=request.good_at_photo,
             user_male_count=request.user_male_count,
             user_female_count=request.user_female_count,
@@ -821,6 +827,7 @@ async def match_companions(request: CompanionMatchRequest,
             companion_transport = getattr(companion, "transport_mode", "不限")
             companion_accom = getattr(companion, "accommodation", "不限")
             companion_budget = getattr(companion, "budget_level", "经济")
+            companion_pace = getattr(companion, "travel_pace", "不限") or "不限"
             if is_precise:
                 # 1. 交通方式筛选
                 user_transport = request.transport_mode or "不限"
@@ -856,6 +863,19 @@ async def match_companions(request: CompanionMatchRequest,
                     if not (user_budgets & companion_budgets):  # 无交集
                         continue  # 消费水平无交集，跳过
 
+                # 4. 旅游节奏筛选（特种兵 vs 慢悠悠 为利益冲突，直接排除）
+                user_pace = request.travel_pace or "不限"
+
+                def pace_compatible(p1, p2):
+                    if p1 == "不限" or p2 == "不限":
+                        return True
+                    if {p1, p2} == {"特种兵", "慢悠悠"}:
+                        return False  # 一个赶景点一个躺平，凑不到一起
+                    return True
+
+                if not pace_compatible(user_pace, companion_pace):
+                    continue  # 旅游节奏冲突，跳过
+
             # ========== 计算分数（仅用于排序）==========
             # 计算时间契合度
             time_score = match_service.calculate_time_score(
@@ -870,12 +890,14 @@ async def match_companions(request: CompanionMatchRequest,
                     "transport_mode": companion_transport,
                     "accommodation": companion_accom,
                     "budget_level": companion_budget,
+                    "travel_pace": companion_pace,
                     "good_at_photo": getattr(companion, "good_at_photo", "不限")
                 },
                 {
                     "transport_mode": request.transport_mode or "不限",
                     "accommodation": request.accommodation or "不限",
                     "budget_level": request.budget_level or "经济",
+                    "travel_pace": request.travel_pace or "不限",
                     "good_at_photo": request.good_at_photo or "不限"
                 }
             )
@@ -896,6 +918,7 @@ async def match_companions(request: CompanionMatchRequest,
                     "transport_mode": getattr(companion, "transport_mode", "不限"),
                     "accommodation": getattr(companion, "accommodation", "不限"),
                     "budget_level": getattr(companion, "budget_level", "经济"),
+                    "travel_pace": getattr(companion, "travel_pace", "不限"),
                     "good_at_photo": getattr(companion, "good_at_photo", "不限"),
                     "user_male_count": getattr(companion, "user_male_count", 0),
                     "user_female_count": getattr(companion, "user_female_count", 1),
@@ -959,6 +982,7 @@ async def search_companions(keyword: str = "", limit: int = 20, offset: int = 0,
                 "transport_mode": getattr(c, "transport_mode", "不限"),
                 "accommodation": getattr(c, "accommodation", "不限"),
                 "budget_level": getattr(c, "budget_level", "经济"),
+                "travel_pace": getattr(c, "travel_pace", "不限"),
                 "good_at_photo": getattr(c, "good_at_photo", "不限"),
                 "user_male_count": getattr(c, "user_male_count", 0),
                 "user_female_count": getattr(c, "user_female_count", 1),
@@ -1005,6 +1029,7 @@ async def list_companions(limit: int = 20, offset: int = 0):
                 "transport_mode": getattr(c, "transport_mode", "不限"),
                 "accommodation": getattr(c, "accommodation", "不限"),
                 "budget_level": getattr(c, "budget_level", "经济"),
+                "travel_pace": getattr(c, "travel_pace", "不限"),
                 "good_at_photo": getattr(c, "good_at_photo", "不限"),
                 "user_male_count": getattr(c, "user_male_count", 0),
                 "user_female_count": getattr(c, "user_female_count", 1),
@@ -1054,6 +1079,7 @@ async def get_my_companions(current_user: User = Depends(get_current_user_from_t
                 "transport_mode": getattr(c, "transport_mode", "不限"),
                 "accommodation": getattr(c, "accommodation", "不限"),
                 "budget_level": getattr(c, "budget_level", "经济"),
+                "travel_pace": getattr(c, "travel_pace", "不限"),
                 "good_at_photo": getattr(c, "good_at_photo", "不限"),
                 "user_male_count": getattr(c, "user_male_count", 0),
                 "user_female_count": getattr(c, "user_female_count", 1),
@@ -1117,6 +1143,7 @@ async def get_companion_detail(companion_id: int, current_user: Optional[User] =
                 "transport_mode": getattr(companion, "transport_mode", "不限"),
                 "accommodation": getattr(companion, "accommodation", "不限"),
                 "budget_level": getattr(companion, "budget_level", "经济"),
+                "travel_pace": getattr(companion, "travel_pace", "不限"),
                 "good_at_photo": getattr(companion, "good_at_photo", "不限"),
                 "user_male_count": getattr(companion, "user_male_count", 0),
                 "user_female_count": getattr(companion, "user_female_count", 1),
