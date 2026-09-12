@@ -55,7 +55,7 @@
         <view class="form-label">旅行区域</view>
         <view class="region-list">
           <view
-            wx:for="{{regionOptions}}"
+            wx:for="{{recommendRegionOptions}}"
             wx:key="value"
             class="region-btn {{recommendRegion === item.value ? 'active' : ''}}"
             bindtap="selectRecommendRegion"
@@ -149,7 +149,7 @@
       </view>
 
       <view class="form-group">
-        <view class="form-label">国家</view>
+        <view class="form-label">{{isCN ? '地区' : '国家'}}</view>
         <view class="country-list">
           <view wx:if="{{pickCountries.length === 0}}" class="hint-text">加载中...</view>
           <view
@@ -183,8 +183,10 @@
                 data-name="{{item.name}}"
               >
                 <view class="city-name">{{item.name}}</view>
-                <view class="city-days">建议{{item.recommended_days}}天</view>
-                <view wx:if="{{item.best_season}}" class="city-season">{{item.best_season}}最佳</view>
+                <block wx:if="{{!isCN}}">
+                  <view class="city-days">建议{{item.recommended_days}}天</view>
+                  <view wx:if="{{item.best_season}}" class="city-season">{{item.best_season}}最佳</view>
+                </block>
               </view>
             </view>
           </view>
@@ -200,8 +202,10 @@
             data-name="{{item.name}}"
           >
             <view class="city-name">{{item.name}}</view>
-            <view class="city-days">建议{{item.recommended_days}}天</view>
-            <view wx:if="{{item.best_season}}" class="city-season">{{item.best_season}}最佳</view>
+            <block wx:if="{{!isCN}}">
+              <view class="city-days">建议{{item.recommended_days}}天</view>
+              <view wx:if="{{item.best_season}}" class="city-season">{{item.best_season}}最佳</view>
+            </block>
           </view>
           <view wx:if="{{pickCities.length === 0}}" class="hint-text">请先选择国家</view>
         </view>
@@ -223,13 +227,13 @@
       </view>
     </view>
 
-    <!-- 路线高级选项（折叠） -->
-    <view class="more-toggle" bindtap="toggleRouteOptions">
+    <!-- 路线高级选项（折叠）：国内不生成路线，不显示 -->
+    <view wx:if="{{!isCN}}" class="more-toggle" bindtap="toggleRouteOptions">
       <text>路线选项（可选）</text>
       <text class="more-arrow">{{showRouteOptions ? '收起 ▲' : '展开 ▼'}}</text>
     </view>
 
-    <view wx:if="{{showRouteOptions}}">
+    <view wx:if="{{showRouteOptions && !isCN}}">
       <view class="form-group">
         <label class="option-row">
           <switch checked="{{forceGateway}}" bindchange="onSwitchChange" data-field="forceGateway" />
@@ -264,7 +268,8 @@
       </view>
     </view>
 
-    <button class="btn-success" style="margin-top:20rpx;" bindtap="generate">生成完整攻略</button>
+    <button wx:if="{{isCN}}" class="btn-success" style="margin-top:20rpx;" bindtap="goFindCompanionFromCities">带这 {{selectedCities.length}} 个城市去发帖找搭子</button>
+    <button wx:else class="btn-success" style="margin-top:20rpx;" bindtap="generate">生成完整攻略</button>
   </view>
 
   <!-- 加载中 -->

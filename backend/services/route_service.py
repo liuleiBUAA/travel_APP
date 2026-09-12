@@ -593,6 +593,30 @@ class RouteService:
                     "新西兰": "新西兰_destinations.json",
                     "斐济": "斐济_destinations.json",
                 }
+            },
+            "China": {
+                "name": "国内",
+                "countries": {
+                    "新疆": "新疆_destinations.json",
+                    "西藏": "西藏_destinations.json",
+                    "大西北": "大西北_destinations.json",
+                    "川渝": "川渝_destinations.json",
+                    "云南": "云南_destinations.json",
+                    "贵州": "贵州_destinations.json",
+                    "广西": "广西_destinations.json",
+                    "海南": "海南_destinations.json",
+                    "广东·港澳": "广东·港澳_destinations.json",
+                    "福建": "福建_destinations.json",
+                    "江浙沪": "江浙沪_destinations.json",
+                    "安徽·江西": "安徽·江西_destinations.json",
+                    "湖南·湖北": "湖南·湖北_destinations.json",
+                    "陕西·山西": "陕西·山西_destinations.json",
+                    "河南": "河南_destinations.json",
+                    "山东": "山东_destinations.json",
+                    "京津冀": "京津冀_destinations.json",
+                    "东北": "东北_destinations.json",
+                    "内蒙古": "内蒙古_destinations.json",
+                }
             }
         }
         return structure
@@ -606,7 +630,8 @@ class RouteService:
             "欧洲": "Europe",
             "亚洲": "Asia",
             "北美": "North_America",
-            "大洋洲": "Oceania"
+            "大洋洲": "Oceania",
+            "国内": "China"
         }
 
         region_key = region_map.get(region, region)
@@ -623,7 +648,8 @@ class RouteService:
             "欧洲": "Europe",
             "亚洲": "Asia",
             "北美": "North_America",
-            "大洋洲": "Oceania"
+            "大洋洲": "Oceania",
+            "国内": "China"
         }
 
         region_key = region_map.get(region, region)
@@ -762,7 +788,7 @@ class RouteService:
         if not query:
             return []
         q = query.lower()
-        region_cn = {"Europe": "欧洲", "Asia": "亚洲", "North_America": "北美", "Oceania": "大洋洲"}
+        region_cn = {"Europe": "欧洲", "Asia": "亚洲", "North_America": "北美", "Oceania": "大洋洲", "China": "国内"}
 
         suggestions = []
         # 国家匹配
