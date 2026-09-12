@@ -9,9 +9,11 @@ Component({
 
   data: {
     inputMode: 'smart',  // 'smart' | 'manual' | 'custom'
-    regions: ['欧洲', '亚洲', '北美', '大洋洲'],
-    regionIcons: { '欧洲': '🇪🇺', '亚洲': '🌏', '北美': '🇺🇸', '大洋洲': '🦘' },
+    regions: ['国内', '欧洲', '亚洲', '北美', '大洋洲'],
+    regionIcons: { '国内': '🇨🇳', '欧洲': '🇪🇺', '亚洲': '🌏', '北美': '🇺🇸', '大洋洲': '🦘' },
     currentRegion: '欧洲',
+    // 国内数据只有地点名、无攻略/无城际交通 → 不走路线引擎，勾选顺序即路线顺序
+    isCN: false,
     countries: [],
     currentCountry: '',
     cities: [],
@@ -19,7 +21,7 @@ Component({
     cityInput: '',
     searchResults: [],
     // 手动输入模式
-    manualRegionOptions: ['欧洲', '北美', '亚洲', '大洋洲'],
+    manualRegionOptions: ['欧洲', '北美', '亚洲', '大洋洲', '国内'],
     manualRegionIndex: 0,
     manualCountries: [],
     manualSelectedCountries: [],
@@ -71,7 +73,8 @@ Component({
 
       const g = app.globalData
       if (g.selectedCities.length > 0) {
-        this.setData({ selectedCities: g.selectedCities, currentRegion: g.currentRegion })
+        const region = g.currentRegion || this.data.currentRegion
+        this.setData({ selectedCities: g.selectedCities, currentRegion: region, isCN: region === '国内' })
       }
       this.loadCountries(this.data.currentRegion)
       // 同页 tab 切换时只触发 attached、不触发 pageLifetimes.show，
@@ -127,7 +130,12 @@ Component({
     // ---- 输入模式切换 ----
     switchInputMode(e) {
       const mode = e.currentTarget.dataset.mode
-      this.setData({ inputMode: mode })
+      const d = this.data
+      // isCN 跟随当前模式各自的区域来源
+      const isCN = mode === 'manual'
+        ? d.manualRegionOptions[d.manualRegionIndex] === '国内'
+        : d.currentRegion === '国内'
+      this.setData({ inputMode: mode, isCN })
       if (mode === 'manual') {
         this.loadManualCountries()
         this.updateManualPreview()
@@ -140,7 +148,8 @@ Component({
     },
 
     async onManualRegionChange(e) {
-      this.setData({ manualRegionIndex: e.detail.value })
+      const idx = e.detail.value
+      this.setData({ manualRegionIndex: idx, isCN: this.data.manualRegionOptions[idx] === '国内' })
       await this.loadManualCountries()
       this.updateManualPreview()
     },
@@ -344,10 +353,22 @@ Component({
       }
     },
 
+    // ---- 国内：本地拼「只有地点、没行程」的路线对象 ----
+    buildCitiesOnlyRoute(cities) {
+      const list = (cities || []).filter(c => c)
+      return {
+        route_type: 'cities_only',
+        cities: list,
+        city_count: list.length,
+        total_days: 0,
+        itinerary: []
+      }
+    },
+
     // ---- 区域/国家/城市 ----
     async selectRegion(e) {
       const region = e.currentTarget.dataset.region
-      this.setData({ currentRegion: region, currentCountry: '', cities: [], countries: [] })
+      this.setData({ currentRegion: region, currentCountry: '', cities: [], countries: [], isCN: region === '国内' })
       app.globalData.currentRegion = region
       await this.loadCountries(region)
     },
@@ -378,7 +399,9 @@ Component({
 
     async loadCities(region, country) {
       try {
-        const res = await api.getCities(region, country, 16)
+        // 国内一个地区就是一批地点，全部列出让用户自己勾（境外仍取前16）
+        const limit = region === '国内' ? 100 : 16
+        const res = await api.getCities(region, country, limit)
         if (res.success && Array.isArray(res.cities)) {
           this.setData({ cities: res.cities })
         } else {
@@ -598,9 +621,14 @@ Component({
             return
           }
 
-          const regionMap = { '欧洲': 'Europe', '北美': 'North_America', '亚洲': 'Asia', '大洋洲': 'Oceania' }
-          const region = regionMap[d.manualRegionOptions[d.manualRegionIndex]]
+          const regionMap = { '国内': 'China', '欧洲': 'Europe', '北美': 'North_America', '亚洲': 'Asia', '大洋洲': 'Oceania' }
+          const regionName = d.manualRegionOptions[d.manualRegionIndex]
+          const region = regionMap[regionName]
 
+          // 国内：数据里只有地点名，没有攻略/城际交通 → 不调路线引擎，勾选顺序即路线顺序
+          if (regionName === '国内') {
+            route = this.buildCitiesOnlyRoute(cities)
+          } else {
           const routeRes = await api.generateRoute({
             mode: 'manual',
             region: region,
@@ -611,6 +639,7 @@ Component({
             }
           })
           route = routeRes.route
+          }
 
         } else {
           // 智能选城模式
@@ -620,11 +649,16 @@ Component({
             return
           }
 
-          const routeRes = await api.generateRoute({
-            mode: 'destination',
-            cities: d.selectedCities
-          })
-          route = routeRes.route
+          // 国内：同上，直接按勾选顺序打包，不走路线引擎
+          if (d.isCN || d.currentRegion === '国内') {
+            route = this.buildCitiesOnlyRoute(d.selectedCities)
+          } else {
+            const routeRes = await api.generateRoute({
+              mode: 'destination',
+              cities: d.selectedCities
+            })
+            route = routeRes.route
+          }
         }
 
         app.globalData.generatedRoute = route
@@ -633,7 +667,7 @@ Component({
         const pubRes = await api.publishCompanion({
           route_json: route,
           travel_date: d.travelDate,
-          duration_days: d.inputMode === 'custom' ? (route.total_days || null) : (route.total_days || 10),
+          duration_days: (d.inputMode === 'custom' || route.route_type === 'cities_only') ? (route.total_days || null) : (route.total_days || 10),
           flexibility_days: 3,
           seeking: {
             people_min: parseInt(d.peopleMin),

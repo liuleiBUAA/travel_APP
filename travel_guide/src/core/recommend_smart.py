@@ -91,6 +91,8 @@ def get_all_destinations(base_dir=os.path.dirname(os.path.dirname(os.path.dirnam
             region = "Europe"
         elif "Oceania" in str(file_path):
             region = "Oceania"
+        elif "China" in str(file_path):
+            region = "China"
         else:
             continue
 
@@ -104,7 +106,11 @@ def get_all_destinations(base_dir=os.path.dirname(os.path.dirname(os.path.dirnam
             known_countries = ["德国", "法国", "意大利", "西班牙", "瑞士", "奥地利", "克罗地亚",
                              "荷兰", "比利时", "捷克", "匈牙利", "希腊", "葡萄牙", "土耳其",
                              "阿联酋", "埃及", "北欧", "加拿大", "美国西部", "美国东部中部", "美国", "日本", "澳大利亚", "新西兰",
-                             "阿拉斯加加勒比海夏威夷", "阿拉斯加", "加勒比海", "夏威夷", "斐济"]
+                             "阿拉斯加加勒比海夏威夷", "阿拉斯加", "加勒比海", "夏威夷", "斐济",
+                             # 国内 19 个地区（与 route_service.get_destination_structure()["China"] 一致）
+                             "新疆", "西藏", "大西北", "川渝", "云南", "贵州", "广西", "海南",
+                             "广东·港澳", "福建", "江浙沪", "安徽·江西", "湖南·湖北",
+                             "陕西·山西", "河南", "山东", "京津冀", "东北", "内蒙古"]
             for country in known_countries:
                 if country in country_part:
                     countries.append(country)
