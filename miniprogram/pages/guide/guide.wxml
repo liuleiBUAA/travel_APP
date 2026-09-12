@@ -116,7 +116,7 @@
         <view class="form-label">🔍 想去哪？</view>
         <input
           class="form-input"
-          placeholder="输入国家或城市，如：法国、巴黎"
+          placeholder="{{isCN ? '输入省份或地点，如：川渝、成都' : '输入国家或城市，如：法国、巴黎'}}"
           value="{{pickSearchInput}}"
           bindinput="onPickSearchInput"
         />
@@ -149,7 +149,7 @@
       </view>
 
       <view class="form-group">
-        <view class="form-label">{{isCN ? '地区' : '国家'}}</view>
+        <view class="form-label">{{isCN ? '省份' : '国家'}}</view>
         <view class="country-list">
           <view wx:if="{{pickCountries.length === 0}}" class="hint-text">加载中...</view>
           <view
@@ -207,7 +207,7 @@
               <view wx:if="{{item.best_season}}" class="city-season">{{item.best_season}}最佳</view>
             </block>
           </view>
-          <view wx:if="{{pickCities.length === 0}}" class="hint-text">请先选择国家</view>
+          <view wx:if="{{pickCities.length === 0}}" class="hint-text">请先选择{{isCN ? '省份' : '国家'}}</view>
         </view>
       </view>
     </view>

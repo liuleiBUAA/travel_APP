@@ -559,12 +559,12 @@ Component({
           }
           if (!d.currentCountry) {
             wx.hideLoading()
-            wx.showToast({ title: '请先选择国家', icon: 'none' })
+            wx.showToast({ title: d.isCN ? '请先选择省份' : '请先选择国家', icon: 'none' })
             return
           }
           if (d.selectedCities.length < 1) {
             wx.hideLoading()
-            wx.showToast({ title: '请至少选择一个城市', icon: 'none' })
+            wx.showToast({ title: d.isCN ? '请至少选择一个地点' : '请至少选择一个城市', icon: 'none' })
             return
           }
           const customText = (d.customText || '').trim()
@@ -617,7 +617,7 @@ Component({
 
           if (d.manualSelectedCountries.length === 0) {
             wx.hideLoading()
-            wx.showToast({ title: '请至少选择一个国家', icon: 'none' })
+            wx.showToast({ title: d.isCN ? '请至少选择一个省份' : '请至少选择一个国家', icon: 'none' })
             return
           }
 
@@ -645,7 +645,7 @@ Component({
           // 智能选城模式
           if (d.selectedCities.length < 1) {
             wx.hideLoading()
-            wx.showToast({ title: '请至少选择一个城市', icon: 'none' })
+            wx.showToast({ title: d.isCN ? '请至少选择一个地点' : '请至少选择一个城市', icon: 'none' })
             return
           }
 

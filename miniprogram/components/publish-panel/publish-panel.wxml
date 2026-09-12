@@ -92,7 +92,7 @@
     <view class="card-title">🔍 想去哪？</view>
     <input
       class="form-input"
-      placeholder="输入国家或城市，如：法国、巴黎"
+      placeholder="{{isCN ? '输入省份或地点，如：川渝、成都' : '输入国家或城市，如：法国、巴黎'}}"
       value="{{cityInput}}"
       bindinput="onCityInput"
       bindconfirm="addManualCity"
@@ -129,7 +129,7 @@
 
   <!-- 选择国家 -->
   <view class="card">
-    <view class="card-title">2. 选择国家</view>
+    <view class="card-title">2. {{isCN ? '选择省份' : '选择国家'}}</view>
     <view class="country-list">
       <view
         wx:for="{{countries}}"
@@ -144,7 +144,7 @@
 
   <!-- 选择城市 -->
   <view class="card">
-    <view class="card-title">3. 选择城市</view>
+    <view class="card-title">3. {{isCN ? '选择地点' : '选择城市'}}</view>
     <view class="city-grid">
       <view
         wx:for="{{cities}}"
@@ -157,16 +157,16 @@
         <view wx:if="{{!isCN && item.recommended_days}}" class="city-days">建议{{item.recommended_days}}天</view>
         <view wx:if="{{!isCN && item.best_season}}" class="city-season">{{item.best_season}}最佳</view>
       </view>
-      <view wx:if="{{cities.length === 0}}" class="hint-text">请先选择国家</view>
+      <view wx:if="{{cities.length === 0}}" class="hint-text">请先选择{{isCN ? '省份' : '国家'}}</view>
     </view>
 
     <!-- 已选城市 -->
     <view style="display:flex; justify-content:space-between; align-items:center; margin-top:16rpx;">
-      <view class="form-label" style="margin:0;">已选城市</view>
+      <view class="form-label" style="margin:0;">已选{{isCN ? '地点' : '城市'}}</view>
       <view wx:if="{{selectedCities.length > 0}}" class="clear-btn" bindtap="clearAllCities">清空全部</view>
     </view>
     <view class="tags-wrap">
-      <view wx:if="{{selectedCities.length === 0}}" class="hint-text">还没有选择城市</view>
+      <view wx:if="{{selectedCities.length === 0}}" class="hint-text">还没有选择{{isCN ? '地点' : '城市'}}</view>
       <view wx:for="{{selectedCities}}" wx:key="*this" class="tag">
         {{item}}
         <text class="tag-remove" catchtap="removeCity" data-name="{{item}}">×</text>
@@ -188,7 +188,7 @@
     </view>
 
     <view class="form-group">
-      <view class="form-label">选择国家（多选）</view>
+      <view class="form-label">{{isCN ? '选择省份（多选）' : '选择国家（多选）'}}</view>
       <view class="country-selector">
         <view wx:if="{{manualCountries.length === 0}}" class="hint-text">加载中...</view>
         <checkbox-group wx:for="{{manualCountries}}" wx:key="*this" bindchange="toggleManualCountry" data-country="{{item}}">
@@ -201,7 +201,7 @@
     </view>
 
     <view class="form-group">
-      <view class="form-label">输入城市（逗号分隔）</view>
+      <view class="form-label">{{isCN ? '输入地点（逗号分隔）' : '输入城市（逗号分隔）'}}</view>
       <textarea
         class="form-textarea"
         placeholder="例如：卢森堡, 布鲁日, 科尔马"
@@ -247,7 +247,7 @@
   <view class="req-hint">
     <text>📍 出行地点：</text>
     <text wx:if="{{selectedCities.length > 0 || manualCities}}" class="req-hint-ok">已选择（在上方修改）</text>
-    <text wx:else class="req-hint-warn">请先在上方选择城市</text>
+    <text wx:else class="req-hint-warn">请先在上方选择{{isCN ? '地点' : '城市'}}</text>
   </view>
 
   <!-- 更多偏好（可选，默认收起） -->
