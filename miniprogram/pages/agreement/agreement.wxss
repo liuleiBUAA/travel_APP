@@ -1,0 +1,64 @@
+.ag-page {
+  padding: 32rpx 36rpx 80rpx;
+  background: #ffffff;
+  min-height: 100vh;
+}
+
+.ag-title {
+  font-size: 40rpx;
+  font-weight: 700;
+  color: #222;
+  text-align: center;
+  margin-bottom: 12rpx;
+}
+
+.ag-meta {
+  font-size: 24rpx;
+  color: #999;
+  text-align: center;
+  margin-bottom: 36rpx;
+}
+
+.ag-h {
+  font-size: 30rpx;
+  font-weight: 700;
+  color: #ff6b5c;
+  margin: 34rpx 0 14rpx;
+}
+
+.ag-p {
+  font-size: 27rpx;
+  line-height: 1.85;
+  color: #444;
+  margin-bottom: 14rpx;
+  text-align: justify;
+}
+
+.ag-li {
+  font-size: 27rpx;
+  line-height: 1.85;
+  color: #444;
+  margin: 0 0 10rpx 0;
+  padding-left: 8rpx;
+  text-align: justify;
+}
+
+.ag-strong {
+  background: #fff6f4;
+  border-left: 6rpx solid #ff6b5c;
+  padding: 18rpx 20rpx;
+  border-radius: 8rpx;
+  color: #333;
+}
+
+.ag-b {
+  font-weight: 700;
+  color: #222;
+}
+
+.ag-foot {
+  margin-top: 50rpx;
+  font-size: 24rpx;
+  color: #bbb;
+  text-align: center;
+}

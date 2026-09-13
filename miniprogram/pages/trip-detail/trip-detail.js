@@ -510,7 +510,7 @@ Page({
       confirmText: '去登录',
       success: (res) => {
         if (res.confirm) {
-          wx.switchTab({ url: '/pages/profile/profile' })
+          wx.navigateTo({ url: '/pages/login/login' })
         }
       }
     })

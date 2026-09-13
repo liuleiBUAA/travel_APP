@@ -29,7 +29,6 @@ Page({
       const u = app.globalData.userInfo
       this.setData({ isLoggedIn: true, userInfo: u, userId: u.user_id || '' })
       this.loadCard()
-      this.maybeShowProfileSetup(u)
       return
     }
     const token = wx.getStorageSync('token')
@@ -42,7 +41,6 @@ Page({
             app.globalData.userInfo = { ...res, token }
             this.setData({ isLoggedIn: true, userInfo: res, userId: res.user_id || '' })
             this._applyCard(res)
-            this.maybeShowProfileSetup(res)
           }
         }).catch(() => {
           this._checkingLogin = false
@@ -83,6 +81,8 @@ Page({
   },
 
   // 检查是否需要弹出完善资料
+  // 注意：已不在登录后自动弹出（微信审核要求不得强制索取头像昵称），
+  // 只在用户主动点「编辑资料」时打开。保留此方法供后续使用。
   maybeShowProfileSetup(userInfo) {
     if (!userInfo) return
     // 昵称是默认的"旅行者XXXX"格式，且用户还没跳过过
@@ -145,11 +145,17 @@ Page({
     }
   },
 
-  // 微信一键登录
+  // 微信一键登录 → 跳转登录页（需勾选协议后才授权）
   onPhoneLogin(e) {
-    if (app.wxLogin) {
-      app.wxLogin()
-    }
+    wx.navigateTo({ url: '/pages/login/login' })
+  },
+
+  // 协议入口
+  goService() {
+    wx.navigateTo({ url: '/pages/agreement/agreement?type=service' })
+  },
+  goPrivacy() {
+    wx.navigateTo({ url: '/pages/agreement/agreement?type=privacy' })
   },
 
   // 手动打开编辑资料弹窗

@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/login/login",
     "pages/home/home",
+    "pages/login/login",
     "pages/companion/companion",
     "pages/index/index",
     "pages/guide/guide",
@@ -13,7 +13,8 @@
     "pages/my-trips/my-trips",
     "pages/my-buddies/my-buddies",
     "pages/attraction/attraction",
-    "pages/voice-assistant/voice-assistant"
+    "pages/voice-assistant/voice-assistant",
+    "pages/agreement/agreement"
   ],
   "plugins": {
     "WechatSI": {

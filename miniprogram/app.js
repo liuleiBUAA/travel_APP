@@ -10,17 +10,16 @@ App({
   },
 
   onLaunch() {
-    // 登录门槛由启动页 pages/login 把守：
-    // 启动页校验 token，有效则进主界面，无效则停在登录页。
-    // 这里只做绑定，不再静默进入主界面。
+    // 不设登录门槛：启动直接进首页，游客可浏览攻略/搭子列表。
+    // 仅在发布行程、留言、申请交换微信等写操作时，才引导用户到 pages/login 授权登录。
     this.wxLogin = this.wxLogin.bind(this)
   },
 
-  // 退出登录后，把用户送回登录页
+  // 退出登录后回首页（不强制登录）
   logout() {
     wx.removeStorageSync('token')
     this.globalData.userInfo = null
-    wx.reLaunch({ url: '/pages/login/login' })
+    wx.reLaunch({ url: '/pages/home/home' })
   },
 
   async wxLogin() {
