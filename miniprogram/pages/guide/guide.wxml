@@ -116,7 +116,7 @@
         <view class="form-label">🔍 想去哪？</view>
         <input
           class="form-input"
-          placeholder="{{isCN ? '输入省份或地点，如：川渝、成都' : '输入国家或城市，如：法国、巴黎'}}"
+          placeholder="{{isCN ? '输入省份或地点，如：四川、成都' : '输入国家或城市，如：法国、巴黎'}}"
           value="{{pickSearchInput}}"
           bindinput="onPickSearchInput"
         />

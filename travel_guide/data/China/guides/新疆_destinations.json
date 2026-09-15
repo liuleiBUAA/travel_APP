@@ -20,8 +20,8 @@
     "itinerary": [],
     "tags": {}
   },
-  "吐鲁番": {
-    "full_title": "吐鲁番",
+  "江布拉克·奇台": {
+    "full_title": "江布拉克·奇台",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
@@ -64,13 +64,6 @@
   },
   "阿勒泰": {
     "full_title": "阿勒泰",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "江布拉克·奇台": {
-    "full_title": "江布拉克·奇台",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
@@ -204,6 +197,13 @@
   },
   "泽普金湖杨": {
     "full_title": "泽普金湖杨",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "吐鲁番": {
+    "full_title": "吐鲁番",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],

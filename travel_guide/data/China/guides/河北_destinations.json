@@ -1,39 +1,4 @@
 {
-  "北京": {
-    "full_title": "北京",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "慕田峪长城": {
-    "full_title": "慕田峪长城",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "古北水镇": {
-    "full_title": "古北水镇",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "箭扣长城": {
-    "full_title": "箭扣长城",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "天津": {
-    "full_title": "天津",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
   "承德避暑山庄": {
     "full_title": "承德避暑山庄",
     "best_season": "",

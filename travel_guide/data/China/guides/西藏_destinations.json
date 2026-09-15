@@ -6,6 +6,27 @@
     "itinerary": [],
     "tags": {}
   },
+  "纳木错": {
+    "full_title": "纳木错",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "羊卓雍措": {
+    "full_title": "羊卓雍措",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "山南": {
+    "full_title": "山南",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
   "林芝": {
     "full_title": "林芝",
     "best_season": "",
@@ -62,6 +83,13 @@
     "itinerary": [],
     "tags": {}
   },
+  "昌都": {
+    "full_title": "昌都",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
   "日喀则": {
     "full_title": "日喀则",
     "best_season": "",
@@ -83,34 +111,6 @@
     "itinerary": [],
     "tags": {}
   },
-  "纳木错": {
-    "full_title": "纳木错",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "羊卓雍措": {
-    "full_title": "羊卓雍措",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "山南": {
-    "full_title": "山南",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "色林错": {
-    "full_title": "色林错",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
   "那曲": {
     "full_title": "那曲",
     "best_season": "",
@@ -118,8 +118,8 @@
     "itinerary": [],
     "tags": {}
   },
-  "昌都": {
-    "full_title": "昌都",
+  "色林错": {
+    "full_title": "色林错",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],

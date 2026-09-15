@@ -1,90 +1,76 @@
 {
-  "济南": {
-    "full_title": "济南",
+  "西宁": {
+    "full_title": "西宁",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "青岛": {
-    "full_title": "青岛",
+  "塔尔寺": {
+    "full_title": "塔尔寺",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "崂山": {
-    "full_title": "崂山",
+  "门源油菜花": {
+    "full_title": "门源油菜花",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "威海·刘公岛": {
-    "full_title": "威海·刘公岛",
+  "祁连·卓尔山": {
+    "full_title": "祁连·卓尔山",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "蓬莱·烟台": {
-    "full_title": "蓬莱·烟台",
+  "阿咪东索": {
+    "full_title": "阿咪东索",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "荣成天鹅湖": {
-    "full_title": "荣成天鹅湖",
+  "青海湖": {
+    "full_title": "青海湖",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "日照": {
-    "full_title": "日照",
+  "茶卡盐湖": {
+    "full_title": "茶卡盐湖",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "泰山": {
-    "full_title": "泰山",
+  "翡翠湖·大柴旦": {
+    "full_title": "翡翠湖·大柴旦",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "淄博": {
-    "full_title": "淄博",
+  "察尔汗盐湖": {
+    "full_title": "察尔汗盐湖",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "沂蒙山": {
-    "full_title": "沂蒙山",
+  "格尔木": {
+    "full_title": "格尔木",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "曲阜三孔": {
-    "full_title": "曲阜三孔",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "台儿庄古城": {
-    "full_title": "台儿庄古城",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "微山湖": {
-    "full_title": "微山湖",
+  "冷湖·火星营地": {
+    "full_title": "冷湖·火星营地",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],

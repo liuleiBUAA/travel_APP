@@ -1,139 +1,132 @@
 {
-  "张家界": {
-    "full_title": "张家界",
+  "成都": {
+    "full_title": "成都",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "天门山": {
-    "full_title": "天门山",
+  "都江堰·青城山": {
+    "full_title": "都江堰·青城山",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "袁家界": {
-    "full_title": "袁家界",
+  "乐山大佛": {
+    "full_title": "乐山大佛",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "凤凰古城": {
-    "full_title": "凤凰古城",
+  "峨眉山": {
+    "full_title": "峨眉山",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "芙蓉镇": {
-    "full_title": "芙蓉镇",
+  "阆中古城": {
+    "full_title": "阆中古城",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "矮寨大桥": {
-    "full_title": "矮寨大桥",
+  "剑门关·广元": {
+    "full_title": "剑门关·广元",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "长沙": {
-    "full_title": "长沙",
+  "宜宾蜀南竹海": {
+    "full_title": "宜宾蜀南竹海",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "南岳衡山": {
-    "full_title": "南岳衡山",
+  "自贡": {
+    "full_title": "自贡",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "崀山": {
-    "full_title": "崀山",
+  "九寨沟": {
+    "full_title": "九寨沟",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "岳阳楼·洞庭湖": {
-    "full_title": "岳阳楼·洞庭湖",
+  "黄龙": {
+    "full_title": "黄龙",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "韶山": {
-    "full_title": "韶山",
+  "若尔盖草原": {
+    "full_title": "若尔盖草原",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "武汉": {
-    "full_title": "武汉",
+  "四姑娘山": {
+    "full_title": "四姑娘山",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "黄鹤楼": {
-    "full_title": "黄鹤楼",
+  "毕棚沟·理县": {
+    "full_title": "毕棚沟·理县",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "荆州古城": {
-    "full_title": "荆州古城",
+  "丹巴甲居藏寨": {
+    "full_title": "丹巴甲居藏寨",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "襄阳古城": {
-    "full_title": "襄阳古城",
+  "色达": {
+    "full_title": "色达",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "恩施大峡谷": {
-    "full_title": "恩施大峡谷",
+  "稻城亚丁": {
+    "full_title": "稻城亚丁",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "清江画廊": {
-    "full_title": "清江画廊",
+  "新都桥": {
+    "full_title": "新都桥",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "神农架": {
-    "full_title": "神农架",
+  "海螺沟": {
+    "full_title": "海螺沟",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "三峡大坝·宜昌": {
-    "full_title": "三峡大坝·宜昌",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "武当山": {
-    "full_title": "武当山",
+  "康定·塔公草原": {
+    "full_title": "康定·塔公草原",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],

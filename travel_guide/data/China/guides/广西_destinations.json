@@ -1,4 +1,11 @@
 {
+  "南宁": {
+    "full_title": "南宁",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
   "桂林": {
     "full_title": "桂林",
     "best_season": "",
@@ -64,13 +71,6 @@
   },
   "钦州三娘湾": {
     "full_title": "钦州三娘湾",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "南宁": {
-    "full_title": "南宁",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],

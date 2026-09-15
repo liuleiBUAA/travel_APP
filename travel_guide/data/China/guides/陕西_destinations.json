@@ -1,104 +1,83 @@
 {
-  "广州": {
-    "full_title": "广州",
+  "西安": {
+    "full_title": "西安",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "深圳": {
-    "full_title": "深圳",
+  "兵马俑": {
+    "full_title": "兵马俑",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "珠海": {
-    "full_title": "珠海",
+  "华山": {
+    "full_title": "华山",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "潮州": {
-    "full_title": "潮州",
+  "法门寺·宝鸡": {
+    "full_title": "法门寺·宝鸡",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "汕头南澳岛": {
-    "full_title": "汕头南澳岛",
+  "乾陵": {
+    "full_title": "乾陵",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "揭阳": {
-    "full_title": "揭阳",
+  "太白山": {
+    "full_title": "太白山",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "海陵岛·阳江": {
-    "full_title": "海陵岛·阳江",
+  "延安": {
+    "full_title": "延安",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "双月湾·惠州": {
-    "full_title": "双月湾·惠州",
+  "壶口瀑布": {
+    "full_title": "壶口瀑布",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "湛江": {
-    "full_title": "湛江",
+  "靖边波浪谷": {
+    "full_title": "靖边波浪谷",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "茂名浪漫海岸": {
-    "full_title": "茂名浪漫海岸",
+  "榆林": {
+    "full_title": "榆林",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "丹霞山·韶关": {
-    "full_title": "丹霞山·韶关",
+  "汉中": {
+    "full_title": "汉中",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "开平碉楼": {
-    "full_title": "开平碉楼",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "南昆山": {
-    "full_title": "南昆山",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "香港": {
-    "full_title": "香港",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "澳门": {
-    "full_title": "澳门",
+  "华阳古镇": {
+    "full_title": "华阳古镇",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],

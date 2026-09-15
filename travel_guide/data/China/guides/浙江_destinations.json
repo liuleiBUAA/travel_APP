@@ -1,25 +1,4 @@
 {
-  "上海": {
-    "full_title": "上海",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "朱家角": {
-    "full_title": "朱家角",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "佘山": {
-    "full_title": "佘山",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
   "杭州西湖": {
     "full_title": "杭州西湖",
     "best_season": "",
@@ -104,6 +83,13 @@
     "itinerary": [],
     "tags": {}
   },
+  "温州": {
+    "full_title": "温州",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
   "雁荡山": {
     "full_title": "雁荡山",
     "best_season": "",
@@ -120,76 +106,6 @@
   },
   "缙云仙都": {
     "full_title": "缙云仙都",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "温州": {
-    "full_title": "温州",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "南京": {
-    "full_title": "南京",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "苏州": {
-    "full_title": "苏州",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "周庄": {
-    "full_title": "周庄",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "同里": {
-    "full_title": "同里",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "无锡鼋头渚": {
-    "full_title": "无锡鼋头渚",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "常州": {
-    "full_title": "常州",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "扬州瘦西湖": {
-    "full_title": "扬州瘦西湖",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "镇江": {
-    "full_title": "镇江",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "南通": {
-    "full_title": "南通",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],

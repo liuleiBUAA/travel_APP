@@ -1,4 +1,11 @@
 {
+  "海口": {
+    "full_title": "海口",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
   "三亚": {
     "full_title": "三亚",
     "best_season": "",
@@ -50,13 +57,6 @@
   },
   "文昌": {
     "full_title": "文昌",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "海口": {
-    "full_title": "海口",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],

@@ -1,76 +1,62 @@
 {
-  "郑州": {
-    "full_title": "郑州",
+  "武汉": {
+    "full_title": "武汉",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "开封": {
-    "full_title": "开封",
+  "黄鹤楼": {
+    "full_title": "黄鹤楼",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "洛阳龙门石窟": {
-    "full_title": "洛阳龙门石窟",
+  "荆州古城": {
+    "full_title": "荆州古城",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "老君山": {
-    "full_title": "老君山",
+  "襄阳古城": {
+    "full_title": "襄阳古城",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "嵩山少林寺": {
-    "full_title": "嵩山少林寺",
+  "武当山": {
+    "full_title": "武当山",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "云台山": {
-    "full_title": "云台山",
+  "恩施大峡谷": {
+    "full_title": "恩施大峡谷",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "郭亮村·万仙山": {
-    "full_title": "郭亮村·万仙山",
+  "清江画廊": {
+    "full_title": "清江画廊",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "龙潭大峡谷": {
-    "full_title": "龙潭大峡谷",
+  "神农架": {
+    "full_title": "神农架",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "尧山": {
-    "full_title": "尧山",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "安阳殷墟": {
-    "full_title": "安阳殷墟",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "鸡公山·信阳": {
-    "full_title": "鸡公山·信阳",
+  "三峡大坝·宜昌": {
+    "full_title": "三峡大坝·宜昌",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
