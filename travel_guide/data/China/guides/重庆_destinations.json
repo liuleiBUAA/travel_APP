@@ -6,41 +6,6 @@
     "itinerary": [],
     "tags": {}
   },
-  "武隆天生三桥": {
-    "full_title": "武隆天生三桥",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "大足石刻": {
-    "full_title": "大足石刻",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "金佛山": {
-    "full_title": "金佛山",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "龚滩古镇·酉阳": {
-    "full_title": "龚滩古镇·酉阳",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "长江三峡·巫山": {
-    "full_title": "长江三峡·巫山",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
   "洪崖洞": {
     "full_title": "洪崖洞",
     "best_season": "",
@@ -55,15 +20,8 @@
     "itinerary": [],
     "tags": {}
   },
-  "磁器口": {
-    "full_title": "磁器口",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "李子坝·轻轨穿楼": {
-    "full_title": "李子坝·轻轨穿楼",
+  "李子坝轻轨穿楼": {
+    "full_title": "李子坝轻轨穿楼",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
@@ -76,43 +34,722 @@
     "itinerary": [],
     "tags": {}
   },
-  "南山一棵树": {
-    "full_title": "南山一棵树",
+  "十八梯": {
+    "full_title": "十八梯",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "仙女山·武隆": {
-    "full_title": "仙女山·武隆",
+  "山城巷": {
+    "full_title": "山城巷",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "黑山谷·万盛": {
-    "full_title": "黑山谷·万盛",
+  "湖广会馆": {
+    "full_title": "湖广会馆",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "四面山·江津": {
-    "full_title": "四面山·江津",
+  "长江索道": {
+    "full_title": "长江索道",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "阿依河·彭水": {
-    "full_title": "阿依河·彭水",
+  "观音桥": {
+    "full_title": "观音桥",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "濯水古镇·黔江": {
-    "full_title": "濯水古镇·黔江",
+  "江北嘴中央公园·大剧院": {
+    "full_title": "江北嘴中央公园·大剧院",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "重庆科技馆": {
+    "full_title": "重庆科技馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "鸿恩寺森林公园": {
+    "full_title": "鸿恩寺森林公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "铁山坪森林公园": {
+    "full_title": "铁山坪森林公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "南山一棵树观景台": {
+    "full_title": "南山一棵树观景台",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "南山植物园": {
+    "full_title": "南山植物园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "弹子石老街": {
+    "full_title": "弹子石老街",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "龙门浩老街": {
+    "full_title": "龙门浩老街",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "重庆抗战遗址博物馆": {
+    "full_title": "重庆抗战遗址博物馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "涂山寺": {
+    "full_title": "涂山寺",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "磁器口古镇": {
+    "full_title": "磁器口古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "白公馆·渣滓洞": {
+    "full_title": "白公馆·渣滓洞",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "歌乐山森林公园": {
+    "full_title": "歌乐山森林公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "重庆大学老校区": {
+    "full_title": "重庆大学老校区",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "黄桷坪涂鸦街": {
+    "full_title": "黄桷坪涂鸦街",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "建川博物馆聚落": {
+    "full_title": "建川博物馆聚落",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "华岩寺": {
+    "full_title": "华岩寺",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "重庆动物园": {
+    "full_title": "重庆动物园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "彩云湖湿地": {
+    "full_title": "彩云湖湿地",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "照母山森林公园": {
+    "full_title": "照母山森林公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "重庆中央公园": {
+    "full_title": "重庆中央公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "龙兴古镇": {
+    "full_title": "龙兴古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "两江国际影视城": {
+    "full_title": "两江国际影视城",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "统景温泉": {
+    "full_title": "统景温泉",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "重庆园博园": {
+    "full_title": "重庆园博园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "重庆工业博物馆": {
+    "full_title": "重庆工业博物馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "马桑溪古镇": {
+    "full_title": "马桑溪古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "中华美德公园": {
+    "full_title": "中华美德公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "缙云山": {
+    "full_title": "缙云山",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "金刀峡": {
+    "full_title": "金刀峡",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "北温泉公园": {
+    "full_title": "北温泉公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "偏岩古镇": {
+    "full_title": "偏岩古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "丰盛古镇": {
+    "full_title": "丰盛古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "东温泉": {
+    "full_title": "东温泉",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "南温泉": {
+    "full_title": "南温泉",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "圣灯山": {
+    "full_title": "圣灯山",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "汉海海洋公园": {
+    "full_title": "汉海海洋公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "天生三桥": {
+    "full_title": "天生三桥",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "仙女山": {
+    "full_title": "仙女山",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "芙蓉洞": {
+    "full_title": "芙蓉洞",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "龙水峡地缝": {
+    "full_title": "龙水峡地缝",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "白马山": {
+    "full_title": "白马山",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "大足石刻": {
+    "full_title": "大足石刻",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "龙水湖": {
+    "full_title": "龙水湖",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "玉龙山": {
+    "full_title": "玉龙山",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "昌州古城": {
+    "full_title": "昌州古城",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "四面山": {
+    "full_title": "四面山",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "中山古镇": {
+    "full_title": "中山古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "白沙古镇": {
+    "full_title": "白沙古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "黑山谷": {
+    "full_title": "黑山谷",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "龙鳞石海": {
+    "full_title": "龙鳞石海",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "奥陶纪主题公园": {
+    "full_title": "奥陶纪主题公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "板辽金沙滩": {
+    "full_title": "板辽金沙滩",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "金佛山": {
+    "full_title": "金佛山",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "山王坪": {
+    "full_title": "山王坪",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "神龙峡": {
+    "full_title": "神龙峡",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "黎香湖": {
+    "full_title": "黎香湖",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "阿依河": {
+    "full_title": "阿依河",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "蚩尤九黎城": {
+    "full_title": "蚩尤九黎城",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "摩围山": {
+    "full_title": "摩围山",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "乌江画廊": {
+    "full_title": "乌江画廊",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "濯水古镇": {
+    "full_title": "濯水古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "蒲花暗河": {
+    "full_title": "蒲花暗河",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "阿蓬江神龟峡": {
+    "full_title": "阿蓬江神龟峡",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "小南海": {
+    "full_title": "小南海",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "龚滩古镇": {
+    "full_title": "龚滩古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "酉阳桃花源": {
+    "full_title": "酉阳桃花源",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "龙潭古镇": {
+    "full_title": "龙潭古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "叠石花谷": {
+    "full_title": "叠石花谷",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "巫山小三峡": {
+    "full_title": "巫山小三峡",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "神女峰·神女天路": {
+    "full_title": "神女峰·神女天路",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "文峰观": {
+    "full_title": "文峰观",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "当阳大峡谷": {
+    "full_title": "当阳大峡谷",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "白帝城·瞿塘峡": {
+    "full_title": "白帝城·瞿塘峡",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "小寨天坑": {
+    "full_title": "小寨天坑",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "天井峡地缝": {
+    "full_title": "天井峡地缝",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "三峡之巅": {
+    "full_title": "三峡之巅",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "白鹤梁水下博物馆": {
+    "full_title": "白鹤梁水下博物馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "武陵山大裂谷": {
+    "full_title": "武陵山大裂谷",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "816地下核工程": {
+    "full_title": "816地下核工程",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "大木花谷": {
+    "full_title": "大木花谷",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "松溉古镇": {
+    "full_title": "松溉古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "茶山竹海": {
+    "full_title": "茶山竹海",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "乐和乐都": {
+    "full_title": "乐和乐都",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "钓鱼城": {
+    "full_title": "钓鱼城",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "涞滩古镇": {
+    "full_title": "涞滩古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "龙多山": {
+    "full_title": "龙多山",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "黄水国家森林公园": {
+    "full_title": "黄水国家森林公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "千野草场": {
+    "full_title": "千野草场",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "毕兹卡绿宫": {
+    "full_title": "毕兹卡绿宫",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "丰都名山": {
+    "full_title": "丰都名山",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "南天湖": {
+    "full_title": "南天湖",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "雪玉洞": {
+    "full_title": "雪玉洞",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "龙缸·云端廊桥": {
+    "full_title": "龙缸·云端廊桥",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "张飞庙": {
+    "full_title": "张飞庙",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "长寿湖": {
+    "full_title": "长寿湖",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "长寿古镇": {
+    "full_title": "长寿古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "菩提古镇": {
+    "full_title": "菩提古镇",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],

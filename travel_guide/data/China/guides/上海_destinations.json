@@ -6,29 +6,8 @@
     "itinerary": [],
     "tags": {}
   },
-  "朱家角": {
-    "full_title": "朱家角",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "佘山": {
-    "full_title": "佘山",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
   "外滩": {
     "full_title": "外滩",
-    "best_season": "",
-    "recommended_days": 0,
-    "itinerary": [],
-    "tags": {}
-  },
-  "陆家嘴": {
-    "full_title": "陆家嘴",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
@@ -41,15 +20,43 @@
     "itinerary": [],
     "tags": {}
   },
-  "南京路·人民广场": {
-    "full_title": "南京路·人民广场",
+  "新天地": {
+    "full_title": "新天地",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "新天地·田子坊": {
-    "full_title": "新天地·田子坊",
+  "田子坊": {
+    "full_title": "田子坊",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "思南公馆": {
+    "full_title": "思南公馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "上海博物馆": {
+    "full_title": "上海博物馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "南京路步行街": {
+    "full_title": "南京路步行街",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "中共一大会址": {
+    "full_title": "中共一大会址",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
@@ -62,36 +69,253 @@
     "itinerary": [],
     "tags": {}
   },
-  "上海迪士尼度假区": {
-    "full_title": "上海迪士尼度假区",
+  "龙华寺": {
+    "full_title": "龙华寺",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "上海博物馆·天文馆": {
-    "full_title": "上海博物馆·天文馆",
+  "西岸·龙美术馆": {
+    "full_title": "西岸·龙美术馆",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "崇明岛": {
-    "full_title": "崇明岛",
+  "油罐艺术中心": {
+    "full_title": "油罐艺术中心",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "临港·滴水湖": {
-    "full_title": "临港·滴水湖",
+  "上海植物园": {
+    "full_title": "上海植物园",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
   },
-  "松江广富林": {
-    "full_title": "松江广富林",
+  "徐家汇书院": {
+    "full_title": "徐家汇书院",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "宋庆龄故居": {
+    "full_title": "宋庆龄故居",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "上海动物园": {
+    "full_title": "上海动物园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "中山公园": {
+    "full_title": "中山公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "愚园路风貌街区": {
+    "full_title": "愚园路风貌街区",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "新华路老洋房": {
+    "full_title": "新华路老洋房",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "刘海粟美术馆": {
+    "full_title": "刘海粟美术馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "静安寺": {
+    "full_title": "静安寺",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "玉佛禅寺": {
+    "full_title": "玉佛禅寺",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "南京西路风貌区": {
+    "full_title": "南京西路风貌区",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "上海自然博物馆": {
+    "full_title": "上海自然博物馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "静安雕塑公园": {
+    "full_title": "静安雕塑公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "张园": {
+    "full_title": "张园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "四行仓库抗战纪念馆": {
+    "full_title": "四行仓库抗战纪念馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "M50创意园": {
+    "full_title": "M50创意园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "长风公园": {
+    "full_title": "长风公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "苏州河普陀段步道": {
+    "full_title": "苏州河普陀段步道",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "真如寺": {
+    "full_title": "真如寺",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "桃浦中央绿地": {
+    "full_title": "桃浦中央绿地",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "外白渡桥": {
+    "full_title": "外白渡桥",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "多伦路文化名人街": {
+    "full_title": "多伦路文化名人街",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "鲁迅公园·鲁迅故居": {
+    "full_title": "鲁迅公园·鲁迅故居",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "1933老场坊": {
+    "full_title": "1933老场坊",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "犹太难民纪念馆": {
+    "full_title": "犹太难民纪念馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "北外滩滨江": {
+    "full_title": "北外滩滨江",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "上海邮政博物馆": {
+    "full_title": "上海邮政博物馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "杨浦滨江·绿之丘": {
+    "full_title": "杨浦滨江·绿之丘",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "复旦大学校园": {
+    "full_title": "复旦大学校园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "同济大学校园": {
+    "full_title": "同济大学校园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "共青国家森林公园": {
+    "full_title": "共青国家森林公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "上海国际时尚中心": {
+    "full_title": "上海国际时尚中心",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "江湾体育场": {
+    "full_title": "江湾体育场",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],
@@ -99,6 +323,405 @@
   },
   "七宝老街": {
     "full_title": "七宝老街",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "召稼楼古镇": {
+    "full_title": "召稼楼古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "闵行体育公园": {
+    "full_title": "闵行体育公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "锦江乐园": {
+    "full_title": "锦江乐园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "交大闵行樱花大道": {
+    "full_title": "交大闵行樱花大道",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "韩湘水博园": {
+    "full_title": "韩湘水博园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "吴淞炮台湾湿地公园": {
+    "full_title": "吴淞炮台湾湿地公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "上海玻璃博物馆": {
+    "full_title": "上海玻璃博物馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "顾村公园": {
+    "full_title": "顾村公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "宝山寺": {
+    "full_title": "宝山寺",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "淞沪抗战纪念馆": {
+    "full_title": "淞沪抗战纪念馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "罗店古镇": {
+    "full_title": "罗店古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "嘉定古城·州桥老街": {
+    "full_title": "嘉定古城·州桥老街",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "嘉定孔庙": {
+    "full_title": "嘉定孔庙",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "秋霞圃": {
+    "full_title": "秋霞圃",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "古猗园·南翔": {
+    "full_title": "古猗园·南翔",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "上海汽车博物馆·安亭": {
+    "full_title": "上海汽车博物馆·安亭",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "上海国际赛车场": {
+    "full_title": "上海国际赛车场",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "上海迪士尼度假区": {
+    "full_title": "上海迪士尼度假区",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "东方明珠": {
+    "full_title": "东方明珠",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "上海中心大厦观光厅": {
+    "full_title": "上海中心大厦观光厅",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "上海海洋水族馆": {
+    "full_title": "上海海洋水族馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "上海科技馆": {
+    "full_title": "上海科技馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "上海天文馆·临港": {
+    "full_title": "上海天文馆·临港",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "滴水湖": {
+    "full_title": "滴水湖",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "上海野生动物园": {
+    "full_title": "上海野生动物园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "陆家嘴滨江·浦东美术馆": {
+    "full_title": "陆家嘴滨江·浦东美术馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "新场古镇": {
+    "full_title": "新场古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "金山城市沙滩": {
+    "full_title": "金山城市沙滩",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "金山三岛": {
+    "full_title": "金山三岛",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "枫泾古镇": {
+    "full_title": "枫泾古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "中国农民画村": {
+    "full_title": "中国农民画村",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "廊下郊野公园": {
+    "full_title": "廊下郊野公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "佘山国家森林公园": {
+    "full_title": "佘山国家森林公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "深坑酒店": {
+    "full_title": "深坑酒店",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "广富林文化遗址": {
+    "full_title": "广富林文化遗址",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "醉白池": {
+    "full_title": "醉白池",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "方塔园": {
+    "full_title": "方塔园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "上海欢乐谷": {
+    "full_title": "上海欢乐谷",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "辰山植物园": {
+    "full_title": "辰山植物园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "泰晤士小镇": {
+    "full_title": "泰晤士小镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "朱家角古镇": {
+    "full_title": "朱家角古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "金泽古镇": {
+    "full_title": "金泽古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "练塘古镇": {
+    "full_title": "练塘古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "青浦大观园": {
+    "full_title": "青浦大观园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "东方绿舟": {
+    "full_title": "东方绿舟",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "淀山湖": {
+    "full_title": "淀山湖",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "青西郊野公园": {
+    "full_title": "青西郊野公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "碧海金沙": {
+    "full_title": "碧海金沙",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "海湾国家森林公园": {
+    "full_title": "海湾国家森林公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "上海之鱼·九棵树": {
+    "full_title": "上海之鱼·九棵树",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "庄行古镇": {
+    "full_title": "庄行古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "申隆生态园": {
+    "full_title": "申隆生态园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "崇明东滩湿地": {
+    "full_title": "崇明东滩湿地",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "东平国家森林公园": {
+    "full_title": "东平国家森林公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "西沙湿地·明珠湖": {
+    "full_title": "西沙湿地·明珠湖",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "长兴岛郊野公园": {
+    "full_title": "长兴岛郊野公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "瀛东村": {
+    "full_title": "瀛东村",
     "best_season": "",
     "recommended_days": 0,
     "itinerary": [],

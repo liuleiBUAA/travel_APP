@@ -131,5 +131,628 @@
     "recommended_days": 0,
     "itinerary": [],
     "tags": {}
+  },
+  "春熙路·太古里": {
+    "full_title": "春熙路·太古里",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "大慈寺": {
+    "full_title": "大慈寺",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "望江楼公园": {
+    "full_title": "望江楼公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "三圣花乡": {
+    "full_title": "三圣花乡",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "白鹭湾湿地": {
+    "full_title": "白鹭湾湿地",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "宽窄巷子": {
+    "full_title": "宽窄巷子",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "杜甫草堂": {
+    "full_title": "杜甫草堂",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "金沙遗址博物馆": {
+    "full_title": "金沙遗址博物馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "文殊院": {
+    "full_title": "文殊院",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "青羊宫": {
+    "full_title": "青羊宫",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "人民公园·鹤鸣茶社": {
+    "full_title": "人民公园·鹤鸣茶社",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "四川博物院": {
+    "full_title": "四川博物院",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "浣花溪公园": {
+    "full_title": "浣花溪公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "成都欢乐谷": {
+    "full_title": "成都欢乐谷",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "露天音乐公园": {
+    "full_title": "露天音乐公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "成都永陵博物馆": {
+    "full_title": "成都永陵博物馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "天府艺术公园": {
+    "full_title": "天府艺术公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "武侯祠博物馆": {
+    "full_title": "武侯祠博物馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "锦里古街": {
+    "full_title": "锦里古街",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "铁像寺水街": {
+    "full_title": "铁像寺水街",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "天府芙蓉园": {
+    "full_title": "天府芙蓉园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "成都大熊猫繁育研究基地": {
+    "full_title": "成都大熊猫繁育研究基地",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "东郊记忆": {
+    "full_title": "东郊记忆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "昭觉寺": {
+    "full_title": "昭觉寺",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "成都动物园": {
+    "full_title": "成都动物园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "成都自然博物馆": {
+    "full_title": "成都自然博物馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "洛带古镇": {
+    "full_title": "洛带古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "龙泉山丹景台": {
+    "full_title": "龙泉山丹景台",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "桃花故里": {
+    "full_title": "桃花故里",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "明蜀王陵": {
+    "full_title": "明蜀王陵",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "凤凰湖景区": {
+    "full_title": "凤凰湖景区",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "城厢天府文化古镇": {
+    "full_title": "城厢天府文化古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "福洪杏花村": {
+    "full_title": "福洪杏花村",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "宝光寺": {
+    "full_title": "宝光寺",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "升庵桂湖公园": {
+    "full_title": "升庵桂湖公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "漫花庄园": {
+    "full_title": "漫花庄园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "天府沸腾小镇": {
+    "full_title": "天府沸腾小镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "国色天香乐园": {
+    "full_title": "国色天香乐园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "幸福田园": {
+    "full_title": "幸福田园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "鲁家滩湿地": {
+    "full_title": "鲁家滩湿地",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "陈家桅杆": {
+    "full_title": "陈家桅杆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "黄龙溪古镇": {
+    "full_title": "黄龙溪古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "棠湖公园": {
+    "full_title": "棠湖公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "空港中央公园": {
+    "full_title": "空港中央公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "永安湖森林公园": {
+    "full_title": "永安湖森林公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "三道堰古镇": {
+    "full_title": "三道堰古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "农科村": {
+    "full_title": "农科村",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "战旗村": {
+    "full_title": "战旗村",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "望丛祠": {
+    "full_title": "望丛祠",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "川菜博物馆": {
+    "full_title": "川菜博物馆",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "花舞人间": {
+    "full_title": "花舞人间",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "新津老君山": {
+    "full_title": "新津老君山",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "观音寺明代壁画": {
+    "full_title": "观音寺明代壁画",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "白鹤滩湿地": {
+    "full_title": "白鹤滩湿地",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "斑竹林": {
+    "full_title": "斑竹林",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "都江堰水利工程": {
+    "full_title": "都江堰水利工程",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "青城山": {
+    "full_title": "青城山",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "灌县古城": {
+    "full_title": "灌县古城",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "虹口漂流": {
+    "full_title": "虹口漂流",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "熊猫谷": {
+    "full_title": "熊猫谷",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "龙池森林公园": {
+    "full_title": "龙池森林公园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "白鹿镇": {
+    "full_title": "白鹿镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "龙门山银厂沟": {
+    "full_title": "龙门山银厂沟",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "丹景山": {
+    "full_title": "丹景山",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "九峰山": {
+    "full_title": "九峰山",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "平乐古镇": {
+    "full_title": "平乐古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "邛崃天台山": {
+    "full_title": "邛崃天台山",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "竹溪湖": {
+    "full_title": "竹溪湖",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "石笋山": {
+    "full_title": "石笋山",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "街子古镇": {
+    "full_title": "街子古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "元通古镇": {
+    "full_title": "元通古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "鸡冠山": {
+    "full_title": "鸡冠山",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "罨画池": {
+    "full_title": "罨画池",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "道明竹艺村": {
+    "full_title": "道明竹艺村",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "五凤溪古镇": {
+    "full_title": "五凤溪古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "云顶石城·慈云寺": {
+    "full_title": "云顶石城·慈云寺",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "栖贤桃花沟": {
+    "full_title": "栖贤桃花沟",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "西岭雪山": {
+    "full_title": "西岭雪山",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "安仁古镇·刘氏庄园": {
+    "full_title": "安仁古镇·刘氏庄园",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "新场古镇": {
+    "full_title": "新场古镇",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "花水湾温泉": {
+    "full_title": "花水湾温泉",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "鹤鸣山": {
+    "full_title": "鹤鸣山",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "明月村": {
+    "full_title": "明月村",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "朝阳湖": {
+    "full_title": "朝阳湖",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "石象湖": {
+    "full_title": "石象湖",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "成佳茶乡": {
+    "full_title": "成佳茶乡",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "三岔湖": {
+    "full_title": "三岔湖",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "龙泉湖": {
+    "full_title": "龙泉湖",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
+  },
+  "石桥老街": {
+    "full_title": "石桥老街",
+    "best_season": "",
+    "recommended_days": 0,
+    "itinerary": [],
+    "tags": {}
   }
 }
