@@ -149,10 +149,10 @@
   color: rgba(255, 255, 255, 0.9);
 }
 
+/* 协议超链接：微信/淘宝同款蓝色文字，无下划线 */
 .agree-link {
-  color: #fff;
+  color: #66B3FF;
   font-weight: 600;
-  text-decoration: underline;
 }
 
 .login-skip {
